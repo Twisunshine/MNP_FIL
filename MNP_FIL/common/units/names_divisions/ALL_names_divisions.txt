@@ -1,0 +1,217 @@
+﻿ALL_Inf_01 =
+{
+	name = "步兵师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. 步兵师"
+
+	ordered =
+	{
+		1 = { "%d. 步兵师" }
+		2 = { "%d. 步兵师" }
+		3 = { "%d. 步兵师" }
+		4 = { "%d. 步兵师" }
+		5 = { "%d. 步兵师" }
+		6 = { "%d. 步兵师" }
+		7 = { "%d. 步兵师" }
+		8 = { "%d. 步兵师" }
+		9 = { "%d. 步兵师" }
+		10 = { "%d. 步兵师" }
+	}
+}
+
+ALL_MOT_01 =
+{
+	name = "摩托化步兵师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d. 摩托化步兵师"
+
+	ordered =
+	{
+		1 = { "%d. 摩托化步兵师" }
+		2 = { "%d. 摩托化步兵师" }
+		3 = { "%d. 摩托化步兵师" }
+		4 = { "%d. 摩托化步兵师" }
+		5 = { "%d. 摩托化步兵师" }
+		6 = { "%d. 摩托化步兵师" }
+		7 = { "%d. 摩托化步兵师" }
+		8 = { "%d. 摩托化步兵师" }
+		9 = { "%d. 摩托化步兵师" }
+		10 = { "%d. 摩托化步兵师" }
+	}
+}
+
+ALL_MEC_01 =
+{
+	name = "装甲掷弹师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	fallback_name = "%d. 装甲掷弹师"
+
+	ordered =
+	{
+		1 = { "%d. 摩托化步兵师" }
+		2 = { "%d. 摩托化步兵师" }
+		3 = { "%d. 摩托化步兵师" }
+		4 = { "%d. 摩托化步兵师" }
+		5 = { "%d. 摩托化步兵师" }
+		6 = { "%d. 摩托化步兵师" }
+		7 = { "%d. 摩托化步兵师" }
+		8 = { "%d. 摩托化步兵师" }
+		9 = { "%d. 摩托化步兵师" }
+		10 = { "%d. 摩托化步兵师" }
+	}
+}
+
+ALL_Mnt_01 =
+{
+	name = "山地师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d. 山地师"
+
+	ordered =
+	{
+		1 = { "%d. 山地师" }
+		2 = { "%d. 山地师" }
+		3 = { "%d. 山地师" }
+		4 = { "%d. 山地师" }
+		5 = { "%d. 山地师" }
+		6 = { "%d. 山地师" }
+		7 = { "%d. 山地师" }
+		8 = { "%d. 山地师" }
+		9 = { "%d. 山地师" }
+		10 = { "%d. 山地师" }
+	}
+}
+
+ALL_MAR_01 =
+{
+	name = "海军陆战队"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "marine"  }
+
+	fallback_name = "%d. 海军陆战队"
+
+	ordered =
+	{
+		1 = { "%d. 海军陆战队" }
+		2 = { "%d. 海军陆战队" }
+		3 = { "%d. 海军陆战队" }
+		4 = { "%d. 海军陆战队" }
+		5 = { "%d. 海军陆战队" }
+		6 = { "%d. 海军陆战队" }
+		7 = { "%d. 海军陆战队" }
+		8 = { "%d. 海军陆战队" }
+		9 = { "%d. 海军陆战队" }
+		10 = { "%d. 海军陆战队" }
+	}
+}
+
+ALL_PAR_01 =
+{
+	name = "伞兵师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper"  }
+
+	fallback_name = "%d. 伞兵师"
+
+	ordered =
+	{
+		1 = { "%d. 伞兵师" }
+		2 = { "%d. 伞兵师" }
+		3 = { "%d. 伞兵师" }
+		4 = { "%d. 伞兵师" }
+		5 = { "%d. 伞兵师" }
+		6 = { "%d. 伞兵师" }
+		7 = { "%d. 伞兵师" }
+		8 = { "%d. 伞兵师" }
+		9 = { "%d. 伞兵师" }
+		10 = { "%d. 伞兵师" }
+	}
+}
+
+ALL_Arm_01 =
+{
+	name = "装甲师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. 装甲师"
+
+	ordered =
+	{
+		1 = { "%d. 装甲师" }
+		2 = { "%d. 装甲师" }
+		3 = { "%d. 装甲师" }
+		4 = { "%d. 装甲师" }
+		5 = { "%d. 装甲师" }
+		6 = { "%d. 装甲师" }
+		7 = { "%d. 装甲师" }
+		8 = { "%d. 装甲师" }
+		9 = { "%d. 装甲师" }
+		10 = { "%d. 装甲师" }
+	}
+}
+
+ALL_Cav_01 =
+{
+	name = "骑兵师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d. 骑兵师"
+
+	ordered =
+	{
+		1 = { "%d. 骑兵师" }
+		2 = { "%d. 骑兵师" }
+		3 = { "%d. 骑兵师" }
+		4 = { "%d. 骑兵师" }
+		5 = { "%d. 骑兵师" }
+		6 = { "%d. 骑兵师" }
+		7 = { "%d. 骑兵师" }
+		8 = { "%d. 骑兵师" }
+		9 = { "%d. 骑兵师" }
+		10 = { "%d. 骑兵师" }
+	}
+}
+
+

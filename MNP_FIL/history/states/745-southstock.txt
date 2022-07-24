@@ -1,0 +1,16 @@
+
+state={
+	id=745
+	name="STATE_745"
+	provinces={
+		288 504 4501 4821 5271 5343 5668 6213 8572 
+	}
+	manpower=615610
+	state_category = rural
+	history = {
+		owner = ANA
+		add_core_of = ANA
+		victory_points = { 5668 1 }
+	}
+	local_supplies=0.000
+}

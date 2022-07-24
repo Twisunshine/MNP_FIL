@@ -1,0 +1,35 @@
+﻿capital = 147 
+
+set_research_slots = 1
+set_stability = 0.0
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 22
+	fascism = 17
+	despotism = 12
+	authoritarian_democracy = 30
+	liberal_democracy = 15
+	social_democracy = 3
+	socialism = 0
+	communism = 1
+}
+
+add_ideas = {
+		
+}
+
+
+recruit_character = CRY_Crystal_Pony_Self-Defense_Force

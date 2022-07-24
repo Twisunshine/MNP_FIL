@@ -1,0 +1,16 @@
+
+state={
+	id=727
+	name="STATE_727"
+	provinces={
+		773 1249 2856 4434 4491 8509 8536 
+	}
+	manpower=1981562
+	state_category = town
+	history = {
+		owner = KLU
+		add_core_of = KLU
+		victory_points = { 8509 5 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=219
+	name="STATE_219"
+	provinces={
+		538 571 3951 6335 6803 6824 6829 6856 
+	}
+	manpower=1442894
+	state_category = large_town
+	history = {
+		owner = REI
+		add_core_of = REI
+		victory_points = { 6335 15 }
+	}
+	local_supplies=15.000
+}

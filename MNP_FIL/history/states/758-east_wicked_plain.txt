@@ -1,0 +1,16 @@
+
+state={
+	id=758
+	name="STATE_758"
+	provinces={
+		1942 1949 2776 4282 5728 6287 8586 
+	}
+	manpower=305615
+	state_category = pastoral
+	history = {
+		owner = STO
+		add_core_of = STO
+		victory_points = { 6287 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,13 @@
+﻿ALL_RG_HISTORICAL = {
+	for_countries = { }
+
+	type = railway_gun
+	
+	fallback_name = "%d. 铁道炮"
+
+	ordered = {
+		
+		1 = {"%d. 铁道炮"}
+		
+	}
+}

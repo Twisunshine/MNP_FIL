@@ -1,0 +1,16 @@
+
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		420 1443 2765 5267 6288 6553 7491 7492 7595 8719 8720 
+	}
+	manpower=315612
+	state_category = small_island
+	history = {
+		owner = RIV
+		add_core_of = RIV
+		victory_points = { 420 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+characters={
+	KLU_tycoons={
+		name=KLU_tycoons
+		portraits={
+			civilian={
+				large="gfx/leaders/KLU/Portrait_KLU_tycoons.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_oligarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

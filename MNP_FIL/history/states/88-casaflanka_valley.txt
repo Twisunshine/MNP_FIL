@@ -1,0 +1,16 @@
+
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		453 1419 1496 3379 5266 7865 7922 
+	}
+	manpower=699155
+	state_category = rural
+	history = {
+		owner = FAR
+		add_core_of = FAR
+		victory_points = { 7922 3 }
+	}
+	local_supplies=5.000
+}

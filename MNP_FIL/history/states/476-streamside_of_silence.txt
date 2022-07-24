@@ -1,0 +1,16 @@
+
+state={
+	id=476
+	name="STATE_476"
+	provinces={
+		445 3373 3539 4053 5432 6365 8237 8239 
+	}
+	manpower=1206516
+	state_category = town
+	history = {
+		owner = KIR
+		add_core_of = KIR
+		victory_points = { 4053 10 }
+	}
+	local_supplies=0.000
+}

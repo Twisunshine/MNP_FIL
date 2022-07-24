@@ -1,0 +1,17 @@
+characters={
+	FLP_Social_Liberal_Party={
+		name=FLP_Social_Liberal_Party
+		portraits={
+			civilian={
+				large="gfx/leaders/FLP/Portrait_FLP_Social_Liberal_Party.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal_democracy_trade_liberalism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

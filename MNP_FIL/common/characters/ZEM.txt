@@ -1,0 +1,17 @@
+characters={
+	ZEM_zebra_authorities={
+		name=ZEM_zebra_authorities
+		portraits={
+			civilian={
+				large="gfx/leaders/ZEM/Portrait_ZEM_zebra_authorities.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

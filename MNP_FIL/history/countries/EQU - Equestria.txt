@@ -1,0 +1,94 @@
+﻿capital = 11 
+
+oob = "EQU_1004"
+
+set_research_slots = 3
+set_stability = 0.1
+set_war_support = 0.3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 0
+	despotism = 7
+	authoritarian_democracy = 79
+	liberal_democracy = 12
+	social_democracy = 2
+	socialism = 0
+	communism = 0
+}
+
+recruit_character = EQU_Fancy_Pants
+recruit_character = EQU_Jet_Set
+recruit_character = EQU_Neighsay
+recruit_character = EQU_Princess_Cadance
+recruit_character = EQU_Shining_Armor
+recruit_character = EQU_Rainbow_Dash
+recruit_character = EQU_Spitfire
+recruit_character = EQU_Wind_Rider
+recruit_character = EQU_Applejack
+recruit_character = EQU_Pinkie_Pie
+recruit_character = EQU_Soarin
+recruit_character = EQU_Fleetfoot
+recruit_character = EQU_Lightning_Dust
+recruit_character = EQU_Twilight_Sparkle
+recruit_character = EQU_Rarity
+recruit_character = EQU_Sassy_Saddles
+recruit_character = EQU_Sweetie_Drops
+
+add_ideas = {
+		service_by_requirement
+		war_economy
+		free_trade
+		guidance_only
+		all_adults
+		basic_citizenship
+		Specialized_chemical_factory
+		farm_production
+		more_popular
+		Flaws_do_not_hide_beauty
+		Universal_education
+		straggler
+		EQU_refugees
+		EQU_Harmonic_of_the_lighthouse
+		EQU_Twilight_Sparkle_Her_Majesty
+		EQU_The_destruction_of_Baltimore
+		EQU_Cutie_Mark
+		EQU_war_cabinet
+		EQU_The_legacy_of_the_magic_exchange_students
+}
+
+add_dynamic_modifier = { modifier = EQU_Orthodoxy_dynamic_modifier }
+
+

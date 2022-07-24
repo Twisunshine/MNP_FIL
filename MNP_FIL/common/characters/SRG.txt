@@ -1,0 +1,17 @@
+characters={
+	SRG_communist_party={
+		name=SRG_communist_party
+		portraits={
+			civilian={
+				large="gfx/leaders/SRG/Portrait_SRG_communist_party.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_authoritarian_communism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

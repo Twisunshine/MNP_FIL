@@ -1,0 +1,16 @@
+
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		243 1240 6044 8666 8671 
+	}
+	manpower=1265556
+	state_category = large_town
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 243 5 }
+	}
+	local_supplies=5.000
+}

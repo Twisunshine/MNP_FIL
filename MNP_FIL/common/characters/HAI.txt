@@ -1,0 +1,17 @@
+characters={
+	HAI_moose_authorities={
+		name=HAI_moose_authorities
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_HAI_moose_authorities.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=725
+	name="STATE_725"
+	provinces={
+		800 1792 3611 6569 8533 
+	}
+	manpower=291512
+	state_category = pastoral
+	history = {
+		owner = ANA
+		add_core_of = ANA
+		victory_points = { 3611 1 }
+	}
+	local_supplies=0.000
+}

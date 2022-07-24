@@ -1,0 +1,16 @@
+
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		1244 1678 2017 2086 2461 3035 4794 5678 6156 6160 7306 7337 
+	}
+	manpower=1326858
+	state_category = large_town
+	history = {
+		owner = GFS
+		add_core_of = GFS
+		victory_points = { 2017 15 }
+	}
+	local_supplies=5.000
+}

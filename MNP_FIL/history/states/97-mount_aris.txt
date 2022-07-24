@@ -1,0 +1,16 @@
+
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		97 3728 5116 8682 8688 8735 8736 
+	}
+	manpower=1996198
+	state_category = large_city
+	history = {
+		owner = SEA
+		add_core_of = SEA
+		victory_points = { 3728 20 }
+	}
+	local_supplies=20.000
+}

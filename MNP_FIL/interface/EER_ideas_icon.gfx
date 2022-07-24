@@ -1,0 +1,26 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_EER_the_refugee_flows_1"
+        texturefile = "gfx/interface/ideas/EER_the_refugee_flows_1.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_EER_stop_depriving_sign_of_cute_temporarily_1"
+        texturefile = "gfx/interface/ideas/EER_stop_depriving_sign_of_cute_temporarily_1.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_EER_starlight_glimmer_building"
+        texturefile = "gfx/interface/ideas/EER_starlight_glimmer_building.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_EER_heterochromatic_ideal"
+        texturefile = "gfx/interface/ideas/EER_heterochromatic_ideal.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EER_partisan_divisions"
+        texturefile = "gfx/interface/ideas/EER_partisan_divisions.dds"
+    }
+}

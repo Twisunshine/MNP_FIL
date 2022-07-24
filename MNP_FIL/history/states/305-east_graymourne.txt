@@ -1,0 +1,16 @@
+
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		248 962 2712 4875 6430 7086 
+	}
+	manpower=555156
+	state_category = pastoral
+	history = {
+		owner = GMN
+		add_core_of = GMN
+		victory_points = { 4875 1 }
+	}
+	local_supplies=0.000
+}

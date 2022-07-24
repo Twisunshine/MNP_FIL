@@ -1,0 +1,16 @@
+
+state={
+	id=680
+	name="STATE_680"
+	provinces={
+		1045 2431 2881 3973 8293 8346 8354 
+	}
+	manpower=765192
+	state_category = rural
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		victory_points = { 8346 3 }
+	}
+	local_supplies=3.000
+}

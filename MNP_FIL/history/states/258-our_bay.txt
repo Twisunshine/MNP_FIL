@@ -1,0 +1,29 @@
+
+state={
+	id=258
+	name="STATE_258"
+	provinces={
+		314 830 860 1138 1243 2447 2459 4312 4822 6202 6311 7049 7071 
+	}
+	manpower=846451
+	state_category =town 
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 6202 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 2
+			7049 = {
+				naval_base = 2
+			}
+		}
+	}
+	resources = {
+		oil = 46
+	}
+	local_supplies=6.000
+}

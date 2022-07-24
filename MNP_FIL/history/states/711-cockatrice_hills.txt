@@ -1,0 +1,16 @@
+
+state={
+	id=711
+	name="STATE_711"
+	provinces={
+		1540 1567 1842 2307 2398 3237 4428 5354 6140 6152 8494 8506 
+	}
+	manpower=213665
+	state_category = wasteland
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		victory_points = { 6152 1 }
+	}
+	local_supplies=0.000
+}

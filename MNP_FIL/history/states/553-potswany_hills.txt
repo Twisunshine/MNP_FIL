@@ -1,0 +1,16 @@
+
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		417 467 1050 2346 3272 3890 4000 4015 5594 5632 7843 7894 7928 7933 7939 
+	}
+	manpower=646562
+	state_category = pastoral
+	history = {
+		owner = POT
+		add_core_of = POT
+		victory_points = { 7894 1 }
+	}
+	local_supplies=3.000
+}

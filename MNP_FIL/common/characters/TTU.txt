@@ -1,0 +1,18 @@
+characters={
+	TTU_Cerberus={
+		name=TTU_Cerberus
+		portraits={
+			civilian={
+				large="gfx/leaders/TTU/Portrait_TTU_Cerberus.dds"
+			}
+		}
+		country_leader={
+			desc=TTU_Cerberus_desc
+			ideology=despotism_despotism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

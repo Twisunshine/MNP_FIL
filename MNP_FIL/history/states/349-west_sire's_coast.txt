@@ -1,0 +1,18 @@
+
+state={
+	id=349
+	name="STATE_349"
+	provinces={
+		523 1769 3629 5625 5932 7243 7267 7276 
+	}
+	manpower=819906
+	state_category = town
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 523 1 }
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=454
+	name="STATE_454"
+	provinces={
+		1660 3453 5897 6323 6327 6574 
+	}
+	manpower=911816
+	state_category = town
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 6323 1 }
+		buildings = {
+		    infrastructure = 2
+			dockyard = 2
+		    6323 = {
+		        naval_base = 1
+		    }
+		}
+	}
+	local_supplies=10.000
+}

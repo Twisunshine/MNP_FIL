@@ -1,0 +1,16 @@
+
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		731 1056 1538 1604 2078 2809 4022 6307 6387 6447 
+	}
+	manpower=1629855
+	state_category = large_town
+	history = {
+		owner = SRG
+		add_core_of = SRG
+		victory_points = { 4022 15 }
+	}
+	local_supplies=10.000
+}

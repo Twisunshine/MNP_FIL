@@ -1,0 +1,21 @@
+
+state={
+	id=504
+	name="STATE_504"
+	provinces={
+		782 1281 1733 2997 3044 3637 4340 5163 6423 7648 7695 
+	}
+	manpower=498561
+	state_category = pastoral
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 1281 1 }
+	}
+	resources = {
+		aluminium = 11
+    }
+	local_supplies=0.000
+}

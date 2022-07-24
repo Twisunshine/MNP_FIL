@@ -1,0 +1,16 @@
+
+state={
+	id=752
+	name="STATE_752"
+	provinces={
+		1139 3380 3569 3680 4790 5700 8578 8582 8593 8612 8629 
+	}
+	manpower=1898566
+	state_category = large_city
+	history = {
+		owner = SHI
+		add_core_of = SHI
+		victory_points = { 3680 15 }
+	}
+	local_supplies=15.000
+}

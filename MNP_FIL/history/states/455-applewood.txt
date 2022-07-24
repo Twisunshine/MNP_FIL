@@ -1,0 +1,21 @@
+
+state={
+	id=455
+	name="STATE_455"
+	provinces={
+		125 1385 1483 1732 2098 3381 4704 4718 4944 4993 5059 5583 6161 7565 7569 7615 7656 
+	}
+	manpower=916512
+	state_category = town
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 6161 5 }
+	}
+	resources = {
+	    tungsten = 20
+    }
+	local_supplies=0.000
+}

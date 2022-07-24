@@ -1,0 +1,344 @@
+characters={
+	EQU_Fancy_Pants={
+		name=EQU_Fancy_Pants
+		portraits={
+			civilian={
+				large="gfx/leaders/EQU/Portrait_EQU_Fancy_Pants.dds"
+				small="gfx/leaders/EQU/idea_Portrait_Fancy_Pants.dds"
+			}
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EQU_Fancy_Pants
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                excellency_prime_minister
+            }
+			removal_cost = -114514
+        }
+		country_leader={
+			desc=EQU_Fancy_Pants_desc
+			ideology=authoritarian_democracy_Celestia_system
+			traits={ conservative_doer }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+	EQU_Princess_Cadance = {
+		name = EQU_Princess_Cadance
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Princess_Mi_Amore_Cadenza.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	EQU_Shining_Armor = {
+		name = EQU_Shining_Armor
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Shining_Armor.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	EQU_Rainbow_Dash = {
+		name = EQU_Rainbow_Dash
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Rainbow_Dash.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EQU_Spitfire = {
+		name = EQU_Spitfire
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Spitfire.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	EQU_Wind_Rider = {
+		name = EQU_Wind_Rider
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Wind_Rider.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	EQU_Applejack = {
+		name = EQU_Applejack
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Applejack.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EQU_Pinkie_Pie = {
+		name = EQU_Pinkie_Pie
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Pinkie_Pie.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EQU_Soarin = {
+		name = EQU_Soarin
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Soarin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EQU_Fleetfoot = {
+		name = EQU_Fleetfoot
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Fleetfoot.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	EQU_Lightning_Dust = {
+		name = EQU_Lightning_Dust
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Lightning_Dust.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	EQU_Twilight_Sparkle = {
+		name = EQU_Twilight_Sparkle
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EQU/idea_Portrait_Twilight_Sparkle.dds"
+			}
+			army = {
+				large="gfx/leaders/EQU/"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			idea_token = idea_EQU_Twilight_Sparkle
+			allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			traits = {
+				legal_princess
+			}
+			removal_cost = -114514
+        }
+	}
+	
+	EQU_Jet_Set = {
+		name = EQU_Jet_Set
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EQU/idea_Portrait_Jet_Set.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                flamboyant_aristocrats
+            }
+			removal_cost = -114514
+        }
+	}
+	EQU_Neighsay  = {
+		name = EQU_Neighsay
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EQU/idea_Portrait_Neighsay.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EQU_Neighsay
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                extreme_xenophobes
+            }
+			removal_cost = -114514
+        }
+	}
+	EQU_Rarity  = {
+		name = EQU_Rarity
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EQU/idea_Portrait_Rarity.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                gorgeous_innovator
+            }
+			removal_cost = -114514
+        }
+	}
+	EQU_Sassy_Saddles  = {
+		name = EQU_Sassy_Saddles
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EQU/idea_Portrait_Sassy_Saddles.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EQU_Sassy_Saddles
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                economic_radicals
+            }
+			removal_cost = -114514
+        }
+	}
+	EQU_Sweetie_Drops  = {
+		name = EQU_Sweetie_Drops
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EQU/idea_Portrait_Sweetie_Drops.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EQU_Sweetie_Drops
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                special_operations_specialist
+            }
+			removal_cost = -114514
+        }
+	}
+}

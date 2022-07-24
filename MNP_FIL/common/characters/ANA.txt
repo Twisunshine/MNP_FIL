@@ -1,0 +1,17 @@
+characters={
+	ANA_anarchy={
+		name=ANA_anarchy
+		portraits={
+			civilian={
+				large="gfx/leaders/ANA/Portrait_ANA_anarchy.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_anarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

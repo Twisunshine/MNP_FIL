@@ -1,0 +1,16 @@
+
+state={
+	id=111
+	name="STATE_111"
+	provinces={
+		1909 2670 3536 4366 4915 5380 7990 8026 8033 8051 
+	}
+	manpower=995155
+	state_category = town
+	history = {
+		owner = FLP
+		add_core_of = FLP
+		victory_points = { 4366 5 }
+	}
+	local_supplies=5.000
+}

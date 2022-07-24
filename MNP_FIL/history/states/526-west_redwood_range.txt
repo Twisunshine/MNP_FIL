@@ -1,0 +1,16 @@
+
+state={
+	id=526
+	name="STATE_526"
+	provinces={
+		488 713 728 1246 1524 2175 2192 2902 4456 4584 5551 6209 7834 7862 7872 
+	}
+	manpower=518586
+	state_category = pastoral
+	history = {
+		owner = FAR
+		add_core_of = FAR
+		victory_points = { 4584 1 }
+	}
+	local_supplies=0.000
+}

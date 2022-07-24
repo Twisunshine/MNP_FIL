@@ -1,0 +1,16 @@
+
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		839 1834 2892 3037 3330 5806 7575 7578 7584 7601 7609 7637 
+	}
+	manpower=192561
+	state_category = wasteland
+	history = {
+		owner = TRO
+		add_core_of = TRO
+		victory_points = { 7637 1 }
+	}
+	local_supplies=0.000
+}

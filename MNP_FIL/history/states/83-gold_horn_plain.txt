@@ -1,0 +1,16 @@
+
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		1975 2327 2848 4239 4877 5480 5858 8437 8438 8462 
+	}
+	manpower=1654892
+	state_category = town
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		victory_points = { 8438 5 }
+	}
+	local_supplies=10.000
+}

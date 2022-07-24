@@ -1,0 +1,24 @@
+
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		1918 2530 3075 3350 4662 5647 7708 7712 7724 
+	}
+	manpower=845121
+	state_category = town
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 2530 5 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	resources = {
+	    tungsten = 10
+    }
+	local_supplies=5.000
+}

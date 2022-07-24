@@ -1,0 +1,16 @@
+
+state={
+	id=616
+	name="STATE_616"
+	provinces={
+		17 211 3620 4225 5640 6133 6382 8102 8140 
+	}
+	manpower=1105315
+	state_category = town
+	history = {
+		owner = IRW
+		add_core_of = IRW
+		victory_points = { 17 5 }
+	}
+	local_supplies=5.000
+}

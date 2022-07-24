@@ -1,0 +1,17 @@
+
+state={
+	id=317
+	name="STATE_317"
+	provinces={
+		165 1426 3061 5094 5434 6494 8125 8147 8160 8167 
+	}
+	manpower=661565
+	state_category = rural
+	history = {
+		owner = POT
+		add_claim_by = POT
+		add_core_of = ZEB
+		victory_points = { 5434 5 }
+	}
+	local_supplies=0.000
+}

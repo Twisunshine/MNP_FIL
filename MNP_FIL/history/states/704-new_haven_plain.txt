@@ -1,0 +1,16 @@
+
+state={
+	id=704
+	name="STATE_704"
+	provinces={
+		498 781 1988 8435 8478 
+	}
+	manpower=1003256
+	state_category = town
+	history = {
+		owner = NHN
+		add_core_of = NHN
+		victory_points = { 498 5 }
+	}
+	local_supplies=5.000
+}

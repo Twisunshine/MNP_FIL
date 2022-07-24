@@ -1,0 +1,16 @@
+
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		202 832 1129 1173 1867 2774 3255 3597 3853 4387 4769 5654 5804 6546 7514 7546 7568 7573 7686 
+	}
+	manpower=94156
+	state_category = wasteland
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 6546 1 }
+	}
+	local_supplies=0.000
+}

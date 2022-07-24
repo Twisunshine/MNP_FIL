@@ -1,0 +1,1934 @@
+focus_tree = {
+	id = ABY_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ABY
+		}
+	}
+	
+	default = no
+	
+	focus = {
+		id = ABY_A_normal_day
+		icon = GFX_goal_anschluss
+		cost = 1.50
+		x = 13
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			ABY = {
+				exists = yes
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = ABY_events.1
+				hours = 2
+			}
+			set_leader_name = ABY_King_Meowmeow_King
+			set_leader_description = ABY_King_Meowmeow_King_desc
+		}
+	}
+	
+	focus = {
+		id = ABY_Map_the_whole_country
+		icon = GFX_goal_generic_position_armies
+		cost = 7.00
+		x = 30
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = ABY_Preparing_for_war_against_Storms
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5.00
+		x = 40
+		y = 1
+
+	}
+	
+	focus = {
+		id = ABY_secret_talk_in_a_room
+		icon = GFX_goal_generic_military_deal
+		cost = 2.00
+		prerequisite = {
+			focus = ABY_A_normal_day
+		}
+		x = 13
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			ABY = {
+				exists = yes
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = ABY_events.4
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Kings_speech
+		icon = GFX_goal_generic_improve_relations
+		cost = 2.00
+		prerequisite = {
+			focus = ABY_secret_talk_in_a_room
+		}
+		x = 13
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			ABY = {
+				exists = yes
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = ABY_events.2
+				hours = 12
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Nationwide_search
+		icon = GFX_goal_demand_sudetenland
+		cost = 2.00
+		prerequisite = {
+			focus = ABY_Kings_speech
+		}
+		mutually_exclusive = {
+			focus = ABY_The_queen_in_power
+		}
+		x = 7
+		y = 3
+		ai_will_do = {
+			factor = 20
+		}
+		available = {
+			ABY = {
+				exists = yes
+				has_country_flag = ABY_king_was_alive
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = ABY_events.3
+				hours = 12
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_The_queen_in_power
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Kings_speech
+		}
+		mutually_exclusive = {
+			focus = ABY_Nationwide_search
+		}
+		x = 19
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			ABY = {
+				exists = yes
+				has_country_flag = ABY_king_was_dead
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = ABY_events.4
+				hours = 12
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Power_belongs_to_parliament
+		icon = GFX_goal_support_democracy
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_The_queen_in_power
+		}
+		x = 19
+		y = 5
+	}
+	
+	focus = {
+		id = ABY_Abyssinias_first_democratic_elections
+		icon = GFX_goal_generic_major_alliance
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Power_belongs_to_parliament
+		}
+		x = 19
+		y = 6
+	}
+	
+	focus = {
+		id = ABY_Kadimeow_party_wins_election
+		icon = GFX_goal_support_fascism
+		cost = 2.00
+		prerequisite = {
+			focus = ABY_Abyssinias_first_democratic_elections
+		}
+		mutually_exclusive = {
+			focus = ABY_Social_cats_party_wins_election
+		}
+		x = 16
+		y = 7
+	}
+	
+	focus = {
+		id = ABY_Social_cats_party_wins_election
+		icon = GFX_goal_support_communism
+		cost = 2.00
+		prerequisite = {
+			focus = ABY_Abyssinias_first_democratic_elections
+		}
+		mutually_exclusive = {
+			focus = ABY_Kadimeow_party_wins_election
+		}
+		x = 21
+		y = 7
+	}
+	
+	focus = {
+		id = ABY_Abolition_of_the_ban_on_magic
+		icon = GFX_goal_generic_improve_relations
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Social_cats_party_wins_election
+		}
+		x = 21
+		y = 8
+	}
+	
+	focus = {
+		id = ABY_Increase_welfare_system
+		icon = GFX_goal_generic_national_unity
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Abolition_of_the_ban_on_magic
+		}
+		x = 21
+		y = 9
+	}
+	
+	focus = {
+		id = ABY_Peace_with_diamond_dogs_and_parrots
+		icon = GFX_goal_anschluss
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Increase_welfare_system
+		}
+		x = 21
+		y = 10
+	}
+	
+	focus = {
+		id = ABY_A_desert_paradise_for_all_species
+		icon = GFX_goal_generic_soviet_construction
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Peace_with_diamond_dogs_and_parrots
+		}
+		x = 21
+		y = 11
+	}
+	
+	focus = {
+		id = ABY_Unite_and_fight_for_freedom
+		icon = GFX_goal_support_fourth_int
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_A_desert_paradise_for_all_species
+		}
+		x = 21
+		y = 12
+	}
+	
+	focus = {
+		id = ABY_Co-Development_with_colombuck
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Peace_with_diamond_dogs_and_parrots
+		}
+		x = 24
+		y = 11
+	}
+	
+	focus = {
+		id = ABY_Build_the_socialist_federation
+		icon = GFX_goal_anschluss
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Co-Development_with_colombuck
+		}
+		x = 24
+		y = 12
+	}
+	
+	focus = {
+		id = ABY_Refurbish_abyssinia
+		icon = GFX_goal_generic_consumer_goods
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Map_the_whole_country
+		}
+		x = 30
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			663 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Factory_in_Tabbytown
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Refurbish_abyssinia
+		}
+		x = 25
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			84 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Investing_Drilling_Equipment
+		icon = GFX_goal_generic_construction2
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Factory_in_Tabbytown
+		}
+		x = 25
+		y = 6
+	}
+	
+	focus = {
+		id = ABY_Oil_under_henry
+		icon = GFX_goal_generic_oil_refinery
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Investing_Drilling_Equipment
+		}
+		x = 25
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Increase_oil_production
+		icon = GFX_goal_generic_oil_refinery
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Oil_under_henry
+		}
+		x = 25
+		y = 8
+
+	}
+	
+	focus = {
+		id = ABY_Import_advanced_industrial_equipment
+		icon = GFX_goal_generic_construction
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Refurbish_abyssinia
+		}
+		x = 27
+		y = 4
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = infantry_tech
+						}
+			}
+
+	}
+	
+	focus = {
+		id = ABY_Reclaiming_wasteland
+		icon = GFX_goal_generic_construction2
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Import_advanced_industrial_equipment
+		}
+		x = 27
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_Desert_Irrigation_project
+		icon = GFX_goal_generic_construct_civilian
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Reclaiming_wasteland
+		}
+		x = 27
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Minerals_in_allenstein
+		icon = GFX_goal_generic_consumer_goods
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Desert_Irrigation_project
+		}
+		x = 27
+		y = 8
+
+	}
+	
+	focus = {
+		id = ABY_Good_news_across_thousands_miles
+		icon = GFX_goal_generic_radar
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Refurbish_abyssinia
+		}
+		x = 30
+		y = 4
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 3
+							category = radar_tech
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Investment_computing_machine
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Good_news_across_thousands_miles
+		}
+		x = 30
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_Reclaim_panthera_Wetland
+		icon = GFX_goal_generic_construction2
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Desert_Irrigation_project
+		}
+		prerequisite = {
+			focus = ABY_Investment_computing_machine
+		}
+		x = 29
+		y = 8
+
+	}
+	
+	focus = {
+		id = ABY_Desert_Railway_Linking_four_town
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Increase_oil_production
+			focus = ABY_Minerals_in_allenstein
+		}
+		prerequisite = {
+			focus = ABY_Reclaim_panthera_Wetland
+		}
+		x = 27
+		y = 9
+
+	}
+	
+	focus = {
+		id = ABY_Add_a_layer_of_golden_to_shore
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Refurbish_abyssinia
+		}
+		x = 33
+		y = 4
+
+	}
+	
+	focus = {
+		id = ABY_Further_expansion_of_Catskills_Port
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Add_a_layer_of_golden_to_shore
+		}
+		x = 33
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_Reorganize_the_catskills_caravan
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Further_expansion_of_Catskills_Port
+		}
+		x = 33
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Trade_with_RIV
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Reorganize_the_catskills_caravan
+		}
+		x = 31
+		y = 8
+
+	}
+	
+	focus = {
+		id = ABY_Route_to_Mahaton
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Reorganize_the_catskills_caravan
+		}
+		x = 35
+		y = 8
+
+	}
+	
+	focus = {
+		id = ABY_The_most_business-friendly_species
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Trade_with_RIV
+		}
+		prerequisite = {
+			focus = ABY_Route_to_Mahaton
+		}
+		x = 33
+		y = 9
+
+	}
+	
+	focus = {
+		id = ABY_Expanding_Locadia_University
+		icon = GFX_focus_research
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Desert_Railway_Linking_four_town
+		}
+		prerequisite = {
+			focus = ABY_The_most_business-friendly_species
+		}
+		x = 30
+		y = 10
+
+	}
+	
+	focus = {
+		id = ABY_Reorganize_abyssinia_command_post
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Preparing_for_war_against_Storms
+		}
+		x = 40
+		y = 2
+
+	}
+	
+	focus = {
+		id = ABY_Recruit_young_cat_generals
+		icon = GFX_goal_generic_improve_relations
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Reorganize_abyssinia_command_post
+		}
+		x = 40
+		y = 3
+
+	}
+	
+	focus = {
+		id = ABY_Abyssinian_tactical_theory
+		icon = GFX_goal_generic_army_doctrines
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Recruit_young_cat_generals
+		}
+		x = 40
+		y = 4
+
+	}
+	
+	focus = {
+		id = ABY_Smash_the_thunder
+		icon = GFX_goal_generic_army_tanks
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Abyssinian_tactical_theory
+		}
+		mutually_exclusive = {
+			focus = ABY_Defend_as_attack
+		}
+		x = 36
+		y = 5
+
+	}
+	
+	focus = {
+		id = ABY_Complete_the_Catskills_line
+		icon = GFX_goal_generic_build_tank
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Abyssinian_tactical_theory
+		}
+		mutually_exclusive = {
+			focus = ABY_Trenches_surrounding_the_panthera
+		}
+		x = 39
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_expand_catskills_navy
+		icon = GFX_goal_generic_navy_battleship
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Complete_the_Catskills_line
+		}
+		x = 39
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Trenches_surrounding_the_panthera
+		icon = GFX_goal_generic_defence
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Abyssinian_tactical_theory
+		}
+		mutually_exclusive = {
+			focus = ABY_Complete_the_Catskills_line
+		}
+		x = 41
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_Dessert_cats
+		icon = GFX_goal_generic_special_forces
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Trenches_surrounding_the_panthera
+		}
+		x = 41
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Defend_as_attack
+		icon = GFX_goal_generic_army_artillery2
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Abyssinian_tactical_theory
+		}
+		mutually_exclusive = {
+			focus = ABY_Smash_the_thunder
+		}
+		x = 44
+		y = 5
+
+	}
+	
+	focus = {
+		id = ABY_Cannon_blaring
+		icon = GFX_goal_generic_army_artillery
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Defend_as_attack
+		}
+		x = 44
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_Use_modern_firearms
+		icon = GFX_goal_generic_small_arms
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Cannon_blaring
+		}
+		x = 43
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Abyssinian_never_surrender
+		icon = GFX_goal_generic_national_unity
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Use_modern_firearms
+			focus = ABY_expand_catskills_navy
+			focus = ABY_Dessert_cats
+		}
+		x = 40
+		y = 9
+
+	}
+	
+	focus = {
+		id = ABY_Reform_program_by_the_king
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Nationwide_search
+		}
+		x = 7
+		y = 4
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					add_stability = 0.10
+					add_country_leader_trait = grief-stricken_tyrant
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Expanded_guard_bureau
+		icon = GFX_goal_generic_demand_territory
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Deprive_parliaments_power
+		}
+		x = 4
+		y = 6
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					create_intelligence_agency = {
+							name = "C.A.T"
+							icon = GFX_intelligence_agency_logo_agency
+						}
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = military_police_tech
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Increase_the_ban_on_magic
+		icon = GFX_goal_anti_comintern_pact
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Expanded_guard_bureau
+		}
+		x = 5
+		y = 7
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					add_ideas = ABY_Ban_of_magic
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Deprive_parliaments_power
+		icon = GFX_goal_generic_CAS
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Reform_program_by_the_king
+		}
+		x = 4
+		y = 5
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+							has_country_flag = ABY_king_was_alive
+						}
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = ABY_national_power_struggle
+							add_idea = ABY_Parliament_is_in_name_only
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_purge_the_communists
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Announce_curfew
+		}
+		x = 8
+		y = 6
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+							has_country_flag = ABY_king_was_alive
+						}
+				}
+			completion_reward = {
+					if = {
+						limit = {
+							AND = {
+								original_tag = ABY
+								has_completed_focus = ABY_Incorporate_fascists
+							}
+						}
+						swap_ideas = {
+							remove_idea = ABY_Democratic_Revolutionary_Movement
+							add_idea = ABY_Democratic_Revolutionary_Movement_04
+						}
+						add_popularity = {
+							ideology = despotism
+							popularity = 0.1
+						}
+					}
+					else_if = {
+							limit = {
+									original_tag = ABY
+								}
+							swap_ideas = {
+									remove_idea = ABY_Democratic_Revolutionary_Movement
+									add_idea = ABY_Democratic_Revolutionary_Movement_04
+								}
+							add_popularity = {
+									ideology = despotism
+									popularity = 0.1
+								}
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Incorporate_fascists
+		icon = GFX_goal_support_fascism
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Announce_curfew
+		}
+		x = 12
+		y = 6
+		ai_will_do = {
+				factor = 10
+		}
+		available = {
+			ABY = {
+				exists = yes
+				has_country_flag = ABY_king_was_alive
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					AND = {
+						original_tag = ABY
+						has_completed_focus = ABY_purge_the_communists
+					}
+				}
+				swap_ideas = {
+					remove_idea = ABY_Democratic_Revolutionary_Movement_04
+					add_idea = ABY_Democratic_Revolutionary_Movement_01
+				}
+				add_popularity = {
+					ideology = despotism
+					popularity = 0.1
+				}
+			}
+			else_if = {
+				limit = {
+						original_tag = ABY
+				}
+				swap_ideas = {
+						remove_idea = ABY_Democratic_Revolutionary_Movement
+						add_idea = ABY_Democratic_Revolutionary_Movement_02
+				}
+				add_popularity = {
+						ideology = despotism
+						popularity = 0.1
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Democracy_incarnate
+		icon = GFX_goal_support_democracy
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_purge_the_communists
+		}
+		prerequisite = {
+			focus = ABY_purge_the_communists
+		}
+		prerequisite = {
+			focus = ABY_Incorporate_fascists
+		}
+		x = 10
+		y = 7
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+				ABY = {
+					exists = yes
+					has_country_flag = ABY_king_was_alive
+				}
+			}
+			completion_reward = {
+					hidden_effect = {
+							remove_ideas = ABY_Democratic_Revolutionary_Movement_02
+							remove_ideas = ABY_Democratic_Revolutionary_Movement_04
+						}
+					swap_ideas = {
+							remove_idea = ABY_Democratic_Revolutionary_Movement_01
+							add_idea = ABY_Democratic_Revolutionary_Movement_03
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Stray_cat_problem
+		icon = GFX_goal_generic_national_unity
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Increase_the_ban_on_magic
+		}
+		x = 5
+		y = 8
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+							has_country_flag = ABY_king_was_alive
+						}
+				}
+			completion_reward = {
+					country_event = {
+							id = ABY_events.5
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Completely_dissolve_parliament
+		icon = GFX_goal_generic_attack_allies
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Friendship_without_magic
+		}
+		prerequisite = {
+			focus = ABY_Stray_cat_problem
+		}
+		x = 4
+		y = 9
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					remove_ideas = ABY_Parliament_is_in_name_only
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Friendship_without_magic
+		icon = GFX_goal_generic_consumer_goods
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_kings_army
+		}
+		x = 3
+		y = 8
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+				add_country_leader_trait = {
+					ideology = despotism_absolute_monarchy
+					trait = ABY_Friendship_without_magic
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Choices_through_the_ages
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Completely_dissolve_parliament
+		}
+		prerequisite = {
+			focus = ABY_To_a_great_victory
+		}
+		x = 7
+		y = 10
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					country_event = id = ABY_events.7
+
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Destroy_the_harmony_tree
+		icon = GFX_goal_generic_CAS
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Choices_through_the_ages
+		}
+		mutually_exclusive = {
+			focus = ABY_Preserve_crime_of_magic
+		}
+		x = 5
+		y = 11
+
+	}
+	
+	focus = {
+		id = ABY_Preserve_crime_of_magic
+		icon = GFX_focus_wonderweapons
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Choices_through_the_ages
+		}
+		mutually_exclusive = {
+			focus = ABY_Destroy_the_harmony_tree
+		}
+		x = 9
+		y = 11
+
+	}
+	
+	focus = {
+		id = ABY_Stricter_laws
+		icon = GFX_goal_demand_sudetenland
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Destroy_the_harmony_tree
+		}
+		x = 5
+		y = 12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.15			
+		}
+	}
+	
+	focus = {
+		id = ABY_Close_surveillance_of_magical_races
+		icon = GFX_goal_generic_radar
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Preserve_crime_of_magic
+		}
+		x = 9
+		y = 12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = ABY_Close_surveillance_of_magical_races_idea	
+		}
+	}
+	
+	focus = {
+		id = ABY_Expel_all_magical_creatures
+		icon = GFX_goal_generic_secret_weapon
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Stricter_laws
+		}
+		x = 5
+		y = 13
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = ABY_events.9		
+		}
+	}
+	
+	focus = {
+		id = ABY_Iron_wall_of_anti-magic
+		icon = GFX_goal_generic_defence
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Expel_all_magical_creatures
+		}
+		x = 5
+		y = 14
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			ABY = {
+				exists = yes
+			}
+		}
+		completion_reward = {
+			add_ideas = ABY_Iron_wall_of_anti-magic_idea
+		}
+	}
+	
+	focus = {
+		id = ABY_Stepping_up_production_of_anti-magic_collars
+		icon = GFX_goal_generic_production2
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Close_surveillance_of_magical_races
+		}
+		x = 9 
+		y = 13
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = ABY_anti-magic_collars
+			add_stability = 0.15		
+		}
+	}
+	
+	focus = {
+		id = ABY_Blue_sky_without_magic
+		icon = GFX_goal_anschluss
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Stepping_up_production_of_anti-magic_collars
+		}
+		x = 9
+		y = 14
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = ABY_Blue_sky_without_magic_idea
+			remove_ideas = ABY_Stepping_up_production_of_anti-magic_collars
+		}
+	}
+	
+	focus = {
+		id = ABY_Restoring_past_glory
+		icon = GFX_goal_generic_territory_or_war
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Iron_wall_of_anti-magic
+			focus = ABY_Blue_sky_without_magic
+		}
+		x = 7
+		y = 15
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = ABY_events.10
+			add_war_support = 0.20
+			add_ideas = ABY_Restoring_past_glory_idea
+		}
+	}
+	
+	focus = {
+		id = ABY_Deserved_inner_sea
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Restoring_past_glory
+		}
+		x = 5
+		y = 16
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CNN
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Eliminate_poisonous_insects
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Restoring_past_glory
+		}
+		x = 9
+		y = 16
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = KEL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = HAL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KOT
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Integrate_the_west_coast
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Deserved_inner_sea
+		}
+		x = 5
+		y = 17
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_state_core = 84
+			add_state_core = 685
+			add_state_core = 734
+		}
+	}
+	
+	focus = {
+		id = ABY_Expand_the_territory
+		icon = GFX_goal_generic_fortify_city
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Eliminate_poisonous_insects
+		}
+		x = 9
+		y = 17
+
+	}
+	
+	focus = {
+		id = ABY_The_fall_of_Ornithia
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Restoring_past_glory
+		}
+		x = 2
+		y = 16
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = take_core_state
+				target = ORN
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Got_the_island_back
+		icon = GFX_goal_generic_attack_allies
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_The_fall_of_Ornithia
+		}
+		x = 2
+		y = 17
+
+	}
+	
+	focus = {
+		id = ABY_Claim_our_lands
+		icon = GFX_goal_generic_army_artillery2
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Restoring_past_glory
+		}
+		x = 12
+		y = 16
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = KIR
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = DRA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SER
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Send_more_troops
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Claim_our_lands
+		}
+		x = 12
+		y = 17
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = ABY_Send_more_troops_idea		
+		}
+	}
+	
+	focus = {
+		id = ABY_Reward_on_the_tip_of_bayonet
+		icon = GFX_goal_generic_major_war
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Integrate_the_west_coast
+			focus = ABY_Got_the_island_back
+		}
+		x = 4
+		y = 18
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			SHI = {
+				country_event = SHI_events.cat_puppet	
+			}
+			add_ideas = limited_exports
+		}
+	}
+	
+	focus = {
+		id = ABY_Newly_emerging_cities
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Expand_the_territory
+			focus = ABY_Send_more_troops
+		}
+		x = 10
+		y = 18
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = ABY_Newly_emerging_cities_idea	
+		}
+	}
+	
+	focus = {
+		id = ABY_Emperor_of_the_Southern_Continent
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Reward_on_the_tip_of_bayonet
+		}
+		prerequisite = {
+			focus = ABY_Newly_emerging_cities
+		}
+		x = 7
+		y = 19
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = ABY_events.11
+		}
+	}
+	
+	focus = {
+		id = ABY_Grand_memorial_ceremony
+		icon = GFX_goal_anschluss
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Emperor_of_the_Southern_Continent
+		}
+		x = 7
+		y = 20
+
+	}
+	
+	focus = {
+		id = ABY_Send_ambassador_to_the_moon
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Grand_memorial_ceremony
+		}
+		mutually_exclusive = {
+			focus = ABY_Emperors_ambition
+		}
+		x = 5
+		y = 21
+
+	}
+	
+	focus = {
+		id = ABY_Pressure_egalitarians
+		icon = GFX_goal_anti_comintern_pact
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Grand_memorial_ceremony
+		}
+		x = 4
+		y = 22
+
+	}
+	
+	focus = {
+		id = ABY_Emperors_ambition
+		icon = GFX_goal_generic_CAS
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Grand_memorial_ceremony
+		}
+		mutually_exclusive = {
+			focus = ABY_Send_ambassador_to_the_moon
+		}
+		x = 9
+		y = 21
+
+	}
+	
+	focus = {
+		id = ABY_with_magic_power
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ABY_Grand_memorial_ceremony
+		}
+		x = 7
+		y = 23
+
+	}
+	
+	focus = {
+		id = ABY_Divide_the_sphere_of_influence_with_Griffin
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Grand_memorial_ceremony
+		}
+		x = 10
+		y = 22
+
+	}
+	
+	focus = {
+		id = ABY_Implement_Kings_policy
+		icon = GFX_goal_generic_wolf_pack
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Kadimeow_party_wins_election
+		}
+		x = 16
+		y = 8
+
+	}
+	
+	focus = {
+		id = ABY_Honor_of_cats
+		icon = GFX_goal_generic_propaganda
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Implement_Kings_policy
+		}
+		x = 16
+		y = 9
+
+	}
+	
+	focus = {
+		id = ABY_Encourage_more_cats_to_join_the_military
+		icon = GFX_goal_rhineland
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Honor_of_cats
+		}
+		x = 16
+		y = 10
+
+	}
+	
+	focus = {
+		id = ABY_Revenge_on_dogs
+		icon = GFX_goal_generic_attack_allies
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Encourage_more_cats_to_join_the_military
+		}
+		x = 14
+		y = 11
+
+	}
+	
+	focus = {
+		id = ABY_Marching_into_the_forest
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Encourage_more_cats_to_join_the_military
+		}
+		x = 18
+		y = 11
+
+	}
+	
+	focus = {
+		id = ABY_Establish_racial_concentration_camps
+		icon = GFX_goal_generic_secret_weapon
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Revenge_on_dogs
+		}
+		x = 14
+		y = 12
+
+	}
+	
+	focus = {
+		id = ABY_Cats_first
+		icon = GFX_goal_support_fascism
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Establish_racial_concentration_camps
+			focus = ABY_Mining_Forests_for_Minerals
+		}
+		x = 16
+		y = 13
+
+	}
+	
+	focus = {
+		id = ABY_Abyssinian_rises_again
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = ABY_Cats_first
+		}
+		x = 16
+		y = 14
+
+	}
+	
+	focus = {
+		id = ABY_Mining_Forests_for_Minerals
+		icon = GFX_goal_generic_construction2
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Marching_into_the_forest
+		}
+		x = 18
+		y = 12
+
+	}
+	
+	focus = {
+		id = ABY_Industrial_miracle
+		icon = GFX_goal_generic_propaganda
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Expanding_Locadia_University
+		}
+		x = 30
+		y = 11
+		ai_will_do = {
+			factor = 11
+		}
+		completion_reward = {
+				
+		}
+	}
+	
+	focus = {
+		id = ABY_Plan_of_panthera
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = ABY_Industrial_miracle
+		}
+		x = 30
+		y = 12
+
+	}
+	
+	focus = {
+		id = ABY_Technology_determines_war
+		icon = GFX_focus_rocketry
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Smash_the_thunder
+		}
+		x = 36
+		y = 6
+
+	}
+	
+	focus = {
+		id = ABY_Popularization_of_Motorization
+		icon = GFX_goal_generic_army_motorized
+		cost = 7.00
+		prerequisite = {
+			focus = ABY_Technology_determines_war
+		}
+		x = 37
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_lmproved_radio
+		icon = GFX_goal_generic_radar
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Technology_determines_war
+		}
+		x = 35
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Support_weapon_update
+		icon = GFX_goal_generic_military_sphere
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Cannon_blaring
+		}
+		x = 45
+		y = 7
+
+	}
+	
+	focus = {
+		id = ABY_Not_afraid_of_any_enermies
+		icon = GFX_goal_generic_air_doctrine
+		cost = 8.00
+		prerequisite = {
+			focus = ABY_Abyssinian_never_surrender
+		}
+		x = 40
+		y = 10
+
+	}
+	
+	focus = {
+		id = ABY_Take_the_initiative
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = ABY_Not_afraid_of_any_enermies
+		}
+		x = 40
+		y = 11
+
+	}
+	
+	focus = {
+		id = ABY_Most_dangerous_and_deadly_weapon
+		icon = GFX_focus_wonderweapons
+		cost = 15.00
+		prerequisite = {
+			focus = ABY_Take_the_initiative
+		}
+		x = 40
+		y = 12
+
+	}
+	
+	focus = {
+		id = ABY_Announce_curfew
+		icon = GFX_goal_demand_sudetenland
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Reform_program_by_the_king
+		}
+		x = 10
+		y = 5
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = -50
+				}
+
+	}
+	
+	focus = {
+		id = ABY_kings_army
+		icon = GFX_goal_rhineland
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Expanded_guard_bureau
+		}
+		x = 3
+		y = 7
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+						}
+				}
+			completion_reward = {
+					add_war_support = 0.15
+					add_field_marshal_role = {
+							Character = ABY_King_Meowmeow
+							skill = 4
+							attack_skill = 3
+							defense_skill = 2
+							planning_skill = 5
+							logistics_skill = 5
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_To_a_great_victory
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Outlaw_all_political_parties
+		}
+		x = 10
+		y = 9
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+							has_country_flag = ABY_king_was_alive
+						}
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = ABY_Democratic_Revolutionary_Movement_03
+							add_idea = Enthusiasm_for_revival_is_at_an_all-time_high
+						}
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Outlaw_all_political_parties
+		icon = GFX_goal_generic_alliance
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Democracy_incarnate
+		}
+		x = 10
+		y = 8
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					ABY = {
+							exists = yes
+							has_country_flag = ABY_king_was_alive
+							despotism > 0.85
+						}
+				}
+			completion_reward = {
+					add_stability = 0.1
+					add_political_power = 150
+				}
+
+	}
+	
+	focus = {
+		id = ABY_Confiscated_noble_property
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Friendship_without_magic
+			}
+		x = 2
+		y = 9
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = ABY_Confiscated_noble_property_idea
+			663 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ABY_Universal_education_for_all
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 0.00
+		prerequisite = {
+			focus = ABY_Stray_cat_problem
+			}
+		x = 6
+		y = 9
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = Universal_education
+		}
+	}
+	
+}
+

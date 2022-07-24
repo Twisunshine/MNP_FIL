@@ -1,0 +1,14 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		2897 6611 
+	}
+	manpower=465541
+	state_category = tiny_island
+	history = {
+		owner = YKT
+		add_core_of = YKT
+		victory_points = { 2897 1 }
+	}
+}

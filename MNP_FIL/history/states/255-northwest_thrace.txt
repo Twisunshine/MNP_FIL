@@ -1,0 +1,16 @@
+
+state={
+	id=255
+	name="STATE_255"
+	provinces={
+		80 2500 2674 4095 4900 6982 7002 7026 7041 
+	}
+	manpower=451560
+	state_category = pastoral
+	history = {
+		owner = THR
+		add_core_of = THR
+		victory_points = { 6982 1 }
+	}
+	local_supplies=0.000
+}

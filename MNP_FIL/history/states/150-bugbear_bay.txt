@@ -1,0 +1,16 @@
+
+state={
+	id=150
+	name="STATE_150"
+	provinces={
+		867 3069 3222 4514 4983 5620 6683 6709 6713 
+	}
+	manpower=816152
+	state_category = rural
+	history = {
+		owner = BUG
+		add_core_of = BUG
+		victory_points = { 6683 3 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+characters={
+	SER_A_serpent={
+		name=SER_A_serpent
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_A_serpent.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

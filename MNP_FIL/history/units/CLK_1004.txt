@@ -1,0 +1,402 @@
+division_template = {
+	name = "渗透师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                
+	}
+	
+	support = {
+      military_police = { x = 0 y = 0 }
+      
+	}
+}
+division_template = {
+	name = "幻形灵步兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = { 
+	}
+}
+division_template = {
+	name = "幻形灵突击旅"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 0 y = 3 }
+                                artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+                                
+	}
+	
+	support = {
+
+	}
+}
+units = {
+
+division= {	
+		name =  "渗透一师"
+		location = 2494
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "女王特遣队"
+		location = 2494
+		division_template = "渗透师"
+		start_experience_factor = 0.5
+	}
+
+division= {	
+		name =  "渗透三师"
+		location = 2780
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "渗透四师"
+		location = 6280
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "渗透五师"
+		location = 1823
+		division_template = "渗透师"
+		start_experience_factor = 0.2
+	}
+
+division= {	
+		name =  "渗透六师"
+		location = 833
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+
+division= {	
+		name =  "渗透七师"
+		location = 833
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "渗透八师"
+		location = 7383
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "渗透九师"
+		location = 7383
+		division_template = "渗透师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.8
+	}
+
+division= {	
+		name =  "渗透十师"
+		location = 1198
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "渗透十一师"
+		location = 2280
+		division_template = "渗透师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "渗透十二师"
+		location = 7806
+		division_template = "渗透师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵一师"
+		location = 7264
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵二师"
+		location = 665
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵三师"
+		location = 7264
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵四师"
+		location = 7553
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵五师"
+		location = 1448
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵六师"
+		location = 4486
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵七师"
+		location = 501
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵八师"
+		location = 501
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵九师"
+		location = 448
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵十师"
+		location = 3590
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵十一师"
+		location = 523
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵十二师"
+		location =7268
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵十三师"
+		location = 7264
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵十四师"
+		location = 7148
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵十五师"
+		location = 5852
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵十六师"
+		location = 7340
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵十七师"
+		location = 287
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵十八师"
+		location = 5829
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵十九师"
+		location = 7348
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十师"
+		location = 484
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十一师"
+		location = 7438
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵二十二师"
+		location = 7438
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十三师"
+		location = 5698
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十四师"
+		location = 2143
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十五师"
+		location = 5829
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵二十六师"
+		location = 5526
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十七师"
+		location =911
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵二十八师"
+		location =557
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵二十九师"
+		location = 557
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵步兵三十师"
+		location = 557
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵三十一师"
+		location = 1096
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵三十二师"
+		location = 4275
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵步兵三十三师"
+		location = 6546
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "幻形灵步兵三十四师"
+		location = 10
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "女王卫队一队"
+		location = 539
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "女王卫队二队"
+		location = 539
+		division_template = "幻形灵步兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "幻形灵突击一旅"
+		location = 4177
+		division_template = "幻形灵突击旅"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵突击二旅"
+		location = 539
+		division_template = "幻形灵突击旅"
+		start_experience_factor = 0.4
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "幻形灵突击三旅"
+		location = 4177
+		division_template = "幻形灵突击旅"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "心之巢"
+		location = 4759
+		division_template = "幻形灵突击旅"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "幻形灵突击五旅"
+		location = 7690
+		division_template = "幻形灵突击旅"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "幻形灵突击六旅"
+		location = 7743
+		division_template = "幻形灵突击旅"
+		start_experience_factor = 0.3
+	}
+}

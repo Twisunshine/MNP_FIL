@@ -1,0 +1,16 @@
+
+state={
+	id=336
+	name="STATE_336"
+	provinces={
+		175 287 354 608 3592 4355 5018 5342 6530 7109 
+	}
+	manpower=364850
+	state_category = pastoral
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 287 1 }
+	}
+	local_supplies=5.000
+}

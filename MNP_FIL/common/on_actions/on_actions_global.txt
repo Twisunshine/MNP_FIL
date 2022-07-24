@@ -1,0 +1,39 @@
+
+on_actions = {
+
+	on_startup = {
+		effect = {
+			EER = {
+				country_event = EER_events.114514
+				add_ideas = idea_EER_Starlight_Glimmer
+				add_ideas = idea_EER_Double_Diamond
+				add_ideas = idea_EER_Sugar_Belle
+				add_ideas = idea_EER_Night_Glider
+				add_ideas = idea_EER_Party_Favor
+			}
+			EQU = {
+				add_ideas = idea_EQU_Twilight_Sparkle
+				add_ideas = idea_EQU_Fancy_Pants
+				add_ideas = idea_EQU_Neighsay
+				add_ideas = idea_EQU_Sassy_Saddles
+				add_ideas = idea_EQU_Sweetie_Drops
+			}
+			EOM = {
+				add_ideas = idea_EOM_Nightmare_Moon
+				add_ideas = idea_EOM_Prince_Blueblood
+				add_ideas = idea_EOM_Suri_Polomare
+				add_ideas = idea_EOM_Gladmane
+				add_ideas = idea_EOM_Zesty_Gourmand
+			}
+			
+			
+			
+			
+			
+			
+		}
+	}
+
+
+	
+}

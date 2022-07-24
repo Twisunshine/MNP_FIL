@@ -1,0 +1,18 @@
+characters={
+	DRA_Dragon_Lord_Torch={
+		name=DRA_Dragon_Lord_Torch
+		portraits={
+			civilian={
+				large="gfx/leaders/DRA/Portrait_DRA_Dragon_Lord_Torch.dds"
+			}
+		}
+		country_leader={
+			desc=DRA_Dragon_Lord_Torch_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

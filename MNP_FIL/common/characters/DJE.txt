@@ -1,0 +1,17 @@
+characters={
+	DJE_parliament={
+		name=DJE_parliament
+		portraits={
+			civilian={
+				large="gfx/leaders/DJE/Portrait_DJE_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_oligarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=378
+	name="STATE_378"
+	provinces={
+		664 1079 3690 5536 5747 7361 7384 7397 7404 
+	}
+	manpower=848511
+	state_category = rural
+	history = {
+		owner = HGE
+		add_core_of = HGE
+		victory_points = { 664 3 }
+	}
+	local_supplies=0.000
+}

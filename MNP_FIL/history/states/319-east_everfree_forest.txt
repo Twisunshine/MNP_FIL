@@ -1,0 +1,18 @@
+
+state={
+	id=319
+	name="STATE_319"
+	provinces={
+		708 871 1779 2329 3315 4018 5465 6177 6203 6283 7541 7570 
+	}
+	manpower=132165
+	state_category = pastoral
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 3315 15 }
+	}
+	local_supplies=0.000
+}

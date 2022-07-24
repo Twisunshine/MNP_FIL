@@ -1,0 +1,17 @@
+characters={
+	TAR_royal_family_of_Tar={
+		name=TAR_royal_family_of_Tar
+		portraits={
+			civilian={
+				large="gfx/leaders/TAR/Portrait_TAR_royal_family_of_Tar.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

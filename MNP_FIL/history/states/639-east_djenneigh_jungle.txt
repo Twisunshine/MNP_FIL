@@ -1,0 +1,16 @@
+
+state={
+	id=639
+	name="STATE_639"
+	provinces={
+		1575 1890 2028 4631 5890 5979 8269 8274 8291 
+	}
+	manpower=451568
+	state_category = pastoral
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 4631 1 }
+	}
+	local_supplies=0.000
+}

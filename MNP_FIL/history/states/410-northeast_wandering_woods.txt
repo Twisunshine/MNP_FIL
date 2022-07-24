@@ -1,0 +1,23 @@
+
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		981 1188 1232 1261 1364 2440 2506 2780 3817 4645 5031 5144 5643 5711 5749 5776 6320 6520 7400 7431 
+	}
+	manpower=154899
+	state_category = wasteland
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 2780 1 }
+		buildings = {
+		    air_base = 2
+		}
+	}
+	resources = {
+		oil = 122
+		tungsten = 13
+    }
+	local_supplies=3.000
+}

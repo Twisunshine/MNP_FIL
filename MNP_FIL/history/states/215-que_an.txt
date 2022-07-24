@@ -1,0 +1,16 @@
+
+state={
+	id=215
+	name="STATE_215"
+	provinces={
+		271 2551 2762 3321 6795 6889 
+	}
+	manpower=261515
+	state_category = pastoral
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 271 1 }
+	}
+	local_supplies=0.000
+}

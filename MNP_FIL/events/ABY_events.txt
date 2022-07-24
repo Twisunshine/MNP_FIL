@@ -1,0 +1,157 @@
+add_namespace = ABY_events
+country_event = {
+	id = ABY_events.1
+	title = ABY_events.1.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.1.d
+	option = {
+	name = ABY_events.1.a
+		custom_effect_tooltip = ABY_events.1.aa
+		
+	}
+
+	}
+country_event = {
+	id = ABY_events.2
+	title = ABY_events.2.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.2.d
+	option = {
+	name = ABY_events.2.b
+		custom_effect_tooltip = ABY_events.2.aa
+		country_event = ABY_events.6
+		add_political_power = -100
+		set_country_flag = ABY_king_was_alive
+		}option = {
+		name = ABY_events.2.a
+		ai_chance = {
+				factor = 5
+			}
+		add_political_power = -100
+		set_country_flag = ABY_king_was_dead
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.3
+	title = ABY_events.3.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.3.d
+	option = {
+	name = ABY_events.3.a
+		custom_effect_tooltip = ABY_events.3.a
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.4
+	title = ABY_events.4.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.4.d
+	option = {
+	name = ABY_events.4.a
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.5
+	title = ABY_events.5.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.5.d
+	option = {
+		name = ABY_events.5.a
+		add_ideas ABY_Stray_Cat_Lab
+		add_manpower = 10000
+	}
+	option = {
+		name = ABY_events.5.b
+        add_ideas ABY_Public_Affairs_Bureau
+	}
+
+	}
+country_event = {
+	id = ABY_events.6
+	title = ABY_events.6.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.6.d
+	option = {
+	name = ABY_events.6.a
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.7
+	title = ABY_events.7.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.7.d
+	option = {
+		name = ABY_events.7.a
+		complete_national_focus = ABY_Destroy_the_harmony_tree
+	}
+	option = {
+		name = ABY_events.7.b
+		complete_national_focus = ABY_Preserve_crime_of_magic
+	}
+}
+country_event = {
+	id = ABY_events.8
+	title = ABY_events.8.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.8.d
+	option = {
+	name = ABY_events.8.a
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.9
+	title = ABY_events.9.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.9.d
+	option = {
+	name = ABY_events.9.a
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.10
+	title = ABY_events.10.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = ABY_events.10.d
+	option = {
+	name = ABY_events.10.a
+
+	}
+
+	}
+country_event = {
+	id = ABY_events.11
+	title = ABY_events.11.t
+	desc = ABY_events.11.d
+	
+	is_triggered_only = yes	
+	fire_only_once = yes
+	
+	option = {
+		name = ABY_events.11.a
+		set_leader_name = ABY_King_Meowmeow_King
+		set_leader_description = ABY_King_Meowmeow_King_desc
+		country_event = fil_superevents.3
+	}
+}

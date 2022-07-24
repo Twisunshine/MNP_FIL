@@ -1,0 +1,17 @@
+
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		769 2164 2726 2844 3138 6512 8091 8123 
+	}
+	manpower=148925
+	state_category = wasteland
+	history = {
+		owner = KOT
+		add_core_of = KOT
+		add_claim_by = ABY
+		victory_points = { 2164 1 }
+	}
+	local_supplies=0.000
+}

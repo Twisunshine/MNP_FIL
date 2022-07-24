@@ -1,0 +1,21 @@
+
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		448 2135 3403 4048 4510 5417 6027 7374 7435 
+	}
+	manpower=696132
+	state_category = rural
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 448 1 }
+	}
+	resources = {
+	    oil = 95
+    }
+	local_supplies=3.000
+}

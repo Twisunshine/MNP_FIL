@@ -1,0 +1,16 @@
+
+state={
+	id=674
+	name="STATE_674"
+	provinces={
+		1544 2179 4580 4582 5210 6467 8214 
+	}
+	manpower=1891652
+	state_category = city
+	history = {
+		owner = POF
+		add_core_of = POF
+		victory_points = { 5210 15 }
+	}
+	local_supplies=15.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=379
+	name="STATE_379"
+	provinces={
+		227 533 1006 2143 3149 3820 4297 4755 6547 7370 7373 7379 
+	}
+	manpower=654125
+	state_category = rural
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 2143 1 }
+	}
+	local_supplies=0.000
+}

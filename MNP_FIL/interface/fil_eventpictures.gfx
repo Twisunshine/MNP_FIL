@@ -1,0 +1,14 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_news_event_EEE_war"
+		texturefile = "gfx/event_pictures/news_event_EEE_war.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_starlight_eqs"
+		texturefile = "gfx/event_pictures/news_event_starlight_eqs.dds"
+	}
+
+	
+	
+}

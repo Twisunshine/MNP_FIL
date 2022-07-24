@@ -1,0 +1,27 @@
+
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		465 799 2353 2716 3292 3527 3665 3965 4173 4466 4780 5994 7499 7521 
+	}
+	manpower=946513
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 4173 3 }
+		buildings = {
+			dockyard = 2
+		    4173 = {
+		        naval_base = 1
+		    }
+		}
+	}
+	resources = {
+        steel = 16
+	}
+	local_supplies=5.000
+}

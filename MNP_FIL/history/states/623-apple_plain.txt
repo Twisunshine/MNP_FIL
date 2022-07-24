@@ -1,0 +1,18 @@
+
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		1059 2263 3236 3362 4675 4861 5630 7649 7650 7696 7703 
+	}
+	manpower=521063
+	state_category = rural
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 1059 1 }
+	}
+	local_supplies=3.000
+}

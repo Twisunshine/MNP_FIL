@@ -1,0 +1,16 @@
+
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		72 160 286 1266 1783 2373 3169 4912 5107 5669 5862 8137 8168 8184 8211 
+	}
+	manpower=596515
+	state_category = rural
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		victory_points = { 5862 1 }
+	}
+	local_supplies=0.000
+}

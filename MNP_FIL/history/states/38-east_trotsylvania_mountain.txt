@@ -1,0 +1,16 @@
+
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		26 809 1738 3705 4951 4961 7490 7504 7524 7528 7537 7550 
+	}
+	manpower=215105
+	state_category = wasteland
+	history = {
+		owner = TRO
+		add_core_of = TRO
+		victory_points = { 4961 1 }
+	}
+	local_supplies=0.000
+}

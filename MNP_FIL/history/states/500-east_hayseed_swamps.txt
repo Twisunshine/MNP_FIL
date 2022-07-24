@@ -1,0 +1,16 @@
+
+state={
+	id=500
+	name="STATE_500"
+	provinces={
+		161 733 1255 1818 2054 2310 2723 3383 3682 3698 4368 5090 5494 6322 7832 
+	}
+	manpower=456056
+	state_category = pastoral
+	history = {
+		owner = ANA
+		add_core_of = ANA
+		victory_points = { 3383 1 }
+	}
+	local_supplies=0.000
+}

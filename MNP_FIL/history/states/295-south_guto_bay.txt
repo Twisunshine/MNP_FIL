@@ -1,0 +1,16 @@
+
+state={
+	id=295
+	name="STATE_295"
+	provinces={
+		1241 1402 3543 4341 4549 5254 5322 7012 7040 7083 7095 
+	}
+	manpower=1982565
+	state_category = city
+	history = {
+		owner = SRG
+		add_core_of = SRG
+		victory_points = { 7083 10 }
+	}
+	local_supplies=5.000
+}

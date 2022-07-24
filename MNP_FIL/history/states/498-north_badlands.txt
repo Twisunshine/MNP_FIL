@@ -1,0 +1,16 @@
+
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		508 660 709 1994 2174 2631 2773 3262 3458 4094 4591 4626 4788 6549 7758 7773 7781 
+	}
+	manpower=98565
+	state_category = wasteland
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		victory_points = { 1994 1 }
+	}
+	local_supplies=0.000
+}

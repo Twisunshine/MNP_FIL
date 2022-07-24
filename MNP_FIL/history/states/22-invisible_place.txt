@@ -1,0 +1,15 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		146 2347 2879 3773 6194 6269 7525 7547 7596 
+	}
+	manpower=1
+	state_category = wasteland
+	history = {
+		owner = RIV
+		add_core_of = RIV
+		victory_points = { 6194 1 }
+	}
+	local_supplies=0.000
+}

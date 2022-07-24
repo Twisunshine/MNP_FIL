@@ -1,0 +1,16 @@
+
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		346 951 973 2516 2817 4526 4946 8600 
+	}
+	manpower=998891
+	state_category = town
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 973 3 }
+	}
+	local_supplies=0.000
+}

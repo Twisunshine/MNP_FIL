@@ -1,0 +1,16 @@
+
+state={
+	id=597
+	name="STATE_597"
+	provinces={
+		305 2857 3363 3424 3724 4024 4131 5044 5315 6130 6525 8079 8095 8115 8139 8150 
+	}
+	manpower=646516
+	state_category = wasteland
+	history = {
+		owner = ZEB
+		add_core_of = ZEB
+		victory_points = { 4131 1 }
+	}
+	local_supplies=0.000
+}

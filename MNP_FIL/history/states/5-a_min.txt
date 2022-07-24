@@ -1,0 +1,16 @@
+
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		1891 2088 2202 2812 7133 7137 
+	}
+	manpower=1005626
+	state_category = town
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 2088 1 }
+	}
+	local_supplies=0.000
+}

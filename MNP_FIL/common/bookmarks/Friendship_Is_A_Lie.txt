@@ -1,0 +1,107 @@
+bookmarks = {
+	bookmark = {
+		name = "FRIENDSHIP_IS_A_LIE_NAME"
+		desc = "FRIENDSHIP_IS_A_LIE_DESC"
+		date = 1004.1.1.12
+		picture = "gfx/interface/te_select_date_1004.dds"
+
+		default = yes
+		
+		default_country = "EER"
+	
+		EQU = {
+			history = EQU_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = authoritarian_democracy
+			ideas={
+				EQU_Harmonic_of_the_lighthouse
+				EQU_Twilight_Sparkle_Her_Majesty
+				EQU_war_cabinet
+			}
+			focuses = {
+
+			}
+		}
+		EOM = {
+			history = EOM_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = despotism
+			ideas = {
+				EOM_regicide_atrocities
+				EOM_dummy_parliament
+				EOM_torn_country
+			}
+			focuses = {
+
+			}
+		}
+		EER = {
+			history = EER_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = social_democracy
+			ideas = {
+				EER_stop_depriving_sign_of_cute_temporarily_1
+				EER_starlight_glimmer_building
+				EER_heterochromatic_ideal
+			}
+			focuses = {
+				EER_C1_26
+				EER_C1_29
+				EER_C1_35
+			}
+			
+		}
+		CRY = {
+			history = CRY_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = despotism
+			ideas={
+				
+			}	
+			focuses = {
+
+			}		
+		}
+		CLK = {
+			history = CLK_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = despotism
+			ideas = {
+				CLK_Love_of_hunger_1
+				CLK_Morphological_changes_1
+				CLK_Tolt_contract_1
+			}
+			focuses = {
+
+			}
+		}
+		KIR = {
+			history = KIR_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = despotism
+			ideas={
+
+			}
+			focuses = {
+
+			}			
+		}
+		ABY = {
+			history = ABY_FRIENDSHIP_IS_A_LIE_DESC
+			ideology = despotism
+			ideas = {
+				ABY_A_country_full_of_barren
+				ABY_national_power_struggle
+				ABY_Democratic_Revolutionary_Movement
+			}
+			focuses = {
+				ABY_A_normal_day
+				ABY_Kings_speech
+				ABY_The_queen_in_power
+			}
+		}
+
+		"---"={
+			history = "OTHER_FRIENDSHIP_IS_A_LIE_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345
+			#123 = { rain_light = yes }
+		}
+	}
+}

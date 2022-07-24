@@ -1,0 +1,16 @@
+
+state={
+	id=413
+	name="STATE_413"
+	provinces={
+		41 194 1135 1349 1504 1880 3651 4725 5251 5264 5428 5608 7480 
+	}
+	manpower=456156
+	state_category = pastoral
+	history = {
+		owner = GFE
+		add_core_of = GFE
+		victory_points = { 5428 3 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		252 869 1326 2242 3023 3071 4038 4068 5661 6332 6470 7673 7689 
+	}
+	manpower=3105320
+	state_category = metropolis
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 252 20 }
+		buildings = {
+		    infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+		    air_base = 6
+		    252 = {
+		        naval_base = 3
+		    }
+		}
+	}
+	local_supplies=20.000
+}

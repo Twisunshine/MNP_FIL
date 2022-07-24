@@ -1,0 +1,16 @@
+
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		169 1106 3227 4365 5120 5681 6488 6985 
+	}
+	manpower=165156
+	state_category = wasteland
+	history = {
+		owner = SRG
+		add_core_of = SRG
+		victory_points = { 169 1 }
+	}
+	local_supplies=0.000
+}

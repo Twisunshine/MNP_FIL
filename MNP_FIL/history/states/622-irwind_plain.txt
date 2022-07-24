@@ -1,0 +1,16 @@
+
+state={
+	id=622
+	name="STATE_622"
+	provinces={
+		15 1908 2392 3468 4107 5077 5320 6253 8080 8158 
+	}
+	manpower=781895
+	state_category = rural
+	history = {
+		owner = IRW
+		add_core_of = IRW
+		victory_points = { 1908 1 }
+	}
+	local_supplies=0.000
+}

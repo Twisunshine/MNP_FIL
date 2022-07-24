@@ -1,0 +1,26 @@
+
+state={
+	id=434
+	name="STATE_434"
+	provinces={
+		1113 1551 2323 3892 4302 7577 7623 7645 
+	}
+	manpower=1945123
+	state_category = city
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 4302 3 }
+		buildings = {
+		    infrastructure = 3
+			arms_factory = 1
+			dockyard = 3
+		    4302 = {
+		        naval_base = 3
+		    }
+		}
+	}
+	local_supplies=10.000
+}

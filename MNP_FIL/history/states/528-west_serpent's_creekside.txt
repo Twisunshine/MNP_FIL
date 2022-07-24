@@ -1,0 +1,16 @@
+
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		244 641 2021 2249 3440 4233 4927 5014 7827 
+	}
+	manpower=815615
+	state_category = rural
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 641 1 }
+	}
+	local_supplies=0.000
+}

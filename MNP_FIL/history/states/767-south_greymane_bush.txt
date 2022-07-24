@@ -1,0 +1,16 @@
+
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		1117 2656 3508 4680 5930 8604 8606 8622 
+	}
+	manpower=464515
+	state_category = pastoral
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		victory_points = { 5930 1 }
+	}
+	local_supplies=3.000
+}

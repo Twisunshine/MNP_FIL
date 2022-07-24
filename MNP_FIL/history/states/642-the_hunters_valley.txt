@@ -1,0 +1,16 @@
+
+state={
+	id=642
+	name="STATE_642"
+	provinces={
+		978 2304 2650 3529 5404 5752 6326 6347 8242 
+	}
+	manpower=316515
+	state_category = pastoral
+	history = {
+		owner = ERS
+		add_core_of = ERS
+		victory_points = { 6347 1 }
+	}
+	local_supplies=0.000
+}

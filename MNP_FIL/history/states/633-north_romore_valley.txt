@@ -1,0 +1,16 @@
+
+state={
+	id=633
+	name="STATE_633"
+	provinces={
+		1348 2795 2933 3581 4336 4537 8169 8281 
+	}
+	manpower=432022
+	state_category = pastoral
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		victory_points = { 3581 1 }
+	}
+	local_supplies=0.000
+}

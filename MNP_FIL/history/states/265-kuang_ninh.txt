@@ -1,0 +1,16 @@
+
+state={
+	id=265
+	name="STATE_265"
+	provinces={
+		965 1565 1928 2189 2567 2823 4390 6325 
+	}
+	manpower=1318655
+	state_category = town
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 4390 1 }
+	}
+	local_supplies=3.000
+}

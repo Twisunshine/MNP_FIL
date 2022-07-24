@@ -1,0 +1,16 @@
+
+state={
+	id=275
+	name="STATE_275"
+	provinces={
+		133 283 1076 1592 2075 3855 4002 5087 5386 5512 5820 6528 7047 7103 
+	}
+	manpower=1981655
+	state_category = city
+	history = {
+		owner = THR
+		add_core_of = THR
+		victory_points = { 2075 15 }
+	}
+	local_supplies=15.000
+}

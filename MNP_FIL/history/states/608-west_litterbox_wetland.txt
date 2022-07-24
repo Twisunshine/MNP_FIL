@@ -1,0 +1,17 @@
+
+state={
+	id=608
+	name="STATE_608"
+	provinces={
+		1100 1127 2141 2311 3322 3880 4030 4611 4949 5771 6357 8171 8180 
+	}
+	manpower=835135
+	state_category = rural
+	history = {
+		owner = KOT
+		add_core_of = KOT
+		add_claim_by = ABY
+		victory_points = { 4611 3 }
+	}
+	local_supplies=0.000
+}

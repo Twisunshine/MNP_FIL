@@ -1,0 +1,17 @@
+characters={
+	BAN_parliament={
+		name=BAN_parliament
+		portraits={
+			civilian={
+				large="gfx/leaders/BAN/Portrait_BAN_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_controlled_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

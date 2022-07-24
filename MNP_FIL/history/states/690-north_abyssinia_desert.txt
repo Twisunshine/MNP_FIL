@@ -1,0 +1,16 @@
+
+state={
+	id=690
+	name="STATE_690"
+	provinces={
+		7 232 1132 1607 1921 1971 2038 2217 2853 2912 3002 3638 3917 4374 4595 5330 5559 5835 5891 6056 6478 8324 8333 8335 8375 8381 8387 8408 8413 8421 
+	}
+	manpower=106515
+	state_category = wasteland
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 8375 1 }
+	}
+	local_supplies=0.000
+}

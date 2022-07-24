@@ -1,0 +1,109 @@
+ideas = {
+	country = {
+#####################################################CLK
+        
+            CLK_Love_of_hunger_1 = {
+
+                allowed = {
+				    original_tag = CLK
+			    }
+
+                removal_cost = -1
+                picture = CLK_Love_of_hunger_1
+                modifier = {
+				consumer_goods_factor = 0.15
+				supply_consumption_factor = 0.10
+				army_attack_factor = 0.05
+				army_morale_factor = -0.10
+			    }
+            }
+				
+			CLK_Morphological_changes_1 = {
+
+                allowed = {
+				    original_tag = CLK
+			    }
+
+                removal_cost = -1
+                picture = CLK_Morphological_changes_1
+                modifier = {
+				decryption_factor = 0.15
+				army_attack_factor = 0.1
+				recon_factor = 0.2
+			    }
+            }
+				
+			CLK_colonial_west_EER_1 = {
+
+                    allowed = {
+				        original_tag = CLK
+			    }
+
+                removal_cost = -1
+                picture = CLK_colonial_west_EER_1
+                modifier = {
+				consumer_goods_factor = -0.10
+				war_support_factor = 0.15
+				supply_consumption_factor = -0.05
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.05
+			    }
+            }
+				
+			CLK_Tolt_contract_1 = {
+
+                    allowed = {
+				        original_tag = CLK
+			    }
+				
+				cancel = {
+				not = { has_war = no }
+				}
+
+                removal_cost = -1
+                picture = CLK_Tolt_contract_1
+                modifier = {
+				consumer_goods_factor = -0.05
+				war_support_factor = 0.10
+				stability_factor = 0.10
+			    }
+            }
+				
+			CLK_The_consequences_of_overexpansion_1 = {
+
+                    allowed = {
+				        original_tag = CLK
+			    }
+
+                removal_cost = -1
+                picture = The_consequences_of_overexpansion_1
+                modifier = {
+				conscription = -0.01
+				stability_factor = -0.10
+				production_speed_buildings_factor = -0.10
+				research_speed_factor = -0.10
+				local_resources_factor = -0.10
+			    }
+            }
+			
+			CLK_prefer_the_status_quo = {
+
+                    allowed = {
+				        original_tag = CLK
+			    }
+				
+				removal_cost = -1
+                picture = CLK_prefer_the_status_quo
+                modifier = {
+				conscription_factor = 0.2
+				experience_gain_army_factor = -0.10
+				training_time_factor = -0.10
+				army_defence_factor = -0.10
+				surrender_limit = 0.1
+			    }
+            }
+
+
+		
+		}
+}

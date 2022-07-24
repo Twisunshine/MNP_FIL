@@ -1,0 +1,17 @@
+characters={
+	POF_Grand_Duke={
+		name=POF_Grand_Duke
+		portraits={
+			civilian={
+				large="gfx/leaders/POF/Portrait_POF_Grand_Duke.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_aristocratic_conservatism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

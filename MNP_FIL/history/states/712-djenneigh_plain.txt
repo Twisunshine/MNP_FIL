@@ -1,0 +1,16 @@
+
+state={
+	id=712
+	name="STATE_712"
+	provinces={
+		1745 2540 5146 5789 8431 
+	}
+	manpower=1348585
+	state_category = large_town
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 5789 5 }
+	}
+	local_supplies=5.000
+}

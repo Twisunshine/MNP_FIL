@@ -1,0 +1,6 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+780;4737;sea;9243;-1;-1;-1;-1;;Manehattan
+2383;5707;sea;9842;-1;-1;-1;-1;;Stratusburg
+3500;3754;sea;9631;-1;-1;-1;-1;;Stratusburgisland
+2682;5416;sea;9110;-1;-1;-1;-1;;Kirin
+-1;-1;;-1;-1;-1;-1;-1;-1

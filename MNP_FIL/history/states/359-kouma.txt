@@ -1,0 +1,16 @@
+
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+		77 188 1405 5206 7299 7314 7324 7343 
+	}
+	manpower=3051556
+	state_category = megalopolis
+	history = {
+		owner = YAP
+		add_core_of = YAP
+		victory_points = { 7299 20 }
+	}
+	local_supplies=20.000
+}

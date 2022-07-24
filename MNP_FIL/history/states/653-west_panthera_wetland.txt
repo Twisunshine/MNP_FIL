@@ -1,0 +1,16 @@
+
+state={
+	id=653
+	name="STATE_653"
+	provinces={
+		348 511 668 677 1012 1025 2035 2380 4367 4506 4723 8204 8225 8296 
+	}
+	manpower=798485
+	state_category = rural
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 1012 1 }
+	}
+	local_supplies=0.000
+}

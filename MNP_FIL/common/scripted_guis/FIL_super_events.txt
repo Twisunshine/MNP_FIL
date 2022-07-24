@@ -1,0 +1,59 @@
+scripted_gui = {	
+	
+	#####################################
+	#				1.0.0				#
+	#####################################
+	
+	## Great War ##
+	
+	FIL_custom_super_event_eer_war = {
+		context_type = player_context
+		window_name = "FIL_super_event"
+
+		visible = {
+			has_global_flag = fil_super_event_flag_eee_war
+		}
+		
+		effects = {
+			Option_click = {
+				clr_global_flag = fil_super_event_flag_eee_war
+			}
+		}
+	}
+
+	FIL_custom_super_event_starlight_eqs = {
+		context_type = player_context
+		window_name = "FIL_starlight_eqs_super_event"
+
+		visible = {
+			has_global_flag = fil_super_event_flag_starlight_eqs
+		}
+		
+		effects = {
+			Option_click = {
+				clr_global_flag = fil_super_event_flag_starlight_eqs
+			}
+		}
+	}
+	
+	## Great War - Equestrian Victory ##
+	
+	
+	## ABY_King
+	
+	FIL_custom_super_event_Meowmeow_King = {
+		context_type = player_context
+		window_name = "FIL_Meowmeow_King_super_event"
+
+		visible = {
+			has_global_flag = fil_super_event_flag_Meowmeow_King
+		}
+		
+		effects = {
+			Option_click = {
+				clr_global_flag = fil_super_event_flag_Meowmeow_King
+			}
+		}
+	}
+	
+}

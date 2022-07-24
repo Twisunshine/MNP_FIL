@@ -1,0 +1,11 @@
+music = {
+	name = "maintheme"
+	file = "FIL_Main_Theme.ogg"
+	volume = 1
+}
+
+music = {
+	name = "main_vanilla"
+	file = "FIL_Main_Theme.ogg"
+	volume = 1
+}

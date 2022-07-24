@@ -1,0 +1,16 @@
+
+state={
+	id=664
+	name="STATE_664"
+	provinces={
+		520 742 1377 2920 3344 6085 6404 6481 8202 
+	}
+	manpower=688816
+	state_category = rural
+	history = {
+		owner = POF
+		add_core_of = POF
+		victory_points = { 6404 1 }
+	}
+	local_supplies=0.000
+}

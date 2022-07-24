@@ -1,0 +1,16 @@
+
+state={
+	id=728
+	name="STATE_728"
+	provinces={
+		397 828 1019 1527 2306 2747 2871 2971 3622 3716 4603 4858 5073 8468 8493 8525 8540 8542 8558 
+	}
+	manpower=1056565
+	state_category = town
+	history = {
+		owner = SHI
+		add_core_of = SHI
+		victory_points = { 828 3 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=718
+	name="STATE_718"
+	provinces={
+		683 1166 1247 1252 1656 1986 2775 3212 4893 8485 8507 8532 8553 
+	}
+	manpower=618885
+	state_category = rural
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		victory_points = { 1986 1 }
+	}
+	local_supplies=0.000
+}

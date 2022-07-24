@@ -1,0 +1,16 @@
+
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		59 319 392 868 1316 1628 2213 2811 3224 4034 4219 4278 4554 5075 5467 5484 6397 
+	}
+	manpower=183212
+	state_category = wasteland
+	history = {
+		owner = GFE
+		add_core_of = GFE
+		victory_points = { 2811 1 }
+	}
+	local_supplies=0.000
+}

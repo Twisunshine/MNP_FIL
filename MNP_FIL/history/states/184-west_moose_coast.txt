@@ -1,0 +1,16 @@
+
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		924 1868 4046 4081 6033 6799 
+	}
+	manpower=108665
+	state_category = wasteland
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		victory_points = { 1868 1 }
+	}
+	local_supplies=0.000
+}

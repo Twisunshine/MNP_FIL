@@ -1,0 +1,16 @@
+
+state={
+	id=615
+	name="STATE_615"
+	provinces={
+		71 257 597 1713 2024 2948 3194 3263 3559 4307 4754 4959 5291 5299 5378 8092 8121 8124 8146 
+	}
+	manpower=521615
+	state_category = wasteland
+	history = {
+		owner = POT
+		add_core_of = POT
+		victory_points = { 4959 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		646 849 1646 5769 6342 
+	}
+	manpower=45122
+	state_category = wasteland
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 6342 1 }
+	}
+	resources = {
+		rubber = 4
+	}
+	local_supplies=0.000
+}

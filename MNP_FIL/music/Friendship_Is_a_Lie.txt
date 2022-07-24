@@ -1,0 +1,18 @@
+music_station = "FIL_music_station"
+
+music = {
+song = "FIL_Main_Theme"
+}
+
+music = {
+	song = "In_Our_Town"
+
+	chance = {
+		factor = 0
+
+		modifier = {
+			tag = EER
+			factor = 20
+		}
+	}
+}

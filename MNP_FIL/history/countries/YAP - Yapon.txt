@@ -1,0 +1,35 @@
+﻿capital = 359
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 0
+	despotism = 0
+	authoritarian_democracy = 0
+	liberal_democracy = 100
+	social_democracy = 0
+	socialism = 0
+	communism = 0
+}
+
+add_ideas = {
+		
+}
+
+
+recruit_character = YAP_national_democratic_party

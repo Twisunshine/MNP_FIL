@@ -1,0 +1,17 @@
+characters={
+	PER_peryton_king={
+		name=PER_peryton_king
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Portrait_PER_peryton_king.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

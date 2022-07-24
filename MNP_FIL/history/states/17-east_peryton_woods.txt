@@ -1,0 +1,16 @@
+
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		3395 4472 5096 5296 5993 7671 
+	}
+	manpower=568165
+	state_category = rural
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = { 5096 1 }
+	}
+	local_supplies=0.000
+}

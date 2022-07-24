@@ -1,0 +1,16 @@
+
+state={
+	id=376
+	name="STATE_376"
+	provinces={
+		350 2669 3020 4076 6534 7326 
+	}
+	manpower=1651568
+	state_category = large_town
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		victory_points = { 350 1 }
+	}
+	local_supplies=0.000
+}

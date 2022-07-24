@@ -1,0 +1,16 @@
+
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		761 1197 1437 1493 1889 1914 3080 3267 3974 4049 4116 5521 6516 6888 6960 6967 6968 7001 
+	}
+	manpower=465155
+	state_category = pastoral
+	history = {
+		owner = MET
+		add_core_of = MET
+		victory_points = { 3267 1 }
+	}
+	local_supplies=0.000
+}

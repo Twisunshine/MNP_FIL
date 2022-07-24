@@ -1,0 +1,18 @@
+
+state={
+	id=340
+	name="STATE_340"
+	provinces={
+		1456 2592 3244 5148 5852 7223 7232 
+	}
+	manpower=1213156
+	state_category = large_town
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 5852 5 }
+	}
+	local_supplies=5.000
+}

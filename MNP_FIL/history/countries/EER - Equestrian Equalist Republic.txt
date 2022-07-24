@@ -1,0 +1,117 @@
+﻿capital = 304 
+
+oob = "EER_1004"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 0
+	despotism = 5
+	authoritarian_democracy = 1
+	liberal_democracy = 1
+	social_democracy = 65
+	socialism = 25
+	communism = 3
+}
+
+add_ideas = {
+		steampunk_era
+		large_scale_farming
+		more_popular
+		Flaws_do_not_hide_beauty
+		Universal_education
+		quite_satisfactory
+		extensive_conscription
+		war_economy
+		free_trade
+		public_private_partnership
+		male_only
+		basic_citizenship
+		EER_the_refugee_flows_1
+		EER_stop_depriving_sign_of_cute_temporarily_1
+		EER_starlight_glimmer_building
+		EER_heterochromatic_ideal
+
+}
+
+
+recruit_character = EER_Starlight_Glimmer
+
+recruit_character = EER_Double_Diamond
+recruit_character = EER_Party_Favor
+recruit_character = EER_Trixie_Lulamoon
+recruit_character = EER_Sugar_Belle
+recruit_character = EER_Night_Glider
+
+recruit_character = EER_Twisunshine_Intelligent
+recruit_character = EER_Coco_Pommel
+
+
+
+complete_national_focus = EER_C1_1
+complete_national_focus = EER_C1_2
+complete_national_focus = EER_C1_3
+complete_national_focus = EER_C1_4
+complete_national_focus = EER_C1_5
+complete_national_focus = EER_C1_6
+complete_national_focus = EER_C1_7
+complete_national_focus = EER_C1_8
+complete_national_focus = EER_C1_9
+complete_national_focus = EER_C1_10
+complete_national_focus = EER_C1_11
+complete_national_focus = EER_C1_12
+complete_national_focus = EER_C1_13
+complete_national_focus = EER_C1_14
+complete_national_focus = EER_C1_15
+complete_national_focus = EER_C1_16
+complete_national_focus = EER_C1_17
+complete_national_focus = EER_C1_18
+complete_national_focus = EER_C1_19
+complete_national_focus = EER_C1_20
+complete_national_focus = EER_C1_21
+complete_national_focus = EER_C1_22
+complete_national_focus = EER_C1_23
+complete_national_focus = EER_C1_24
+complete_national_focus = EER_C1_25
+complete_national_focus = EER_C1_26
+complete_national_focus = EER_C1_27
+complete_national_focus = EER_C1_28
+complete_national_focus = EER_C1_29
+complete_national_focus = EER_C1_30
+complete_national_focus = EER_C1_31
+complete_national_focus = EER_C1_32

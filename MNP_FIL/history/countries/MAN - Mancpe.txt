@@ -1,0 +1,35 @@
+﻿capital = 306
+
+set_research_slots = 2
+set_stability = 0.7
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 0
+	despotism = 0
+	authoritarian_democracy = 0
+	liberal_democracy = 0
+	social_democracy = 0
+	socialism = 0
+	communism = 100
+}
+
+add_ideas = {
+		
+}
+
+
+recruit_character = MAN_party_committee

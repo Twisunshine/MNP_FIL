@@ -1,0 +1,18 @@
+
+state={
+	id=599
+	name="STATE_599"
+	provinces={
+		279 432 1090 1206 2313 3359 3478 3731 4689 4695 4894 5252 5734 5783 7517 7580 7605 
+	}
+	manpower=798465
+	state_category = rural
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 4894 1 }
+	}
+	local_supplies=5.000
+}

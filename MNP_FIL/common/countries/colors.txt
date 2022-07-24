@@ -1,0 +1,16 @@
+EER = {
+	color = rgb { 255 20 147 }
+	color_ui = rgb { 255 20 147 }
+}
+EQU = {
+	color = rgb { 211 211 211 }
+	color_ui = rgb { 211 211 211 }
+}
+EOM = {
+	color = rgb { 25 25 112 }
+	color_ui = rgb { 25 25 112 }
+}
+CLK = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}

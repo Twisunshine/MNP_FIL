@@ -1,0 +1,16 @@
+
+state={
+	id=253
+	name="STATE_253"
+	provinces={
+		433 1800 1835 1930 3454 3571 3878 4668 6927 6935 6949 7017 
+	}
+	manpower=798495
+	state_category = rural
+	history = {
+		owner = MET
+		add_core_of = MET
+		victory_points = { 1930 1 }
+	}
+	local_supplies=0.000
+}

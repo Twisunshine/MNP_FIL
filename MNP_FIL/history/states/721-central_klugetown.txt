@@ -1,0 +1,16 @@
+
+state={
+	id=721
+	name="STATE_721"
+	provinces={
+		788 974 2633 3743 4735 4897 8492 8498 8518 8523 8537 
+	}
+	manpower=2345551
+	state_category = large_town
+	history = {
+		owner = KLU
+		add_core_of = KLU
+		victory_points = { 788 15 }
+	}
+	local_supplies=15.000
+}

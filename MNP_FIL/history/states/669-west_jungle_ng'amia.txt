@@ -1,0 +1,16 @@
+
+state={
+	id=669
+	name="STATE_669"
+	provinces={
+		1052 1060 1227 5524 6121 6328 8410 
+	}
+	manpower=465135
+	state_category = pastoral
+	history = {
+		owner = CNN
+		add_core_of = CNN
+		victory_points = { 8410 1 }
+	}
+	local_supplies=0.000
+}

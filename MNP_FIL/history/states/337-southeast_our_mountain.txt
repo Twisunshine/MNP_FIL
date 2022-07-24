@@ -1,0 +1,21 @@
+
+state={
+	id=337
+	name="STATE_337"
+	provinces={
+		360 440 840 1450 1816 1866 1973 2537 2654 3502 3602 4870 5007 5222 5542 6146 7114 7119 7122 
+	}
+	manpower=55820
+	state_category = wasteland
+	history = {
+		owner = EER
+		add_core_of = EER 
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 2537 1 }
+		buildings = {
+
+		}
+	}
+	local_supplies=1.000
+}

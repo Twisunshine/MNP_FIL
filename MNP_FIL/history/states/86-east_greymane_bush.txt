@@ -1,0 +1,16 @@
+
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		20 819 2798 3305 3584 3661 3919 4276 4943 5034 5581 6517 8444 8486 
+	}
+	manpower=1915665
+	state_category = city
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		victory_points = { 6517 15 }
+	}
+	local_supplies=15.000
+}

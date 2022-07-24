@@ -1,0 +1,16 @@
+
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		2625 8706 
+	}
+	manpower=253153
+	state_category = pastoral
+	history = {
+		owner = AQU
+		add_core_of = AQU
+		victory_points = { 2625 10 }
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=636
+	name="STATE_636"
+	provinces={
+		856 2359 2777 3518 4134 4446 6007 8176 8183 8207 8212 8229 
+	}
+	manpower=1561659
+	state_category = large_town
+	history = {
+		owner = ZEB
+		add_core_of = ZEB
+		victory_points = { 8183 15 }
+	}
+	local_supplies=5.000
+}

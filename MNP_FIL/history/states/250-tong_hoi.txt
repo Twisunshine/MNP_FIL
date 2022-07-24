@@ -1,0 +1,16 @@
+
+state={
+	id=250
+	name="STATE_250"
+	provinces={
+		1922 2039 4350 5565 6134 
+	}
+	manpower=990515
+	state_category = town
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 6134 5 }
+	}
+	local_supplies=5.000
+}

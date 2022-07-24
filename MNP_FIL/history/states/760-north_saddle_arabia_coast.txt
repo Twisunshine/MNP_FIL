@@ -1,0 +1,16 @@
+
+state={
+	id=760
+	name="STATE_760"
+	provinces={
+		304 368 462 2697 2845 2877 2889 3469 3505 3782 3789 4254 4558 4932 8641 
+	}
+	manpower=1251565
+	state_category = town
+	history = {
+		owner = SAD
+		add_core_of = SAD
+		victory_points = { 8641 3 }
+	}
+	local_supplies=5.000
+}

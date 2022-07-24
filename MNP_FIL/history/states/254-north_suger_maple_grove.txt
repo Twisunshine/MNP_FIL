@@ -1,0 +1,16 @@
+
+state={
+	id=254
+	name="STATE_254"
+	provinces={
+		88 415 490 494 736 743 937 945 1084 1116 1150 1970 3510 3695 4012 4470 4542 4940 5506 5667 5962 6936 6938 6979 6997 
+	}
+	manpower=451515
+	state_category = pastoral
+	history = {
+		owner = GFR
+		add_core_of = GFR
+		victory_points = { 4940 5 }
+	}
+	local_supplies=5.000
+}

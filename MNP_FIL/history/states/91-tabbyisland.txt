@@ -1,0 +1,14 @@
+state={
+	id=91
+	name="STATE_91"
+	provinces={
+		3883 6181 6310 6368 8579 8594 
+	}
+	manpower=948456
+	state_category = town
+	history = {
+		owner = ORN
+		add_core_of = ABY
+		victory_points = { 3883 5 }
+	}
+}

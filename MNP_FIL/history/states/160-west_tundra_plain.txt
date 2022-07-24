@@ -1,0 +1,16 @@
+
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		1750 2050 2859 2967 3172 6754 6765 
+	}
+	manpower=761565
+	state_category = rural
+	history = {
+		owner = REI
+		add_core_of = REI
+		victory_points = { 6765 1 }
+	}
+	local_supplies=0.000
+}

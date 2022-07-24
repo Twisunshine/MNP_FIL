@@ -1,0 +1,17 @@
+characters={
+	GRE_zebra_authorities={
+		name=GRE_horse_authorities
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_GRE_zebra_authorities.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=483
+	name="STATE_483"
+	provinces={
+		383 1639 2160 2205 4551 4758 6148 7736 7763 7769 
+	}
+	manpower=818656
+	state_category = rural
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = { 4758 3 }
+	}
+	local_supplies=0.000
+}

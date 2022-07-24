@@ -1,0 +1,16 @@
+
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		426 2826 4193 4965 5214 5495 8662 8677 8686 
+	}
+	manpower=1105665
+	state_category = town
+	history = {
+		owner = STO
+		add_core_of = SEA
+		victory_points = { 426 10 }
+	}
+	local_supplies=10.000
+}

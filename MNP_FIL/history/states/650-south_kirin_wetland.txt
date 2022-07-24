@@ -1,0 +1,16 @@
+
+state={
+	id=650
+	name="STATE_650"
+	provinces={
+		44 1172 1213 1453 1829 3706 4448 4848 5498 5683 5688 5861 8256 8264 8275 
+	}
+	manpower=389855
+	state_category = pastoral
+	history = {
+		owner = KIR
+		add_core_of = KIR
+		victory_points = { 1213 1 }
+	}
+	local_supplies=0.000
+}

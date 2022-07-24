@@ -1,0 +1,17 @@
+characters={
+	GFE_Griffon_Expedition={
+		name=GFE_Griffon_Expedition
+		portraits={
+			civilian={
+				large="gfx/leaders/GFE/Portrait_GFE_Griffon_Expedition.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_military_junta
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

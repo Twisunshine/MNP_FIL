@@ -1,0 +1,16 @@
+
+state={
+	id=140
+	name="STATE_140"
+	provinces={
+		1653 1839 3844 4215 4804 6074 6635 6647 6653 6665 
+	}
+	manpower=215523
+	state_category = wasteland
+	history = {
+		owner = BUG
+		add_core_of = BUG
+		victory_points = { 6074 1 }
+	}
+	local_supplies=0.000
+}

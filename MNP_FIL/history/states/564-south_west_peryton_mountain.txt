@@ -1,0 +1,16 @@
+
+state={
+	id=564
+	name="STATE_564"
+	provinces={
+		1320 1398 1825 2184 3055 5055 5242 7903 7963 
+	}
+	manpower=895156
+	state_category = town
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = { 5242 1 }
+	}
+	local_supplies=0.000
+}

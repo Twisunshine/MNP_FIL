@@ -1,0 +1,16 @@
+
+state={
+	id=550
+	name="STATE_550"
+	provinces={
+		1143 1941 3371 3896 4008 4553 4570 4641 5493 5821 6293 7877 7920 7932 7962 
+	}
+	manpower=105605
+	state_category = wasteland
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		victory_points = { 5493 1 }
+	}
+	local_supplies=0.000
+}

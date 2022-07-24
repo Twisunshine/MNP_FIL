@@ -1,0 +1,833 @@
+ideas = {
+
+	Industrial_Development = {
+		law = yes
+		use_list_view = yes
+
+
+
+		hoof_production = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+				production_factory_max_efficiency_factor = -0.3
+				production_speed_buildings_factor = -0.5
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		guild_production = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.3
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+
+			steampunk_era = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+
+		Specialized_chemical_factory = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			
+
+               default = yes
+			cancel_if_invalid = no
+		}
+
+			factory_complex = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.15
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+
+		industrial_city = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.2
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+
+		
+	}
+
+	Agricultural_Development = {
+		law = yes
+		use_list_view = yes
+
+			slash_and_burn = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				conscription_factor = -0.25
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		smallholder_model = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				conscription_factor = -0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		farm_production = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.05
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		large_scale_farming = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		commercial_agriculture = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		mechanized_agriculture = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				conscription_factor = 0.25
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+	}
+
+	Magic_popularized = {
+		law = yes
+		use_list_view = yes
+
+		no_magic_creature = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.15
+				line_change_production_efficiency_factor = -0.25
+				army_morale_factor = -0.1
+				supply_consumption_factor = 0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Occasional_Occult = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+				line_change_production_efficiency_factor = -0.15
+				army_morale_factor = -0.1
+				supply_consumption_factor = 0.05
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		more_popular = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+				line_change_production_efficiency_factor = -0.1
+				army_morale_factor = -0.05
+				supply_consumption_factor = 0.05
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		everywhere = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			
+            default = yes
+			cancel_if_invalid = no
+		}
+		Aura = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.05
+				line_change_production_efficiency_factor = 0.15
+				army_morale_factor = 0.05
+				supply_consumption_factor = -0.05
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		country_of_mages = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.1
+				line_change_production_efficiency_factor = 0.3
+				army_morale_factor = 0.15
+				supply_consumption_factor = -0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+	}
+
+	government_run = {
+		law = yes
+		use_list_view = yes
+
+		government_collapse = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			picture = government_collapse
+			modifier = {
+				stability_factor = -0.5
+				political_power_factor = -0.4
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		the_chaos = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			picture = the_chaos
+			modifier = {
+				stability_factor = -0.35
+				political_power_factor = -0.25
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		chaos = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			picture = chaos
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+			
+	 }
+	    Flaws_do_not_hide_beauty = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			picture = Flaws_do_not_hide_beauty
+			modifier = {
+				
+			}
+
+			
+            default = yes
+			cancel_if_invalid = no
+		}
+		smooth_operation = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			picture = smooth_operation
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.15
+			}
+
+			
+
+			cancel_if_invalid = no
+			
+	 }
+	 social_instrument = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			picture = social_instrument
+			modifier = {
+				stability_factor = 0.35
+				political_power_factor = 0.3
+			}
+
+			
+
+			cancel_if_invalid = no
+			
+	 }
+
+	
+}
+    
+	research_education = {
+		law = yes
+		use_list_view = yes
+
+		National_illiterate = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.4
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Basic_education = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.25
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Universal_education = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		Focus_on_scientific_research = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			
+           default = yes
+			cancel_if_invalid = no
+		}
+		Leading_scientific_research = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		academic_capital = {
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.2
+			}
+
+			
+
+			cancel_if_invalid = no	
+		}
+	}
+
+	army_quality = {
+		law = yes
+		use_list_view = yes
+		mob = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = -0.4
+				army_defence_factor = -0.4
+				army_org_factor = -0.3
+				army_speed_factor = -0.25
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		deserters_everywhere = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = -0.15
+				army_org_factor = -0.2
+				army_speed_factor = -0.15
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		straggler = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				army_org_factor = -0.1
+				army_speed_factor = -0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		quite_satisfactory = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+
+			
+            default = yes
+			cancel_if_invalid = no
+		}
+		Can_be_used = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_speed_factor = 0.05
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+		professional_army = {
+
+               available = {
+				custom_trigger_tooltip = {
+					tooltip = you_degree_of_social_development_no
+					always = no
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_org_factor = 0.1
+				army_speed_factor = 0.1
+			}
+
+			
+
+			cancel_if_invalid = no
+		}
+	}
+}
+
+#开局是否默认存在 default = yes

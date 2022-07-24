@@ -1,0 +1,19 @@
+state={
+	id=429
+	name="STATE_429"
+	provinces={
+		193 2012 3184 3873 4011 5739 5760 6216 
+	}
+	manpower=1351561
+	state_category = large_town
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 3184 1 }
+		buildings = {
+		    infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	local_supplies=5.000
+}

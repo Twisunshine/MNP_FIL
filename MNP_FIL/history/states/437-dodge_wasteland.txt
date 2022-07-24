@@ -1,0 +1,18 @@
+
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+		129 648 1758 1923 2991 3609 4110 4886 5332 5468 7542 7582 7593 
+	}
+	manpower=63321
+	state_category = wasteland
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 5468 1 }
+	}
+	local_supplies=0.000
+}

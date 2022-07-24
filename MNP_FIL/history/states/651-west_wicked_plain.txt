@@ -1,0 +1,16 @@
+
+state={
+	id=651
+	name="STATE_651"
+	provinces={
+		784 1142 2287 3809 4996 5360 8628 
+	}
+	manpower=316515
+	state_category = pastoral
+	history = {
+		owner = STO
+		add_core_of = STO
+		victory_points = { 1142 1 }
+	}
+	local_supplies=3.000
+}

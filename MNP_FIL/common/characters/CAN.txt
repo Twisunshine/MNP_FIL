@@ -1,0 +1,17 @@
+characters={
+	CAN_mayor={
+		name=CAN_mayor
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_CAN_mayor.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_controlled_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

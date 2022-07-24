@@ -1,0 +1,16 @@
+
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		2117 2298 3048 5609 5615 6218 8627 8732 8733 8734 
+	}
+	manpower=2162665
+	state_category = large_city
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 6218 20 }
+	}
+	local_supplies=20.000
+}

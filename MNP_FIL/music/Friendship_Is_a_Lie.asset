@@ -1,0 +1,8 @@
+music = {
+	name = "FIL_Main_Theme"
+	file = "FIL_Main_Theme.ogg"
+}
+music = {
+	name = "In_Our_Town"
+	file = "In Our Town.ogg"
+}

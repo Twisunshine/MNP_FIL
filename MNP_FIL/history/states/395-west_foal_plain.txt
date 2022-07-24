@@ -1,0 +1,21 @@
+
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		184 903 1262 2340 3000 3205 3596 3852 4635 4637 4672 4751 4771 4921 5735 5946 6462 7319 7330 7376 
+	}
+	manpower=976451
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 3205 3 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	local_supplies=5.000
+}

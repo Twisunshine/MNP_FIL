@@ -1,0 +1,16 @@
+
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		603 768 1817 3165 3461 3544 4422 5001 6245 7864 7866 7875 7898 
+	}
+	manpower=1089155
+	state_category = rural
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 3165 3 }
+	}
+	local_supplies=0.000
+}

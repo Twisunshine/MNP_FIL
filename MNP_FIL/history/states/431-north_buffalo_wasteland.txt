@@ -1,0 +1,22 @@
+
+state={
+	id=431
+	name="STATE_431"
+	provinces={
+		922 993 1513 1860 2615 3944 3964 4026 4462 5098 5349 7557 7592 7600 7608 
+	}
+	manpower=1536532
+	state_category = large_town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 3944 1 }
+		buildings = {
+		    infrastructure = 2
+			arms_factory = 2
+		}
+	}
+	local_supplies=0.000
+}

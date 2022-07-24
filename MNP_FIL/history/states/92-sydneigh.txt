@@ -1,0 +1,16 @@
+
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		1939 2745 2966 5131 8581 8602 
+	}
+	manpower=1614765
+	state_category = city
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 2966 10 }
+	}
+	local_supplies=0.000
+}

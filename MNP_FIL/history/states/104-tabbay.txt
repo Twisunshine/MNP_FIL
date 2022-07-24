@@ -1,0 +1,16 @@
+
+state={
+	id=104
+	name="STATE_104"
+	provinces={
+		1144 1259 2614 2821 3392 6050 6449 6539 8459 8505 
+	}
+	manpower=881656
+	state_category = rural
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 3392 1 }
+	}
+	local_supplies=0.000
+}

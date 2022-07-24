@@ -1,0 +1,16 @@
+
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		661 1175 1808 1836 2969 4439 7126 
+	}
+	manpower=2986561
+	state_category = large_city
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 1808 20 }
+	}
+	local_supplies=20.000
+}

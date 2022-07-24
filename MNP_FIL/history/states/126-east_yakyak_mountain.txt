@@ -1,0 +1,16 @@
+
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		90 2248 2417 4525 4701 5580 6681 6712 6722 
+	}
+	manpower=84651
+	state_category = wasteland
+	history = {
+		owner = YAK
+		add_core_of = YAK
+		victory_points = { 6712 1 }
+	}
+	local_supplies=0.000
+}

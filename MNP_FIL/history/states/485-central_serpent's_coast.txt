@@ -1,0 +1,16 @@
+
+state={
+	id=485
+	name="STATE_485"
+	provinces={
+		4819 5192 7747 7748 7755 
+	}
+	manpower=816515
+	state_category = rural
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 5192 1 }
+	}
+	local_supplies=0.000
+}

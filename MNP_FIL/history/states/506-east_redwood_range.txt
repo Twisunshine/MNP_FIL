@@ -1,0 +1,16 @@
+
+state={
+	id=506
+	name="STATE_506"
+	provinces={
+		245 452 1119 1274 1665 3934 4141 4271 4743 4786 5229 5297 5805 7783 7792 7826 
+	}
+	manpower=131655
+	state_category = wasteland
+	history = {
+		owner = FAR
+		add_core_of = FAR
+		victory_points = { 7783 1 }
+	}
+	local_supplies=0.000
+}

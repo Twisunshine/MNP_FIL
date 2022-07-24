@@ -1,0 +1,16 @@
+
+state={
+	id=426
+	name="STATE_426"
+	provinces={
+		1164 1337 1576 3684 4404 6065 6518 7468 7495 7515 7519 7545 
+	}
+	manpower=1008955
+	state_category = town
+	history = {
+		owner = GFS
+		add_core_of = GFS
+		victory_points = { 4404 3 }
+	}
+	local_supplies=5.000
+}

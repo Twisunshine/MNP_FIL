@@ -1,0 +1,16 @@
+
+state={
+	id=732
+	name="STATE_732"
+	provinces={
+		697 891 1502 1548 2071 2560 3481 3778 4228 4812 4966 5403 5538 5884 8513 8546 
+	}
+	manpower=115689
+	state_category = wasteland
+	history = {
+		owner = COC
+		add_core_of = COC
+		victory_points = { 4812 3 }
+	}
+	local_supplies=0.000
+}

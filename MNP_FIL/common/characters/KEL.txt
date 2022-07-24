@@ -1,0 +1,17 @@
+characters={
+	KEL_Queen={
+		name=KEL_Queen
+		portraits={
+			civilian={
+				large="gfx/leaders/KEL/Portrait_KEL_Queen.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

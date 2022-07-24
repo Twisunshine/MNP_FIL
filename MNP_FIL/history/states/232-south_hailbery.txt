@@ -1,0 +1,16 @@
+
+state={
+	id=232
+	name="STATE_232"
+	provinces={
+		600 847 1110 2198 3583 3870 4099 4168 4419 4535 6495 6895 6915 6917 6941 
+	}
+	manpower=856165
+	state_category = town
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		victory_points = { 4168 3 }
+	}
+	local_supplies=0.000
+}

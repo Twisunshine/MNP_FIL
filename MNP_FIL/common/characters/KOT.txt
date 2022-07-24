@@ -1,0 +1,18 @@
+characters={
+	KOT_King_Aspen={
+		name=KOT_King_Aspen
+		portraits={
+			civilian={
+				large="gfx/leaders/KOT/Portrait_KOT_King_Aspen.dds"
+			}
+		}
+		country_leader={
+			desc=KOT_King_Aspen_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

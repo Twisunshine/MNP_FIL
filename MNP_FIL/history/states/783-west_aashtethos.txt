@@ -1,0 +1,16 @@
+
+state={
+	id=783
+	name="STATE_783"
+	provinces={
+		136 853 1271 2008 2266 2985 3548 4691 4831 5545 5921 8674 8681 8683 8690 
+	}
+	manpower=3201556
+	state_category = megalopolis
+	history = {
+		owner = SAD
+		add_core_of = SAD
+		victory_points = { 3548 20 }
+	}
+	local_supplies=20.000
+}

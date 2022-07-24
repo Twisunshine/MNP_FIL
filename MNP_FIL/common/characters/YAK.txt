@@ -1,0 +1,18 @@
+characters={
+	YAK_Prince_Rutherford={
+		name=YAK_Prince_Rutherford
+		portraits={
+			civilian={
+				large="gfx/leaders/YAK/Portrait_YAK_Prince_Rutherford.dds"
+			}
+		}
+		country_leader={
+			desc=YAK_Prince_Rutherford_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

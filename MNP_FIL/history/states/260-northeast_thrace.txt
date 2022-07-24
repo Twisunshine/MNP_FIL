@@ -1,0 +1,16 @@
+
+state={
+	id=260
+	name="STATE_260"
+	provinces={
+		371 1577 3498 3913 4460 5639 6448 7087 
+	}
+	manpower=629156
+	state_category = rural
+	history = {
+		owner = THR
+		add_core_of = THR
+		victory_points = { 3913 1 }
+	}
+	local_supplies=0.000
+}

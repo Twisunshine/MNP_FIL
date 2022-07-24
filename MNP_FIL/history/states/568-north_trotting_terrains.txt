@@ -1,0 +1,16 @@
+
+state={
+	id=568
+	name="STATE_568"
+	provinces={
+		40 1123 2611 5461 5887 6143 7948 7970 7995 7998 
+	}
+	manpower=453205
+	state_category = pastoral
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 2611 1 }
+	}
+	local_supplies=0.000
+}

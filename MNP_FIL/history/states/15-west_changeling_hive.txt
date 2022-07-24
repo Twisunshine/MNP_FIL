@@ -1,0 +1,22 @@
+
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		3230 3792 5255 5842 6077 
+	}
+	manpower=2641500
+	state_category = metropolis
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 5255 25 }
+		buildings = {
+		    infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 4
+		    air_base = 4
+		}
+	}
+	local_supplies=20.000
+}

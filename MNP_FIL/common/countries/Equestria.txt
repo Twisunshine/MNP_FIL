@@ -1,0 +1,9 @@
+
+
+graphical_culture = EQS
+graphical_culture_2d = EQS
+
+#graphical_culture = middle_eastern_gfx
+#graphical_culture_2d = middle_eastern_2d
+
+color = RGB{ 211 211 211 } #LightGray

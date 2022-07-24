@@ -1,0 +1,17 @@
+characters={
+	YAP_national_democratic_party={
+		name=YAP_national_democratic_party
+		portraits={
+			civilian={
+				large="gfx/leaders/YAP/Portrait_YAP_national_democratic_party.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal_democracy_trade_liberalism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

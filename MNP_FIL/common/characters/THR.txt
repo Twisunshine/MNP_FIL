@@ -1,0 +1,18 @@
+characters={
+	THR_King_Diomedes={
+		name=THR_King_Diomedes
+		portraits={
+			civilian={
+				large="gfx/leaders/THR/Portrait_THR_King_Diomedes.dds"
+			}
+		}
+		country_leader={
+			desc=THR_King_Diomedes_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

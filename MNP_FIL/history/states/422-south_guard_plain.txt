@@ -1,0 +1,19 @@
+
+state={
+	id=422
+	name="STATE_422"
+	provinces={
+		186 429 748 1736 3121 3572 4238 7507 7588 
+	}
+	manpower=678465
+	state_category = rural
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 748 3 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,44 @@
+leader_traits = {
+    leaders_traits = {
+		random = no
+        foreign_subversive_activites = -0.30
+		political_power_gain = 0.05
+	}
+	party_committee = {
+	    random = no
+	    drift_defence_factor = 0.15
+	}
+	left_wing_leader = {
+	    random = no
+	    socialism_drift = 0.01
+	    production_factory_efficiency_gain_factor = 0.1
+	}
+	pedantic_peacemakers = {
+	    random = no
+	    stability_factor = 0.05
+	    consumer_goods_factor = 0.05
+	}
+	planned_economy_advocates = {
+	    random = no
+	    consumer_goods_factor = -0.05
+	    production_factory_max_efficiency_factor = 0.05
+	}
+	laissez_faire_economists = {
+	    random = no
+	    production_speed_infrastructure_factor = 0.1
+        production_speed_industrial_complex_factor = 0.1
+	}
+	hardworking_economic_layman = {
+	    random = no
+	    political_power_cost = 0.25
+        production_speed_industrial_complex_factor = 0.1
+	}
+	gentle_agent = {
+	    random = no
+	    resistance_growth_on_our_occupied_states = 0.1
+	}
+	kind_vase = {
+	    random = no
+	    stability_factor = 0.1
+	}
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=566
+	name="STATE_566"
+	provinces={
+		1682 1964 2597 4933 5578 5816 7906 7936 7941 7979 
+	}
+	manpower=516565
+	state_category = pastoral
+	history = {
+		owner = POT
+		add_core_of = POT
+		victory_points = { 7979 1 }
+	}
+	local_supplies=0.000
+}

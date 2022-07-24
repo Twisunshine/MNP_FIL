@@ -1,0 +1,15 @@
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		1958 2208 
+	}
+	manpower=151515
+	state_category = tiny_island
+	history = {
+		owner = RIV
+		add_core_of = RIV
+		victory_points = { 1958 1 }
+	}
+	local_supplies=0.000
+}

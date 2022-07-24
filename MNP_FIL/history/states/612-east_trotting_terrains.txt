@@ -1,0 +1,16 @@
+
+state={
+	id=612
+	name="STATE_612"
+	provinces={
+		1307 1739 3509 3735 4521 5253 8104 8114 8153 
+	}
+	manpower=246589
+	state_category = pastoral
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		victory_points = { 1307 1 }
+	}
+	local_supplies=0.000
+}

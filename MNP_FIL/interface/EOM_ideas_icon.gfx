@@ -1,0 +1,22 @@
+spriteTypes = {
+	
+	SpriteType = {
+        name = "GFX_idea_EOM_Orthodoxy_dynamic_modifier"
+        texturefile = "gfx/interface/ideas/EOM_Orthodoxy_dynamic_modifier.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_EOM_regicide_atrocities"
+        texturefile = "gfx/interface/ideas/EOM_regicide_atrocities.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_EOM_torn_country"
+        texturefile = "gfx/interface/ideas/EOM_torn_country.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EOM_dummy_parliament"
+        texturefile = "gfx/interface/ideas/EOM_dummy_parliament.dds"
+    }
+}

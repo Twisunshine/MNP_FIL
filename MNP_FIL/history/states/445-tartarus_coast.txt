@@ -1,0 +1,16 @@
+
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		61 489 688 1378 2270 2300 2319 2337 5249 5381 5442 5670 5702 5909 6108 7619 7625 7641 7657 
+	}
+	manpower=311535
+	state_category = pastoral
+	history = {
+		owner = TTU
+		add_core_of = TTU
+		victory_points = { 5249 1 }
+	}
+	local_supplies=3.000
+}

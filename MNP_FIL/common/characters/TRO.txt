@@ -1,0 +1,17 @@
+characters={
+	TRO_Administration={
+		name=TRO_Administration
+		portraits={
+			civilian={
+				large="gfx/leaders/TRO/Portrait_TRO_Administration.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal_democracy_liberal_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

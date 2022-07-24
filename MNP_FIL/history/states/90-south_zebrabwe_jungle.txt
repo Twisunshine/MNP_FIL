@@ -1,0 +1,16 @@
+
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		39 1026 1167 1359 1781 2272 2703 3787 5628 8162 8182 8198 8233 8254 
+	}
+	manpower=615515
+	state_category = wasteland
+	history = {
+		owner = ZEB
+		add_core_of = ZEB
+		victory_points = { 1359 1 }
+	}
+	local_supplies=0.000
+}

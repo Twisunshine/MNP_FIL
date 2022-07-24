@@ -1,0 +1,581 @@
+EER_starlight_eqs = {
+
+EER_starlight_eqs_1 = {
+
+available = {
+			has_country_flag = EQU_NOT
+			has_country_flag = EOM_NOT
+			has_country_flag = CLK_NOT
+		}
+		fire_only_once = yes
+
+		 complete_effect = {
+			
+			hidden_effect = {
+				set_country_flag = EER_Equestrian
+				set_cosmetic_tag = EQS_Unite
+				news_event = { id = EER_news_events.2 }
+				}
+		}
+
+}
+
+EER_starlight_eqs_2 = {
+
+available = {
+			has_country_flag = EQU_NOT
+		}
+		visible = {
+			NOT = { 
+				has_country_flag = EER_integrated_territory_EQU
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = eer_equ
+			hidden_effect = { 
+				add_state_core = 11
+				add_state_core = 358
+				add_state_core = 363
+				add_state_core = 325
+				add_state_core = 398
+				add_state_core = 383
+				add_state_core = 364
+				add_state_core = 197
+				add_state_core = 421
+				add_state_core = 737
+				add_state_core = 388
+				add_state_core = 443
+				add_state_core = 441
+				add_state_core = 434
+				add_state_core = 457
+				add_state_core = 427
+				add_state_core = 456
+				add_state_core = 453
+				add_state_core = 470
+				add_state_core = 561
+				add_state_core = 542
+				add_state_core = 532
+				add_state_core = 96
+				add_state_core = 482
+				add_state_core = 504
+				add_state_core = 518
+				add_state_core = 539
+				add_state_core = 493
+				add_state_core = 489
+				add_state_core = 527
+				add_state_core = 99
+				add_state_core = 465
+				add_state_core = 444
+				add_state_core = 455
+			 }
+		}
+
+}
+
+EER_starlight_eqs_2_1 = {
+available = {
+			has_country_flag = EQU_NOT
+		}
+		visible = {
+			has_country_flag = EER_integrated_territory_EQU
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 100
+
+		remove_effect = {
+			custom_effect_tooltip = eer_equ
+			hidden_effect = { 
+				add_state_core = 11
+				add_state_core = 358
+				add_state_core = 363
+				add_state_core = 325
+				add_state_core = 398
+				add_state_core = 383
+				add_state_core = 364
+				add_state_core = 197
+				add_state_core = 421
+				add_state_core = 737
+				add_state_core = 388
+				add_state_core = 443
+				add_state_core = 441
+				add_state_core = 434
+				add_state_core = 457
+				add_state_core = 427
+				add_state_core = 456
+				add_state_core = 453
+				add_state_core = 470
+				add_state_core = 561
+				add_state_core = 542
+				add_state_core = 532
+				add_state_core = 96
+				add_state_core = 482
+				add_state_core = 504
+				add_state_core = 518
+				add_state_core = 539
+				add_state_core = 493
+				add_state_core = 489
+				add_state_core = 527
+				add_state_core = 99
+				add_state_core = 465
+				add_state_core = 444
+				add_state_core = 455
+			 }
+		}
+
+}
+	
+
+EER_starlight_eqs_3 = {
+
+available = {
+			has_country_flag = EOM_NOT
+		}
+		visible = {
+			NOT = { 
+				has_country_flag = EER_integrated_territory_EOM
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = eer_eom
+			hidden_effect = { 
+				add_state_core = 11
+				add_state_core = 297
+				add_state_core = 344
+				add_state_core = 395
+				add_state_core = 402
+				add_state_core = 466
+				add_state_core = 319
+				add_state_core = 437
+				add_state_core = 623
+				add_state_core = 449
+				add_state_core = 478
+				add_state_core = 282
+				add_state_core = 288
+				add_state_core = 328
+				add_state_core = 355
+				add_state_core = 536
+				add_state_core = 14
+				add_state_core = 411
+				add_state_core = 431
+				add_state_core = 572
+				add_state_core = 554
+				add_state_core = 473
+				add_state_core = 442
+				add_state_core = 599
+				add_state_core = 420
+				add_state_core = 430
+				add_state_core = 230
+				add_state_core = 256
+				add_state_core = 281
+				add_state_core = 247
+				add_state_core = 249
+				add_state_core = 310
+				add_state_core = 299
+				add_state_core = 302
+				add_state_core = 313
+				add_state_core = 419
+				add_state_core = 390
+				add_state_core = 370
+				add_state_core = 350
+				add_state_core = 357
+				add_state_core = 369
+				add_state_core = 377
+				add_state_core = 407
+				add_state_core = 425
+				add_state_core = 415
+				add_state_core = 373
+				add_state_core = 98
+				add_state_core = 329
+				add_state_core = 312
+				add_state_core = 333
+				add_state_core = 327
+				add_state_core = 316
+				add_state_core = 321
+				add_state_core = 286
+				add_state_core = 226
+				add_state_core = 272
+				add_state_core = 46
+				add_state_core = 225
+				add_state_core = 270
+				add_state_core = 229
+			 }
+		}
+
+}
+EER_starlight_eqs_3_1 = {
+
+available = {
+			has_country_flag = EOM_NOT
+		}
+		visible = {
+			
+				has_country_flag = EER_integrated_territory_EOM
+			
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 100
+
+		remove_effect = {
+			custom_effect_tooltip = eer_eom
+			hidden_effect = { 
+				add_state_core = 11
+				add_state_core = 297
+				add_state_core = 344
+				add_state_core = 395
+				add_state_core = 402
+				add_state_core = 466
+				add_state_core = 319
+				add_state_core = 437
+				add_state_core = 623
+				add_state_core = 449
+				add_state_core = 478
+				add_state_core = 282
+				add_state_core = 288
+				add_state_core = 328
+				add_state_core = 355
+				add_state_core = 536
+				add_state_core = 14
+				add_state_core = 411
+				add_state_core = 431
+				add_state_core = 572
+				add_state_core = 554
+				add_state_core = 473
+				add_state_core = 442
+				add_state_core = 599
+				add_state_core = 420
+				add_state_core = 430
+				add_state_core = 230
+				add_state_core = 256
+				add_state_core = 281
+				add_state_core = 247
+				add_state_core = 249
+				add_state_core = 310
+				add_state_core = 299
+				add_state_core = 302
+				add_state_core = 313
+				add_state_core = 419
+				add_state_core = 390
+				add_state_core = 370
+				add_state_core = 350
+				add_state_core = 357
+				add_state_core = 369
+				add_state_core = 377
+				add_state_core = 407
+				add_state_core = 425
+				add_state_core = 415
+				add_state_core = 373
+				add_state_core = 98
+				add_state_core = 329
+				add_state_core = 312
+				add_state_core = 333
+				add_state_core = 327
+				add_state_core = 316
+				add_state_core = 321
+				add_state_core = 286
+				add_state_core = 226
+				add_state_core = 272
+				add_state_core = 46
+				add_state_core = 225
+				add_state_core = 270
+				add_state_core = 229
+			 }
+		}
+
+}
+
+
+EER_starlight_eqs_4 = {
+
+available = {
+			has_country_flag = CLK_NOT
+		}
+		visible = {
+			NOT = { 
+				has_country_flag = EER_integrated_territory_CLK
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = eer_clk
+			hidden_effect = { 
+				add_state_core = 332
+		add_state_core = 458
+		add_state_core = 401
+		add_state_core = 409
+		add_state_core = 384
+		add_state_core = 352
+		add_state_core = 406
+		add_state_core = 349
+		add_state_core = 393
+		add_state_core = 368
+		add_state_core = 158
+		add_state_core = 340
+		add_state_core = 381
+		add_state_core = 423
+			 }
+		}
+
+}
+EER_starlight_eqs_4_1 = {
+
+available = {
+			has_country_flag = CLK_NOT
+		}
+		visible = {
+			
+				has_country_flag = EER_integrated_territory_CLK
+			
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 100
+
+		remove_effect = {
+			custom_effect_tooltip = eer_clk
+			hidden_effect = { 
+				add_state_core = 332
+		add_state_core = 458
+		add_state_core = 401
+		add_state_core = 409
+		add_state_core = 384
+		add_state_core = 352
+		add_state_core = 406
+		add_state_core = 349
+		add_state_core = 393
+		add_state_core = 368
+		add_state_core = 158
+		add_state_core = 340
+		add_state_core = 381
+		add_state_core = 423
+			 }
+		}
+
+}
+EER_starlight_eqs_5 = {
+
+available = {
+			has_country_flag = CRY_NOT
+		}
+		visible = {
+			NOT = { 
+				has_country_flag = EER_integrated_territory_CRY
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = eer_cry
+			hidden_effect = { 
+				add_state_core = 222
+		add_state_core = 6
+		add_state_core = 217
+		add_state_core = 203
+		add_state_core = 211
+		add_state_core = 214
+		add_state_core = 165
+		add_state_core = 147
+		add_state_core = 200
+		add_state_core = 190
+		add_state_core = 181
+		add_state_core = 129
+		add_state_core = 187
+		add_state_core = 127
+		add_state_core = 124
+		add_state_core = 130
+			 }
+		}
+
+}
+EER_starlight_eqs_5_1 = {
+
+available = {
+			has_country_flag = CRY_NOT
+		}
+		visible = {
+			
+				has_country_flag = EER_integrated_territory_CRY
+			
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 100
+
+		remove_effect = {
+			custom_effect_tooltip = eer_cry
+			hidden_effect = { 
+				add_state_core = 222
+		add_state_core = 6
+		add_state_core = 217
+		add_state_core = 203
+		add_state_core = 211
+		add_state_core = 214
+		add_state_core = 165
+		add_state_core = 147
+		add_state_core = 200
+		add_state_core = 190
+		add_state_core = 181
+		add_state_core = 129
+		add_state_core = 187
+		add_state_core = 127
+		add_state_core = 124
+		add_state_core = 130
+			 }
+		}
+
+}
+	
+
+}
+
+
+EER_CLK_Thorax = {
+	EER_CLK_Thorax_1 = {
+		available = {
+			EER = {
+				AND = {
+					has_completed_focus = EER_C2s_3_10
+					has_political_power > 50
+				}
+			}
+		}
+		days_remove = 15
+		days_re_enable = 120
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_political_power = -50
+			CLK = { add_to_variable = { CLK_Thorax_rebellion = 1 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.003 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.003 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.005 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.002 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.000015 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.004 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.005 } }
+            force_update_dynamic_modifier = yes
+		}
+	}
+	EER_CLK_Thorax_2 = {
+		available = {
+			EER = {
+				AND = {
+					has_completed_focus = EER_C2s_3_10
+					has_equipment = {
+						infantry_equipment > 1000
+					}
+				}
+			}
+		}
+		days_remove = 15
+		days_re_enable = 150
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			CLK = {
+				CLK = { add_to_variable = { CLK_Thorax_rebellion = 2 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.006 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.006 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.01 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.004 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.00003 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.008 } }
+				CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.01 } }
+				force_update_dynamic_modifier = yes
+			}
+		}
+	}
+	EER_CLK_Thorax_3 = {
+		available = {
+			EER = {
+				AND = {
+					has_completed_focus = EER_C2s_3_10
+					OR = {
+						has_equipment = {
+							artillery_equipment_1 > 500
+						}
+						has_equipment = {
+							artillery_equipment_2 > 500
+						}
+						has_equipment = {
+							artillery_equipment_3 > 500
+						}
+					}
+				}
+			}
+		}
+		days_remove = 15
+		days_re_enable = 180
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			if = {
+				limit = {
+					has_equipment = {
+						artillery_equipment_1 > 500
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = -500
+				}
+			}
+			else_if = {
+				limit = {
+					has_equipment = {
+						artillery_equipment_2 > 500
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_2
+					amount = -500
+				}
+			}
+			else = {
+				limit = {
+					has_equipment = {
+						artillery_equipment_3 > 500
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_3
+					amount = -500
+				}
+			}
+			CLK = { add_to_variable = { CLK_Thorax_rebellion = 3 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.009 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.009 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.015 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.006 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.000045 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.012 } }
+            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.015 } }
+            force_update_dynamic_modifier = yes
+			
+		}
+	}
+}

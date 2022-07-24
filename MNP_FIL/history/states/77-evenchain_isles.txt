@@ -1,0 +1,16 @@
+
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		219 601 866 901 908 1441 2241 4547 4952 5358 5499 6078 6191 8192 8206 8232 8260 8270 
+	}
+	manpower=456921
+	state_category = pastoral
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 8232 1 }
+	}
+	local_supplies=5.000
+}

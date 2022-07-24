@@ -1,0 +1,16 @@
+
+state={
+	id=241
+	name="STATE_241"
+	provinces={
+		2692 3937 4207 4330 6902 6904 6928 6961 
+	}
+	manpower=856415
+	state_category = rural
+	history = {
+		owner = REI
+		add_core_of = REI
+		victory_points = { 6928 1 }
+	}
+	local_supplies=0.000
+}

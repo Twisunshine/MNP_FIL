@@ -1,0 +1,21 @@
+
+state={
+	id=288
+	name="STATE_288"
+	provinces={
+		553 763 1302 1489 2523 2890 3493 4593 5338 5401 5638 6097 6379 6385 6469 7075 7125 7149 7170 
+	}
+	manpower=961165
+	state_category = rural
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 6385 1 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	local_supplies=3.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		1333 2660 4531 4724 7433 7469 7488 
+	}
+	manpower=461532
+	state_category = pastoral
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 2660 1 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	local_supplies=3.000
+}

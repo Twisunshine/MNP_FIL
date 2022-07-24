@@ -1,0 +1,22 @@
+add_namespace = SHI_events
+
+country_event = {
+	id = SHI_events.cat_puppet
+	title = SHI_events.cat_puppet.t
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = SHI_events.cat_puppet.d
+	option = {
+		name = SHI_events.cat_puppet.a
+		ABY = { puppet = SHI }
+	}
+	option = {
+		name = SHI_events.cat_puppet.b
+		ABY = {
+			declare_war_on = { 
+				target = SHI    
+				type = puppet_wargoal_focus 
+			}
+		}
+	}
+}

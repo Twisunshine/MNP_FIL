@@ -1,0 +1,16 @@
+
+state={
+	id=569
+	name="STATE_569"
+	provinces={
+		384 785 1297 4682 5303 5614 5656 7997 7999 8014 8036 8053 8059 8081 
+	}
+	manpower=77692
+	state_category = wasteland
+	history = {
+		owner = POT
+		add_core_of = POT
+		victory_points = { 8053 1 }
+	}
+	local_supplies=0.000
+}

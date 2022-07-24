@@ -1,0 +1,16 @@
+
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		1345 2587 4562 5156 7632 7692 
+	}
+	manpower=130205
+	state_category = tiny_island
+	history = {
+		owner = DRA
+		add_core_of = DRA
+		victory_points = { 5156 1 }
+	}
+	local_supplies=5.000
+}

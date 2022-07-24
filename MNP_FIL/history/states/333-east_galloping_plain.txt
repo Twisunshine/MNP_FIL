@@ -1,0 +1,21 @@
+
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		1200 1442 1910 2051 2239 3056 3788 6012 6182 7188 7202 7207 7226 
+	}
+	manpower=1021652
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 2239 3 }
+		buildings = {
+		    infrastructure = 2
+		}
+	}
+	local_supplies=3.000
+}

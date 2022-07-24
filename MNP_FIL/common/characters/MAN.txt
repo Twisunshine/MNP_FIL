@@ -1,0 +1,17 @@
+characters={
+	MAN_party_committee={
+		name=MAN_party_committee
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_MAN_party_committee.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_communism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

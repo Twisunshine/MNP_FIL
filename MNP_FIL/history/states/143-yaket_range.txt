@@ -1,0 +1,16 @@
+
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		1321 1755 2188 2193 2268 2390 2414 2737 3295 3332 3780 4311 5232 5742 5867 6199 6231 6636 6659 6670 6687 6692 6723 
+	}
+	manpower=715618
+	state_category = town
+	history = {
+		owner = YKT
+		add_core_of = YKT
+		victory_points = { 6692 10 }
+	}
+	local_supplies=5.000
+}

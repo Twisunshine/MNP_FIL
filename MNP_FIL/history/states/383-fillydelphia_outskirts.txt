@@ -1,0 +1,22 @@
+
+state={
+	id=383
+	name="STATE_383"
+	provinces={
+		1027 2369 3049 3918 3936 4968 5537 
+	}
+	manpower=845181
+	state_category = rural
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 3918 3 }
+		buildings = {
+		    infrastructure = 2
+		    air_base = 2
+		}
+	}
+	local_supplies=10.000
+}

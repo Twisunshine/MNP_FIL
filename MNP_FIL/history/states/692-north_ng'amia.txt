@@ -1,0 +1,16 @@
+
+state={
+	id=692
+	name="STATE_692"
+	provinces={
+		920 1048 1387 1978 2001 2119 3756 4931 5724 6284 8451 
+	}
+	manpower=1005615
+	state_category = town
+	history = {
+		owner = CNN
+		add_core_of = CNN
+		victory_points = { 3756 3 }
+	}
+	local_supplies=0.000
+}

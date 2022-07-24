@@ -1,0 +1,16 @@
+
+state={
+	id=341
+	name="STATE_341"
+	provinces={
+		4229 6508 7385 
+	}
+	manpower=1695225
+	state_category = city
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		victory_points = { 7385 3 }
+	}
+	local_supplies=0.000
+}

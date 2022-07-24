@@ -1,0 +1,26 @@
+
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		347 596 1220 1228 3334 3394 3785 3898 4039 5759 5840 6466 7279 7287 7312 
+	}
+	manpower=655751
+	state_category = rural
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 347 5 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	resources = {
+		tungsten = 17
+		chromium = 4
+		aluminium = 40
+	}
+	local_supplies=0.000
+}

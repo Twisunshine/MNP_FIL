@@ -1,0 +1,16 @@
+
+state={
+	id=742
+	name="STATE_742"
+	provinces={
+		122 1588 1992 2378 2732 2810 3114 3958 3969 4970 5203 5445 5689 5995 6294 6533 8547 8567 8591 8596 
+	}
+	manpower=982560
+	state_category = rural
+	history = {
+		owner = KLU
+		add_core_of = KLU
+		victory_points = { 5203 1 }
+	}
+	local_supplies=0.000
+}

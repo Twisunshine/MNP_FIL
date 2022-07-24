@@ -1,0 +1,17 @@
+characters={
+	RIV_anarchy={
+		name=RIV_anarchy
+		portraits={
+			civilian={
+				large="gfx/leaders/RIV/Portrait_RIV_anarchy.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_anarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

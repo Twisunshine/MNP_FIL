@@ -1,0 +1,16 @@
+
+state={
+	id=171
+	name="STATE_171"
+	provinces={
+		333 618 1500 3691 4736 4994 5880 6750 6769 
+	}
+	manpower=54489
+	state_category = wasteland
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		victory_points = { 4736 1 }
+	}
+	local_supplies=0.000
+}

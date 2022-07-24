@@ -1,0 +1,17 @@
+
+
+CLK_Thorax_rebellion_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_CLK_Thorax_rebellion_dynamic_modifier
+
+	#INITIAL
+	stability_factor = CLK_Thorax_rebellion_stability_factor
+	war_support_factor = CLK_Thorax_rebellion_war_support_factor 
+	political_power_cost = CLK_Thorax_rebellion_political_power_cost 
+	monthly_population = CLK_Thorax_rebellion_monthly_population
+	compliance_growth = CLK_Thorax_rebellion_compliance_growth
+	resistance_target = CLK_Thorax_rebellion_resistance_target
+	resistance_damage_to_garrison = CLK_Thorax_rebellion_resistance_damage_to_garrison
+}
+

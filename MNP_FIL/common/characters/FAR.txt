@@ -1,0 +1,17 @@
+characters={
+	FAR_parliament={
+		name=FAR_parliament
+		portraits={
+			civilian={
+				large="gfx/leaders/FAR/Portrait_FAR_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_controlled_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

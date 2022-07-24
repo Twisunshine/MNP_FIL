@@ -1,0 +1,17 @@
+characters={
+	GRA_Renaissance_Alliance={
+		name=GRA_Renaissance_Alliance
+		portraits={
+			civilian={
+				large="gfx/leaders/GRA/Portrait_GRA_Renaissance_Alliance.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_fascism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

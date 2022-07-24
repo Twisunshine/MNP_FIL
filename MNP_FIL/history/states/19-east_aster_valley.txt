@@ -1,0 +1,16 @@
+
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		87 355 1346 2457 3979 7417 
+	}
+	manpower=1495622
+	state_category = town
+	history = {
+		owner = HGE
+		add_core_of = HGE
+		victory_points = { 355 5 }
+	}
+	local_supplies=5.000
+}

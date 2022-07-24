@@ -1,0 +1,16 @@
+
+state={
+	id=658
+	name="STATE_658"
+	provinces={
+		2408 2955 3376 4192 8363 8395 8398 
+	}
+	manpower=1055668
+	state_category = town
+	history = {
+		owner = ERS
+		add_core_of = ERS
+		victory_points = { 2955 5 }
+	}
+	local_supplies=5.000
+}

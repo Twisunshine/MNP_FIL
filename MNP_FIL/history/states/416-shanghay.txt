@@ -1,0 +1,16 @@
+
+state={
+	id=416
+	name="STATE_416"
+	provinces={
+		107 1537 2441 4017 4455 5427 5727 6241 6459 6540 7487 7497 7534 
+	}
+	manpower=3156556
+	state_category = megalopolis
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		victory_points = { 7534 15 }
+	}
+	local_supplies=20.000
+}

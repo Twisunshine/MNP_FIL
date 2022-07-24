@@ -1,0 +1,18 @@
+
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		566 1469 2279 5579 5808 6558 6954 
+	}
+	manpower=1068023
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 6558 3 }
+	}
+	local_supplies=5.000
+}

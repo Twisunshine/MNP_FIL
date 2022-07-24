@@ -1,0 +1,16 @@
+
+state={
+	id=342
+	name="STATE_342"
+	provinces={
+		30 982 1322 1582 1696 1729 1947 2219 2253 2258 2498 2658 2835 3040 3209 3623 3777 3869 4118 4721 5235 6164 6434 7180 7222 7260 7269 7307 
+	}
+	manpower=123665
+	state_category = wasteland
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 3777 1 }
+	}
+	local_supplies=0.000
+}

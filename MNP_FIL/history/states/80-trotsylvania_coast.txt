@@ -1,0 +1,16 @@
+
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		1535 2599 3153 4532 5412 5695 6238 7626 7633 7670 
+	}
+	manpower=1150550
+	state_category = town
+	history = {
+		owner = TRO
+		add_core_of = TRO
+		victory_points = { 7670 3 }
+	}
+	local_supplies=0.000
+}

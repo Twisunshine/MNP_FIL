@@ -1,0 +1,16 @@
+
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		2689 2789 3760 4061 4277 8575 8589 8592 8609 8624 
+	}
+	manpower=565420
+	state_category = pastoral
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 4277 1 }
+	}
+	local_supplies=0.000
+}

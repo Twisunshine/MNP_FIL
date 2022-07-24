@@ -1,0 +1,25 @@
+
+state={
+	id=332
+	name="STATE_332"
+	provinces={
+		774 833 2756 3136 4313 4411 4458 5281 6451 7238 7264 7266 
+	}
+	manpower=2054156
+	state_category = large_city
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 7264 15 }
+		buildings = {
+		    infrastructure = 3
+			dockyard = 2
+		    7264 = {
+		        naval_base = 3
+		    }
+		}
+	}
+	local_supplies=15.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=297
+	name="STATE_297"
+	provinces={
+		1552 2507 2543 3201 4148 7153 7177 7199 7208 
+	}
+	manpower=1053441
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 7153 3 }
+		buildings = {
+		    infrastructure = 2
+		}
+	}
+	local_supplies=5.000
+}

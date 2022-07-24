@@ -1,0 +1,16 @@
+
+state={
+	id=484
+	name="STATE_484"
+	provinces={
+		1566 1700 2036 2840 3316 5004 5539 5662 5901 5957 7719 7722 
+	}
+	manpower=1982565
+	state_category = large_city
+	history = {
+		owner = HHW
+		add_core_of = HHW
+		victory_points = { 7722 20 }
+	}
+	local_supplies=20.000
+}

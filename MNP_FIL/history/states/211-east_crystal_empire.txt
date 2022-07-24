@@ -1,0 +1,15 @@
+state={
+	id=211
+	name="STATE_211"
+	provinces={
+		1766 1774 1954 4268 4930 6843 6866 
+	}
+	manpower=311321
+	state_category = pastoral
+	history = {
+		owner = CRY
+		add_core_of = CRY
+		victory_points = { 4268 1 }
+	}
+	local_supplies=3.000
+}

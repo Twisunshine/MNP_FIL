@@ -1,0 +1,16 @@
+
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		391 1214 1903 3714 4240 4999 5454 5604 6150 6333 7586 7587 7594 7610 7652 7660 8722 8723 8724 8725 
+	}
+	manpower=306506
+	state_category = small_island
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 4240 1 }
+	}
+	local_supplies=0.000
+}

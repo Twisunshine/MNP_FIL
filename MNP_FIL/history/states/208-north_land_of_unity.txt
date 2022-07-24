@@ -1,0 +1,16 @@
+
+state={
+	id=208
+	name="STATE_208"
+	provinces={
+		552 609 1619 2125 2740 3076 3335 3947 4089 4865 5078 5292 6433 6499 6526 6781 6840 6841 6869 
+	}
+	manpower=1665652
+	state_category = large_town
+	history = {
+		owner = MET
+		add_core_of = MET
+		victory_points = { 4089 10 }
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=262
+	name="STATE_262"
+	provinces={
+		1070 1697 3700 4520 5577 7008 7014 7030 7065 
+	}
+	manpower=841813
+	state_category = rural
+	history = {
+		owner = EER
+		add_core_of = EER 
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 5577 1 }
+		buildings = {
+		    infrastructure = 2
+		}
+	}
+	local_supplies=4.000
+}

@@ -1,0 +1,17 @@
+characters={
+	MET_self-government_council={
+		name=MET_self-government_council
+		portraits={
+			civilian={
+				large="gfx/leaders/MET/Portrait_MET_self-government_council.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_committee_autonomy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

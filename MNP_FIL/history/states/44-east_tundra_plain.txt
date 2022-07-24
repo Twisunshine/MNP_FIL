@@ -1,0 +1,16 @@
+
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		76 549 1407 2925 6763 
+	}
+	manpower=998156
+	state_category = town
+	history = {
+		owner = REI
+		add_core_of = REI
+		victory_points = { 76 3 }
+	}
+	local_supplies=0.000
+}

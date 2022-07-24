@@ -1,0 +1,22 @@
+
+state={
+	id=193
+	name="STATE_193"
+	provinces={
+		682 777 1476 3708 3900 4115 4453 4976 5241 6490 6948 
+	}
+	manpower=346481
+	state_category = pastoral
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 6490 3 }
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+		}
+	}
+	local_supplies=3.000
+}

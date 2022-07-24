@@ -1,0 +1,16 @@
+
+state={
+	id=534
+	name="STATE_534"
+	provinces={
+		684 1684 2292 2450 2554 3837 4697 6067 7819 7838 7844 7858 7876 
+	}
+	manpower=1546515
+	state_category = large_town
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = { 7819 5 }
+	}
+	local_supplies=5.000
+}

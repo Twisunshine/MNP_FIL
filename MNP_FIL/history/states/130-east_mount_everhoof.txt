@@ -1,0 +1,16 @@
+
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		342 858 1675 2797 3341 3542 3573 6503 6505 6607 6608 6609 6634 6652 6658 6672 
+	}
+	manpower=12256
+	state_category = wasteland
+	history = {
+		owner = CRY
+		add_core_of = CRY
+		victory_points = { 3542 1 }
+	}
+	local_supplies=0.000
+}

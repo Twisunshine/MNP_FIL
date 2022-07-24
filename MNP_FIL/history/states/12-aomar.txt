@@ -1,0 +1,16 @@
+
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		2618 3370 3774 5402 7237 
+	}
+	manpower=1465625
+	state_category = large_town
+	history = {
+		owner = YAP
+		add_core_of = YAP
+		victory_points = { 2618 5 }
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=768
+	name="STATE_768"
+	provinces={
+		699 1225 2640 4154 6456 8607 8610 
+	}
+	manpower=741561
+	state_category = rural
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 4154 1 }
+	}
+	local_supplies=0.000
+}

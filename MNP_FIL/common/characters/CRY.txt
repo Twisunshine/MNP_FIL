@@ -1,0 +1,17 @@
+characters={
+	CRY_Crystal_Pony_Self-Defense_Force={
+		name=CRY_Crystal_Pony_Self-Defense_Force
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Portrait_CRY_Crystal_Pony_Self-Defense_Force.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_committee_autonomy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

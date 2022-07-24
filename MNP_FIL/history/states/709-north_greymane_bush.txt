@@ -1,0 +1,16 @@
+
+state={
+	id=709
+	name="STATE_709"
+	provinces={
+		135 1344 2112 2721 4730 5830 6421 8453 8476 8515 
+	}
+	manpower=900562
+	state_category = town
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		victory_points = { 8453 1 }
+	}
+	local_supplies=0.000
+}

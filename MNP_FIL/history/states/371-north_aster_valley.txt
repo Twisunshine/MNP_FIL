@@ -1,0 +1,16 @@
+
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		4 1666 2240 2564 3795 4597 5389 7245 7313 
+	}
+	manpower=751516
+	state_category = rural
+	history = {
+		owner = GFE
+		add_core_of = GFE
+		victory_points = { 2564 3 }
+	}
+	local_supplies=5.000
+}

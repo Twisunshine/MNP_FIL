@@ -1,0 +1,15 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		5416 8203 
+	}
+	manpower=1465610
+	state_category = large_town
+	history = {
+		owner = KIR
+		add_core_of = KIR
+		victory_points = { 5416 20 }
+	}
+	local_supplies=15.000
+}

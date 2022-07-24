@@ -1,0 +1,16 @@
+
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		396 543 1481 2364 2608 4304 5582 6349 8097 8112 8120 8157 
+	}
+	manpower=1698155
+	state_category = large_town
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		victory_points = { 8097 20 }
+	}
+	local_supplies=20.000
+}

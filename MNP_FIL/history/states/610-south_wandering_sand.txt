@@ -1,0 +1,19 @@
+
+state={
+	id=610
+	name="STATE_610"
+	provinces={
+		157 1096 1416 2092 4275 5418 5560 6474 7969 
+	}
+	manpower=594816
+	state_category = pastoral
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 1096 1 }
+	}
+	resources = {
+	    oil = 40
+    }
+	local_supplies=5.000
+}

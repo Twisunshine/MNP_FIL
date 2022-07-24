@@ -1,0 +1,16 @@
+
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		671 1370 2931 3365 3409 7050 7090 7092 7115 
+	}
+	manpower=136512
+	state_category = small_island
+	history = {
+		owner = SRG
+		add_core_of = SRG
+		victory_points = { 2931 1 }
+	}
+	local_supplies=0.000
+}

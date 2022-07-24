@@ -1,0 +1,16 @@
+
+state={
+	id=549
+	name="STATE_549"
+	provinces={
+		1508 2768 3308 3831 4007 4958 6424 7919 7987 
+	}
+	manpower=1315615
+	state_category = town
+	history = {
+		owner = POT
+		add_core_of = POT
+		victory_points = { 3831 10 }
+	}
+	local_supplies=10.000
+}

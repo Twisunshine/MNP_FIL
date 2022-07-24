@@ -1,0 +1,15 @@
+state={
+	id=300
+	name="STATE_300"
+	provinces={
+		615 870 1044 1605 3348 3364 3439 5022 7134 7135 7141 7144 7163 7179 7185 
+	}
+	manpower=243562
+	state_category = wasteland
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 3364 1 }
+	}
+	local_supplies=0.000
+}

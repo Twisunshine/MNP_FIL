@@ -1,0 +1,43 @@
+﻿l_english:
+ CLK_despotism:0 "幻形灵王国"
+ CLK_despotism_DEF:0 "幻形灵王国"
+ CLK_despotism_ADJ:0 "幻形灵"
+ CLK:0 "幻形灵王国"
+ CLK_DEF:0 "幻形灵王国"
+ CLK_ADJ:0 "幻形灵"
+ CLK_dictatorshipism_party:0 "女王派"
+ CLK_fascism_party:0 "民族派"
+ CLK_despotism_party:0 "邪茧统治"
+ CLK_authoritarian_democracy_party:0 "小马叛乱"
+ CLK_liberal_democracy_party:0 "索拉克斯叛乱"
+ CLK_social_democracy_party:0 "小马叛乱"
+ CLK_socialism_party:0 "共产党叛乱"
+ CLK_communism_party:0 "无政府主义叛乱"
+ 
+### 角色
+ 
+ CLK_Queen_Chrysalis:0 "邪茧女王"
+ CLK_Queen_Chrysalis_desc:0 ""
+ CLK_Thorax:0 "索拉克斯"
+ CLK_Thorax_desc:0 ""
+ 
+### 民族精神
+ CLK_Love_of_hunger_1:0 "爱意之饥"
+ CLK_Love_of_hunger_1_desc:0 ""
+ CLK_Morphological_changes_1:0 "形态变幻"
+ CLK_Morphological_changes_1_desc:0 ""
+ CLK_colonial_west_EER_1:0 "殖民西艾奎斯垂亚"
+ CLK_colonial_west_EER_1_desc:0 ""
+ CLK_Tolt_contract_1:0 "《托特尔和约》"
+ CLK_Tolt_contract_1_desc:0 "在小马自相残杀之时，我们把握住了时机，力图在他们最虚弱的时候用最小的代价征服他们。我们也确实做到了。\n\n在我们的军队深入到小马国腹地之前，小马国的新公主梦魇之月就主动向我们求和了。虽然我们可以拒绝她的乞求继续进军，但是实际上我们还没有做好和小马国进行全面战争的准备。因此，邪茧在条约内容明显对我们有利的情况下，和梦魇之月在小马国的托特尔签订了和约。\n\n根据和约条例，小马国西部广阔的土地被以租借的形式割让给我们，并且实际上我们不需要支付任何费用。恰恰相反，我们还可以掠夺这片土地上的财富充实我们的国库，以换取双方的互不侵犯条约。但是这些条目只不过是一纸空文而已，一旦时机成熟，我们就将撕毁和约，占领整个小马国。"
+ CLK_The_consequences_of_overexpansion_1:0 "过度扩张的后果"
+ CLK_The_consequences_of_overexpansion_1_desc:0 ""
+ CLK_prefer_the_status_quo:0 "安于现状"
+ CLK_prefer_the_status_quo_desc:0 "幻形灵在邪茧女王的统领下，已经成为了一个高度尚武的民族。我们的部族所有生物都是强大的战士，无需过多的训练，他们就能前往战场，与敌国士兵厮杀。幻形灵可能其他方面和其他生物难分伯仲，但在战斗意志上，绝对骄傲的挺立于世界！\n\n然而，在取得了对小马国战争初步的胜利后，我们的大多数战士沉浸在了已经取得的成果之中，自满之风迅速蔓延。邪茧女王坚定的认为小马不堪一击更是加剧了这种情况。我们希望我们的担忧是多余的，但是军队战斗力确实有下降的趋势。"
+ CLK_Thorax_rebellion_dynamic_modifier:0 "索拉克斯叛乱"
+ CLK_Thorax_rebellion_dynamic_modifier_desc:0 "1004年索拉克斯发起了一场不成功的政变。事后，数百谐律分子及其同情者被处决，国家内部的叛徒被基本肃清。但索拉克斯却成功逃走了，自此言信全无。\n\n而第二次有索拉克斯的消息，是我们的巡逻队在占领区遭到一支游击队袭击之后。现场的痕迹表明，我们的巡逻队遭到了幻形灵白己的袭击，自此，索拉克斯第一次露出来马脚。\n\n然而，找到索拉克斯的线索并没有为我们带来什么好处。恰恰相反，从那以后，一切都开始急剧恶化：我们占领区的小马越来越不安分；合作者经常遒到刺杀，然后被其他生物伪装和取代；巡逻队遭到伏击的报告数量提升了好几倍；我们幻化为小马的渗透武装在某一刻会突然失去联系；索拉克斯明日张胆的进行着各种叛乱行动我们却亳无反制的办法……这一切都让在占领区本就不受欢迎的我们更加焦头烂额。假如我们不希望占领区的情况继续恶化，我们就必须想办法找出并处决叛国贼索拉克斯。"
+ 
+ 
+### 决议
+ CLK_war_in_eqs:0 "对小马国的战争"
+ CLK_war_in_eqs_1:0 "向平等国投降"

@@ -1,0 +1,43 @@
+spriteTypes = {
+	
+	SpriteType = {
+        name = "GFX_idea_EQU_Orthodoxy_dynamic_modifier"
+        texturefile = "gfx/interface/ideas/EQU_Orthodoxy_dynamic_modifier.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EQU_refugees"
+        texturefile = "gfx/interface/ideas/EQU_refugees.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EQU_Harmonic_of_the_lighthouse"
+        texturefile = "gfx/interface/ideas/EQU_Harmonic_of_the_lighthouse.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_EQU_Twilight_Sparkle_Her_Majesty"
+        texturefile = "gfx/interface/ideas/EQU_Twilight_Sparkle_Her_Majesty.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EQU_The_destruction_of_Baltimore"
+        texturefile = "gfx/interface/ideas/EQU_The_destruction_of_Baltimore.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_idea_EQU_Cutie_Mark"
+        texturefile = "gfx/interface/ideas/EQU_Cutie_Mark.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EQU_war_cabinet"
+        texturefile = "gfx/interface/ideas/EQU_war_cabinet.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_EQU_The_legacy_of_the_magic_exchange_students"
+        texturefile = "gfx/interface/ideas/EQU_The_legacy_of_the_magic_exchange_students.dds"
+    }
+	
+}

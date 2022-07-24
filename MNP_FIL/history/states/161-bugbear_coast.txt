@@ -1,0 +1,16 @@
+
+state={
+	id=161
+	name="STATE_161"
+	provinces={
+		4146 4194 4732 5012 6731 6761 6778 6804 
+	}
+	manpower=784616
+	state_category = rural
+	history = {
+		owner = BUG
+		add_core_of = BUG
+		victory_points = { 4194 10 }
+	}
+	local_supplies=5.000
+}

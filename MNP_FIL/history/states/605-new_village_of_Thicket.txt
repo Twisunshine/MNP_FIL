@@ -1,0 +1,16 @@
+
+state={
+	id=605
+	name="STATE_605"
+	provinces={
+		724 904 3824 4447 4913 5301 6173 6426 8098 
+	}
+	manpower=1298561
+	state_category = large_town
+	history = {
+		owner = KOT
+		add_core_of = KOT
+		victory_points = { 8098 10 }
+	}
+	local_supplies=5.000
+}

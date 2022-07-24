@@ -1,0 +1,16 @@
+
+state={
+	id=268
+	name="STATE_268"
+	provinces={
+		128 285 1392 4956 5961 7028 
+	}
+	manpower=498948
+	state_category = pastoral
+	history = {
+		owner = SRG
+		add_core_of = SRG
+		victory_points = { 4956 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		69 385 610 2140 2664 2979 3108 4204 5010 6353 7710 7717 7741 
+	}
+	manpower=865155
+	state_category = town
+	history = {
+		owner = HHW
+		add_core_of = HHW
+		victory_points = { 2664 3 }
+	}
+	local_supplies=3.000
+}

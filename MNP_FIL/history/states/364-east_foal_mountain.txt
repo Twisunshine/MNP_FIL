@@ -1,0 +1,22 @@
+
+state={
+	id=364
+	name="STATE_364"
+	provinces={
+		880 1159 1759 1828 2016 3337 3812 6396 7262 7273 
+	}
+	manpower=334861
+	state_category = pastoral
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 880 1 }
+	}
+	resources = {
+	    oil = 12
+		steel = 36
+    }
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+characters={
+	IRW_the_duke_of_Maretonia={
+		name=IRW_the_duke_of_Maretonia
+		portraits={
+			civilian={
+				large="gfx/leaders/IRW/Portrait_IRW_the_duke_of_Maretonia.dds"
+			}
+		}
+		country_leader={
+			desc=IRW_the_duke_of_Maretonia_desc
+			ideology=social_democracy_progressive_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

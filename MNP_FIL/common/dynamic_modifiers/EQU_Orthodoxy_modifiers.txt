@@ -1,0 +1,16 @@
+
+
+EQU_Orthodoxy_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_EQU_Orthodoxy_dynamic_modifier
+
+	#INITIAL
+	stability_factor = EQU_Orthodoxy_stability_factor
+	war_support_factor = EQU_Orthodoxy_war_support_factor 
+	political_power_factor = EQU_Orthodoxy_political_power_factor 
+	industrial_capacity_factory = EQU_Orthodoxy_industrial_capacity_factory
+	conscription_factor = EQU_Orthodoxy_conscription_factor
+	army_attack_factor = EQU_Orthodoxy_army_attack_factor
+	army_morale_factor = EQU_Orthodoxy_army_morale_factor
+}

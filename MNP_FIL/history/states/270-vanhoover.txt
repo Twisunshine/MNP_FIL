@@ -1,0 +1,26 @@
+
+state={
+	id=270
+	name="STATE_270"
+	provinces={
+		442 513 546 654 4062 4199 4799 5477 5674 5893 6995 7038 7063 7094 
+	}
+	manpower=3121465
+	state_category = megalopolis
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 442 15 }
+		buildings = {
+		    infrastructure = 4
+			industrial_complex = 3
+			dockyard = 4
+		    442 = {
+		        naval_base = 3
+		    }
+		}
+	}
+	local_supplies=15.000
+}

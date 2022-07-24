@@ -1,0 +1,17 @@
+characters={
+	HGE_parliament={
+		name=HGE_parliament
+		portraits={
+			civilian={
+				large="gfx/leaders/ZEM/Portrait_HGE_parliament.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_committee_autonomy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=697
+	name="STATE_697"
+	provinces={
+		652 2515 2820 2978 3426 4082 5134 6366 8369 8409 8456 
+	}
+	manpower=291250
+	state_category = pastoral
+	history = {
+		owner = ANA
+		add_core_of = ANA
+		victory_points = { 8409 1 }
+	}
+	local_supplies=0.000
+}

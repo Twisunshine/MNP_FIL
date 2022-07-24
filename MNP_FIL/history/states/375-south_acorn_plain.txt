@@ -1,0 +1,16 @@
+
+state={
+	id=375
+	name="STATE_375"
+	provinces={
+		578 2134 2718 3723 4102 6274 7286 7302 
+	}
+	manpower=216848
+	state_category = pastoral
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 4102 1 }
+	}
+	local_supplies=5.000
+}

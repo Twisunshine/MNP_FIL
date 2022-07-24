@@ -1,0 +1,16 @@
+
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		152 617 2503 2643 2911 3160 4051 4587 5017 5645 5775 5936 6536 8685 8693 
+	}
+	manpower=1891652
+	state_category = city
+	history = {
+		owner = STO
+		add_core_of = STO
+		victory_points = { 5645 20 }
+	}
+	local_supplies=15.000
+}

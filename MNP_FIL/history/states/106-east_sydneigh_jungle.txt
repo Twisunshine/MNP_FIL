@@ -1,0 +1,16 @@
+
+state={
+	id=106
+	name="STATE_106"
+	provinces={
+		138 580 622 1562 3155 5158 8613 8614 
+	}
+	manpower=658985
+	state_category = rural
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 138 1 }
+	}
+	local_supplies=0.000
+}

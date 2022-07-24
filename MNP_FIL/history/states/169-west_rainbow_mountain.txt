@@ -1,0 +1,19 @@
+
+state={
+	id=169
+	name="STATE_169"
+	provinces={
+		363 503 1069 1859 1968 2556 3558 3673 4356 5535 5999 6110 6485 6685 6715 6814 
+	}
+	manpower=12151
+	state_category = wasteland
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 363 1 }
+		buildings = {}
+	}
+	local_supplies=0.000
+}

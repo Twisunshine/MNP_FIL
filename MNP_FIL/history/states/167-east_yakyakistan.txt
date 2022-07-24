@@ -1,0 +1,16 @@
+
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		1103 1584 3081 3303 4378 5362 5937 6460 6661 6755 
+	}
+	manpower=986512
+	state_category = town
+	history = {
+		owner = YAK
+		add_core_of = YAK
+		victory_points = { 3303 5 }
+	}
+	local_supplies=5.000
+}

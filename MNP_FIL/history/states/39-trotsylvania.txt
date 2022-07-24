@@ -1,0 +1,16 @@
+
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		1318 1479 2046 2222 2924 3318 3742 4916 6254 7583 7590 7598 7642 
+	}
+	manpower=1982565
+	state_category = large_city
+	history = {
+		owner = TRO
+		add_core_of = TRO
+		victory_points = { 1479 20 }
+	}
+	local_supplies=20.000
+}

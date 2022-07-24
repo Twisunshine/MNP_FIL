@@ -1,0 +1,18 @@
+
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		594 820 1078 1088 1185 1967 3358 3717 4499 5554 6154 6538 7197 7274 
+	}
+	manpower=645511
+	state_category = rural
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 594 1 }
+	}
+	local_supplies=5.000
+}

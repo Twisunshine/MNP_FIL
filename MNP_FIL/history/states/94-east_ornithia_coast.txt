@@ -1,0 +1,16 @@
+
+state={
+	id=94
+	name="STATE_94"
+	provinces={
+		1032 1884 4127 5885 8645 
+	}
+	manpower=1450055
+	state_category = large_town
+	history = {
+		owner = ORN
+		add_core_of = ORN
+		victory_points = { 8645 3 }
+	}
+	local_supplies=0.000
+}

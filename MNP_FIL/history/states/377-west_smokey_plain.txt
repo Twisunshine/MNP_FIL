@@ -1,0 +1,25 @@
+
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		258 883 1313 1372 2719 2914 3063 3353 3501 4163 4589 7277 7338 7354 
+	}
+	manpower=961233
+	state_category = rural
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 883 1 }
+		buildings = {
+		    infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	resources = {
+        oil = 26
+	}
+	local_supplies=3.000
+}

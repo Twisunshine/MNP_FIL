@@ -1,0 +1,16 @@
+
+state={
+	id=334
+	name="STATE_334"
+	provinces={
+		28 1382 1390 2374 2900 3317 3683 3863 4485 6413 7228 7252 
+	}
+	manpower=648915
+	state_category = rural
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		victory_points = { 7252 1 }
+	}
+	local_supplies=0.000
+}

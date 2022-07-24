@@ -1,0 +1,58 @@
+ideas = {
+	country = {
+        #弑君暴行
+        EOM_regicide_atrocities = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_regicide_atrocities
+
+            modifier = {
+                political_power_factor = -0.25
+				stability_factor = -0.1
+                war_support_factor = -0.25
+                production_factory_max_efficiency_factor = -0.1
+                conscription_factor = -0.05
+                army_morale_factor = -0.15
+            }
+        }
+        #虚设的议会
+        EOM_dummy_parliament = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_dummy_parliament
+
+            modifier = {
+                political_power_factor = 0.05
+				stability_factor = -0.25
+                despotism_drift = -0.01
+                production_factory_efficiency_gain_factor = -0.05
+            }
+        }
+        #撕裂的国家
+        EOM_torn_country = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_torn_country
+
+            modifier = {
+                monthly_population = -0.2
+                war_support_factor = -0.25
+                conscription_factor = -0.05
+                army_attack_factor = -0.1
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = -0.05
+            }
+        }
+
+		
+    }
+}

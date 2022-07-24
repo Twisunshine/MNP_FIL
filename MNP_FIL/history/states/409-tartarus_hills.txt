@@ -1,0 +1,22 @@
+
+state={
+	id=409
+	name="STATE_409"
+	provinces={
+		328 772 1637 1823 2433 4759 4849 5385 6425 
+	}
+	manpower=315321
+	state_category = pastoral
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 4759 1 }
+	}
+	resources = {
+	    steel = 16
+	    tungsten = 17
+    }
+	local_supplies=3.000
+}

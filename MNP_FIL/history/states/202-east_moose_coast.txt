@@ -1,0 +1,16 @@
+
+state={
+	id=202
+	name="STATE_202"
+	provinces={
+		492 2093 3471 4045 4905 5161 5519 6876 6898 6912 
+	}
+	manpower=448915
+	state_category = pastoral
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		victory_points = { 492 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		1217 1284 1386 2475 3402 5906 7371 7408 7430 
+	}
+	manpower=2042565
+	state_category = city
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 1284 15 }
+	}
+	local_supplies=15.000
+}

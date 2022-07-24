@@ -1,0 +1,17 @@
+
+state={
+	id=180
+	name="STATE_180"
+	provinces={
+		246 412 1184 3151 3497 4353 4873 5600 6794 6833 6853 
+	}
+	manpower=495123
+	state_category = rural
+	history = {
+		owner = GFR
+		add_core_of = GFR
+		add_core_of = MET
+		victory_points = { 412 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=782
+	name="STATE_782"
+	provinces={
+		3522 3676 3976 3986 4197 8684 8689 8692 8694 
+	}
+	manpower=841610
+	state_category = rural
+	history = {
+		owner = STO
+		add_core_of = STO
+		victory_points = { 4197 1 }
+	}
+	local_supplies=0.000
+}

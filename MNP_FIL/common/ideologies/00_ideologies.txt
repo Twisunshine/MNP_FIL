@@ -1,0 +1,245 @@
+ideologies = {
+	
+	dictatorshipism = {
+	
+		types = {
+			dictatorshipism_dictatorshipism = { can_be_randomly_selected = no }
+			dictatorshipism_practical_harmonicism = { can_be_randomly_selected = no }
+			dictatorshipism_new_harmonicism = { can_be_randomly_selected = no }
+			dictatorshipism_governance_of_Sombra = { can_be_randomly_selected = no }
+			dictatorshipism_our_town_system = { can_be_randomly_selected = no }
+			dictatorshipism_fundamental_harmonicism = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 112 48 160 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 5.0
+				army_intel_to_others = 5.0
+				navy_intel_to_others = 5.0
+				airforce_intel_to_others = 5.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	fascism = {
+	
+		types = {
+			fascism_fascism = { can_be_randomly_selected = no }
+			fascism_friendshipism = { can_be_randomly_selected = no }
+			fascism_the_spirit_of_loyalty = { can_be_randomly_selected = no }
+			fascism_corporatism_statism = { can_be_randomly_selected = no }
+			fascism_racial_purity_socialism = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 197 90 17 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 15.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	despotism = {
+	
+		types = {
+			despotism_despotism = { can_be_randomly_selected = no }
+			despotism_governance_of_Nightmare_Moon = { can_be_randomly_selected = no }
+			despotism_changeling_system = { can_be_randomly_selected = no }
+			despotism_military_junta = { can_be_randomly_selected = no }
+			despotism_absolute_monarchy = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 13 13 13 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 15.0
+				army_intel_to_others = 15.0
+				navy_intel_to_others = 15.0
+				airforce_intel_to_others = 15.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	authoritarian_democracy = {
+	
+		types = {
+			authoritarian_democracy_authoritarian_democracy = { can_be_randomly_selected = no }
+			authoritarian_democracy_Celestia_system = { can_be_randomly_selected = no }
+			authoritarian_democracy_oligarchy = { can_be_randomly_selected = no }
+			authoritarian_democracy_controlled_democracy = { can_be_randomly_selected = no }
+			authoritarian_democracy_committee_autonomy = { can_be_randomly_selected = no }
+			authoritarian_democracy_provisional_government = { can_be_randomly_selected = no }
+			authoritarian_democracy_aristocratic_conservatism = { can_be_randomly_selected = no }
+			authoritarian_democracy_semi-constitutional_monarchy = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 127 127 127 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 15.0
+				airforce_intel_to_others = 10.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	liberal_democracy = {
+	
+		types = {
+			liberal_democracy_liberal_democracy = { can_be_randomly_selected = no }
+			liberal_democracy_harmonicism = { can_be_randomly_selected = no }
+			liberal_democracy_trade_liberalism = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 0 112 192 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 20.0
+				airforce_intel_to_others = 10.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	social_democracy = {
+	
+		types = {
+			social_democracy_social_democracy = { can_be_randomly_selected = no }
+			social_democracy_equalism = { can_be_randomly_selected = no }
+			social_democracy_utopian_equalism = { can_be_randomly_selected = no }
+			social_democracy_Celestiaism = { can_be_randomly_selected = no }
+			social_democracy_our_town_model = { can_be_randomly_selected = no }
+			social_democracy_parliamentary_socialism = { can_be_randomly_selected = no }
+			social_democracy_progressive_democracy = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 255 20 147 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 20.0
+				airforce_intel_to_others = 10.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	socialism = {
+	
+		types = {
+			socialism_socialism = { can_be_randomly_selected = no }
+			socialism_equalist_socialism = { can_be_randomly_selected = no }
+			socialism_practical_communism = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 255 0 0 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				ai_get_ally_desire_factor = -500
+				civilian_intel_to_others = 20.0
+				army_intel_to_others = 15.0
+				navy_intel_to_others = 15.0
+				airforce_intel_to_others = 15.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+		
+	communism = {
+	
+		types = {
+			communism_communism = { can_be_randomly_selected = no }
+			communism_authoritarian_communism = { can_be_randomly_selected = no }
+			communism_anarcho-communism = { can_be_randomly_selected = no }
+			communism_radical_communism = { can_be_randomly_selected = no }
+			communism_anarchy = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 192 0 0 }
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 10.0
+				army_intel_to_others = 15.0
+				navy_intel_to_others = 15.0
+				airforce_intel_to_others = 15.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

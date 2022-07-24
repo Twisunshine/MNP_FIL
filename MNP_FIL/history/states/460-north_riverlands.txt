@@ -1,0 +1,16 @@
+
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		1804 2946 3036 4389 4496 4540 7661 7672 7676 
+	}
+	manpower=386161
+	state_category = pastoral
+	history = {
+		owner = RIV
+		add_core_of = RIV
+		victory_points = { 1804 1 }
+	}
+	local_supplies=0.000
+}

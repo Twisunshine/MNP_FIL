@@ -1,0 +1,23 @@
+
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		320 410 874 985 1236 4315 5124 5753 5970 7531 
+	}
+	manpower=651254
+	state_category = large_town
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 5753 5 }
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+		}
+	}
+	local_supplies=0.000
+}

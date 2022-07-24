@@ -1,0 +1,23 @@
+
+state={
+	id=449
+	name="STATE_449"
+	provinces={
+		1033 2338 2586 2636 2736 3479 4579 5827 6406 6542 7576 7607 7613 7617 7658 
+	}
+	manpower=1021050
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 5827 10 }
+		buildings = {
+		    infrastructure = 3
+			arms_factory = 1
+		    air_base = 2
+		}
+	}
+	local_supplies=10.000
+}

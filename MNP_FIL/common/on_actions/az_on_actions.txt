@@ -1,0 +1,33 @@
+on_actions = {
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = EER
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EQU }
+							owns_state = 11
+						}
+					}
+					EER = {
+						country_event = EER_events.2
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EOM }
+							owns_state = 350
+						}
+					}
+					EER = {
+						country_event = EER_events.3
+					}
+				}
+			}
+		}
+	}
+}

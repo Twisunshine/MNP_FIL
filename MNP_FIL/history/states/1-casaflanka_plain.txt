@@ -1,0 +1,16 @@
+
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		216 2225 2453 4086 4322 5123 5325 5958 6187 7923 
+	}
+	manpower=991515
+	state_category = town
+	history = {
+		owner = FAR
+		add_core_of = FAR
+		victory_points = { 4086 5 }
+	}
+	local_supplies=5.000
+}

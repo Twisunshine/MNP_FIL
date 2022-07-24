@@ -1,0 +1,16 @@
+
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		4543 5324 7005 
+	}
+	manpower=1505292
+	state_category = town
+	history = {
+		owner = SRG
+		add_core_of = SRG
+		victory_points = { 4543 3 }
+	}
+	local_supplies=5.000
+}

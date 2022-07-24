@@ -1,0 +1,27 @@
+
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		94 997 1523 2023 2807 3989 4057 4665 4860 4937 5898 6410 6442 7039 7053 
+	}
+	manpower=1985156
+	state_category = large_city
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 997 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+		}
+	}
+	resources = {
+		steel = 34
+		aluminium = 24
+	}
+	local_supplies=10.000
+}

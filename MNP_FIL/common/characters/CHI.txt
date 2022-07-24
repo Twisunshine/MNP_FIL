@@ -1,0 +1,17 @@
+characters={
+	CHI_royal_family={
+		name=CHI_royal_family
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_CHI_royal_family.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=367
+	name="STATE_367"
+	provinces={
+		18 378 851 1495 1509 1974 2057 2172 2855 3798 4461 5106 5812 7205 7221 7275 7288 
+	}
+	manpower=619825
+	state_category = pastoral
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_claim_by = BAN
+		victory_points = { 1495 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+characters={
+	HHW_Sunny_Skies={
+		name=HHW_Sunny_Skies
+		portraits={
+			civilian={
+				large="gfx/leaders/HHW/Portrait_HHW_Sunny_Skies.dds"
+			}
+		}
+		country_leader={
+			desc=HHW_Sunny_Skies_desc
+			ideology=liberal_democracy_liberal_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

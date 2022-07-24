@@ -1,0 +1,16 @@
+
+state={
+	id=239
+	name="STATE_239"
+	provinces={
+		1008 1155 2456 2569 3420 3616 4766 5103 5983 6897 6924 6930 6934 6973 6976 
+	}
+	manpower=120656
+	state_category = wasteland
+	history = {
+		owner = GFR
+		add_core_of = GFR
+		victory_points = { 6924 1 }
+	}
+	local_supplies=0.000
+}

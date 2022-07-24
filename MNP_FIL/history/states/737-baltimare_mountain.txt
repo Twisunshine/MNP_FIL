@@ -1,0 +1,22 @@
+
+state={
+	id=737
+	name="STATE_737"
+	provinces={
+		938 1029 1315 2473 4290 5081 6240 7386 7409 7439 7447 7473 
+	}
+	manpower=21564
+	state_category = wasteland 
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 7447 1 }
+	}
+	resources = {
+		steel = 59
+		aluminium = 10
+    }
+	local_supplies=0.000
+}

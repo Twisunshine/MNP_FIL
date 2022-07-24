@@ -1,0 +1,25 @@
+
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		120 205 331 811 1276 2609 3621 5595 6356 7418 7426 7471 7477 
+	}
+	manpower=1861532
+	state_category = city
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 120 5 }
+		buildings = {
+		    infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	resources = {
+	    tungsten = 3
+    }
+	local_supplies=5.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=741
+	name="STATE_741"
+	provinces={
+		3 1035 1844 2158 3050 3538 4984 5272 5475 5722 8517 8538 8556 8559 8566 8577 8583 8585 8601 8615 
+	}
+	manpower=2845656
+	state_category = metropolis
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		victory_points = { 8585 20 }
+	}
+	local_supplies=15.000
+}

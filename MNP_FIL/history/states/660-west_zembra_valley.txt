@@ -1,0 +1,16 @@
+
+state={
+	id=660
+	name="STATE_660"
+	provinces={
+		366 446 2622 3736 3768 6188 
+	}
+	manpower=564849
+	state_category = pastoral
+	history = {
+		owner = ZEM
+		add_core_of = ZEM
+		victory_points = { 366 1 }
+	}
+	local_supplies=3.000
+}

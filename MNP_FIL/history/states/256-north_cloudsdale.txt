@@ -1,0 +1,23 @@
+
+state={
+	id=256
+	name="STATE_256"
+	provinces={
+		315 941 1447 2524 3520 4469 5618 6064 6483 7077 
+	}
+	manpower=1114846
+	state_category = city
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 2524 3 }
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+	local_supplies=5.000
+}

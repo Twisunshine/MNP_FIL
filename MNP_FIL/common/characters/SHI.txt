@@ -1,0 +1,17 @@
+characters={
+	SHI_Social_Democrats={
+		name=SHI_Social_Democrats
+		portraits={
+			civilian={
+				large="gfx/leaders/SHI/Portrait_SHI_Social_Democrats.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_progressive_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		402 550 771 1239 1728 3217 5175 5750 6491 8060 8076 8085 8106 
+	}
+	manpower=791515
+	state_category = rural
+	history = {
+		owner = KIR
+		add_core_of = KIR
+		victory_points = { 8085 3 }
+	}
+	local_supplies=3.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=131
+	name="STATE_131"
+	provinces={
+		561 875 1424 1651 1856 2485 2800 3607 4430 5949 6610 6620 6655 6664 6669 6676 6686 6706 
+	}
+	manpower=289981
+	state_category = pastoral
+	history = {
+		owner = YKT
+		add_core_of = YKT
+		victory_points = { 6686 1 }
+	}
+	local_supplies=1.000
+}

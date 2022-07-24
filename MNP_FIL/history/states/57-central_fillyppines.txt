@@ -1,0 +1,16 @@
+
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		1554 2522 6262 8099 8727 8728 8730 
+	}
+	manpower=1656251
+	state_category = large_town
+	history = {
+		owner = FLP
+		add_core_of = FLP
+		victory_points = { 2522 5 }
+	}
+	local_supplies=10.000
+}

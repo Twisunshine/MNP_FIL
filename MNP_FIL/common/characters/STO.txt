@@ -1,0 +1,18 @@
+characters={
+	STO_The_Storm_King={
+		name=STO_The_Storm_King
+		portraits={
+			civilian={
+				large="gfx/leaders/STO/Portrait_STO_The_Storm_King.dds"
+			}
+		}
+		country_leader={
+			desc=STO_The_Storm_King_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

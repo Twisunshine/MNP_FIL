@@ -1,0 +1,22 @@
+
+state={
+	id=321
+	name="STATE_321"
+	provinces={
+		502 1334 1763 4438 5458 6051 6564 7175 
+	}
+	manpower=64152
+	state_category = wasteland
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 1334 1 }
+	}
+	resources = {
+	    steel = 37
+        tungsten = 11
+	}
+	local_supplies=0.000
+}

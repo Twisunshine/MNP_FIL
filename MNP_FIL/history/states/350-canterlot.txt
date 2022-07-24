@@ -1,0 +1,23 @@
+
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		1394 1664 2294 3178 5047 5588 6312 6362 7203 7278 
+	}
+	manpower=1941534
+	state_category = megalopolis
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 1664 30 }
+		buildings = {
+		    infrastructure = 5
+			industrial_complex = 8
+		    air_base = 5
+		}
+	}
+	local_supplies=20.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=663
+	name="STATE_663"
+	provinces={
+		38 1047 2947 2989 3647 4572 5287 5587 6210 8285 8307 8329 
+	}
+	manpower=2798485
+	state_category = metropolis
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 8329 25 }
+	}
+	local_supplies=25.000
+}

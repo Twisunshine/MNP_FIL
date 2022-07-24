@@ -1,0 +1,19 @@
+
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		779 1093 1855 3630 3902 4992 7506 7518 7520 7548 7572 7574 7630 
+	}
+	manpower=464812
+	state_category = pastoral
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 7548 1 }
+	}
+	resources = {
+	    oil = 62
+    }
+	local_supplies=0.000
+}

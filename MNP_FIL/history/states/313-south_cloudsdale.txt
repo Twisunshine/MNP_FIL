@@ -1,0 +1,23 @@
+
+state={
+	id=313
+	name="STATE_313"
+	provinces={
+		496 778 1751 2932 3004 3175 3279 4004 5510 6169 6258 7146 7152 
+	}
+	manpower=2541206
+	state_category = metropolis
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 6258 10 }
+		buildings = {
+		    infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 4
+		}
+	}
+	local_supplies=15.000
+}

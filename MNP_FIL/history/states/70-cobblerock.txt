@@ -1,0 +1,16 @@
+
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		408 512 897 1354 3895 6427 6562 7257 
+	}
+	manpower=1666562
+	state_category = large_town
+	history = {
+		owner = GFE
+		add_core_of = GFE
+		victory_points = { 3895 15 }
+	}
+	local_supplies=15.000
+}

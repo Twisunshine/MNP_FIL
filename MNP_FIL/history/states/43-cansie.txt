@@ -1,0 +1,16 @@
+
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		577 3109 4144 5399 7334 
+	}
+	manpower=1695626
+	state_category = city
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		victory_points = { 3109 3 }
+	}
+	local_supplies=0.000
+}

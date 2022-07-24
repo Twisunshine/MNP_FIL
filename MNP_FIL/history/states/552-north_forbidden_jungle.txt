@@ -1,0 +1,16 @@
+
+state={
+	id=552
+	name="STATE_552"
+	provinces={
+		614 2004 2153 2376 2813 3351 3517 4500 4714 5421 5576 7859 7902 7949 
+	}
+	manpower=190561
+	state_category = wasteland
+	history = {
+		owner = ANA
+		add_core_of = ANA
+		victory_points = { 7902 1 }
+	}
+	local_supplies=0.000
+}

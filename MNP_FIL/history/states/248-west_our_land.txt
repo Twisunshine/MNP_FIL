@@ -1,0 +1,22 @@
+
+state={
+	id=248
+	name="STATE_248"
+	provinces={
+		1074 1440 2576 3819 4887 5179 5864 6048 6381 6925 6943 6962 6978 
+	}
+	manpower=446545
+	state_category = pastoral
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 2576 5 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	resources = {}
+	local_supplies=5.000
+}

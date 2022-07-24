@@ -1,0 +1,105 @@
+ideas = {
+	country = {
+        #难民潮
+        EQU_refugees = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_refugees
+
+            modifier = {
+               monthly_population = 0.15
+            }
+        }
+        #谐律灯塔
+        EQU_Harmonic_of_the_lighthouse = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+               stability_factor = 0.05
+               war_support_factor = -0.05
+               ai_license_acceptance = 50
+            }
+        }
+        #暮光闪闪，公主殿下
+        EQU_Twilight_Sparkle_Her_Majesty = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Twilight_Sparkle_Her_Majesty
+
+            modifier = {
+               political_power_cost = 0.05
+               stability_factor = 0.05
+               war_support_factor = 0.05
+            }
+        }
+        #巴尔的摩的毁灭
+        EQU_The_destruction_of_Baltimore = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_The_destruction_of_Baltimore
+
+            modifier = {
+               stability_factor = -0.15
+               consumer_goods_factor = 0.1
+               production_speed_arms_factory_factor = -0.25
+            }
+        }
+        #可爱标记
+        EQU_Cutie_Mark = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Cutie_Mark
+
+            modifier = {
+               production_factory_max_efficiency_factor = -0.2
+               production_factory_efficiency_gain_factor = 0.1
+               conscription_factor = -0.1
+               consumer_goods_factor = -0.05
+            }
+        }
+        #战时内阁
+        EQU_war_cabinet = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_war_cabinet
+
+            modifier = {
+               authoritarian_democracy_drift = -0.01
+            }
+        }
+        #魔法交换生的遗产
+        EQU_The_legacy_of_the_magic_exchange_students = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_The_legacy_of_the_magic_exchange_students
+
+            modifier = {
+               research_speed_factor = 0.05
+            }
+        }
+        
+}
+}

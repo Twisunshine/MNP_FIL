@@ -1,0 +1,21 @@
+
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		55 972 2922 3129 3632 3841 4069 4493 4548 4834 5486 6094 6147 7227 7247 
+	}
+	manpower=948651
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 3129 1 }
+		buildings = {
+		    infrastructure = 3
+		}
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,17 @@
+characters={
+	ROM_House_of_Lords={
+		name=ROM_House_of_Lords
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_ROM_House_of_Lords.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_oligarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

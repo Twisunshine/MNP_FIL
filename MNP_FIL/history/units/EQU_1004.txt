@@ -1,0 +1,353 @@
+division_template = {
+	name = "EUP护卫队"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                
+	}
+	
+	support = {
+       engineer = { x = 0 y = 0 }
+      
+	}
+}
+division_template = {
+	name = "皇家步兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                
+	}
+	
+	support = {
+       artillery = { x = 0 y = 0 }
+      
+	}
+}
+division_template = {
+	name = "艾奎斯垂亚步兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+       artillery = { x = 0 y = 0 }
+       engineer = { x = 0 y = 1 }
+	}
+}
+units = {
+
+division= {	
+		name =  "EUP第一护卫队"
+		location = 7171
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "国民护卫队"
+		location = 7171
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.4
+	}
+
+division= {	
+		name =  "EUP第三护卫队"
+		location = 7171
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "EUP第四护卫队"
+		location = 594
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+
+division= {	
+		name =  "EUP第五护卫队"
+		location = 594
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "EUP第六护卫队"
+		location = 594
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+
+division= {	
+		name =  "EUP第七护卫队"
+		location = 594
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "EUP第八护卫队"
+		location = 5052
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+
+division= {	
+		name =  "EUP第九护卫队"
+		location = 5052
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "EUP第十护卫队"
+		location = 277
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十一护卫队"
+		location = 4236
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "EUP第十二护卫队"
+		location = 537
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十三护卫队"
+		location = 537
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "EUP第十四护卫队"
+		location = 5753
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十五护卫队"
+		location = 5753
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十六护卫队"
+		location = 3556
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十七护卫队"
+		location = 1115
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十八护卫队"
+		location = 3327
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第十九护卫队"
+		location = 3327
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "EUP第二十护卫队"
+		location = 3179
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "EUP第二十护卫队"
+		location = 425
+		division_template = "EUP护卫队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "皇家第一步兵师"
+		location = 880
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第二步兵师"
+		location = 880
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "皇家第三步兵师"
+		location = 880
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第四步兵师"
+		location = 880
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "皇家第五步兵师"
+		location = 2530
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "谐律一师"
+		location = 6419
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "谐律二师"
+		location =6221
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "谐律三师"
+		location = 7447
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "谐律四师"
+		location = 3874
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "谐律五师"
+		location = 7447
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "皇家第十一步兵师"
+		location = 1801
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十二步兵师"
+		location =4370
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "皇家第十三步兵师"
+		location = 252
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十四步兵师"
+		location = 1801
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十五步兵师"
+		location = 6161
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十六步兵师"
+		location =1281
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十七步兵师"
+		location = 1281
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十八步兵师"
+		location = 3667
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第十九步兵师"
+		location = 3667
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "皇家第二十步兵师"
+		location = 1325
+		division_template = "皇家步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "艾奎斯垂亚第一步兵师"
+		location = 4507
+		division_template = "艾奎斯垂亚步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "艾奎斯垂亚第二步兵师"
+		location = 4507
+		division_template = "艾奎斯垂亚步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "塞拉斯蒂亚师"
+		location = 5145
+		division_template = "艾奎斯垂亚步兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "艾奎斯垂亚第四步兵师"
+		location = 5145
+		division_template = "艾奎斯垂亚步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "艾奎斯垂亚第五步兵师"
+		location = 537
+		division_template = "艾奎斯垂亚步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "艾奎斯垂亚第六步兵师"
+		location = 474
+		division_template = "艾奎斯垂亚步兵师"
+		start_experience_factor = 0.4
+	}
+
+}

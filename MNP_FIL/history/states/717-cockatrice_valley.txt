@@ -1,0 +1,16 @@
+
+state={
+	id=717
+	name="STATE_717"
+	provinces={
+		794 1408 2132 3722 4186 5042 5605 6075 8471 8484 
+	}
+	manpower=1032056
+	state_category = town
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		victory_points = { 5042 3 }
+	}
+	local_supplies=5.000
+}

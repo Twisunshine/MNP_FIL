@@ -1,0 +1,22 @@
+
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		266 1055 1251 3413 4251 4259 5693 6468 6589 7450 
+	}
+	manpower=945132
+	state_category = large_town
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 4259 5 }
+		buildings = {
+		    infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,259 @@
+division_template = {
+	name = "平等解放军步兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+       artillery = { x = 0 y = 0 }
+      
+	}
+}
+
+division_template = {
+	name = "平等解放军精编师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                
+		
+		
+	}
+	
+	support = {     	}
+}
+
+division_template = {
+	name = "相同之杖宪兵队"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }                                
+	}
+	
+	support = {
+       military_police = { x = 0 y = 0 }
+      
+	}
+}
+units = {
+
+division= {	
+		name =  "平等解放军第一步兵师"
+		location = 5196
+		division_template = "平等解放军步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第二步兵师"
+		location = 5196
+		division_template = "平等解放军步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "平等解放军第三步兵师"
+		location =6490
+		division_template = "平等解放军步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第四步兵师"
+		location = 997
+		division_template = "平等解放军步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第五步兵师"
+		location = 6490
+		division_template = "平等解放军步兵师"
+		start_experience_factor = 0.3
+
+	}
+division= {	
+		name =  "平等解放军第六步兵师"
+		location =1205
+		division_template = "平等解放军步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第一精编师"
+		location = 5196
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第二精编师"
+		location = 997
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第三精编师"
+		location = 997
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.9
+                              
+	}
+division= {	
+		name =  "平等解放军第四精编师"
+		location = 1205
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军星光师"
+		location = 2574
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "平等解放军第五精编师"
+		location = 2555
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第六精编师"
+		location = 2555
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "平等解放军第七精编师"
+		location = 2555
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第八精编师"
+		location = 3012
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "平等解放军第九精编师"
+		location = 4622
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.6
+ 
+	}
+division= {	
+		name =  "平等解放军第十精编师"
+		location = 6202
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+
+	}
+division= {	
+		name =  "平等解放军第十一精编师"
+		location =6202
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+ 
+	}
+division= {	
+		name =  "平等解放军第十二精编师"
+		location = 7009
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第十三精编师"
+		location =7009
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.7
+
+	}
+division= {	
+		name =  "平等解放军第十四精编师"
+		location = 363
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第十五精编师"
+		location = 363
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+ 
+	}
+division= {	
+		name =  "平等解放军第十六精编师"
+		location = 2537
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.6
+  
+	}
+division= {	
+		name =  "平等解放军第十七精编师"
+		location = 2537
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第十八精编师"
+		location = 971
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "平等解放军第十九精编师"
+		location = 971
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+
+
+	}
+division= {	
+		name =  "平等解放军第二十精编师"
+		location = 4870
+		division_template = "平等解放军精编师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "相同之杖第一宪兵队"
+		location = 2537
+		division_template = "相同之杖宪兵队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "相同之杖第二宪兵队"
+		location = 3953
+		division_template = "相同之杖宪兵队"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "相同之杖第三宪兵队"
+		location = 5196
+		division_template = "相同之杖宪兵队"
+		start_experience_factor = 0.3
+	}
+}

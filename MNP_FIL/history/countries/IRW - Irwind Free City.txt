@@ -1,0 +1,35 @@
+﻿capital = 588
+
+set_research_slots = 1
+set_stability = 0.8
+set_war_support = 0.2
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "997.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 0
+	despotism = 0
+	authoritarian_democracy = 0
+	liberal_democracy = 0
+	social_democracy = 100
+	socialism = 0
+	communism = 0
+}
+
+add_ideas = {
+		
+}
+
+
+recruit_character = IRW_the_duke_of_Maretonia

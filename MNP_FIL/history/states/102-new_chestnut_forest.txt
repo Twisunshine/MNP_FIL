@@ -1,0 +1,16 @@
+
+state={
+	id=102
+	name="STATE_102"
+	provinces={
+		449 961 1254 2133 2288 2629 3306 4262 4934 
+	}
+	manpower=1235256
+	state_category = town
+	history = {
+		owner = KOT
+		add_core_of = KOT
+		victory_points = { 1254 5 }
+	}
+	local_supplies=0.000
+}

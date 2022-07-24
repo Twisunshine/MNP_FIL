@@ -1,0 +1,16 @@
+
+state={
+	id=261
+	name="STATE_261"
+	provinces={
+		929 1007 1591 2182 2232 4410 5463 5627 5834 5984 6966 6993 7022 
+	}
+	manpower=516515
+	state_category = pastoral
+	history = {
+		owner = GMN
+		add_core_of = GMN
+		victory_points = { 929 1 }
+	}
+	local_supplies=0.000
+}

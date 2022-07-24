@@ -1,0 +1,16 @@
+
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		1658 2690 3893 4423 4853 5868 5943 7738 8726 
+	}
+	manpower=891815
+	state_category = rural
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 8726 5 }
+	}
+	local_supplies=5.000
+}

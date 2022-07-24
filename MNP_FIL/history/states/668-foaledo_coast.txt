@@ -1,0 +1,16 @@
+
+state={
+	id=668
+	name="STATE_668"
+	provinces={
+		1317 2183 2598 5879 6135 8267 8277 8288 8306 8360 
+	}
+	manpower=891651
+	state_category = rural
+	history = {
+		owner = POF
+		add_core_of = POF
+		victory_points = { 1317 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,229 @@
+add_namespace = Auto_War_Griffon_News
+
+news_event = {
+	id = Auto_War_Griffon_News.Griffon_Civil_War
+	title = Auto_War_Griffon_News.Griffon_Civil_War.Title
+	desc = {
+		text = Auto_War_Griffon_News.Griffon_Civil_War.Desc_Griffon
+		trigger = {
+			OR = {
+				TAG = GFS
+				TAG = GRA
+				TAG = SRG
+				TAG = GFR
+				TAG = GFE
+				TAG = HGE
+			}
+		}
+	}
+	desc = {
+		text = Auto_War_Griffon_News.Griffon_Civil_War.Desc_ALL
+		trigger = {
+			AND = {
+				NOT = {TAG = GFS}
+				NOT = {TAG = GRA}
+				NOT = {TAG = SRG}
+				NOT = {TAG = GFR}
+				NOT = {TAG = GFE}
+				NOT = {TAG = HGE}
+			}
+		}
+	}
+	
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	option = {
+		name = Auto_War_Griffon_News.Griffon_Civil_War.Griffon_GFS
+		trigger = {
+			TAG = GFS
+		}
+		
+		declare_war_on = {
+			target = GRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = SRG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = HGE
+			type = annex_everything
+		}
+	}
+	option = {
+		name = Auto_War_Griffon_News.Griffon_Civil_War.Griffon_GRA
+		trigger = {
+			TAG = GRA
+		}
+		
+		declare_war_on = {
+			target = GFS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = SRG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = HGE
+			type = annex_everything
+		}
+	}
+	option = {
+		name = Auto_War_Griffon_News.Griffon_Civil_War.Griffon_SRG
+		trigger = {
+			TAG = SRG
+		}
+		
+		declare_war_on = {
+			target = GRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = HGE
+			type = annex_everything
+		}
+	}
+	option = {
+		name = Auto_War_Griffon_News.Griffon_Civil_War.Griffon_GFR
+		trigger = {
+			TAG = GFR
+		}
+		
+		declare_war_on = {
+			target = GRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = SRG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = HGE
+			type = annex_everything
+		}
+	}
+	option = {
+		name = Auto_War_Griffon_News.Griffon_Civil_War.Griffon_GFE
+		trigger = {
+			TAG = GFE
+		}
+		
+		declare_war_on = {
+			target = GRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = SRG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = HGE
+			type = annex_everything
+		}
+	}
+	option = {
+		name = Auto_War_Griffon_News.Griffon_Civil_War.Griffon_HGE
+		trigger = {
+			TAG = HGE
+		}
+		
+		declare_war_on = {
+			target = GRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = SRG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFE
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFS
+			type = annex_everything
+		}
+	}
+	
+	option = {
+	    name = Auto_War_Griffon_News.Griffon_Civil_War.ALL
+		trigger = {
+			AND = {
+				NOT = {TAG = GFS}
+				NOT = {TAG = GRA}
+				NOT = {TAG = SRG}
+				NOT = {TAG = GFR}
+				NOT = {TAG = GFE}
+				NOT = {TAG = HGE}
+			}
+		}
+	}
+}
+
+add_namespace = Auto_War_Griffon_News_hidden
+
+country_event = {
+	id = Auto_War_Griffon_News_hidden.War
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = Auto_War_Griffon_News.Griffon_Civil_War}
+    }
+}

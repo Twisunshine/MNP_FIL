@@ -1,0 +1,16 @@
+
+state={
+	id=667
+	name="STATE_667"
+	provinces={
+		393 409 821 1599 1826 1854 2901 8325 8336 8350 8358 
+	}
+	manpower=645277
+	state_category = rural
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 393 1 }
+	}
+	local_supplies=0.000
+}

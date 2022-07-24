@@ -1,0 +1,19 @@
+
+state={
+	id=517
+	name="STATE_517"
+	provinces={
+		272 1147 1812 2043 2114 3412 4907 6096 6236 6411 7856 7860 7881 7907 
+	}
+	manpower=998465
+	state_category = town
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 1812 1 }
+		buildings = {
+		    infrastructure = 2
+		}
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+characters={
+	MNM_Manemar_communist_party={
+		name=MNM_Manemar_communist_party
+		portraits={
+			civilian={
+				large="gfx/leaders/MNM/Portrait_MNM_Manemar_communist_party.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism_socialism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

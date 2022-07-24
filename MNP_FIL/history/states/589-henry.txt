@@ -1,0 +1,16 @@
+
+state={
+	id=589
+	name="STATE_589"
+	provinces={
+		178 2302 4213 4664 
+	}
+	manpower=1462562
+	state_category = large_town
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 178 10 }
+	}
+	local_supplies=5.000
+}

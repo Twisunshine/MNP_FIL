@@ -1,0 +1,16 @@
+
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		471 1530 2074 2345 4191 5228 5450 5466 5798 6988 6998 7016 7029 7031 
+	}
+	manpower=715612
+	state_category = rural
+	history = {
+		owner = GMN
+		add_core_of = GMN
+		victory_points = { 7031 3 }
+	}
+	local_supplies=0.000
+}

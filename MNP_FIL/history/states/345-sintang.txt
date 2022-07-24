@@ -1,0 +1,16 @@
+
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		323 629 764 1704 1797 2064 2444 2620 2794 2976 3783 4608 5080 5215 5954 6408 6571 7200 7234 7261 7280 7291 7309 
+	}
+	manpower=516155
+	state_category = wasteland
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		victory_points = { 629 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		1438 2870 3907 4265 4523 6371 8149 8195 
+	}
+	manpower=465155
+	state_category = pastoral
+	history = {
+		owner = KOT
+		add_core_of = KOT
+		add_core_of = ABY
+		victory_points = { 6371 5 }
+	}
+	local_supplies=5.000
+}

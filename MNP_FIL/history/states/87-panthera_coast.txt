@@ -1,0 +1,16 @@
+
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		2676 2684 3016 3264 4317 5207 8365 8403 8418 
+	}
+	manpower=1406550
+	state_category = town
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 5207 5 }
+	}
+	local_supplies=5.000
+}

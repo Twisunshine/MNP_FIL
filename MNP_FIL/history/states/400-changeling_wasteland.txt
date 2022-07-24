@@ -1,0 +1,19 @@
+
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		2015 2413 3652 5060 5065 5273 6166 7422 
+	}
+	manpower=135654
+	state_category = wasteland
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 3652 1 }
+	}
+	resources = {
+		oil = 122
+    }
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=705
+	name="STATE_705"
+	provinces={
+		650 1533 2538 3797 3998 8345 8348 8382 8384 8402 
+	}
+	manpower=389181
+	state_category = pastoral
+	history = {
+		owner = KEL
+		add_core_of = KEL
+		victory_points = { 3998 1 }
+	}
+	local_supplies=0.000
+}

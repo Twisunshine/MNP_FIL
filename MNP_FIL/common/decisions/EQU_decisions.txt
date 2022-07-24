@@ -1,0 +1,203 @@
+EQU_EEE_WAR = {
+
+EQU_EEE_WAR_1 = {
+
+available = {
+	date > 1004.2.5
+	EOM = {
+		has_war_with = CLK
+		}
+	}
+	ai_will_do = {
+		factor = 114514
+	}
+	fire_only_once = yes
+
+	remove_effect = {
+		declare_war_on = { 
+			target = EOM 
+			type = civil_war   
+		}
+		declare_war_on = { 
+			target = CLK 
+			type = take_claimed_state   
+		}
+		hidden_effect = {
+			EOM = {
+				create_wargoal = { target = EQU type = civil_war }
+			}
+		}
+
+				
+	}
+
+}
+	
+
+}
+
+
+
+EQU_Orthodoxy = {
+    EQU_Orthodoxy_Unlock = {
+		visible = {
+			tag = EQU
+			not = { has_country_flag = EQU_Orthodoxy_unlocked }
+		}
+		ai_will_do = {
+			factor = 114514
+		}
+        remove_effect = { 
+			set_variable = {
+				var = EQU_Orthodoxy
+				value = 75
+			}
+			add_to_variable = { EQU_Orthodoxy_stability_factor = 0.2 }
+			add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.2 }
+			add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.1 }
+			add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.1 }
+			add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.2 }
+			add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.1 }
+			add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.075 }
+            set_country_flag = EQU_Orthodoxy_unlocked
+        }
+    }
+	
+    EQU_Orthodoxy_a = {
+        cost = 50
+        days_remove = 15
+		days_re_enable = 120
+		visible = {
+			has_country_flag = EQU_Orthodoxy_unlocked
+		}
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = { 
+            add_to_variable = { EQU_Orthodoxy = 1 }
+            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.004 }
+            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.004 }
+            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.004 }
+            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.003 }
+            force_update_dynamic_modifier = yes
+        }
+    }
+	
+    EQU_Orthodoxy_b = {
+        cost = 50
+        days_remove = 15
+		days_re_enable = 180
+		visible = {
+			has_country_flag = EQU_Orthodoxy_unlocked
+		}
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = { 
+            add_to_variable = { EQU_Orthodoxy = 2 }
+            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.016 }
+            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.016 }
+            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.016 }
+            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.006 }
+            force_update_dynamic_modifier = yes
+        }
+    }
+	
+    EQU_Orthodoxy_c = {
+        cost = 75
+        days_remove = 15
+		days_re_enable = 120
+		visible = {
+			has_country_flag = EQU_Orthodoxy_unlocked
+		}
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = { 
+            add_to_variable = { EQU_Orthodoxy = 2 }
+            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.016 }
+            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.016 }
+            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.016 }
+            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.008 }
+            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.006 }
+            force_update_dynamic_modifier = yes
+        }
+    }
+	
+    EQU_Orthodoxy_d = {
+        cost = 100
+        days_remove = 15
+		days_re_enable = 180
+		visible = {
+			has_country_flag = EQU_Orthodoxy_unlocked
+		}
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = { 
+            add_to_variable = { EQU_Orthodoxy = 3 }
+            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.024 }
+            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.024 }
+            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.012 }
+            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.012 }
+            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.024 }
+            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.012 }
+            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.009 }
+            force_update_dynamic_modifier = yes
+        }
+    }
+	
+    EQU_Orthodoxy_e = {
+        cost = 125
+        days_remove = 15
+		days_re_enable = 120
+		visible = {
+			has_country_flag = EQU_Orthodoxy_unlocked
+		}
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = { 
+            add_to_variable = { EQU_Orthodoxy = 3 }
+            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.024 }
+            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.024 }
+            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.012 }
+            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.012 }
+            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.024 }
+            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.012 }
+            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.009 }
+            force_update_dynamic_modifier = yes
+        }
+    }
+	
+    EQU_Orthodoxy_f = {
+        cost = 150
+        days_remove = 20
+		days_re_enable = 270
+		visible = {
+			has_country_flag = EQU_Orthodoxy_unlocked
+		}
+		ai_will_do = {
+			factor = 15
+		}
+        remove_effect = { 
+            add_to_variable = { EQU_Orthodoxy = 5 }
+            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.04 }
+            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.04 }
+            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.02 }
+            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.02 }
+            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.04 }
+            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.02 }
+            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.015 }
+            force_update_dynamic_modifier = yes
+        }
+    }
+}

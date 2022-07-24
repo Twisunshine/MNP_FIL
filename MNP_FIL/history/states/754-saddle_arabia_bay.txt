@@ -1,0 +1,16 @@
+
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		1788 2621 2646 2685 3405 5111 5368 6070 
+	}
+	manpower=2356515
+	state_category = large_city
+	history = {
+		owner = SAD
+		add_core_of = SAD
+		victory_points = { 2621 10 }
+	}
+	local_supplies=10.000
+}

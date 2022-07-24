@@ -1,0 +1,16 @@
+
+state={
+	id=713
+	name="STATE_713"
+	provinces={
+		2769 2939 3006 3372 3393 3631 3981 4338 5701 5905 6195 8470 8477 8504 8514 
+	}
+	manpower=1666520
+	state_category = city
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		victory_points = { 6195 5 }
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,5968 @@
+﻿###
+shared_focus = {
+	id = EER_C2s_2 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 25
+	y = 8
+	
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2 }
+	relative_position_id = EER_C2s_2
+	x = -3
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EQU = {
+			add_war_support = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_2 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2 }
+	relative_position_id = EER_C2s_2
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CRY = {
+			add_war_support = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_3 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2 }
+	relative_position_id = EER_C2s_2
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EOM = {
+			add_war_support = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_4 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2 }
+	relative_position_id = EER_C2s_2
+	x = 3
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_war_support = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_5 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_1 }
+	relative_position_id = EER_C2s_2_1
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EQU = {
+			add_political_power = -100
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_6 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_2 }
+	relative_position_id = EER_C2s_2_2
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CRY = {
+			add_political_power = -100
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_3 }
+	relative_position_id = EER_C2s_2_3
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EOM = {
+			add_political_power = -100
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_4 }
+	relative_position_id = EER_C2s_2_4
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_political_power = -100
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_9 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_5 }
+	relative_position_id = EER_C2s_2_5
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EQU = {
+			add_popularity = { ideology = authoritarian_democracy popularity = -0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_10 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_6 }
+	relative_position_id = EER_C2s_2_6
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CRY = {
+			add_stability = -0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_11 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_7 }
+	relative_position_id = EER_C2s_2_7
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EOM = {
+			add_popularity = { ideology = despotism popularity = -0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_12 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_8 }
+	relative_position_id = EER_C2s_2_8
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_popularity = { ideology = despotism popularity = -0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_13 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_9 }
+	relative_position_id = EER_C2s_2_9
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		custom_effect_tooltip = EER_integrated_territory_EQU
+		hidden_effect = {
+			set_country_flag = EER_integrated_territory_EQU
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_14 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_10 }
+	relative_position_id = EER_C2s_2_10
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		custom_effect_tooltip = EER_integrated_territory_CRY
+		hidden_effect = {
+			set_country_flag = EER_integrated_territory_CRY
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_15 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_11 }
+	relative_position_id = EER_C2s_2_11
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		custom_effect_tooltip = EER_integrated_territory_EOM
+		hidden_effect = {
+			set_country_flag = EER_integrated_territory_EOM
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_16 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_12 }
+	relative_position_id = EER_C2s_2_12
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		custom_effect_tooltip = EER_integrated_territory_CLK
+		hidden_effect = {
+			set_country_flag = EER_integrated_territory_CLK
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_17 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_13 focus = EER_C2s_2_14 focus = EER_C2s_2_15 focus = EER_C2s_2_16}
+	relative_position_id = EER_C2s_2_14
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_timed_idea = { 
+			idea = EER_last_blow 
+			days = 365 
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_2_18 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_2_17 }
+	relative_position_id = EER_C2s_2_17
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+		has_country_flag = EER_Equestrian
+		or = {
+			NOT = { country_exists = CLK }
+			has_global_flag = normalization_of_relationship_with_changelings
+		}
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		custom_effect_tooltip = EER_political_issues
+	}
+}
+###
+shared_focus = {
+	id = EER_C2s_1 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 17
+	y = 8
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = -0.1
+		add_political_power = -100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1 }
+	relative_position_id = EER_C2s_1
+	mutually_exclusive = { focus = EER_C2s_1_2 }
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		
+		add_popularity = { ideology = socialism popularity = -0.1 }
+		add_ideas = EER_tear_off_the_mask
+		custom_effect_tooltip = EER_tear_off_the_mask_1
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_2 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1 }
+	relative_position_id = EER_C2s_1
+	mutually_exclusive = { focus = EER_C2s_1_1 }
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = 0.1 }
+		custom_effect_tooltip = EER_tear_off_the_mask_2
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_3 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_1 }
+	relative_position_id = EER_C2s_1_1
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_4 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_1 }
+	relative_position_id = EER_C2s_1_1
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = -0.05 }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_5 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_2 }
+	relative_position_id = EER_C2s_1_2
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = -0.05 }
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_6 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_2 }
+	relative_position_id = EER_C2s_1_2
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = 0.1
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_3 }
+	relative_position_id = EER_C2s_1_3
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = -50
+		add_stability = 0.1
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_4 }
+	relative_position_id = EER_C2s_1_4
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = communism popularity = -0.05 }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_9 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_5 }
+	relative_position_id = EER_C2s_1_5
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = EER_events.116
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_10 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_6 }
+	relative_position_id = EER_C2s_1_6
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = 0.1 }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_11 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_7 }
+	relative_position_id = EER_C2s_1_7
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 25
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_12 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_8 }
+	relative_position_id = EER_C2s_1_8
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_13 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_9 }
+	relative_position_id = EER_C2s_1_9
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = 0.05 }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_14 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_10 }
+	relative_position_id = EER_C2s_1_10
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = communism popularity = 0.05 }
+	}
+}
+
+shared_focus = {
+		id = EER_C2s_1_15
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2s_1_11 }
+		prerequisite = {focus = EER_C2s_1_12 }
+		relative_position_id = EER_C2s_1_11
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = EER_events.114
+		}
+	}
+
+	shared_focus = {
+		id = EER_C2s_1_16
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2s_1_13 }
+		prerequisite = {focus = EER_C2s_1_14 }
+		relative_position_id = EER_C2s_1_13
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = EER_partisan_divisions
+		}
+	}
+
+	shared_focus = {
+	id = EER_C2s_1_17 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_15 }
+	relative_position_id = EER_C2s_1_15
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = 0.1
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_18 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_15 }
+	relative_position_id = EER_C2s_1_15
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = EER_events.115
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_19 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_16 }
+	relative_position_id = EER_C2s_1_16
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_20 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_16 }
+	relative_position_id = EER_C2s_1_16
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_manpower = -5000
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_21 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_17 }
+	relative_position_id = EER_C2s_1_17
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { 
+			ideology = liberal_democracy 
+			popularity = -0.2 
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_22 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_18 }
+	relative_position_id = EER_C2s_1_18
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { 
+			ideology = socialism 
+			popularity = -0.05 
+			}
+			add_popularity = { 
+			ideology = communism 
+			popularity = -0.1
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_23 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_19 }
+	relative_position_id = EER_C2s_1_19
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_24 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_20 }
+	relative_position_id = EER_C2s_1_20
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.15
+	}
+}
+
+shared_focus = {
+		id = EER_C2s_1_25
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2s_1_21 }
+		prerequisite = {focus = EER_C2s_1_22 }
+		relative_position_id = EER_C2s_1_21
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_unit_leader = 2
+		}
+	}
+
+	shared_focus = {
+		id = EER_C2s_1_26
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2s_1_23 }
+		prerequisite = {focus = EER_C2s_1_24 }
+		relative_position_id = EER_C2s_1_23
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+			add_popularity = { ideology = socialism popularity = 0.1 }
+		}
+	}
+
+	shared_focus = {
+	id = EER_C2s_1_27 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_25 }
+	relative_position_id = EER_C2s_1_25
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_manpower = -10000
+		remove_ideas = EER_partisan_divisions
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_28 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_26 }
+	relative_position_id = EER_C2s_1_26
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_29 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_27 }
+	relative_position_id = EER_C2s_1_27
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		remove_ideas = EER_tear_off_the_mask
+		add_ideas = EER_crush_the_left
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_1_30 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_1_28 }
+	relative_position_id = EER_C2s_1_28
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = EER_events.117
+	}
+}
+###
+shared_focus = {
+	id = EER_C2s_3 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 33
+	y = 8
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+		AND = {
+			is_neighbor_of = CLK
+			has_war_with = CLK
+		}
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.9
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3 }
+	relative_position_id = EER_C2s_3
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.4
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_2 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_1 }
+	relative_position_id = EER_C2s_3_1
+	mutually_exclusive = { focus = EER_C2s_3_3 }
+	
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.05
+		subtract_from_variable = {EERD = 5}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_3 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_1 }
+	relative_position_id = EER_C2s_3_1
+	mutually_exclusive = { focus = EER_C2s_3_2 }
+	
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = -50
+		add_stability = 0.05
+		add_to_variable = {EERD = 5}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_4 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_2 }
+	relative_position_id = EER_C2s_3_2
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_war_support = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_5 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_2 }
+	relative_position_id = EER_C2s_3_2
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = -0.05
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_6 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_3 }
+	relative_position_id = EER_C2s_3_3
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = -0.05
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_3 }
+	relative_position_id = EER_C2s_3_3
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_resistance_target = 10
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_4 }
+	relative_position_id = EER_C2s_3_4
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_compliance = -10
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_9 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_5 }
+	relative_position_id = EER_C2s_3_5
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.05
+		}
+	}
+}
+shared_focus = {
+	id = EER_C2s_3_10_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_6 }
+	relative_position_id = EER_C2s_3_6
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = -0.05
+		add_to_variable = { clk_thorax_rebellion = 10 } 
+	}
+}
+shared_focus = {
+	id = EER_C2s_3_10 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_10_1 }
+	relative_position_id = EER_C2s_3_10_1
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		
+	}
+}
+
+
+
+shared_focus = {
+	id = EER_C2s_3_11_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_7 }
+	relative_position_id = EER_C2s_3_7
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_11 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_11_1 }
+	relative_position_id = EER_C2s_3_11_1
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.8
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_12 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_8 }
+	prerequisite = {focus = EER_C2s_3_9 }
+	relative_position_id = EER_C2s_3_8
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_manpower = 5000
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_13 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_10 }
+	prerequisite = {focus = EER_C2s_3_11 }
+	relative_position_id = EER_C2s_3_10
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_14 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_12 }
+	relative_position_id = EER_C2s_3_12
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_timed_idea = { idea = EER_special_forces days = 365 }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_15 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_13 }
+	relative_position_id = EER_C2s_3_13
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+		#CLK = {
+		#	CLK_Thorax = {
+		#		is_country_leader = yes
+		#	}
+		#}
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_opinion_modifier = {
+				target = EER
+				modifier = recognize_us
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_16 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_14 }
+	relative_position_id = EER_C2s_3_14
+	
+	x = -4
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_17 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_14 }
+	relative_position_id = EER_C2s_3_14
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = { 
+		  remove_idea = EER_special_forces
+		  add_idea = EER_special_forces_1
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_18 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_14 }
+	relative_position_id = EER_C2s_3_14
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_timed_idea = { idea = EER_identify_magic days = 365 }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_19 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_15 }
+	relative_position_id = EER_C2s_3_15
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_20 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_15 }
+	relative_position_id = EER_C2s_3_15
+	
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.6
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_21 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_16 }
+	relative_position_id = EER_C2s_3_16
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		368 = {
+			add_manpower = -300000
+		}
+		350 = {
+			add_manpower = 250000
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_22 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_16 }
+	relative_position_id = EER_C2s_3_16
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_23 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_21 }
+	relative_position_id = EER_C2s_3_21
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		368 = {
+			add_extra_state_shared_building_slots = 3
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_24 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_22 }
+	relative_position_id = EER_C2s_3_22
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = {
+			ideology = liberal_democracy
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_25 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_17 }
+	relative_position_id = EER_C2s_3_17
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = { 
+		  remove_idea = EER_special_forces_1
+		  add_idea = EER_special_forces_2
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_26 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_18 }
+	relative_position_id = EER_C2s_3_18
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_27 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_25 }
+	prerequisite = {focus = EER_C2s_3_26 }
+	relative_position_id = EER_C2s_3_25
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		army_experience = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_28 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_27 }
+	relative_position_id = EER_C2s_3_27
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+		AND = {
+			is_neighbor_of = CLK
+			has_war = no
+			EER_Starlight_Glimmer = {
+				is_country_leader = yes
+			}
+		}
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.5
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_29 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_28 }
+	relative_position_id = EER_C2s_3_28
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = EER_final_battle_preparations
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_30 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_28 }
+	relative_position_id = EER_C2s_3_28
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.10
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_31 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_30 }
+	prerequisite = {focus = EER_C2s_3_29 }
+	relative_position_id = EER_C2s_3_30
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		declare_war_on = { target = CLK    type = annex_everything }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_32 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_19 }
+	relative_position_id = EER_C2s_3_19
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = 0.15
+		add_war_support = -0.15
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_33 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_20 }
+	relative_position_id = EER_C2s_3_20
+	mutually_exclusive = { focus = EER_C2s_3_34 }
+	
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberal_democracy
+				popularity = 0.05
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_34 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_20 }
+	relative_position_id = EER_C2s_3_20
+	mutually_exclusive = { focus = EER_C2s_3_33 }
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_35 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_33 focus = EER_C2s_3_34}
+	relative_position_id = EER_C2s_3_33
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_36 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_32 }
+	relative_position_id = EER_C2s_3_32
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		diplomatic_relation = { 
+			country = CLK 
+			relation = non_aggression_pact 
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_37 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_36 }
+	prerequisite = {focus = EER_C2s_3_35 }
+	relative_position_id = EER_C2s_3_36
+	
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.7
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_3_38 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_3_37 }
+	relative_position_id = EER_C2s_3_37
+	
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			remove_state_core = 423
+			add_opinion_modifier = { target = EER modifier = friendly_diplomacy }
+		}
+		add_opinion_modifier = { target = CLK modifier = friendly_diplomacy }
+		set_global_flag = normalization_of_relationship_with_changelings
+	}
+}
+###
+shared_focus = {
+	id = EER_C2s_4 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 47
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = EER_equality_liberation_army
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4 }
+	relative_position_id = EER_C2s_4
+	x = -3
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = EER_equality_Wappon
+		add_political_power = -100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_2 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4 }
+	relative_position_id = EER_C2s_4
+	x = 3
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.05
+		add_ideas = EER_focus_on_the_will
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_3 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_1 }
+	relative_position_id = EER_C2s_4_1
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		navy_experience = 25
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_4 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_1 }
+	relative_position_id = EER_C2s_4_1
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.1
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_5 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_1 }
+	relative_position_id = EER_C2s_4_1
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = artillery_bonus
+			bonus = 1
+			uses = 1
+			category = artillery
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_6 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_2 }
+	relative_position_id = EER_C2s_4_2
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.3
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_2 }
+	relative_position_id = EER_C2s_4_2
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_doctrine_cost_reduction = {
+			cost_reduction = 1
+			uses = 1
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_2 }
+	relative_position_id = EER_C2s_4_2
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = EER_fighting_with_sanity
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_9 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_3 }
+	relative_position_id = EER_C2s_4_3
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		air_experience = 25
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_10 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_4 }
+	relative_position_id = EER_C2s_4_4
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 1
+			uses = 1
+			category = infantry_weapons
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_11 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_5 }
+	relative_position_id = EER_C2s_4_5
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_equality_Wappon_1_2}
+			swap_ideas = {
+			    remove_idea = EER_equality_Wappon_1_2
+			    add_idea = EER_equality_Wappon_2
+		    }
+		}
+		else_if = {
+			limit = {has_idea=EER_equality_Wappon}
+			swap_ideas = {
+			    remove_idea = EER_equality_Wappon
+			    add_idea = EER_equality_Wappon_1_1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_12 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_6 }
+	relative_position_id = EER_C2s_4_6
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_war_support = 0.10
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_13 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_7 }
+	relative_position_id = EER_C2s_4_7
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_command_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_14 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_8 }
+	relative_position_id = EER_C2s_4_8
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_doctrine_cost_reduction = {
+			cost_reduction = 1
+			uses = 1
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_15 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_9 }
+	relative_position_id = EER_C2s_4_9
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		army_experience = 25
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_16 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_10 }
+	relative_position_id = EER_C2s_4_10
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_equality_Wappon_1_1}
+			swap_ideas = {
+			    remove_idea = EER_equality_Wappon_1_1
+			    add_idea = EER_equality_Wappon_2
+		    }
+		}
+		else_if = {
+			limit = {has_idea=EER_equality_Wappon}
+			swap_ideas = {
+			    remove_idea = EER_equality_Wappon
+			    add_idea = EER_equality_Wappon_1_2
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_17 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_11 }
+	relative_position_id = EER_C2s_4_11
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = {
+			id = EER_events_Lilith.2
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_18 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_12 }
+	relative_position_id = EER_C2s_4_12
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas  = {
+			remove_idea = EER_focus_on_the_will
+			add_idea = EER_focus_on_the_will_1
+		}
+		
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_19 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_13 }
+	relative_position_id = EER_C2s_4_13
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = -25
+		army_experience = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_20 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_14 }
+	relative_position_id = EER_C2s_4_14
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_fighting_with_sanity
+			add_idea = EER_sweating_without_bleeding
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_21 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_15 }
+	prerequisite = {focus = EER_C2s_4_16 }
+	prerequisite = {focus = EER_C2s_4_17 }
+	relative_position_id = EER_C2s_4_16
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		remove_ideas = EER_equality_Wappon_2
+		if = {
+			limit = {
+				has_idea = EER_equality_liberation_army_1_2
+			}
+			swap_ideas = {
+				remove_ideas = EER_equality_liberation_army_1_2
+				add_ideas = EER_equality_liberation_army_2
+			}
+			
+		}
+		else = {
+			add_ideas = EER_equality_liberation_army_1_1
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_4_22 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_4_18 }
+	prerequisite = {focus = EER_C2s_4_19 }
+	prerequisite = {focus = EER_C2s_4_20 }
+	relative_position_id = EER_C2s_4_19
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		remove_ideas = EER_sweating_without_bleeding
+		remove_ideas = EER_focus_on_the_will_1
+		if = {
+			limit = {
+				has_idea = EER_equality_liberation_army_1_1
+			}
+			swap_ideas = {
+				remove_ideas = EER_equality_liberation_army_1_1
+				add_ideas = EER_equality_liberation_army_2
+			}
+			
+		}
+		else = {
+			add_ideas = EER_equality_liberation_army_1_2
+		}
+	}
+}
+###
+shared_focus = {
+	id = EER_C2s_5 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 43
+	y = 8
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5 }
+	relative_position_id = EER_C2s_5
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_2 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5 }
+	relative_position_id = EER_C2s_5
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = {
+			tot_economic_mobilisation
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_3 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_1 }
+	prerequisite = {focus = EER_C2s_5_2 }
+	relative_position_id = EER_C2s_5_1
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 2
+			category = industry
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_4 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_3 }
+	relative_position_id = EER_C2s_5_3
+	mutually_exclusive = { focus = EER_C2s_5_5 }
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = {
+			EER_moderate_economic_policy
+		}
+		hidden_effect={
+			subtract_from_variable = { EERD = 5 }
+		}
+		custom_effect_tooltip = EER_NOADD_EERD
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_5 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_3 }
+	relative_position_id = EER_C2s_5_3
+	mutually_exclusive = { focus = EER_C2s_5_4 }
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = {
+			EER_centralized_economic_policy
+		}
+		hidden_effect={
+			add_to_variable = { EERD = 5 }
+		}
+		custom_effect_tooltip = EER_ADD_EERD
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_6 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_4 }
+	relative_position_id = EER_C2s_5_4
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_moderate_economic_policy}
+			swap_ideas = {
+				remove_idea = EER_moderate_economic_policy
+				add_idea = EER_moderate_economic_policy_2
+			}
+		}
+		else_if = {
+			limit = {has_idea=EER_moderate_economic_policy_3}
+			swap_ideas = {
+				remove_idea = EER_moderate_economic_policy_3
+				add_idea = EER_moderate_economic_policy_4
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_4 }
+	relative_position_id = EER_C2s_5_4
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 2
+			category = dispersed_industry_category
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_5 }
+	relative_position_id = EER_C2s_5_5
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 50
+		stability_factor = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_9 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_5 }
+	relative_position_id = EER_C2s_5_5
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 1
+			category = concentrated_industry_category
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_10 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_6 }
+	relative_position_id = EER_C2s_5_6
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_11 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_7 }
+	relative_position_id = EER_C2s_5_7
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		stability_factor = -0.05
+		if = {
+			limit = {has_idea=EER_moderate_economic_policy}
+			swap_ideas = {
+				remove_idea = EER_moderate_economic_policy
+				add_idea = EER_moderate_economic_policy_3
+			}
+		}
+		else_if = {
+			limit = {has_idea=EER_moderate_economic_policy_2}
+			swap_ideas = {
+				remove_idea = EER_moderate_economic_policy_2
+				add_idea = EER_moderate_economic_policy_4
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_12 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_8 }
+	relative_position_id = EER_C2s_5_8
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_centralized_economic_policy}
+			swap_ideas = {
+				remove_idea = EER_centralized_economic_policy
+				add_idea = EER_centralized_economic_policy_2
+			}
+		}
+		else_if = {
+			limit = {has_idea=EER_centralized_economic_policy_3}
+			swap_ideas = {
+				remove_idea = EER_centralized_economic_policy_3
+				add_idea = EER_centralized_economic_policy_4
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_13 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_9 }
+	relative_position_id = EER_C2s_5_9
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_centralized_economic_policy}
+			swap_ideas = {
+				remove_idea = EER_centralized_economic_policy
+				add_idea = EER_centralized_economic_policy_3
+			}
+		}
+		else_if = {
+			limit = {has_idea=EER_centralized_economic_policy_2}
+			swap_ideas = {
+				remove_idea = EER_centralized_economic_policy_2
+				add_idea = EER_centralized_economic_policy_4
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_14 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_11 }
+	prerequisite = {focus = EER_C2s_5_10 }
+	relative_position_id = EER_C2s_5_11
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_15 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_12 }
+	prerequisite = {focus = EER_C2s_5_13 }
+	relative_position_id = EER_C2s_5_13
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_16 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_14 }
+	relative_position_id = EER_C2s_5_14
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_moderate_economic_policy_4}
+			swap_ideas = {
+				remove_idea = EER_moderate_economic_policy_4
+				add_idea = EER_moderate_economic_policy_5
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_5_17 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_5_15 }
+	relative_position_id = EER_C2s_5_15
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_centralized_economic_policy_4}
+			swap_ideas = {
+				remove_idea = EER_centralized_economic_policy_4
+				add_idea = EER_centralized_economic_policy_5
+			}
+		}
+	}
+}
+
+###
+shared_focus = {
+	id = EER_C2s_6 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 52
+	y = 8
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = EER_New_Culture_Movement
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_1 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6 }
+	relative_position_id = EER_C2s_6
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_New_Culture_Movement}
+			swap_ideas = {
+			    remove_idea = EER_New_Culture_Movement
+			    add_idea = EER_New_Culture_Movement_2
+		    }
+		}
+		else_if = {
+			limit = {has_idea=EER_New_Culture_Movement_3}
+			swap_ideas = {
+			    remove_idea = EER_New_Culture_Movement_3
+			    add_idea = EER_New_Culture_Movement_4
+		    }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_2 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6 }
+	relative_position_id = EER_C2s_6
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			limit = {has_idea=EER_New_Culture_Movement}
+			swap_ideas = {
+			    remove_idea = EER_New_Culture_Movement
+			    add_idea = EER_New_Culture_Movement_3
+		    }
+		}
+		else_if = {
+			limit = {has_idea=EER_New_Culture_Movement_2}
+			swap_ideas = {
+			    remove_idea = EER_New_Culture_Movement_2
+			    add_idea = EER_New_Culture_Movement_4
+		    }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_3 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_1 }
+	prerequisite = {focus = EER_C2s_6_2 }
+	relative_position_id = EER_C2s_6_2
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_manpower = 5000
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_4 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_3 }
+	relative_position_id = EER_C2s_6_3
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EOM = {
+			add_popularity = { ideology = socialism popularity = 0.05 }
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_5 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_3 }
+	relative_position_id = EER_C2s_6_3
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EQU = {
+			add_popularity = { ideology = socialism popularity = 0.05 }
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_6 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_4 }
+	relative_position_id = EER_C2s_6_4
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EOM = {
+			add_stability = -0.05
+			add_popularity = { ideology = despotism popularity = -0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_4 }
+	relative_position_id = EER_C2s_6_4
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		CLK = {
+			add_stability = -0.05
+			add_popularity = { ideology = despotism popularity = -0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_5 }
+	relative_position_id = EER_C2s_6_5
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EQU = {
+			add_stability = -0.05
+			add_popularity = { ideology = authoritarian_democracy popularity = -0.05 }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_9 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_5 }
+	relative_position_id = EER_C2s_6_5
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		EQU = {
+			add_war_support = -0.05
+			add_popularity = { ideology = liberal_democracy popularity = -0.05 }
+		}
+	}	
+}
+
+shared_focus = {
+	id = EER_C2s_6_10 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_7 }
+	prerequisite = {focus = EER_C2s_6_6 }
+	relative_position_id = EER_C2s_6_7
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		ideology = despotismm popularity = -0.1
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_11 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_8 }
+	prerequisite = {focus = EER_C2s_6_9 }
+	relative_position_id = EER_C2s_6_9
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_12 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_11 }
+	prerequisite = {focus = EER_C2s_6_10 }
+	relative_position_id = EER_C2s_6_11
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		ideology = social_democracy popularity = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_13 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_12 }
+	relative_position_id = EER_C2s_6_12
+	mutually_exclusive = { focus = EER_C2s_6_14 }
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		hidden_effect={
+			subtract_from_variable = { EERD = 5 }
+		}
+		custom_effect_tooltip = EER_NOADD_EERD
+		ideology = communism popularity = -0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_14 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_12 }
+	relative_position_id = EER_C2s_6_12
+	mutually_exclusive = { focus = EER_C2s_6_13 }
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		hidden_effect={
+			add_to_variable = { EERD = 5 }
+		}
+		custom_effect_tooltip = EER_ADD_EERD
+		add_stability = 0.05
+		country_event = EER_new_life
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_15 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_13 }
+	relative_position_id = EER_C2s_6_13
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_stability = 0.05
+		country_event = EER_ourmountain_conference
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_6_16 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_6_14 }
+	relative_position_id = EER_C2s_6_14
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		ideology = socialism popularity = 0.15
+		country_event = EER_new_wind_within_the_party
+	}
+}
+
+
+###
+shared_focus = {
+	id = EER_C2s_7 
+	icon = GFX_focus_generic_concessions
+	allow_branch = {has_country_flag = EER_C2s_2_start}
+	x = 61
+	y = 8
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+		
+	}
+
+	bypass = {
+		create_intelligence_agency = yes
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		create_intelligence_agency = yes
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_1
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7 }
+	relative_position_id = EER_C2s_7
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_ideas = EER_the_Staff_of_Sameness
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_2
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_1 }
+	relative_position_id = EER_C2s_7_1
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 50
+		add_stability = -0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_3
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_1 }
+	relative_position_id = EER_C2s_7_1
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+    		bonus = 1
+    		uses = 1
+    		category = electronics
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_4
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_2 }
+	relative_position_id = EER_C2s_7_2
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			    limit = {has_idea=EER_the_Staff_of_Sameness}
+				swap_ideas = {
+			        remove_idea = EER_the_Staff_of_Sameness
+			        add_idea = EER_the_Staff_of_Sameness_2
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_the_Staff_of_Sameness_3}
+			    swap_ideas = {
+			        remove_idea = EER_the_Staff_of_Sameness_3
+			        add_idea = EER_the_Staff_of_Sameness_4
+		        }
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_5
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_3 }
+	relative_position_id = EER_C2s_7_3
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			    limit = {has_idea=EER_the_Staff_of_Sameness}
+				swap_ideas = {
+			        remove_idea = EER_the_Staff_of_Sameness
+			        add_idea = EER_the_Staff_of_Sameness_3
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_the_Staff_of_Sameness_2}
+			    swap_ideas = {
+			        remove_idea = EER_the_Staff_of_Sameness_2
+			        add_idea = EER_the_Staff_of_Sameness_4
+		        }
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_6
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_4 }
+	prerequisite = {focus = EER_C2s_7_5 }
+	relative_position_id = EER_C2s_7_4
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		 swap_ideas = {
+			        remove_idea = EER_the_Staff_of_Sameness_4
+			        add_idea = EER_the_Staff_of_Sameness_5
+		    }
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_7 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_6 }
+	relative_position_id = EER_C2s_7_6
+	mutually_exclusive = { focus = EER_C2s_7_8 }
+	x = -2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_the_Staff_of_Sameness_5
+			add_idea = EER_enlarged_the_Staff_of_Sameness
+		}
+		hidden_effect={
+			subtract_from_variable = { EERD = 5 }
+		}
+		custom_effect_tooltip = EER_NOADD_EERD
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_8 
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_6 }
+	relative_position_id = EER_C2s_7_6
+	mutually_exclusive = { focus = EER_C2s_7_7 }
+	x = 2
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_the_Staff_of_Sameness_5
+			add_idea = EER_restricted_the_Staff_of_Sameness
+		}
+		hidden_effect={
+			add_to_variable = { EERD = 5 }
+		}
+		custom_effect_tooltip = EER_ADD_EERD
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_9
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_7 }
+	relative_position_id = EER_C2s_7_7
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+    	bonus = 1
+    	uses = 1
+    	category = ca_tech
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_10
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_7 }
+	relative_position_id = EER_C2s_7_7
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness}
+				swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_4
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness_2}
+			    swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness_2
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_5
+		        }
+			}
+			else_if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness_3}
+			    swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness_3
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_6
+		        }
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_11
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_8 }
+	relative_position_id = EER_C2s_7_8
+	x = -1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_tech_bonus = {
+    	bonus = 0.5
+    	uses = 1
+    	category = ca_tech
+		}
+		add_command_power = -50
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_12
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_8 }
+	relative_position_id = EER_C2s_7_8
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = -50
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_13
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_9 }
+	relative_position_id = EER_C2s_7_9
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness}
+				swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_2
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness_4}
+			    swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness_4
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_5
+		        }
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_14
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_10 }
+	relative_position_id = EER_C2s_7_10
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = -0.05 }
+		country_event = EER_origin_investigation
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_15
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_11 }
+	relative_position_id = EER_C2s_7_11
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_restricted_the_Staff_of_Sameness
+			add_idea = EER_restricted_the_Staff_of_Sameness_2
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_16
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_12 }
+	relative_position_id = EER_C2s_7_12
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		country_event = EER_leadership_principles
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_17
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_13 }
+	relative_position_id = EER_C2s_7_13
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness_2}
+				swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness_2
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_3
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_enlarged_the_Staff_of_Sameness_5}
+			    swap_ideas = {
+			        remove_idea = EER_enlarged_the_Staff_of_Sameness_5
+			        add_idea = EER_enlarged_the_Staff_of_Sameness_6
+		        }
+			}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_18
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_14 }
+	relative_position_id = EER_C2s_7_14
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = -50
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_19
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_15 }
+	relative_position_id = EER_C2s_7_15
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_restricted_the_Staff_of_Sameness_2
+			add_idea = EER_restricted_the_Staff_of_Sameness_3
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_20
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_16 }
+	relative_position_id = EER_C2s_7_16
+	x = 0
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_popularity = { 
+			ideology = socialism popularity = 0.10
+			ideology = social_democracy popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_21
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_17 }
+	prerequisite = {focus = EER_C2s_7_18 }
+	relative_position_id = EER_C2s_7_17
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		if = {
+			swap_ideas = {
+			    remove_idea = EER_enlarged_the_Staff_of_Sameness_6
+			    add_idea = EER_enlarged_the_Staff_of_Sameness_7
+		    }
+		}
+	}
+}
+
+shared_focus = {
+	id = EER_C2s_7_22
+	icon = GFX_focus_generic_concessions
+	prerequisite = {focus = EER_C2s_7_19 }
+	prerequisite = {focus = EER_C2s_7_20 }
+	relative_position_id = EER_C2s_7_19
+	x = 1
+	y = 1
+
+	cost = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_restricted_the_Staff_of_Sameness_3
+			add_idea = EER_restricted_the_Staff_of_Sameness_4
+		}
+	}
+}

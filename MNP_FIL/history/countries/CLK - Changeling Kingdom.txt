@@ -1,0 +1,78 @@
+﻿capital = 15
+
+oob = "CLK_1004"
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.75
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 3
+	fascism = 30
+	despotism = 52
+	authoritarian_democracy = 1
+	liberal_democracy = 12
+	social_democracy = 2
+	socialism = 0
+	communism = 0
+}
+
+add_ideas = {
+		all_adults_serve
+		army_economic_policy
+		closed_economy
+		fully_control
+		Women_and_Children_Auxiliary_Army
+		basic_citizenship
+		guild_production
+		smallholder_model
+		everywhere
+		the_chaos
+		Basic_education
+		straggler
+		CLK_Love_of_hunger_1
+		CLK_Morphological_changes_1
+		CLK_colonial_west_EER_1
+		CLK_Tolt_contract_1
+		CLK_The_consequences_of_overexpansion_1
+		CLK_prefer_the_status_quo
+}
+
+
+recruit_character = CLK_Queen_Chrysalis
+recruit_character = CLK_Thorax
+
+add_dynamic_modifier = { modifier = CLK_Thorax_rebellion_dynamic_modifier }
+

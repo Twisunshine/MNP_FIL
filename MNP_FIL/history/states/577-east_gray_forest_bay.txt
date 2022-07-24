@@ -1,0 +1,16 @@
+
+state={
+	id=577
+	name="STATE_577"
+	provinces={
+		2262 2315 4602 4896 6317 7967 8019 
+	}
+	manpower=305415
+	state_category = wasteland
+	history = {
+		owner = KOT
+		add_core_of = KOT
+		victory_points = { 7967 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=278
+	name="STATE_278"
+	provinces={
+		2994 5677 7037 7062 
+	}
+	manpower=1006552
+	state_category = town
+	history = {
+		owner = THR
+		add_core_of = THR
+		victory_points = { 5677 5 }
+	}
+	local_supplies=0.000
+}

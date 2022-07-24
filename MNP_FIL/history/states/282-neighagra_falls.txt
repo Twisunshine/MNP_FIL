@@ -1,0 +1,18 @@
+
+state={
+	id=282
+	name="STATE_282"
+	provinces={
+		310 441 1332 1648 2409 3945 3960 6543 7066 7073 7097 7143 
+	}
+	manpower=321520
+	state_category = pastoral
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 3960 1 }
+	}
+	local_supplies=3.000
+}

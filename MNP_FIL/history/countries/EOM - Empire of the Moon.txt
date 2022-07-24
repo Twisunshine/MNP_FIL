@@ -1,0 +1,80 @@
+﻿capital = 350
+
+oob = "EOM_1004"
+
+set_research_slots = 4
+set_stability = 0.1
+set_war_support = 0.3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	basic_light_tank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 3
+	fascism = 17
+	despotism = 54
+	authoritarian_democracy = 4
+	liberal_democracy = 12
+	social_democracy = 7
+	socialism = 3
+	communism = 0
+}
+
+add_ideas = {
+		service_by_requirement
+		tot_economic_mobilisation
+		limited_exports
+		fully_control
+		all_adults
+		restricted_citizenship
+		Specialized_chemical_factory
+		large_scale_farming
+		more_popular
+		the_chaos
+		Basic_education
+		deserters_everywhere
+		EOM_regicide_atrocities
+		EOM_dummy_parliament
+		EOM_torn_country
+}
+
+
+recruit_character = EOM_Nightmare_Moon
+
+recruit_character = EOM_Suri_Polomare
+recruit_character = EOM_Prince_Blueblood
+recruit_character = EOM_Gladmane
+recruit_character = EOM_Zesty_Gourmand
+
+add_dynamic_modifier = { modifier = EOM_Orthodoxy_dynamic_modifier }
+

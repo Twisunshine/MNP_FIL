@@ -1,0 +1,25 @@
+
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		1291 1654 2070 2341 2383 3144 3500 3754 4009 5066 5707 6170 6472 6838 6883 6899 6942 6947 6956 6958 6987 
+	}
+	manpower=253445
+	state_category = pastoral
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 1654 1 }
+		buildings = {
+		    infrastructure = 2
+			dockyard = 1
+		    1654 = {
+		        naval_base = 2
+		    }
+		}
+	}
+	local_supplies=5.000
+}

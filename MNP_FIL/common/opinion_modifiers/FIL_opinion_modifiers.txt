@@ -1,0 +1,10 @@
+opinion_modifiers = {
+	#承认我们
+	recognize_us = {
+		value = 100
+	}
+	#友好外交
+	friendly_diplomacy = {
+		value = 100
+	}
+}

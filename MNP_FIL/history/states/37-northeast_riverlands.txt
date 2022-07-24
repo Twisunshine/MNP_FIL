@@ -1,0 +1,16 @@
+
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		250 607 2651 4529 5056 
+	}
+	manpower=109865
+	state_category = pastoral
+	history = {
+		owner = RIV
+		add_core_of = RIV
+		victory_points = { 4529 1 }
+	}
+	local_supplies=0.000
+}

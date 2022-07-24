@@ -1,0 +1,16 @@
+
+state={
+	id=629
+	name="STATE_629"
+	provinces={
+		604 1030 1514 1811 2002 4211 4581 5245 5449 5959 8194 8201 8213 8236 
+	}
+	manpower=691156
+	state_category = rural
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 8236 1 }
+	}
+	local_supplies=0.000
+}

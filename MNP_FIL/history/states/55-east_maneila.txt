@@ -1,0 +1,16 @@
+
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		1881 2000 2011 2361 3005 3093 5500 5799 6250 6532 7974 8034 8041 8058 8062 8064 8101 8729 
+	}
+	manpower=356565
+	state_category = pastoral
+	history = {
+		owner = FLP
+		add_core_of = FLP
+		victory_points = { 2000 1 }
+	}
+	local_supplies=0.000
+}

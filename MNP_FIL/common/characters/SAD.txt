@@ -1,0 +1,18 @@
+characters={
+	SAD_Haakim={
+		name=SAD_Haakim
+		portraits={
+			civilian={
+				large="gfx/leaders/SAD/Portrait_SAD_Haakim.dds"
+			}
+		}
+		country_leader={
+			desc=SAD_Haakim_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

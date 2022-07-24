@@ -1,0 +1,16 @@
+
+state={
+	id=714
+	name="STATE_714"
+	provinces={
+		556 633 1028 4272 8340 
+	}
+	manpower=261561
+	state_category = pastoral
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 556 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+characters={
+	NHN_authorities={
+		name=NHN_authorities
+		portraits={
+			civilian={
+				large="gfx/leaders/NHN/Portrait_NHN_authorities.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_despotism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

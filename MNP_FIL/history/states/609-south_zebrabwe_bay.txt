@@ -1,0 +1,16 @@
+
+state={
+	id=609
+	name="STATE_609"
+	provinces={
+		587 815 829 1531 3674 3957 4474 4862 5285 5717 5756 5922 8103 8156 8177 
+	}
+	manpower=956155
+	state_category = rural
+	history = {
+		owner = ZEB
+		add_core_of = ZEB
+		victory_points = { 829 5 }
+	}
+	local_supplies=10.000
+}

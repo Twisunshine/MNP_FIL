@@ -1,0 +1,16 @@
+
+state={
+	id=573
+	name="STATE_573"
+	provinces={
+		1208 2080 2251 3313 3329 3576 3854 4497 4585 6061 6279 7971 7981 7993 
+	}
+	manpower=394815
+	state_category = pastoral
+	history = {
+		owner = ART
+		add_core_of = ART
+		victory_points = { 3576 10 }
+	}
+	local_supplies=10.000
+}

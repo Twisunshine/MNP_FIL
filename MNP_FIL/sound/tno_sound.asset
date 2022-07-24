@@ -1,0 +1,11 @@
+sound = {
+	name = "se_starlight_eqs"
+	file = "superevents/starlight_eqs.wav"
+	always_load = no
+}
+
+sound = {
+	name = "se_EEE_war"
+	file = "superevents/EEE_war.wav"
+	always_load = no
+}

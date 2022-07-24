@@ -1,0 +1,17 @@
+
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		573 1295 1875 2867 3228 3443 3484 3681 4072 5068 5781 6729 6738 6779 6785 
+	}
+	manpower=325656
+	state_category = pastoral
+	history = {
+		owner = MET
+		add_core_of = MET
+		add_claim_by = GFR
+		victory_points = { 1875 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+characters={
+	ABY_King_Meowmeow={
+		name=ABY_King_Meowmeow
+		portraits={
+			civilian={
+				large="gfx/leaders/ABY/Portrait_ABY_King_Meowmeow.dds"
+			}
+		}
+		country_leader={
+			desc=ABY_King_Meowmeow_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

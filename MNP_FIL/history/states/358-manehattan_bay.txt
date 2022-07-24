@@ -1,0 +1,22 @@
+
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		780 1491 1723 3436 3488 3749 3799 4196 4857 5145 5832 7218 7244 7249 7285 
+	}
+	manpower=1674688
+	state_category = city
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 780 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	local_supplies=10.000
+}

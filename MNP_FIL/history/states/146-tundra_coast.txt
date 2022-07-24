@@ -1,0 +1,16 @@
+
+state={
+	id=146
+	name="STATE_146"
+	provinces={
+		572 1819 4872 5446 6673 
+	}
+	manpower=415325
+	state_category = wasteland
+	history = {
+		owner = REI
+		add_core_of = REI
+		victory_points = { 4872 1 }
+	}
+	local_supplies=0.000
+}

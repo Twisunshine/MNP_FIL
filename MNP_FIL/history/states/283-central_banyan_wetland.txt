@@ -1,0 +1,16 @@
+
+state={
+	id=283
+	name="STATE_283"
+	provinces={
+		337 407 3072 3290 3932 5039 6428 7061 7099 7107 
+	}
+	manpower=818985
+	state_category = rural
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		victory_points = { 3290 1 }
+	}
+	local_supplies=0.000
+}

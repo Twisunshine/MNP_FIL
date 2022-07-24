@@ -1,0 +1,16 @@
+
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		1701 2995 4125 4128 4498 5680 6112 6277 8199 
+	}
+	manpower=789112
+	state_category = rural
+	history = {
+		owner = IRW
+		add_core_of = IRW
+		victory_points = { 1701 1 }
+	}
+	local_supplies=0.000
+}

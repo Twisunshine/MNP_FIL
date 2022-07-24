@@ -1,0 +1,16 @@
+
+state={
+	id=665
+	name="STATE_665"
+	provinces={
+		339 382 1053 1601 1962 3485 3972 4266 4358 8287 8297 8316 
+	}
+	manpower=1495556
+	state_category = large_town
+	history = {
+		owner = KEL
+		add_core_of = KEL
+		victory_points = { 1962 15 }
+	}
+	local_supplies=15.000
+}

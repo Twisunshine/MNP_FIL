@@ -1,0 +1,16 @@
+
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		2370 2894 3457 4726 5375 6965 6989 6990 6992 
+	}
+	manpower=881561
+	state_category = rural
+	history = {
+		owner = THR
+		add_core_of = THR
+		victory_points = { 2894 1 }
+	}
+	local_supplies=0.000
+}

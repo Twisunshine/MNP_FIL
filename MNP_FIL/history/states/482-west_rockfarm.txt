@@ -1,0 +1,28 @@
+
+state={
+	id=482
+	name="STATE_482"
+	provinces={
+		259 1020 1162 1282 2529 2619 3171 6221 6446 7761 7786 
+	}
+	manpower=789651
+	state_category = town
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 6221 10 }
+		buildings = {
+		    infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	resources = {
+	    oil = 43
+		steel = 182
+		chromium = 7
+		aluminium = 10
+    }
+	local_supplies=10.000
+}

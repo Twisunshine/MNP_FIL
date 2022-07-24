@@ -1,0 +1,16 @@
+
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		1250 1365 1418 1421 1487 3266 3761 3886 3990 5534 5777 5928 6343 7463 7474 7493 7494 7538 7543 7552 7567 
+	}
+	manpower=19155
+	state_category = wasteland
+	history = {
+		owner = TTU
+		add_core_of = TTU
+		victory_points = { 3266 15 }
+	}
+	local_supplies=0.000
+}

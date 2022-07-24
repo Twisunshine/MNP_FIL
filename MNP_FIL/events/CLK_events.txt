@@ -1,0 +1,21 @@
+add_namespace = CLK_events
+
+
+country_event = {
+	id = CLK_Thorax_coup
+	title = CLK_Thorax_coup_t
+	desc = CLK_Thorax_coup_d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = CLK_Thorax_coup_tt
+		set_politics = {
+		ruling_party = liberal_democracy
+		}
+    }
+				
+}

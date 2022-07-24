@@ -1,0 +1,166 @@
+#保障独立
+DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#释放国家
+DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#归还领土
+DIPLOMACY_RETURN_TERRITORY_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#正当化战争理由
+DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#资助其他国家党派
+DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#派遣军事顾问
+DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#策划政变
+DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#离开联盟
+DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#加入联盟
+DIPLOMACY_JOIN_FACTION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#创建联盟
+DIPLOMACY_CREATE_FACTION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#踢出联盟
+DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#邀请加入联盟
+DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#互不侵犯条约
+DIPLOMACY_NONAGGRESSIONPACT_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#改善关系
+DIPLOMACY_IMPROVERELATION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#驻港权
+DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#提供驻港权
+DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#军事通行权
+DIPLOMACY_MILACC_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#提供军事通行权
+DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#起草租借法案
+DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#请求生产许可
+DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#请求租借
+DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}
+#派遣志愿军
+DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
+	custom_trigger_tooltip = {
+		tooltip = DP_Block_Tip
+		always = no
+	}
+}

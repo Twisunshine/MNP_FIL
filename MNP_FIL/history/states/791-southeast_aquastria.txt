@@ -1,0 +1,16 @@
+
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		2956 2916 5774 5186 1472 8714 4295 2803 
+	}
+	manpower=20992
+	state_category = wasteland
+	history = {
+		owner = AQU
+		add_core_of = AQU
+		victory_points = { 5774 1 }
+	}
+	local_supplies=0.000
+}

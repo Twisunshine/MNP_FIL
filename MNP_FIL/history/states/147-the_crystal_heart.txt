@@ -1,0 +1,16 @@
+
+state={
+	id=147
+	name="STATE_147"
+	provinces={
+		2727 5033 
+	}
+	manpower=684653
+	state_category = megalopolis
+	history = {
+		owner = CRY
+		add_core_of = CRY
+		victory_points = { 5033 25 }
+	}
+	local_supplies=15.000
+}

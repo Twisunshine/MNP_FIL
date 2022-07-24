@@ -1,0 +1,16 @@
+
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		281 991 1843 5202 
+	}
+	manpower=1653125
+	state_category = city
+	history = {
+		owner = CRY
+		add_core_of = CRY
+		victory_points = { 1843 3 }
+	}
+	local_supplies=5.000
+}

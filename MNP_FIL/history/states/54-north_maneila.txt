@@ -1,0 +1,16 @@
+
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		1414 2917 2949 3827 4443 5119 5140 6208 6276 6350 6438 7900 7927 
+	}
+	manpower=1861552
+	state_category = city
+	history = {
+		owner = FLP
+		add_core_of = FLP
+		victory_points = { 1414 15 }
+	}
+	local_supplies=15.000
+}

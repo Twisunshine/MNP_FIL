@@ -1,0 +1,16 @@
+
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		1671 2018 2267 5316 6391 8441 8487 8511 
+	}
+	manpower=123256
+	state_category = small_island
+	history = {
+		owner = ABY
+		add_core_of = ABY
+		victory_points = { 5316 1 }
+	}
+	local_supplies=0.000
+}

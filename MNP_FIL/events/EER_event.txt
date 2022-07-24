@@ -1,0 +1,656 @@
+add_namespace = EER_events
+
+
+country_event = {
+	id = EER_events.1
+	title = EER_events.1.t
+	desc = EER_events.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_events.1.tt
+	custom_effect_tooltip = EER_events_1_tt
+	ai_chance = {
+		factor = 5
+		}
+	hidden_effect = {news_event = { id = EER_news_events.1 days = 1}}	
+    }
+				
+}
+
+country_event = {
+	id = EER_events.2
+	title = EER_events.2.t
+	desc = EER_events.2.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events.2.tt
+		set_country_flag = EQU_NOT
+    }
+				
+}
+
+country_event = {
+	id = EER_events.3
+	title = EER_events.3.t
+	desc = EER_events.3.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_events.3.tt
+	set_country_flag = EOM_NOT
+    }
+				
+}
+
+country_event = {
+	id = EER_events.2
+	title = EER_events.2.t
+	desc = EER_events.2.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_events.2.tt
+	set_country_flag = EQU_NOT
+    }
+				
+}
+
+country_event = {
+	id = EER_events.3
+	title = EER_events.3.t
+	desc = EER_events.3.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_events.3.tt
+	set_country_flag = EOM_NOT
+    }
+				
+}
+
+
+country_event = {
+	id = EER_events.5
+	title = EER_events.5.t
+	desc = EER_events.5.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	immediate = { 
+		hidden_effect = {
+		white_peace = CLK
+		transfer_state = 332
+		transfer_state = 458
+		transfer_state = 401
+		transfer_state = 409
+		transfer_state = 384
+		transfer_state = 352
+		transfer_state = 406
+		transfer_state = 349
+		transfer_state = 393
+		transfer_state = 368
+		transfer_state = 158
+		transfer_state = 340
+		transfer_state = 381
+		transfer_state = 423
+		}
+	}
+
+	option={
+	name = EER_events.5.tt
+	    
+		set_country_flag = CLK_NOT
+    }
+				
+}
+
+add_namespace = EER_events_the_letter_from_the_front
+country_event = {
+	id = EER_events_the_letter_from_the_front.1
+	title = EER_events_the_letter_from_the_front.1.t
+	desc = EER_events_the_letter_from_the_front.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_events_the_letter_from_the_front.1.tt
+	#custom_effect_tooltip = EER_events_the_letter_from_the_front_1_tt
+	ai_chance = {
+		factor = 5
+		}
+	add_war_support = 0.05	
+    }				
+}
+
+add_namespace = EER_events_the_letter_of_accusation
+country_event = {
+	id = EER_events_the_letter_of_accusation.1
+	title = EER_events_the_letter_of_accusation.1.t
+	desc = EER_events_the_letter_of_accusation.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_events_the_letter_of_accusation.1.tt
+	#custom_effect_tooltip = EER_events_the_letter_of_accusation_1_tt
+	ai_chance = {
+		factor = 5
+		}
+	add_political_power = -100	
+    }				
+}
+
+add_namespace = EER_the_red_leaflet
+country_event = {
+	id = EER_the_red_leaflet.1
+	title = EER_the_red_leaflet.1.t
+	desc = EER_the_red_leaflet.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_the_red_leaflet.1.tt
+	#custom_effect_tooltip = EER_the_red_leaflet_1_tt
+	ai_chance = {
+		factor = 5
+		}	
+    }				
+}
+
+add_namespace = EER_the_strike
+country_event = {
+	id = EER_the_strike.1
+	title = EER_the_strike.1.t
+	desc = EER_the_strike.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_the_strike.1.tt
+	#custom_effect_tooltip = EER_the_strike_1_tt
+	ai_chance = {
+		factor = 5
+		}	
+    }				
+}
+
+add_namespace = EER_wrong
+country_event = {
+	id = EER_wrong.1
+	title = EER_wrong.1.t
+	desc = EER_wrong.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_wrong.1.tt
+	#custom_effect_tooltip = EER_wrong_1_tt
+	ai_chance = {
+		factor = 5
+		}	
+    }				
+}
+
+add_namespace = EER_the_deficit
+country_event = {
+	id = EER_the_deficit.1
+	title = EER_the_deficit.1.t
+	desc = EER_the_deficit.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_the_deficit.1.tt
+	#custom_effect_tooltip = EER_the_deficit_1_tt
+	ai_chance = {
+		factor = 5
+		}	
+    }				
+}
+
+add_namespace = EER_unstable_of_socialism_party
+country_event = {
+	id = EER_unstable_of_socialism_party.1
+	title = EER_unstable_of_socialism_party.1.t
+	desc = EER_unstable_of_socialism_party.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+	name = EER_unstable_of_socialism_party.1.tt
+	#custom_effect_tooltip = EER_unstable_of_socialism_party_1_tt
+	ai_chance = {
+		factor = 5
+		}	
+    }				
+}
+
+
+country_event = {
+	id = EER_events.114514
+	title = EER_events.114514.t
+	desc = EER_events.114514.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	hidden = yes
+
+	immediate = {
+		add_ideas = EER_Starlight_Glimmer
+			
+	}
+
+	option={
+		name = EER_events.114514.tt
+		
+    }
+				
+}
+
+
+country_event = {
+	id = EER_ourmountain_conference
+	title = EER_ourmountain_conference_t
+	desc = EER_ourmountain_conference_d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_ourmountain_conference_tt
+    }
+				
+}
+
+
+country_event = {
+	id = EER_new_life
+	title = EER_new_life_t
+	desc = EER_new_life_d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_new_life_tt
+    }
+				
+}
+
+
+country_event = {
+	id = EER_new_wind_within_the_party
+	title = EER_new_wind_within_the_party_t
+	desc = EER_new_wind_within_the_party_d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_new_wind_within_the_party_tt
+    }
+				
+}
+
+country_event = {
+	id = EER_origin_investigation
+	title = EER_origin_investigation_t
+	desc = EER_origin_investigation_d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_origin_investigation_tt
+    }
+				
+}
+
+
+country_event = {
+	id = EER_leadership_principles
+	title = EER_leadership_principles_t
+	desc = EER_leadership_principles_d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_leadership_principles_tt
+    }
+				
+}
+
+
+
+
+country_event = {
+	id = EER_events.114
+	title = EER_events.114.t
+	desc = EER_events.114.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+
+	option={
+		name = EER_events.114.tt
+		custom_effect_tooltip =  EER_Investigate_the_Double_Diamond_Pie_events_1
+		hidden_effect = {
+			remove_unit_leader = 114514
+			remove_ideas = idea_EER_Double_Diamond
+			add_ideas = idea_EER_Trixie_Lulamoon
+			}	
+    }
+				
+}
+
+country_event = {
+	id = EER_events.115
+	title = EER_events.115.t
+	desc = EER_events.115.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+
+	option={
+		name = EER_events.115.tt
+	
+    }
+				
+}
+country_event = {
+	id = EER_events.116
+	title = EER_events.116.t
+	desc = EER_events.116.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+
+	option={
+		name = EER_events.116.tt
+	
+    }
+				
+}
+
+country_event = {
+	id = EER_events.117
+	title = EER_events.117.t
+	desc = EER_events.117.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+
+
+	option={
+		name = EER_events.117.tt
+	
+    }
+				
+}
+
+
+
+add_namespace = EER_events_Lilith
+
+#军事研究
+country_event = {
+	id = EER_events_Lilith.1
+	title = EER_events_Lilith.1.t
+	desc = EER_events_Lilith.1.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.1.a
+		ai_chance = {
+			factor = 5
+		}
+		add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 1
+				uses = 1
+				category = artillery
+		}
+	}
+	option={
+		name = EER_events_Lilith.1.b
+		ai_chance = {
+			factor = 5
+		}
+		add_tech_bonus = {
+				name = support_tech_bonus
+				bonus = 1
+				uses = 1
+				category = support_tech
+		}
+	}			
+}
+#坦克研究
+country_event = {
+	id = EER_events_Lilith.2
+	title = EER_events_Lilith.2.t
+	desc = EER_events_Lilith.2.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.2.a
+		ai_chance = {
+			factor = 5
+		}
+		add_tech_bonus = {
+				name = cat_light_armor_bonus
+				bonus = 1
+				uses = 1
+				category = cat_light_armor
+		}
+	}
+	option={
+		name = EER_events_Lilith.2.b
+		ai_chance = {
+			factor = 5
+		}
+		add_tech_bonus = {
+				name = cat_heavy_armor_bonus
+				bonus = 0.75
+				ahead_reduction = 2
+				uses = 1
+				category = cat_heavy_armor 
+		}
+	}
+}
+# 我们为何而战
+country_event = {
+	id = EER_events_Lilith.3
+	title = EER_events_Lilith.3.t
+	desc = EER_events_Lilith.3.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.3.a
+		ai_chance = {
+			factor = 5
+		}
+		add_stability = 0.05
+	}
+}
+# 信使
+country_event = {
+	id = EER_events_Lilith.4
+	title = EER_events_Lilith.4.t
+	desc = EER_events_Lilith.4.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.4.a
+		
+	}
+}
+# 乘胜追击?
+country_event = {
+	id = EER_events_Lilith.5
+	title = EER_events_Lilith.5.t
+	desc = EER_events_Lilith.5.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.5.a
+		
+	}
+}
+# 道路问题
+country_event = {
+	id = EER_events_Lilith.6
+	title = EER_events_Lilith.6.t
+	desc = EER_events_Lilith.6.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.6.a
+		
+	}
+}
+# 领土问题
+country_event = {
+	id = EER_events_Lilith.7
+	title = EER_events_Lilith.7.t
+	desc = EER_events_Lilith.7.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.7.a
+		
+	}
+}
+# 帐内一夜
+country_event = {
+	id = EER_events_Lilith.8
+	title = EER_events_Lilith.8.t
+	desc = EER_events_Lilith.8.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.8.a
+		
+	}
+}
+# 关于幻形灵叛军的报告
+country_event = {
+	id = EER_events_Lilith.9
+	title = EER_events_Lilith.9.t
+	desc = EER_events_Lilith.9.d
+	
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option={
+		name = EER_events_Lilith.9.a
+		
+	}
+}

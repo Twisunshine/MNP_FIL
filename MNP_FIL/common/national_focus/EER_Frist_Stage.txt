@@ -1,0 +1,1137 @@
+﻿focus_tree = {
+	id = EER_c1_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = EER
+			#has_dlc = "Together for Victory"
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = EER_C1_1
+		icon = GFX_goal_generic_consumer_goods
+		x = 10
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_1_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_2
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_1}
+		relative_position_id = EER_C1_1
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_2_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_3
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_2}
+		relative_position_id = EER_C1_2
+		x = -4
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_3_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_4
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_2}
+		relative_position_id = EER_C1_2
+		x = 4
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_4_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_5
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_3}
+		relative_position_id = EER_C1_3
+		x = -1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_5_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_6
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_3}
+		relative_position_id = EER_C1_3
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_6_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_7
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_4}
+		relative_position_id = EER_C1_4
+		x = -1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_7_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_8
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_4}
+		relative_position_id = EER_C1_4
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_8_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_9
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_5}
+		relative_position_id = EER_C1_5
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_9_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_10
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_6}
+		relative_position_id = EER_C1_6
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_10_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_11
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_7}
+		relative_position_id = EER_C1_7
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_11_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_12
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_8}
+		relative_position_id = EER_C1_8
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_12_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_13
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_9 }
+		prerequisite = { focus = EER_C1_10 }
+		relative_position_id = EER_C1_9
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_13_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_14
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_11 }
+		prerequisite = { focus = EER_C1_12 }
+		relative_position_id = EER_C1_11
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_14_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_15
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_13 }
+		relative_position_id = EER_C1_13
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_15_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_16
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_14 }
+		relative_position_id = EER_C1_14
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_16_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_17
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_15 }
+		prerequisite = { focus = EER_C1_16 }
+		relative_position_id = EER_C1_15
+		x = 4
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_17_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_18
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_17 }
+		relative_position_id = EER_C1_17
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_18_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_19
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_17 }
+		relative_position_id = EER_C1_17
+		x = -6
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_19_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_20
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_17 }
+		relative_position_id = EER_C1_17
+		x = 6
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_20_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_21
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_19 }
+		relative_position_id = EER_C1_19
+		x = -1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_21_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_22
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_19 }
+		relative_position_id = EER_C1_19
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_22_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_23
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_21 }
+		prerequisite = { focus = EER_C1_22 }
+		relative_position_id = EER_C1_21
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_23_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_24
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_18 }
+		relative_position_id = EER_C1_18
+		x = -1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_24_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_25
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_18 }
+		relative_position_id = EER_C1_18
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_25_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_26
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_24 }
+		prerequisite = { focus = EER_C1_25 }
+		relative_position_id = EER_C1_24
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_26_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_27
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_20 }
+		relative_position_id = EER_C1_20
+		x = -1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_27_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_28
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_20 }
+		relative_position_id = EER_C1_20
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_28_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_29
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_27 }
+		prerequisite = { focus = EER_C1_28 }
+		relative_position_id = EER_C1_27
+		x = 1
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_29_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_30
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_23 }
+		prerequisite = { focus = EER_C1_26 }
+		prerequisite = { focus = EER_C1_29 }
+		relative_position_id = EER_C1_26
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_30_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_31
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_30 }
+		relative_position_id = EER_C1_30
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_31_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_32
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_31 }
+		relative_position_id = EER_C1_31
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		custom_effect_tooltip = EER_C1_32_tt
+		}
+	}
+
+	focus = {
+		id = EER_C1_33
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_32 }
+		relative_position_id = EER_C1_32
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = EER_C1_34
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_33 }
+		relative_position_id = EER_C1_33
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = EER_C1_35
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = EER_C1_34 }
+		relative_position_id = EER_C1_34
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		EOM = {has_war = yes}
+		EQU = {has_war = yes}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = EER_civil_war_c1
+			hidden_effect={
+				declare_war_on = {
+					target = EOM
+					type = civil_war
+				}
+				declare_war_on = {
+					target = EQU
+					type = civil_war
+				}
+				declare_war_on = {
+					target = CLK
+					type = take_claimed_state
+				}
+				EOM = {
+						create_wargoal = { target = EER type = civil_war }
+					}
+					EQU = {
+						create_wargoal = { target = EER type = civil_war }
+					}
+			}
+
+			country_event = EER_events.1
+			custom_effect_tooltip = EER_change_to_c_2
+			hidden_effect={load_focus_tree = EER_c2_focus}
+		}
+		
+	}
+
+	
+
+	
+
+}		

@@ -1,0 +1,16 @@
+
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		223 818 1791 1981 3112 3877 4060 4613 5369 6260 6682 
+	}
+	manpower=123156
+	state_category = wasteland
+	history = {
+		owner = YAK
+		add_core_of = YAK
+		victory_points = { 4060 1 }
+	}
+	local_supplies=0.000
+}

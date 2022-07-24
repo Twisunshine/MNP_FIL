@@ -1,0 +1,16 @@
+
+state={
+	id=626
+	name="STATE_626"
+	provinces={
+		463 1737 2059 2909 3948 5317 6415 8188 
+	}
+	manpower=1561615
+	state_category = large_town
+	history = {
+		owner = POF
+		add_core_of = POF
+		victory_points = { 463 10 }
+	}
+	local_supplies=10.000
+}

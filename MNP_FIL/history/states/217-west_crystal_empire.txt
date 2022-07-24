@@ -1,0 +1,16 @@
+
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		1710 2243 6811 6834 6872 
+	}
+	manpower=1153215
+	state_category = large_town
+	history = {
+		owner = CRY
+		add_core_of = CRY
+		victory_points = { 6811 3 }
+	}
+	local_supplies=10.000
+}

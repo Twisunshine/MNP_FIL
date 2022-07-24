@@ -1,0 +1,16 @@
+
+state={
+	id=497
+	name="STATE_497"
+	provinces={
+		196 2261 2613 3188 3806 4003 4232 4596 5159 5352 5464 5710 5748 5766 6376 7789 
+	}
+	manpower=15659
+	state_category = wasteland
+	history = {
+		owner = HHW
+		add_core_of = HHW
+		victory_points = { 196 1 }
+	}
+	local_supplies=0.000
+}

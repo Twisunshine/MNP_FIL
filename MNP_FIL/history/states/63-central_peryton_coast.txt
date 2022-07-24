@@ -1,0 +1,16 @@
+
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		12 559 2303 3432 4477 5436 6189 6227 7883 
+	}
+	manpower=416515
+	state_category = pastoral
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = { 7883 1 }
+	}
+	local_supplies=0.000
+}

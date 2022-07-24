@@ -1,0 +1,16 @@
+
+state={
+	id=695
+	name="STATE_695"
+	provinces={
+		1444 2659 2865 3528 3610 5481 8328 8378 8417 
+	}
+	manpower=958915
+	state_category = town
+	history = {
+		owner = KEL
+		add_core_of = KEL
+		victory_points = { 1444 5 }
+	}
+	local_supplies=0.000
+}

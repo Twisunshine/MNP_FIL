@@ -1,0 +1,18 @@
+
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		484 789 1126 2211 3291 3741 4347 4441 5356 7401 
+	}
+	manpower=1316532
+	state_category = town
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 484 1 }
+	}
+	local_supplies=10.000
+}

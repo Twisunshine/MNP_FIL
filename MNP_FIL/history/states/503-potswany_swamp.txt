@@ -1,0 +1,16 @@
+
+state={
+	id=503
+	name="STATE_503"
+	provinces={
+		126 999 1120 1762 2073 2259 2549 4129 5072 6013 8035 8077 8105 8130 
+	}
+	manpower=648465
+	state_category = rural
+	history = {
+		owner = POT
+		add_core_of = POT
+		victory_points = { 1762 3 }
+	}
+	local_supplies=5.000
+}

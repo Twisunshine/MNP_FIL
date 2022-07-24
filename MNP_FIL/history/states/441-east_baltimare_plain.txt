@@ -1,0 +1,21 @@
+
+state={
+	id=441
+	name="STATE_441"
+	provinces={
+		21 740 1336 1423 1433 2528 3254 3645 7502 7526 7530 
+	}
+	manpower=98965
+	state_category = wasteland
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 21 1 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	local_supplies=0.000
+}

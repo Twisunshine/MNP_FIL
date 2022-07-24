@@ -1,0 +1,16 @@
+
+state={
+	id=701
+	name="STATE_701"
+	provinces={
+		303 2919 3147 4569 4699 8388 8389 8428 
+	}
+	manpower=165156
+	state_category = wasteland
+	history = {
+		owner = ERS
+		add_core_of = ERS
+		victory_points = { 4569 1 }
+	}
+	local_supplies=0.000
+}

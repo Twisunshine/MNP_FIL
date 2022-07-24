@@ -1,0 +1,16 @@
+
+state={
+	id=199
+	name="STATE_199"
+	provinces={
+		466 1157 1997 2542 3301 4512 4642 5942 6502 6577 6678 6700 6725 6746 6796 6819 
+	}
+	manpower=651891
+	state_category = rural
+	history = {
+		owner = YKT
+		add_core_of = YKT
+		victory_points = { 2542 3 }
+	}
+	local_supplies=10.000
+}

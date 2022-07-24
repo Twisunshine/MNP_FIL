@@ -1,0 +1,16 @@
+
+state={
+	id=507
+	name="STATE_507"
+	provinces={
+		824 3396 4904 5548 6464 7795 
+	}
+	manpower=158023
+	state_category = pastoral
+	history = {
+		owner = DRA
+		add_core_of = DRA
+		victory_points = { 4904 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		1647 1925 2257 3137 3805 4836 5916 6032 8620 
+	}
+	manpower=165165
+	state_category = wasteland
+	history = {
+		owner = ANA
+		add_core_of = ANA
+		victory_points = { 8620 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		237 1586 2623 4179 4397 5633 7310 7321 
+	}
+	manpower=689498
+	state_category = rural
+	history = {
+		owner = GFS
+		add_core_of = GFS
+		victory_points = { 4397 1 }
+	}
+	local_supplies=3.000
+}

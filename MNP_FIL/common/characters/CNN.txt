@@ -1,0 +1,18 @@
+characters={
+	CNN_Katherina_Proudpaws={
+		name=CNN_Katherina_Proudpaws
+		portraits={
+			civilian={
+				large="gfx/leaders/CNN/Portrait_CNN_Katherina_Proudpaws.dds"
+			}
+		}
+		country_leader={
+			desc=CNN_Katherina_Proudpaws_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

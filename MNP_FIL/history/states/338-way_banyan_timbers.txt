@@ -1,0 +1,17 @@
+
+state={
+	id=338
+	name="STATE_338"
+	provinces={
+		234 428 2815 3174 3331 3910 4033 5382 5931 6207 6522 7160 7164 7184 
+	}
+	manpower=1558995
+	state_category = large_town
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		add_claim_by = CHI
+		victory_points = { 4033 15 }
+	}
+	local_supplies=15.000
+}

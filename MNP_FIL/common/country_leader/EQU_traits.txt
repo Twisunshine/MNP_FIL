@@ -1,0 +1,38 @@
+leader_traits = {
+    conservative_doer = {
+		random = no
+		political_power_factor = 0.10
+	}
+	excellency_prime_minister = {
+		random = no
+        opinion_gain_monthly_factor = 0.15
+	}
+	flamboyant_aristocrats = {
+		random = no
+        stability_factor = 0.05
+	}
+	extreme_xenophobes = {
+		random = no
+        stability_factor = -0.05
+		war_support_factor = 0.15
+	}
+	legal_princess = {
+		random = no
+        resistance_growth_on_our_occupied_states = 0.10
+	}
+	gorgeous_innovator = {
+		random = no
+        consumer_goods_factor = 0.05
+		production_factory_max_efficiency_factor = 0.10
+		trade_opinion_factor = 0.15
+	}
+	economic_radicals = {
+		random = no
+        production_speed_industrial_complex_factor = 0.10
+	}
+	special_operations_specialist = {
+		random = no
+        operative_slot = 1
+		operation_infiltrate_risk = -0.10
+	}
+}

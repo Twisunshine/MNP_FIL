@@ -1,0 +1,23 @@
+
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		568 1024 1279 1896 2553 3575 3657 3727 4189 4671 4679 4765 5052 5802 5975 7585 7589 7614 7644 7654 
+	}
+	manpower=1645123
+	state_category = city
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 4189 3 }
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
+	local_supplies=5.000
+}

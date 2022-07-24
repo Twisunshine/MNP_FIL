@@ -1,0 +1,17 @@
+characters={
+	YKT_yak_authorities={
+		name=YKT_yak_authorities
+		portraits={
+			civilian={
+				large="gfx/leaders/YKT/Portrait_YKT_yak_authorities.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_committee_autonomy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

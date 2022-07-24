@@ -1,0 +1,16 @@
+
+state={
+	id=361
+	name="STATE_361"
+	provinces={
+		2724 3514 5502 5637 6153 6224 7323 7347 
+	}
+	manpower=2009855
+	state_category = city
+	history = {
+		owner = YAP
+		add_core_of = YAP
+		victory_points = { 2724 5 }
+	}
+	local_supplies=5.000
+}

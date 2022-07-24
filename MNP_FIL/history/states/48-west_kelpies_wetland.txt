@@ -1,0 +1,16 @@
+
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		113 758 1768 2176 2526 6403 8342 8357 8370 8380 8411 
+	}
+	manpower=711651
+	state_category = rural
+	history = {
+		owner = KEL
+		add_core_of = KEL
+		victory_points = { 2176 3 }
+	}
+	local_supplies=0.000
+}

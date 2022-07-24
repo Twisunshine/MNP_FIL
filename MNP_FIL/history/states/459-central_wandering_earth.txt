@@ -1,0 +1,23 @@
+
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		557 2129 2321 2534 5167 5204 7709 7744 
+	}
+	manpower=413152
+	state_category = pastoral
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 557 1 }
+		buildings = {
+		    air_base = 2
+		}
+	}
+	resources = {
+	    oil = 40
+	    steel = 8
+    }
+	local_supplies=0.000
+}

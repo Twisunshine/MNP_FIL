@@ -1,0 +1,129 @@
+characters={
+	EOM_Nightmare_Moon={
+		name=EOM_Nightmare_Moon
+		portraits={
+			civilian={
+				large="gfx/leaders/EOM/Portrait_EOM_Nightmare_Moon.dds"
+				small="gfx/leaders/EOM/idea_Portrait_EOM_Nightmare_Moon.dds"
+			}
+		}
+		country_leader={
+			desc=EOM_Nightmare_Moon_desc
+			ideology=despotism_governance_of_Nightmare_Moon
+			traits={ tyrant }
+			expire="2000.1.1.1"
+			id=-1
+		}
+		advisor = {
+            cost = 150
+            slot = head_of_government
+			idea_token = idea_EOM_Nightmare_Moon
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+            traits = {
+                unrecognized_monarchs
+            }
+			removal_cost = -114514
+        }
+	}
+	EOM_Suri_Polomare = {
+		name = EOM_Suri_Polomare
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EOM/idea_Portrait_Suri_Polomare.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EOM_Suri_Polomare
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                unscrupulous_politician
+            }
+			removal_cost = -114514
+        }
+	}
+	EOM_Prince_Blueblood = {
+		name = EOM_Prince_Blueblood
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EOM/idea_Portrait_Prince_Blueblood.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EOM_Prince_Blueblood
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                incompetent_vase
+            }
+			removal_cost = -114514
+        }
+	}
+	EOM_Gladmane = {
+		name = EOM_Gladmane
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EOM/idea_Portrait_Gladmane.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EOM_Gladmane
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                schemer_in_the_dark
+            }
+			removal_cost = -114514
+        }
+	}
+	EOM_Zesty_Gourmand = {
+		name = EOM_Zesty_Gourmand
+		portraits = {
+			civilian = {
+				small="gfx/leaders/EOM/idea_Portrait_Zesty_Gourmand.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EOM_Zesty_Gourmand
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                reluctant_surrenderists
+            }
+			removal_cost = -114514
+        }
+	}
+}

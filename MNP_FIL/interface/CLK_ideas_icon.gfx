@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	SpriteType = {
+        name = "GFX_idea_CLK_Thorax_rebellion_dynamic_modifier"
+        texturefile = "gfx/interface/ideas/CLK_Thorax_rebellion_dynamic_modifier.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CLK_Love_of_hunger_1"
+        texturefile = "gfx/interface/ideas/CLK_Love_of_hunger_1.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_CLK_Morphological_changes_1"
+        texturefile = "gfx/interface/ideas/CLK_Morphological_changes_1.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CLK_colonial_west_EER_1"
+        texturefile = "gfx/interface/ideas/CLK_colonial_west_EER_1.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CLK_Tolt_contract_1"
+        texturefile = "gfx/interface/ideas/CLK_Tolt_contract_1.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CLK_The_consequences_of_overexpansion_1"
+        texturefile = "gfx/interface/ideas/CLK_The_consequences_of_overexpansion_1.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CLK_prefer_the_status_quo"
+        texturefile = "gfx/interface/ideas/CLK_prefer_the_status_quo.dds"
+    }
+}

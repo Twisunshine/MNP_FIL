@@ -1,0 +1,21 @@
+
+state={
+	id=542
+	name="STATE_542"
+	provinces={
+		461 823 1667 2026 2209 2602 2605 2652 2666 3090 4087 4541 4739 4820 5002 5188 5986 7805 7846 7884 7892 7909 
+	}
+	manpower=321551
+	state_category = wasteland
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 4820 1 }
+	}
+	resources = {
+	    tungsten = 36
+    }
+	local_supplies=0.000
+}

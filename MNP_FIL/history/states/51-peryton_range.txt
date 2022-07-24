@@ -1,0 +1,16 @@
+
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		6060 6223 7759 
+	}
+	manpower=616502
+	state_category = town
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = { 6060 3 }
+	}
+	local_supplies=5.000
+}

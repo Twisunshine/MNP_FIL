@@ -1,0 +1,16 @@
+
+state={
+	id=648
+	name="STATE_648"
+	provinces={
+		700 1269 1428 1721 2874 3087 5093 8223 8226 8253 
+	}
+	manpower=646565
+	state_category = pastoral
+	history = {
+		owner = ZEB
+		add_core_of = ZEB
+		victory_points = { 1269 5 }
+	}
+	local_supplies=3.000
+}

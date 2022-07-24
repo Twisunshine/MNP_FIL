@@ -1,0 +1,16 @@
+
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		105 3739 4258 5691 5919 8664 8673 8675 
+	}
+	manpower=861555
+	state_category = rural
+	history = {
+		owner = SAD
+		add_core_of = SAD
+		victory_points = { 4258 1 }
+	}
+	local_supplies=3.000
+}

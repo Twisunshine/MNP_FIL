@@ -1,0 +1,18 @@
+characters={
+	KIR_Rain_Shine={
+		name=KIR_Rain_Shine
+		portraits={
+			civilian={
+				large="gfx/leaders/KIR/Portrait_KIR_Rain_Shine.dds"
+			}
+		}
+		country_leader={
+			desc=KIR_Rain_Shine_desc
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

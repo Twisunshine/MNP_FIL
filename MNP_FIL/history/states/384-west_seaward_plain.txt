@@ -1,0 +1,21 @@
+
+state={
+	id=384
+	name="STATE_384"
+	provinces={
+		963 996 1445 2929 3013 3709 4177 7283 7325 7350 
+	}
+	manpower=991655
+	state_category = town
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 4177 1 }
+		buildings = {
+		    air_base = 2
+		}
+	}
+	local_supplies=3.000
+}

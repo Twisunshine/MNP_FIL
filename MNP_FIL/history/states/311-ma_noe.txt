@@ -1,0 +1,16 @@
+
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		844 1563 2945 4659 
+	}
+	manpower=1565689
+	state_category = large_town
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 4659 10 }
+	}
+	local_supplies=10.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=307
+	name="STATE_307"
+	provinces={
+		340 698 2588 5780 7108 
+	}
+	manpower=988556
+	state_category = town
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		victory_points = { 5780 5 }
+	}
+	local_supplies=0.000
+}

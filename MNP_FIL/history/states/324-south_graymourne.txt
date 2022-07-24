@@ -1,0 +1,16 @@
+
+state={
+	id=324
+	name="STATE_324"
+	provinces={
+		351 2282 3110 4180 4761 5613 6273 7186 7210 
+	}
+	manpower=982565
+	state_category = town
+	history = {
+		owner = GMN
+		add_core_of = GMN
+		victory_points = { 4761 5 }
+	}
+	local_supplies=10.000
+}

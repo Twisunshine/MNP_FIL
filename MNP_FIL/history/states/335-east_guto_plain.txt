@@ -1,0 +1,16 @@
+
+state={
+	id=335
+	name="STATE_335"
+	provinces={
+		457 704 2020 5573 6581 7224 7236 7250 
+	}
+	manpower=465555
+	state_category = pastoral
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 2020 1 }
+	}
+	local_supplies=0.000
+}

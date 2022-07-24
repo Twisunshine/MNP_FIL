@@ -1,0 +1,21 @@
+
+state={
+	id=344
+	name="STATE_344"
+	provinces={
+		236 812 1263 1270 2151 3253 3283 5041 5268 5318 6102 6264 7235 7253 7265 7289 7293 
+	}
+	manpower=156132
+	state_category = pastoral
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 7293 1 }
+	}
+	resources = {
+		steel = 51
+	}
+	local_supplies=0.000
+}

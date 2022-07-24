@@ -1,0 +1,18 @@
+characters={
+	GFS_Grampa_Gruff={
+		name=GFS_Grampa_Gruff
+		portraits={
+			civilian={
+				large="gfx/leaders/GFS/Portrait_GFS_Grampa_Gruff.dds"
+			}
+		}
+		country_leader={
+			desc=GFS_Grampa_Gruff_desc
+			ideology=authoritarian_democracy_committee_autonomy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

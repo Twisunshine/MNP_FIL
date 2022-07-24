@@ -1,0 +1,16 @@
+
+state={
+	id=276
+	name="STATE_276"
+	provinces={
+		260 357 673 2653 2975 3058 7132 7145 7172 7209 
+	}
+	manpower=720951
+	state_category = rural
+	history = {
+		owner = GFE
+		add_core_of = GFE
+		victory_points = { 2653 3 }
+	}
+	local_supplies=5.000
+}

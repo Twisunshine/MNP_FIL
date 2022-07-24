@@ -1,0 +1,358 @@
+spriteTypes = {
+	
+	###法案
+	
+	#征兵法案
+	
+	
+	
+	#贸易政策
+	
+	
+	
+	#经济重心
+	
+	
+	
+	#经济干预
+	
+	
+	
+	#征兵政策
+	
+	
+	
+	#公民权利
+	
+	
+	
+	
+	
+	
+	
+	###社会发展度
+	
+	#工业发展
+	
+	
+	
+	#农业发展
+	
+	
+	
+	#魔法普及
+	
+	
+	
+	#政府运行
+	
+	spriteType = {
+		name = "GFX_idea_government_collapse"
+		texturefile = "gfx/interface/laws/government_collapse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_the_chaos"
+		texturefile = "gfx/interface/laws/the_chaos.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chaos"
+		texturefile = "gfx/interface/laws/chaos.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Flaws_do_not_hide_beauty"
+		texturefile = "gfx/interface/laws/Flaws_do_not_hide_beauty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_smooth_operation"
+		texturefile = "gfx/interface/laws/smooth_operation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_social_instrument"
+		texturefile = "gfx/interface/laws/social_instrument.dds"
+	}
+	
+	#科研教育
+	
+	
+	
+	#军队素质
+	
+	
+	
+	
+	
+	
+	
+	#独裁主义
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_group"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_dictatorshipism"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_dictatorshipism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_practical_harmonicism"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_practical_harmonicism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_new_harmonicism"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_new_harmonicism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_governance_of_Sombra"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_governance_of_Sombra_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_our_town_system"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_our_town_system_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_dictatorshipism_fundamental_harmonicism"
+		texturefile = "gfx/interface/ideologies/dictatorshipism_fundamental_harmonicism_subtype.dds"
+	}
+
+	#法西斯主义
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_fascism"
+		texturefile = "gfx/interface/ideologies/fascism_fascism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_friendshipism"
+		texturefile = "gfx/interface/ideologies/fascism_friendshipism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_the_spirit_of_loyalty"
+		texturefile = "gfx/interface/ideologies/fascism_the_spirit_of_loyalty_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_corporatism_statism"
+		texturefile = "gfx/interface/ideologies/fascism_corporatism_statism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_racial_purity_socialism"
+		texturefile = "gfx/interface/ideologies/fascism_racial_purity_socialism_subtype.dds"
+	}
+	
+	#专制主义
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_despotism"
+		texturefile = "gfx/interface/ideologies/despotism_despotism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_governance_of_Nightmare_Moon"
+		texturefile = "gfx/interface/ideologies/despotism_governance_of_Nightmare_Moon_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_changeling_system"
+		texturefile = "gfx/interface/ideologies/despotism_changeling_system_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_military_junta"
+		texturefile = "gfx/interface/ideologies/despotism_military_junta_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_absolute_monarchy"
+		texturefile = "gfx/interface/ideologies/despotism_absolute_monarchy_subtype.dds"
+	}
+	
+	#威权民主主义
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_authoritarian_democracy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_authoritarian_democracy_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_Celestia_system"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_Celestia_system_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_oligarchy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_oligarchy_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_controlled_democracy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_controlled_democracy_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_provisional_government"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_provisional_government_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_aristocratic_conservatism"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_aristocratic_conservatism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_committee_autonomy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_committee_autonomy_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_semi-constitutional_monarchy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy_semi-constitutional_monarchy_subtype.dds"
+	}
+	
+	#自由民主主义
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_group"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_liberal_democracy"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_liberal_democracy_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_harmonicism"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_harmonicism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_trade_liberalism"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_trade_liberalism_subtype.dds"
+	}
+	
+	#社会民主主义
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_social_democracy"
+		texturefile = "gfx/interface/ideologies/social_democracy_social_democracy_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_equalism"
+		texturefile = "gfx/interface/ideologies/social_democracy_equalism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_utopian_equalism"
+		texturefile = "gfx/interface/ideologies/social_democracy_utopian_equalism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_Celestiaism"
+		texturefile = "gfx/interface/ideologies/social_democracy_Celestiaism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_our_town_model"
+		texturefile = "gfx/interface/ideologies/social_democracy_our_town_model_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_parliamentary_socialism"
+		texturefile = "gfx/interface/ideologies/social_democracy_parliamentary_socialism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_progressive_democracy"
+		texturefile = "gfx/interface/ideologies/social_democracy_progressive_democracy_subtype.dds"
+	}
+	
+	#社会主义
+	
+	spriteType = {
+		name = "GFX_ideology_socialism_group"
+		texturefile = "gfx/interface/ideologies/socialism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialism_socialism"
+		texturefile = "gfx/interface/ideologies/socialism_socialism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialism_equalist_socialism"
+		texturefile = "gfx/interface/ideologies/socialism_equalist_socialism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialism_practical_communism"
+		texturefile = "gfx/interface/ideologies/socialism_practical_communism_subtype.dds"
+	}
+	
+	#共产主义
+	
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_communism"
+		texturefile = "gfx/interface/ideologies/communism_communism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_authoritarian_communism"
+		texturefile = "gfx/interface/ideologies/communism_authoritarian_communism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_anarcho-communism"
+		texturefile = "gfx/interface/ideologies/communism_anarcho-communism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_radical_communism"
+		texturefile = "gfx/interface/ideologies/communism_radical_communism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_anarchy"
+		texturefile = "gfx/interface/ideologies/communism_anarchy_subtype.dds"
+	}
+	
+	
+}

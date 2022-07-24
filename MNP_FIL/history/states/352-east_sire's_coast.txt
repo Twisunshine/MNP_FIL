@@ -1,0 +1,18 @@
+
+state={
+	id=352
+	name="STATE_352"
+	provinces={
+		313 422 1952 4464 5431 6395 7268 7349 
+	}
+	manpower=684155
+	state_category = rural
+	history = {
+		owner = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 7268 1 }
+	}
+	local_supplies=5.000
+}

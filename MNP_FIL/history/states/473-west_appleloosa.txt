@@ -1,0 +1,23 @@
+
+state={
+	id=473
+	name="STATE_473"
+	provinces={
+		269 507 706 1735 1761 1851 2771 3009 3693 5496 6082 6219 7674 7680 7727 
+	}
+	manpower=1986513
+	state_category = large_town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 1851 10 }
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	local_supplies=10.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=647
+	name="STATE_647"
+	provinces={
+		60 1128 2147 2318 3345 4028 4693 4888 5503 8224 8244 8259 8262 8265 8276 8286 8294 
+	}
+	manpower=1564562
+	state_category = large_town
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 1128 5 }
+	}
+	local_supplies=10.000
+}

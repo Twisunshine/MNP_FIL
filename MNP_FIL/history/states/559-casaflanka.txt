@@ -1,0 +1,16 @@
+
+state={
+	id=559
+	name="STATE_559"
+	provinces={
+		153 1036 1455 2186 2854 3099 3633 4911 5284 7959 7975 7976 7982 
+	}
+	manpower=2415685
+	state_category = large_city
+	history = {
+		owner = FAR
+		add_core_of = FAR
+		victory_points = { 2854 15 }
+	}
+	local_supplies=15.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=533
+	name="STATE_533"
+	provinces={
+		988 1174 1638 2171 3347 3591 3740 3758 4384 4609 4734 5051 5183 5200 5925 7793 7803 7830 7840 7867 
+	}
+	manpower=165898
+	state_category = wasteland
+	history = {
+		owner = ART
+		add_core_of = ART
+		victory_points = { 7867 1 }
+	}
+	local_supplies=0.000
+}

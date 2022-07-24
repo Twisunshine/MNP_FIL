@@ -1,0 +1,24 @@
+
+state={
+	id=423
+	name="STATE_423"
+	provinces={
+		233 921 3065 3285 3434 4064 4188 7446 7462 7484 7513 
+	}
+	manpower=2015616
+	state_category = large_city
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		add_core_of = EOM
+		add_claim_by = EER
+		add_claim_by = EQU
+		victory_points = { 7462 10 }
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	local_supplies=3.000
+}

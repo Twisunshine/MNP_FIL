@@ -1,0 +1,17 @@
+characters={
+	GFR_congress={
+		name=GFR_congress
+		portraits={
+			civilian={
+				large="gfx/leaders/GFR/Portrait_GFR_congress.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_controlled_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

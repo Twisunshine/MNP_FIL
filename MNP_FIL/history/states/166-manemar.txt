@@ -1,0 +1,16 @@
+
+state={
+	id=166
+	name="STATE_166"
+	provinces={
+		913 1264 1888 2060 2734 3925 5929 6739 6766 
+	}
+	manpower=2595556
+	state_category = large_city
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		victory_points = { 5929 15 }
+	}
+	local_supplies=15.000
+}

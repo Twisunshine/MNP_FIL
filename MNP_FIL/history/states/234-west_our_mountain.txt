@@ -1,0 +1,24 @@
+
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		1486 4029 4036 4164 4676 4764 5634 5663 6037 6436 6847 6849 6900 6901 6951 
+	}
+	manpower=14984
+	state_category = wasteland
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 6951 1 }
+		buildings = {}
+	}
+	resources = {
+		steel = 71
+		tungsten = 13
+		aluminium = 7
+	}
+	local_supplies=0.000
+}

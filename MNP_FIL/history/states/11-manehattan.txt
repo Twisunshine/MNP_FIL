@@ -1,0 +1,26 @@
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		2076 2778 3323 4737 6217 6453 7171 7173 7195 
+	}
+	manpower=3125455
+	state_category = megalopolis
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 7171 25 }
+		buildings = {
+		    infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 3
+		    air_base = 4
+		    6453 = {
+			    naval_base = 4
+		    }
+		}
+	}
+}

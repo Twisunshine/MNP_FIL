@@ -1,0 +1,22 @@
+
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		84 567 1699 1916 2681 3416 3512 3564 5023 6370 7089 7100 7101 7117 7129 7148 
+	}
+	manpower=94156
+	state_category = wasteland
+	history = {
+		owner = CLK
+		add_core_of = CLK
+		victory_points = { 7148 1 }
+	}
+	resources = {
+	    oil = 108
+		steel = 92
+		chromium = 3
+		aluminium = 48
+    }
+	local_supplies=0.000
+}

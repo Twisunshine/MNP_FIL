@@ -1,0 +1,21 @@
+
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		195 238 1383 2006 2548 2570 4655 4929 5591 
+	}
+	manpower=794531
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 1383 5 }
+		buildings = {
+		    infrastructure = 2
+		}
+	}
+	local_supplies=5.000
+}

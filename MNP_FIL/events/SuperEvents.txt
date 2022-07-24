@@ -1,0 +1,44 @@
+add_namespace = fil_superevents
+
+country_event = {
+	id = fil_superevents.1
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		trigger = { NOT = { has_global_flag = fil_super_event_flag_eee_war_off } }
+		set_global_flag = fil_super_event_flag_eee_war
+	}
+	option = {
+		trigger = { has_global_flag = fil_super_event_flag_eee_war_off }
+	}
+}
+
+country_event = {
+	id = fil_superevents.2
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		trigger = { NOT = { has_global_flag = fil_super_event_flag_starlight_eqs_off } }
+		set_global_flag = fil_super_event_flag_starlight_eqs
+	}
+	option = {
+		trigger = { has_global_flag = fil_super_event_flag_starlight_eqs_off }
+	}
+}
+
+country_event = {
+	id = fil_superevents.3
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { NOT = { has_global_flag = fil_super_event_flag_Meowmeow_King_off } }
+		set_global_flag = fil_super_event_flag_Meowmeow_King
+	}
+	option = {
+		trigger = { has_global_flag = fil_super_event_flag_Meowmeow_King_off }
+	}
+}

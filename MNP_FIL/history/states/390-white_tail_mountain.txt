@@ -1,0 +1,25 @@
+
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		345 1168 1216 1237 1907 3094 5367 5648 5824 5947 6036 7392 7423 7429 
+	}
+	manpower=654511
+	state_category = pastoral
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 3094 1 }
+	    buildings = {
+		    infrastructure = 1
+		}
+	}
+	resources = {
+        steel = 19
+		aluminium = 14
+	}
+	local_supplies=0.000
+}

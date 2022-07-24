@@ -1,0 +1,16 @@
+
+state={
+	id=432
+	name="STATE_432"
+	provinces={
+		11 141 1652 2351 7458 7489 
+	}
+	manpower=1065562
+	state_category = town
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 2351 10 }
+	}
+	local_supplies=5.000
+}

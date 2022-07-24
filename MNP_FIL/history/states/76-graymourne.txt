@@ -1,0 +1,16 @@
+
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		54 114 563 1341 2612 2860 3156 4566 7084 7116 
+	}
+	manpower=1615689
+	state_category = wasteland
+	history = {
+		owner = GMN
+		add_core_of = GMN
+		victory_points = { 3156 15 }
+	}
+	local_supplies=0.000
+}

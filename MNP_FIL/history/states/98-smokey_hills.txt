@@ -1,0 +1,21 @@
+
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		639 1367 1915 2022 3553 3677 4067 4408 4803 5086 5528 5914 7292 7301 7311 7317 
+	}
+	manpower=1132561
+	state_category = town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 639 3 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	local_supplies=5.000
+}

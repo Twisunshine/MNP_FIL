@@ -1,0 +1,16 @@
+
+state={
+	id=627
+	name="STATE_627"
+	provinces={
+		162 1549 2484 2886 3116 3725 3810 4100 8129 8138 
+	}
+	manpower=898152
+	state_category = town
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		victory_points = { 1549 3 }
+	}
+	local_supplies=5.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=200
+	name="STATE_200"
+	provinces={
+		804 5225 5714 6812 
+	}
+	manpower=1896512
+	state_category = city
+	history = {
+		owner = CRY
+		add_core_of = CRY
+		victory_points = { 5714 3 }
+	}
+	local_supplies=3.000
+}

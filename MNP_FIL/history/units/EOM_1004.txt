@@ -1,0 +1,669 @@
+division_template = {
+	name = "帝国步兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+
+	support = {
+
+	}
+}
+division_template = {
+	name = "帝国炮兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+                                artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		
+	}
+
+	support = {
+
+	}
+}
+division_template = {
+	name = "帝国坦克师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+                                light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+                                light_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		
+	}
+
+	support = {
+
+	}
+}
+units = {
+
+division= {	
+		name =  "帝国第一步兵师"
+		location = 3205
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二步兵师"
+		location = 4173
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三步兵师"
+		location = 3205
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第四步兵师"
+		location = 4173
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第五步兵师"
+		location = 3960
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第六步兵师"
+		location = 2660
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第七步兵师"
+		location = 3960
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第八步兵师"
+		location = 3960
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第九步兵师"
+		location = 7153
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十步兵师"
+		location = 7153
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十一步兵师"
+		location = 7651
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第十二步兵师"
+		location =442
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第十三步兵师"
+		location = 3500
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第十四步兵师"
+		location = 7153
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十五步兵师"
+		location = 208
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十六步兵师"
+		location = 208
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第十七步兵师"
+		location = 4894
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "坎特洛特一师"
+		location = 3094
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "坎特洛特二师"
+		location = 7483
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "坎特洛特三师"
+		location = 7483
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.4
+	}
+division= {	
+		name =  "帝国第二一步兵师"
+		location = 1363
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十二步兵师"
+		location = 1059
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第二十三步兵师"
+		location = 883
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第二十四步兵师"
+		location = 3944
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二十五步兵师"
+		location = 3299
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第二十六步兵师"
+		location = 3944
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国权威"
+		location = 634
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "帝国第二十八步兵师"
+		location = 634
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十九步兵师"
+		location = 634
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十步兵师"
+		location = 1851
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第三十一步兵师"
+		location = 1851
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第三十二步兵师"
+		location = 7051
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.4
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第三十三步兵师"
+		location = 1664
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.4
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第三十四步兵师"
+		location = 1664
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十五步兵师"
+		location = 7410
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十六步兵师"
+		location = 3017
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第三十七步兵师"
+		location = 6258
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十八步兵师"
+		location = 6258
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十九步兵师"
+		location = 6258
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第四十步兵师"
+		location =3270
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第四十一步兵师"
+		location = 4172
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第四十二步兵师"
+		location = 455
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第四十三步兵师"
+		location = 810
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "帝国第四十四步兵师"
+		location = 455
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第四十五步兵师"
+		location = 1334
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第四十六步兵师"
+		location = 1654
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第四十七步兵师"
+		location = 1654
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第四十八步兵师"
+		location = 3144
+		division_template = "帝国步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第一炮兵师"
+		location = 3094
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二炮兵师"
+		location = 3094
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第三炮兵师"
+		location = 3094
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第四炮兵师"
+		location = 2305
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "帝国第五炮兵师"
+		location = 2305
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.9
+	}
+division= {	
+		name =  "帝国第六炮兵师"
+		location = 2524
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第七炮兵师"
+		location = 2524
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第八炮兵师"
+		location = 7059
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第九炮兵师"
+		location = 7059
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十炮兵师"
+		location = 7059
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十一炮兵师"
+		location = 7293
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第十二炮兵师"
+		location = 7293
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第十三炮兵师"
+		location = 7293
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十四炮兵师"
+		location = 7419
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第十五炮兵师"
+		location = 7419
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.6
+	}
+division= {	
+		name =  "帝国第十六炮兵师"
+		location = 7419
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第十七炮兵师"
+		location = 7416
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十八炮兵师"
+		location = 361
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.9
+	}
+division= {	
+		name =  "帝国第十九炮兵师"
+		location = 3270
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二十炮兵师"
+		location =3270
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十一炮兵师"
+		location =2239
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十二炮兵师"
+		location =2239
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二十三炮兵师"
+		location =6385
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十四炮兵师"
+		location =6385
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二十五炮兵师"
+		location =3960
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十六炮兵师"
+		location =7153
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第二十七炮兵师"
+		location =7293
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第二十八炮兵师"
+		location =7293
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.5
+	}
+division= {	
+		name =  "帝国第二十九炮兵师"
+		location =3205
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第三十炮兵师"
+		location =565
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十一炮兵师"
+		location =5827
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三十二炮兵师"
+		location =5827
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国王牌炮兵一师"
+		location =6342
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "帝国王牌炮兵二师"
+		location =6342
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "帝国第三十五炮兵师"
+		location =4173
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第三十六炮兵师"
+		location =4173
+		division_template = "帝国炮兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第一坦克师"
+		location =7533
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第二坦克师"
+		location =7533
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name =  "帝国第三坦克师"
+		location =5468
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "梦魇之蹄"
+		location =5468
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "帝国第五坦克师"
+		location =2523
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.5
+	}
+
+division= {	
+		name =  "帝国第六坦克师"
+		location = 2523
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.8
+	}
+division= {	
+		name =  "帝国第七坦克师"
+		location = 7533
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第八坦克师"
+		location = 3129
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第九坦克师"
+		location =3129
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十坦克师"
+		location =1383
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "帝国第十一坦克师"
+		location =1383
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+start_equipment_factor = 0.7
+	}
+division= {	
+		name =  "帝国第十二坦克师"
+		location =6922
+		division_template = "帝国坦克师"
+		start_experience_factor = 0.2
+	}
+
+
+
+}

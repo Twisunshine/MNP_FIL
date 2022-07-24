@@ -1,0 +1,181 @@
+﻿ALL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { }
+
+    can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
+	
+	fallback_name = "战列舰 %d"
+	
+	ordered = {
+		1 = {"战列舰 %d"}
+		2 = {"战列舰 %d"}
+		3 = {"战列舰 %d"}
+		4 = {"战列舰 %d"}
+		5 = {"战列舰 %d"}
+		6 = {"战列舰 %d"}
+		7 = {"战列舰 %d"}
+		8 = {"战列舰 %d"}
+		9 = {"战列舰 %d"}
+		10 = {"战列舰 %d"}
+	}
+}
+
+ALL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { }
+
+    can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
+	
+	fallback_name = "战斗巡洋舰 %d"
+
+	ordered = {
+		1 = {"战斗巡洋舰 %d"}
+		2 = {"战斗巡洋舰 %d"}
+		3 = {"战斗巡洋舰 %d"}
+		4 = {"战斗巡洋舰 %d"}
+		5 = {"战斗巡洋舰 %d"}
+		6 = {"战斗巡洋舰 %d"}
+		7 = {"战斗巡洋舰 %d"}
+		8 = {"战斗巡洋舰 %d"}
+		9 = {"战斗巡洋舰 %d"}
+		10 = {"战斗巡洋舰 %d"}
+	}
+}
+
+ALL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_TB
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	
+	fallback_name = "驱逐舰 %d"
+
+	ordered = {
+		1 = {"驱逐舰 %d"}
+		2 = {"驱逐舰 %d"}
+		3 = {"驱逐舰 %d"}
+		4 = {"驱逐舰 %d"}
+		5 = {"驱逐舰 %d"}
+		6 = {"驱逐舰 %d"}
+		7 = {"驱逐舰 %d"}
+		8 = {"驱逐舰 %d"}
+		9 = {"驱逐舰 %d"}
+		10 = {"驱逐舰 %d"}
+	}
+}
+
+ALL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "潜艇 %d"
+	
+	ordered = {
+		1 = {"潜艇 %d"}
+		2 = {"潜艇 %d"}
+		3 = {"潜艇 %d"}
+		4 = {"潜艇 %d"}
+		5 = {"潜艇 %d"}
+		6 = {"潜艇 %d"}
+		7 = {"潜艇 %d"}
+		8 = {"潜艇 %d"}
+		9 = {"潜艇 %d"}
+		10 = {"潜艇 %d"}
+	}
+}
+
+ALL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	
+	fallback_name = "重型巡洋舰 %d"
+
+	ordered = {
+		1 = {"重型巡洋舰 %d"}
+		2 = {"重型巡洋舰 %d"}
+		3 = {"重型巡洋舰 %d"}
+		4 = {"重型巡洋舰 %d"}
+		5 = {"重型巡洋舰 %d"}
+		6 = {"重型巡洋舰 %d"}
+		7 = {"重型巡洋舰 %d"}
+		8 = {"重型巡洋舰 %d"}
+		9 = {"重型巡洋舰 %d"}
+		10 = {"重型巡洋舰 %d"}
+	}
+}
+
+ALL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	
+	fallback_name = "轻型巡洋舰 %d"
+
+	ordered = {
+		1 = {"轻型巡洋舰 %d"}
+		2 = {"轻型巡洋舰 %d"}
+		3 = {"轻型巡洋舰 %d"}
+		4 = {"轻型巡洋舰 %d"}
+		5 = {"轻型巡洋舰 %d"}
+		6 = {"轻型巡洋舰 %d"}
+		7 = {"轻型巡洋舰 %d"}
+		8 = {"轻型巡洋舰 %d"}
+		9 = {"轻型巡洋舰 %d"}
+		10 = {"轻型巡洋舰 %d"}
+	}
+}
+
+ALL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "航空母舰 %d"
+
+	ordered = {
+		1 = {"航空母舰 %d"}
+		2 = {"航空母舰 %d"}
+		3 = {"航空母舰 %d"}
+		4 = {"航空母舰 %d"}
+		5 = {"航空母舰 %d"}
+		6 = {"航空母舰 %d"}
+		7 = {"航空母舰 %d"}
+		8 = {"航空母舰 %d"}
+		9 = {"航空母舰 %d"}
+		10 = {"航空母舰 %d"}
+	}
+}

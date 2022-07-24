@@ -1,0 +1,17 @@
+characters={
+	REI_king_reindeer={
+		name=REI_king_reindeer
+		portraits={
+			civilian={
+				large="gfx/leaders/REI/Portrait_REI_king_reindeer.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

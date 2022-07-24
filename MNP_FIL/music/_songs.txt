@@ -1,0 +1,20 @@
+
+music_station = "base_music"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+
+music = {
+	song = "main_vanilla"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}

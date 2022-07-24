@@ -1,0 +1,16 @@
+
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		131 1503 2427 2559 2951 3229 4773 5692 5703 8670 8678 8680 
+	}
+	manpower=2889456
+	state_category = metropolis
+	history = {
+		owner = SAD
+		add_core_of = SAD
+		victory_points = { 8678 15 }
+	}
+	local_supplies=20.000
+}

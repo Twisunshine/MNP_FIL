@@ -1,0 +1,14 @@
+﻿#Generic Operative list
+GENERIC_ALL_OPERATIVE_CODENAME_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_OPERATIVES
+
+	for_countries = { }
+
+	type = codename
+
+	fallback_name = "間諜 %d"
+
+	unique = {
+		"間諜 %d"
+	}
+}

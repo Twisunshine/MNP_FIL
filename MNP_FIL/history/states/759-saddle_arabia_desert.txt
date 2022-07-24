@@ -1,0 +1,16 @@
+
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		324 1848 1936 2274 3298 4161 4287 4577 5237 5270 5366 5429 8640 
+	}
+	manpower=61895
+	state_category = wasteland
+	history = {
+		owner = SAD
+		add_core_of = SAD
+		victory_points = { 1936 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=715
+	name="STATE_715"
+	provinces={
+		1529 2256 2539 2981 6266 8463 8482 
+	}
+	manpower=1561520
+	state_category = large_town
+	history = {
+		owner = NHN
+		add_core_of = NHN
+		victory_points = { 8482 10 }
+	}
+	local_supplies=10.000
+}

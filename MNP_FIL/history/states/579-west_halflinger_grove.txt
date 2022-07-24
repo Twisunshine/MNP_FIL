@@ -1,0 +1,16 @@
+
+state={
+	id=579
+	name="STATE_579"
+	provinces={
+		845 862 1054 1555 1765 2226 3027 4217 4406 4418 5459 8031 8074 
+	}
+	manpower=915615
+	state_category = town
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		victory_points = { 4217 5 }
+	}
+	local_supplies=0.000
+}

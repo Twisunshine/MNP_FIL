@@ -1,0 +1,16 @@
+
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		359 1235 2144 2496 2850 3286 4666 5737 7735 7746 7779 
+	}
+	manpower=812561
+	state_category = rural
+	history = {
+		owner = HHW
+		add_core_of = HHW
+		victory_points = { 4666 1 }
+	}
+	local_supplies=0.000
+}

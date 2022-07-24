@@ -1,0 +1,35 @@
+#on_actions = {
+#	#EEE_WAR = {
+#		trigger = {
+#			or = {
+#				EER = {
+#					has_war_with = EQU
+#					has_war_with = EOM
+#				}
+#				EQU = {
+#					has_war_with = EER
+#					has_war_with = EOM
+#				}
+#				EOM = {
+#					has_war_with = EQU
+#					has_war_with = EER
+#				}
+#			}
+#		} 
+#    }
+#	effect = {
+#		news_event = { id = news.1 }
+#	}
+#}
+
+	# country random events
+	#on_bi_yearly_pulse = {
+	#
+	#}
+
+	#on_five_year_pulse = {
+	#
+	#}
+
+	
+#}

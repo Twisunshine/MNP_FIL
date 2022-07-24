@@ -1,0 +1,16 @@
+
+state={
+	id=436
+	name="STATE_436"
+	provinces={
+		3003 3025 3489 5049 5190 5451 5563 6184 7549 7559 
+	}
+	manpower=698156
+	state_category = rural
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 3025 1 }
+	}
+	local_supplies=0.000
+}

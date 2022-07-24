@@ -1,0 +1,16 @@
+
+state={
+	id=662
+	name="STATE_662"
+	provinces={
+		472 1898 2493 2513 2861 3219 4658 5363 5527 8230 8241 8273 8295 8318 
+	}
+	manpower=1495585
+	state_category = large_town
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		victory_points = { 8295 5 }
+	}
+	local_supplies=5.000
+}

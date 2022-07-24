@@ -1,0 +1,16 @@
+
+state={
+	id=141
+	name="STATE_141"
+	provinces={
+		2048 2271 2336 3818 5571 6080 6628 
+	}
+	manpower=1720181
+	state_category = town
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		victory_points = { 6628 3 }
+	}
+	local_supplies=5.000
+}

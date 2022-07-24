@@ -1,0 +1,16 @@
+
+state={
+	id=13
+	name="STATE_13"
+	provinces={
+		1231 1877 3547 5234 5344 5455 7256 7290 7294 
+	}
+	manpower=699256
+	state_category = rural
+	history = {
+		owner = GFS
+		add_core_of = GFS
+		victory_points = { 7294 1 }
+	}
+	local_supplies=0.000
+}

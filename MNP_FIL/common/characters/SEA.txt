@@ -1,0 +1,17 @@
+characters={
+	SEA_Queen_Novo={
+		name=SEA_Queen_Novo
+		portraits={
+			civilian={
+				large="gfx/leaders/SEA/Portrait_SEA_Queen_Novo.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_absolute_monarchy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

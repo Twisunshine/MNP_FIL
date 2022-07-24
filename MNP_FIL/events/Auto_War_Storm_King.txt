@@ -1,0 +1,39 @@
+add_namespace = Storm_King_to_Seaquestria_News
+
+news_event = {
+	id = Storm_King_to_Seaquestria_News.War
+	title = Storm_King_to_Seaquestria_News.Title
+	desc = Storm_King_to_Seaquestria_News.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_event_test
+	
+	option = {
+		name = Storm_King_to_Seaquestria_News.War.Opt1
+
+		STO = {
+			declare_war_on = {
+				target = SEA
+				type = annex_everything
+			}
+		}
+		
+	}
+}
+
+add_namespace = Storm_King_to_Seaquestria_News_hidden
+
+country_event = {
+	id = Storm_King_to_Seaquestria_News_hidden.War
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = Storm_King_to_Seaquestria_News.War}
+    }
+}

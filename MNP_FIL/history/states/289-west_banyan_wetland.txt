@@ -1,0 +1,16 @@
+
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		210 3200 3802 4405 4468 4776 5102 5335 5514 6339 7151 
+	}
+	manpower=691565
+	state_category = rural
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		victory_points = { 210 1 }
+	}
+	local_supplies=0.000
+}

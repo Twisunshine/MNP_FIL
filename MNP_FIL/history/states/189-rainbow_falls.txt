@@ -1,0 +1,25 @@
+
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		249 638 910 2454 2749 2770 2923 4385 4838 5015 5024 5283 6409 6733 6745 6753 6759 6830 
+	}
+	manpower=819119
+	state_category = pastoral
+	history = {
+		owner = EER
+		add_core_of = EER
+		add_claim_by = EQU
+		add_claim_by = EOM
+		victory_points = { 4385 3 }
+		buildings = {
+		    infrastructure = 1
+		}
+	}
+	resources = {
+	    chromium = 9
+        aluminium = 19
+	}
+	local_supplies=3.000
+}

@@ -1,0 +1,29 @@
+leader_traits = {
+    tyrant = {
+		random = no
+        resistance_damage_to_garrison = -0.25
+	}
+	unrecognized_monarchs = {
+		random = no
+        stability_factor = -0.10
+		conscription_factor = 0.02
+	}
+	unscrupulous_politician = {
+		random = no
+		consumer_goods_factor = 0.05
+		production_factory_max_efficiency_factor = 0.10
+		industrial_capacity_factory = 0.10
+	}
+	incompetent_vase = {
+		random = no
+		stability_factor = 0.10
+	}
+	schemer_in_the_dark = {
+		random = no
+		war_support_factor = 0.10
+	}
+	reluctant_surrenderists = {
+		random = no
+		operative_slot = 1
+	}
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=733
+	name="STATE_733"
+	provinces={
+		356 1021 1105 2121 3905 5053 5705 8475 8491 8499 8501 
+	}
+	manpower=265115
+	state_category = wasteland
+	history = {
+		owner = CNN
+		add_core_of = CNN
+		victory_points = { 1021 1 }
+	}
+	local_supplies=0.000
+}

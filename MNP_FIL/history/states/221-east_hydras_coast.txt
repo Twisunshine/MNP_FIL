@@ -1,0 +1,16 @@
+
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		1568 2814 4598 5985 6390 6851 6852 6905 
+	}
+	manpower=58965
+	state_category = wasteland
+	history = {
+		owner = DRA
+		add_core_of = DRA
+		victory_points = { 6390 1 }
+	}
+	local_supplies=0.000
+}

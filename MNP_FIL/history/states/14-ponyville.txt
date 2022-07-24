@@ -1,0 +1,23 @@
+
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		813 1092 1151 1283 1948 3223 3521 3721 4055 5457 7356 7389 7412 7432 
+	}
+	manpower=976451
+	state_category = large_town
+	history = {
+		owner = EOM
+		add_core_of = EOM
+		add_claim_by = EQU
+		add_claim_by = EER
+		victory_points = { 813 15 }
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 3
+		    air_base = 2
+		}
+	}
+	local_supplies=5.000
+}

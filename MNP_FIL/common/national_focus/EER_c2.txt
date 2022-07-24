@@ -1,0 +1,2029 @@
+﻿focus_tree = {
+	id = EER_c2_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 9
+			tag = EER
+			#has_dlc = "Together for Victory"
+		}
+	}
+	
+	default = no
+	shared_focus = EER_C2s_1
+	shared_focus = EER_C2s_2
+	shared_focus = EER_C2s_3
+	shared_focus = EER_C2s_4
+	shared_focus = EER_C2s_5
+	shared_focus = EER_C2s_6
+	shared_focus = EER_C2s_7
+
+	focus = {
+		id = EER_C2_1
+		icon = GFX_goal_generic_consumer_goods
+		x = 25
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		remove_ideas = EER_the_refugee_flows_1
+		add_war_support = 0.05
+		}
+	}
+###
+	focus = {
+		id = EER_C2_2
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_1 }
+		relative_position_id = EER_C2_1
+		x = -12
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		is_neighbor_of = CLK
+		has_war_with = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+        add_timed_idea = {idea = EER_against_CLK days = 365}
+		}
+	}
+
+	focus = {
+		id = EER_C2_7
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_2 }
+		relative_position_id = EER_C2_2
+		x = -2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		country_event = EER_events_the_letter_from_the_front.1
+		}
+	}
+
+	focus = {
+		id = EER_C2_8
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_2 }
+		relative_position_id = EER_C2_2
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
+	}
+
+	focus = {
+		id = EER_C2_9
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_2 }
+		relative_position_id = EER_C2_2
+		x = 2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    if = {
+			    limit = {has_idea=EER_against_CLK}
+				swap_ideas = {
+			        remove_idea = EER_against_CLK
+			        add_idea = EER_against_CLK_3
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_against_CLK_2}
+			    swap_ideas = {
+			        remove_idea = EER_against_CLK_2
+			        add_idea = EER_against_CLK_4
+		        }
+			}
+		}
+	}
+
+	focus = {
+		id = EER_C2_10
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_7 }
+		relative_position_id = EER_C2_7
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = EER_C2_11
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_8 }
+		relative_position_id = EER_C2_8
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_full_control_of_state = 304
+		country_exists = CLK
+	    }
+		
+		bypass = {
+		
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    304 = {
+			add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_12
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_9 }
+		relative_position_id = EER_C2_9
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    CLK = {
+		        add_war_support = -0.05
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_13
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_10 }
+		relative_position_id = EER_C2_10
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    if = {
+			    limit = {has_idea=EER_against_CLK}
+				swap_ideas = {
+			        remove_idea = EER_against_CLK
+			        add_idea = EER_against_CLK_2
+		        }
+			}
+		    else_if = {
+			    limit = {has_idea=EER_against_CLK_3}
+			    swap_ideas = {
+			        remove_idea = EER_against_CLK_3
+			        add_idea = EER_against_CLK_4
+		        }
+			}
+		}
+	}
+
+	focus = {
+		id = EER_C2_14
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_11 }
+		relative_position_id = EER_C2_11
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    every_state = {
+			    limit = {
+				    is_controlled_by = CLK
+					OR = {
+				        is_claimed_by = EER
+					    is_core_of = EER
+						}
+				    NOT = {
+				        is_controlled_by = EER
+				    }
+				}
+				add_resistance_target = {
+					amount = 10
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EER_C2_15
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_12 }
+		relative_position_id = EER_C2_12
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    CLK = {add_popularity = { ideology = despotism popularity = -0.05 }}
+		}
+	}
+
+	focus = {
+		id = EER_C2_16
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_14 }
+		prerequisite = {focus = EER_C2_13 }
+		prerequisite = {focus = EER_C2_15 }
+		relative_position_id = EER_C2_14
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CLK
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    swap_ideas = {
+			        remove_idea = EER_against_CLK_4
+			        add_idea = EER_against_CLK_5
+		    }
+		}
+	}
+
+###
+	focus = {
+		id = EER_C2_3
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_1 }
+		relative_position_id = EER_C2_1
+		x = -6
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_timed_idea = {idea = EER_against_EQU days = 365}
+		}
+	}
+
+	focus = {
+		id = EER_C2_17
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_3 }
+		relative_position_id = EER_C2_3
+		x = -2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war_with = EQU
+		is_neighbor_of = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		EQU = {country_event = EER_events_the_letter_of_accusation.1}
+		}
+	}
+
+	focus = {
+		id = EER_C2_18
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_3 }
+		relative_position_id = EER_C2_3
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		337 = {is_controlled_by=EER}
+		country_exists = EQU
+		}
+		
+		bypass = {
+		337 = {NOT={is_controlled_by=EER}}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    337 = {
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 1450
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 5542
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 3602
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 840
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 2654
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 5007
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 1816
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 1973
+                }
+				add_building_construction = {
+                    type = bunker
+                    level = 1
+                    instant_build = yes
+					province = 7119
+                }
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_19
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_3 }
+		relative_position_id = EER_C2_3
+		x = 2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect={
+				EQU = { add_to_variable = { EQU_Orthodoxy = -1 }}
+				EQU = { add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 } }
+				EQU = { add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 }}
+				EQU = { add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 }}
+				EQU = { add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 }}
+				EQU = { add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 }}
+				EQU = { add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 }}
+				EQU = { add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 }}
+				force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EER_EQUORT
+		}
+	}
+
+	focus = {
+		id = EER_C2_20
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_17 }
+		relative_position_id = EER_C2_17
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_stability = -0.05
+		EQU = {add_stability = -0.1}
+		}
+	}
+
+	focus = {
+		id = EER_C2_21
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_18 }
+		relative_position_id = EER_C2_18
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = EER}
+		}
+	}
+
+	focus = {
+		id = EER_C2_22
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_19 }
+		relative_position_id = EER_C2_19
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_against_EQU
+			        add_idea = EER_against_EQU_2
+		        }
+		}
+	}
+
+	focus = {
+		id = EER_C2_23
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_20 }
+		relative_position_id = EER_C2_20
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		EQU = {add_popularity = { ideology = authoritarian_democracy popularity = -0.05 }}
+		}
+	}
+
+	focus = {
+		id = EER_C2_24
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_21 }
+		relative_position_id = EER_C2_21
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		337 = {is_controlled_by = EER}
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		337 = {
+		add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		}
+	}
+
+	focus = {
+		id = EER_C2_25
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_22 }
+		relative_position_id = EER_C2_22
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    EQU = {
+			country_event = EER_the_red_leaflet.1
+		    add_popularity = { ideology = social_democracy popularity = 0.05 }
+			add_popularity = { ideology = socialism popularity = 0.05 }
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_26
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_24 }
+		prerequisite = {focus = EER_C2_23 }
+		prerequisite = {focus = EER_C2_25 }
+		relative_position_id = EER_C2_24
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EQU
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    swap_ideas = {
+			        remove_idea = EER_against_EQU_2
+			        add_idea = EER_against_EQU_3
+		        }
+		}
+	}
+###
+	focus = {
+		id = EER_C2_4
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_1 }
+		relative_position_id = EER_C2_1
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war_with = EOM
+		is_neighbor_of = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_timed_idea = {idea = EER_against_EOM days = 365}
+		}
+	}
+
+	focus = {
+		id = EER_C2_27
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_4 }
+		relative_position_id = EER_C2_4
+		x = -2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect={
+				EOM = { add_to_variable = { EOM_Orthodoxy = -1 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+				EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }}
+				force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EER_EOMORT
+		}
+	}
+
+	focus = {
+		id = EER_C2_28
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_4 }
+		relative_position_id = EER_C2_4
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power=50
+		}
+	}
+
+	focus = {
+		id = EER_C2_29
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_4 }
+		relative_position_id = EER_C2_4
+		x = 2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    EOM = {
+		        add_popularity = { ideology = despotism popularity = -0.05 }
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_30
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_27 }
+		relative_position_id = EER_C2_27
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect={
+				EOM = { add_to_variable = { EOM_Orthodoxy = -1 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+				EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }}
+				force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EER_EOMORT
+		}
+	}
+
+	focus = {
+		id = EER_C2_31
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_28 }
+		relative_position_id = EER_C2_28
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = EER_C2_32
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_29 }
+		relative_position_id = EER_C2_29
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect={
+				EOM = { add_to_variable = { EOM_Orthodoxy = -1 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+				EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }}
+				EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }}
+				force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EER_EOMORT
+		}
+	}
+
+	focus = {
+		id = EER_C2_33
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_30 }
+		relative_position_id = EER_C2_30
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    EOM = {
+			country_event = EER_the_strike.1
+		    add_stability = -0.05
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_34
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_31 }
+		relative_position_id = EER_C2_31
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_manpower = 5000
+		}
+	}
+
+	focus = {
+		id = EER_C2_35
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_32 }
+		relative_position_id = EER_C2_32
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_against_EOM
+			        add_idea = EER_against_EOM_2
+		        }
+		}
+	}
+
+	focus = {
+		id = EER_C2_36
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_34 }
+		prerequisite = {focus = EER_C2_33 }
+		prerequisite = {focus = EER_C2_35 }
+		relative_position_id = EER_C2_34
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = EOM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_against_EOM_2
+			        add_idea = EER_against_EOM_3
+		        }
+		}
+	}
+###
+	focus = {
+		id = EER_C2_5
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_1 }
+		relative_position_id = EER_C2_1
+		x = 6
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war_with = CRY
+		is_neighbor_of = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_timed_idea = {idea = EER_against_CRY days = 365}
+		}
+	}
+
+	focus = {
+		id = EER_C2_37
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_5 }
+		relative_position_id = EER_C2_5
+		x = -2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = EER_C2_38
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_5 }
+		relative_position_id = EER_C2_5
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_against_CRY
+			        add_idea = EER_against_CRY_2
+		        }
+		}
+	}
+
+	focus = {
+		id = EER_C2_39
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_5 }
+		relative_position_id = EER_C2_5
+		x = 2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		country_event = EER_wrong.1
+		}
+	}
+
+	focus = {
+		id = EER_C2_40
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_37 }
+		relative_position_id = EER_C2_37
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_full_control_of_state = 304
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		304 = {
+		add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		    }
+		}
+	}
+
+	focus = {
+		id = EER_C2_41
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_38 }
+		relative_position_id = EER_C2_38
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_against_CRY_2
+			        add_idea = EER_against_CRY_3
+		        }
+		}
+	}
+
+	focus = {
+		id = EER_C2_42
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_39 }
+		relative_position_id = EER_C2_39
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = EER_C2_43
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_40 }
+		relative_position_id = EER_C2_40
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = EER_C2_44
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_41 }
+		relative_position_id = EER_C2_41
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
+	}
+
+	focus = {
+		id = EER_C2_45
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_42 }
+		relative_position_id = EER_C2_42
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_equipment_to_stockpile = { type = infantry_equipment amount = 500 producer = EER}
+		}
+	}
+
+	focus = {
+		id = EER_C2_46
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_44 }
+		prerequisite = {focus = EER_C2_43 }
+		prerequisite = {focus = EER_C2_45 }
+		relative_position_id = EER_C2_44
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = CRY
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_against_CRY_3
+			        add_idea = EER_against_CRY_4
+		        }
+		}
+	}
+###
+	focus = {
+		id = EER_C2_6
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_1 }
+		relative_position_id = EER_C2_1
+		x = 12
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war = yes
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_timed_idea = {idea = EER_about_ourselves days = 365}
+		}
+	}
+
+	focus = {
+		id = EER_C2_47
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_6 }
+		relative_position_id = EER_C2_6
+		x = -2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = EER_C2_48
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_6 }
+		relative_position_id = EER_C2_6
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.025 }
+		add_popularity = { ideology = socialism popularity = 0.025 }
+		}
+	}
+
+	focus = {
+		id = EER_C2_49
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_6 }
+		relative_position_id = EER_C2_6
+		x = 2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = EER_C2_50
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_47 }
+		relative_position_id = EER_C2_47
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_about_ourselves
+			        add_idea = EER_about_ourselves_2
+		        }
+		}
+	}
+
+	focus = {
+		id = EER_C2_51
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_48 }
+		relative_position_id = EER_C2_48
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_manpower = 5000
+		304 = {add_extra_state_shared_building_slots = 2}
+		}
+	}
+
+	focus = {
+		id = EER_C2_52
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_49 }
+		relative_position_id = EER_C2_49
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		country_event = EER_the_deficit.1
+		}
+	}
+
+	focus = {
+		id = EER_C2_53
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_50 }
+		relative_position_id = EER_C2_50
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
+	}
+
+	focus = {
+		id = EER_C2_54
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_51 }
+		relative_position_id = EER_C2_51
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_equipment_to_stockpile = { type = infantry_equipment amount = 500 producer = EER}
+		add_equipment_to_stockpile = { type = artillery_equipment amount = 100 producer = EER}
+		}
+	}
+
+	focus = {
+		id = EER_C2_55
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_52 }
+		relative_position_id = EER_C2_52
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = EER_C2_56
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_54 }
+		prerequisite = {focus = EER_C2_53 }
+		prerequisite = {focus = EER_C2_55 }
+		relative_position_id = EER_C2_54
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		swap_ideas = {
+			        remove_idea = EER_about_ourselves_2
+			        add_idea = EER_about_ourselves_3
+		        }
+		}
+	}
+
+	focus = {
+		id = EER_C2_57
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = EER_C2_36 focus = EER_C2_16 focus = EER_C2_26 focus = EER_C2_46 focus = EER_C2_56}
+		relative_position_id = EER_C2_36
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		remove_ideas = EER_heterochromatic_ideal
+		add_ideas = EER_partisan_divisions
+		add_popularity = { ideology = socialism popularity = 0.10 }
+		country_event = EER_unstable_of_socialism_party.1
+		hidden_effect = {
+		set_country_flag = EER_C2s_2_start
+		set_variable = { EERD=20 }
+		}
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = EER_C2s_2_start_tt
+		}
+	}
+
+	
+
+	
+
+	
+
+}		

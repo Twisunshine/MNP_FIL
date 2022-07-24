@@ -1,0 +1,18 @@
+
+state={
+	id=532
+	name="STATE_532"
+	provinces={
+		1309 2032 2058 2702 3276 3556 4305 5091 5809 5869 7822 
+	}
+	manpower=415123
+	state_category = pastoral
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 3556 1 }
+	}
+	local_supplies=0.000
+}

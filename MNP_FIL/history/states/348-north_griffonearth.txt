@@ -1,0 +1,16 @@
+
+state={
+	id=348
+	name="STATE_348"
+	provinces={
+		1744 1852 1991 3215 4190 4663 5470 
+	}
+	manpower=782615
+	state_category = rural
+	history = {
+		owner = GRA
+		add_core_of = GRA
+		victory_points = { 1852 1 }
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=529
+	name="STATE_529"
+	provinces={
+		931 1467 3289 5420 5883 6529 7035 
+	}
+	manpower=456156
+	state_category = pastoral
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		victory_points = { 5420 1 }
+	}
+	local_supplies=0.000
+}

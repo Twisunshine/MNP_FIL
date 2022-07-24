@@ -1,0 +1,16 @@
+
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		1583 2561 4208 5165 5313 5831 7560 8718 8721 
+	}
+	manpower=1586515
+	state_category = large_town
+	history = {
+		owner = TRO
+		add_core_of = TRO
+		victory_points = { 5313 10 }
+	}
+	local_supplies=10.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		294 1822 4142 6198 6649 6654 
+	}
+	manpower=132561
+	state_category = wasteland
+	history = {
+		owner = MET
+		add_core_of = MET
+		victory_points = { 6198 1 }
+	}
+	local_supplies=0.000
+}

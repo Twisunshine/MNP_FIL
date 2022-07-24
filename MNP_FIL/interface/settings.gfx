@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_button_94x31_new"
+		texturefile = "gfx/interface/button_94x31_new.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_button_123x34_new"
+		texturefile = "gfx/interface/button_123x34_new.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "yearslider_leftbutton"
+		texturefile = "gfx//interface//scrollbar_leftbutton.tga"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "yearslider_rightbutton"
+		texturefile = "gfx//interface//scrollbar_rightbutton.tga"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "yearslider_slider"
+		texturefile = "gfx//interface//scrollbar_slider.tga"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "yearslider_slider2"
+		texturefile = "gfx//interface//scrollbar_slider_2.tga"
+		noOfFrames = 4
+	}
+	
+	corneredTileSpriteType = {
+		name = "yearslider_background"
+		size= {x =320 y = 16 }
+		texturefile = "gfx//interface//scrollbar_sliderbackground.tga"
+		borderSize = { x=4 y=4 }
+	}
+}

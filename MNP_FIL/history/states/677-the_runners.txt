@@ -1,0 +1,16 @@
+
+state={
+	id=677
+	name="STATE_677"
+	provinces={
+		326 3614 4746 4955 4991 5149 8356 8372 8379 8390 
+	}
+	manpower=1050565
+	state_category = town
+	history = {
+		owner = ERS
+		add_core_of = ERS
+		victory_points = { 8356 5 }
+	}
+	local_supplies=5.000
+}

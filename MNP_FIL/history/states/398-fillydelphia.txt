@@ -1,0 +1,27 @@
+
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		2635 2899 3352 3354 4326 4380 4727 5440 6165 6551 7393 7411 
+	}
+	manpower=2549865
+	state_category = metropolis
+	history = {
+		owner = EQU
+		add_core_of = EQU
+		add_claim_by = EOM
+		add_claim_by = EER
+		victory_points = { 6165 15 }
+		buildings = {
+		    infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
+		    6165 = {
+		        naval_base = 2
+		    }
+		}
+	}
+	local_supplies=15.000
+}

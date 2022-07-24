@@ -1,0 +1,16 @@
+
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		734 1609 3525 5489 5889 6319 8377 
+	}
+	manpower=1891562
+	state_category = city
+	history = {
+		owner = DJE
+		add_core_of = DJE
+		victory_points = { 3525 20 }
+	}
+	local_supplies=20.000
+}
