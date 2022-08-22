@@ -1,0 +1,152 @@
+scripted_gui = {	
+	Orthodoxy_main_gui = {
+		window_name = "Orthodoxy_window_main"
+		context_type = player_context
+		
+		visible = {
+			AND = {
+				OR = {
+					TAG = EER
+					TAG = EQU
+					TAG = EOM
+				}
+				OR = {
+					AND = {
+						country_exists = EQU
+						country_exists = EOM
+					}
+					AND = {
+						country_exists = EER
+						country_exists = EOM
+					}
+					AND = {
+						country_exists = EER
+						country_exists = EQU
+					}
+				}
+				has_country_flag = Orthodoxy_gui
+			}
+		}
+		
+		properties = {
+			Orthodoxy_value_bar_pic_1 = {
+				image = "[Orthodoxy_bar_1]"
+			}
+			Orthodoxy_value_bar_pic_2 = {
+				image = "[Orthodoxy_bar_2]"
+			}
+			Orthodoxy_value_bar_pic_3 = {
+				image = "[Orthodoxy_bar_3]"
+			}
+			Orthodoxy_value_bar_pic_4 = {
+				image = "[Orthodoxy_bar_4]"
+			}
+			Orthodoxy_value_bar_pic_5 = {
+				image = "[Orthodoxy_bar_5]"
+			}
+			Orthodoxy_value_bar_pic_6 = {
+				image = "[Orthodoxy_bar_6]"
+			}
+			Orthodoxy_value_bar_pic_7 = {
+				image = "[Orthodoxy_bar_7]"
+			}
+			Orthodoxy_value_bar_pic_8 = {
+				image = "[Orthodoxy_bar_8]"
+			}
+			Orthodoxy_value_bar_pic_9 = {
+				image = "[Orthodoxy_bar_9]"
+			}
+			Orthodoxy_value_bar_pic_10 = {
+				image = "[Orthodoxy_bar_10]"
+			}
+			Orthodoxy_value_bar_pic_11 = {
+				image = "[Orthodoxy_bar_11]"
+			}
+			Orthodoxy_value_bar_pic_12 = {
+				image = "[Orthodoxy_bar_12]"
+			}
+			Orthodoxy_value_bar_pic_13 = {
+				image = "[Orthodoxy_bar_13]"
+			}
+			Orthodoxy_value_bar_pic_14 = {
+				image = "[Orthodoxy_bar_14]"
+			}
+			Orthodoxy_value_bar_pic_15 = {
+				image = "[Orthodoxy_bar_15]"
+			}
+			Orthodoxy_value_bar_pic_16 = {
+				image = "[Orthodoxy_bar_16]"
+			}
+			Orthodoxy_value_bar_pic_17 = {
+				image = "[Orthodoxy_bar_17]"
+			}
+			Orthodoxy_value_bar_pic_18 = {
+				image = "[Orthodoxy_bar_18]"
+			}
+			Orthodoxy_value_bar_pic_19 = {
+				image = "[Orthodoxy_bar_19]"
+			}
+			Orthodoxy_value_bar_pic_20 = {
+				image = "[Orthodoxy_bar_20]"
+			}
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			Orthodoxy_window_off_button_click = {
+				clr_country_flag = Orthodoxy_gui
+			}
+		}
+		
+		triggers = {
+			
+        }
+	}
+	
+	Orthodoxy_open_gui =  {
+		window_name = "Orthodoxy_window_open"
+		context_type = player_context
+		
+		visible = {
+			AND = {
+				OR = {
+					TAG = EER
+					TAG = EQU
+					TAG = EOM
+				}
+				OR = {
+					AND = {
+						country_exists = EQU
+						country_exists = EOM
+					}
+					AND = {
+						country_exists = EER
+						country_exists = EOM
+					}
+					AND = {
+						country_exists = EER
+						country_exists = EQU
+					}
+				}
+				has_country_flag = Orthodoxy_gui_open
+			}
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			Orthodoxy_window_open_button_click = {
+				set_country_flag = Orthodoxy_gui
+			}
+		}
+		
+		triggers = {
+			
+        }
+	}
+}

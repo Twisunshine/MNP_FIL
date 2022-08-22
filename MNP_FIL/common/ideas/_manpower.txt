@@ -3,6 +3,7 @@ ideas = {
 	mobilization_laws = {
 		law = yes
 		use_list_view = yes
+		
 
 		disarmed_nation = {
 
@@ -13,7 +14,14 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			modifier = {
 				conscription = 0.005
 				stability_factor = 0.15
@@ -34,7 +42,14 @@ ideas = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			ai_will_do = {
    				factor = 1
 
@@ -67,7 +82,14 @@ ideas = {
 
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			modifier = {
 				conscription = 0.02
 			}
@@ -102,6 +124,14 @@ ideas = {
 				#Special rules AST in TFV
 				
 			}
+			available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			ai_will_do = {
    				factor = 1
 
@@ -143,7 +173,14 @@ ideas = {
 
 				
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			ai_will_do = {
    				factor = 1
 				modifier = {
@@ -189,7 +226,14 @@ ideas = {
 				has_war_support > 0.5
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			ai_will_do = {
    				factor = 1
 				modifier = {
@@ -233,7 +277,20 @@ ideas = {
 
 				has_war_support > 0.7
 			}
-
+available = {
+	
+		if = { 
+					limit = { original_tag = EER }
+					
+						NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					
+					}
+					
+				}
+	
+			
+		}
 			ai_will_do = {
    				factor = 1
 				modifier = {
@@ -258,7 +315,7 @@ ideas = {
 			level = 1
 
 			modifier = {
-				conscription = 0.2
+				conscription = 0.12
 				army_org_factor = -0.2
                 army_morale_factor = -0.2
 				training_time_army_factor = 0.2

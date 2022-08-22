@@ -1,8 +1,6 @@
 EER_starlight_eqs = {
-
-EER_starlight_eqs_1 = {
-
-available = {
+	EER_starlight_eqs_1 = {
+		available = {
 			has_country_flag = EQU_NOT
 			has_country_flag = EOM_NOT
 			has_country_flag = CLK_NOT
@@ -10,19 +8,20 @@ available = {
 		fire_only_once = yes
 
 		 complete_effect = {
-			
 			hidden_effect = {
 				set_country_flag = EER_Equestrian
-				set_cosmetic_tag = EQS_Unite
+				set_cosmetic_tag = EER_Unite
 				news_event = { id = EER_news_events.2 }
+				set_country_leader_portrait = {
+					ideology = social_democracy
+					portrait = GFX_starlight_eqs
 				}
+			}
 		}
+	}
 
-}
-
-EER_starlight_eqs_2 = {
-
-available = {
+	EER_starlight_eqs_2 = {
+		available = {
 			has_country_flag = EQU_NOT
 		}
 		visible = {
@@ -73,11 +72,10 @@ available = {
 				add_state_core = 455
 			 }
 		}
+	}
 
-}
-
-EER_starlight_eqs_2_1 = {
-available = {
+	EER_starlight_eqs_2_1 = {
+		available = {
 			has_country_flag = EQU_NOT
 		}
 		visible = {
@@ -126,188 +124,214 @@ available = {
 				add_state_core = 455
 			 }
 		}
+	}
+		
 
-}
+	EER_starlight_eqs_3 = {
+		available = {
+			has_country_flag = EOM_NOT
+		}
+		visible = {
+			NOT = { 
+				has_country_flag = EER_integrated_territory_EOM
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = eer_eom
+			hidden_effect = { 
+				add_state_core = 11
+				add_state_core = 297
+				add_state_core = 344
+				add_state_core = 395
+				add_state_core = 402
+				add_state_core = 466
+				add_state_core = 319
+				add_state_core = 437
+				add_state_core = 623
+				add_state_core = 449
+				add_state_core = 478
+				add_state_core = 282
+				add_state_core = 288
+				add_state_core = 328
+				add_state_core = 355
+				add_state_core = 536
+				add_state_core = 14
+				add_state_core = 411
+				add_state_core = 431
+				add_state_core = 572
+				add_state_core = 554
+				add_state_core = 473
+				add_state_core = 442
+				add_state_core = 599
+				add_state_core = 420
+				add_state_core = 430
+				add_state_core = 230
+				add_state_core = 256
+				add_state_core = 281
+				add_state_core = 247
+				add_state_core = 249
+				add_state_core = 310
+				add_state_core = 299
+				add_state_core = 302
+				add_state_core = 313
+				add_state_core = 419
+				add_state_core = 390
+				add_state_core = 370
+				add_state_core = 350
+				add_state_core = 357
+				add_state_core = 369
+				add_state_core = 377
+				add_state_core = 407
+				add_state_core = 425
+				add_state_core = 415
+				add_state_core = 373
+				add_state_core = 98
+				add_state_core = 329
+				add_state_core = 312
+				add_state_core = 333
+				add_state_core = 327
+				add_state_core = 316
+				add_state_core = 321
+				add_state_core = 286
+				add_state_core = 226
+				add_state_core = 272
+				add_state_core = 46
+				add_state_core = 225
+				add_state_core = 270
+				add_state_core = 229
+			 }
+		}
+	}
+	EER_starlight_eqs_3_1 = {
+
+	available = {
+			has_country_flag = EOM_NOT
+		}
+		visible = {
+			
+				has_country_flag = EER_integrated_territory_EOM
+			
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 100
+
+		remove_effect = {
+			custom_effect_tooltip = eer_eom
+			hidden_effect = { 
+				add_state_core = 11
+				add_state_core = 297
+				add_state_core = 344
+				add_state_core = 395
+				add_state_core = 402
+				add_state_core = 466
+				add_state_core = 319
+				add_state_core = 437
+				add_state_core = 623
+				add_state_core = 449
+				add_state_core = 478
+				add_state_core = 282
+				add_state_core = 288
+				add_state_core = 328
+				add_state_core = 355
+				add_state_core = 536
+				add_state_core = 14
+				add_state_core = 411
+				add_state_core = 431
+				add_state_core = 572
+				add_state_core = 554
+				add_state_core = 473
+				add_state_core = 442
+				add_state_core = 599
+				add_state_core = 420
+				add_state_core = 430
+				add_state_core = 230
+				add_state_core = 256
+				add_state_core = 281
+				add_state_core = 247
+				add_state_core = 249
+				add_state_core = 310
+				add_state_core = 299
+				add_state_core = 302
+				add_state_core = 313
+				add_state_core = 419
+				add_state_core = 390
+				add_state_core = 370
+				add_state_core = 350
+				add_state_core = 357
+				add_state_core = 369
+				add_state_core = 377
+				add_state_core = 407
+				add_state_core = 425
+				add_state_core = 415
+				add_state_core = 373
+				add_state_core = 98
+				add_state_core = 329
+				add_state_core = 312
+				add_state_core = 333
+				add_state_core = 327
+				add_state_core = 316
+				add_state_core = 321
+				add_state_core = 286
+				add_state_core = 226
+				add_state_core = 272
+				add_state_core = 46
+				add_state_core = 225
+				add_state_core = 270
+				add_state_core = 229
+			 }
+		}
+	}
+	EER_starlight_eqs_4 = {
+		available = {
+			has_country_flag = CLK_NOT
+		}
+		visible = {
+			NOT = { 
+				has_country_flag = EER_integrated_territory_CLK
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = eer_clk
+			hidden_effect = { 
+				add_state_core = 332
+		add_state_core = 458
+		add_state_core = 401
+		add_state_core = 409
+		add_state_core = 384
+		add_state_core = 352
+		add_state_core = 406
+		add_state_core = 349
+		add_state_core = 393
+		add_state_core = 368
+		add_state_core = 158
+		add_state_core = 340
+		add_state_core = 381
+		add_state_core = 423
+			 }
+		}
+	}
+	EER_starlight_eqs_4_1 = {
+		available = {
+			has_country_flag = CLK_NOT
+		}
+		visible = {
+			
+				has_country_flag = EER_integrated_territory_CLK
+			
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 100
 	
-
-EER_starlight_eqs_3 = {
-
-available = {
-			has_country_flag = EOM_NOT
-		}
-		visible = {
-			NOT = { 
-				has_country_flag = EER_integrated_territory_EOM
-			}
-		}
-		fire_only_once = yes
-		cost = 150
-		days_remove = 180
-
-		remove_effect = {
-			custom_effect_tooltip = eer_eom
-			hidden_effect = { 
-				add_state_core = 11
-				add_state_core = 297
-				add_state_core = 344
-				add_state_core = 395
-				add_state_core = 402
-				add_state_core = 466
-				add_state_core = 319
-				add_state_core = 437
-				add_state_core = 623
-				add_state_core = 449
-				add_state_core = 478
-				add_state_core = 282
-				add_state_core = 288
-				add_state_core = 328
-				add_state_core = 355
-				add_state_core = 536
-				add_state_core = 14
-				add_state_core = 411
-				add_state_core = 431
-				add_state_core = 572
-				add_state_core = 554
-				add_state_core = 473
-				add_state_core = 442
-				add_state_core = 599
-				add_state_core = 420
-				add_state_core = 430
-				add_state_core = 230
-				add_state_core = 256
-				add_state_core = 281
-				add_state_core = 247
-				add_state_core = 249
-				add_state_core = 310
-				add_state_core = 299
-				add_state_core = 302
-				add_state_core = 313
-				add_state_core = 419
-				add_state_core = 390
-				add_state_core = 370
-				add_state_core = 350
-				add_state_core = 357
-				add_state_core = 369
-				add_state_core = 377
-				add_state_core = 407
-				add_state_core = 425
-				add_state_core = 415
-				add_state_core = 373
-				add_state_core = 98
-				add_state_core = 329
-				add_state_core = 312
-				add_state_core = 333
-				add_state_core = 327
-				add_state_core = 316
-				add_state_core = 321
-				add_state_core = 286
-				add_state_core = 226
-				add_state_core = 272
-				add_state_core = 46
-				add_state_core = 225
-				add_state_core = 270
-				add_state_core = 229
-			 }
-		}
-
-}
-EER_starlight_eqs_3_1 = {
-
-available = {
-			has_country_flag = EOM_NOT
-		}
-		visible = {
-			
-				has_country_flag = EER_integrated_territory_EOM
-			
-		}
-		fire_only_once = yes
-		cost = 150
-		days_remove = 100
-
-		remove_effect = {
-			custom_effect_tooltip = eer_eom
-			hidden_effect = { 
-				add_state_core = 11
-				add_state_core = 297
-				add_state_core = 344
-				add_state_core = 395
-				add_state_core = 402
-				add_state_core = 466
-				add_state_core = 319
-				add_state_core = 437
-				add_state_core = 623
-				add_state_core = 449
-				add_state_core = 478
-				add_state_core = 282
-				add_state_core = 288
-				add_state_core = 328
-				add_state_core = 355
-				add_state_core = 536
-				add_state_core = 14
-				add_state_core = 411
-				add_state_core = 431
-				add_state_core = 572
-				add_state_core = 554
-				add_state_core = 473
-				add_state_core = 442
-				add_state_core = 599
-				add_state_core = 420
-				add_state_core = 430
-				add_state_core = 230
-				add_state_core = 256
-				add_state_core = 281
-				add_state_core = 247
-				add_state_core = 249
-				add_state_core = 310
-				add_state_core = 299
-				add_state_core = 302
-				add_state_core = 313
-				add_state_core = 419
-				add_state_core = 390
-				add_state_core = 370
-				add_state_core = 350
-				add_state_core = 357
-				add_state_core = 369
-				add_state_core = 377
-				add_state_core = 407
-				add_state_core = 425
-				add_state_core = 415
-				add_state_core = 373
-				add_state_core = 98
-				add_state_core = 329
-				add_state_core = 312
-				add_state_core = 333
-				add_state_core = 327
-				add_state_core = 316
-				add_state_core = 321
-				add_state_core = 286
-				add_state_core = 226
-				add_state_core = 272
-				add_state_core = 46
-				add_state_core = 225
-				add_state_core = 270
-				add_state_core = 229
-			 }
-		}
-
-}
-
-
-EER_starlight_eqs_4 = {
-
-available = {
-			has_country_flag = CLK_NOT
-		}
-		visible = {
-			NOT = { 
-				has_country_flag = EER_integrated_territory_CLK
-			}
-		}
-		fire_only_once = yes
-		cost = 150
-		days_remove = 180
-
 		remove_effect = {
 			custom_effect_tooltip = eer_clk
 			hidden_effect = { 
@@ -325,48 +349,12 @@ available = {
 		add_state_core = 340
 		add_state_core = 381
 		add_state_core = 423
-			 }
+			}
 		}
+	}
+	EER_starlight_eqs_5 = {
 
-}
-EER_starlight_eqs_4_1 = {
-
-available = {
-			has_country_flag = CLK_NOT
-		}
-		visible = {
-			
-				has_country_flag = EER_integrated_territory_CLK
-			
-		}
-		fire_only_once = yes
-		cost = 150
-		days_remove = 100
-
-		remove_effect = {
-			custom_effect_tooltip = eer_clk
-			hidden_effect = { 
-				add_state_core = 332
-		add_state_core = 458
-		add_state_core = 401
-		add_state_core = 409
-		add_state_core = 384
-		add_state_core = 352
-		add_state_core = 406
-		add_state_core = 349
-		add_state_core = 393
-		add_state_core = 368
-		add_state_core = 158
-		add_state_core = 340
-		add_state_core = 381
-		add_state_core = 423
-			 }
-		}
-
-}
-EER_starlight_eqs_5 = {
-
-available = {
+		available = {
 			has_country_flag = CRY_NOT
 		}
 		visible = {
@@ -377,7 +365,7 @@ available = {
 		fire_only_once = yes
 		cost = 150
 		days_remove = 180
-
+	
 		remove_effect = {
 			custom_effect_tooltip = eer_cry
 			hidden_effect = { 
@@ -397,10 +385,9 @@ available = {
 		add_state_core = 127
 		add_state_core = 124
 		add_state_core = 130
-			 }
+			}
 		}
-
-}
+	}
 EER_starlight_eqs_5_1 = {
 
 available = {
@@ -443,48 +430,110 @@ available = {
 }
 
 
-EER_CLK_Thorax = {
-	EER_CLK_Thorax_1 = {
+#北方贸易航线
+EER_northern_trading_route = {
+	#解锁前
+	EER_northern_trading_route_1 = {
+		cost = 50
 		available = {
 			EER = {
 				AND = {
-					has_completed_focus = EER_C2s_3_10
-					has_political_power > 50
-				}
-			}
-		}
-		days_remove = 15
-		days_re_enable = 120
-		icon = mission_icon
-		is_good = yes
-		selectable_mission = yes
-		
-		complete_effect = {
-			add_political_power = -50
-			CLK = { add_to_variable = { CLK_Thorax_rebellion = 1 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.003 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.003 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.005 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.002 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.000015 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.004 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.005 } }
-            force_update_dynamic_modifier = yes
-		}
-	}
-	EER_CLK_Thorax_2 = {
-		available = {
-			EER = {
-				AND = {
-					has_completed_focus = EER_C2s_3_10
+					has_completed_focus = EER_enhancing_trade
 					has_equipment = {
-						infantry_equipment > 1000
+						infantry_equipment > 500
+					}
+					check_variable = {
+						var = EER_safety_values
+						value = 100
+						compare = less_than
 					}
 				}
 			}
 		}
+		
+		days_remove = 60
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+			EER = { add_to_variable = { EER_safety_values = 10 } }
+			custom_effect_tooltip = EER_add_safety_values_tip_10
+		}
+	}
+	EER_northern_trading_route_2 = {
+		cost = 50
+		available = {
+			EER = {
+				has_equipment = {
+					convoy > 5
+				}
+				check_variable = {
+					var = EER_safety_values
+					value = 100
+					compare = less_than
+				}
+			}
+		}
+		
+		days_remove = 60
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = -5
+			}
+			EER = { add_to_variable = { EER_safety_values = 10 } }
+			custom_effect_tooltip = EER_add_safety_values_tip_10
+		}
+	}
+	#解锁
+	EER_northern_trading_route_3 = {
+		cost = 150
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EER_add_safety_values_tip_if
+				check_variable = {
+					var = EER_safety_values
+					value = 100
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		visible = {
+			has_country_flag = EER_its_safe
+		}
 		days_remove = 15
-		days_re_enable = 150
+		fire_only_once = yes
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		remove_effect = {
+			set_country_flag = EER_its_safe
+			custom_effect_tooltip = EER_safety_unlock
+		}
+	}
+	#解锁后
+	EER_northern_trading_route_4 = {
+		cost = 75
+		available = {
+			has_war = yes
+		}
+		visible = {
+			has_country_flag = EER_its_safe
+		}
+		days_remove = 60
+		days_re_enable = 0
 		icon = mission_icon
 		is_good = yes
 		selectable_mission = yes
@@ -492,90 +541,2308 @@ EER_CLK_Thorax = {
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -1000
-			}
-			CLK = {
-				CLK = { add_to_variable = { CLK_Thorax_rebellion = 2 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.006 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.006 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.01 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.004 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.00003 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.008 } }
-				CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.01 } }
-				force_update_dynamic_modifier = yes
+				amount = 3000
 			}
 		}
 	}
-	EER_CLK_Thorax_3 = {
+	EER_northern_trading_route_5 = {
+		cost = 100
 		available = {
-			EER = {
-				AND = {
-					has_completed_focus = EER_C2s_3_10
-					OR = {
-						has_equipment = {
-							artillery_equipment_1 > 500
-						}
-						has_equipment = {
-							artillery_equipment_2 > 500
-						}
-						has_equipment = {
-							artillery_equipment_3 > 500
-						}
-					}
-				}
-			}
+			has_war = yes
 		}
-		days_remove = 15
-		days_re_enable = 180
+		visible = {
+			has_country_flag = EER_its_safe
+		}
+		days_remove = 60
+		days_re_enable = 0
 		icon = mission_icon
 		is_good = yes
 		selectable_mission = yes
 		
 		complete_effect = {
-			if = {
-				limit = {
-					has_equipment = {
-						artillery_equipment_1 > 500
-					}
-				}
-				add_equipment_to_stockpile = {
-					type = artillery_equipment_1
-					amount = -500
-				}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 500
 			}
-			else_if = {
-				limit = {
-					has_equipment = {
-						artillery_equipment_2 > 500
-					}
-				}
-				add_equipment_to_stockpile = {
-					type = artillery_equipment_2
-					amount = -500
-				}
-			}
-			else = {
-				limit = {
-					has_equipment = {
-						artillery_equipment_3 > 500
-					}
-				}
-				add_equipment_to_stockpile = {
-					type = artillery_equipment_3
-					amount = -500
-				}
-			}
-			CLK = { add_to_variable = { CLK_Thorax_rebellion = 3 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.009 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.009 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.015 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.006 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.000045 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.012 } }
-            CLK = { add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.015 } }
-            force_update_dynamic_modifier = yes
+		}
+	}
+}
+
+
+
+# 发展平等国教育
+EER_development_of_education_in_EER  = {
+	EER_development_of_education_in_EER_1 = {
+		cost = 75
+		available = {
 			
+		}
+		
+		days_remove = 60
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			EER = { add_to_variable = { EER_scientific_values = 10 }}
+			custom_effect_tooltip = EER_add_scientific_values_10
+		}
+	}
+	EER_development_of_education_in_EER_2 = {
+		cost = 75
+		available = {
+			
+		}
+		
+		days_remove = 120
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_timed_idea = { idea = EER_education_reform days = 60 }
+			EER = { add_to_variable = { EER_scientific_values = 20 }}
+			custom_effect_tooltip = EER_add_scientific_values_20
+		}
+	}
+	EER_development_of_education_in_EER_3 = {
+		cost = 100
+		available = {
+			EER = {
+				check_variable = {
+					var = EER_scientific_values
+					value = 100
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		
+		days_remove = 15
+		fire_only_once = yes
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_ideas = Universal_education
+			clr_country_flag = EER_development_of_education_in_EER
+			clear_variable = EER_scientific_values
+		}
+	}
+}
+
+# 在敌国的行动
+EER_actions_in_enemy_countries = {
+	EER_actions_in_enemy_countries_EQU_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EQU
+			}
+		}
+		        visible = {
+		
+		country_exists = EQU 
+	}
+	days_re_enable = 120
+	cost = 50
+	complete_effect = {
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -50
+			producer = EER
+		}
+		EQU = {
+			add_to_variable = { EQU_Orthodoxy = -1 }
+			add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+		}
+		custom_effect_tooltip = EQU_orthodoxy_sub_1
+	}
+      
+
+	}
+	EER_actions_in_enemy_countries_EQU_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EQU
+			}
+		}
+		visible = {
+			country_exists = EQU 
+		}
+		days_re_enable = 120
+		cost = 100
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+				producer = EER
+			}
+		EQU = {
+			add_to_variable = { EQU_Orthodoxy = -1 }
+			add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+		}
+		custom_effect_tooltip = EQU_orthodoxy_sub_1
+	}
+      
+
+	}
+	EER_actions_in_enemy_countries_EQU_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EQU
+			}
+			has_completed_focus = EER_slander_the_name_of_the_nobility
+		}
+		        visible = {
+		
+		country_exists = EQU 
+	}
+	days_re_enable = 150
+	cost = 75
+	complete_effect = {
+		add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 50
+		producer = EER
+	}
+	EQU = {
+		add_to_variable = { EQU_Orthodoxy = -1 }
+		add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 }
+		add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 }
+		add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 }
+		add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 }
+		add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 }
+		add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 }
+		add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 }
+		force_update_dynamic_modifier = yes
+		}
+			custom_effect_tooltip = EQU_orthodoxy_sub_1
+	}
+      
+
+	}
+	EER_actions_in_enemy_countries_EQU_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EQU
+			}
+			has_completed_focus = EER_slander_the_name_of_the_nobility
+		}
+		visible = {
+			country_exists = EQU 
+		}
+		days_re_enable = 180
+		cost = 100
+		complete_effect = {
+			add_stability = 0.01
+			EQU = {
+				add_to_variable = { EQU_Orthodoxy = -1 }
+				add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 }
+				add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 }
+				add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 }
+				add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 }
+				add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 }
+				add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 }
+				add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EQU_orthodoxy_sub_1
+		}
+	}
+	EER_actions_in_enemy_countries_EOM_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EOM
+			}
+		}
+		        visible = {
+		
+		country_exists = EOM 
+	}
+	days_re_enable = 120
+	cost = 50
+	complete_effect = {
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -50
+			producer = EER
+		}
+		EOM = {
+			add_to_variable = { EOM_Orthodoxy = -1 }
+			add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+		}
+		custom_effect_tooltip = EOM_orthodoxy_sub_1
+	}
+      
+
+	}
+	EER_actions_in_enemy_countries_EOM_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EOM
+			}
+		}
+		        visible = {
+		
+		country_exists = EOM 
+	}
+	days_re_enable = 120
+	cost = 100
+	complete_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -500
+			producer = EER
+		}
+		EOM = {
+			add_to_variable = { EOM_Orthodoxy = -1 }
+			add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+		}
+		custom_effect_tooltip = EOM_orthodoxy_sub_1
+	}
+      
+
+	}
+	EER_actions_in_enemy_countries_EOM_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EOM
+				
+			}
+			has_completed_focus = EER_you_can_do_it
+		}
+		        visible = {
+		
+		country_exists = EOM 
+	}
+	days_re_enable = 150
+	cost = 50
+	
+	complete_effect = {
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -300
+			}
+		EOM = {
+			add_to_variable = { EOM_Orthodoxy = -1 }
+			add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+			add_manpower = -5000
+		}
+		custom_effect_tooltip = EOM_orthodoxy_sub_1	
+	}
+      
+
+	}
+	EER_actions_in_enemy_countries_EOM_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EOM
+				
+			}
+			has_completed_focus = EER_stepping_into_deep_water
+		}
+		        visible = {
+		
+		country_exists = EOM 
+	}
+	days_re_enable = 180
+	cost = 100
+	
+	complete_effect = {
+		EOM = {
+			add_to_variable = { EOM_Orthodoxy = -1 }
+			add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+			add_stability = 0.01
+		}
+      
+
+	}
+	EER_actions_in_enemy_countries_EOM_5 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		target_trigger = {
+			FROM = {
+				original_tag = EOM
+				
+			}
+			has_completed_focus = EER_stepping_into_deep_water
+		}
+		        visible = {
+		
+		country_exists = EOM 
+	}
+	days_re_enable = 150
+	cost = 75
+	
+	complete_effect = {	
+		EOM = {
+			add_to_variable = { EOM_Orthodoxy = -1 }
+			add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }
+			add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }
+			add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }
+			force_update_dynamic_modifier = yes
+		}
+		custom_effect_tooltip = EOM_orthodoxy_sub_1
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 50
+		}
+	}
+}
+}
+
+#星光熠熠党内斗争 - 星光线
+EER_starlight_intraparty_struggle = {
+	EER_starlight_intraparty_struggle_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		days_re_enable = 90
+		cost = 25
+		
+		available = {
+			EER = {
+				has_equipment = {
+					support_equipment > 49
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -50
+				producer = EER
+			}
+			subtract_from_variable = { EERD = 2 }
+			custom_effect_tooltip = EER_EERD_sub
+		}
+	}
+	EER_starlight_intraparty_struggle_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		days_re_enable = 90
+		cost = 25
+		
+		available = {
+
+		}
+		
+		complete_effect = {
+			add_stability = -0.05
+			subtract_from_variable = { EERD = 2 }
+			custom_effect_tooltip = EER_EERD_sub
+		}
+	}
+	EER_starlight_intraparty_struggle_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		days_re_enable = 90
+		cost = 75
+		
+		available = {
+			EER = {
+				has_equipment = {
+					infantry_equipment > 99
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -100
+				producer = EER
+			}
+			subtract_from_variable = { EERD = 2 }
+			custom_effect_tooltip = EER_EERD_sub
+		}
+	}
+	EER_starlight_intraparty_struggle_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		available = {
+			always = no
+		}
+		
+		activation = {
+			has_country_flag = EER_starlight_intraparty_struggle
+		} 
+		
+		days_re_enable = 0 
+		days_mission_timeout = 90
+		selectable_mission = no  
+		
+		timeout_effect = {
+			add_to_variable = { EERD = 5 }
+			custom_effect_tooltip = EER_EERD_add
+		}
+	}
+}
+
+#星光熠熠党内斗争 - 双钻线
+EER_double_diamond_intraparty_struggle = {
+	EER_double_diamond_intraparty_struggle_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		days_re_enable = 90
+		cost = 25
+		
+		available = {
+			EER = {
+				has_equipment = {
+					support_equipment > 14
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -15
+				producer = EER
+			}
+			add_to_variable = { EERD = 2 }
+			custom_effect_tooltip = EER_EERD_add
+		}
+	}
+	EER_double_diamond_intraparty_struggle_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		days_re_enable = 90
+		cost = 25
+		
+		available = {
+			EER = {
+				has_equipment = {
+					infantry_equipment > 499
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+				producer = EER
+			}
+			add_to_variable = { EERD = 2 }
+			custom_effect_tooltip = EER_EERD_add
+		}
+	}
+	EER_double_diamond_intraparty_struggle_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		days_re_enable = 90
+		cost = 100
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EERD = 2 }
+			custom_effect_tooltip = EER_EERD_add
+		}
+	}
+	EER_double_diamond_intraparty_struggle_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		available = {
+			always = no
+		}
+		
+		activation = {
+			has_country_flag = EER_double_diamond_intraparty_struggle
+		} 
+		
+		days_re_enable = 0 
+		days_mission_timeout = 90
+		selectable_mission = no  
+		
+		timeout_effect = {
+			subtract_from_variable = { EERD = 5 }
+			custom_effect_tooltip = EER_EERD_sub
+		}
+	}
+}
+
+#处理谐律分子
+EER_dealing_with_harmonic_problem = {
+	EER_dealing_with_harmonic_problem_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
+		
+		available = {
+			always = no
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip
+			set_variable = { harmonic_problem_1 = 1 }
+		}
+	}
+	EER_dealing_with_harmonic_problem_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
+		
+		available = {
+			always = no
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip
+			set_variable = { harmonic_problem_2 = 1 }
+		}
+	}
+	EER_dealing_with_harmonic_problem_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
+		
+		available = {
+			always = no
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip
+			set_variable = { harmonic_problem_3 = 1 }
+		}
+	}
+	EER_dealing_with_harmonic_problem_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		fire_only_once = yes
+		
+		available = {
+			always = no
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip
+			set_variable = { harmonic_problem_4 = 1 }
+		}
+	}
+	EER_dealing_with_harmonic_problem_5 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		cost = 50
+		fire_only_once = yes
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_1
+				check_variable = { harmonic_problem_1 = 1 }
+				check_variable = { harmonic_problem_2 = 1 }
+				check_variable = { harmonic_problem_3 = 1 }
+				check_variable = { harmonic_problem_4 = 1 }
+			}
+		}
+		
+		complete_effect = {
+			set_country_flag = EER_harmonic_problem_done
+			clr_country_flag = EER_dealing_with_harmonic_problem_flag
+			clear_variable = harmonic_problem_1
+			clear_variable = harmonic_problem_2
+			clear_variable = harmonic_problem_3
+			clear_variable = harmonic_problem_4
+		}
+	}
+}
+
+#处理永恒自由森林
+EER_dealing_with_everfree_forest = {
+	EER_dealing_with_everfree_forest_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		available = {
+			EER = {
+				has_equipment = {
+					support_equipment > 49
+				}
+				has_manpower > 499
+			}
+		}
+		
+		days_remove = 90
+		
+		remove_effect = {
+			EER = {
+				add_manpower = -500
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = -50
+					producer = EER
+				}
+				add_to_variable = { EER_everfree_forest_progress = 0.01 } 
+			}
+			custom_effect_tooltip = EER_everfree_forest_progress_1
+		}
+	}
+	EER_dealing_with_everfree_forest_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		cost = 50
+		
+		available = {
+			EER = {
+				command_power > 49
+			}
+		}
+		
+		days_remove = 90
+		
+		remove_effect = {
+			EER = {
+				add_command_power = -50
+				add_to_variable = { EER_everfree_forest_progress = 0.01 }
+			}
+			custom_effect_tooltip = EER_everfree_forest_progress_1
+		}
+	}
+	EER_dealing_with_everfree_forest_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		available = {
+			has_equipment = {
+				fighter_equipment > 49
+			}
+		}
+		 
+		days_remove = 180
+		
+		remove_effect = {
+			EER = {
+				add_equipment_to_stockpile = {
+					type = fighter_equipment
+					amount = -50
+					producer = EER
+				}
+				add_to_variable = { EER_everfree_forest_progress = 0.03 } 
+			}
+			custom_effect_tooltip = EER_everfree_forest_progress_3
+		}
+	}
+	EER_dealing_with_everfree_forest_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		days_mission_timeout = 180
+		selectable_mission = no
+		
+		timeout_effect = {
+			add_to_variable = { EER_everfree_forest_progress = 0.01 } 
+			custom_effect_tooltip = EER_everfree_forest_progress_1
+		}
+	}
+	EER_dealing_with_everfree_forest_5 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		cost = 50
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EER_everfree_forest_progress_full
+				check_variable = { EER_everfree_forest_progress = 1 }
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			remove_ideas = {
+				EER_forest_guerrilla
+				EER_dealing_with_everfree_forest
+			}
+			add_manpower = 5000
+			add_ideas = commercial_agriculture
+			clr_country_flag = EER_dealing_with_everfree_forest_flag
+		}
+	}
+}
+
+#完善相同之杖
+EER_perfecting_staff_of_sameness = {
+	EER_perfecting_staff_of_sameness_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		available = {
+			EER = {
+				has_equipment = {
+					infantry_equipment > 749
+				}
+			}
+		}
+		
+		days_remove = 180
+		
+		remove_effect = {
+			EER = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -750
+					producer = EER
+				}
+			}
+			add_to_variable = { EER_perfecting_staff_of_sameness = 10 } 
+			custom_effect_tooltip = EER_perfecting_staff_of_sameness_tip_10
+			army_experience = 10
+		}
+	}
+	EER_perfecting_staff_of_sameness_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		available = {
+			EER = {
+				has_equipment = {
+					support_equipment > 99
+				}
+			}
+		}
+		
+		days_remove = 180
+		
+		remove_effect = {
+			EER = {
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = -100
+					producer = EER
+				}
+			}
+			add_to_variable = { EER_perfecting_staff_of_sameness = 10 } 
+			custom_effect_tooltip = EER_perfecting_staff_of_sameness_tip_10
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+	EER_perfecting_staff_of_sameness_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		cost = 50
+		
+		days_remove = 180
+		
+		remove_effect = {
+			add_to_variable = { EER_perfecting_staff_of_sameness = 10 } 
+			custom_effect_tooltip = EER_perfecting_staff_of_sameness_tip_10
+			add_command_power = 10
+		}
+	}
+}
+
+#处理永恒自由森林 - 第二部分
+EER_dealing_with_everfree_forest_second = {
+	EER_dealing_with_everfree_forest_second_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		available = {
+			has_manpower > 499
+			has_equipment = {
+				support_equipment > 499
+			}
+			has_equipment = {
+				infantry_equipment > 999
+			}
+        }
+        complete_effect = {
+			add_manpower = -5000
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -500
+			}
+            add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			} 
+        }  
+        days_remove = 120
+		modifier = {
+            army_org_factor = -0.1
+        }
+        remove_effect = {
+            add_to_variable = { EER_everfree_forest_progress  = 0.01 }
+			custom_effect_tooltip = EER_everfree_forest_progress_1
+			add_manpower = 2000
+        }
+	}
+	EER_dealing_with_everfree_forest_second_2 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		cost = 150
+		available = {
+            command_power > 49  
+        }
+        complete_effect = {
+            add_command_power  = 50 
+        }  
+        days_remove = 120
+		modifier = {
+            production_speed_buildings_factor = -0.10
+        }
+        remove_effect = {
+            add_to_variable = { EER_everfree_forest_progress  = 0.01 } 
+			custom_effect_tooltip = EER_everfree_forest_progress_1
+        }
+	}
+	EER_dealing_with_everfree_forest_second_3 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		
+		available = {
+            has_equipment = {
+				fighter_equipment > 74
+			}   
+        }
+        complete_effect = {
+            add_equipment_to_stockpile = {
+				type = fighter_equipment
+				amount = -75
+			} 
+        }  
+        days_remove = 120
+		modifier = {
+            stability_factor = -0.1
+        }
+        remove_effect = {
+            add_to_variable = { EER_everfree_forest_progress  = 0.01 } 
+			custom_effect_tooltip = EER_everfree_forest_progress_1
+			411 = {
+				add_manpower = -5000
+			}
+			420 = {
+				add_manpower = -5000
+			}
+			319 = {
+				add_manpower = -5000
+			}
+        }
+	}
+	EER_dealing_with_everfree_forest_second_4 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		cost = 50
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EER_everfree_forest_progress_full
+				check_variable = { EER_everfree_forest_progress = 1 }
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			remove_ideas = {
+				EER_forest_guerrilla
+				EER_dealing_with_everfree_forest
+			}
+			clr_country_flag = EER_dealing_with_everfree_forest_second
+		}
+	}
+}
+
+#解决财政危机
+
+EER_solving_financial_crisis = {
+	EER_solving_financial_crisis_1 = {
+		icon = GFX_decision_generic_prepare_civil_war
+		 
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EER_solving_financial_crisis_tip_1
+				check_variable = { EER_financial_crisis_value = 0 }
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			remove_ideas = EER_looming_financial_crisis_1
+			custom_effect_tooltip = EER_solving_financial_crisis_tip_3
+			clr_country_flag = EER_solving_financial_crisis_flag
+			clr_country_flag = EER_solving_financial_crisis_decision_1
+			clr_country_flag = EER_solving_financial_crisis_decision_2
+			clr_country_flag = EER_solving_financial_crisis_decision_3
+			clr_country_flag = EER_solving_financial_crisis_decision_4
+			clr_country_flag = EER_solving_financial_crisis_decision_5
+		}
+	}
+	EER_solving_financial_crisis_2 = {
+		cost = 15
+		
+		visible = {
+			has_country_flag = EER_solving_financial_crisis_decision_1
+		}
+		
+		days_remove = 30
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+					province = {
+						any_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			add_stability = 0.01
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_solving_financial_crisis_3 = {
+		cost = 15
+		
+		visible = {
+			has_country_flag = EER_solving_financial_crisis_decision_2
+		}
+		
+		days_remove = 30
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = -1
+					instant_build = yes
+				}
+			}
+			add_stability = 0.01
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_solving_financial_crisis_4 = {
+		cost = 15
+		
+		visible = {
+			has_country_flag = EER_solving_financial_crisis_decision_3
+		}
+		
+		days_remove = 30
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = -1
+					instant_build = yes
+				}
+			}
+			add_stability = 0.01
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_solving_financial_crisis_5 = {
+		cost = 15
+		
+		visible = {
+			has_country_flag = EER_solving_financial_crisis_decision_4
+		}
+		
+		days_remove = 30
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_political_power = -75
+			add_stability = 0.01
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_solving_financial_crisis_6 = {
+		cost = 15
+		
+		visible = {
+			has_country_flag = EER_solving_financial_crisis_decision_5
+		}
+		
+		days_remove = 30
+		days_re_enable = 0
+		icon = mission_icon
+		is_good = yes
+		selectable_mission = yes
+		
+		complete_effect = {
+			add_stability = -0.14
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+}
+
+#整合地区
+EER_integrated_core = {
+	EER_integrated_core_1 = {
+		fire_only_once = yes
+		cost = 50
+		days_remove = 360
+		
+		available = {
+			298 = {
+				is_fully_controlled_by = EER
+			}
+			285 = {
+				is_fully_controlled_by = EER
+			}
+			354 = {
+				is_fully_controlled_by = EER
+			}
+			353 = {
+				is_fully_controlled_by = EER
+			}
+			336 = {
+				is_fully_controlled_by = EER
+			}
+		}
+		
+		modifier = {
+			stability_weekly = -0.005
+		}
+		
+		remove_effect = {
+			add_state_core = 298
+			add_state_core = 285
+			add_state_core = 354
+			add_state_core = 353
+			add_state_core = 336
+		}
+	}
+}
+
+#挑拨幻形灵地区诸国
+EER_stirring_up_relationships = {
+	EER_stirring_up_relationships_1 = {
+		fire_only_once = yes
+		cost = 50
+
+		available = {
+			country_exists = CLK
+			country_exists = ROC
+		}
+		
+		complete_effect = {
+			CLK = {
+				country_event = EER_events_c.90
+			}
+		}
+	}
+	EER_stirring_up_relationships_2 = {
+		fire_only_once = yes
+		cost = 50
+
+		available = {
+			country_exists = HAI
+			country_exists = ROC
+		}
+		
+		complete_effect = {
+			ROC = {
+				country_event = EER_events_c.91
+			}
+		}
+	}
+	EER_stirring_up_relationships_3 = {
+		fire_only_once = yes
+		cost = 50
+
+		available = {
+			country_exists = WAN
+			country_exists = ROC
+		}
+		
+		complete_effect = {
+			ROC = {
+				country_event = EER_events_c.92
+			}
+		}
+	}
+}
+
+#向狮鹫出售武器
+EER_selling_weapons_to_griffins = {
+	EER_selling_weapons_to_griffins_1 = {
+		cost = 50
+		
+		available = {
+			country_exists = SRG
+			has_equipment = {
+				infantry_equipment > 2999
+			}
+		}
+		
+		days_remove = 180
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -3000
+			} 
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_selling_weapons_to_griffins_2 = {
+		cost = 50
+		
+		available = {
+			country_exists = GRA
+			has_equipment = {
+				infantry_equipment > 2999
+			}
+		}
+		
+		days_remove = 180
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -3000
+			} 
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_selling_weapons_to_griffins_3 = {
+		cost = 50
+		
+		available = {
+			country_exists = GFR
+			has_equipment = {
+				infantry_equipment > 2999
+			}
+		}
+		
+		days_remove = 180
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -3000
+			} 
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_selling_weapons_to_griffins_4 = {
+		cost = 50
+		
+		available = {
+			country_exists = GFS
+			has_equipment = {
+				infantry_equipment > 2999
+			}
+		}
+		
+		days_remove = 180
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -3000
+			} 
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_selling_weapons_to_griffins_5 = {
+		cost = 50
+		
+		available = {
+			country_exists = HGE
+			has_equipment = {
+				infantry_equipment > 2999
+			}
+		}
+		
+		days_remove = 180
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -3000
+			} 
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+	EER_selling_weapons_to_griffins_6 = {
+		cost = 50
+		
+		available = {
+			country_exists = GFE
+			has_equipment = {
+				infantry_equipment > 2999
+			}
+		}
+		
+		days_remove = 180
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -3000
+			} 
+			subtract_from_variable = {
+				var = EER_financial_crisis_value
+				value = 5
+			}
+			custom_effect_tooltip = EER_solving_financial_crisis_sub_5
+		}
+	}
+}
+
+#平等国福利政策
+EER_welfare_policy = {
+	EER_welfare_policy_1 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_2
+		}
+		
+		available = {
+			has_completed_focus = EER_5_2
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_2 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_2
+		}
+		
+		available = {
+			has_completed_focus = EER_5_2
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_3 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_2
+		}
+		
+		available = {
+			has_completed_focus = EER_5_2
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_4 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_6
+		}
+		
+		available = {
+			has_completed_focus = EER_5_6
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_5 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_6
+		}
+		
+		available = {
+			has_completed_focus = EER_5_6
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_6 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_6
+		}
+		
+		available = {
+			has_completed_focus = EER_5_6
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_7 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_7
+		}
+		
+		available = {
+			has_completed_focus = EER_5_7
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_8 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_7
+		}
+		
+		available = {
+			has_completed_focus = EER_5_7
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_9 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_7
+		}
+		
+		available = {
+			has_completed_focus = EER_5_7
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_10 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_8
+		}
+		
+		available = {
+			has_completed_focus = EER_5_8
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_11 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_8
+		}
+		
+		available = {
+			has_completed_focus = EER_5_8
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_12 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_8
+		}
+		
+		available = {
+			has_completed_focus = EER_5_8
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_13 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_9
+		}
+		
+		available = {
+			has_completed_focus = EER_5_9
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_14 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_9
+		}
+		
+		available = {
+			has_completed_focus = EER_5_9
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_15 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_9
+		}
+		
+		available = {
+			has_completed_focus = EER_5_9
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_16 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_10
+		}
+		
+		available = {
+			has_completed_focus = EER_5_10
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_17 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_10
+		}
+		
+		available = {
+			has_completed_focus = EER_5_10
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_18 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_10
+		}
+		
+		available = {
+			has_completed_focus = EER_5_10
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_19 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_11
+		}
+		
+		available = {
+			has_completed_focus = EER_5_11
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_20 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_11
+		}
+		
+		available = {
+			has_completed_focus = EER_5_11
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_21 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_11
+		}
+		
+		available = {
+			has_completed_focus = EER_5_11
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_22 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_12
+		}
+		
+		available = {
+			has_completed_focus = EER_5_12
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_23 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_12
+		}
+		
+		available = {
+			has_completed_focus = EER_5_12
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_24 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_12
+		}
+		
+		available = {
+			has_completed_focus = EER_5_12
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_25 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_13
+		}
+		
+		available = {
+			has_completed_focus = EER_5_13
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_26 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_13
+		}
+		
+		available = {
+			has_completed_focus = EER_5_13
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_27 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_13
+		}
+		
+		available = {
+			has_completed_focus = EER_5_13
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_28 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_14
+		}
+		
+		available = {
+			has_completed_focus = EER_5_14
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_29 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_14
+		}
+		
+		available = {
+			has_completed_focus = EER_5_14
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_30 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_14
+		}
+		
+		available = {
+			has_completed_focus = EER_5_14
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_31 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_15
+		}
+		
+		available = {
+			has_completed_focus = EER_5_15
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_32 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_15
+		}
+		
+		available = {
+			has_completed_focus = EER_5_15
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_33 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_15
+		}
+		
+		available = {
+			has_completed_focus = EER_5_15
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_34 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_16
+		}
+		
+		available = {
+			has_completed_focus = EER_5_16
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_35 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_16
+		}
+		
+		available = {
+			has_completed_focus = EER_5_16
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_36 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_16
+		}
+		
+		available = {
+			has_completed_focus = EER_5_16
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_37 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_17
+		}
+		
+		available = {
+			has_completed_focus = EER_5_17
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_38 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_17
+		}
+		
+		available = {
+			has_completed_focus = EER_5_17
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_39 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_17
+		}
+		
+		available = {
+			has_completed_focus = EER_5_17
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_40 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_18
+		}
+		
+		available = {
+			has_completed_focus = EER_5_18
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_41 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_18
+		}
+		
+		available = {
+			has_completed_focus = EER_5_18
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_42 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_18
+		}
+		
+		available = {
+			has_completed_focus = EER_5_18
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_43 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_19
+		}
+		
+		available = {
+			has_completed_focus = EER_5_19
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_44 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_19
+		}
+		
+		available = {
+			has_completed_focus = EER_5_19
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_45 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_19
+		}
+		
+		available = {
+			has_completed_focus = EER_5_19
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_46 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_20
+		}
+		
+		available = {
+			has_completed_focus = EER_5_20
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_47 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_20
+		}
+		
+		available = {
+			has_completed_focus = EER_5_20
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_48 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_20
+		}
+		
+		available = {
+			has_completed_focus = EER_5_20
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_49 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_21
+		}
+		
+		available = {
+			has_completed_focus = EER_5_21
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_50 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_21
+		}
+		
+		available = {
+			has_completed_focus = EER_5_21
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
+		}
+	}
+	EER_welfare_policy_51 = {
+		cost = 20
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = EER_5_21
+		}
+		
+		available = {
+			has_completed_focus = EER_5_21
+		}
+		
+		complete_effect = {
+			add_stability = 0.01
+			add_to_variable = { EER_welfare_points  = 1 } 
+			custom_effect_tooltip = EER_welfare_policy_add
 		}
 	}
 }

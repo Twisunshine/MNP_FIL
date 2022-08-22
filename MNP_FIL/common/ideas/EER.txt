@@ -1,5 +1,33 @@
 ideas = {
 	country = {
+		##专注计划
+		EER_focus_the_plan = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_focus the plan
+
+            modifier = {
+                max_planning_factor = 0.1
+            }
+        }
+		
+		##专注战场
+		EER_focus_the_battlefield = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_focus_the_battlefield
+
+            modifier = {
+                production_factory_max_efficiency_factor = 0.1
+            }
+        }
+		
         EER_the_refugee_flows_1 = {
             allowed = {
                 original_tag = EER
@@ -27,6 +55,19 @@ ideas = {
                 production_factory_max_efficiency_factor = -0.15
                 conscription_factor = 0.05
                 consumer_goods_factor = -0.05
+            }
+        }
+		EER_stop_depriving_sign_of_cute_temporarily_2 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_stop_depriving_sign_of_cute_temporarily_2
+
+            modifier = {
+                consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.15
             }
         }
 				
@@ -76,1122 +117,900 @@ ideas = {
 				}
         }
 		
-
-###############################
-
-		EER_against_CLK = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CLK
-			defense_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_CLK_2 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CLK
-			defense_bonus_against = 0.1
-			attack_bonus_against_cores = 0.1
-				}
-        }
-			
-		EER_against_CLK_3 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CLK
-			defense_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_CLK_4 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CLK
-			defense_bonus_against = 0.1
-			attack_bonus_against_cores = 0.1
-				}
-        }
-			
-		EER_against_CLK_5 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CLK
-			defense_bonus_against = 0.1
-			attack_bonus_against_cores = 0.1
-			attack_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_EQU = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = EQU }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = EQU
-			defense_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_EQU_2 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = EQU }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = EQU
-			defense_bonus_against = 0.15
-				}
-        }
-			
-		EER_against_EQU_3 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = EQU }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = EQU
-			defense_bonus_against = 0.15
-			attack_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_EOM = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = EOM }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = EOM
-			defense_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_EOM_2 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = EOM }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = EOM
-			defense_bonus_against = 0.1
-			attack_bonus_against = 0.05
-				}
-        }
-			
-		EER_against_EOM_3 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = EOM }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = EOM
-			defense_bonus_against = 0.1
-			attack_bonus_against = 0.15
-				}
-        }
-			
-		EER_against_CRY = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = CRY }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CRY
-			defense_bonus_against = 0.1
-				}
-        }
-			
-		EER_against_CRY_2 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = CRY }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CRY
-			defense_bonus_against = 0.1
-				}
-			modifier = {
-			acclimatization_cold_climate_gain_factor = 0.1
-				}
-        }
-			
-		EER_against_CRY_3 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = CRY }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CRY
-			defense_bonus_against = 0.1
-				}
-			modifier = {
-			acclimatization_cold_climate_gain_factor = 0.1
-			no_supply_grace = 72
-				}
-        }
-			
-		EER_against_CRY_4 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			not = { country_exists = CRY }
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-            targeted_modifier = {
-			tag = CRY
-			defense_bonus_against = 0.1
-			attack_bonus_against = 0.1
-				}
-			modifier = {
-			acclimatization_cold_climate_gain_factor = 0.1
-			no_supply_grace = 72
-				}
-        }
-			
-		EER_about_ourselves = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-			army_core_defence_factor  = 0.05
-				}
-        }
-			
-		EER_about_ourselves_2 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-			army_core_defence_factor  = 0.05
-			drift_defence_factor = 0.5
-				}
-        }
-			
-		EER_about_ourselves_3 = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-			army_core_defence_factor  = 0.15
-			drift_defence_factor = 0.5
-				}
-        }
-			
 		
-		
-		
-		####
-		
-		
-		EER_New_Culture_Movement = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			political_power_factor = 0.05
-		}
-    }
-	
-	EER_New_Culture_Movement_2 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			political_power_factor = 0.05
-			research_speed_factor = 0.05
-		}
-    }
-	
-	EER_New_Culture_Movement_3 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			political_power_factor = 0.05
-			consumer_goods_factor = 0.05
-			industrial_capacity_factory = 0.1
-		}
-    }
-	
-	EER_New_Culture_Movement_4 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			political_power_factor = 0.05
-			research_speed_factor = 0.05
-			consumer_goods_factor = 0.05
-			industrial_capacity_factory = 0.1
-		}
-    }
-	
-	EER_the_Staff_of_Sameness = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			operative_slot = 1
-		}
-    }
-	
-	EER_the_Staff_of_Sameness_2 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			operative_slot = 1
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_the_Staff_of_Sameness_3 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			operative_slot = 1
-			decryption_factor = 0.1
-		}
-    }
-	
-	EER_the_Staff_of_Sameness_4 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			operative_slot = 1
-			decryption_factor = 0.1
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_the_Staff_of_Sameness_5 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.1
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			stability_factor = -0.25
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.1
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness_2 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			stability_factor = -0.20
-			political_power_gain = 0.15
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.1
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness_3 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			stability_factor = -0.2
-			agency_upgrade_time = -0.1
-			political_power_gain = 0.15
-			decryption_factor = 0.15
-			operative_slot = 1
-			drift_defence_factor = 0.5
-			industrial_capacity_factory = -0.1
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness_4 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			operative_slot = 1
-			decryption_factor = 0.1
-			encryption_factor = 0.15
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness_5 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			stability_factor = -0.2
-			political_power_gain = 0.15
-			decryption_factor = 0.10
-			encryption_factor = 0.15
-			operative_slot = 1
-			drift_defence_factor = 0.5
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness_6 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			stability_factor = -0.2
-			political_power_gain = 0.15
-			decryption_factor = 0.15
-			encryption_factor = 0.15
-			operative_slot = 1
-			drift_defence_factor = 0.5
-			industrial_capacity_factory = -0.1
-		}
-    }
-	
-	EER_enlarged_the_Staff_of_Sameness_7 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			stability_factor = -0.2
-			political_power_gain = 0.15
-			decryption_factor = 0.15
-			encryption_factor = 0.15
-			social_democracy_drift = 0.01
-			operative_slot = 1
-			drift_defence_factor = 0.5
-			industrial_capacity_factory = -0.1
-		}
-    }
-	
-	EER_restricted_the_Staff_of_Sameness = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.05
-			war_support_factor = -0.05
-			drift_defence_factor = 0.5
-			decryption_factor = 0.05
-			stability_factor = 0.2
-		}
-    }
-	
-	EER_restricted_the_Staff_of_Sameness_2 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.1
-			war_support_factor = -0.05
-			drift_defence_factor = 0.5
-			decryption_factor = 0.05
-			stability_factor = 0.2
-		}
-    }
-	
-	EER_restricted_the_Staff_of_Sameness_3 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.1
-			war_support_factor = -0.05
-			decryption_factor = 0.05
-		}
-    }
-	
-	EER_restricted_the_Staff_of_Sameness_4 = {
-        allowed = {
-			original_tag = EER
-		}
-
-
-        removal_cost = -1
-        picture = fantasy_government
-        modifier = {
-			agency_upgrade_time = -0.1
-			operative_slot = 1
-			decryption_factor = 0.1
-			war_support_factor = -0.05
-			decryption_factor = 0.05
-			stability_factor = 0.2
-		}
-    }
-	
-	EER_moderate_economic_policy = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				local_resources_factor = 0.10
-			}
-		}
-
-		EER_moderate_economic_policy_2 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				local_resources_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
-			}
-		}
-
-		EER_moderate_economic_policy_3 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				local_resources_factor = 0.10
-				supply_consumption_factor = -0.05
-			}
-		}
-
-		EER_moderate_economic_policy_4 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				local_resources_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
-				supply_consumption_factor = -0.05
-			}
-		}
-
-		EER_moderate_economic_policy_5 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				local_resources_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
-				supply_consumption_factor = -0.05
-				industrial_capacity_factory = 0.05
-			}
-		}
-
-		EER_centralized_economic_policy = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				min_export = -0.20
-			}
-		}
-
-		EER_centralized_economic_policy_2 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				min_export = -0.20
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
-			}
-		}
-
-		EER_centralized_economic_policy_3 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				min_export = -0.20
-				production_factory_efficiency_gain_factor = 0.10
-			}
-		}
-
-		EER_centralized_economic_policy_4 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				min_export = -0.20
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
-				production_factory_efficiency_gain_factor = 0.10
-			}
-		}
-
-		EER_centralized_economic_policy_5 = {
-			allowed = {
-				original_tag = EER
-			}
-
-			removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-				min_export = -0.20
-				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = 0.10
-				production_factory_efficiency_gain_factor = 0.10
-			}
-		}
-		
-		
-		
-		EER_tear_off_the_mask = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-			stability_factor = -0.2
-			war_support_factor = -0.2
-			
-				}
-        }
-		EER_crush_the_left = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-			stability_factor = 0.25
-			political_power_factor = 0.15
-			
-				}
-        }
-				EER_last_blow = {
-            allowed = {
-				original_tag = EER
-			}
-			
-			cancel = {
-			has_war = no
-			}
-
-            removal_cost = -1
-            picture = fantasy_government
-			modifier = {
-			army_attack_factor = 0.1
-			
-				}
-        }
-		
-		#平等解放军 战争的教训
-		EER_equality_liberation_army = {
+		EER_equestrian_equalist_republic_economic_plan = {
             allowed = {
                 original_tag = EER
             }
 
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_equestrian_equalist_republic_economic_plan
+
+            modifier = {
+                stability_factor = 0.05
+            }
+		}
+		EER_equestrian_equalist_republic_economic_plan_1 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_equestrian_equalist_republic_economic_plan_1
+
+            modifier = {
+                stability_factor = 0.05
+				consumer_goods_factor = 0.05
+            }
+		}
+		EER_coco_pommels_plan = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_coco_pommels_plan
+
+            modifier = {
+                stability_factor = 0.05
+            }
+		}
+		EER_coco_pommels_plan_1 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_coco_pommels_plan
+
+            modifier = {
+                stability_factor = 0.05
+				min_export = 0.1
+				production_factory_max_efficiency_factor = 0.10
+				research_speed_factor = 0.05
+            }
+		}
+		EER_coco_pommels_plan_2 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_coco_pommels_plan
+
+            modifier = {
+                stability_factor = 0.05
+				min_export = 0.1
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.10
+				research_speed_factor = 0.05
+            }
+		}
+		EER_coco_pommels_plan_3 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_coco_pommels_plan
+
+            modifier = {
+                stability_factor = -0.05
+				min_export = 0.1
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.10
+				research_speed_factor = 0.05
+				consumer_goods_factor = -0.05
+            }
+		}
+		EER_twisunshines_plan = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_twisunshines_plan
+
+            modifier = {
+                stability_factor = 0.05
+            }
+		}
+		EER_twisunshines_plan_1 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_twisunshines_plan
+
+            modifier = {
+                stability_factor = 0.05
+				political_power_factor = -0.05
+				state_production_speed_buildings_factor = 0.05
+            }
+		}
+		EER_twisunshines_plan_2 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_twisunshines_plan
+
+            modifier = {
+                stability_factor = 0.05
+				political_power_factor = -0.05
+				state_production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.15
+            }
+		}
+		EER_twisunshines_plan_3 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_twisunshines_plan
+
+            modifier = {
+                stability_factor = 0.05
+				political_power_factor = -0.10
+				state_production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.10
+            }
+		}
+		EER_anti_aggression_war = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
 
             modifier = {
                 conscription_factor = 0.05
             }
-        }
-		#重视武器
-		EER_equality_Wappon = {
+		}
+		EER_anti_aggression_war_1 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = CLK }
+			}
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conscription_factor = 0.05
+				encryption_factor = 0.1
+            }
+		}
+		EER_anti_aggression_war_2 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = CLK }
+			}
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conscription_factor = 0.05
+				encryption_factor = 0.1
+            }
+			targeted_modifier = { 
+				tag = CLK 
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		EER_anti_aggression_war_3 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = CLK }
+			}
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conscription_factor = 0.05
+				encryption_factor = 0.1
+				army_attack_factor = 0.1
+			}
+			targeted_modifier = { 
+					tag = CLK 
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+		}
+		EER_education_reform = {
             allowed = {
                 original_tag = EER
             }
 
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
             modifier = {
-				research_speed_factor = 0.05
-            }
-        }
-		#重视武器 重视非战斗序列
-		EER_equality_Wappon_1_1 = {
-            allowed = {
-                original_tag = EER
-            }
-
-            removal_cost = -1
-            picture = EER_equality_liberation_army
-
-            modifier = {
-				research_speed_factor = 0.05
-				army_org_regain = 0.05
-            }
-        }
-		#重视武器 保证质量
-		EER_equality_Wappon_1_2 = {
-            allowed = {
-                original_tag = EER
-            }
-
-            removal_cost = -1
-            picture = EER_equality_liberation_army
-
-            modifier = {
-				research_speed_factor = 0.05
-                production_factory_efficiency_gain_factor = -0.05
-				army_attack_factor = 0.05
-            }
-        }
-		#重视武器 保证质量 + 重视非战斗序列
-		EER_equality_Wappon_2 = {
-            allowed = {
-                original_tag = EER
-            }
-
-            removal_cost = -1
-            picture = EER_equality_liberation_army
-
-            modifier = {
-				research_speed_factor = 0.05
-				army_org_regain = 0.05
-                production_factory_efficiency_gain_factor = -0.05
-				army_attack_factor = 0.05
-            }
-        }
+                research_speed_factor = -0.10
+			}
+		}
 		
-		#重视意志
-		EER_focus_on_the_will = {
+		EER_staff_of_sameness = {
             allowed = {
                 original_tag = EER
             }
 
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
             modifier = {
-				army_morale_factor = 0.05
-            }
-        }
-		#重视意志 同胞的解放
-		EER_focus_on_the_will_1 = {
+                operative_slot = 1
+			}
+		}
+		EER_staff_of_sameness_1 = {
             allowed = {
                 original_tag = EER
             }
 
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
             modifier = {
-				army_morale_factor = 0.05
-				conscription = 0.05
-            }
-        }
-		#理智战斗
-		EER_fighting_with_sanity = {
+                operative_slot = 1
+				decryption_factor = 0.1
+			}
+		}
+		EER_staff_of_sameness_2 = {
             allowed = {
                 original_tag = EER
             }
 
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
             modifier = {
-				max_planning_factor = 0.1
-            }
-        }
-		#流血不流泪
-		EER_sweating_without_bleeding = {
+                operative_slot = 1
+				decryption_factor = 0.1
+				agency_upgrade_time = -0.1
+			}
+		}
+		EER_staff_of_sameness_3 = {
             allowed = {
                 original_tag = EER
             }
 
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
             modifier = {
-				max_planning_factor = 0.1
-				attrition = -0.15
+                operative_slot = 1
+				decryption_factor = 0.1
+				agency_upgrade_time = -0.1
+				stability_factor = 0.05
+				political_power_gain = 0.15
+			}
+		}
+		EER_staff_of_sameness_4 = {
+            allowed = {
+                original_tag = EER
             }
-        }
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                operative_slot = 1
+				decryption_factor = 0.1
+				agency_upgrade_time = -0.1
+				stability_factor = 0.15
+				political_power_gain = 0.15
+			}
+		}
+		EER_Army_of_Equality = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conversion_cost_civ_to_mil_factor = -0.10
+			}
+		}
+		EER_Army_of_Equality_1 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conversion_cost_civ_to_mil_factor = -0.10
+				training_time_army_factor = 0.1
+				experience_gain_army_factor = 0.05
+			}
+		}
+		EER_Army_of_Equality_2 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conversion_cost_civ_to_mil_factor = -0.10
+				training_time_army_factor = 0.1
+				experience_gain_army_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.15
+			}
+		}
+		EER_Army_of_Equality_3 = {
+            allowed = {
+                original_tag = EER
+            }
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+            modifier = {
+                conversion_cost_civ_to_mil_factor = -0.10
+				training_time_army_factor = 0.1
+				experience_gain_army_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_supply_node_factor = 0.05 
+				production_speed_rail_way_factor = 0.05 
+			}
+		}
+		EER_abolition_action = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = EQU }
+			}
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			targeted_modifier = {
+			   tag = EQU
+			   attack_bonus_against = 0.2
+			   defense_bonus_against = 0.2
+			}
+		}
+		EER_operation_scissors = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = CRY }
+			}
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			targeted_modifier = {
+			   tag = CRY
+			   attack_bonus_against = 0.2
+			   defense_bonus_against = 0.2
+			}
+		}
+		EER_operation_sunshine = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = EOM }
+			}
+
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			targeted_modifier = {
+			   tag = EOM
+			   attack_bonus_against = 0.2
+			   defense_bonus_against = 0.2
+			}
+		}
+		EER_operation_pest_removal = {
+            allowed = {
+                original_tag = EER
+            }
+			
+			cancel = {
+				not = { has_war_with = CLK }
+			}
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			targeted_modifier = {
+			   tag = CLK
+			   attack_bonus_against = 0.2
+			   defense_bonus_against = 0.2
+			}
+		}
 		
-		#先进的军队
-		EER_equality_liberation_army_1_1 = {
+		EER_pest_eradication = {
             allowed = {
                 original_tag = EER
             }
-
+			cancel = {
+				NOT = {
+					country_exists =CLK
+				}
+			}
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				conscription_factor = 0.05
-				research_speed_factor = 0.05
-				army_org_regain = 0.05
-                production_factory_efficiency_gain_factor = -0.05
-				army_attack_factor = 0.10
-            }
-        }
-		
-		#无畏的军队
-		EER_equality_liberation_army_1_2 = {
+			targeted_modifier = {
+			   tag = CLK
+			   attack_bonus_against = 0.2
+			}
+			modifier = {
+			   
+			}
+		}
+		EER_pest_eradication_1 = {
             allowed = {
                 original_tag = EER
             }
-
+			cancel = {
+				NOT = {
+					country_exists =CLK
+				}
+			}
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				army_morale_factor = 0.05
-				army_org_factor = 0.05
-				conscription = 0.05
-				max_planning_factor = 0.1
-				attrition = -0.15
-            }
-        }
-		
-		#先进的军队 + 无畏的军队
-		EER_equality_liberation_army_2 = {
+			targeted_modifier = {
+			   tag = CLK
+			   attack_bonus_against = 0.2
+			}
+			modifier = {
+			   no_supply_grace = 72
+			}
+		}
+		EER_pest_eradication_2 = {
             allowed = {
                 original_tag = EER
             }
-
+			cancel = {
+				NOT = {
+					country_exists =CLK
+				}
+			}
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				conscription_factor = 0.05
-				research_speed_factor = 0.05
-				army_org_regain = 0.05
-                production_factory_efficiency_gain_factor = -0.05
-				army_attack_factor = 0.10
-				army_morale_factor = 0.05
-				army_org_factor = 0.05
-				conscription = 0.05
-				max_planning_factor = 0.1
-				attrition = -0.15
-            }
-        }
-		#最后的战斗准备
-		EER_final_battle_preparations = {
+			targeted_modifier = {
+			   tag = CLK
+			   attack_bonus_against = 0.2
+			}
+			modifier = {
+			   org_loss_when_moving = -0.2
+			}
+		}
+		EER_pest_eradication_3 = {
             allowed = {
                 original_tag = EER
             }
-
+			cancel = {
+				NOT = {
+					country_exists =CLK
+				}
+			}
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				no_supply_grace = 72
-            }
-        }
-		#特别部队
-		EER_special_forces = {
+			targeted_modifier = {
+			   tag = CLK
+			   attack_bonus_against = 0.2
+			}
+			modifier = {
+			   no_supply_grace = 72
+			   org_loss_when_moving = -0.2
+			}
+		}
+		EER_ill_gotten_wealth = {
             allowed = {
                 original_tag = EER
             }
-
+			
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				experience_gain_army = -0.05
+			modifier = {
+			   stability_factor = 0.3
+			   consumer_goods_factor = -0.2
+			}
+		}
+		EER_re_legislation = {
+            allowed = {
+                original_tag = EER
+                
             }
-        }
-		#特别部队 针对性训练
-		EER_special_forces_1 = {
+           
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   
+			}
+		}
+		EER_royal_treasure = {
             allowed = {
                 original_tag = EER
             }
-
+			
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				experience_gain_army = -0.05
-				attack_bonus_against = 0.15
-            }
-        }
-		#特别部队 特种反幻型灵部队
-		EER_special_forces_2 = {
+			modifier = {
+			   consumer_goods_factor = -0.15
+			}
+		}
+		EER_forest_guerrilla = {
             allowed = {
                 original_tag = EER
             }
-
+			
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				experience_gain_army = -0.05
-				attack_bonus_against = 0.15
-				special_forces_attack_factor = 0.15
-            }
-        }
-		#识别魔法
-		EER_identify_magic = {
+			modifier = {
+			   political_power_gain = -0.25
+			   stability_factor = -0.25
+			   recruitable_population_factor = -0.02
+			   industrial_capacity_factory = -0.05
+			}
+		}
+		EER_forest_guerrilla_1 = {
             allowed = {
                 original_tag = EER
             }
-
+			
             removal_cost = -1
-            picture = EER_equality_liberation_army
+            picture = EER_anti_aggression_war
 
-            modifier = {
-				crypto_strength = 1
+			modifier = {
+			   political_power_gain = -0.25
+			   stability_factor = -0.20
+			   industrial_capacity_factory = -0.05
+			}
+		}
+		EER_forest_guerrilla_2 = {
+            allowed = {
+                original_tag = EER
             }
-        }
-		
-		
-		
-		
-		
-		
-    }
-	
-	
-	
-	
-	
-	
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.20
+			   stability_factor = -0.25
+			   recruitable_population_factor = -0.02
+			}
+		}
+		EER_forest_guerrilla_3 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.20
+			   stability_factor = -0.20
+			}
+		}
+		EER_forest_guerrilla_4 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.20
+			   stability_factor = -0.20
+			   war_support_factor = -0.3
+			   industrial_capacity_factory = -0.1
+			}
+		}
+		EER_forest_guerrilla_5 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.20
+			   stability_factor = -0.20
+			   war_support_factor = -0.3
+			   industrial_capacity_factory = -0.2
+			}
+		}
+		EER_forest_guerrilla_6 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.5
+			   war_support_factor = -0.3
+			   industrial_capacity_factory = -0.2
+			}
+		}
+		EER_forest_guerrilla_7 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.5
+			   industrial_capacity_factory = -0.2
+			}
+		}
+		EER_dealing_with_everfree_forest = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   industrial_capacity_factory = -0.15
+			}
+		}
+		EER_expanded_staff_of_sameness = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+				operative_slot = 3
+				decryption_factor = 0.1
+				encryption_factor = 0.3
+				agency_upgrade_time = -0.10
+				political_power_gain = 0.15
+				research_speed_factor = -0.05
+				army_morale_factor = -0.05
+			}
+		}
+		EER_expanded_staff_of_sameness_1 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+				operative_slot = 3
+				decryption_factor = 0.1
+				encryption_factor = 0.3
+				agency_upgrade_time = -0.10
+				political_power_gain = 0.15
+				army_morale_factor = 0.10
+				recruitable_population_factor = -0.75
+			}
+		}
+		EER_expanded_staff_of_sameness_2 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+				operative_slot = 3
+				decryption_factor = 0.1
+				encryption_factor = 0.3
+				agency_upgrade_time = -0.10
+				political_power_gain = 0.15
+				army_morale_factor = 0.10
+				conscription_factor = -0.75
+				consumer_goods_factor = 0.1
+			}
+		}
+		EER_looming_financial_crisis = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   consumer_goods_factor = 0.75
+			   industrial_capacity_factory = -1.00
+			}
+		}
+		EER_looming_financial_crisis_1 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   consumer_goods_factor = 0.45
+			   industrial_capacity_factory = -1.00
+			}
+		}
+		EER_build_the_dam = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   
+			}
+		}
+		EER_build_the_dam_1 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   research_speed_factor = -1
+			}
+		}
+		EER_build_the_dam_2 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   research_speed_factor = -1
+			   production_speed_arms_factory_factor = -1
+			   license_production_speed = -1 
+			}
+		}
+		EER_digging_out_the_source = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   research_speed_factor = -0.2 
+			}
+		}
+		EER_digging_out_the_source_1 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   research_speed_factor = -0.2 
+			}
+		}
+		EER_digging_out_the_source_2 = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   research_speed_factor = -0.2
+			   local_resources_factor -0.2
+			}
+		}
+		EER_keep_them_hidden = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   consumer_goods_factor = 0.10
+			   encryption_factor = 1
+			}
+		}
+		EER_perfect_rationing = {
+            allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   production_factory_efficiency_gain_factor = -0.5
+			   production_factory_max_efficiency_factor = 0.5
+			}
+		}
+		EER_supply_of_ponys_traders = {
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   supply_consumption_factor = -0.1
+			}
+		}
+		EER_military_advisors_from_ponies = {
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   experience_gain_army_factor = 0.1
+			}
+		}
+		EER_minerals_being_developed = {
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   local_resources_factor -0.3
+			}
+		}
+		EER_reform_is_underway = {
+			allowed = {
+                original_tag = EER
+            }
+			
+            removal_cost = -1
+            picture = EER_anti_aggression_war
+
+			modifier = {
+			   political_power_gain = -0.25
+			}
+		}
+	}
 }

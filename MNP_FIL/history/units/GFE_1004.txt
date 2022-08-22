@@ -1,0 +1,261 @@
+division_template = {
+	name = "军团步兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+      
+	}
+}
+
+division_template = {
+	name = "军团炮兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        artillery_brigade = { x = 2 y = 0 }
+        artillery_brigade = { x = 2 y = 1 }
+        artillery_brigade = { x = 2 y = 2 }	
+	}
+	
+	support = {    
+		
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "军团第一步兵师"
+		location = 3895
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二步兵师"
+		location = 3895
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第三步兵师"
+		location =506
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第四步兵师"
+		location = 506
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第五步兵师"
+		location = 530
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第六步兵师"
+		location =2653
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第七步兵师"
+		location = 2653
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第八步兵师"
+		location = 6305
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第九步兵师"
+		location =4160
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十步兵师"
+		location = 5976
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十一步兵师"
+		location = 2657
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十二步兵师"
+		location =6305
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十三步兵师"
+		location = 2564
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十四步兵师"
+		location = 5389
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十五步兵师"
+		location =2653
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十六步兵师"
+		location = 7245
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十七步兵师"
+		location = 1504
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十八步兵师"
+		location =1135
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十九步兵师"
+		location = 4126
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二十步兵师"
+		location = 5327
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二十一步兵师"
+		location = 274
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二十二步兵师"
+		location = 1711
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二十三步兵师"
+		location = 254
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二十四步兵师"
+		location =6305
+		division_template = "军团步兵师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "军团第一炮兵师"
+		location = 3895
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第二炮兵师"
+		location = 3895
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第三炮兵师"
+		location =506
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第四炮兵师"
+		location = 7098
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第五炮兵师"
+		location = 530
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第六炮兵师"
+		location = 2564
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第七炮兵师"
+		location = 5389
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第八炮兵师"
+		location = 2653
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第九炮兵师"
+		location =7098
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十炮兵师"
+		location = 6373
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十一炮兵师"
+		location = 1666
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "军团第十二炮兵师"
+		location =7357
+		division_template = "军团炮兵师"
+		start_experience_factor = 0.3
+	}
+}

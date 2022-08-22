@@ -1,0 +1,562 @@
+defined_text = { 
+	name = Orthodoxy_desc
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = Orthodoxy_EQU_desc
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = Orthodoxy_EOM_desc
+	}
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = Orthodoxy_EER_desc
+	}
+}
+
+defined_text = { 
+	name = Orthodoxy_bar_1
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 2.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 2.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_2
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 7.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 7.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_3
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 12.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 12.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_4
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 17.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 17.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_5
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 22.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 22.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_6
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 27.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 27.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_7
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 32.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 32.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_8
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 37.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 37.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_9
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 42.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 42.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_10
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 47.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 47.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_11
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 52.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 52.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_12
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 57.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 57.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_13
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 62.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 62.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_14
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 67.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 67.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_15
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 72.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 72.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_16
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 77.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 77.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_17
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 82.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 82.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_18
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 87.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 87.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_19
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 92.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 92.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}
+defined_text = { 
+	name = Orthodoxy_bar_20
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 97.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = Orthodoxy_EOM_bar
+	}
+	text = {
+		trigger = {
+			EOM = {
+				check_variable = {
+					var = eom_orthodoxy
+					value = 97.5
+					compare = less_than
+				}
+			}
+		}
+		localization_key = Orthodoxy_EQU_bar
+	}
+}

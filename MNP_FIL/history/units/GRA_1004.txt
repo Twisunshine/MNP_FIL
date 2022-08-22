@@ -1,0 +1,223 @@
+division_template = {
+	name = "国防步兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+      
+	}
+}
+
+division_template = {
+	name = "国防精锐师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }	
+		artillery_brigade = { x = 2 y = 2 }			
+	}
+	
+	support = {    
+		
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "国防第一步兵师"
+		location = 1652
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二步兵师"
+		location = 7430
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第三步兵师"
+		location =7430
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第四步兵师"
+		location = 1284
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第五步兵师"
+		location = 1850
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第六步兵师"
+		location =7388
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第七步兵师"
+		location = 1852
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第八步兵师"
+		location = 3777
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第九步兵师"
+		location =3348
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十步兵师"
+		location = 870
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十一步兵师"
+		location = 3025
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十二步兵师"
+		location =3704
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十三步兵师"
+		location = 3111
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十四步兵师"
+		location = 79
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十五步兵师"
+		location =5185
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十六步兵师"
+		location = 3159
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十七步兵师"
+		location = 5340
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十八步兵师"
+		location =808
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第十九步兵师"
+		location = 4979
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二十步兵师"
+		location = 5196
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二十一步兵师"
+		location =5190
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二十二步兵师"
+		location = 2351
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二十三步兵师"
+		location = 1044
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二十四步兵师"
+		location =6581
+		division_template = "国防步兵师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "国防第一精锐师"
+		location = 2351
+		division_template = "国防精锐师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第二精锐师"
+		location = 2351
+		division_template = "国防精锐师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第三精锐师"
+		location =1849
+		division_template = "国防精锐师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第四精锐师"
+		location = 738
+		division_template = "国防精锐师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第五精锐师"
+		location = 1284
+		division_template = "国防精锐师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "国防第六精锐师"
+		location =2020
+		division_template = "国防精锐师"
+		start_experience_factor = 0.3
+	}
+}

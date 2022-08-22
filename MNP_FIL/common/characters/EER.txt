@@ -70,7 +70,7 @@ characters={
 			removal_cost = -114514
         }
 		field_marshal = {
-			legacy_id = 114514
+			legacy_id = 114
 			traits = { }
 			skill = 3
 			attack_skill = 3
@@ -108,7 +108,7 @@ characters={
 			removal_cost = -114514
         }
 		corps_commander = {
-			legacy_id = 2
+			legacy_id = 233
 			traits = { }
 			skill = 2
 			attack_skill = 2
@@ -151,6 +151,30 @@ characters={
 			planning_skill = 1
 			logistics_skill = 2	
 		}
+	}
+	EER_Feather_Bangs = {
+		name = EER_Feather_Bangs
+		portraits = {
+		civilian = {
+				small="gfx/leaders/EER/idea_Portrait_Feather_Bangs.dds"
+			}
+
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EER_Feather_Bangs
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                charming_scumbag
+            }
+			removal_cost = -114514
+        }
 	}
 	EER_Sugar_Belle = {
 		name = EER_Sugar_Belle
@@ -265,6 +289,29 @@ characters={
 			}
             traits = {
                 laissez_faire_economists
+            }
+			removal_cost = -114514
+        }
+	}
+	EER_Silver_Shill = {
+		name = EER_Silver_Shill
+		portraits = {
+		civilian = {
+				small="gfx/leaders/EER/idea_Portrait_Silver_Shill.dds"
+			}
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_EER_Silver_Shill
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                great_philanthropist
             }
 			removal_cost = -114514
         }

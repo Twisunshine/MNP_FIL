@@ -317,7 +317,7 @@ guiTypes = {
 			buttonFont = "hoi_36header"
 			clicksound = click_default
 			oversound = ui_menu_over
-			web_link = "https://steamcommunity.com/app/394360/workshop/"
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2839589088"
 		}
 		
 		### 主页面NUDGE选项

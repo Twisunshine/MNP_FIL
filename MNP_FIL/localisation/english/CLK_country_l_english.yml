@@ -37,7 +37,13 @@
  CLK_Thorax_rebellion_dynamic_modifier:0 "索拉克斯叛乱"
  CLK_Thorax_rebellion_dynamic_modifier_desc:0 "1004年索拉克斯发起了一场不成功的政变。事后，数百谐律分子及其同情者被处决，国家内部的叛徒被基本肃清。但索拉克斯却成功逃走了，自此言信全无。\n\n而第二次有索拉克斯的消息，是我们的巡逻队在占领区遭到一支游击队袭击之后。现场的痕迹表明，我们的巡逻队遭到了幻形灵白己的袭击，自此，索拉克斯第一次露出来马脚。\n\n然而，找到索拉克斯的线索并没有为我们带来什么好处。恰恰相反，从那以后，一切都开始急剧恶化：我们占领区的小马越来越不安分；合作者经常遒到刺杀，然后被其他生物伪装和取代；巡逻队遭到伏击的报告数量提升了好几倍；我们幻化为小马的渗透武装在某一刻会突然失去联系；索拉克斯明日张胆的进行着各种叛乱行动我们却亳无反制的办法……这一切都让在占领区本就不受欢迎的我们更加焦头烂额。假如我们不希望占领区的情况继续恶化，我们就必须想办法找出并处决叛国贼索拉克斯。"
  
+### 事件
+ CLK_events.1_t:0 "事件1"
+ CLK_events.1_d:0 "描述"
+ CLK_events.1_tt:0 "换领导人"
  
 ### 决议
  CLK_war_in_eqs:0 "对小马国的战争"
  CLK_war_in_eqs_1:0 "向平等国投降"
+ CLK_Thorax_rebellion:0 "索拉克斯叛乱"
+ CLK_Thorax_rebellion_desc:0 "索拉克斯叛乱的描述. \n\n国家内的叛乱值: [?CLK_Thorax_rebellion|-] \n\n当前效果 \n每日消耗的政治点数: [?CLK_Thorax_rebellion_political_power_cost|-]\n月度马力: [?CLK_Thorax_rebellion_monthly_population|%+]\n国家稳定度: [?CLK_Thorax_rebellion_stability_factor|%+]\n战争支持度: [?CLK_Thorax_rebellion_war_support_factor|%+]\n非核心地区抵抗度: [?CLK_Thorax_rebellion_resistance_target|%-]\n顺从度增长: [?CLK_Thorax_rebellion_compliance_growth|%+]\n驻军所受伤害: [?CLK_Thorax_rebellion_resistance_damage_to_garrison|%-]\n"

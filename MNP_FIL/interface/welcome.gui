@@ -1,0 +1,126 @@
+guiTypes = {
+	containerWindowType = {
+		name = "welcome_window_main"
+		position = {x = 0 y = 0}
+		size = {width = 985 height = 550}
+		orientation = center
+		origo = center
+		moveable = yes
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "welcome_window_background"
+			quadTextureSprite = "GFX_welcome_window_background"
+		}
+		
+		containerWindowType = {
+			name = "welcome_window_country_pic"
+			position = {x = 0 y = 0}
+			size = {width = 985 height = 550}
+			orientation = center
+			origo = center
+			
+			iconType = {
+				name ="country_desc_pic"
+				spriteType = ""
+				position = { x= 35 y = 35 }
+			}
+		}	
+		
+		containerWindowType = {
+			name = "welcome_window_country_desc"
+			position = {x = 0 y = 0}
+			size = {width = 985 height = 550}
+			orientation = center
+			origo = center
+			
+			instantTextBoxType = {
+				name ="country_name"
+				position = { x = 310 y = 45 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 0}
+				text = "[welcome_country_name]"
+				format = left
+				maxWidth = 860
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="country_desc_1"
+				position = { x = 310 y = 90 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "[welcome_country_desc_1]"	
+				format = left
+				maxWidth = 618
+				maxHeight = 360
+				scrollbartype = "standardtext_slider"
+			}
+			
+			instantTextBoxType = {
+				name ="country_desc_2"
+				position = { x = 310 y = 90 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "[welcome_country_desc_2]"	
+				format = left
+				maxWidth = 618
+				maxHeight = 360
+				scrollbartype = "standardtext_slider"
+			}
+			
+			instantTextBoxType = {
+				name ="country_desc_3"
+				position = { x = 310 y = 90 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "[welcome_country_desc_3]"	
+				format = left
+				maxWidth = 618
+				maxHeight = 360
+				scrollbartype = "standardtext_slider"
+			}
+		}
+		
+		ButtonType = {
+			name = "last_button"
+			position = { x = 309 y = -80 }
+			quadTextureSprite ="GFX_button_94x31_new"	
+			buttonText = "上一页"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+			orientation = LOWER_LEFT
+		}
+			
+		ButtonType = {
+			name = "next_button"
+			position = { x = -140 y = -80 }
+			quadTextureSprite ="GFX_button_94x31"	
+			buttonText = "下一页"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+			orientation = LOWER_RIGHT
+		}
+		
+		ButtonType = {
+			name = "off_button"
+			position = { x = -510 y = -82 }
+			quadTextureSprite ="GFX_main_trans_button"	
+			buttonText = "[welcome_off_option]"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+			orientation = LOWER_RIGHT
+		}
+	}
+}

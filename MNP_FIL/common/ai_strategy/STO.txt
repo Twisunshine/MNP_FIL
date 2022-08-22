@@ -1,0 +1,42 @@
+STO_attack_SEA = {
+	allowed = {
+		original_tag = STO
+	}
+	enable = {
+		has_war_with = SEA
+	}
+	abort = {
+		OR = {
+			NOT = {
+				country_exists = SEA
+			}
+			SEA = 
+				is_puppet = yes
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = invade
+		id = SEA
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 50
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 141
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 140
+		value = 50
+	}
+}

@@ -1,0 +1,182 @@
+division_template = {
+	name = "共和步兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+      
+	}
+}
+
+division_template = {
+	name = "共和炮兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }	
+	}
+	
+	support = {    
+		
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "共和第一步兵师"
+		location = 5243
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第二步兵师"
+		location = 5243
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第三步兵师"
+		location =412
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第四步兵师"
+		location = 6024
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第五步兵师"
+		location = 3695
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第六步兵师"
+		location =9667
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第七步兵师"
+		location = 1150
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第八步兵师"
+		location = 4542
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第九步兵师"
+		location = 6919
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第十步兵师"
+		location = 3978
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第十一步兵师"
+		location = 3310
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第十二步兵师"
+		location =6024
+		division_template = "共和步兵师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "共和第一炮兵师"
+		location = 5243
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第二炮兵师"
+		location = 5243
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第三炮兵师"
+		location =6940
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第四炮兵师"
+		location = 6853
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第五炮兵师"
+		location = 4940
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第六炮兵师"
+		location =6024
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第七炮兵师"
+		location = 6997
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第八炮兵师"
+		location = 5506
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第九炮兵师"
+		location = 5243
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第十炮兵师"
+		location = 490
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第十一炮兵师"
+		location = 5667
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "共和第十二炮兵师"
+		location = 945
+		division_template = "共和炮兵师"
+		start_experience_factor = 0.3
+	}
+}

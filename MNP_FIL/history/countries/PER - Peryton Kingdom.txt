@@ -19,10 +19,10 @@ set_politics = {
 set_popularities = {
 	dictatorshipism = 0
 	fascism = 0
-	despotism = 100
-	authoritarian_democracy = 0
-	liberal_democracy = 0
-	social_democracy = 0
+	despotism = 79
+	authoritarian_democracy = 8
+	liberal_democracy = 9
+	social_democracy = 4
 	socialism = 0
 	communism = 0
 }

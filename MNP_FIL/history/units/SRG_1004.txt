@@ -1,0 +1,206 @@
+division_template = {
+	name = "狮鹫解放军步兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+      
+	}
+}
+
+division_template = {
+	name = "狮鹫解放军样板师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }		
+	}
+	
+	support = {    
+		
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "狮鹫解放军第一步兵师"
+		location = 128
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二步兵师"
+		location = 5254
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第三步兵师"
+		location =5531
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第四步兵师"
+		location = 2809
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第五步兵师"
+		location = 4444
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第六步兵师"
+		location =6490
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第七步兵师"
+		location = 169
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第八步兵师"
+		location = 6815
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第九步兵师"
+		location =7083
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十步兵师"
+		location = 731
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十一步兵师"
+		location = 1056
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十二步兵师"
+		location =6387
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十三步兵师"
+		location = 3543
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十四步兵师"
+		location = 7012
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十五步兵师"
+		location =1402
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十六步兵师"
+		location = 1241
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十七步兵师"
+		location = 4241
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十八步兵师"
+		location =4254
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第十九步兵师"
+		location = 4549
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二十步兵师"
+		location = 7095
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二十一步兵师"
+		location =290
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二十二步兵师"
+		location = 2281
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二十三步兵师"
+		location = 671
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二十四步兵师"
+		location =7083
+		division_template = "狮鹫解放军步兵师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "狮鹫解放军第一样板师"
+		location = 1580
+		division_template = "狮鹫解放军样板师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第二样板师"
+		location = 4227
+		division_template = "狮鹫解放军样板师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫解放军第三样板师"
+		location =6493
+		division_template = "狮鹫解放军样板师"
+		start_experience_factor = 0.3
+	}
+}

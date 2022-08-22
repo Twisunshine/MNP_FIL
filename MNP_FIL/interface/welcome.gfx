@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_welcome_window_background"
+		textureFile = "gfx/interface/welcome_gui/welcome_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_button_94x31"
+		textureFile = "gfx/interface/button_94x31_new.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_off_button"
+		textureFile = "gfx/interface/welcome_gui/x_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EER_desc_pic"
+		textureFile = "gfx/interface/welcome_gui/EER_desc_pic.dds"
+	}
+	spriteType = {
+		name = "GFX_EQU_desc_pic"
+		textureFile = "gfx/interface/welcome_gui/EQU_desc_pic.dds"
+	}
+	spriteType = {
+		name = "GFX_EOM_desc_pic"
+		textureFile = "gfx/interface/welcome_gui/EOM_desc_pic.dds"
+	}
+	spriteType = {
+		name = "GFX_CLK_desc_pic"
+		textureFile = "gfx/interface/welcome_gui/CLK_desc_pic.dds"
+	}
+}

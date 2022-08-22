@@ -1,0 +1,30 @@
+SEA_defense_SEA = {
+	allowed = {
+		original_tag = SEA
+	}
+	enable = {
+		has_war_with = STO
+	}
+	abort = {
+		NOT = {
+			country_exists = STO
+		}
+	}
+	
+	ai_strategy = {
+		type = force_defend_ally_borders 
+		id = STO
+		value = 80
+	}
+	
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 141
+		value = 50
+	}
+}

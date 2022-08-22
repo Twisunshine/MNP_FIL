@@ -34,11 +34,67 @@ spriteTypes = {
 	
 	#工业发展
 	
+	spriteType = {
+		name = "GFX_idea_hoof_production"
+		texturefile = "gfx/interface/laws/hoof_production.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_guild_production"
+		texturefile = "gfx/interface/laws/guild_production.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_steampunk_era"
+		texturefile = "gfx/interface/laws/steampunk_era.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Specialized_chemical_factory"
+		texturefile = "gfx/interface/laws/Specialized_chemical_factory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_factory_complex"
+		texturefile = "gfx/interface/laws/factory_complex.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_industrial_city"
+		texturefile = "gfx/interface/laws/industrial_city.dds"
+	}
 	
 	#农业发展
 	
+	spriteType = {
+		name = "GFX_idea_slash_and_burn"
+		texturefile = "gfx/interface/laws/slash_and_burn.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_smallholder_model"
+		texturefile = "gfx/interface/laws/smallholder_model.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_farm_production"
+		texturefile = "gfx/interface/laws/farm_production.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_large_scale_farming"
+		texturefile = "gfx/interface/laws/large_scale_farming.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_commercial_agriculture"
+		texturefile = "gfx/interface/laws/commercial_agriculture.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mechanized_agriculture"
+		texturefile = "gfx/interface/laws/mechanized_agriculture.dds"
+	}
 	
 	#魔法普及
 	

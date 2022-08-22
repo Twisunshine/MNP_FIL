@@ -1,0 +1,18 @@
+characters={
+	ROC_eer_officer={
+		name=ROC_eer_officer
+		portraits={
+			civilian={
+				large="gfx/leaders/ROC/Portrait_ROC_eer_officer.dds"
+			}
+		}
+		country_leader={
+			desc=
+			ideology=social_democracy_equalism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

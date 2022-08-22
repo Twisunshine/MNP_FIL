@@ -1,0 +1,438 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Orthodoxy_window_main"
+		position = {x = 0 y = 0}
+		size = {width = 1000 height = 650}
+		orientation = center
+		origo = center
+		moveable = yes
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Orthodoxy_window_background"
+			quadTextureSprite = "GFX_Orthodoxy_window_background"
+		}	
+		
+		containerWindowType = {
+			name = "Orthodoxy_window_content"
+			position = {x = 0 y = 0}
+			size = {width = 1000 height = 650}
+			orientation = center
+			origo = center
+			
+			instantTextBoxType = {
+				name ="Orthodoxy_window_title"
+				position = { x = 105 y = 20 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "正统度"
+				format = center
+				maxWidth = 800 
+				maxHeight = 40	
+			}
+			
+			iconType = {
+				name ="Orthodoxy_left_leader_pic"
+				spriteType = "GFX_Orthodoxy_left_leader_pic"
+				position = { x= 50 y = 140 }
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_window_left_leader_name"
+				position = { x = 105 y = 103 }
+				textureFile = ""
+				font = "fzwhjz_20"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_leader"	
+				format = CENTER
+				maxWidth = 100
+				maxHeight = 40
+			}
+			iconType = {
+				name ="Orthodoxy_right_leader_pic"
+				spriteType = "GFX_Orthodoxy_right_leader_pic"
+				position = { x= 790 y = 140 }
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_window_right_leader_name"
+				position = { x = 798 y = 103 } 
+				textureFile = ""
+				font = "fzwhjz_20"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_leader"	
+				format = CENTER
+				maxWidth = 100
+				maxHeight = 40
+			}
+			
+			iconType = {
+				name ="Orthodoxy_Nightmare_Moon_pic" 
+				spriteType = "GFX_Orthodoxy_Nightmare_Moon_pic"
+				position = { x= 250 y = 250 }
+			}
+			iconType = {
+				name ="Orthodoxy_Twilight_pic" 
+				spriteType = "GFX_Orthodoxy_Twilight_pic"
+				position = { x= 638 y = 255 }
+			}
+			
+			iconType = {
+				name = "Orthodoxy_EQU_flag_left"
+				quadTextureSprite ="GFX_EQU_flag"
+				position = { x= 400 y = -225 }
+				Orientation = "center"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "Orthodoxy_EOM_flag_left"
+				quadTextureSprite ="GFX_EOM_flag"
+				position = { x= -440 y = -225 }
+				Orientation = "center"
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name ="Orthodoxy_left_value"
+				position = { x = 250 y = 220 }
+				textureFile = ""
+				font = "fzwhjz_20"
+				borderSize = {x = 0 y = 0} 
+				text = "Orthodoxy_EOM_value"	
+				format = left
+				maxWidth = 120
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects"
+				position = { x = 50 y =380 } 
+				textureFile = ""
+				font = "fzwhjz_20"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect"	
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_1"
+				position = { x = 50 y =410 } 
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_1"	
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_2"
+				position = { x = 50 y =430 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_2"	
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_3" 
+				position = { x = 50 y =450 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_3"	
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_5"
+				position = { x = 50 y =480 } 
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_5"	
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_6"
+				position = { x = 50 y =500 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_6"	
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_7" 
+				position = { x = 50 y =520 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_7"
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_left_effects_4" 
+				position = { x = 50 y =550 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EOM_effect_4"
+				format = left
+				maxWidth = 180
+				maxHeight = 240
+			}
+			
+			instantTextBoxType = {
+				name ="Orthodoxy_right_value"
+				position = { x = 630 y =220 } 
+				textureFile = ""
+				font = "fzwhjz_20"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_value" 
+				format = right
+				maxWidth = 120
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects"
+				position = { x = 765 y =380 }
+				textureFile = ""
+				font = "fzwhjz_20"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect"	
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_1"
+				position = { x = 765 y =410 } 
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_1"	
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_2"
+				position = { x = 765 y =430 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_2"	
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_3" 
+				position = { x = 765 y =450 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_3"	
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_5"
+				position = { x = 765 y =480 } 
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_5"	
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_6"
+				position = { x = 765 y =500 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_6"	
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_7" 
+				position = { x = 765 y =520 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_7"
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			instantTextBoxType = {
+				name ="Orthodoxy_right_effects_4" 
+				position = { x = 765 y =550 }
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = {x = 0 y = 0}
+				text = "Orthodoxy_EQU_effect_4"
+				format = right
+				maxWidth = 180
+				maxHeight = 240
+			}
+			
+			instantTextBoxType = {
+				name ="Orthodoxy_desc"
+				position = { x = 250 y = 380 } 
+				textureFile = ""
+				font = "hoi_16mbs" 
+				borderSize = {x = 0 y = 0}
+				text = "[Orthodoxy_desc]"	
+				format = left
+				maxWidth = 500
+				maxHeight = 240
+				scrollbartype = "standardtext_slider"
+			}
+			
+			ButtonType = {
+				name = "Orthodoxy_window_off_button"
+				position = { x = -50 y = 20 }
+				quadTextureSprite ="GFX_Orthodoxy_off_button"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = CENTER
+				orientation = UPPER_RIGHT
+			}
+			
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_1" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 250 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_2" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 275 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_3" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 300 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_4" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 325 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_5" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 350 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_6" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 375 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_7" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 400 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_8" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 425 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_9" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 450 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_10" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 475 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_11" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 500 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_12" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 525 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_13" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 550 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_14" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 575 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_15" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 600 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_16" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 625 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_17" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 650 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_18" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 675 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_19" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 700 y = 140 }
+			}
+			iconType = {
+				name ="Orthodoxy_value_bar_pic_20" 
+				spriteType = "GFX_Orthodoxy_value_bar_pic"
+				position = { x= 725 y = 140 }
+			}
+		}
+	}
+	containerWindowType = {
+		name = "Orthodoxy_window_open"
+		position = {x = 0 y = 0}
+		size = {width = 75 height = 75}
+		orientation = LOWER_RIGHT #center 
+		moveable = no
+		click_to_front = no
+		clipping = no
+		
+		ButtonType = {
+			name = "Orthodoxy_window_open_button"
+			position = { x = -76 y = -320 }
+			quadTextureSprite ="GFX_Orthodoxy_window_open"	
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+		}
+	}
+}

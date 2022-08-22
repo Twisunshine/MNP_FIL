@@ -1,0 +1,2671 @@
+shared_focus = {
+	id = EER_dealing_with_the_left_wing
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 9
+	y = 9
+
+	allow_branch = {has_country_flag = EER_third_stage}
+
+	completion_reward = {
+		country_event = EER_events_c.28
+	}
+}
+shared_focus = {
+	id = EER_continuation_of_the_war
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 24
+	y = 9
+
+	allow_branch = {has_country_flag = EER_third_stage}
+
+	completion_reward = {
+		add_war_support = 0.05
+	}
+}
+shared_focus = {
+	id = EER_establishing_the_same_staff
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 39
+	y = 1
+
+	allow_branch = {has_country_flag = EER_third_stage}
+
+	completion_reward = {
+		create_intelligence_agency = {
+			name = EER_staff_of_sameness 
+			icon = GFX_intelligence_agency_logo_agency 
+			#需要更换图标
+		}
+	}
+}
+shared_focus = {
+	id = EER_current_nation_building
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 45
+	y = 9
+
+	allow_branch = {has_country_flag = EER_third_stage}
+
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_attitude_towards_changelings
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 1
+
+	available = {
+    is_neighbor_of = CLK
+		has_war_with = CLK
+	}
+
+	allow_branch = {has_country_flag = EER_third_stage}
+
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_investigate_the_double_diamond_faction
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_dealing_with_the_left_wing
+	}
+	mutually_exclusive = {
+		focus = EER_avoid_making_the_problem_public
+	}
+	x = 5
+	y = 10
+
+	completion_reward = {
+		set_country_flag = EER_relationship_breakdown
+		subtract_from_variable = { EERD = 15 }
+		custom_effect_tooltip = EER_EERD_sub
+		set_country_flag = EER_starlight_intraparty_struggle
+		custom_effect_tooltip = EER_unlock_starlight_intraparty_struggle_decision
+	}
+}
+shared_focus = {
+	id = EER_limit_development
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_investigate_the_double_diamond_faction
+	}
+	x = 6
+	y = 11
+
+	completion_reward = {
+		add_political_power = -50
+		add_stability = 0.05
+		subtract_from_variable = { EERD = 5 }
+		custom_effect_tooltip = EER_EERD_sub
+	}
+}
+shared_focus = {
+	id = EER_arrest_on_pretext
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_limit_development
+	}
+	x = 7
+	y = 12
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = -0.05 }
+		add_popularity = { ideology = despotism popularity = 0.1 }
+		subtract_from_variable = { EERD = 5 }
+		custom_effect_tooltip = EER_EERD_sub
+	}
+}
+shared_focus = {
+	id = EER_monitor_double_diamond
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_arrest_on_pretext
+	}
+	x = 7
+	y = 13
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -50
+		}
+		add_stability = -0.05
+	}
+}
+shared_focus = {
+	id = EER_eliminate_from_the_flesh
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_monitor_double_diamond
+	}
+	x = 6
+	y = 14
+
+	completion_reward = {
+		add_manpower = -2000
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_avoid_making_the_problem_public
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_dealing_with_the_left_wing
+	}
+	mutually_exclusive = {
+		focus = EER_investigate_the_double_diamond_faction
+	}
+	x = 13
+	y = 10
+
+	completion_reward = {
+		add_stability = 0.05
+		add_to_variable = { EERD = 5 }
+		custom_effect_tooltip = EER_EERD_add
+	}
+}
+shared_focus = {
+	id = EER_emphasis_on_realistic_factors
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_avoid_making_the_problem_public
+	}
+	x = 12
+	y = 11
+
+	completion_reward = {
+		army_experience = 15
+	}
+}
+shared_focus = {
+	id = EER_just_a_misunderstanding
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_avoid_making_the_problem_public
+	}
+	x = 14
+	y = 11
+
+	completion_reward = {
+		add_political_power = -50
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id = EER_focus_on_weapons
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_continuation_of_the_war
+	}
+	x = 24
+	y = 10
+
+	completion_reward = {
+		add_ideas = EER_Army_of_Equality
+	}
+}
+shared_focus = {
+	id = EER_promotional_value
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_attitude_towards_changelings
+	}
+	mutually_exclusive = {
+		focus = EER_united_front_value
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 27
+	y = 2
+
+	completion_reward = {
+		add_stability = -0.05
+		add_war_support = 0.05
+		subtract_from_variable = { EERD = 15 }
+		custom_effect_tooltip = EER_EERD_sub
+	}
+}
+shared_focus = {
+	id = EER_war_correspondent
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_promotional_value
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 26
+	y = 3
+
+	completion_reward = {
+		country_event = EER_events_c.16
+	}
+}
+shared_focus = {
+	id = EER_vilifying_queen_chrysalis
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_war_correspondent
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 26
+	y = 4
+
+	completion_reward = {
+		add_war_support = 0.10
+	}
+}
+shared_focus = {
+	id = EER_emphasize_the_difference
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_promotional_value
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 28
+	y = 3
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = EER_pony_egalitarianism
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_emphasize_the_difference
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 28
+	y = 4
+
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+		add_popularity = { ideology = liberal_democracy popularity = -0.05 }
+		add_popularity = { ideology = communism popularity = -0.05 }
+	}
+}
+shared_focus = {
+	id = EER_the_vicious_invaders
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_pony_egalitarianism
+	}
+	prerequisite = {
+		focus = EER_vilifying_queen_chrysalis
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 27
+	y = 5
+
+	completion_reward = {
+		add_ideas = EER_anti_aggression_war
+	}
+}
+shared_focus = {
+	id = EER_identifying_magic
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_the_vicious_invaders
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 26
+	y = 6
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_anti_aggression_war
+			add_idea = EER_anti_aggression_war_1
+		}
+	}
+}
+shared_focus = {
+	id = EER_shoot_to_kill
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_the_vicious_invaders
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 28
+	y = 6
+
+	completion_reward = {
+		army_experience = 50
+	}
+}
+shared_focus = {
+	id = EER_guaranteed_quantity
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_focus_on_weapons
+	}
+	x = 27
+	y = 11
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_Army_of_Equality
+			add_idea = EER_Army_of_Equality_1
+		}
+	}
+}
+shared_focus = {
+	id = EER_flowline_factory
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_guaranteed_quantity
+	}
+	x = 28
+	y = 12
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 1.0
+			uses = 1
+			category = industry
+		}
+	}
+}
+shared_focus = {
+	id = EER_securing_mineral_resources
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_flowline_factory
+	}
+	x = 28
+	y = 13
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = excavation_bonus
+			bonus = 1.0
+			uses = 1
+			category = excavation_tech
+		}
+	}
+}
+shared_focus = {
+	id = EER_united_front_value
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_attitude_towards_changelings
+	}
+	mutually_exclusive = {
+		focus = EER_promotional_value
+	}
+	available = {
+		EER_Double_Diamond = {
+			is_political_advisor = yes
+		}
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 33
+	y = 2
+
+	completion_reward = {
+		add_stability = 0.05
+		add_war_support = -0.05
+		add_to_variable = { EERD = 15 }
+		custom_effect_tooltip = EER_EERD_add
+	}
+}
+shared_focus = {
+	id = EER_contact_thorax
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_united_front_value
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 33
+	y = 3
+
+	completion_reward = {
+		CLK = {
+			add_to_variable = { clk_thorax_rebellion = 5 }
+			add_to_variable = { CLK_Thorax_rebellion_stability_factor = 0.015 }
+			add_to_variable = { CLK_Thorax_rebellion_war_support_factor = 0.015 }
+			subtract_from_variable = { CLK_Thorax_rebellion_political_power_cost = 0.025 }
+			add_to_variable = { CLK_Thorax_rebellion_monthly_population = 0.010 }
+			add_to_variable = { CLK_Thorax_rebellion_compliance_growth = 0.000075 }
+			subtract_from_variable = { CLK_Thorax_rebellion_resistance_target = 0.020 }
+			subtract_from_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.025 }
+		}
+		custom_effect_tooltip = CLK_rebellion_add
+	}
+}
+shared_focus = {
+	id = EER_kind_changelings
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_contact_thorax
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 33
+	y = 4
+
+	completion_reward = {
+		country_event = EER_events_c.17
+	}
+}
+shared_focus = {
+	id = EER_schedule_a_meeting
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_kind_changelings
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 33
+	y = 5
+
+	completion_reward = {
+		country_event = EER_events_c.18
+	}
+}
+shared_focus = {
+	id = EER_recognition_of_thorax_regime
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_schedule_a_meeting
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 32
+	y = 6
+
+	completion_reward = {
+		set_country_flag = EER_operations_in_enemy_countries
+		custom_effect_tooltip = EER_operations_in_enemy_countries_decision
+	}
+}
+shared_focus = {
+	id = EER_let_nature_take_its_course
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_schedule_a_meeting
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 34
+	y = 6
+
+	completion_reward = {
+		add_political_power = 75
+		country_event = EER_events_c.23
+	}
+}
+shared_focus = {
+	id = EER_peace_is_our_mission
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_recognition_of_thorax_regime
+		focus = EER_let_nature_take_its_course
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 33
+	y = 7
+
+	completion_reward = {
+		CLK = {
+			add_war_support = -0.15
+		}
+	}
+}
+shared_focus = {
+	id = EER_cosmopolitan_egalitarianism
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_peace_is_our_mission
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 33
+	y = 8
+
+	completion_reward = {
+		add_manpower = 5000
+	}
+}
+shared_focus = {
+	id = EER_economic_field
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_current_nation_building
+	}
+	x = 38
+	y = 10
+
+	completion_reward = {
+		add_ideas = EER_equestrian_equalist_republic_economic_plan
+	}
+}
+shared_focus = {
+	id = EER_stimulate_the_market
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_economic_field
+	}
+	x = 34
+	y = 11
+
+	completion_reward = {
+		country_event = EER_events_c.1
+	}
+}
+shared_focus = {
+	id = EER_development_of_state_enterprises
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_stimulate_the_market
+	}
+	x = 34
+	y = 12
+
+	completion_reward = {
+		add_stability = 0.05
+		country_event = EER_events_c.4
+	}
+}
+shared_focus = {
+	id = EER_large_national_projects
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_development_of_state_enterprises
+	}
+	x = 34
+	y = 13
+
+	completion_reward = {
+		304 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EER_lower_interest_rates
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_stimulate_the_market
+	}
+	x = 36
+	y = 12
+
+	completion_reward = {
+		country_event = EER_events_c.5
+	}
+}
+shared_focus = {
+	id = EER_raising_wages
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_lower_interest_rates
+	}
+	x = 36
+	y = 13
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_equestrian_equalist_republic_economic_plan
+			add_idea = EER_equestrian_equalist_republic_economic_plan_1
+		}
+	}
+}
+shared_focus = {
+	id = EER_know_the_enemy_and_know_oneself
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_establishing_the_same_staff
+	}
+	x = 39
+	y = 2
+	
+	completion_reward = {
+		country_event = EER_events_c.26
+		remove_ideas = idea_EER_Party_Favor
+		add_ideas = idea_EER_Feather_Bangs
+	}
+	
+}
+shared_focus = {
+	id = EER_necessary_evil
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_know_the_enemy_and_know_oneself
+	}
+	x = 37
+	y = 3
+	
+	completion_reward = {
+		add_stability = -0.05
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = EER_protecting_our_intelligence
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_know_the_enemy_and_know_oneself
+	}
+	x = 39
+	y = 3
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = secret_bonus
+			bonus = 1
+			uses = 1
+			category = electronics
+		}
+	}
+}
+shared_focus = {
+	id = EER_defensive_attacks
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_know_the_enemy_and_know_oneself
+	}
+	x = 41
+	y = 3
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_staff_of_sameness
+			add_idea = EER_staff_of_sameness_1
+		}
+	}
+}
+shared_focus = {
+	id = EER_reliable_and_trustworthy
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_necessary_evil
+	}
+	prerequisite = {
+		focus = EER_protecting_our_intelligence
+	}
+	prerequisite = {
+		focus = EER_defensive_attacks
+	}
+	x = 39
+	y = 4
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_staff_of_sameness_1
+			add_idea = EER_staff_of_sameness_2
+		}
+	}
+}
+shared_focus = {
+	id = EER_not_just_intelligence_agency
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_reliable_and_trustworthy
+	}
+	x = 39
+	y = 5
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = police_bonus
+			bonus = 1
+			uses = 1
+			category = military_police_tech
+		}
+	}
+}
+shared_focus = {
+	id = EER_political_vetting
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_not_just_intelligence_agency
+	}
+	x = 39
+	y = 6
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_staff_of_sameness_2
+			add_idea = EER_staff_of_sameness_3
+		}
+	}
+}
+shared_focus = {
+	id = EER_absolutely_reliable
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_political_vetting
+	}
+	x = 39
+	y = 7
+	
+	completion_reward = {
+		country_event = EER_events_c.27
+	}
+}
+shared_focus = {
+	id = EER_the_leaders_most_loyal_warriors
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_absolutely_reliable
+	}
+	x = 39
+	y = 8
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_staff_of_sameness_3
+			add_idea = EER_staff_of_sameness_4
+		}
+	}
+}
+shared_focus = {
+	id = EER_enhancing_trade
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_economic_field
+	}
+	x = 42
+	y = 11
+
+	completion_reward = {
+		set_country_flag = EER_northern_trading_route
+		set_variable = { EER_safety_values = 0 }
+		custom_effect_tooltip = EER_unlock_northern_trade_decision
+	}
+}
+shared_focus = {
+	id = EER_open_the_northern_trade_network
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_enhancing_trade
+	}
+	x = 40
+	y = 12
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -200
+		}
+		EER = { add_to_variable = { EER_safety_values = 20 } }
+		custom_effect_tooltip = EER_add_safety_values_tip
+	}
+}
+shared_focus = {
+	id = EER_ideological_cousins
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_open_the_northern_trade_network
+	}
+	x = 40
+	y = 13
+
+	completion_reward = {
+		country_event = EER_events_c.6
+	}
+}
+shared_focus = {
+	id = EER_expansion_of_equality_bay_port
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_enhancing_trade
+	}
+	x = 42
+	y = 12
+
+	completion_reward = {
+		258 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EER_specially_approved_production_sequence
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_expansion_of_equality_bay_port
+	}
+	x = 42
+	y = 13
+
+	completion_reward = {
+		add_political_power = -100
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = 20
+		}
+	}
+}
+shared_focus = {
+	id = EER_trade_with_griffins
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_ideological_cousins
+	}
+	prerequisite = {
+		focus = EER_specially_approved_production_sequence
+	}
+	x = 41
+	y = 14
+
+	completion_reward = {
+		add_opinion_modifier = {
+			target = SRG
+			modifier = EER_trading_with_SRG
+		}
+		SRG = {
+			add_opinion_modifier = {
+				target = EER
+				modifier = SRG_trading_with_EER
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EER_promoting_commodity_production
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_enhancing_trade
+	}
+	x = 44
+	y = 12
+
+	completion_reward = {
+		add_political_power = -50
+	}
+}
+shared_focus = {
+	id = EER_attracting_foreign_investment
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_promoting_commodity_production
+	}
+	x = 44
+	y = 13
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = -50
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1000
+		}
+	}
+}
+shared_focus = {
+	id = EER_made_in_our_land
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_attracting_foreign_investment
+	}
+	x = 44
+	y = 14
+
+	completion_reward = {
+		add_ideas = Specialized_chemical_factory
+	}
+}
+shared_focus = {
+	id = EER_fields_of_thought
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_current_nation_building
+	}
+	x = 52
+	y = 10
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = EER_democracy_commitment
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_fields_of_thought
+	}
+	x = 47
+	y = 11
+
+	completion_reward = {
+		country_event = EER_events_c.8
+	}
+}
+shared_focus = {
+	id = EER_we_bring_equality
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_democracy_commitment
+	}
+	x = 47
+	y = 12
+
+	completion_reward = {
+		country_event = EER_events_c.9
+	}
+}
+shared_focus = {
+	id = EER_civilian_authorization_of_military_power
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_we_bring_equality
+	}
+	x = 47
+	y = 13
+
+	completion_reward = {
+		country_event = EER_events_c.10
+	}
+}
+shared_focus = {
+	id = EER_get_back_what_we_deserve
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_civilian_authorization_of_military_power
+	}
+	x = 47
+	y = 14
+
+	completion_reward = {
+		country_event = EER_events_c.11
+	}
+}
+shared_focus = {
+	id = EER_impact_on_the_field_of_education
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_fields_of_thought
+	}
+	x = 50
+	y = 11
+
+	completion_reward = {
+		set_country_flag = EER_development_of_education_in_EER
+		set_variable = { EER_scientific_values = 0 }
+		custom_effect_tooltip = EER_development_of_education_in_EER_decision
+	}
+}
+shared_focus = {
+	id = EER_establishing_the_ministry_of_education
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_impact_on_the_field_of_education
+	}
+	x = 50
+	y = 12
+
+	completion_reward = {
+		add_to_variable = { EER_scientific_values = 10 }
+		custom_effect_tooltip = EER_add_scientific_values_10
+	}
+}
+shared_focus = {
+	id = EER_specially_allocated_education_funds
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_establishing_the_ministry_of_education
+	}
+	x = 50
+	y = 13
+
+	completion_reward = {
+		add_to_variable = { EER_scientific_values = 10 }
+		custom_effect_tooltip = EER_add_scientific_values_10
+	}
+}
+shared_focus = {
+	id = EER_egalitarian_education
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_specially_allocated_education_funds
+	}
+	x = 50
+	y = 14
+
+	completion_reward = {
+		country_event = EER_events_c.12
+	}
+}
+shared_focus = {
+	id = EER_criticize_the_existing_system
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_fields_of_thought
+	}
+	x = 55
+	y = 11
+
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+		add_war_support = 0.05
+	}
+}
+shared_focus = {
+	id = EER_a_lesson_from_the_past
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_criticize_the_existing_system
+	}
+	x = 55
+	y = 12
+
+	completion_reward = {
+		country_event = EER_events_c.13
+	}
+}
+shared_focus = {
+	id = EER_tools_of_the_tyrant
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_a_lesson_from_the_past
+	}
+	x = 53
+	y = 13
+
+	completion_reward = {
+		add_political_power = 100
+			EOM = {
+			EOM = { add_to_variable = { EOM_Orthodoxy = -1 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+		custom_effect_tooltip = EOM_orthodoxy_sub_1
+	}
+}
+shared_focus = {
+	id = EER_the_ravings_of_the_invaders
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_a_lesson_from_the_past
+	}
+	x = 55
+	y = 13
+
+	completion_reward = {
+		add_political_power = 75
+		add_war_support = 0.05
+		CLK = {
+			add_stability = -0.10
+		}
+	}
+}
+shared_focus = {
+	id = EER_aristocrats_shield
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_a_lesson_from_the_past
+	}
+	x = 57
+	y = 13
+
+	completion_reward = {
+		add_political_power = 75
+			EQU = {
+			EQU = { add_to_variable = { EQU_Orthodoxy = -2 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_stability_factor = -0.016 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.016 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.016 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.006 } }
+    		force_update_dynamic_modifier = yes
+			}
+		custom_effect_tooltip = EQU_orthodoxy_sub_1
+	}
+}
+shared_focus = {
+	id = EER_anti_monarchy_propaganda
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_tools_of_the_tyrant
+	}
+	prerequisite = {
+		focus = EER_the_ravings_of_the_invaders
+	}
+	prerequisite = {
+		focus = EER_aristocrats_shield
+	}
+	x = 55
+	y = 14
+
+	completion_reward = {
+		EOM = {
+			add_popularity = { ideology = social_democracy popularity = 0.10 }
+		}
+		EQU = {
+			add_popularity = { ideology = social_democracy popularity = 0.10 }
+		}
+		CLK = {
+			add_popularity = { ideology = social_democracy popularity = 0.10 }
+		}
+	}
+}
+shared_focus = {
+	id = EER_pro_egalitarian_propaganda
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_anti_monarchy_propaganda
+	}
+	prerequisite = {
+		focus = EER_egalitarian_education
+	}
+	prerequisite = {
+		focus = EER_get_back_what_we_deserve
+	}
+	x = 52
+	y = 15
+
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.10 }
+		add_popularity = { ideology = dictatorshipism popularity = 0.10 }
+	}
+}
+shared_focus = {
+	id = EER_emphasis_on_democratic_thinking
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_pro_egalitarian_propaganda
+	}
+	mutually_exclusive = {
+		focus = EER_focus_on_progressive_ideas
+	}
+	x = 50
+	y = 16
+
+	completion_reward = {
+		subtract_from_variable = { EERD = 10 }
+		custom_effect_tooltip = EER_EERD_sub
+	}
+}
+shared_focus = {
+	id = EER_focus_on_progressive_ideas
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_pro_egalitarian_propaganda
+	}
+	mutually_exclusive = {
+		focus = EER_emphasis_on_democratic_thinking
+	}
+	available = {
+		EER_Double_Diamond = {
+			is_political_advisor = yes
+		}
+	}
+	x = 54
+	y = 16
+
+	completion_reward = {
+		add_to_variable = { EERD = 10 }
+		custom_effect_tooltip = EER_EERD_add
+	}
+}
+shared_focus = {
+	id = EER_statistical_list
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_investigate_the_double_diamond_faction
+	}
+	x = 4
+	y = 11
+
+	completion_reward = {
+		country_event = EER_events_c.29
+	}
+}
+shared_focus = {
+	id = EER_survey_report
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_statistical_list
+	}
+	x = 3
+	y = 12
+	
+	completion_reward = {
+		country_event = EER_events_c.30
+	}
+}
+shared_focus = {
+	id = EER_public_criticism
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_survey_report
+	}
+	x = 3
+	y = 13
+	
+	completion_reward = {
+		country_event = EER_events_c.31
+		remove_ideas = idea_EER_Double_Diamond
+		add_ideas = idea_EER_Trixie_Lulamoon
+		remove_unit_leader = 114
+	}
+}
+shared_focus = {
+	id = EER_dismantling_from_the_mind
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_public_criticism
+	}
+	x = 4
+	y = 14
+	
+	completion_reward = {
+		add_stability = -0.05
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_void_of_promise
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_dismantling_from_the_mind
+	}
+	prerequisite = {
+		focus = EER_eliminate_from_the_flesh
+	}
+	x = 5
+	y = 15
+	
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+	}
+}
+shared_focus = {
+	id = EER_we_keep_our_promises
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_void_of_promise
+	}
+	x = 4
+	y = 16
+	
+	completion_reward = {
+		257 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EER_fabrication_of_left_wing_rumors
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_we_keep_our_promises
+	}
+	x = 4
+	y = 17
+	
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = -0.05 }
+	}
+}
+shared_focus = {
+	id = EER_develop_a_plan
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_void_of_promise
+	}
+	x = 6
+	y = 16
+	
+	completion_reward = {
+		add_command_power = -50
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_operation_pink
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_develop_a_plan
+	}
+	x = 6
+	y = 17
+	
+	completion_reward = {
+		country_event = EER_events_c.32
+	}
+}
+shared_focus = {
+	id = EER_how_now
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_fabrication_of_left_wing_rumors
+	}
+	prerequisite = {
+		focus = EER_operation_pink
+	}
+	x = 5
+	y = 18
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = chaos
+			add_idea = Flaws_do_not_hide_beauty
+		}
+		remove_ideas = EER_partisan_divisions
+		country_event = EER_events_c.36
+	}
+}
+shared_focus = {
+	id = EER_unfinished_promises
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_emphasis_on_realistic_factors
+	}
+	prerequisite = {
+		focus = EER_just_a_misunderstanding
+	}
+	x = 13
+	y = 12
+	
+	completion_reward = {
+		add_political_power = 75
+		add_popularity = { ideology = social_democracy popularity = -0.05 }
+	}
+}
+shared_focus = {
+	id = EER_double_diamond_has_changed
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_unfinished_promises
+	}
+	mutually_exclusive = {
+		focus = EER_he_remains_loyal
+	}
+	x = 11
+	y = 13
+	
+	completion_reward = {
+		set_country_flag = EER_Starlight_Intraparty_struggle
+		custom_effect_tooltip = EER_unlock_starlight_intraparty_struggle_decision
+	}
+}
+shared_focus = {
+	id = EER_against_radicalism
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_double_diamond_has_changed
+	}
+	x = 10
+	y = 14
+		
+	completion_reward = {
+		add_popularity = { ideology = communism popularity = -0.05 }
+	}
+}
+shared_focus = {
+	id = EER_too_far_is_as_bad_as_not_enough
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_against_radicalism
+	}
+	x = 10
+	y = 15
+	
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+	}
+}
+shared_focus = {
+	id = EER_talk_to_double_diamond
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_double_diamond_has_changed
+	}
+	x = 12
+	y = 14
+	
+	completion_reward = {
+		country_event = EER_events_c.33
+	}
+}
+shared_focus = {
+	id = EER_its_no_use_crying_over_spilt_milk
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_talk_to_double_diamond
+	}
+	x = 12
+	y = 15
+	
+	completion_reward = {
+		add_political_power = 75
+		add_popularity = { ideology = socialism popularity = -0.05 }
+	}
+}
+shared_focus = {
+	id = EER_emphasis_on_leadership_principles
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_too_far_is_as_bad_as_not_enough
+	}
+	prerequisite = {
+		focus = EER_its_no_use_crying_over_spilt_milk
+	}
+	x = 11
+	y = 16
+	
+	completion_reward = {
+		country_event = EER_events_c.34
+		subtract_from_variable = { EERD = 5 }
+		custom_effect_tooltip = EER_EERD_sub
+	}
+}
+shared_focus = {
+	id = EER_memories_of_the_past
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_emphasis_on_leadership_principles
+	}
+	x = 11
+	y = 17
+	
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_internal_party_matter
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_memories_of_the_past
+	}
+	x = 11
+	y = 18
+	
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_intra_party_solutions
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_internal_party_matter
+	}
+	x = 11
+	y = 19
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = chaos
+			add_idea = Flaws_do_not_hide_beauty
+		}
+		remove_ideas = EER_partisan_divisions
+	}
+}
+shared_focus = {
+	id = EER_he_remains_loyal
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_unfinished_promises
+	}
+	mutually_exclusive = {
+		focus = EER_double_diamond_has_changed
+	}
+	x = 15
+	y = 13
+	
+	completion_reward = {
+		set_country_flag = EER_double_diamond_intraparty_struggle
+		custom_effect_tooltip = EER_unlock_double_diamond_intraparty_struggle_decision
+	}
+	
+}
+shared_focus = {
+	id = EER_acceptance_of_opinions
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_he_remains_loyal
+	}
+	x = 15
+	y = 14
+	
+	completion_reward = {
+		add_to_variable = { EERD = 5 }
+		custom_effect_tooltip = EER_EERD_add
+	}
+}
+shared_focus = {
+	id = EER_solving_problems
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_acceptance_of_opinions
+	}
+	x = 15
+	y = 15
+	
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_gentle_left
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_solving_problems
+	}
+	x = 15
+	y = 16
+	
+	completion_reward = {
+		add_popularity = { ideology = communism popularity = -0.05 }
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+	}
+}
+shared_focus = {
+	id = EER_holding_hooves_with_double_diamonds
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_gentle_left
+	}
+	x = 14
+	y = 17
+	
+	completion_reward = {
+		country_event = EER_events_c.35
+		add_to_variable = { EERD = 5 }
+		custom_effect_tooltip = EER_EERD_add
+	}
+}
+shared_focus = {
+	id = EER_we_have_no_differences
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_holding_hooves_with_double_diamonds
+	}
+	x = 14
+	y = 18
+	
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id = EER_criticism_of_factional_fighting
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_gentle_left
+	}
+	x = 16
+	y = 17
+	
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = -0.05 }
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+	}
+}
+shared_focus = {
+	id = EER_we_share_the_same_goal
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_criticism_of_factional_fighting
+	}
+	x = 16
+	y = 18
+	
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = EER_unity_above_all
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_we_have_no_differences
+	}
+	prerequisite = {
+		focus = EER_we_share_the_same_goal
+	}
+	x = 15
+	y = 19
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = chaos
+			add_idea = Flaws_do_not_hide_beauty
+		}
+		remove_ideas = EER_partisan_divisions
+	}
+}
+shared_focus = {
+	id = EER_quality_assurance
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_focus_on_weapons
+	}
+	x = 21
+	y = 11
+	
+	completion_reward = {
+		army_experience = 25
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+}
+shared_focus = {
+	id = EER_targeted_research
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_quality_assurance
+	}
+	x = 21
+	y = 12
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 1.0
+			uses = 1
+			category = infantry_weapons
+		}
+	}
+}
+shared_focus = {
+	id = EER_focus_on_artillery
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_targeted_research
+	}
+	x = 19
+	y = 13
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = artillery_bonus
+			bonus = 1.0
+			uses = 1
+			category = artillery
+		}
+	}
+}
+shared_focus = {
+	id = EER_focus_on_non-combat_sequences
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_targeted_research
+	}
+	x = 21
+	y = 13
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = support_bonus
+			bonus = 0.5
+			uses = 2
+			category = support_tech
+		}
+	}
+}
+shared_focus = {
+	id = EER_iron_box_project
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_targeted_research
+	}
+	x = 23
+	y = 13
+	
+	completion_reward = {
+		country_event = EER_events_c.37
+	}
+}
+shared_focus = {
+	id = EER_mass_production
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_guaranteed_quantity
+	}
+	x = 26
+	y = 12
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_Army_of_Equality_1
+			add_idea = EER_Army_of_Equality_2
+		}
+	}
+}
+shared_focus = {
+	id = EER_reconstruction_of_transport_lines
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_mass_production
+	}
+	x = 26
+	y = 13
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_Army_of_Equality_2
+			add_idea = EER_Army_of_Equality_3
+		}
+	}
+}
+shared_focus = {
+	id = EER_advanced_army
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_iron_box_project
+	}
+	prerequisite = {
+		focus = EER_focus_on_non-combat_sequences
+	}
+	prerequisite = {
+		focus = EER_focus_on_artillery
+	}
+	prerequisite = {
+		focus = EER_reconstruction_of_transport_lines
+	}
+	prerequisite = {
+		focus = EER_securing_mineral_resources
+	}
+	x = 24
+	y = 14
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = straggler
+			add_idea = quite_satisfactory
+		}
+	}
+}
+shared_focus = {
+	id = EER_take_military_action
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_advanced_army
+	}
+	x = 24
+	y = 15
+	
+	completion_reward = {
+		army_experience = 50
+	}
+}
+shared_focus = {
+	id = EER_abolition_action
+	icon = GFX_goal_unknown
+	cost = 8
+	prerequisite = {
+		focus = EER_take_military_action
+	}
+	available = {
+		is_neighbor_of = EQU
+		has_war_with = EQU
+	}
+	bypass = {
+		NOT = {
+			country_exists = EQU
+		}
+	}
+	x = 21
+	y = 16
+	
+	completion_reward = {
+		add_ideas = EER_abolition_action
+	}
+}
+shared_focus = {
+	id = EER_no_more_nobility
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_abolition_action
+	}
+	available = {
+		NOT = {
+			country_exists = EQU
+		}
+	}
+	x = 21
+	y = 17
+	
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = EER_operation_scissors
+	icon = GFX_goal_unknown
+	cost = 8
+	prerequisite = {
+		focus = EER_take_military_action
+	}
+	available = {
+		is_neighbor_of = CRY
+		has_war_with = CRY
+	}
+	bypass = {
+		NOT = {
+			country_exists = CRY
+		}
+	}
+	x = 23
+	y = 16
+	
+	completion_reward = {
+		add_ideas = EER_operation_scissors
+	}
+}
+shared_focus = {
+	id = EER_no_more_audience
+	icon = GFX_goal_unknown
+	cost = 20
+	prerequisite = {
+		focus = EER_operation_scissors
+	}
+	available = {
+		NOT = {
+			country_exists = CRY
+		}
+	}
+	x = 23
+	y = 17
+	
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = EER_operation_sunshine
+	icon = GFX_goal_unknown
+	cost = 8
+	prerequisite = {
+		focus = EER_take_military_action
+	}
+	available = {
+		is_neighbor_of = EOM
+		has_war_with = EOM
+	}
+	bypass = {
+		NOT = {
+			country_exists = EOM
+		}
+	}
+	x = 25
+	y = 16
+	
+	completion_reward = {
+		add_ideas = EER_operation_sunshine
+	}
+}
+shared_focus = {
+	id = EER_no_more_princesses
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_operation_sunshine
+	}
+	available = {
+		NOT = {
+			country_exists = EOM
+		}
+	}
+	x = 25
+	y = 17
+	
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = EER_operation_pest_removal
+	icon = GFX_goal_unknown
+	cost = 8
+	prerequisite = {
+		focus = EER_take_military_action
+	}
+	available = {
+		is_neighbor_of = CLK
+		has_war_with = CLK
+	}
+	bypass = {
+		NOT = {
+			country_exists = CLK
+		}
+	}
+	x = 27
+	y = 16
+	
+	completion_reward = {
+		add_ideas = EER_operation_pest_removal
+	}
+}
+shared_focus = {
+	id = EER_no_more_pests
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_operation_pest_removal
+	}
+	available = {
+		NOT = {
+			has_war_with = CLK
+		}
+	}
+	x = 27
+	y = 17
+	
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = EER_towards_victory
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_no_more_audience
+		focus = EER_no_more_nobility
+		focus = EER_no_more_princesses
+		focus = EER_no_more_pests
+	}
+	x = 24
+	y = 18
+	
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = EER_Equestria_has_been_unified
+			has_country_flag = EER_Equestrian
+		}
+	}
+
+	completion_reward = {
+		if = {
+			limit = {
+				check_variable = {
+					var = EERD
+					value = 50
+					compare = less_than_or_equals
+				}
+			}
+			country_event = EER_events_c.38
+			hidden_effect={
+				country_event = {  id = fil_superevents.2 }
+				load_focus_tree = EER_Starlight_First
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = {
+						var = EERD
+						value = 50
+						compare = greater_than
+					}
+					NOT = {
+						has_country_flag = EER_relationship_breakdown
+					}
+				}	
+			}
+			country_event = EER_events_c.39
+		}
+		else = {
+			country_event = EER_events_c.40
+		}
+
+		clr_country_flag = EER_starlight_intraparty_struggle
+		clr_country_flag = EER_double_diamond_intraparty_struggle
+		clr_country_flag = EER_relationship_breakdown
+		clr_country_flag = EER_northern_trading_route
+		clr_country_flag = EER_its_safe
+		clear_variable = EERD
+		clear_variable = EER_safety_values
+		
+		custom_effect_tooltip = EER_decide_the_future
+	}
+}
+shared_focus = {
+	id = EER_raising_loan_thresholds
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_stimulate_the_market
+	}
+	x = 32
+	y = 12
+
+	completion_reward = {
+		add_political_power = 75
+		country_event = EER_events_c.2
+	}
+}
+shared_focus = {
+	id = EER_encourage_large_enterprises
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_raising_loan_thresholds
+	}
+	x = 32
+	y = 13
+
+	completion_reward = {
+		country_event = EER_events_c.3
+	}
+}
+shared_focus = {
+	id = EER_the_unprecedented_economic_takeoff
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_encourage_large_enterprises
+	}
+	prerequisite = {
+		focus = EER_large_national_projects
+	}
+	prerequisite = {
+		focus = EER_raising_wages
+	}
+	x = 34
+	y = 14
+
+	completion_reward = {
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id = EER_economic_plan
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_the_unprecedented_economic_takeoff
+	}
+	prerequisite = {
+		focus = EER_trade_with_griffins
+	}
+	prerequisite = {
+		focus = EER_made_in_our_land
+	}
+	x = 38
+	y = 15
+
+	completion_reward = {
+		add_political_power = -50
+		304 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		country_event = EER_events_c.7
+	}
+}
+shared_focus = {
+	id = EER_coco_pommels_plan
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_economic_plan
+	}
+	mutually_exclusive = {
+		focus = EER_twisunshines_plan
+	}
+	available = {
+		EER_Coco_Pommel = {
+			is_political_advisor = yes
+		}
+	}
+	x = 36
+	y = 16
+
+	completion_reward = {
+		subtract_from_variable = { EERD = 10 }
+		custom_effect_tooltip = EER_EERD_sub
+		remove_ideas = EER_equestrian_equalist_republic_economic_plan_1
+		add_ideas = EER_coco_pommels_plan
+	}
+}
+shared_focus = {
+	id = EER_free_economy
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_coco_pommels_plan
+	}
+	x = 34
+	y = 17
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_coco_pommels_plan
+			add_idea = EER_coco_pommels_plan_1
+		}
+	}
+}
+shared_focus = {
+	id = EER_stimulate_consumption
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_free_economy
+	}
+	x = 34
+	y = 18
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_coco_pommels_plan_1
+			add_idea = EER_coco_pommels_plan_2
+		}
+	}
+}
+shared_focus = {
+	id = EER_rob_the_rich_to_help_the_poor
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_stimulate_consumption
+	}
+	x = 34
+	y = 19
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_coco_pommels_plan_2
+			add_idea = EER_coco_pommels_plan_3
+		}
+	}
+}
+shared_focus = {
+	id = EER_leadership_guidance
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_coco_pommels_plan
+		focus = EER_twisunshines_plan
+	}
+	x = 38
+	y = 17
+
+	completion_reward = {
+		304 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EER_integrated_plan
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_leadership_guidance
+	}
+	x = 37
+	y = 18
+
+	completion_reward = {
+		add_political_power = -50
+		236 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EER_working_for_the_country
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_leadership_guidance
+	}
+	x = 39
+	y = 18
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+		}
+	}
+}
+shared_focus = {
+	id = EER_put_in_the_birdcage
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_integrated_plan
+	}
+	prerequisite = {
+		focus = EER_working_for_the_country
+	}
+	x = 38
+	y = 19
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 1
+			category = industry
+		}
+	}
+}
+shared_focus = {
+	id = EER_twisunshines_plan
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_economic_plan
+	}
+	mutually_exclusive = {
+		focus = EER_coco_pommels_plan
+	}
+	available = {
+		EER_Twisunshine_Intelligent = {
+			is_political_advisor = yes
+		}
+	}
+	x = 40
+	y = 16
+
+	completion_reward = {
+		add_to_variable = { EERD = 10 }
+		custom_effect_tooltip = EER_EERD_add
+		remove_ideas = EER_equestrian_equalist_republic_economic_plan_1
+		add_ideas = EER_twisunshines_plan
+	}
+}
+shared_focus = {
+	id = EER_state_owned_enterprises_lead
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_twisunshines_plan
+	}
+	x = 42
+	y = 17
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_twisunshines_plan
+			add_idea = EER_twisunshines_plan_1
+		}
+	}
+}
+shared_focus = {
+	id = EER_dynamic_equality
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_state_owned_enterprises_lead
+	}
+	x = 42
+	y = 18
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_twisunshines_plan_1
+			add_idea = EER_twisunshines_plan_2
+		}
+	}
+}
+shared_focus = {
+	id = EER_antitrust_policy
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_dynamic_equality
+	}
+	x = 42
+	y = 19
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_twisunshines_plan_2
+			add_idea = EER_twisunshines_plan_3
+		}
+	}
+}
+shared_focus = {
+	id = EER_equal_opportunity
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_rob_the_rich_to_help_the_poor
+	}
+	prerequisite = {
+		focus = EER_put_in_the_birdcage
+	}
+	x = 36
+	y = 20
+
+	completion_reward = {
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = EER_equal_results
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_antitrust_policy
+	}
+	prerequisite = {
+		focus = EER_put_in_the_birdcage
+	}
+	x = 40
+	y = 20
+
+	completion_reward = {
+		add_stability = 0.10
+	}
+}
+shared_focus = {
+	id = EER_social_equality
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_emphasis_on_democratic_thinking
+	}
+	x = 50
+	y = 17
+
+	completion_reward = {
+		add_popularity = { ideology = social_democracy popularity = 0.05 }
+		country_event = EER_events_c.14
+	}
+}
+shared_focus = {
+	id = EER_embrace_the_red
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_focus_on_progressive_ideas
+	}
+	x = 54
+	y = 17
+
+	completion_reward = {
+		add_popularity = { ideology = socialism popularity = 0.05 }
+		add_popularity = { ideology = communism popularity = 0.05 }
+		country_event = EER_events_c.15
+	}
+}
+shared_focus = {
+	id = EER_targeted_training
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_shoot_to_kill
+	}
+	prerequisite = {
+		focus = EER_identifying_magic
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 27
+	y = 7
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_anti_aggression_war_1
+			add_idea = EER_anti_aggression_war_2
+		}
+	}
+}
+shared_focus = {
+	id = EER_taking_back_our_land
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = EER_targeted_training
+	}
+
+	available = {
+	  is_neighbor_of = CLK
+	  has_war_with = CLK
+	}
+
+	x = 27
+	y = 8
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EER_anti_aggression_war_2
+			add_idea = EER_anti_aggression_war_3
+		}
+	}
+}

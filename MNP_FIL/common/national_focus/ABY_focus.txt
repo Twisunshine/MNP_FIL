@@ -1471,6 +1471,81 @@ focus_tree = {
 		prerequisite = {
 			focus = ABY_Newly_emerging_cities
 		}
+		available = {
+			OR = {
+				SHI = {
+					exists = no
+				}
+				SHI = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				CNN = {
+					exists = no
+				}
+				CNN = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				ORN = {
+					exists = no
+				}
+				ORN = {
+					is_puppet_of = ABY
+				}
+			}
+			
+			OR = {
+				KEL = {
+					exists = no
+				}
+				KEL = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				HAL = {
+					exists = no
+				}
+				HAL = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				KOT = {
+					exists = no
+				}
+				KOT = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				KIR = {
+					exists = no
+				}
+				KIR = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				DRA = {
+					exists = no
+				}
+				DRA = {
+					is_puppet_of = ABY
+				}
+			}
+			OR = {
+				SER = {
+					exists = no
+				}
+				SER = {
+					is_puppet_of = ABY
+				}
+			}
+		}
 		x = 7
 		y = 19
 		ai_will_do = {

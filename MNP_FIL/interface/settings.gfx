@@ -10,7 +10,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/button_123x34_new.dds"
 		noOfFrames = 3
 	}
-
+	
+	spriteType = {
+		name = "GFX_button_261x34_new"
+		texturefile = "gfx/interface/button_261x34_new.dds"
+		noOfFrames = 2
+	}
+	
 	spriteType = {
 		name = "yearslider_leftbutton"
 		texturefile = "gfx//interface//scrollbar_leftbutton.tga"

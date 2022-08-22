@@ -52,13 +52,13 @@ EQU_Orthodoxy = {
 				var = EQU_Orthodoxy
 				value = 75
 			}
-			add_to_variable = { EQU_Orthodoxy_stability_factor = 0.2 }
-			add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.2 }
-			add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.1 }
-			add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.1 }
-			add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.2 }
-			add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.1 }
-			add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.075 }
+			set_variable = { EQU_Orthodoxy_stability_factor = 0.2 }
+			set_variable = { EQU_Orthodoxy_war_support_factor  = 0.2 }
+			set_variable = { EQU_Orthodoxy_political_power_factor = 0.1 }
+			set_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.1 }
+			set_variable = { EQU_Orthodoxy_conscription_factor = 0.2 }
+			set_variable = { EQU_Orthodoxy_army_attack_factor = 0.1 }
+			set_variable = { EQU_Orthodoxy_army_morale_factor = 0.075 }
             set_country_flag = EQU_Orthodoxy_unlocked
         }
     }

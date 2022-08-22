@@ -1,14 +1,8 @@
 scripted_gui = {	
-	
-	#####################################
-	#				1.0.0				#
-	#####################################
-	
-	## Great War ##
-	
-	FIL_custom_super_event_eer_war = {
+	## 马国内战 ##
+	FIL_super_event_eer_war = {
 		context_type = player_context
-		window_name = "FIL_super_event"
+		window_name = "FIL_eee_war"
 
 		visible = {
 			has_global_flag = fil_super_event_flag_eee_war
@@ -20,8 +14,9 @@ scripted_gui = {
 			}
 		}
 	}
-
-	FIL_custom_super_event_starlight_eqs = {
+	
+	## 星光线统一 ##
+	FIL_super_event_starlight_eqs = {
 		context_type = player_context
 		window_name = "FIL_starlight_eqs_super_event"
 
@@ -36,12 +31,8 @@ scripted_gui = {
 		}
 	}
 	
-	## Great War - Equestrian Victory ##
-	
-	
-	## ABY_King
-	
-	FIL_custom_super_event_Meowmeow_King = {
+	## 喵喵王统一南大陆 ##
+	FIL_super_event_Meowmeow_King = {
 		context_type = player_context
 		window_name = "FIL_Meowmeow_King_super_event"
 
@@ -56,4 +47,19 @@ scripted_gui = {
 		}
 	}
 	
+	## 平等的永恒 (星光线结局) ##
+	FIL_super_event_Eternity_of_Equality = {
+		context_type = player_context
+		window_name = "FIL_Eternity_of_Equality_super_event"
+
+		visible = {
+			has_global_flag = fil_super_event_flag_Eternity_of_Equality
+		}
+		
+		effects = {
+			Option_click = {
+				clr_global_flag = fil_super_event_flag_Eternity_of_Equality
+			}
+		}
+	}
 }

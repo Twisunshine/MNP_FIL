@@ -1,0 +1,18 @@
+characters={
+	WAN_eer_officer={
+		name=WAN_eer_officer
+		portraits={
+			civilian={
+				large="gfx/leaders/WAN/Portrait_WAN_eer_officer.dds"
+			}
+		}
+		country_leader={
+			desc=
+			ideology=social_democracy_equalism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

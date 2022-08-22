@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	SpriteType = {
+        name = "GFX_starlight_eqs"
+        texturefile = "gfx/leaders/EER/Portrait_Starlight_Glimmer_eqs.dds"
+    }
+	
+	
+}

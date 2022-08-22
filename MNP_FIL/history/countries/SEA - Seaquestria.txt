@@ -1,13 +1,42 @@
 ﻿capital = 97
 
+oob = "SEA_1004"
+
 set_research_slots = 1
 set_stability = 0.3
 set_war_support = 0.1
 
 # Starting tech
 set_technology = {
-	
+	infantry_weapons = 1
+	landing_craft = 1
 }
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		transport = 1
+	}
+	set_naval_oob = "SEA_1004_naval"
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		sonar = 1
+	}
+	set_naval_oob = "SEA_1004_naval_mtg"
+}
+
 
 set_politics = {
 	ruling_party = despotism
@@ -28,8 +57,54 @@ set_popularities = {
 }
 
 add_ideas = {
-		
+	limited_conscription
+	partial_economic_mobilisation
+	closed_economy
+	guidance_only
+	male_only
+	sound_citizenship
+	guild_production
+	farm_production
+	Occasional_Occult
+	chaos
+	Basic_education
+	deserters_everywhere
 }
 
-
 recruit_character = SEA_Queen_Novo
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "狂风级"
+		type = destroyer_1
+		name_group = ALL_DD_HISTORICAL
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 1
+		}
+		obsolete = yes
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "狂风级"
+		type = ship_hull_light_1
+		name_group = ALL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+}

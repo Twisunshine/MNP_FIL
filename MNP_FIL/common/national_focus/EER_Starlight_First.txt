@@ -1,0 +1,1556 @@
+focus_tree = {
+	id = EER_Starlight_First
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EER
+		}
+	}
+	default = no
+	
+	shared_focus = EER_5_1
+	
+	focus = {
+		id = EER_4_1
+		icon = GFX_goal_unknown
+		cost = 2
+		x = 11
+		y = 1
+		completion_reward = {
+			add_political_power = 200
+			add_stability = 0.20
+			
+		}
+	}
+	focus = {
+		id = EER_4_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_1
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+			add_command_power = 50
+			country_event = EER_events_c.41
+		}
+	}
+	focus = {
+		id = EER_4_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_2
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = quite_satisfactory
+				add_idea = Can_be_used
+			} 
+		}
+	}
+	focus = {
+		id = EER_4_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_3
+		}
+		x = 11
+		y = 4
+		completion_reward = {
+			add_ideas = EER_pest_eradication
+		}
+	}
+	focus = {
+		id = EER_4_5_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_4
+		}
+		x = 10
+		y = 5
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = EER_pest_eradication_2
+				}
+				swap_ideas = {
+					remove_idea = EER_pest_eradication_2
+					add_idea = EER_pest_eradication_3
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = EER_pest_eradication
+					add_idea = EER_pest_eradication_1
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_5_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_4
+		}
+		x = 12
+		y = 5
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = EER_pest_eradication_1
+				}
+				swap_ideas = {
+					remove_idea = EER_pest_eradication_1
+					add_idea = EER_pest_eradication_3
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = EER_pest_eradication
+					add_idea = EER_pest_eradication_2
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_6
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_5_1
+		}
+		prerequisite = {
+			focus = EER_4_5_2
+		}
+		x = 11
+		y = 6
+		completion_reward = {
+			declare_war_on = {
+				target = CLK
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = EER_4_7
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_6
+		}
+		available = {
+			NOT = {
+				country_exists = CLK
+			}
+		}
+		x = 11
+		y = 7
+		completion_reward = {
+			CLK = {
+				remove_state_core = 346
+				remove_state_core = 339
+				remove_state_core = 298
+				remove_state_core = 285
+				remove_state_core = 354
+				remove_state_core = 353
+				remove_state_core = 336
+				add_state_claim = 346
+				add_state_claim = 339
+				add_state_claim = 298
+				add_state_claim = 285
+				add_state_claim = 354
+				add_state_claim = 353
+				add_state_claim = 336
+			}
+			346 = {
+				add_manpower = -50000
+			}
+			339 = {
+				add_manpower = -50000
+			}
+			298 = {
+				add_manpower = -50000
+			}
+			285 = {
+				add_manpower = -50000
+			}
+			354 = {
+				add_manpower = -50000
+			}
+			353 = {
+				add_manpower = -50000
+			}
+			336 = {
+				add_manpower = -50000
+			}
+		}
+	}
+	focus = {
+		id = EER_4_8_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_7
+		}
+		x = 3
+		y = 8
+		completion_reward = {
+			346 = {
+				add_resistance = -30
+			}
+			339 = {
+				add_resistance = -30
+			}
+		}
+	}
+	focus = {
+		id = EER_4_9_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_1
+		}
+		x = 2
+		y = 9
+		completion_reward = {
+			339 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_9_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_1
+		}
+		x = 4
+		y = 9
+		completion_reward = {
+			270 = {
+				add_manpower = -25000
+			}
+			465 = {
+				add_manpower = -25000
+			}
+			346 = {
+				add_manpower = 25000
+			}
+			339 = {
+				add_manpower = 25000
+			}
+		}
+	}
+	focus = {
+		id = EER_4_8_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_7
+		}
+		x = 7
+		y = 8
+		completion_reward = {
+			country_event = EER_events_c.42
+		}
+	}
+	focus = {
+		id = EER_4_9_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_2
+		}
+		x = 6
+		y = 9
+		completion_reward = {
+			country_event = EER_events_c.43
+		}
+	}
+	focus = {
+		id = EER_4_9_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_2
+		}
+		x = 8
+		y = 9
+		completion_reward = {
+			country_event = EER_events_c.44
+		}
+	}
+	focus = {
+		id = EER_4_8_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_7
+		}
+		x = 11
+		y = 8
+		completion_reward = {
+			country_event = EER_events_c.45
+		}
+	}
+	focus = {
+		id = EER_4_9_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_3
+		}
+		x = 10
+		y = 9
+		completion_reward = {
+			610 = {
+				transfer_state_to = POT
+			}
+			557 = {
+				transfer_state_to = POT
+			}
+		}
+	}
+	focus = {
+		id = EER_4_9_6
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_3
+		}
+		x = 12
+		y = 9
+		completion_reward = {
+			494 = {
+				transfer_state_to = FAR
+			}
+			372 = {
+				transfer_state_to = FAR
+			}
+		}
+	}
+	focus = {
+		id = EER_4_10_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_9_5
+		}
+		prerequisite = {
+			focus = EER_4_9_6
+		}
+		x = 11
+		y = 10
+		completion_reward = {
+			country_event = EER_events_c.46
+		}
+	}
+	focus = {
+		id = EER_4_10_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_9_1
+		}
+		prerequisite = {
+			focus = EER_4_9_2
+		}
+		x = 3
+		y = 10
+		completion_reward = {
+			add_state_core = 346
+			add_state_core = 349
+			add_state_claim = 298
+			add_state_claim = 285
+			add_state_claim = 354
+			add_state_claim = 353
+			add_state_claim = 336
+			unlock_decision_category_tooltip = EER_integrated_core
+		}
+	}
+	focus = {
+		id = EER_4_10_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_9_3
+		}
+		prerequisite = {
+			focus = EER_4_9_4
+		}
+		x = 7
+		y = 10
+		completion_reward = {
+			375 = {
+				transfer_state_to = HAI
+			}
+			331 = {
+				transfer_state_to = HAI
+			}
+			301 = {
+				transfer_state_to = HAI
+			}
+			274 = {
+				transfer_state_to = HAI
+			}
+		}
+	}
+	focus = {
+		id = EER_4_8_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_7
+		}
+		x = 15
+		y = 8
+		completion_reward = {
+			country_event = EER_events_c.47
+			add_political_power = -50
+			add_opinion_modifier = {
+    target = HHW
+    modifier = huge_increase
+	
+}
+		}
+	}
+	focus = {
+		id = EER_4_9_7
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_4
+		}
+		x = 14
+		y = 9
+		completion_reward = {
+			diplomatic_relation = {
+				country = HHW
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	focus = {
+		id = EER_4_9_8
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_4
+		}
+		x = 16
+		y = 9
+		completion_reward = {
+			diplomatic_relation = {
+				country = HHW
+				relation = military_access
+				active = yes
+			}
+			diplomatic_relation = {
+				country = HHW
+				relation = docking_rights
+				active = yes
+			}
+		}
+	}
+	focus = {
+		id = EER_4_10_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_9_7
+		}
+		prerequisite = {
+			focus = EER_4_9_8
+		}
+		x = 15
+		y = 10
+		completion_reward = {
+			474 = {
+				transfer_state_to = HHW
+			}
+			459 = {
+				transfer_state_to = HHW
+			}
+			472 = {
+				transfer_state_to = HHW
+			}
+			448 = {
+				transfer_state_to = HHW
+			}
+			452 = {
+				transfer_state_to = HHW
+			}
+			447 = {
+				transfer_state_to = HHW
+			}
+		}
+	}
+	focus = {
+		id = EER_4_8_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_7
+		}
+		x = 19
+		y = 8
+		completion_reward = {
+			JAC = {
+				add_state_core = 379
+				add_state_core = 386
+				add_state_core = 397
+				add_state_core = 404
+			}
+			release_puppet_on_controlled = JAC
+		}
+	}
+	focus = {
+		id = EER_4_9_9
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_5
+		}
+		x = 18
+		y = 9
+		completion_reward = {
+			WAN = {
+				add_state_core = 362
+				add_state_core = 366
+				add_state_core = 424
+				add_state_core = 405
+				add_state_core = 446
+				add_state_core = 454
+				add_state_core = 440
+				add_state_core = 414
+				add_state_core = 410
+				add_state_core = 418
+			}
+			release_puppet_on_controlled = WAN
+		}
+	}
+	focus = {
+		id = EER_4_9_10
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_8_5
+		}
+		x = 20
+		y = 9
+		completion_reward = {
+			ROC = {
+				add_state_core = 382
+				add_state_core = 400
+				add_state_core = 408
+				add_state_core = 417
+				add_state_core = 422
+			}
+			release_puppet_on_controlled = ROC
+		}
+	}
+	focus = {
+		id = EER_4_10_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_9_9
+		}
+		prerequisite = {
+			focus = EER_4_9_10
+		}
+		x = 19
+		y = 10
+		completion_reward = {
+			CLK = {
+				add_state_core = 385
+				add_state_core = 15
+				add_state_core = 429
+				add_state_core = 433
+			}
+			release_puppet_on_controlled = CLK
+			hidden_effect = {
+				set_autonomy = {
+    target = CLK
+    autonomy_state = autonomy_puppet
+}
+			}
+			
+		}
+	}
+	focus = {
+		id = EER_4_11
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_10_1
+		}
+		prerequisite = {
+			focus = EER_4_10_2
+		}
+		prerequisite = {
+			focus = EER_4_10_3
+		}
+		prerequisite = {
+			focus = EER_4_10_4
+		}
+		prerequisite = {
+			focus = EER_4_10_5
+		}
+		x = 11
+		y = 11
+		completion_reward = {
+			15 = {
+				add_manpower = -500000
+			}
+			417 = {
+				add_manpower = -500000
+			}
+		}
+	}
+	focus = {
+		id = EER_4_12
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_11
+		}
+		prerequisite = {
+			focus = EER_4_11
+		}
+		x = 11
+		y = 12
+		completion_reward = {
+			add_war_support = -0.30
+			add_political_power = 300
+			country_event = EER_events_c.48
+		}
+	}
+	focus = {
+		id = EER_4_13
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_12
+		}
+		x = 11
+		y = 13
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = EER_re_legislation
+			custom_effect_tooltip = EER_cannot_change_laws
+			set_country_flag = EER_cannot_change_laws_1
+		}
+	}
+	focus = {
+		id = EER_4_14_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_13
+		}
+		x = 9
+		y = 14
+		completion_reward = {
+			add_ideas = macro_adjustment
+		}
+	}
+	focus = {
+		id = EER_4_14_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_13
+		}
+		x = 11
+		y = 14
+		completion_reward = {
+			add_ideas = male_only
+		}
+	}
+	focus = {
+		id = EER_4_14_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_13
+		}
+		x = 13
+		y = 14
+		completion_reward = {
+			add_ideas = EER_royal_treasure
+		}
+	}
+	focus = {
+		id = EER_4_15_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_14_1
+		}
+		prerequisite = {
+			focus = EER_4_14_2
+		}
+		x = 10
+		y = 15
+		completion_reward = {
+			add_ideas = civilian_economy
+		}
+	}
+	focus = {
+		id = EER_4_15_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_14_2
+		}
+		prerequisite = {
+			focus = EER_4_14_3
+		}
+		x = 12
+		y = 15
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+	}
+	focus = {
+		id = EER_4_16
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_15_1
+		}
+		prerequisite = {
+			focus = EER_4_15_2
+		}
+		x = 11
+		y = 16
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Flaws_do_not_hide_beauty
+				add_idea = smooth_operation
+			}
+		}
+	}
+	focus = {
+		id = EER_4_17
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_16
+		}
+		x = 11
+		y = 17
+		completion_reward = {
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = EER_4_18
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_17
+		}
+		x = 11
+		y = 18
+		completion_reward = {
+			add_political_power = -100
+			14 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_19
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_18
+		}
+		x = 11
+		y = 19
+		completion_reward = {
+			country_event = EER_events_c.49
+		}
+	}
+	focus = {
+		id = EER_4_20_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_19
+		}
+		x = 5
+		y = 20
+		completion_reward = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.20 }
+			custom_effect_tooltip = EER_unlock_dealing_with_harmonic_problem
+			set_country_flag = EER_dealing_with_harmonic_problem_flag
+		}
+	}
+	focus = {
+		id = EER_4_21_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_20_1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 4
+		y = 21
+		completion_reward = {
+			country_event = EER_events_c.55
+		}
+	}
+	focus = {
+		id = EER_4_21_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_20_1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 6
+		y = 21
+		completion_reward = {
+			add_stability = -0.05
+			activate_decision = EER_dealing_with_harmonic_problem_2
+			custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip_done
+		}
+	}
+	focus = {
+		id = EER_4_22_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_21_1
+		}
+		prerequisite = {
+			focus = EER_4_21_2
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 5
+		y = 22
+		completion_reward = {
+			add_manpower = -5000
+			country_event = EER_events_c.56
+		}
+	}
+	focus = {
+		id = EER_4_23_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_22_1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 5
+		y = 23
+		completion_reward = {
+			add_political_power = 50 
+			country_event = EER_events_c.57
+		}
+	}
+	focus = {
+		id = EER_4_24_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_23_1
+		}
+		prerequisite = {
+			focus = EER_4_23_2
+		}
+		x = 5
+		y = 24
+		completion_reward = {
+			add_ideas = EER_forest_guerrilla
+			if = {
+				limit = {
+					has_country_flag = EER_harmonic_problem_done
+					custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip_done
+				}
+				country_event = EER_events_c.58
+			}
+			else = {
+				country_event = EER_events_c.59
+			}
+		}
+	}
+	focus = {
+		id = EER_4_25_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_24_1
+		}
+		x = 5
+		y = 25
+		completion_reward = {
+			add_ideas = EER_dealing_with_everfree_forest
+			set_country_flag = EER_dealing_with_everfree_forest_flag
+			custom_effect_tooltip = EER_unlock_dealing_with_everfree_forest
+			set_variable = { EER_everfree_forest_progress = 0 }
+			clamp_variable = {
+				var = EER_everfree_forest_progress
+				min = 0
+				max = 1
+			}
+		}
+	}
+	focus = {
+		id = EER_4_26_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_25_1
+		}
+		x = 4
+		y = 26
+		completion_reward = {
+			420 = {
+				add_manpower = -50000
+			}
+			402 = {
+				add_manpower = -50000
+			}
+			319 = {
+				add_manpower = -50000
+			}
+			536 = {
+				add_manpower = 150000
+			}
+			if = {
+				limit = {
+					has_idea = EER_forest_guerrilla
+				}
+				swap_ideas = {
+					remove_idea = EER_forest_guerrilla
+					add_idea = EER_forest_guerrilla_1
+				}
+			}
+			if = {
+				limit = {
+					has_idea = EER_forest_guerrilla_2
+				}
+				swap_ideas = {
+					remove_idea = EER_forest_guerrilla_2
+					add_idea = EER_forest_guerrilla_3
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_26_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_25_1
+		}
+		x = 6
+		y = 26
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = EER_forest_guerrilla
+				}
+				swap_ideas = {
+					remove_idea = EER_forest_guerrilla
+					add_idea = EER_forest_guerrilla_2
+				}
+			}
+			if = {
+				limit = {
+					has_idea = EER_forest_guerrilla_1
+				}
+				swap_ideas = {
+					remove_idea = EER_forest_guerrilla_1
+					add_idea = EER_forest_guerrilla_3
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_27_1
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_26_1
+		}
+		prerequisite = {
+			focus = EER_4_26_2
+		}
+		prerequisite = {
+			focus = EER_4_26_3
+		}
+		x = 5
+		y = 27
+		completion_reward = {
+			add_to_variable = { EER_everfree_forest_progress = 0.25 }
+			custom_effect_tooltip = EER_everfree_forest_progress_10
+		}
+	}
+	focus = {
+		id = EER_4_20_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_19
+		}
+		x = 11
+		y = 20
+		completion_reward = {
+			set_country_flag = EER_perfecting_staff_of_sameness
+			custom_effect_tooltip = EER_unlock_perfecting_staff_of_sameness
+			set_variable = { EER_perfecting_staff_of_sameness = 0 }
+			clamp_variable = {
+				var = EER_perfecting_staff_of_sameness
+				min = 0
+				max = 80
+			}
+		}
+	}
+	focus = {
+		id = EER_4_21_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_20_2
+		}
+		x = 11
+		y = 21
+		completion_reward = {
+			country_event = EER_events_c.63
+		}
+	}
+	focus = {
+		id = EER_4_22_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_21_4
+		}
+		x = 10
+		y = 22
+		completion_reward = {
+			add_political_power = -100
+			add_tech_bonus = {
+				name = elect_bonus
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+			add_to_variable = { EER_perfecting_staff_of_sameness = 20 } 
+			custom_effect_tooltip = EER_perfecting_staff_of_sameness_tip_20
+		}
+	}
+	focus = {
+		id = EER_4_22_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_21_4
+		}
+		x = 12
+		y = 22
+		completion_reward = {
+			add_political_power = -100
+			add_doctrine_cost_reduction = {
+				cost_reduction = 1
+				uses = 1
+				category = land_doctrine
+			}
+			add_to_variable = { EER_perfecting_staff_of_sameness = 20 } 
+			custom_effect_tooltip = EER_perfecting_staff_of_sameness_tip_20
+		}
+	}
+	focus = {
+		id = EER_4_23_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_22_3
+		}
+		prerequisite = {
+			focus = EER_4_22_4
+		}
+		x = 11
+		y = 23
+		completion_reward = {
+			country_event = EER_events_c.64
+		}
+	}
+	focus = {
+		id = EER_4_24_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_23_3
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EER_perfecting_staff_of_sameness_tip_done
+				check_variable = {
+					var = EER_perfecting_staff_of_sameness
+					value = 80
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		x = 11
+		y = 24
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = EER_staff_of_sameness_4
+				add_idea = EER_expanded_staff_of_sameness
+			}
+			clr_country_flag = EER_perfecting_staff_of_sameness
+		}
+	}
+	focus = {
+		id = EER_4_21_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_20_1
+		}
+		prerequisite = {
+			focus = EER_4_20_2
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 8
+		y = 21
+		completion_reward = {
+			country_event = EER_events_c.60
+		}
+	}
+	focus = {
+		id = EER_4_22_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_21_3
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 8
+		y = 22
+		completion_reward = {
+			country_event = EER_events_c.61
+		}
+	}
+	focus = {
+		id = EER_4_23_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_22_2
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = EER_dealing_with_harmonic_problem_tip_done
+				has_country_flag = EER_harmonic_problem_done
+			}
+		}
+		x = 8
+		y = 23
+		completion_reward = {
+			country_event = EER_events_c.62
+		}
+	}
+	focus = {
+		id = EER_4_26_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_25_1
+		}
+		x = 8
+		y = 26
+		completion_reward = {
+			420 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes 
+				province = 197
+			}
+			}
+			402 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes 
+				province = 29
+			}
+			}
+			319 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes 
+				province = 4018
+			}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_20_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_19
+		}
+		x = 17
+		y = 20
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = EER_4_21_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_20_3
+		}
+		x = 14
+		y = 21
+		completion_reward = {
+			country_event = EER_events_c.50
+		}
+	}
+	focus = {
+		id = EER_4_22_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_21_5
+		}
+		x = 14
+		y = 22
+		completion_reward = {
+			country_event = EER_events_c.51
+		}
+	}
+	focus = {
+		id = EER_4_23_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_22_5
+		}
+		x = 14
+		y = 23
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = EER_4_24_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_23_4
+		}
+		x = 14
+		y = 24
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = EER_stop_depriving_sign_of_cute_temporarily_1
+				add_idea = EER_stop_depriving_sign_of_cute_temporarily_2
+			}
+		}
+	}
+	focus = {
+		id = EER_4_25_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_24_3
+		}
+		x = 14
+		y = 25
+		completion_reward = {
+			add_political_power = 50
+			add_command_power = -50
+		}
+	}
+	focus = {
+		id = EER_4_26_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_25_2
+		}
+		x = 14
+		y = 26
+		completion_reward = {
+			country_event = EER_events_c.54
+		}
+	}
+	focus = {
+		id = EER_4_27_2
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_26_4
+		}
+		x = 14
+		y = 27
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+	focus = {
+		id = EER_4_21_6
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_20_3
+		}
+		x = 17
+		y = 21
+		completion_reward = {
+			398 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_22_6
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_21_6
+		}
+		x = 17
+		y = 22
+		completion_reward = {
+			add_ideas = free_trade
+		}
+	}
+	focus = {
+		id = EER_4_23_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_22_6
+		}
+		x = 16
+		y = 23
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = EER_4_23_6
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_22_6
+		}
+		x = 18
+		y = 23
+		completion_reward = {
+			270 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_24_4
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_23_5
+		}
+		prerequisite = {
+			focus = EER_4_23_6
+		}
+		x = 17
+		y = 24
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = EER_4_25_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_24_4
+		}
+		x = 17
+		y = 25
+		completion_reward = {
+			random_state = {
+				add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes  
+		}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_26_5
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_25_3
+		}
+		x = 16
+		y = 26
+		completion_reward = {
+			country_event = EER_events_c.52
+		}
+	}
+	focus = {
+		id = EER_4_26_6
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_25_3
+		}
+		x = 18
+		y = 26
+		completion_reward = {
+			country_event = EER_events_c.53
+		}
+	}
+	focus = {
+		id = EER_4_27_3
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_26_5
+		}
+		prerequisite = {
+			focus = EER_4_26_6
+		}
+		x = 17
+		y = 27
+		completion_reward = {
+			250 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			11 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			465 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_4_28
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_4_27_1
+		}
+		prerequisite = {
+			focus = EER_4_27_2
+		}
+		prerequisite = {
+			focus = EER_4_27_3
+		}
+		prerequisite = {
+			focus = EER_4_24_2
+		}
+		x = 11
+		y = 28
+		completion_reward = {
+			custom_effect_tooltip = EER_unlock_starlight_second
+			set_country_flag = EER_starlight_second
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}

@@ -1,0 +1,79 @@
+CLK_prepare_start = { 
+	allowed = {
+		original_tag = CLK
+	}
+	enable = {
+		date < 1004.05.01
+	}
+	abort = {
+		NOT = {
+			country_exists = EOM
+			country_exists = EQU
+			country_exists = EER
+		}
+	}
+	
+	ai_strategy = {
+		type = prepare_for_war
+		id = EOM
+		value = 100
+	}
+	
+	ai_strategy = { 
+		type = equipment_variant_production_factor 
+		id = infantry_equipment
+		value = 100 
+	}
+}
+
+CLK_defense_Pony = {
+	allowed = {
+		original_tag = CLK
+	}
+	enable = {
+		OR = {
+			has_war_with = EOM
+			has_war_with = EQU
+			has_war_with = EER
+		}
+	}
+	abort = {
+		NOT = {
+			country_exists = EOM
+			country_exists = EQU
+			country_exists = EER
+		}
+	}
+	
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = EOM
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = POT
+		value = 10
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = FAR
+		value = 10
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = HHW
+		value = 10
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = HAI
+		value = 10
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = TTU
+		value = 10
+	}
+}

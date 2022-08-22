@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			EQU = {
+				set_country_flag = Orthodoxy_gui_open
+			}
+			EOM = {
+				set_country_flag = Orthodoxy_gui_open
+			}
+			EER = {
+				set_country_flag = Orthodoxy_gui_open
+			}
+		}
+	}	
+}

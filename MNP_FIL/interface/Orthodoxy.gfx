@@ -1,0 +1,50 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Orthodoxy_window_background"
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/Orthodoxy_background.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_window_open"
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/Orthodoxy.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_off_button"
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/off_button.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_left_leader_pic"
+		textureFile = "gfx/leaders/EOM/Portrait_EOM_Nightmare_Moon.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_right_leader_pic"
+		textureFile = "gfx/leaders/EQU/Portrait_EQU_Fancy_Pants.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_value_bar_left_pic" 
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/Orthodoxy_value_left.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_value_bar_right_pic" 
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/Orthodoxy_value_right.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_Nightmare_Moon_pic"
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/Nightmare_Moon.dds"
+	}
+	spriteType = {
+		name = "GFX_Orthodoxy_Twilight_pic" 
+		textureFile = "gfx/interface/FIL_System/Orthodoxy/Twilight.dds"
+	}
+	spriteType = {
+		name = "GFX_EQU_flag"
+		textureFile = "gfx/flags/medium/EQU_authoritarian_democracy.tga"
+	}
+	spriteType = {
+		name = "GFX_EOM_flag"
+		textureFile = "gfx/flags/medium/EOM_despotism.tga"
+	}
+	spriteType = {
+		name = "GFX_EER_flag"
+		textureFile = "gfx/flags/medium/EER_social_democracy.tga"
+	}
+}

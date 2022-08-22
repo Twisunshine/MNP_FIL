@@ -11,6 +11,11 @@ state={
 		owner = STO
 		add_core_of = STO
 		victory_points = { 4841 5 }
+		buildings = {
+		    4381 = {
+			    naval_base = 3
+		    }
+		}
 	}
 	local_supplies=10.000
 }

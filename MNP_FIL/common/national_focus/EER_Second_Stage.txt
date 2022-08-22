@@ -1,0 +1,642 @@
+focus_tree = {
+	id = EER_Second_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EER
+		}
+	}
+	
+	default = no
+	
+	shared_focus = EER_dealing_with_the_left_wing
+	shared_focus = EER_continuation_of_the_war
+	shared_focus = EER_current_nation_building
+	shared_focus = EER_attitude_towards_changelings
+	shared_focus = EER_establishing_the_same_staff
+	
+	focus = {
+		id = EER_the_great_war_of_liberation
+		icon = GFX_goal_unknown
+		cost = 2
+		x = 15
+		y = 1
+		completion_reward = {
+			add_war_support = 0.1
+			remove_ideas = EER_the_refugee_flows_1
+		}
+
+	}
+	focus = {
+		id = EER_look_outside
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_the_great_war_of_liberation
+		}
+		x = 9
+		y = 2
+		completion_reward = {
+			custom_effect_tooltip = EER_operations_in_enemy_countries_decision
+		}
+
+	}
+	focus = {
+		id = EER_hypocrites_in_the_south
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_look_outside
+		}
+		mutually_exclusive = {
+			focus = EER_tyrant_in_the_middle
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+			add_political_power = 150
+		}
+
+	}
+	focus = {
+		id = EER_slander_the_name_of_the_nobility
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_hypocrites_in_the_south
+		}
+		x = 4
+		y = 4
+		completion_reward = {
+			custom_effect_tooltip = EER_additional_resolution_to_EQU
+		}
+
+	}
+	focus = {
+		id = EER_suspected_emergency_status
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_slander_the_name_of_the_nobility
+		}
+		x = 3
+		y = 5
+		completion_reward = {
+			EQU = {
+			EQU = { add_to_variable = { EQU_Orthodoxy = -1 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EQU_orthodoxy_sub_1
+		}
+
+	}
+	focus = {
+		id = EER_democratic_illusion
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_slander_the_name_of_the_nobility
+		}
+		x = 5
+		y = 5
+		completion_reward = {
+			EQU = {
+			EQU = { add_to_variable = { EQU_Orthodoxy = -1 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EQU_orthodoxy_sub_1
+		}
+
+	}
+	focus = {
+		id = EER_fetching_moon_in_water
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_democratic_illusion
+		}
+		prerequisite = {
+			focus = EER_suspected_emergency_status
+		}
+		x = 4
+		y = 6
+		completion_reward = {
+			EQU = {
+				add_stability = -0.10
+				add_war_support = -0.10
+			}
+		}
+
+	}
+	focus = {
+		id = EER_mountain_arming
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_hypocrites_in_the_south
+		}
+		x = 7
+		y = 4
+		completion_reward = {
+			337 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes 
+				province = 840
+			}
+		}
+		}
+
+	}
+	focus = {
+		id = EER_attack_on_hollow_shades
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_mountain_arming
+		}
+		x = 7
+		y = 6
+		completion_reward = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 3000
+		producer = EQU
+	}
+		}
+
+	}
+	focus = {
+		id = EER_emphasis_on_class_equality
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_fetching_moon_in_water
+		}
+		prerequisite = {
+			focus = EER_attack_on_hollow_shades
+		}
+		x = 6
+		y = 7
+		completion_reward = {
+			EQU = {
+			EQU = { add_to_variable = { EQU_Orthodoxy = -1 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_stability_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.008 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.004 } }
+    		EQU = { add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EQU_orthodoxy_sub_1
+		}
+
+	}
+	
+	
+	#################################
+	focus = {
+		id = EER_tyrant_in_the_middle
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_look_outside
+		}
+		mutually_exclusive = {
+			focus = EER_hypocrites_in_the_south
+		}
+		x = 13
+		y = 3
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = EER_stepping_into_deep_water
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_tyrant_in_the_middle
+		}
+		mutually_exclusive = {
+			focus = EER_another_kind_of_war
+		}
+		x = 11
+		y = 4
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_additional_resolution_to_EOM
+			
+		}
+	}
+	focus = {
+		id = EER_true_democracy
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_stepping_into_deep_water
+		}
+		x = 10
+		y = 5
+
+		completion_reward = {
+			
+			custom_effect_tooltip = EER_additional_resolution_to_EOM
+			
+		
+			
+		}
+	}
+	focus = {
+		id = EER_commitment_benefits
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_stepping_into_deep_water
+		}
+		x = 12
+		y = 5
+
+		completion_reward = {
+			EOM = {
+			EOM = { add_to_variable = { EOM_Orthodoxy = -1 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+		}
+	}
+	focus = {
+		id = EER_light_of_hope
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_commitment_benefits
+		}
+		x = 12
+		y = 6
+
+		completion_reward = {
+			EOM = {
+				add_stability = -0.10
+				add_war_support = -0.10
+			}
+		}
+	}
+	focus = {
+		id = EER_you_can_do_it
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_true_democracy
+		}
+		x = 10
+		y = 6
+
+		completion_reward = {
+			custom_effect_tooltip = EER_additional_resolution_to_EOM
+			
+		}
+	}
+	focus = {
+		id = EER_another_kind_of_war
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_tyrant_in_the_middle
+		}
+		mutually_exclusive = {
+			focus = EER_stepping_into_deep_water
+		}
+		x = 15
+		y = 4
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = EER_slaughter_of_the_next_of_kin
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_another_kind_of_war
+		}
+		x = 14
+		y = 5
+
+		completion_reward = {
+			EOM = {
+			EOM = { add_to_variable = { EOM_Orthodoxy = -1 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = EER_prisoner_on_the_moon
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_slaughter_of_the_next_of_kin
+		}
+		x = 14
+		y = 6
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	focus = {
+		id = EER_one_pony_dictatorship
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_another_kind_of_war
+		}
+		x = 16
+		y = 5
+
+		completion_reward = {
+			add_political_power = 50
+			EOM = {
+			EOM = { add_to_variable = { EOM_Orthodoxy = -1 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+		}
+	}
+	focus = {
+		id = EER_the_beautiful_hometown_of_canterlot 
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_one_pony_dictatorship
+		}
+		x = 16
+		y = 6
+
+		completion_reward = {
+			304 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_defending_the_legacy_of_freedom
+		icon = GFX_goal_unknown
+		cost = 2
+		
+		prerequisite = {
+			focus = EER_light_of_hope
+			focus = EER_the_beautiful_hometown_of_canterlot
+		}
+		prerequisite = {
+			focus = EER_prisoner_on_the_moon
+			focus = EER_you_can_do_it  
+		}
+		x = 13
+		y = 7
+
+		completion_reward = {
+			add_manpower = 5000
+			EOM = {
+			EOM = { add_to_variable = { EOM_Orthodoxy = -1 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 } }
+    		EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 } }
+    		force_update_dynamic_modifier = yes
+			}
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+		}
+	}
+	
+##################################################
+
+	focus = {
+		id = EER_ourselves
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_the_great_war_of_liberation
+		}
+		x = 21
+		y = 2
+		completion_reward = {
+			add_political_power = 25
+		}
+
+	}
+	focus = {
+		id = EER_egalitarian_ideals
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_ourselves
+		}
+		x = 21
+		y = 3
+		completion_reward = {
+			country_event = EER_events_c.24
+		}
+
+	}
+	focus = {
+		id = EER_defenders_of_freedom
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_egalitarian_ideals
+		}
+		x = 20
+		y = 4
+		completion_reward = {
+			every_army_leader = {
+			add_defense = 1			
+		}
+		}
+
+	}
+	focus = {
+		id = EER_factory_or_battlefield
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_egalitarian_ideals
+		}
+		x = 22
+		y = 4
+		completion_reward = {
+			add_manpower = 5000
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment 
+				amount = 1000 
+				producer = EER
+				}
+		}
+
+	}
+	focus = {
+		id = EER_all_ponies_are_heroes
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_factory_or_battlefield
+		}
+		x = 22
+		y = 5
+		completion_reward = {
+			army_experience = 25
+		}
+
+	}
+	focus = {
+		id = EER_defenders_of_democracy
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_defenders_of_freedom
+		}
+		x = 20
+		y = 5
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = EER_progressive_leaders
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_defenders_of_democracy
+		}
+		x = 20
+		y = 6
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = EER_egalitarianism_warms_the_ponys_heart
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_progressive_leaders
+		}
+		prerequisite = {
+			focus = EER_the_land_of_plenty
+		}
+		x = 21
+		y = 7
+		completion_reward = {
+			add_stability = 0.1
+		}
+
+	}
+	focus = {
+		id = EER_the_land_of_plenty
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_all_ponies_are_heroes
+		}
+		x = 22
+		y = 6
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 8
+			}
+		}
+		}
+
+	}
+	focus = {
+		id = EER_moving_forward
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_defending_the_legacy_of_freedom
+			focus = EER_emphasis_on_class_equality
+		}
+		prerequisite = {
+			focus = EER_egalitarianism_warms_the_ponys_heart
+		}
+		x = 15
+		y = 8
+		
+		completion_reward = {	
+			mark_focus_tree_layout_dirty = yes
+			country_event = EER_events_c.25
+			swap_ideas = { 
+				remove_idea = EER_heterochromatic_ideal 
+				add_idea = EER_partisan_divisions 
+				} 
+				swap_ideas = { 
+				remove_idea = Flaws_do_not_hide_beauty 
+				add_idea = chaos 
+				} 
+			hidden_effect = {
+				set_country_flag = EER_third_stage
+			}
+		}
+	}
+}

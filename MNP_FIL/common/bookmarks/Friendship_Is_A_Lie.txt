@@ -42,9 +42,9 @@ bookmarks = {
 				EER_heterochromatic_ideal
 			}
 			focuses = {
-				EER_C1_26
-				EER_C1_29
-				EER_C1_35
+				EER_chairmans_speech
+				EER_equality_arsenal
+				EER_open_the_door
 			}
 			
 		}

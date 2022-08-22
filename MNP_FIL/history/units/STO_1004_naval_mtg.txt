@@ -1,0 +1,129 @@
+units = {
+	fleet = {
+		name = "风暴第一海军"			
+		naval_base = 4381
+		task_force = {
+			name = "风暴第一驱逐群"
+			location = 4381			
+			ship = { 
+				name = "第一闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第二闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第三闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第四闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第五闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第六闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			
+		}				
+	}
+	fleet = {
+		name = "风暴第二海军"			
+		naval_base = 6055
+		task_force = {
+			name = "风暴第二驱逐群"
+			location = 6055			
+			ship = { 
+				name = "第七闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第八闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第九闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第十闪电级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "闪电级"
+					}
+				} 
+			}
+		}				
+	}
+}

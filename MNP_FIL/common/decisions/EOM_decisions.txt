@@ -42,13 +42,13 @@ EOM_Orthodoxy = {
 				var = EOM_Orthodoxy
 				value = 25
 			}
-			add_to_variable = { EOM_Orthodoxy_stability_factor = -0.2 }
-			add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.2 }
-			add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.1 }
-			add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.1 }
-			add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.2 }
-			add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.1 }
-			add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.075 }
+			set_variable = { EOM_Orthodoxy_stability_factor = -0.2 }
+			set_variable = { EOM_Orthodoxy_war_support_factor  = -0.2 }
+			set_variable = { EOM_Orthodoxy_political_power_factor = -0.1 }
+			set_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.1 }
+			set_variable = { EOM_Orthodoxy_conscription_factor = -0.2 }
+			set_variable = { EOM_Orthodoxy_army_attack_factor = -0.1 }
+			set_variable = { EOM_Orthodoxy_army_morale_factor = -0.075 }
             set_country_flag = EOM_Orthodoxy_unlocked
         }
     }
@@ -190,4 +190,5 @@ EOM_Orthodoxy = {
             force_update_dynamic_modifier = yes
         }
     }
+	
 }

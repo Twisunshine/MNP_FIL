@@ -1,0 +1,145 @@
+division_template = {
+	name = "狮鹫岩防卫师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+      
+	}
+}
+
+division_template = {
+	name = "狮鹫岩民兵队"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }	
+	}
+	
+	support = {    
+		
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "狮鹫岩第一防卫师"
+		location = 2711
+		division_template = "狮鹫岩防卫师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第二防卫师"
+		location = 1164
+		division_template = "狮鹫岩防卫师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第三防卫师"
+		location = 2683
+		division_template = "狮鹫岩防卫师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第四防卫师"
+		location = 1586
+		division_template = "狮鹫岩防卫师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第五防卫师"
+		location = 2123
+		division_template = "狮鹫岩防卫师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第六防卫师"
+		location =4404
+		division_template = "狮鹫岩防卫师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "狮鹫岩第一民兵队"
+		location = 4179
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第二民兵队"
+		location = 7495
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第三民兵队"
+		location =7470
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第四民兵队"
+		location = 2277
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第五民兵队"
+		location = 7256
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第六民兵队"
+		location =7294
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第七民兵队"
+		location = 1231
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第八民兵队"
+		location = 7420
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第九民兵队"
+		location = 7519
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第十民兵队"
+		location = 3547
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第十一民兵队"
+		location = 1877
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "狮鹫岩第十二民兵队"
+		location = 5633
+		division_template = "狮鹫岩民兵队"
+		start_experience_factor = 0.3
+	}
+}

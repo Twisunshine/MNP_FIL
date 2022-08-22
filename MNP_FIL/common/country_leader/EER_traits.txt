@@ -2,7 +2,7 @@ leader_traits = {
     leaders_traits = {
 		random = no
         foreign_subversive_activites = -0.30
-		political_power_gain = 0.05
+		political_power_gain = 0.25
 	}
 	party_committee = {
 	    random = no
@@ -40,5 +40,15 @@ leader_traits = {
 	kind_vase = {
 	    random = no
 	    stability_factor = 0.1
+	}
+	charming_scumbag = {
+	    random = no
+	    army_intel_factor = 0.05
+		intelligence_agency_defense = 0.05
+	}
+	great_philanthropist = {
+	    random = no
+		consumer_goods_factor = 0.15
+	    political_power_factor = 0.15
 	}
 }

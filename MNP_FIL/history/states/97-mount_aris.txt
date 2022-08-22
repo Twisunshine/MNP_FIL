@@ -11,6 +11,11 @@ state={
 		owner = SEA
 		add_core_of = SEA
 		victory_points = { 3728 20 }
+		buildings = {
+		    3728 = {
+			    naval_base = 3
+		    }
+		}
 	}
 	local_supplies=20.000
 }

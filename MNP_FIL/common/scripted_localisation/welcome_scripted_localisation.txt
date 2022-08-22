@@ -1,0 +1,167 @@
+defined_text = { 
+	name = welcome_country_name
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = welcome_EER_name
+	}
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = welcome_EQU_name
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = welcome_EOM_name
+	}
+	text = {
+		trigger = {
+			tag = CLK
+		}
+		localization_key = welcome_CLK_name
+	}
+}
+
+defined_text = { 
+	name = welcome_country_desc_1
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = welcome_EER_desc_1
+	}
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = welcome_EQU_desc_1
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = welcome_EOM_desc_1
+	}
+	text = {
+		trigger = {
+			tag = CLK
+		}
+		localization_key = welcome_CLK_desc_1
+	}
+}
+
+defined_text = { 
+	name = welcome_country_desc_2
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = welcome_EER_desc_2
+	}
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = welcome_EQU_desc_2
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = welcome_EOM_desc_2
+	}
+	text = {
+		trigger = {
+			tag = CLK
+		}
+		localization_key = welcome_CLK_desc_2
+	}
+}
+
+defined_text = { 
+	name = welcome_country_desc_3
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = welcome_EER_desc_3
+	}
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = welcome_EQU_desc_3
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = welcome_EOM_desc_3
+	}
+	text = {
+		trigger = {
+			tag = CLK
+		}
+		localization_key = welcome_CLK_desc_3
+	}
+}
+
+defined_text = { 
+	name = welcome_off_option
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = welcome_EER_option
+	}
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = welcome_EQU_option
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = welcome_EOM_option
+	}
+	text = {
+		trigger = {
+			tag = CLK
+		}
+		localization_key = welcome_CLK_option
+	}
+}
+
+defined_text = { 
+	name = welcome_country_desc_pic
+	text = {
+		trigger = {
+			tag = EER
+		}
+		localization_key = welcome_EER_desc_pic
+	}
+	text = {
+		trigger = {
+			tag = EQU
+		}
+		localization_key = welcome_EQU_desc_pic
+	}
+	text = {
+		trigger = {
+			tag = EOM
+		}
+		localization_key = welcome_EOM_desc_pic
+	}
+	text = {
+		trigger = {
+			tag = CLK
+		}
+		localization_key = welcome_CLK_desc_pic
+	}
+}

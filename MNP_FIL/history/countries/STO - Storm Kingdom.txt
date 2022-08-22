@@ -1,12 +1,40 @@
 ﻿capital = 784
 
+oob = "STO_1004"
+
 set_research_slots = 2
 set_stability = 0.7
 set_war_support = 0.8
 
 # Starting tech
 set_technology = {
-	
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		transport = 1
+		landing_craft = 1
+	}
+	set_naval_oob = "STO_1004_naval"
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		sonar = 1
+	}
+	set_naval_oob = "STO_1004_naval_mtg"
 }
 
 set_politics = {
@@ -28,8 +56,55 @@ set_popularities = {
 }
 
 add_ideas = {
-		
+	all_adults_serve
+	tot_economic_mobilisation
+	closed_economy
+	fully_control
+	all_adults
+	restricted_citizenship
+	steampunk_era
+	smallholder_model
+	no_magic_creature
+	Flaws_do_not_hide_beauty
+	National_illiterate
+	Can_be_used
 }
 
 
 recruit_character = STO_The_Storm_King
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "闪电级"
+		type = destroyer_1
+		name_group = ALL_DD_HISTORICAL
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 1
+		}
+		obsolete = yes
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "闪电级"
+		type = ship_hull_light_1
+		name_group = ALL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+}

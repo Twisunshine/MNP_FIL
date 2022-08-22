@@ -59,9 +59,11 @@
  EQU_The_legacy_of_the_magic_exchange_students:0 "魔法交换生的遗产"
  EQU_The_legacy_of_the_magic_exchange_students_desc:0 "塞雷斯蒂娅公主还在统治着小马国的时候，她创立了一座极为优异的魔法高等学府。在她的坚持下，这所高等学府还有限的招收了很多来自世界上其他国家的生物，并且将学院内的一些学生送往其他国家的学院。虽然现在魔法学院和它所在的皇城坎特拉已经沦陷，但是此前的交换生项目让大量小马精英得以在安全的地方被保留下来。现在他们自愿归国共赴国难，这为我们提供了宝贵的可用之才。"
  EQU_Orthodoxy_dynamic_modifier:0 "国家正统性"
- EQU_Orthodoxy_dynamic_modifier_desc:0 ""
+ EQU_Orthodoxy_dynamic_modifier_desc:0 "天空中也许不可能同时出现两个太阳，但是艾奎斯垂亚却同时出现了两位君主。并且，这两位公主注定无法共存。在这种情况下，哪一位君主能够成为小马们公认的合法君主，无疑就将在这场争夺王位的战争中处于绝对优势。而对方则只能冒着和所有国民作对的风险倒行逆施。\n\n国家正统性是一个复杂的概念，它在总体上反映了我方的领袖多大程度上被认为是小马国王位真正的继承者、我们的政权在多大程度上被艾奎斯垂亚的小马所承认、以及我们在目前所控制土地上的统治的稳固程度。一旦我们做出太多错误的决定，我们就将被大多数小马视为非法政权，这将为我们国家带来灭顶之灾。\n\n目前，我方的合法性主要来源，主要包括以下几点：我们是一个民主政府；我们的政府构成部分继承于塞雷斯蒂娅政权；我们的公主得到了民主议会的承认；我们公主的继位合乎宪法；月之帝国的公主有弑君罪行；以韵律公主为代表的皇室成员的承认。假如我们失去了这些，就会降低我们的正统性！"
  
  
  ###决议
  EQU_EEE_WAR:0 "内战决议"
  EQU_EEE_WAR_1:0 "戡平内乱"
+ EQU_Orthodoxy:0 "国家正统性"
+ EQU_Orthodoxy_desc:0 "月之帝国的国家正统性描述. \n\n我们当前的正统性: [?equ_orthodoxy|+] \n\n当前效果 \n政治点数: [?EQU_Orthodoxy_political_power_factor|%+]\n适役马口修正: [?EQU_Orthodoxy_conscription_factor|%+]\n陆军组织度恢复: [?EQU_Orthodoxy_army_morale_factor|%+]\n国家稳定度: [?EQU_Orthodoxy_stability_factor|%+]\n战争支持度: [?EQU_Orthodoxy_war_support_factor|%+]\n单位攻击: [?EQU_Orthodoxy_army_attack_factor|%+]\n工厂产出: [?EQU_Orthodoxy_industrial_capacity_factory|%+]\n"

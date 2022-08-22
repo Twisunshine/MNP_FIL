@@ -1,0 +1,20 @@
+sound = {
+	name = "se_EEE_war"
+	file = "superevents/EEE_war.wav"
+	always_load = no
+}
+sound = {
+	name = "se_starlight_eqs"
+	file = "superevents/starlight_eqs.wav"
+	always_load = no
+}
+sound = {
+	name = "Meowmeow_King"
+	file = "superevents/Meowmeow_King.wav"
+	always_load = no
+}
+sound = {
+	name = "Eternity_of_Equality"
+	file = "superevents/Eternity_of_Equality.wav"
+	always_load = no
+}

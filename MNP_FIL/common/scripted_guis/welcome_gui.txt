@@ -1,0 +1,78 @@
+scripted_gui = {	
+	welcome_gui = {
+		window_name = "welcome_window_main"
+		context_type = player_context
+		
+		visible = {
+			AND = {
+				OR = {
+					TAG = EER
+					TAG = EQU
+					TAG = EOM
+					TAG = CLK
+				}
+				has_country_flag = welcome_gui
+			}
+		}
+		
+		properties = {
+			country_desc_pic = {
+				image = "[welcome_country_desc_pic]"
+			}
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			last_button_click = {
+				subtract_from_variable = { welcome_page_now = 1 } 
+			}
+			next_button_click = {
+				add_to_variable = { welcome_page_now = 1 } 
+			}
+			off_button_click = {
+				clr_country_flag = welcome_gui
+			}
+		}
+		
+		triggers = {
+			last_button_visible = {
+                check_variable = {
+					var = welcome_page_now
+					value = 1
+					compare = greater_than
+				}
+            }		
+			next_button_visible = {
+                check_variable = {
+					var = welcome_page_now
+					value = welcome_page
+					compare = less_than
+				}
+            }
+			country_desc_1_visible = {
+                check_variable = {
+					var = welcome_page_now
+					value = 1
+					compare = equals
+				}
+            }
+			country_desc_2_visible = {
+                check_variable = {
+					var = welcome_page_now
+					value = 2
+					compare = equals
+				}
+            }
+			country_desc_3_visible = {
+                check_variable = {
+					var = welcome_page_now
+					value = 3
+					compare = equals
+				}
+            }
+        }
+	}
+}

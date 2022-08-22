@@ -1,1107 +1,680 @@
-﻿focus_tree = {
-	id = EER_c1_focus
-	
+focus_tree = {
+	id = EER_First_Focus
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
 			tag = EER
-			#has_dlc = "Together for Victory"
 		}
 	}
 	
 	default = no
-
+	
 	focus = {
-		id = EER_C1_1
-		icon = GFX_goal_generic_consumer_goods
-		x = 10
-		y = 0
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_1_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_2
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_1}
-		relative_position_id = EER_C1_1
-		x = 0
+		id = EER_refugee_influx
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 9
 		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_2_tt
+			custom_effect_tooltip = EER_refugee_influx_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_3
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_2}
-		relative_position_id = EER_C1_2
-		x = -4
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_assessing_the_situation
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_refugee_influx
 		}
-
-		available = {
+		x = 9
+		y = 2
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_3_tt
+			custom_effect_tooltip = EER_assessing_the_situation_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_4
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_2}
-		relative_position_id = EER_C1_2
-		x = 4
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_their_chaos
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_assessing_the_situation
 		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_4_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_5
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_3}
-		relative_position_id = EER_C1_3
-		x = -1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_5_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_6
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_3}
-		relative_position_id = EER_C1_3
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_6_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_7
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_4}
-		relative_position_id = EER_C1_4
-		x = -1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_7_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_8
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_4}
-		relative_position_id = EER_C1_4
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_8_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_9
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_5}
-		relative_position_id = EER_C1_5
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_9_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_10
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_6}
-		relative_position_id = EER_C1_6
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_10_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_11
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_7}
-		relative_position_id = EER_C1_7
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_11_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_12
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_8}
-		relative_position_id = EER_C1_8
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_12_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_13
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_9 }
-		prerequisite = { focus = EER_C1_10 }
-		relative_position_id = EER_C1_9
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_13_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_14
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_11 }
-		prerequisite = { focus = EER_C1_12 }
-		relative_position_id = EER_C1_11
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_14_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_15
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_13 }
-		relative_position_id = EER_C1_13
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_15_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_16
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_14 }
-		relative_position_id = EER_C1_14
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_16_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_17
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_15 }
-		prerequisite = { focus = EER_C1_16 }
-		relative_position_id = EER_C1_15
-		x = 4
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_17_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_18
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_17 }
-		relative_position_id = EER_C1_17
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_18_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_19
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_17 }
-		relative_position_id = EER_C1_17
-		x = -6
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		custom_effect_tooltip = EER_C1_19_tt
-		}
-	}
-
-	focus = {
-		id = EER_C1_20
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_17 }
-		relative_position_id = EER_C1_17
 		x = 6
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
+		y = 3
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_20_tt
+			custom_effect_tooltip = EER_their_chaos_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_21
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_19 }
-		relative_position_id = EER_C1_19
-		x = -1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_condemnation_nightmare_moon
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_their_chaos
 		}
-
-		available = {
+		x = 5
+		y = 4
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_21_tt
+			custom_effect_tooltip = EER_condemnation_nightmare_moon_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_22
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_19 }
-		relative_position_id = EER_C1_19
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_against_authoritarian_ideas
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_condemnation_nightmare_moon
 		}
-
-		available = {
+		x = 5
+		y = 5
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_22_tt
+			custom_effect_tooltip = EER_against_authoritarian_ideas_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_23
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_21 }
-		prerequisite = { focus = EER_C1_22 }
-		relative_position_id = EER_C1_21
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_spreading_friendly_remarks
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_their_chaos
 		}
-
-		available = {
+		x = 7
+		y = 4
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_23_tt
+			custom_effect_tooltip = EER_spreading_friendly_remarks_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_24
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_18 }
-		relative_position_id = EER_C1_18
-		x = -1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_proactive_refugee_reception
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_spreading_friendly_remarks
 		}
-
-		available = {
+		x = 7
+		y = 5
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_24_tt
+			custom_effect_tooltip = EER_proactive_refugee_reception_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_25
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_18 }
-		relative_position_id = EER_C1_18
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_rescue_their_difficulties
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_against_authoritarian_ideas
 		}
-
-		available = {
+		prerequisite = {
+			focus = EER_proactive_refugee_reception
+		}
+		x = 6
+		y = 6
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_25_tt
+			custom_effect_tooltip = EER_rescue_their_difficulties_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_26
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_24 }
-		prerequisite = { focus = EER_C1_25 }
-		relative_position_id = EER_C1_24
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_the_promise_of_peace
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_rescue_their_difficulties
 		}
-
-		available = {
+		x = 6
+		y = 7
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_26_tt
+			custom_effect_tooltip = EER_the_promise_of_peace_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_27
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_20 }
-		relative_position_id = EER_C1_20
-		x = -1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_our_processing
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_assessing_the_situation
 		}
-
-		available = {
+		x = 12
+		y = 3
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_27_tt
+			custom_effect_tooltip = EER_our_processing_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_28
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_20 }
-		relative_position_id = EER_C1_20
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_compulsory_collect_all_food
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_our_processing
 		}
-
-		available = {
+		x = 11
+		y = 4
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_28_tt
+			custom_effect_tooltip = EER_compulsory_collect_all_food_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_29
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_27 }
-		prerequisite = { focus = EER_C1_28 }
-		relative_position_id = EER_C1_27
-		x = 1
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_temporary_rationing
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_compulsory_collect_all_food
 		}
-
-		available = {
+		x = 11
+		y = 5
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_29_tt
+			custom_effect_tooltip = EER_temporary_rationing_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_30
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_23 }
-		prerequisite = { focus = EER_C1_26 }
-		prerequisite = { focus = EER_C1_29 }
-		relative_position_id = EER_C1_26
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_building_refugee_camps
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_our_processing
 		}
-
-		available = {
+		x = 13
+		y = 4
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_30_tt
+			custom_effect_tooltip = EER_building_refugee_camps_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_31
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_30 }
-		relative_position_id = EER_C1_30
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_expansion_of_equality_house
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_building_refugee_camps
 		}
-
-		available = {
+		x = 13
+		y = 5
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_31_tt
+			custom_effect_tooltip = EER_expansion_of_equality_house_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_32
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_31 }
-		relative_position_id = EER_C1_31
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_show_our_friendliness
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_temporary_rationing
 		}
-
-		available = {
+		prerequisite = {
+			focus = EER_expansion_of_equality_house
+		}
+		x = 12
+		y = 6
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		custom_effect_tooltip = EER_C1_32_tt
+			custom_effect_tooltip = EER_show_our_friendliness_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_33
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_32 }
-		relative_position_id = EER_C1_32
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_new_style_of_building
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_for_ponies
 		}
-
-		available = {
+		x = 3
+		y = 10
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		add_political_power = 100
+			custom_effect_tooltip = EER_new_style_of_building_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_34
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_33 }
-		relative_position_id = EER_C1_33
-		x = 0
-		y = 1
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
+		id = EER_for_ponies
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_take_a_breath
 		}
-
-		available = {
+		x = 4
+		y = 9
 		
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
 		completion_reward = {
-		add_war_support = 0.1
+			custom_effect_tooltip = EER_for_ponies_tt
 		}
 	}
-
 	focus = {
-		id = EER_C1_35
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = EER_C1_34 }
-		relative_position_id = EER_C1_34
-		x = 0
-		y = 1
-
+		id = EER_take_a_breath
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_the_promise_of_peace
+		}
+		prerequisite = {
+			focus = EER_the_promise_of_home
+		}
+		x = 9
+		y = 8
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_take_a_breath_tt
+		}
+	}
+	focus = {
+		id = EER_the_promise_of_home
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_show_our_friendliness
+		}
+		x = 12
+		y = 7
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_the_promise_of_home_tt
+		}
+	}
+	focus = {
+		id = EER_for_equality
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_take_a_breath
+		}
+		x = 9
+		y = 9
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_for_equality_tt
+		}
+	}
+	focus = {
+		id = EER_pause_to_eliminate_cutie_mark
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_for_ponies
+		}
+		x = 5
+		y = 10
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_pause_to_eliminate_cutie_mark_tt
+		}
+	}
+	focus = {
+		id = EER_build_new_town
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_new_style_of_building
+		}
+		prerequisite = {
+			focus = EER_pause_to_eliminate_cutie_mark
+		}
+		x = 4
+		y = 11
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_build_new_town_tt
+		}
+	}
+	focus = {
+		id = EER_promotion_of_equality_ideas
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_for_equality
+		}
+		x = 8
+		y = 10
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_promotion_of_equality_ideas_tt
+		}
+	}
+	focus = {
+		id = EER_refining_equality_thinking
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_for_equality
+		}
+		x = 10
+		y = 10
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_refining_equality_thinking_tt
+		}
+	}
+	focus = {
+		id = EER_building_an_egalitarian_system
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_promotion_of_equality_ideas
+		}
+		prerequisite = {
+			focus = EER_refining_equality_thinking
+		}
+		x = 9
+		y = 11
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_building_an_egalitarian_system_tt
+		}
+	}
+	focus = {
+		id = EER_get_ready
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_building_an_egalitarian_system
+		}
+		prerequisite = {
+			focus = EER_establishment_staff_of_equality
+		}
+		prerequisite = {
+			focus = EER_build_new_town
+		}
+		x = 9
+		y = 12
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_get_ready_tt
+		}
+	}
+	focus = {
+		id = EER_for_the_future
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_take_a_breath
+		}
+		x = 14
+		y = 9
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_for_the_future_tt
+		}
+	}
+	focus = {
+		id = EER_watch_out_for_enemies
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_for_the_future
+		}
+		x = 13
+		y = 10
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_watch_out_for_enemies_tt
+		}
+	}
+	focus = {
+		id = EER_alert_to_infiltration
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_for_the_future
+		}
+		x = 15
+		y = 10
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_alert_to_infiltration_tt
+		}
+	}
+	focus = {
+		id = EER_establishment_staff_of_equality
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_watch_out_for_enemies
+		}
+		prerequisite = {
+			focus = EER_alert_to_infiltration
+		}
+		x = 14
+		y = 11
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_establishment_staff_of_equality_tt
+		}
+	}
+	focus = {
+		id = EER_building_an_equal_state
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_get_ready
+		}
+		x = 9
+		y = 13
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_building_an_equal_state_tt
+		}
+	}
+	focus = {
+		id = EER_establishing_emancipation_programs
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = EER_building_an_equal_state
+		}
+		x = 9
+		y = 14
+		
+		completion_reward = {
+			custom_effect_tooltip = EER_establishing_emancipation_programs_tt
+		}
+	}
+	focus = {
+		id = EER_chairmans_speech
+		icon = GFX_goal_unknown
 		cost = 2
+		prerequisite = {
+			focus = EER_establishing_emancipation_programs
+		}
+		x = 9
+		y = 15
 
 		ai_will_do = {
 			factor = 1
 		}
-
-		available = {
-		EOM = {has_war = yes}
-		EQU = {has_war = yes}
+		
+		completion_reward = {
+			country_event = EER_events.final_mobilization
+		}
+	}
+	focus = {
+		id = EER_enhanced_weapons_production
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_chairmans_speech
+		}
+		mutually_exclusive = {
+			focus = EER_expanded_staff
+		}
+		x = 8
+		y = 16
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
-		bypass = {
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = EER_focus_the_battlefield
+				days = 360
+			}
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
+	}
+	focus = {
+		id = EER_expanded_staff
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_chairmans_speech
+		}
+		mutually_exclusive = {
+			focus = EER_enhanced_weapons_production
+		}
+		x = 10
+		y = 16
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = EER_focus_the_plan
+				days = 360
+			}
+		}
+	}
+	focus = {
+		id = EER_equality_arsenal
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_chairmans_speech
+		}
+		x = 6
+		y = 16
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			304 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_secure_resupply_lines
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_chairmans_speech
+		}
+		x = 12
+		y = 16
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			266 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes				
+				}
+			}
+			337 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EER_everything_is_ready
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_enhanced_weapons_production
+			focus = EER_expanded_staff
+		}
+		prerequisite = {
+			focus = EER_equality_arsenal
+		}
+		x = 7
+		y = 17
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = EER
+			}
+		}
+	}
+	focus = {
+		id = EER_all_thats_missing_is_the_east_wind
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_enhanced_weapons_production
+			focus = EER_expanded_staff
+		}
+		prerequisite = {
+			focus = EER_secure_resupply_lines
+		}
+		x = 11
+		y = 17
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = EER_open_the_door
+	
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = EER_everything_is_ready
+		}
+		prerequisite = {
+			focus = EER_all_thats_missing_is_the_east_wind
+		}
+		x = 9
+		y = 18
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+			EOM = {has_war = yes}
+			EQU = {has_war = yes}
+		}
+		
 		completion_reward = {
 			custom_effect_tooltip = EER_civil_war_c1
+			
 			hidden_effect={
 				declare_war_on = {
 					target = EOM
@@ -1116,22 +689,16 @@
 					type = take_claimed_state
 				}
 				EOM = {
-						create_wargoal = { target = EER type = civil_war }
-					}
-					EQU = {
-						create_wargoal = { target = EER type = civil_war }
-					}
+					create_wargoal = { target = EER type = civil_war }
+				}
+				EQU = {
+					create_wargoal = { target = EER type = civil_war }
+				}
 			}
 
 			country_event = EER_events.1
 			custom_effect_tooltip = EER_change_to_c_2
-			hidden_effect={load_focus_tree = EER_c2_focus}
+			hidden_effect={load_focus_tree = EER_Second_Stage}
 		}
-		
 	}
-
-	
-
-	
-
-}		
+}

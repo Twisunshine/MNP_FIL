@@ -11,7 +11,14 @@ ideas = {
 
 			cost = 150
 			removal_cost = -1
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			modifier = {
 				consumer_goods_factor = 0.4
 				stability_factor = 0.15
@@ -32,7 +39,14 @@ ideas = {
 			available = {
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -65,7 +79,14 @@ ideas = {
 			available = {
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			cost = 150
 			removal_cost = -1
 
@@ -95,7 +116,14 @@ ideas = {
 			available = {
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			cost = 150
 			removal_cost = -1
 
@@ -129,6 +157,14 @@ ideas = {
 				has_war = yes
 
 			}
+			available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			ai_will_do = {
    				factor = 1
@@ -161,6 +197,14 @@ ideas = {
 
 			}
                cost = 150
+			   available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 
 			removal_cost = -1
@@ -189,7 +233,14 @@ ideas = {
 				has_war_support > 0.7
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 
 			removal_cost = -1
@@ -212,7 +263,14 @@ ideas = {
 		}
 				undisturbed_isolation = {
 
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			allowed = {
 				always = no
 			}
@@ -251,7 +309,14 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			modifier = {
 				consumer_goods_factor = 0.4
 				production_speed_industrial_complex_factor = -0.4
@@ -295,11 +360,18 @@ ideas = {
 				   has_stability > 0.5
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			modifier = {
 				min_export = 0.6
 				stability_factor = -0.1
-				industrial_capacity_factory = 0.15
+				industrial_capacity_factory = 0.2
 				research_speed_factor = 0.05
 				production_speed_buildings_factor = 0.1
 			}
@@ -316,7 +388,14 @@ ideas = {
 			available = {
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			cost = 150
 			removal_cost = -1
 
@@ -342,7 +421,14 @@ ideas = {
 
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -370,7 +456,14 @@ ideas = {
 			available = {
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			cost = 150
 			removal_cost = -1
 
@@ -394,7 +487,14 @@ ideas = {
 			available = {
 
 			}
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			cost = 150
 			removal_cost = -1
 
@@ -423,7 +523,14 @@ ideas = {
 		use_list_view = yes
 
 		Laissez_faire = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -439,7 +546,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		guidance_only = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -455,7 +569,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 			public_private_partnership = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -471,7 +592,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		 macro_adjustment = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -487,7 +615,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		government_plan = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			available = {
 
@@ -515,7 +650,14 @@ ideas = {
 		}
 				fully_control = {
 
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			available = {
 
 				or = {
@@ -546,7 +688,14 @@ ideas = {
 		use_list_view = yes
 
 		male_only = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -561,7 +710,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		all_adults = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
@@ -577,13 +733,20 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		Women_and_Children_Logistics = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 			cost = 150
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.2
+				conscription_factor = 0.25
 				army_attack_factor = -0.05
 				research_speed_factor = -0.15
 				monthly_population = -0.15
@@ -594,7 +757,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		Women_and_Children_Auxiliary_Army = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			
 			available = {
                    has_war_support > 0.5
@@ -606,7 +776,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.3
+				conscription_factor = 0.35
 				army_attack_factor = -0.2
 				research_speed_factor = -0.2
 				monthly_population = -0.25
@@ -617,7 +787,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		Indiscriminate_conscription = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			
 			available = {
                    has_war_support > 0.8
@@ -645,7 +822,14 @@ ideas = {
 		use_list_view = yes
 
 		no_difference_slave = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			available = {
                   or = {
 					has_government = dictatorshipism
@@ -671,7 +855,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		No_guarantee = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 			available = {
                   or = {
 					has_government = fascism
@@ -697,7 +888,14 @@ ideas = {
 		}
 		restricted_citizenship = {
 
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 
 			cost = 150
@@ -715,7 +913,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		basic_citizenship = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 
 
@@ -731,7 +936,14 @@ ideas = {
 		}
 			sound_citizenship = {
 
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 
 			cost = 150
@@ -749,7 +961,14 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		light_of_the_world = {
-
+available = {
+			if = { 
+					limit = { original_tag = EER }
+					NOT = { 
+						has_country_flag = EER_cannot_change_laws_1 
+					}
+				}
+		}
 
 
 

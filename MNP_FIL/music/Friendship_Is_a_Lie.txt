@@ -1,7 +1,7 @@
 music_station = "FIL_music_station"
 
 music = {
-song = "FIL_Main_Theme"
+	song = "FIL_Main_Theme"
 }
 
 music = {
@@ -12,6 +12,19 @@ music = {
 
 		modifier = {
 			tag = EER
+			factor = 20
+		}
+	}
+}
+
+music = {
+	song = "Farewell_Celestia"
+
+	chance = {
+		factor = 0
+
+		modifier = {
+			tag = EQU
 			factor = 20
 		}
 	}

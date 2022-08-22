@@ -7,4 +7,12 @@ opinion_modifiers = {
 	friendly_diplomacy = {
 		value = 100
 	}
+	#与平等国交易
+	SRG_trading_with_EER = {
+		value = 50
+	}
+	#与狮鹫统一战线交易
+	EER_trading_with_SRG = {
+		value = 50
+	}
 }

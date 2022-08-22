@@ -1,0 +1,5 @@
+music_station = "FIL_music_station_sup"
+
+music = {
+	song = "FIL_Main_Theme"
+}

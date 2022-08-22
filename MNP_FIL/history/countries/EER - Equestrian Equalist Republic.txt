@@ -3,7 +3,7 @@
 oob = "EER_1004"
 
 set_research_slots = 3
-set_stability = 0.5
+set_stability = 0.9
 set_war_support = 0.5
 
 # Starting tech
@@ -54,12 +54,12 @@ add_ideas = {
 		large_scale_farming
 		more_popular
 		Flaws_do_not_hide_beauty
-		Universal_education
-		quite_satisfactory
+		Basic_education
+		straggler
 		extensive_conscription
 		war_economy
-		free_trade
-		public_private_partnership
+		limited_exports
+		fully_control
 		male_only
 		basic_citizenship
 		EER_the_refugee_flows_1
@@ -77,41 +77,43 @@ recruit_character = EER_Party_Favor
 recruit_character = EER_Trixie_Lulamoon
 recruit_character = EER_Sugar_Belle
 recruit_character = EER_Night_Glider
+recruit_character = EER_Feather_Bangs
 
 recruit_character = EER_Twisunshine_Intelligent
 recruit_character = EER_Coco_Pommel
+recruit_character = EER_Silver_Shill
 
 
 
-complete_national_focus = EER_C1_1
-complete_national_focus = EER_C1_2
-complete_national_focus = EER_C1_3
-complete_national_focus = EER_C1_4
-complete_national_focus = EER_C1_5
-complete_national_focus = EER_C1_6
-complete_national_focus = EER_C1_7
-complete_national_focus = EER_C1_8
-complete_national_focus = EER_C1_9
-complete_national_focus = EER_C1_10
-complete_national_focus = EER_C1_11
-complete_national_focus = EER_C1_12
-complete_national_focus = EER_C1_13
-complete_national_focus = EER_C1_14
-complete_national_focus = EER_C1_15
-complete_national_focus = EER_C1_16
-complete_national_focus = EER_C1_17
-complete_national_focus = EER_C1_18
-complete_national_focus = EER_C1_19
-complete_national_focus = EER_C1_20
-complete_national_focus = EER_C1_21
-complete_national_focus = EER_C1_22
-complete_national_focus = EER_C1_23
-complete_national_focus = EER_C1_24
-complete_national_focus = EER_C1_25
-complete_national_focus = EER_C1_26
-complete_national_focus = EER_C1_27
-complete_national_focus = EER_C1_28
-complete_national_focus = EER_C1_29
-complete_national_focus = EER_C1_30
-complete_national_focus = EER_C1_31
-complete_national_focus = EER_C1_32
+complete_national_focus = EER_refugee_influx
+complete_national_focus = EER_assessing_the_situation
+complete_national_focus = EER_their_chaos
+complete_national_focus = EER_condemnation_nightmare_moon
+complete_national_focus = EER_against_authoritarian_ideas
+complete_national_focus = EER_spreading_friendly_remarks
+complete_national_focus = EER_proactive_refugee_reception
+complete_national_focus = EER_rescue_their_difficulties
+complete_national_focus = EER_the_promise_of_peace
+complete_national_focus = EER_our_processing
+complete_national_focus = EER_compulsory_collect_all_food
+complete_national_focus = EER_temporary_rationing
+complete_national_focus = EER_building_refugee_camps
+complete_national_focus = EER_expansion_of_equality_house
+complete_national_focus = EER_show_our_friendliness
+complete_national_focus = EER_new_style_of_building
+complete_national_focus = EER_for_ponies
+complete_national_focus = EER_take_a_breath
+complete_national_focus = EER_the_promise_of_home
+complete_national_focus = EER_for_equality
+complete_national_focus = EER_pause_to_eliminate_cutie_mark
+complete_national_focus = EER_build_new_town
+complete_national_focus = EER_promotion_of_equality_ideas
+complete_national_focus = EER_refining_equality_thinking
+complete_national_focus = EER_building_an_egalitarian_system
+complete_national_focus = EER_get_ready
+complete_national_focus = EER_for_the_future
+complete_national_focus = EER_watch_out_for_enemies
+complete_national_focus = EER_alert_to_infiltration
+complete_national_focus = EER_establishment_staff_of_equality
+complete_national_focus = EER_building_an_equal_state
+complete_national_focus = EER_establishing_emancipation_programs

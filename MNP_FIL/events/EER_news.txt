@@ -6,85 +6,107 @@ news_event = {
 	title = EER_news_events.1.t
 	desc = EER_news_events.1.d
 	picture = GFX_news_event_EEE_war
-	
+
 	major = yes
-	
-	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-			
-    option={
-	name = EER_news_events.1.tt
-	#custom_effect_tooltip = EER_news_events_1_tt
-	ai_chance = {
-		factor = 5
+	hidden = no
+
+  option={
+		name = EER_news_events.1.tt
+		#custom_effect_tooltip = EER_news_events_1_tt
+		ai_chance = {
+			factor = 5
 		}
-	trigger = {
-	    NOT={
-		    OR = {
-	            tag=EER
-				tag=EQU
-				tag=EOM
-				tag=CLK
+		trigger = {
+			NOT={
+				OR = {
+					tag=EER
+					tag=EQU
+					tag=EOM
+					tag=CLK
 				}
 			}
-	    }	
-					hidden_effect = {
-			country_event = {  id = fil_superevents.1 }
+			tag = eer
+	  }
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = fil_superevents.1 }
+			}
+		}
+  }
+  option={
+		name = EER_news_events.1eer.tt
+		#custom_effect_tooltip = EER_news_events_1eer_tt
+		ai_chance = {
+			factor = 5
+			}
+		trigger = {tag=EER}
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = fil_superevents.1 }
+			}
+		}
+  }
 
+  option={
+		name = EER_news_events.1equ.tt
+		#custom_effect_tooltip = EER_news_events_1equ_tt
+		ai_chance = {
+			factor = 5
 		}
-    }
-    option={
-	name = EER_news_events.1eer.tt
-	#custom_effect_tooltip = EER_news_events_1eer_tt
-	ai_chance = {
-		factor = 5
+		trigger = {
+			tag=EQU
 		}
-	trigger = {tag=EER}	
-			hidden_effect = {
-			country_event = {  id = fil_superevents.1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = fil_superevents.1 }
+			}
+		}
+  }
 
+  option={
+		name = EER_news_events.1eom.tt
+		#custom_effect_tooltip = EER_news_events_1eom_tt
+		ai_chance = {
+			factor = 5
 		}
-    }
-	
-    option={
-	name = EER_news_events.1equ.tt
-	#custom_effect_tooltip = EER_news_events_1equ_tt
-	ai_chance = {
-		factor = 5
+		trigger = {tag=EOM}
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = fil_superevents.1 }
+			}
 		}
-	trigger = {tag=EQU}	
-			hidden_effect = {
-			country_event = {  id = fil_superevents.1 }
+  }
 
+  option={
+		name = EER_news_events.1clk.tt
+		#custom_effect_tooltip = EER_news_events_1clk_tt
+		ai_chance = {
+			factor = 5
 		}
-    }
-	
-    option={
-	name = EER_news_events.1eom.tt
-	#custom_effect_tooltip = EER_news_events_1eom_tt
-	ai_chance = {
-		factor = 5
+		trigger = {tag=CLK}
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = fil_superevents.1 }
+			}
 		}
-	trigger = {tag=EOM}	
-			hidden_effect = {
-			country_event = {  id = fil_superevents.1 }
-
-		}
-    }
-	
-    option={
-	name = EER_news_events.1clk.tt
-	#custom_effect_tooltip = EER_news_events_1clk_tt
-	ai_chance = {
-		factor = 5
-		}
-	trigger = {tag=CLK}	
-			hidden_effect = {
-			country_event = {  id = fil_superevents.1 }
-
-		}
-    }	
+  }
 }
 
 news_event = {
@@ -92,35 +114,58 @@ news_event = {
 	title = EER_news_events.2.a
 	desc = EER_news_events.2.b
 	picture = GFX_news_event_starlight_eqs
-	
+
 	major = yes
-	
+
     is_triggered_only = yes
 		fire_only_once = yes
-    
+
 
 	option = {
 		name = EER_news_events.2.c
-		trigger = {tag=EER}	
-		hidden_effect = {
-			country_event = {  id = fil_superevents.2 }
-
+		trigger = {
+			tag=EER
 		}
-
 	}
 		option = {
 		name = EER_news_events.2.d
 		trigger = {
-		NOT = {
+			NOT = {
+				tag=EER
+			}
+		}
+	}
+
+}
+
+news_event = {
+	id = EER_news_events.3
+	title = EER_news_events.3.a
+	desc = EER_news_events.3.b
+	picture = GFX_news_event_starlight_eqs
+
+	major = yes
+    is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = EER_news_events.3.c
+		trigger = {
 			tag=EER
 		}
+		subtract_from_variable = {
+			var = EER_financial_crisis_value
+			value = 10
 		}
-
-		hidden_effect = {
-			country_event = {  id = fil_superevents.2 }
-
+		custom_effect_tooltip = EER_solving_financial_crisis_sub_10
+	}
+	option = {
+		name = EER_news_events.3.d
+		trigger = {
+			NOT = {
+				tag=EER
+			}
 		}
 
 	}
-
 }

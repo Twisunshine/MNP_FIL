@@ -1,33 +1,48 @@
 add_namespace = fil_superevents
 
+#马国内战
 country_event = {
 	id = fil_superevents.1
 	hidden = yes
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		trigger = { NOT = { has_global_flag = fil_super_event_flag_eee_war_off } }
+		trigger = { 
+			NOT = { 
+				has_global_flag = fil_super_event_flag_eee_war_off 
+			} 
+		}
 		set_global_flag = fil_super_event_flag_eee_war
 	}
 	option = {
-		trigger = { has_global_flag = fil_super_event_flag_eee_war_off }
+		trigger = { 
+			has_global_flag = fil_super_event_flag_eee_war_off 
+		}
 	}
 }
 
+#星光线统一
 country_event = {
 	id = fil_superevents.2
 	hidden = yes
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		trigger = { NOT = { has_global_flag = fil_super_event_flag_starlight_eqs_off } }
+		trigger = { 
+			NOT = { 
+				has_global_flag = fil_super_event_flag_starlight_eqs_off 
+			} 
+		}
 		set_global_flag = fil_super_event_flag_starlight_eqs
 	}
 	option = {
-		trigger = { has_global_flag = fil_super_event_flag_starlight_eqs_off }
+		trigger = { 
+			has_global_flag = fil_super_event_flag_starlight_eqs_off 
+		}
 	}
 }
 
+#喵喵王统一南大陆
 country_event = {
 	id = fil_superevents.3
 	hidden = yes
@@ -35,10 +50,38 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		trigger = { NOT = { has_global_flag = fil_super_event_flag_Meowmeow_King_off } }
+		trigger = { 
+			NOT = { 
+				has_global_flag = fil_super_event_flag_Meowmeow_King_off 
+			} 
+		}
 		set_global_flag = fil_super_event_flag_Meowmeow_King
 	}
 	option = {
-		trigger = { has_global_flag = fil_super_event_flag_Meowmeow_King_off }
+		trigger = { 
+			has_global_flag = fil_super_event_flag_Meowmeow_King_off 
+		}
+	}
+}
+
+#平等的永恒 (星光线结局)
+country_event = {
+	id = fil_superevents.4
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { 
+			NOT = { 
+				has_global_flag = fil_super_event_flag_Eternity_of_Equality_off
+			} 
+		}
+		set_global_flag = fil_super_event_flag_Eternity_of_Equality
+	}
+	option = {
+		trigger = { 
+			has_global_flag = fil_super_event_flag_Eternity_of_Equality_off
+		}
 	}
 }

@@ -6,3 +6,7 @@ music = {
 	name = "In_Our_Town"
 	file = "In Our Town.ogg"
 }
+music = {
+	name = "Farewell_Celestia"
+	file = "Farewell, Celestia.ogg"
+}

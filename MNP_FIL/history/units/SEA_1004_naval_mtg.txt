@@ -1,0 +1,65 @@
+units = {
+	fleet = {
+		name = "骏鹰第一海军"			
+		naval_base = 3728
+		task_force = {
+			name = "骏鹰第一驱逐群"
+			location = 3728			
+			ship = { 
+				name = "第一狂风级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "狂风级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第二狂风级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "狂风级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第三狂风级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "狂风级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第四狂风级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "狂风级"
+					}
+				} 
+			}
+			ship = { 
+				name = "第五狂风级驱逐舰" 
+				definition = destroyer
+				equipment = { 
+					ship_hull_light_1 = {
+						amount = 1
+						owner = STO
+						version_name = "狂风级"
+					}
+				} 
+			}
+		}				
+	}				
+}

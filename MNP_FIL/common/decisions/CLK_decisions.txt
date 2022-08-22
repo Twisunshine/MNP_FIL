@@ -57,7 +57,7 @@ activation = {
 				country_event = EER_events.5
 			}
 			add_popularity = { ideology = liberal_democracy popularity = 0.35 }
-			country_event = CLK_Thorax_coup
+			country_event = CLK_events.1
 		}
 
 
@@ -84,13 +84,13 @@ CLK_Thorax_rebellion = {
 				var = CLK_Thorax_rebellion
 				value = 60
 			}
-			add_to_variable = { CLK_Thorax_rebellion_stability_factor = -0.18 }
-			add_to_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.18 }
-			add_to_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.3 }
-			add_to_variable = { CLK_Thorax_rebellion_monthly_population = -0.12 }
-			add_to_variable = { CLK_Thorax_rebellion_compliance_growth = -0.0009 }
-			add_to_variable = { CLK_Thorax_rebellion_resistance_target = 0.24 }
-			add_to_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.30 }
+			set_variable = { CLK_Thorax_rebellion_stability_factor = -0.18 }
+			set_variable = { CLK_Thorax_rebellion_war_support_factor  = -0.18 }
+			set_variable = { CLK_Thorax_rebellion_political_power_cost  = 0.3 }
+			set_variable = { CLK_Thorax_rebellion_monthly_population = -0.12 }
+			set_variable = { CLK_Thorax_rebellion_compliance_growth = -0.0009 }
+			set_variable = { CLK_Thorax_rebellion_resistance_target = 0.24 }
+			set_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.30 }
             set_country_flag = CLK_Thorax_rebellion_unlocked
         }
     }
