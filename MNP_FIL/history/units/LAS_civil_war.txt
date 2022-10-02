@@ -1,0 +1,172 @@
+division_template = {
+	name = "天马维加斯步兵师"
+
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+                                infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+       artillery = { x = 0 y = 0 }
+       engineer = { x = 0 y = 1 }
+	}
+}
+units = {
+
+division= {	
+		name =  "天马维加斯第一步兵师"
+		location = 1281
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "天马维加斯第二步兵师"
+		location = 1281
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "天马维加斯第三步兵师"
+		location = 6161
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.5
+	}
+division= {	
+		name =  "天马维加斯第四步兵师"
+		location = 2553
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "天马维加斯第五步兵师"
+		location = 1896
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+division= {	
+		name =  "天马维加斯第六步兵师"
+		location = 2530
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name =  "天马维加斯第七步兵师"
+		location = 2530
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name =  "天马维加斯第八步兵师"
+		location = 2530
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name =  "天马维加斯第九步兵师"
+		location = 252
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name =  "天马维加斯第十步兵师"
+		location = 252
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.6
+	}
+	division= {	
+		name =  "天马维加斯第十一步兵师"
+		location = 252
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name =  "天马维加斯第十二步兵师"
+		location = 252
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "天马维加斯第十三步兵师"
+		location = 4236
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "天马维加斯第十四步兵师"
+		location = 3179
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name =  "天马维加斯第十五步兵师"
+		location = 3556
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name =  "天马维加斯第十六步兵师"
+		location = 3556
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name =  "天马维加斯第十七步兵师"
+		location = 6221
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name =  "天马维加斯第十八步兵师"
+		location = 3071
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name =  "天马维加斯第十九步兵师"
+		location = 1716
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name =  "天马维加斯第二十步兵师"
+		location = 3044
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "天马维加斯第二十一步兵师"
+		location = 3044
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "天马维加斯第二十二步兵师"
+		location = 7565
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name =  "天马维加斯第二十三步兵师"
+		location = 5059
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.1
+	}
+
+division= {	
+		name =  "天马维加斯第二十四步兵师"
+		location = 5059
+		division_template = "天马维加斯步兵师"
+		start_experience_factor = 0.7
+	}
+
+
+}

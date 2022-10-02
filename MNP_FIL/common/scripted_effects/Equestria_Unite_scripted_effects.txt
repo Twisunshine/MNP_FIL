@@ -1,0 +1,52 @@
+add_EQU_territory = { 
+	every_state = {
+		limit = {
+			is_core_of = EQU
+		}
+		add_core_of = THIS
+    }
+}
+
+add_EOM_territory = {
+	every_state = {
+		limit = {
+			is_core_of = EOM
+		}
+		add_core_of = THIS
+    }
+}
+
+add_EER_territory = { 
+	every_state = {
+		limit = {
+			is_core_of = EER
+		}
+		add_core_of = THIS
+    }	
+}
+
+add_CLK_pony_territory = {
+	add_state_core = 332
+	add_state_core = 458
+	add_state_core = 401
+	add_state_core = 409
+	add_state_core = 384
+	add_state_core = 352
+	add_state_core = 406
+	add_state_core = 349
+	add_state_core = 393
+	add_state_core = 368
+	add_state_core = 158
+	add_state_core = 340
+	add_state_core = 381
+	add_state_core = 423	
+}
+
+add_CRY_territory = { 
+	every_state = {
+		limit = {
+			is_core_of = CRY
+		}
+		add_core_of = THIS
+    }	
+}

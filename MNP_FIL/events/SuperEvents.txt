@@ -85,3 +85,47 @@ country_event = {
 		}
 	}
 }
+
+# 月之帝国统一
+country_event = {
+	id = fil_superevents.5
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { 
+			NOT = { 
+				has_global_flag = fil_super_event_flag_EOM_Unite_off
+			} 
+		}
+		set_global_flag = fil_super_event_flag_EOM_Unite
+	}
+	option = {
+		trigger = { 
+			has_global_flag = fil_super_event_flag_EOM_Unite_off
+		}
+	}
+}
+
+# 临时政府统一
+country_event = {
+	id = fil_superevents.6
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { 
+			NOT = { 
+				has_global_flag = fil_super_event_flag_EQU_Unite_off
+			} 
+		}
+		set_global_flag = fil_super_event_flag_EQU_Unite
+	}
+	option = {
+		trigger = { 
+			has_global_flag = fil_super_event_flag_EQU_Unite_off
+		}
+	}
+}

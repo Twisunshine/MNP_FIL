@@ -100,6 +100,212 @@ ideas = {
                research_speed_factor = 0.05
             }
         }
+        #破釜沉舟
+        EQU_burn_one_is_boats = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_burn_one_is_boats
+
+            modifier = {
+               army_attack_factor = 0.15
+            }
+        }
+        #兵工厂项目
+        EQU_Arms_Factory_Project_1 = {
+            name = EQU_Arms_Factory_Project
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Arms_Factory_Project_1
+
+            modifier = {
+               production_speed_buildings_factor = 0.1
+            }
+        }
+         EQU_Arms_Factory_Project_2 = {
+            name = EQU_Arms_Factory_Project
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Arms_Factory_Project_2
+
+            modifier = {
+               production_speed_buildings_factor = 0.1
+               industrial_capacity_factory = 0.1
+            }
+        }
+        #马哈顿军校
+        EQU_Manehattan_Military_academy_1 = {
+            name = EQU_Manehattan_Military_academy
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Manehattan_Military_academy_1
+
+            modifier = {
+               training_time_army_factor = 0.1
+               max_planning = 0.1
+               experience_gain_army_factor = 0.1
+            }
+        }
+         EQU_Manehattan_Military_academy_2 = {
+            name = EQU_Manehattan_Military_academy
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Manehattan_Military_academy_2
+
+            modifier = {
+              training_time_army_factor = 0.1
+               max_planning = 0.1
+               experience_gain_army_factor = 0.1
+               army_org_factor = 0.05
+               org_loss_when_moving = -0.1
+            }
+        }
+        #平判热情
+        EQU_Counter_insurgency_enthusiasm = {
+            allowed = {
+                original_tag = EQU
+            }
+            cancel = {
+			not = { country_exists = EOM }
+			}
+
+            removal_cost = -1
+            picture = EQU_Counter_insurgency_enthusiasm
+
+           targeted_modifier = {
+		  tag = EOM
+		  attack_bonus_against = 0.1
+		 
+	}
+        }
+        #抗击入侵
+        EQU_Fight_against_the_invasion = {
+            allowed = {
+                original_tag = EQU
+            }
+            cancel = {
+			not = { country_exists = CLK }
+			}
+
+            removal_cost = -1
+            picture = EQU_Fight_against_the_invasion
+
+           targeted_modifier = {
+		  tag = CLK
+		  attack_bonus_against = 0.1
+		 
+	}
+            modifier = {
+          civilian_intel_to_others = -10
+          army_intel_to_others = -10
+          navy_intel_to_others = -10
+          airforce_intel_to_others = -10
+
+            }
+        }
+        #倾斜研究
+        EQU_tilt_research = {
+            allowed = {
+                original_tag = EQU
+            }
+           
+
+            removal_cost = -1
+            picture = EQU_tilt_research
+
+            modifier = {
+          political_power_factor = -0.2
+          industrial_capacity_factory = -0.15
+          research_speed_factor = 0.02
+
+            }
+        }
+         #穿插战术
+        EQU_Interspersed_tactics = {
+            allowed = {
+                original_tag = EQU
+            }
+           
+
+            removal_cost = -1
+            picture = EQU_Interspersed_tactics
+
+            modifier = {
+          no_supply_grace = 72
+
+            }
+        }
+        #平推战术
+        EQU_Flat_push_tactics = {
+            allowed = {
+                original_tag = EQU
+            }
+           
+
+            removal_cost = -1
+            picture = EQU_Flat_push_tactics
+
+            modifier = {
+          planning_speed = 0.1
+
+            }
+        }
+        #兜底战术
+        EQU_Bottom_line_tactics = {
+            allowed = {
+                original_tag = EQU
+            }
+           
+
+            removal_cost = -1
+            picture = EQU_Bottom_line_tactics
+
+            modifier = {
+				breakthrough_factor = 0.1
+            }
+        }
         
-}
+		#反平等主义热情
+        EQU_Anti_egalitarian_fervour = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Anti_egalitarian_fervour
+
+            targeted_modifier = {
+				tag = EER
+				attack_bonus_against = 0.1
+			}
+        }
+		
+		#微型蓝水海军
+        EQU_Small_bluewater_navy = {
+            allowed = {
+                original_tag = EQU
+            }
+
+            removal_cost = -1
+            picture = EQU_Anti_egalitarian_fervour
+
+            modifier = {
+				navy_screen_attack_factor = 0.1
+			}
+        }
+	}
 }

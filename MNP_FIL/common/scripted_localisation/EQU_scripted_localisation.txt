@@ -1,0 +1,779 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { 
+	name = GetFriendsdeadoralivetsName
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			not = {
+				has_country_flag = EQU_TS_friends_gone_TS
+			}
+		}
+		localization_key = EQU_TS_friends_alive
+	}
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			has_country_flag = EQU_TS_friends_gone_TS
+		}
+		localization_key = EQU_TS_friends_dead_TS
+	}
+	
+}
+defined_text = { 
+	name = GetFriendsdeadoraliverrName
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			not = {
+				has_country_flag = EQU_TS_friends_gone_RR
+			}
+		}
+		localization_key = EQU_TS_friends_alive
+	}
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			has_country_flag = EQU_TS_friends_gone_RR
+		}
+		localization_key = EQU_TS_friends_dead_RR
+	}
+	
+}
+defined_text = { 
+	name = GetFriendsdeadoraliverdName
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			not = {
+				has_country_flag = EQU_TS_friends_gone_RD
+			}
+		}
+		localization_key = EQU_TS_friends_alive
+	}
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			has_country_flag = EQU_TS_friends_gone_RD
+		}
+		localization_key = EQU_TS_friends_dead_RD
+	}
+	
+}
+defined_text = { 
+	name = GetFriendsdeadoraliveajName
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			not = {
+				has_country_flag = EQU_TS_friends_gone_AJ
+			}
+		}
+		localization_key = EQU_TS_friends_alive
+	}
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			has_country_flag = EQU_TS_friends_gone_AJ
+		}
+		localization_key = EQU_TS_friends_dead_AJ
+	}
+	
+}
+defined_text = { 
+	name = GetFriendsdeadoraliveppName
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			not = {
+				has_country_flag = EQU_TS_friends_gone_PP
+			}
+		}
+		localization_key = EQU_TS_friends_alive
+	}
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			has_country_flag = EQU_TS_friends_gone_PP
+		}
+		localization_key = EQU_TS_friends_dead_PP
+	}
+	
+}
+defined_text = { 
+	name = GetFriendsdeadoralivefsName
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			not = {
+				has_country_flag = EQU_TS_friends_gone_FS
+			}
+		}
+		localization_key = EQU_TS_friends_alive
+	}
+	text = {
+		trigger = {
+			or = {
+			original_tag = EQU
+			original_tag = LAS
+			}
+			has_country_flag = EQU_TS_friends_gone_FS
+		}
+		localization_key = EQU_TS_friends_dead_FS
+	}
+	
+}
+defined_text = { 
+	name = GettsandhuaName
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP > 59
+                   }
+		}
+		localization_key = EQU_TS_and_FP_1
+	}
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP > 49
+                   }
+		}
+		localization_key = EQU_TS_and_FP_2
+	}
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP > 39
+                   }
+		}
+		localization_key = EQU_TS_and_FP_3
+	}
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP > 29
+                   }
+		}
+		localization_key = EQU_TS_and_FP_4
+	}
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP > 19
+                   }
+		}
+		localization_key = EQU_TS_and_FP_5
+	}
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP > 9
+                   }
+		}
+		localization_key = EQU_TS_and_FP_6
+	}
+	text = {
+		trigger = {
+			original_tag = EQU
+			check_variable = {
+                  EQU_TS_and_FP < 10
+                   }
+		}
+		localization_key = EQU_TS_and_FP_7
+	}
+	
+	
+}
+
+defined_text = {
+	name = EQU_Take_power_vlaue_1
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_2
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 10
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 10
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_3
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 15
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 15
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_4
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 20
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 20
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_5
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 25
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 25
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_6
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 30
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 30
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_7
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 35
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 35
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_8
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 40
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 40
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_9
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 45
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 45
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_10
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 50
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 50
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_11
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 55
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 55
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_12
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 60
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 60
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_13
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 65
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 65
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_14
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 70
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 70
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_15
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 75
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 75
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_16
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 80
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 80
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_17
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 85
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 85
+					compare = less_than
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_18
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 90
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 90
+					compare = less_than
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_19
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 95
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 95
+					compare = less_than
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+defined_text = {
+	name = EQU_Take_power_vlaue_20
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_TS_power
+					value = 100
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_EQU_Twilight_Sparkle_p
+	}
+	text = {
+		trigger = {
+			EQU = {
+				check_variable = {
+					var = EQU_FP_power
+					value = 100
+					compare = less_than
+				}
+			}
+		}
+		localization_key = GFX_EQU_Fancy_Pants_b
+	}
+}
+
+
+
+	

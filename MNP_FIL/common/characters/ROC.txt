@@ -1,9 +1,9 @@
 characters={
-	ROC_eer_officer={
-		name=ROC_eer_officer
+	ROC_Lenaia={
+		name=ROC_Lenaia
 		portraits={
 			civilian={
-				large="gfx/leaders/ROC/Portrait_ROC_eer_officer.dds"
+				large="gfx/leaders/ROC/Portrait_ROC_Lenaia.dds"
 			}
 		}
 		country_leader={

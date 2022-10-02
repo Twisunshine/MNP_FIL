@@ -17,6 +17,10 @@ on_actions = {
 				add_ideas = idea_EQU_Neighsay
 				add_ideas = idea_EQU_Sassy_Saddles
 				add_ideas = idea_EQU_Sweetie_Drops
+				set_variable = { EQU_FS_support_equipment = 100 }
+				set_variable = { EQU_TS_and_FP = 35 }
+				set_variable = { EQU_TS_power = 20 }
+				set_variable = { EQU_FP_power = 80 }
 			}
 			EOM = {
 				add_ideas = idea_EOM_Nightmare_Moon
@@ -24,6 +28,13 @@ on_actions = {
 				add_ideas = idea_EOM_Suri_Polomare
 				add_ideas = idea_EOM_Gladmane
 				add_ideas = idea_EOM_Zesty_Gourmand
+			}
+			LAS = {
+				add_ideas = idea_LAS_Rainbow_Dash
+	            add_ideas = idea_LAS_Applejack
+	            add_ideas = idea_LAS_Golden_Gavel
+	            add_ideas = idea_LAS_Silver_Frames
+	            add_ideas = idea_LAS_swan_song
 			}
 			
 			

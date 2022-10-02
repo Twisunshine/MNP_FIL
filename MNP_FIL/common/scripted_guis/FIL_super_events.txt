@@ -62,4 +62,36 @@ scripted_gui = {
 			}
 		}
 	}
+	
+	## 月之帝国统一 ##
+	FIL_super_event_EOM_Unite = {
+		context_type = player_context
+		window_name = "FIL_EOM_Unite_super_event"
+
+		visible = {
+			has_global_flag = fil_super_event_flag_EOM_Unite
+		}
+		
+		effects = {
+			Option_click = {
+				clr_global_flag = fil_super_event_flag_EOM_Unite
+			}
+		}
+	}
+	
+	## 临时政府统一 ##
+	FIL_super_event_EQU_Unite = {
+		context_type = player_context
+		window_name = "FIL_EQU_Unite_super_event"
+
+		visible = {
+			has_global_flag = fil_super_event_flag_EQU_Unite
+		}
+		
+		effects = {
+			Option_click = {
+				clr_global_flag = fil_super_event_flag_EQU_Unite
+			}
+		}
+	}
 }

@@ -1,0 +1,2387 @@
+focus_tree = {
+	id = EQU_Second_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EQU
+		}
+	}
+	default = no
+	focus = {
+		id = EQU_2_1_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 14
+		y = 1
+		completion_reward = {
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 5000
+		producer = EQU
+	}
+	add_manpower = 5000
+		}
+
+	}
+	focus = {
+		id = EQU_2_1_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 31
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = EQU_2_2_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_1_1
+		}
+		x = 14
+		y = 2
+		completion_reward = {
+			country_event = EQU_events.8
+		}
+	}
+	focus = {
+		id = EQU_2_3_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_1
+		}
+		mutually_exclusive = {
+			focus = EQU_2_3_2
+		}
+		available = {
+			has_country_flag = EQU_disagree_to_build_Military
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+                 custom_effect_tooltip = EQU_TS_FP_between_6
+                 
+            custom_effect_tooltip = EQU_TS_power_tooltip_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_4_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_1
+		}
+		x = 11
+		y = 4
+		completion_reward = {
+			country_event = EQU_events.10
+		}
+
+	}
+	focus = {
+		id = EQU_2_4_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_1
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+		name = electronics
+		bonus = 1
+		uses = 1
+		category = electronics
+		technology =electronics
+	}
+		}
+	}
+	focus = {
+		id = EQU_2_5_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_4_1
+		}
+		prerequisite = {
+			focus = EQU_2_4_2
+		}
+		x = 12
+		y = 5
+		completion_reward = {
+			unlock_decision_category_tooltip = EQU_LAS_special_command
+			division_template = {
+				name = "维加斯“公主”师"
+				division_names_group = EQU_INF_01
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+			division_template = {
+				name = "维加斯“谐律”师"
+				division_names_group = EQU_INF_02
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					artillery_brigade = { x = 2 y = 0 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			division_template = {
+				name = "维加斯“皇家”师"
+				division_names_group = EQU_INF_03
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					artillery_brigade = { x = 1 y = 2 }
+					artillery_brigade = { x = 1 y = 3 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_3_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_1
+		}
+		mutually_exclusive = {
+			focus = EQU_2_3_1
+		}
+		x = 16
+		y = 3
+		available = {
+			has_country_flag = EQU_agree_to_build_Military
+		}
+		completion_reward = {
+			custom_effect_tooltip = EQU_TS_power_tooltip_3
+
+		}
+
+	}
+	focus = {
+		id = EQU_2_4_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_2
+		}
+		x = 15
+		y = 4
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = EQU_2_4_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_2
+		}
+		x = 17
+		y = 4
+		completion_reward = {
+			country_event = EQU_events.9
+		}
+
+	}
+	focus = {
+		id = EQU_2_5_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_4_3
+		}
+		prerequisite = {
+			focus = EQU_2_4_4
+		}
+		x = 16
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = LAS_to_build
+			hidden_effect = {
+				LAS = {
+					inherit_technology = EQU
+					set_politics = {
+						ruling_party = despotism
+						last_election = "999.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						dictatorshipism = 0
+						fascism = 3
+						despotism = 45
+						authoritarian_democracy = 35
+						liberal_democracy = 17
+						social_democracy = 0
+						socialism = 0
+						communism = 0
+					}
+					transfer_state = 465
+					transfer_state = 444
+					transfer_state = 455
+					transfer_state = 99
+					transfer_state = 504
+					transfer_state = 527
+					transfer_state = 482
+					transfer_state = 96
+					transfer_state = 489
+					transfer_state = 493
+					transfer_state = 542
+					transfer_state = 532
+					transfer_state = 539
+					transfer_state = 518
+					transfer_state = 561
+					add_state_core = 465
+					add_state_core = 444
+					add_state_core = 455
+					add_state_core = 99
+					add_state_core = 504
+					add_state_core = 527
+					add_state_core = 482
+					add_state_core = 96
+					add_state_core = 489
+					add_state_core = 493
+					add_state_core = 542
+					add_state_core = 532
+					add_state_core = 539
+					add_state_core = 518
+					add_state_core = 561
+					}
+				EQU = {
+					set_autonomy = {
+						target = LAS
+						autonomous_state = autonomy_puppet
+					}
+					country_event = LAS_events.2
+				}
+				remove_unit_leader = 100
+				remove_unit_leader = 101
+				remove_unit_leader = 102
+			}
+			country_event = LAS_events.1
+		}
+
+	}
+	focus = {
+		id = EQU_2_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_5_1
+			focus = EQU_2_5_2
+		}
+		
+		x = 14
+		y = 6
+		completion_reward = {
+			army_experience = 100
+		}
+
+	}
+	focus = {
+		id = EQU_2_6_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6
+		}
+		x = 5
+		y = 7
+		completion_reward = {
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_7_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_1
+		}
+		mutually_exclusive = {
+			focus = EQU_2_7_2
+		}
+		x = 3
+		y = 8
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = -3 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_7
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_1
+		}
+		x = 2
+		y = 9
+		completion_reward = {
+			country_event = EQU_events.11
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_1
+		}
+		x = 4
+		y = 9
+		completion_reward = {
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_7_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_1
+		}
+		mutually_exclusive = {
+			focus = EQU_2_7_1
+		}
+		x = 7
+		y = 8
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = 3 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_4
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_2
+		}
+		x = 6
+		y = 9
+		completion_reward = {
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_2
+		}
+		x = 8
+		y = 9
+		completion_reward = {
+			add_political_power = 75
+		}
+
+	}
+	focus = {
+		id = EQU_2_6_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6
+		}
+		x = 14
+		y = 7
+		completion_reward = {
+			add_war_support = 0.05
+		}
+
+	}
+	focus = {
+		id = EQU_2_7_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_2
+		}
+		x = 16
+		y = 8
+		completion_reward = {
+			army_experience = 50
+		}
+
+	}
+	focus = {
+		id = EQU_2_7_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_2
+		}
+		x = 12
+		y = 8
+		completion_reward = {
+			add_ideas = EQU_Arms_Factory_Project_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		available = {
+			has_full_control_of_state = 398
+		}
+		prerequisite = {
+			focus = EQU_2_7_3
+		}
+		x = 13
+		y = 9
+		completion_reward = {
+			398 = {
+				add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		          }
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_4
+		}
+		x = 15
+		y = 9
+		completion_reward = {
+			add_ideas = EQU_Manehattan_Military_academy_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_9_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_7
+		}
+		x = 15
+		y = 10
+		completion_reward = {
+			swap_ideas = {
+				add_idea = EQU_Manehattan_Military_academy_2
+			remove_idea = EQU_Manehattan_Military_academy_1
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_4
+		}
+		x = 17
+		y = 9
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 25
+		}
+
+	}
+	focus = {
+		id = EQU_2_9_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_8
+		}
+		x = 17
+		y = 10
+		completion_reward = {
+			add_war_support = 0.05
+			add_manpower = 5000
+		}
+
+	}
+	focus = {
+		id = EQU_2_10_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_5
+		}
+		prerequisite = {
+			focus = EQU_2_9_6
+		}
+		x = 16
+		y = 11
+		completion_reward = {
+			swap_ideas = {
+			add_idea = quite_satisfactory
+			remove_idea = straggler
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_2_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_1_2
+		}
+		x = 31
+		y = 2
+		
+		completion_reward = {
+			country_event = EQU_events.34
+		}
+	}
+	focus = {
+		id = EQU_2_3_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = EQU_2_4_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_3
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = EQU_2_3_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = EQU_2_4_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_4
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = EQU_2_6_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6
+		}
+		x = 23
+		y = 7
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_7_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_3
+		}
+		x = 23
+		y = 8
+		completion_reward = {
+			add_research_slot = 1
+			add_timed_idea = { idea = EQU_tilt_research days = 500 }
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_5
+		}
+		x = 20
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+				name = engineers_tech
+				bonus = 0.5
+				uses = 1
+				category = engineers_tech
+			}
+			add_tech_bonus = {
+				name = marine_tech
+				bonus = 1
+				uses = 1
+				category = marine_tech
+			}
+			add_tech_bonus = {
+				name = mountaineers_tech
+				bonus = 1
+				uses = 1
+				category = mountaineers_tech
+			}
+			add_tech_bonus = {
+				name = para_tech
+				bonus = 1
+				uses = 1
+				category = para_tech
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_5
+		}
+		x = 22
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+		name = electronics
+		bonus = 1
+		uses = 1
+		category = electronics
+		technology =electronics
+	}
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_11
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_5
+		}
+		x = 24
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+		name = infantry_weapons
+		bonus = 0.5
+		uses = 2
+		category = infantry_weapons
+		technology =infantry_weapons
+	}
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_12
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_5
+		}
+		x = 26
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+		name = construction_tech
+		bonus = 1
+		uses = 1
+		category = construction_tech
+		technology =construction_tech
+	}
+		}
+
+	}
+	focus = {
+		id = EQU_2_9_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_9
+		}
+		prerequisite = {
+			focus = EQU_2_8_10
+		}
+		prerequisite = {
+			focus = EQU_2_8_11
+		}
+		prerequisite = {
+			focus = EQU_2_8_12
+		}
+		x = 23
+		y = 10
+		completion_reward = {
+			country_event = EQU_events.19
+		}
+
+	}
+	focus = {
+		id = EQU_2_10_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_7
+		}
+		x = 23
+		y = 11
+		completion_reward = {
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 5000
+		producer = EQU
+	}
+		}
+
+	}
+	focus = {
+		id = EQU_2_11_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_4
+		}
+		x = 23
+		y = 12
+		completion_reward = {
+			army_experience = 100
+			country_event = EQU_events.20
+		}
+
+	}
+	focus = {
+		id = EQU_2_12_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_4
+		}
+		mutually_exclusive = {
+			focus = EQU_2_12_6
+			focus = EQU_2_12_7
+		}
+		x = 21
+		y = 13
+		completion_reward = {
+			add_ideas = EQU_Interspersed_tactics
+		}
+
+	}
+	focus = {
+		id = EQU_2_12_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_4
+		}
+		mutually_exclusive = {
+			focus = EQU_2_12_5
+			focus = EQU_2_12_7
+		}
+		x = 23
+		y = 13
+		completion_reward = {
+			add_ideas = EQU_Flat_push_tactics
+		}
+
+	}
+	focus = {
+		id = EQU_2_3_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = EQU_2_4_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_5
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = EQU_2_12_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_4
+		}
+		mutually_exclusive = {
+			focus = EQU_2_12_5
+			focus = EQU_2_12_6
+		}
+		x = 25
+		y = 13
+		completion_reward = {
+			add_ideas = EQU_Bottom_line_tactics
+		}
+	}
+	focus = {
+		id = EQU_2_3_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 27
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_6
+		}
+		x = 27
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_3_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 29
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_7
+		}
+		x = 29
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_3_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 31
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_8
+		}
+		x = 31
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_6_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6
+		}
+		x = 36
+		y = 7
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = EQU_2_7_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_4
+		}
+		x = 32
+		y = 8
+		
+		completion_reward = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
+		}
+	}
+	focus = {
+		id = EQU_2_8_13
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_6
+		}
+		x = 29
+		y = 9
+		
+		completion_reward = {
+			country_event = EQU_events.25
+		}
+	}
+	focus = {
+		id = EQU_2_9_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_13
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_RD_is_alive	
+				NOT = {
+					has_country_flag = EQU_TS_friends_gone_RD
+				}
+			}
+		}
+		x = 28
+		y = 10
+		
+		completion_reward = {
+			country_event = EQU_events.26
+		}
+	}
+	focus = {
+		id = EQU_2_9_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_13
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_RR_is_alive	
+				NOT = {
+					has_country_flag = EQU_TS_friends_gone_RR
+				}
+			}
+		}
+		x = 30
+		y = 10
+		
+		completion_reward = {
+			country_event = EQU_events.29
+		}
+	}
+	focus = {
+		id = EQU_2_3_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 33
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_11
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_9
+		}
+		x = 33
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_8_14
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_6
+		}
+		mutually_exclusive = {
+			focus = EQU_2_8_15
+		}
+		x = 33
+		y = 9
+		
+		completion_reward = {
+			add_political_power = -50
+			add_to_variable = { EQU_TS_power = -5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_1
+		}
+	}
+	focus = {
+		id = EQU_2_9_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_14
+		}
+		x = 33
+		y = 10
+		
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+	focus = {
+		id = EQU_2_10_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_10
+		}
+		x = 33
+		y = 11
+		
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = -5 }
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+	}
+	focus = {
+		id = EQU_2_11_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_7
+		}
+		x = 33
+		y = 12
+		
+		completion_reward = {
+			add_political_power = 75
+			add_to_variable = { EQU_TS_power = -5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_1
+		}
+	}
+	focus = {
+		id = EQU_2_12_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_7
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_End
+				NOT = {
+					has_country_flag = EQU_TS_and_FP_end
+				}
+			}
+		}
+		x = 33
+		y = 13
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_realy_want
+			add_to_variable = { EQU_TS_power = -20 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_5
+		}
+	}
+	focus = {
+		id = EQU_2_3_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 35
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_12
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_10
+		}
+		x = 35
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_8_15
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_6
+		}
+		mutually_exclusive = {
+			focus = EQU_2_8_14
+		}
+		x = 35
+		y = 9
+		
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = 5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_3
+		}
+	}
+	focus = {
+		id = EQU_2_9_11
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_15
+		}
+		x = 35
+		y = 10
+		
+		completion_reward = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.03 }
+			add_popularity = { ideology = social_democracy popularity = 0.03 }
+			add_to_variable = { EQU_TS_power = 3 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_4
+		}
+	}
+	focus = {
+		id = EQU_2_10_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_11
+		}
+		x = 35
+		y = 11
+		
+		completion_reward = {
+			add_war_support = 0.05
+			add_to_variable = { EQU_TS_power = 3 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_4
+		}
+	}
+	focus = {
+		id = EQU_2_11_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_8
+		}
+		x = 35
+		y = 12
+		
+		completion_reward = {
+			add_popularity = { ideology = authoritarian_democracy popularity = -0.03 }
+			add_to_variable = { EQU_TS_power = 3 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_4
+			add_to_variable = { EQU_TS_and_FP = -3 }
+			custom_effect_tooltip = EQU_TS_FP_between_5	
+		}
+	}
+	focus = {
+		id = EQU_2_12_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_8
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_End
+				NOT = {
+					has_country_flag = EQU_TS_and_FP_end
+				}
+			}
+		}
+		x = 35
+		y = 13
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_realy_want
+			add_to_variable = { EQU_TS_power = 20 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_6
+		}
+	}
+	focus = {
+		id = EQU_2_3_11
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 37
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_13
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_11
+		}
+		x = 37
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_3_12
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 39
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_14
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_12
+		}
+		x = 39
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_7_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_4
+		}
+		available = {
+			AND = {
+				is_neighbor_of = EER
+				has_war_with = EER
+			}
+		}
+		
+		x = 39
+		y = 8
+		
+		completion_reward = {
+			add_ideas = EQU_Anti_egalitarian_fervour
+		}
+	}
+	focus = {
+		id = EQU_2_8_16
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_7
+		}
+		x = 39
+		y = 9
+		
+		completion_reward = {
+			add_manpower = 5000
+		}
+	}
+	focus = {
+		id = EQU_2_9_12
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_16
+		}
+		x = 39
+		y = 10
+		
+		completion_reward = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
+			add_to_variable = { EQU_TS_power = 5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_3
+		}
+	}
+	focus = {
+		id = EQU_2_10_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_12
+		}
+		available = {
+			NOT = {
+				country_exists = EER
+			}
+		}
+		
+		x = 39
+		y = 11
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = EQU_2_11_9
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_9
+		}
+		x = 38
+		y = 12
+		
+		completion_reward = {
+			country_event = EQU_events.32
+		}
+	}
+	focus = {
+		id = EQU_2_11_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_9
+		}
+		x = 40
+		y = 12
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_EER_Resistance
+			hidden_effect = {
+				152 = {
+					add_resistance = 10
+				}
+				257 = {
+					add_resistance = 10
+				}
+				262 = {
+					add_resistance = 10
+				}
+				236 = {
+					add_resistance = 10
+				}
+				248 = {
+					add_resistance = 10
+				}
+				263 = {
+					add_resistance = 10
+				}
+				252 = {
+					add_resistance = 10
+				}
+				266 = {
+					add_resistance = 10
+				}
+				271 = {
+					add_resistance = 10
+				}
+				234 = {
+					add_resistance = 10
+				}
+				169 = {
+					add_resistance = 10
+				}
+				189 = {
+					add_resistance = 10
+				}
+				246 = {
+					add_resistance = 10
+				}
+				206 = {
+					add_resistance = 10
+				}
+				216 = {
+					add_resistance = 10
+				}
+				251 = {
+					add_resistance = 10
+				}
+				207 = {
+					add_resistance = 10
+				}
+				193 = {
+					add_resistance = 10
+				}
+				128 = {
+					add_resistance = 10
+				}
+				258 = {
+					add_resistance = 10
+				}
+				318 = {
+					add_resistance = 10
+				}
+				337 = {
+					add_resistance = 10
+				}
+				304 = {
+					add_resistance = 10
+				}
+			}
+		}
+	}
+	focus = {
+		id = EQU_2_12_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_9
+		}
+		prerequisite = {
+			focus = EQU_2_11_10
+		}
+		x = 39
+		y = 13
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = EQU_2_13_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_12_10
+		}
+		x = 39
+		y = 14
+		
+		completion_reward = {
+			remove_ideas = 
+		}
+	}
+	focus = {
+		id = EQU_2_3_13
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_2_2
+		}
+		x = 41
+		y = 3
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_4_15
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_3_13
+		}
+		x = 41
+		y = 4
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_2_6_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6
+		}
+		x = 45
+		y = 7
+		
+		completion_reward = {
+			add_ideas = free_trade
+			add_ideas = Laissez_faire
+		}
+	}
+	focus = {
+		id = EQU_2_7_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_6_5
+		}
+		x = 45
+		y = 8
+		
+		completion_reward = {
+			country_event = EQU_events.33
+		}
+	}
+	focus = {
+		id = EQU_2_8_17
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_8
+		}
+		x = 43
+		y = 9
+		
+		completion_reward = {
+			398 = {
+				add_building_construction = {
+					type = naval_base
+					province = 5753
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = EQU_2_9_13
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_17
+		}
+		x = 42
+		y = 10
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+	focus = {
+		id = EQU_2_9_14
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_17
+		}
+		x = 44
+		y = 10
+		
+		completion_reward = {
+			add_political_power = -50
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 10
+			}
+		}
+	}
+	focus = {
+		id = EQU_2_10_10
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_13
+		}
+		prerequisite = {
+			focus = EQU_2_9_14
+		}
+		x = 43
+		y = 11
+		
+		completion_reward = {
+			add_ideas = EQU_Small_bluewater_navy
+		}
+	}
+	focus = {
+		id = EQU_2_8_18
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_7_8
+		}
+		x = 47
+		y = 9
+		
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = POF 
+				modifier = EQU_Old_Allies 
+			}
+			add_opinion_modifier = { 
+				target = SHI 
+				modifier = EQU_Old_Allies 
+			}
+		}
+	}
+	focus = {
+		id = EQU_2_9_15
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_18
+		}
+		x = 46
+		y = 10
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+				producer = EQU
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 300
+				producer = EQU
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 400
+				producer = EQU
+			}
+			
+		}
+	}
+	focus = {
+		id = EQU_2_9_16
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_18
+		}
+		x = 48
+		y = 10
+		
+		completion_reward = {
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+	}
+	focus = {
+		id = EQU_2_10_11
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_15
+		}
+		prerequisite = {
+			focus = EQU_2_9_16
+		}
+		x = 47
+		y = 11
+		
+		completion_reward = {
+			news_event = EQU_news_events.2
+		}
+	}
+	focus = {
+		id = EQU_2_11_11
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_10
+		}
+		prerequisite = {
+			focus = EQU_2_10_11
+		}
+		x = 45
+		y = 12
+		
+		completion_reward = {
+			remove_ideas = EQU_The_destruction_of_Baltimore
+		}
+	}
+	focus = {
+		id = EQU_2_9_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_1
+		}
+		prerequisite = {
+			focus = EQU_2_8_2
+		}
+		x = 3
+		y = 10
+		completion_reward = {
+			country_event = EQU_events.12
+		}
+	}
+	focus = {
+		id = EQU_2_9_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_3
+		}
+		prerequisite = {
+			focus = EQU_2_8_4
+		}
+		x = 7
+		y = 10
+		completion_reward = {
+			country_event = EQU_events.13
+		}
+
+	}
+	focus = {
+		id = EQU_2_10_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_1
+			focus = EQU_2_9_2
+		}
+		x = 5
+		y = 11
+		completion_reward = {
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_11_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_1
+		}
+		mutually_exclusive = {
+			focus = EQU_2_11_2
+		}
+		x = 4
+		y = 12
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = -2 }
+            custom_effect_tooltip = EQU_TS_power_tooltip
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_11_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_1
+		}
+		mutually_exclusive = {
+			focus = EQU_2_11_1
+		}
+		x = 6
+		y = 12
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = 2 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_8
+		}
+
+	}
+	focus = {
+		id = EQU_2_12_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_1
+		}
+		x = 4
+		y = 13
+		completion_reward = {
+			add_war_support = 0.05
+		}
+
+	}
+	focus = {
+		id = EQU_2_12_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_11_2
+		}
+		x = 6
+		y = 13
+        completion_reward = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
+		}
+	}
+	focus = {
+		id = EQU_2_13_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_12_1
+			focus = EQU_2_12_2
+		}
+		x = 5
+		y = 14
+		completion_reward = {
+			EOM = {
+				add_popularity = { ideology = liberal_democracy popularity = 0.1 }
+			}
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = EQU_2_14_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_13_1
+		}
+		x = 4
+		y = 15
+		completion_reward = {
+			add_manpower = 5000
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_14_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_13_1
+		}
+		x = 6
+		y = 15
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 300
+				producer = EQU
+			}
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_15_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_14_1
+		}
+		prerequisite = {
+			focus = EQU_2_14_2
+		}
+		x = 5
+		y = 16
+		completion_reward = {
+			country_event = EQU_events.14
+		}
+
+	}
+	focus = {
+		id = EQU_2_8_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		available = {
+			has_full_control_of_state = 11
+		}
+		prerequisite = {
+			focus = EQU_2_7_3
+		}
+		x = 11
+		y = 9
+		completion_reward = {
+			11 = {
+				add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		          }
+			}
+			11 = {
+				add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		          }
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_9_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_5
+		}
+		x = 11
+		y = 10
+		completion_reward = {
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 5000
+		producer = EQU
+	}
+		}
+
+	}
+	focus = {
+		id = EQU_2_9_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_8_6
+		}
+		x = 13
+		y = 10
+		completion_reward = {
+			swap_ideas = {
+				add_idea = EQU_Arms_Factory_Project_2
+			remove_idea = EQU_Arms_Factory_Project_1
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_10_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_3
+		}
+		prerequisite = {
+			focus = EQU_2_9_4
+		}
+		x = 12
+		y = 11
+		completion_reward = {
+			add_manpower = -10000
+			swap_ideas = {
+			add_idea = large_scale_farming
+			remove_idea = farm_production
+			}
+		}
+
+	}
+	focus = {
+		id = EQU_2_11_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_2
+		}
+		prerequisite = {
+			focus = EQU_2_10_3
+		}
+		x = 14
+		y = 12
+		completion_reward = {
+			add_political_power = -100
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 5000
+		producer = EQU
+	           }
+		}
+
+	}
+	focus = {
+		id = EQU_2_12_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		available = {
+			is_owner_neighbor_of = EOM
+		}
+		prerequisite = {
+			focus = EQU_2_11_3
+		}
+		x = 13
+		y = 13
+		completion_reward = {
+			add_ideas = EQU_Counter_insurgency_enthusiasm
+		}
+
+	}
+	focus = {
+		id = EQU_2_12_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		available = {
+			is_owner_neighbor_of = CLK
+		}
+		prerequisite = {
+			focus = EQU_2_11_3
+		}
+		x = 15
+		y = 13
+		completion_reward = {
+			add_ideas = EQU_Fight_against_the_invasion
+		}
+
+	}
+	focus = {
+		id = EQU_2_13_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_12_3
+		}
+		x = 12
+		y = 14
+		completion_reward = {
+			country_event = EQU_events.15
+		}
+
+	}
+	focus = {
+		id = EQU_2_13_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_12_4
+		}
+		x = 16
+		y = 14
+		completion_reward = {
+			country_event = EQU_events.16
+		}
+
+	}
+	focus = {
+		id = EQU_2_14_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_13_2
+		}
+		mutually_exclusive = {
+			focus = EQU_2_14_4
+		}
+		x = 11
+		y = 15
+		completion_reward = {
+			add_stability = -0.1
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 300
+				producer = EQU
+			}
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_14_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_13_2
+		}
+		mutually_exclusive = {
+			focus = EQU_2_14_3
+		}
+		x = 13
+		y = 15
+		completion_reward = {
+			add_to_variable = { EQU_TS_power = 3 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_4
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_sub_add_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_14_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_13_3
+		}
+		mutually_exclusive = {
+			focus = EQU_2_14_6
+		}
+		x = 15
+		y = 15
+		completion_reward = {
+			country_event = EQU_events.17
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+
+	}
+	focus = {
+		id = EQU_2_14_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_13_3
+		}
+		mutually_exclusive = {
+			focus = EQU_2_14_5
+		}
+		x = 17
+		y = 15
+		completion_reward = {
+			country_event = EQU_events.18
+			add_war_support = -0.15
+			add_to_variable = { EQU_TS_power = 3 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_4
+			custom_effect_tooltip = EQU_TS_FP_between_6
+            add_to_variable = { EQU_TS_and_FP = -5 }
+		}
+
+	}
+	focus = {
+		id = EQU_2_15_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		available = {
+			NOT = { country_exists = EOM }
+		}
+		prerequisite = {
+			focus = EQU_2_14_3
+			focus = EQU_2_14_4
+		}
+		x = 12
+		y = 16
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 150
+			set_variable = { EQU.EQU_orthodoxy_change = 10 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_3
+		}
+
+	}
+	focus = {
+		id = EQU_2_15_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		available = {
+			NOT = { country_exists = CLK }
+		}
+		prerequisite = {
+			focus = EQU_2_14_5
+			focus = EQU_2_14_6
+		}
+		x = 16
+		y = 16
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 150
+		}
+
+	}
+	focus = {
+		id = EQU_2_16_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_15_2
+		}
+		prerequisite = {
+			focus = EQU_2_15_3
+		}
+		x = 14
+		y = 17
+
+	}
+	focus = {
+		id = EQU_2_10_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_8
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_AJ_is_alive	
+				NOT = {
+					has_country_flag = EQU_TS_friends_gone_AJ
+				}
+			}
+		}
+		x = 28
+		y = 11
+		
+		completion_reward = {
+			country_event = EQU_events.27
+		}
+	}
+	focus = {
+		id = EQU_2_10_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_9_9
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_FS_is_alive	
+				NOT = {
+					has_country_flag = EQU_TS_friends_gone_FS
+				}
+			}
+		}
+		x = 30
+		y = 11
+		
+		completion_reward = {
+			country_event = EQU_events.30
+		}
+	}
+	focus = {
+		id = EQU_2_11_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_5
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_PP_is_alive	
+				NOT = {
+					has_country_flag = EQU_TS_friends_gone_PP
+				}
+			}
+		}
+		x = 28
+		y = 12
+		
+		completion_reward = {
+			country_event = EQU_events.28
+		}
+	}
+	focus = {
+		id = EQU_2_11_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_2_10_6
+		}
+		x = 30
+		y = 12
+		
+		completion_reward = {
+			country_event = EQU_events.31
+			
+			add_to_variable = { EQU_TS_power = 1 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_2
+		}
+	}
+}

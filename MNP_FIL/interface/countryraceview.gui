@@ -1,0 +1,2547 @@
+guiTypes = {
+	containerWindowType = {
+		name = "countryracesview"
+		position = { x=-606 y=78}
+		show_position = { x=-9 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 550 height = 100%% }
+		clipping = no
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		#标题背景
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "RACE_VIEW_LABLE"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+
+		##标题名称
+		#instantTextboxType = {
+		#	name = "construction_title_1"
+		#	position = { x = 25 y = 60 }
+		#	textureFile = ""
+		#	font = "hoi_24header"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "种族占比"
+		#	maxWidth = 485
+		#	maxHeight = 20
+		#	format = left
+		#}
+
+		#种族饼图
+		containerWindowType = {
+			name = "race_pie"
+			position = { x = -130 y = -325 }
+			clipping = no
+			Orientation = center
+			origo = center
+			scale = 0.6
+
+			iconType = {
+				name = "race_pie_0"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0
+			}
+			iconType = {
+				name = "race_pie_1"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.0628318531
+			}
+			iconType = {
+				name = "race_pie_2"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.1256637061
+			}
+			iconType = {
+				name = "race_pie_3"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.1884955592
+			}
+			iconType = {
+				name = "race_pie_4"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.2513274123
+			}
+			iconType = {
+				name = "race_pie_5"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.3141592654
+			}
+			iconType = {
+				name = "race_pie_6"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.3769911184
+			}
+			iconType = {
+				name = "race_pie_7"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.4398229715
+			}
+			iconType = {
+				name = "race_pie_8"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.5026548246
+			}
+			iconType = {
+				name = "race_pie_9"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.5654866776
+			}
+			iconType = {
+				name = "race_pie_10"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.6283185307
+			}
+			iconType = {
+				name = "race_pie_11"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.6911503838
+			}
+			iconType = {
+				name = "race_pie_12"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.7539822369
+			}
+			iconType = {
+				name = "race_pie_13"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.8168140899
+			}
+			iconType = {
+				name = "race_pie_14"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.8796459430
+			}
+			iconType = {
+				name = "race_pie_15"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 0.9424777961
+			}
+			iconType = {
+				name = "race_pie_16"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.0053096491
+			}
+			iconType = {
+				name = "race_pie_17"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.0681415022
+			}
+			iconType = {
+				name = "race_pie_18"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.1309733553
+			}
+			iconType = {
+				name = "race_pie_19"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.1938052084
+			}
+			iconType = {
+				name = "race_pie_20"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.2566370614
+			}
+			iconType = {
+				name = "race_pie_21"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.3194689145
+			}
+			iconType = {
+				name = "race_pie_22"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.3823007676
+			}
+			iconType = {
+				name = "race_pie_23"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.4451326207
+			}
+			iconType = {
+				name = "race_pie_24"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.5079644737
+			}
+			iconType = {
+				name = "race_pie_25"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.5707963268
+			}
+			iconType = {
+				name = "race_pie_26"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.6336281799
+			}
+			iconType = {
+				name = "race_pie_27"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.6964600329
+			}
+			iconType = {
+				name = "race_pie_28"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.7592918860
+			}
+			iconType = {
+				name = "race_pie_29"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.8221237391
+			}
+			iconType = {
+				name = "race_pie_30"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.8849555922
+			}
+			iconType = {
+				name = "race_pie_31"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 1.9477874452
+			}
+			iconType = {
+				name = "race_pie_32"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.0106192983
+			}
+			iconType = {
+				name = "race_pie_33"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.0734511514
+			}
+			iconType = {
+				name = "race_pie_34"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.1362830044
+			}
+			iconType = {
+				name = "race_pie_35"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.1991148575
+			}
+			iconType = {
+				name = "race_pie_36"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.2619467106
+			}
+			iconType = {
+				name = "race_pie_37"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.3247785637
+			}
+			iconType = {
+				name = "race_pie_38"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.3876104167
+			}
+			iconType = {
+				name = "race_pie_39"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.4504422698
+			}
+			iconType = {
+				name = "race_pie_40"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.5132741229
+			}
+			iconType = {
+				name = "race_pie_41"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.5761059759
+			}
+			iconType = {
+				name = "race_pie_42"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.6389378290
+			}
+			iconType = {
+				name = "race_pie_43"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.7017696821
+			}
+			iconType = {
+				name = "race_pie_44"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.7646015352
+			}
+			iconType = {
+				name = "race_pie_45"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.8274333882
+			}
+			iconType = {
+				name = "race_pie_46"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.8902652413
+			}
+			iconType = {
+				name = "race_pie_47"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 2.9530970944
+			}
+			iconType = {
+				name = "race_pie_48"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.0159289474
+			}
+			iconType = {
+				name = "race_pie_49"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.0787608005
+			}
+			iconType = {
+				name = "race_pie_50"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.1415926536
+			}
+			iconType = {
+				name = "race_pie_51"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.2044245067
+			}
+			iconType = {
+				name = "race_pie_52"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.2672563597
+			}
+			iconType = {
+				name = "race_pie_53"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.3300882128
+			}
+			iconType = {
+				name = "race_pie_54"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.3929200659
+			}
+			iconType = {
+				name = "race_pie_55"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.4557519189
+			}
+			iconType = {
+				name = "race_pie_56"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.5185837720
+			}
+			iconType = {
+				name = "race_pie_57"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.5814156251
+			}
+			iconType = {
+				name = "race_pie_58"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.6442474782
+			}
+			iconType = {
+				name = "race_pie_59"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.7070793312
+			}
+			iconType = {
+				name = "race_pie_60"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.7699111843
+			}
+			iconType = {
+				name = "race_pie_61"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.8327430374
+			}
+			iconType = {
+				name = "race_pie_62"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.8955748905
+			}
+			iconType = {
+				name = "race_pie_63"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 3.9584067435
+			}
+			iconType = {
+				name = "race_pie_64"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.0212385966
+			}
+			iconType = {
+				name = "race_pie_65"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.0840704497
+			}
+			iconType = {
+				name = "race_pie_66"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.1469023027
+			}
+			iconType = {
+				name = "race_pie_67"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.2097341558
+			}
+			iconType = {
+				name = "race_pie_68"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.2725660089
+			}
+			iconType = {
+				name = "race_pie_69"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.3353978620
+			}
+			iconType = {
+				name = "race_pie_70"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.3982297150
+			}
+			iconType = {
+				name = "race_pie_71"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.4610615681
+			}
+			iconType = {
+				name = "race_pie_72"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.5238934212
+			}
+			iconType = {
+				name = "race_pie_73"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.5867252742
+			}
+			iconType = {
+				name = "race_pie_74"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.6495571273
+			}
+			iconType = {
+				name = "race_pie_75"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.7123889804
+			}
+			iconType = {
+				name = "race_pie_76"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.7752208335
+			}
+			iconType = {
+				name = "race_pie_77"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.8380526865
+			}
+			iconType = {
+				name = "race_pie_78"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.9008845396
+			}
+			iconType = {
+				name = "race_pie_79"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 4.9637163927
+			}
+			iconType = {
+				name = "race_pie_80"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.0265482457
+			}
+			iconType = {
+				name = "race_pie_81"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.0893800988
+			}
+			iconType = {
+				name = "race_pie_82"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.1522119519
+			}
+			iconType = {
+				name = "race_pie_83"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.2150438050
+			}
+			iconType = {
+				name = "race_pie_84"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.2778756580
+			}
+			iconType = {
+				name = "race_pie_85"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.3407075111
+			}
+			iconType = {
+				name = "race_pie_86"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.4035393642
+			}
+			iconType = {
+				name = "race_pie_87"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.4663712172
+			}
+			iconType = {
+				name = "race_pie_88"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.5292030703
+			}
+			iconType = {
+				name = "race_pie_89"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.5920349234
+			}
+			iconType = {
+				name = "race_pie_90"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.6548667765
+			}
+			iconType = {
+				name = "race_pie_91"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.7176986295
+			}
+			iconType = {
+				name = "race_pie_92"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.7805304826
+			}
+			iconType = {
+				name = "race_pie_93"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.8433623357
+			}
+			iconType = {
+				name = "race_pie_94"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.9061941887
+			}
+			iconType = {
+				name = "race_pie_95"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 5.9690260418
+			}
+			iconType = {
+				name = "race_pie_96"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 6.0318578949
+			}
+			iconType = {
+				name = "race_pie_97"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 6.0946897480
+			}
+			iconType = {
+				name = "race_pie_98"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 6.1575216010
+			}
+			iconType = {
+				name = "race_pie_99"
+				quadTextureSprite = "GFX_race_pie_part"
+				centerPosition = yes
+				alwaystransparent = yes
+				rotation = 6.2203534541
+			}
+		}
+
+		#种族颜色
+		containerWindowType = {
+			name = "race_color"
+			position = { x = 129 y = -324 }
+			size = { width = 250 height = 270 }
+			clipping = yes
+			Orientation = center
+			origo = center
+			verticalScrollbar = "right_vertical_slider"
+			vertical_scroll_step = 5
+			margin = { top = 13 left = 30 bottom = 25 right = 0}
+			smooth_scrolling = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+
+			gridBoxType = {
+				name = "race_list_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 250 height = 50 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+			}
+
+			iconType = {
+				name = "race_color_1"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 15 }
+			}
+			iconType = {
+				name = "race_color_2"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 15 }
+			}
+			iconType = {
+				name = "race_color_3"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 40 }
+			}
+			iconType = {
+				name = "race_color_4"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 40 }
+			}
+			iconType = {
+				name = "race_color_5"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 65 }
+			}
+			iconType = {
+				name = "race_color_6"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 65 }
+			}
+			iconType = {
+				name = "race_color_7"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 90 }
+			}
+			iconType = {
+				name = "race_color_8"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 90 }
+			}
+			iconType = {
+				name = "race_color_9"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 115 }
+			}
+			iconType = {
+				name = "race_color_10"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 115 }
+			}
+			iconType = {
+				name = "race_color_11"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 140 }
+			}
+			iconType = {
+				name = "race_color_12"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 140 }
+			}
+			iconType = {
+				name = "race_color_13"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 165 }
+			}
+			iconType = {
+				name = "race_color_14"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 165 }
+			}
+			iconType = {
+				name = "race_color_15"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 190 }
+			}
+			iconType = {
+				name = "race_color_16"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 190 }
+			}
+			iconType = {
+				name = "race_color_17"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 215 }
+			}
+			iconType = {
+				name = "race_color_18"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 215 }
+			}
+			iconType = {
+				name = "race_color_19"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 240 }
+			}
+			iconType = {
+				name = "race_color_20"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 240 }
+			}
+			iconType = {
+				name = "race_color_21"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 265 }
+			}
+			iconType = {
+				name = "race_color_22"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 265 }
+			}
+			iconType = {
+				name = "race_color_23"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 290 }
+			}
+			iconType = {
+				name = "race_color_24"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 95 y = 290 }
+			}
+			iconType = {
+				name = "race_color_25"
+				quadTextureSprite = "GFX_race_color"
+				position = { x = 0 y = 315 }
+			}
+
+			buttonType = {
+				name = "race_color_name_1"
+				position = { x = 20 y = 13 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_1]"
+				pdx_tooltip = "race_tooltip_1"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_2"
+				position = { x = 115 y = 13 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_2]"
+				pdx_tooltip = "race_tooltip_2"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_3"
+				position = { x = 20 y = 38 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_3]"
+				pdx_tooltip = "race_tooltip_3"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_4"
+				position = { x = 115 y = 38 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_4]"
+				pdx_tooltip = "race_tooltip_4"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_5"
+				position = { x = 20 y = 63 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_5]"
+				pdx_tooltip = "race_tooltip_5"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_6"
+				position = { x = 115 y = 63 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_6]"
+				pdx_tooltip = "race_tooltip_6"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_7"
+				position = { x = 20 y = 88 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_7]"
+				pdx_tooltip = "race_tooltip_7"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_8"
+				position = { x = 115 y = 88 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_8]"
+				pdx_tooltip = "race_tooltip_8"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_9"
+				position = { x = 20 y = 113 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_9]"
+				pdx_tooltip = "race_tooltip_9"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_10"
+				position = { x = 115 y = 113 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_10]"
+				pdx_tooltip = "race_tooltip_10"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_11"
+				position = { x = 20 y = 138 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_11]"
+				pdx_tooltip = "race_tooltip_11"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_12"
+				position = { x = 115 y = 138 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_12]"
+				pdx_tooltip = "race_tooltip_12"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_13"
+				position = { x = 20 y = 163 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_13]"
+				pdx_tooltip = "race_tooltip_13"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_14"
+				position = { x = 115 y = 163 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_14]"
+				pdx_tooltip = "race_tooltip_14"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_15"
+				position = { x = 20 y = 188 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_15]"
+				pdx_tooltip = "race_tooltip_15"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_16"
+				position = { x = 115 y = 188 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_16]"
+				pdx_tooltip = "race_tooltip_16"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_17"
+				position = { x = 20 y = 213 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_17]"
+				pdx_tooltip = "race_tooltip_17"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_18"
+				position = { x = 115 y = 213 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_18]"
+				pdx_tooltip = "race_tooltip_18"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_19"
+				position = { x = 20 y = 238 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_19]"
+				pdx_tooltip = "race_tooltip_19"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_20"
+				position = { x = 115 y = 238 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_20]"
+				pdx_tooltip = "race_tooltip_20"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_21"
+				position = { x = 20 y = 263 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_21]"
+				pdx_tooltip = "race_tooltip_21"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_22"
+				position = { x = 115 y = 263 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_22]"
+				pdx_tooltip = "race_tooltip_22"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_23"
+				position = { x = 20 y = 288 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_23]"
+				pdx_tooltip = "race_tooltip_23"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_24"
+				position = { x = 115 y = 288 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_24]"
+				pdx_tooltip = "race_tooltip_24"
+				format = left
+			}
+			buttonType = {
+				name = "race_color_name_25"
+				position = { x = 20 y = 313 }
+				quadTextureSprite ="GFX_button_70x20_trans"
+				buttonFont = "hoi_16mbs"
+				text = "[race_show_name_25]"
+				pdx_tooltip = "race_tooltip_25"
+				format = left
+			}
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "race_bring_us_title"
+			position = { x = 25 y = 318 }
+			textureFile = ""
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "RACE_BRING_US_TITLE"
+			maxWidth = 400
+			maxHeight = 20
+			format = left
+		}
+
+		containerWindowType = {
+			name = "race_effect_titles"
+			position = { x= 0 y = 350 }
+			size = { width = 120 height= 185 }
+			clipping = no
+
+			buttonType = {
+				name = "race_effect_title_1"
+				position = { x = 12 y = 1 }
+				size = { x = 130 y = 23 }
+				quadTextureSprite ="GFX_tiling_sort_button"
+				buttonFont = "hoi_18mbs"
+				text = "race_effect_title_1"
+				format = center
+				pdx_tooltip = ""
+				clicksound = click_close
+			}
+			buttonType = {
+				name = "race_effect_title_2"
+				position = { x = 140 y = 1 }
+				size = { x = 130 y = 23 }
+				quadTextureSprite ="GFX_tiling_sort_button"
+				buttonFont = "hoi_18mbs"
+				text = "race_effect_title_2"
+				format = center
+				pdx_tooltip = ""
+				clicksound = click_close
+			}
+			buttonType = {
+				name = "race_effect_title_3"
+				position = { x = 268 y = 1 }
+				size = { x = 130 y = 23 }
+				quadTextureSprite ="GFX_tiling_sort_button"
+				buttonFont = "hoi_18mbs"
+				text = "race_effect_title_3"
+				format = center
+				pdx_tooltip = ""
+				clicksound = click_close
+			}
+			buttonType = {
+				name = "race_effect_title_4"
+				position = { x = 396 y = 1 }
+				size = { x = 130 y = 23 }
+				quadTextureSprite ="GFX_tiling_sort_button"
+				buttonFont = "hoi_18mbs"
+				text = "race_effect_title_4"
+				format = center
+				pdx_tooltip = ""
+				clicksound = click_close
+			}
+		}
+
+		#民族占比总效果
+		containerWindowType = {
+			name = "race_bring_us"
+			position = { x= 9 y = 370 }
+			size = { width = 520 height= 165 }
+			clipping = yes
+			verticalScrollbar = "right_vertical_slider"
+			vertical_scroll_step = 5
+			margin = { top = 13 left = 30 bottom = 25 right = 0}
+			smooth_scrolling = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+
+			gridBoxType = {
+				name = "race_effect_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 250 height = 200 }
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+			}
+
+			instantTextboxType = {
+				name = "race_effect_value_1_1"
+				position = { x = 0 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_8_1"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_2"
+				position = { x = 230 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_8_2"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_3"
+				position = { x = 0 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_23"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_4"
+				position = { x = 230 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_1"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_5"
+				position = { x = 0 y = 70 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_3"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_6"
+				position = { x = 230 y = 70 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_16"
+			#	pdx_tooltip = "race_tooltip_1"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_7"
+				position = { x = 0 y = 100 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_15"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_8"
+				position = { x = 230 y = 100 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_13"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_9"
+				position = { x = 0 y = 130 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_20"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_10"
+				position = { x = 230 y = 130 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_4"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_11"
+				position = { x = 0 y = 160 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_12"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_12"
+				position = { x = 230 y = 160 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_19"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_13"
+				position = { x = 0 y = 190 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_7"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_14"
+				position = { x = 230 y = 190 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_18"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_15"
+				position = { x = 0 y = 220 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_17"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_16"
+				position = { x = 230 y = 220 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_6"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_1_17"
+				position = { x = 0 y = 250 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_9"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+
+			instantTextboxType = {
+				name = "race_effect_value_2_1"
+				position = { x = 0 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_8_1"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_2_2"
+				position = { x = 230 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_8_2"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_2_3"
+				position = { x = 0 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_25"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_2_4"
+				position = { x = 230 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_24"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+
+			instantTextboxType = {
+				name = "race_effect_value_3_1"
+				position = { x = 0 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_8_1"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_3_2"
+				position = { x = 230 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_8_2"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_3_3"
+				position = { x = 0 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_2"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_3_4"
+				position = { x = 230 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_27"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_1"
+				position = { x = 0 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_5"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_2"
+				position = { x = 230 y = 10 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_26"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_3"
+				position = { x = 0 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_22"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_4"
+				position = { x = 230 y = 40 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_11"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_5"
+				position = { x = 0 y = 70 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_10"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_6"
+				position = { x = 230 y = 70 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_14"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_7"
+				position = { x = 0 y = 100 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_21"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_8"
+				position = { x = 230 y = 100 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_main_value_2"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+
+			iconType = {
+				name = "empty"
+				quadTextureSprite = "GFX_empty_trans"
+				position = { x = 0 y = 275 }
+			}
+		}
+
+		#当前选中种族
+		containerWindowType = {
+			name = "now_select_race"
+			position = { x= 25 y = 542 }
+			size = { width=500 height=50%% }
+			clipping = no
+
+			instantTextboxType = {
+				name = "now_select_race_0"
+				position = { x = 0 y = 0 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "now_select_race"
+				maxWidth = 300
+				maxHeight = 20
+				format = left
+			}
+
+			instantTextboxType = {
+				name = "now_select_race_1"
+				position = { x = 0 y = 35 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "now_select_race_text_1"
+				maxWidth = 320
+				maxHeight = 20
+				format = left
+			}
+
+			iconType = {
+				name ="Race_value_bar_pic_1"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 0 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_2"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 3 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_3"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 6 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_4"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 9 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_5"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 12 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_6"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 15 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_7"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 18 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_8"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 21 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_9"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 24 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_10"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 27 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_11"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 30 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_12"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 33 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_13"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 36 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_14"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 39 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_15"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 42 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_16"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 45 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_17"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 48 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_18"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 51 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_19"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 54 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_20"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 57 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_21"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 60 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_22"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 63 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_23"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 66 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_24"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 69 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_25"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 72 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_26"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 75 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_27"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 78 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_28"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 81 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_29"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 84 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_30"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 87 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_31"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 90 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_32"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 93 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_33"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 96 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_34"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 99 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_35"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 102 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_36"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 105 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_37"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 108 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_38"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 111 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_39"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 114 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_40"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 117 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_41"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 120 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_42"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 123 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_43"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 126 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_44"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 129 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_45"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 132 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_46"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 135 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_47"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 138 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_48"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 141 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_49"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 144 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_50"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 147 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_51"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 150 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_52"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 153 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_53"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 156 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_54"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 159 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_55"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 162 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_56"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 165 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_57"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 168 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_58"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 171 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_59"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 174 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_60"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 177 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_61"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 180 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_62"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 183 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_63"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 186 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_64"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 189 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_65"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 192 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_66"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 195 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_67"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 198 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_68"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 201 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_69"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 204 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_70"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 207 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_71"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 210 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_72"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 213 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_73"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 216 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_74"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 219 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_75"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 222 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_76"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 225 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_77"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 228 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_78"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 231 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_79"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 234 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_80"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 237 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_81"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 240 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_82"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 243 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_83"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 246 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_84"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 249 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_85"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 252 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_86"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 255 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_87"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 258 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_88"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 261 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_89"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 264 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_90"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 267 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_91"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 270 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_92"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 273 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_93"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 276 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_94"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 279 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_95"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 282 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_96"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 285 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_97"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 288 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_98"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 291 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_99"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 294 y = 95 }
+			}
+			iconType = {
+				name ="Race_value_bar_pic_100"
+				spriteType = "GFX_race_value_bar_pic"
+				position = { x= 297 y = 95 }
+			}
+
+			instantTextboxType = {
+				name = "now_select_race_2"
+				position = { x = 0 y = 130 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "now_select_race_text_2"
+				maxWidth = 300
+				maxHeight = 20
+				format = left
+			}
+		}
+
+		containerWindowType = {
+			name = "race_identify_pie"
+			position = { x= 25 y = 730 }
+			size = { width=500 height= 250 }
+			clipping = no
+		#	verticalScrollbar = "right_vertical_slider"
+
+			instantTextboxType = {
+				name = "race_identify_pie_title"
+				position = { x = 30 y = 5 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_identify_pie_title"
+				maxWidth = 240
+				maxHeight = 20
+				format = center
+			}
+
+			iconType = {
+				name ="race_identify_pie_pic"
+				spriteType = "GFX_race_identify_pie"
+				position = { x= 30 y = 40 }
+				scale = 0.8
+			}
+
+			iconType = {
+				name ="race_pointer"
+				spriteType = "GFX_race_pointer"
+				position = { x= 30 y = 44 }
+				frame = 1
+				# min 4.71 	max = 1.58 	1% = 0.0313
+			}
+
+			instantTextboxType = {
+				name = "race_identify_pie_text"
+				position = { x = 0 y = 175 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = "[ethnic_policy_type]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+		}
+
+		containerWindowType = {
+			name = "race_options"
+			position = { x= 335 y = 540 }
+			size = { width= 180 height= 100 }
+			clipping = no
+
+			instantTextboxType = {
+				name = "race_options_title"
+				position = { x = 10 y = 0 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_options_title"
+				maxWidth = 180
+				maxHeight = 20
+				format = left
+			}
+
+			containerWindowType = {
+				name = "race_options_buttons"
+				position = { x= -1 y = 30 }
+				size = { width= 195 height= 422 }
+				clipping = yes
+				verticalScrollbar = "right_vertical_slider"
+				vertical_scroll_step = 5
+				margin = { top = 13 left = 20 bottom = 20 right = 0}
+				smooth_scrolling = yes
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window2_1b_border"
+				}
+
+				gridBoxType = {
+					name = "race_effect_grid"
+					position = { x = 0 y = 0 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 250 height = 200 }
+					format = "UPPER_LEFT"
+					max_slots_horizontal = 1
+				}
+
+				buttonType = {
+					name = "race_option_1"
+					position = { x = -178 y = 8 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_2"
+					position = { x = -178 y = 38 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_3"
+					position = { x = -178 y = 68 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_4"
+					position = { x = -178 y = 98 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_5"
+					position = { x = -178 y = 128 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_6"
+					position = { x = -178 y = 158 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_7"
+					position = { x = -178 y = 188 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_8"
+					position = { x = -178 y = 218 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_9"
+					position = { x = -178 y = 248 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_10"
+					position = { x = -178 y = 278 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_11"
+					position = { x = -178 y = 308 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_12"
+					position = { x = -178 y = 338 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_13"
+					position = { x = -178 y = 368 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_14"
+					position = { x = -178 y = 398 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_15"
+					position = { x = -178 y = 428 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_16"
+					position = { x = -178 y = 458 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_17"
+					position = { x = -178 y = 488 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+				buttonType = {
+					name = "race_option_18"
+					position = { x = -178 y = 518 }
+					quadTextureSprite ="GFX_race_option_botton"
+					buttonFont = "hoi_18mbs"
+					text = "race_option_1"
+					format = left
+					pdx_tooltip = "race_option_1_tooltip"
+					Orientation = "UPPER_RIGHT"
+					clicksound = click_close
+				}
+			}
+		}
+
+		containerWindowType = {
+			name = "race_refresh_time"
+			position = { x= 0 y = 950 }
+			size = { width= 550 height= 30 }
+			clipping = no
+
+			instantTextboxType = {
+				name = "race_refresh_days"
+				position = { x = 30 y = 13 }
+				textureFile = ""
+				font = "Arial12"
+				borderSize = {x = 0 y = 0}
+				text = "race_refresh_1"
+				maxWidth = 60
+				maxHeight = 20
+				format = center 
+			}
+
+			buttonType = {
+				name = "race_refresh_checkbox_1"
+				position = { x = 90 y = 5}
+				quadTextureSprite ="GFX_race_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_close
+			}
+
+			instantTextboxType = {
+				name = "race_refresh_month"
+				position = { x = 130 y = 13 }
+				textureFile = ""
+				font = "Arial12"
+				borderSize = {x = 0 y = 0}
+				text = "race_refresh_2"
+				maxWidth = 60
+				maxHeight = 20
+			}
+
+			buttonType = {
+				name = "race_refresh_checkbox_2"
+				position = { x = 190 y = 5}
+				quadTextureSprite ="GFX_race_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+
+			instantTextboxType = {
+				name = "race_refresh_season"
+				position = { x = 230 y = 13 }
+				textureFile = ""
+				font = "Arial12"
+				borderSize = {x = 0 y = 0}
+				text = "race_refresh_3"
+				maxWidth = 60
+				maxHeight = 20
+				format = center
+			}
+
+			buttonType = {
+				name = "race_refresh_checkbox_3"
+				position = { x = 290 y = 5}
+				quadTextureSprite ="GFX_race_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_close
+			}
+		}
+
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+	}
+
+	containerWindowType = {
+		name = "race_open_button"
+		position = { x = 613 y = 36 } # 613 # 669
+
+		#种族系统
+		buttonType = {
+			name = "race_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_staff_office_button"
+			Orientation = "center"
+			shortcut = "shift+r"
+			clicksound = click_close
+			oversound = ui_menu_over
+			pdx_tooltip = "TOPBAR_RACE_DESC"
+		}
+		buttonType = {
+			name = "race_button_dlc"
+			position = { x = 56 y = 0 }
+			quadTextureSprite ="GFX_staff_office_button"
+			Orientation = "center"
+			shortcut = "shift+r"
+			clicksound = click_close
+			oversound = ui_menu_over
+			pdx_tooltip = "TOPBAR_RACE_DESC"
+		}
+	}
+}

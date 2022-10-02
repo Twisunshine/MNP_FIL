@@ -18,7 +18,9 @@ bookmarks = {
 				EQU_war_cabinet
 			}
 			focuses = {
-
+				EQU_1_1
+				EQU_1_4_2
+				EQU_1_9
 			}
 		}
 		EOM = {
@@ -30,7 +32,9 @@ bookmarks = {
 				EOM_torn_country
 			}
 			focuses = {
-
+				EOM_1_1_1
+				EOM_1_1_2
+				EOM_1_1_3
 			}
 		}
 		EER = {
@@ -43,7 +47,7 @@ bookmarks = {
 			}
 			focuses = {
 				EER_chairmans_speech
-				EER_equality_arsenal
+				EER_the_great_war_of_liberation
 				EER_open_the_door
 			}
 			
@@ -74,7 +78,9 @@ bookmarks = {
 			history = KIR_FRIENDSHIP_IS_A_LIE_DESC
 			ideology = despotism
 			ideas={
-
+				KIR_Ash_of_Great_famine
+				KIR_Unsustainable_tradition
+				KIR_Silent_Grove
 			}
 			focuses = {
 

@@ -10,3 +10,15 @@ music = {
 	name = "Farewell_Celestia"
 	file = "Farewell, Celestia.ogg"
 }
+music = {
+	name = "Rising_Sun"
+	file = "Rising Sun.ogg"
+}
+music = {
+	name = "Flooding_Greengrape"
+	file = "Flooding Greengrape.ogg"
+}
+music = {
+	name = "Pax_Paeonia"
+	file = "FanHua YongJI (Pax Paeonia).ogg"
+}

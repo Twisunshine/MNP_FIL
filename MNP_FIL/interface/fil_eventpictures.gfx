@@ -8,6 +8,26 @@ spriteTypes = {
 		name = "GFX_news_event_starlight_eqs"
 		texturefile = "gfx/event_pictures/news_event_starlight_eqs.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_soe_Revolutionary_victory"
+		texturefile = "gfx/event_pictures/soe_Revolutionary_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_event_kill_sunset"
+		texturefile = "gfx/event_pictures/kill_sunset.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_soe_has_canterlot"
+		texturefile = "gfx/event_pictures/soe_has_canterlot.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_soe_has_Manehattan"
+		texturefile = "gfx/event_pictures/soe_has_Manehattan.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_soe_has_Village"
+		texturefile = "gfx/event_pictures/soe_has_Village.dds"
+	}
 
 	
 	

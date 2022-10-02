@@ -1,0 +1,45 @@
+characters={
+
+	MAG_liuyin = {
+		name = MAG_liuyin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/MRG/MAG_liuyin.tga"
+				small="gfx/leaders/MRG/idea_MAG_liuyin.dds"
+			}
+		}
+		country_leader = {
+			desc=MAG_liuyin_desc
+			ideology=despotism_military_junta
+			traits={
+			    
+			}
+			expire="2000.1.1.1"
+			id=-1
+		}
+		advisor = {
+            cost = 150
+            slot = head_of_government
+			idea_token = idea_MAG_liuyin
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+            traits = {
+                
+            }
+			removal_cost = -114514
+        }
+		field_marshal = {
+			legacy_id = 10005
+			traits = { offensive_doctrine trait_cautious harsh_leader  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+}

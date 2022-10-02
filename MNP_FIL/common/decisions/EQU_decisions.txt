@@ -1,203 +1,778 @@
-EQU_EEE_WAR = {
-
-EQU_EEE_WAR_1 = {
-
-available = {
-	date > 1004.2.5
-	EOM = {
-		has_war_with = CLK
+EQU_TS_and_her_friends = {
+    EQU_TS_and_her_friends_1 = {
+        available = {
+			has_equipment = {
+				support_equipment > 49
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_FS_still_alive
+				NOT = {
+					has_country_flag = EQU_TS_friend_gone_FS
+				}
+			}	
+		}
+			 
+		days_re_enable = 20
+			 
+		complete_effect = {   
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -50
+				producer = EQU
+			}
+			custom_effect_tooltip = EQU_FS_add_support_equipment
+			add_to_variable = { EQU_FS_support_equipment = 50 }
 		}
 	}
-	ai_will_do = {
-		factor = 114514
-	}
-	fire_only_once = yes
 
-	remove_effect = {
-		declare_war_on = { 
-			target = EOM 
-			type = civil_war   
-		}
-		declare_war_on = { 
-			target = CLK 
-			type = take_claimed_state   
-		}
-		hidden_effect = {
-			EOM = {
-				create_wargoal = { target = EQU type = civil_war }
+	EQU_TS_and_her_friends_2 = {
+		available = {
+			has_equipment = {
+				infantry_equipment > 999
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_FS_still_alive
+				NOT = {
+					has_country_flag = EQU_TS_friend_gone_FS
+				}
 			}
 		}
-
-				
+		
+		days_re_enable = 35
+			 
+		complete_effect = {   
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+				producer = EQU
+			}
+			custom_effect_tooltip = EQU_FS_add_support_equipment_1
+			add_to_variable = { EQU_FS_support_equipment = 100 }
+		}
 	}
-
-}
+	EQU_TS_and_her_friends_3 ={
+		cancel_trigger = {
+			controls_state = 411
+			controls_state = 420                      
+			controls_state = 319
+		}
+		
+		allowed = {
+			OR = {
+				tag = EQU 
+				tag = LAS
+			}
+		}
+		
+		available = {                          
+			has_country_flag = EQU_TS_friend_gone_FS		
+		}
+		activation = {                         
+			has_war_with = EOM                      
+		} 
+		
+		days_mission_timeout = 30
+		
+		timeout_effect = {       
+			custom_effect_tooltip = EQU_FS_add_support_equipment_2              
+			add_to_variable = { EQU_FS_support_equipment = -25 }             
+		} 
+	}
 	
-
+	EQU_TS_and_her_friends_4 = {
+		available = {
+			command_power > 50
+		}
+		
+		days_re_enable = 90
+			 
+		complete_effect = {   
+			add_political_power = 50
+			add_command_power = -50		 
+		}
+	}
 }
-
-
 
 EQU_Orthodoxy = {
-    EQU_Orthodoxy_Unlock = {
-		visible = {
-			tag = EQU
-			not = { has_country_flag = EQU_Orthodoxy_unlocked }
-		}
-		ai_will_do = {
-			factor = 114514
-		}
-        remove_effect = { 
-			set_variable = {
-				var = EQU_Orthodoxy
-				value = 75
-			}
-			set_variable = { EQU_Orthodoxy_stability_factor = 0.2 }
-			set_variable = { EQU_Orthodoxy_war_support_factor  = 0.2 }
-			set_variable = { EQU_Orthodoxy_political_power_factor = 0.1 }
-			set_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.1 }
-			set_variable = { EQU_Orthodoxy_conscription_factor = 0.2 }
-			set_variable = { EQU_Orthodoxy_army_attack_factor = 0.1 }
-			set_variable = { EQU_Orthodoxy_army_morale_factor = 0.075 }
-            set_country_flag = EQU_Orthodoxy_unlocked
-        }
-    }
-	
     EQU_Orthodoxy_a = {
-        cost = 50
+        cost = 100
         days_remove = 15
-		days_re_enable = 120
-		visible = {
-			has_country_flag = EQU_Orthodoxy_unlocked
-		}
+		days_re_enable = 360
 		ai_will_do = {
 			factor = 10
 		}
-        remove_effect = { 
-            add_to_variable = { EQU_Orthodoxy = 1 }
-            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.004 }
-            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.004 }
-            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.004 }
-            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.003 }
-            force_update_dynamic_modifier = yes
+		modifier = {
+			war_support_weekly = -0.01
         }
+        remove_effect = { 
+            set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			custom_effect_tooltip = EQU_Orthodoxy_1
+		}
     }
 	
     EQU_Orthodoxy_b = {
-        cost = 50
+        cost = 150
         days_remove = 15
-		days_re_enable = 180
-		visible = {
-			has_country_flag = EQU_Orthodoxy_unlocked
-		}
+		days_re_enable = 360
 		ai_will_do = {
 			factor = 10
 		}
+		modifier = {
+			stability_weekly = -0.01
+        }
         remove_effect = { 
-            add_to_variable = { EQU_Orthodoxy = 2 }
-            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.016 }
-            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.016 }
-            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.016 }
-            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.006 }
-            force_update_dynamic_modifier = yes
+            set_variable = { EQU.EQU_orthodoxy_change = 2 }
+			custom_effect_tooltip = EQU_Orthodoxy_2
         }
     }
 	
     EQU_Orthodoxy_c = {
-        cost = 75
+        cost = 50
         days_remove = 15
-		days_re_enable = 120
-		visible = {
-			has_country_flag = EQU_Orthodoxy_unlocked
-		}
+		days_re_enable = 180
 		ai_will_do = {
 			factor = 10
 		}
+		modifier = {
+			liberal_democracy_drift = 0.01
+        }
         remove_effect = { 
-            add_to_variable = { EQU_Orthodoxy = 2 }
-            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.016 }
-            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.016 }
-            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.016 }
-            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.008 }
-            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.006 }
-            force_update_dynamic_modifier = yes
+			set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			custom_effect_tooltip = EQU_Orthodoxy_1
         }
     }
 	
     EQU_Orthodoxy_d = {
-        cost = 100
+        cost = 75
         days_remove = 15
 		days_re_enable = 180
-		visible = {
-			has_country_flag = EQU_Orthodoxy_unlocked
-		}
 		ai_will_do = {
 			factor = 10
 		}
+		modifier = {
+			stability_weekly = -0.01
+        }
         remove_effect = { 
-            add_to_variable = { EQU_Orthodoxy = 3 }
-            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.024 }
-            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.024 }
-            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.012 }
-            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.012 }
-            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.024 }
-            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.012 }
-            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.009 }
-            force_update_dynamic_modifier = yes
+            set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			add_to_variable = { EQU_TS_power = +1 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_2
+			custom_effect_tooltip = EQU_Orthodoxy_1
         }
     }
 	
     EQU_Orthodoxy_e = {
-        cost = 125
+        cost = 75
         days_remove = 15
-		days_re_enable = 120
-		visible = {
-			has_country_flag = EQU_Orthodoxy_unlocked
-		}
+		days_re_enable = 180
 		ai_will_do = {
 			factor = 10
 		}
         remove_effect = { 
-            add_to_variable = { EQU_Orthodoxy = 3 }
-            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.024 }
-            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.024 }
-            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.012 }
-            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.012 }
-            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.024 }
-            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.012 }
-            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.009 }
-            force_update_dynamic_modifier = yes
+            set_variable = { EQU.EQU_orthodoxy_change = 1 }
+			add_to_variable = { EQU_TS_power = -1 }
+            custom_effect_tooltip = EQU_FP_power_tooltip_1
+			custom_effect_tooltip = EQU_Orthodoxy_1
+        }
+    }
+}
+
+EQU_take_power = {
+    EQU_take_power_1 = {
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage	
+				check_variable = {
+					EQU_TS_and_FP > 9
+				}
+			}
+        }
+		
+        cost = 25
+		days_re_enable = 90
+		
+        complete_effect = {   
+            custom_effect_tooltip = EQU_TS_FP_between_1
+            add_to_variable = { EQU_TS_and_FP = +1 }
         }
     }
 	
-    EQU_Orthodoxy_f = {
+    EQU_take_power_2 = {
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage	
+				check_variable = {
+					EQU_TS_and_FP > 9
+				}
+			}
+        }
+		
+        cost = 75
+		days_re_enable = 90
+		
+        complete_effect = {   
+            custom_effect_tooltip = EQU_TS_FP_between_2
+            add_to_variable = { EQU_TS_and_FP = +3 }
+            add_popularity = { ideology = liberal_democracy popularity = -0.01 }
+        }
+    }
+	
+    EQU_take_power_3 = {
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage	
+				check_variable = {
+					EQU_TS_and_FP > 9
+				}
+			}
+        }
+		
+        cost = 50
+		days_re_enable = 90
+		
+        complete_effect = {
+            custom_effect_tooltip = EQU_TS_FP_between_3
+            add_to_variable = { EQU_TS_and_FP = +2 }
+            add_to_variable = { EQU_TS_power = -2 }
+            custom_effect_tooltip = EQU_TS_power_tooltip
+        }
+    }
+    EQU_take_power_4 = {
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage	
+				check_variable = {
+					EQU_TS_and_FP > 9
+				}
+			}
+        }
+		
+        cost = 100
+		days_re_enable = 120
+		
+        complete_effect = {   
+            custom_effect_tooltip = EQU_TS_FP_between_4
+            add_to_variable = { EQU_TS_and_FP = +5 }
+            add_to_variable = { EQU_TS_power = -5 }
+            custom_effect_tooltip = EQU_TS_power_tooltip_1
+            add_stability = 0.05
+            add_popularity = { ideology = authoritarian_democracy popularity = 0.01 }
+        }
+    }
+    EQU_take_power_5 = {
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1	
+				check_variable = {
+					EQU_TS_and_FP < 60
+				}
+			}
+        }
+		
+        cost = 25
+		days_re_enable = 90
+		
+        complete_effect = {   
+			add_to_variable = { EQU_TS_power = +1 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_2
+		}
+    }
+	
+    EQU_take_power_6 = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1	
+				check_variable = {
+						EQU_TS_and_FP < 60
+				}
+			}	
+		}
+		
+		cost = 75
+		days_re_enable = 90
+		
+		complete_effect = {   
+			custom_effect_tooltip = EQU_TS_FP_between_5
+			add_to_variable = { EQU_TS_and_FP = -3 }
+			add_to_variable = { EQU_TS_power = +1 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_2
+			add_popularity = { ideology = liberal_democracy popularity = 0.01 }
+		}
+    }
+	
+    EQU_take_power_7 = {
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1	
+				check_variable = {
+					EQU_TS_and_FP < 60
+				}
+			}
+        }
+		
+        cost = 50
+		days_re_enable = 90
+		
+		complete_effect = {   
+			custom_effect_tooltip = EQU_TS_FP_between_6
+			add_to_variable = { EQU_TS_and_FP = -5 }
+			add_to_variable = { EQU_TS_power = +5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_3
+			add_stability = -0.05
+		}
+    }
+	
+    EQU_take_power_8 = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1	
+				check_variable = {
+					EQU_TS_and_FP < 60
+				}
+			}
+        }
+		
+        cost = 100
+		days_re_enable = 120
+		
+        complete_effect = {
+			custom_effect_tooltip = EQU_TS_FP_between_6
+			add_to_variable = { EQU_TS_and_FP = -5 }
+			add_to_variable = { EQU_TS_power = +5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_3
+			add_popularity = { ideology = liberal_democracy popularity = -0.01 }
+			add_popularity = { ideology = authoritarian_democracy popularity = -0.01 }
+        }
+    }
+	
+    EQU_take_power_9 = {
+        visible = {
+
+        }
+        available = {
+          
+        }
+		
+        cost = 50
+        days_remove = 30
+        fire_only_once = yes 
+		
+        modifier = {   
+			political_power_gain = -0.5
+        }
+        remove_effect = {
+			custom_effect_tooltip = EQU_TS_FP_between_4
+            add_to_variable = { EQU_TS_and_FP = +5 }
+            set_country_flag = EQU_TS_FP_d_i_c_1
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool
+        }
+    }
+    EQU_take_power_10 = {
+        visible = {
+            has_country_flag = EQU_TS_FP_d_i_c_1
+        }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1_1	
+				check_variable = {
+					EQU_TS_and_FP > 59
+				}
+			}
+        }
+		
+        cost = 100
+        days_remove = 30
+        fire_only_once = yes 
+		
+        modifier = {   
+			political_power_gain = -0.5
+        }
+        remove_effect = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.15 }
+            set_country_flag = EQU_TS_FP_d_i_c_2
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool
+        }
+
+    }
+    EQU_take_power_11 = {
+        visible = {
+            has_country_flag = EQU_TS_FP_d_i_c_2
+        }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1_1	
+				check_variable = {
+					EQU_TS_and_FP > 59
+				}
+			}
+        }
+		
         cost = 150
-        days_remove = 20
-		days_re_enable = 270
+        days_remove = 30
+        fire_only_once = yes 
+		
+        modifier = {   
+			political_power_gain = -0.5
+		}
+		remove_effect = {
+			country_event = EQU_events.5
+			set_country_flag = EQU_TS_FP_d_i_c_3
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool
+        }
+    }
+    EQU_take_power_12 = {
+        visible = {
+            has_country_flag = EQU_TS_FP_d_i_c_3
+        }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_1_1	
+				check_variable = {
+					EQU_TS_and_FP > 59
+				}
+			}
+        }
+        cost = 200
+        days_remove = 30
+        fire_only_once = yes 
+		
+        modifier = {   
+			political_power_gain = -0.5
+		}
+		remove_effect = {
+			add_to_variable = { EQU_TS_power = -5 }
+			custom_effect_tooltip = EQU_FP_power_tooltip
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool_end
+			set_country_flag = EQU_TS_and_FP_end
+		}
+
+    }
+    EQU_take_power_13 = {
+        visible = {
+		
+        }
+        available = {
+          
+        }
+		
+        cost = 50
+        days_remove = 30
+        fire_only_once = yes
+		
+        modifier = {   
+               political_power_gain = 0.5
+        }
+		remove_effect = {
+			custom_effect_tooltip = EQU_TS_FP_between_6
+			add_to_variable = { EQU_TS_and_FP = -5 }
+			set_country_flag = EQU_TS_FP_d_i_d_1
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool
+		}
+
+    }
+    EQU_take_power_14 = {
 		visible = {
-			has_country_flag = EQU_Orthodoxy_unlocked
+			has_country_flag = EQU_TS_FP_d_i_d_1
 		}
-		ai_will_do = {
-			factor = 15
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_2	
+				check_variable = {
+					EQU_TS_and_FP < 9
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_power_big_to_FP_1	
+				check_variable = {
+					EQU_TS_power > 29
+				}
+			}
+        }
+		
+        cost = 100
+        days_remove = 30
+        fire_only_once = yes
+		
+        modifier = {   
+			political_power_gain = 0.5
+        }
+        remove_effect = {
+			add_to_variable = { EQU_TS_power = +5 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_3
+			add_stability = -0.05
+			set_country_flag = EQU_TS_FP_d_i_d_2
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool
+        }
+    }
+	
+    EQU_take_power_15 = {
+        visible = {
+            has_country_flag = EQU_TS_FP_d_i_d_2
+        }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_2	
+				check_variable = {
+					EQU_TS_and_FP < 9
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_power_big_to_fp_2
+				check_variable = {
+					EQU_TS_power > 49
+				}
+			}
+        }
+		
+        cost = 150
+        days_remove = 30
+        fire_only_once = yes 
+		
+        modifier = {   
+			political_power_gain = 0.5
+        }
+		remove_effect = {
+			country_event = EQU_events.6
+			set_country_flag = EQU_TS_FP_d_i_d_3
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool
+		
 		}
-        remove_effect = { 
-            add_to_variable = { EQU_Orthodoxy = 5 }
-            add_to_variable = { EQU_Orthodoxy_stability_factor = 0.04 }
-            add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.04 }
-            add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.02 }
-            add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.02 }
-            add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.04 }
-            add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.02 }
-            add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.015 }
-            force_update_dynamic_modifier = yes
+
+    }
+    EQU_take_power_16 = {
+        visible = {
+            has_country_flag = EQU_TS_FP_d_i_d_3
+        }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_FP_not_between_damage_2	
+				check_variable = {
+					EQU_TS_and_FP < 9
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_TS_power_big_to_fp_2
+				check_variable = {
+					EQU_TS_power > 49
+				}
+			}
+        }
+		
+		cost = 200
+		days_remove = 30
+		fire_only_once = yes 
+			
+		modifier = {   
+               political_power_gain = 0.5
+		}
+		remove_effect = {
+			country_event = EQU_events.7
+			custom_effect_tooltip = EQU_TS_FP_d_i_c_tool_end_1
+			set_country_flag = EQU_TS_and_FP_end
+		}
+    }
+    EQU_take_power_17 = {
+        allowed = { original_tag = EQU }
+ 
+        available = {
+			has_country_flag = EQU_TS_and_FP_end
+		} 
+		activation = {
+			check_variable = {  
+				var = EQU_TS_and_FP 
+				value = 25 
+				compare = less_than_or_equals 
+			}
+			check_variable = {  
+				var = EQU_TS_and_FP 
+				value = 10 
+				compare = greater_than_or_equals 
+			}
+			NOT = {
+				has_country_flag = EQU_TS_and_FP_end
+			}
+		}        
+		
+		selectable_mission = no
+		is_good = yes
+		days_mission_timeout = 60
+		
+		timeout_effect = {         
+			custom_effect_tooltip = EQU_TS_FP_between_3
+			add_to_variable = { EQU_TS_and_FP = +2 }            
+        }  
+    }
+    EQU_take_power_18 = {
+        allowed = { original_tag = EQU }
+		
+		available = {
+			has_country_flag = EQU_TS_and_FP_end
+		} 
+		activation = {
+			check_variable = {  
+				var = EQU_TS_and_FP 
+				value = 45 
+				compare = greater_than_or_equals 
+			}
+			NOT = {
+				has_country_flag = EQU_TS_and_FP_end
+			}
+		}  
+        
+		selectable_mission = no
+		days_mission_timeout = 60
+		
+		timeout_effect = {         
+			custom_effect_tooltip = EQU_TS_FP_between_8
+			add_to_variable = { EQU_TS_and_FP = -2 }            
+        }  
+    }
+}
+
+# 统一小马国
+EQU_EQS = {
+	EQU_EQS_0 = {
+		available = {
+			has_country_flag = EER_NOT
+			has_country_flag = EOM_NOT
+			has_country_flag = CLK_NOT
+		}
+		fire_only_once = yes
+
+		 complete_effect = {
+			hidden_effect = {
+				country_event = fil_superevents.6
+			}
+		}
+	}
+    EQU_EQS_1 = {
+        available = {
+			has_country_flag = EOM_NOT
+		}
+		visible = {
+			NOT = {
+				has_country_flag = EER_integrated_territory_EOM
+			}
+		}
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = EQU_EOM
+			hidden_effect = {
+				add_EOM_territory = yes
+			}
+		}
+    }
+	
+    EQU_EQS_2 = {
+        available = {
+			has_country_flag = CLK_NOT
+		}
+		visible = {
+			NOT = {
+				has_country_flag = EER_integrated_territory_CLK
+			}
+		}
+		
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = EQU_CLK
+			hidden_effect = {
+				add_CLK_pony_territory = yes
+			}
+		}
+    }
+    EQU_EQS_3 = {
+        available = {
+			has_country_flag = EER_NOT
+		}
+		visible = {
+			NOT = {
+				has_country_flag = EQU_integrated_territory_EER
+			}
+		}
+		
+		fire_only_once = yes
+		cost = 150
+		days_remove = 180
+
+		remove_effect = {
+			custom_effect_tooltip = EQU_EER
+			hidden_effect = {
+				add_EER_territory = yes
+			}
+		}
+    }
+}
+
+EQU_LAS_special_command = {
+    EQU_LAS_special_command_1 = {
+        cost = 50
+        allowed = {
+            has_manpower > 6999
+        }
+        complete_effect = {
+            add_manpower = -7000
+        }
+		
+        days_remove = 90
+		
+        remove_effect = {
+            random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division\"division_template = \"维加斯“公主”师\" start_experience_factor = 0.15 start_equipment_factor = 0.95" 
+					owner = EQU
+					count = 1
+				}
+			}
+        }
+    }
+	
+    EQU_LAS_special_command_2 = {
+        cost = 50
+        allowed = {
+            has_manpower > 9999
+        }
+        complete_effect = {
+            add_manpower = -10000
+        }
+		
+        days_remove = 120
+		
+        remove_effect = {
+            random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division\"division_template = \"维加斯“谐律”师\" start_experience_factor = 0.15 start_equipment_factor = 0.95" 
+					owner = EQU
+					count = 1
+				}
+			}
+        }
+    }
+	
+    EQU_LAS_special_command_3 = {
+        cost = 75
+        allowed = {
+            has_manpower > 8499
+        }
+        complete_effect = {
+            add_manpower = -8500
+        }
+		
+        days_remove = 120
+		
+        remove_effect = {
+            random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division\"division_template = \"维加斯“皇家”师\" start_experience_factor = 0.15 start_equipment_factor = 0.95" 
+					owner = EQU
+					count = 1
+				}
+			}
         }
     }
 }

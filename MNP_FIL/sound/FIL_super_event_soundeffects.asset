@@ -45,3 +45,27 @@ soundeffect = {
 	max_audible_behaviour = fail
 	volume = 1
 }
+
+soundeffect = {
+	name = super_event_se_EOM_Unite
+	loop = no
+	sounds = {
+		sound = se_EOM_Unite
+	}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1
+}
+
+soundeffect = {
+	name = super_event_se_EQU_Unite
+	loop = no
+	sounds = {
+		sound = se_EQU_Unite
+	}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 1
+}

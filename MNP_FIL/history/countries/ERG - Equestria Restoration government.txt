@@ -1,0 +1,28 @@
+﻿capital = 11
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.6
+
+# Starting tech
+
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 7
+	fascism = 3
+	despotism = 0
+	authoritarian_democracy = 89
+	liberal_democracy = 1
+	social_democracy = 0
+	socialism = 0
+	communism = 0
+}
+recruit_character = ERG_sunset_shimmer
+

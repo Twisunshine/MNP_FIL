@@ -501,13 +501,7 @@ shared_focus = {
 	completion_reward = {
 		CLK = {
 			add_to_variable = { clk_thorax_rebellion = 5 }
-			add_to_variable = { CLK_Thorax_rebellion_stability_factor = 0.015 }
-			add_to_variable = { CLK_Thorax_rebellion_war_support_factor = 0.015 }
-			subtract_from_variable = { CLK_Thorax_rebellion_political_power_cost = 0.025 }
-			add_to_variable = { CLK_Thorax_rebellion_monthly_population = 0.010 }
-			add_to_variable = { CLK_Thorax_rebellion_compliance_growth = 0.000075 }
-			subtract_from_variable = { CLK_Thorax_rebellion_resistance_target = 0.020 }
-			subtract_from_variable = { CLK_Thorax_rebellion_resistance_damage_to_garrison = 0.025 }
+			calculate_thorax_rebellion = yes
 		}
 		custom_effect_tooltip = CLK_rebellion_add
 	}
@@ -1224,17 +1218,8 @@ shared_focus = {
 
 	completion_reward = {
 		add_political_power = 100
-			EOM = {
-			EOM = { add_to_variable = { EOM_Orthodoxy = -1 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 } }
-    		EOM = { add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 } }
-    		force_update_dynamic_modifier = yes
-			}
+		set_variable = { EOM.EOM_orthodoxy_change = -1 }
+		calculate_orthodoxy = yes
 		custom_effect_tooltip = EOM_orthodoxy_sub_1
 	}
 }
@@ -1268,18 +1253,9 @@ shared_focus = {
 
 	completion_reward = {
 		add_political_power = 75
-			EQU = {
-			EQU = { add_to_variable = { EQU_Orthodoxy = -2 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_stability_factor = -0.016 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_war_support_factor  = -0.016 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_political_power_factor = -0.008 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = -0.008 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_conscription_factor = -0.016 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_army_attack_factor = -0.008 } }
-    		EQU = { add_to_variable = { EQU_Orthodoxy_army_morale_factor = -0.006 } }
-    		force_update_dynamic_modifier = yes
-			}
-		custom_effect_tooltip = EQU_orthodoxy_sub_1
+		set_variable = { EQU.EQU_orthodoxy_change = -2 }
+		calculate_orthodoxy = yes
+		custom_effect_tooltip = EQU_orthodoxy_sub_2
 	}
 }
 shared_focus = {

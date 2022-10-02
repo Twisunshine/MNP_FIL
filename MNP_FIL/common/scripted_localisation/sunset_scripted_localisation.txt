@@ -1,0 +1,31 @@
+defined_text = {
+    name = SOE_doc_status
+	text = {
+        trigger = {
+			NOT = {
+				has_country_flag = SOE_invite_doc
+			}
+        }
+        localization_key = SOE_no_doc
+    }
+    text = {
+        trigger = {
+			AND = {
+				has_country_flag = SOE_invite_doc
+				has_country_flag = SOE_doc_is_here
+			}
+        }
+        localization_key = SOE_doc_status_here
+    }
+    text = {
+        trigger = {
+			AND = {
+				has_country_flag = SOE_invite_doc
+				NOT = {
+					has_country_flag = SOE_doc_is_here
+				}
+			}
+        }
+        localization_key = SOE_doc_status_not_here
+    }
+}

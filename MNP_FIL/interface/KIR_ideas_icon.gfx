@@ -1,0 +1,14 @@
+spriteTypes = {
+	
+	SpriteType = {
+        name = "GFX_idea_KIR_Crisis_of_Confidence"
+        texturefile = "gfx/interface/ideas/KIR_Crisis_of_Confidence.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_KIR_Unsustainable_tradition"
+        texturefile = "gfx/interface/ideas/KIR_Unsustainable_tradition.dds"
+    }
+	
+	
+}

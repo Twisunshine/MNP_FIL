@@ -34,6 +34,20 @@ ideas = {
                 production_factory_efficiency_gain_factor = -0.05
             }
         }
+        EOM_dummy_parliament_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_dummy_parliament
+
+            modifier = {
+                political_power_factor = 0.05
+				stability_factor = -0.25
+                production_factory_efficiency_gain_factor = -0.05
+            }
+        }
         #撕裂的国家
         EOM_torn_country = {
             allowed = {
@@ -52,7 +66,378 @@ ideas = {
                 production_factory_efficiency_gain_factor = -0.05
             }
         }
+		EOM_torn_country_1 = {
+            allowed = {
+                original_tag = EOM
+            }
 
+            removal_cost = -1
+            picture = EOM_torn_country
+
+            modifier = {
+                monthly_population = -0.2
+                war_support_factor = -0.25
+                conscription_factor = -0.05
+                army_attack_factor = -0.1
+                production_factory_max_efficiency_factor = 0.1
+            }
+        }
+		EOM_torn_country_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_torn_country
+
+            modifier = {
+                war_support_factor = -0.25
+                conscription_factor = -0.05
+                army_attack_factor = -0.1
+                production_factory_max_efficiency_factor = 0.1
+            }
+        }
 		
+		#准备对幻型灵战争
+        EOM_preparing_war_against_changeling_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_preparing_war_against_changeling
+
+            modifier = {
+                production_speed_buildings_factor = 0.2
+            }
+        }
+		EOM_preparing_war_against_changeling_2_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_preparing_war_against_changeling
+
+            modifier = {
+                production_speed_buildings_factor = 0.2
+				planning_speed = 0.25
+            }
+        }
+		EOM_preparing_war_against_changeling_2_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_preparing_war_against_changeling
+
+            modifier = {
+                production_speed_buildings_factor = 0.2
+				dig_in_speed_factor = 0.25
+            }
+        }
+		EOM_preparing_war_against_changeling_3 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_preparing_war_against_changeling
+
+            modifier = {
+                production_speed_buildings_factor = 0.2
+				planning_speed = 0.25
+				dig_in_speed_factor = 0.25
+            }
+        }
+		
+		#新月行动
+		EOM_operation_new_moon_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_operation_new_moon
+
+            targeted_modifier = {
+				tag = CLK
+				attack_bonus_against = 0.1
+			}
+        }
+		EOM_operation_new_moon_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_operation_new_moon
+
+            modifier = {
+				naval_night_attack = 0.1
+				land_night_attack = 0.1
+            }
+			
+			targeted_modifier = {
+				tag = CLK
+				attack_bonus_against = 0.1
+			}
+        }
+		
+		#重建公主卫军
+		EOM_rebuilding_princess_guard_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_rebuilding_princess_guard
+
+            modifier = {
+				experience_gain_army_factor = -0.1
+			}
+        }
+		EOM_rebuilding_princess_guard_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_rebuilding_princess_guard
+
+            modifier = {
+				experience_gain_army_factor = -0.1
+				research_speed_factor = 0.05
+			}
+        }
+		
+		#新千年暗夜军
+		EOM_new_millennium_darknight_army = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_new_millennium_darknight_army
+
+            modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.05
+			}
+        }
+		
+		#前线的外国记者
+		EOM_foreign_journalists_on_the_frontline = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_foreign_journalists_on_the_frontline
+
+            modifier = {
+				army_attack_factor = -0.05
+				political_power_factor = 0.1
+			}
+        }
+		
+		#上弦月行动
+		EOM_operation_first_quarter_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_operation_first_quarter
+
+            targeted_modifier = {
+				tag = EER
+				defense_bonus_against = 0.1
+			}
+        }
+		EOM_operation_first_quarter_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_operation_first_quarter
+
+            targeted_modifier = {
+				tag = EER
+				defense_bonus_against = 0.1
+				attack_bonus_against = 0.1
+			}
+        }
+		
+		#下弦月行动
+		EOM_operation_last_quarter_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_operation_last_quarter
+
+            targeted_modifier = {
+				tag = EQU
+				defense_bonus_against = 0.1
+			}
+        }
+		EOM_operation_last_quarter_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_operation_last_quarter
+
+            targeted_modifier = {
+				tag = EQU
+				defense_bonus_against = 0.1
+				attack_bonus_against = 0.1
+			}
+        }
+		
+		#清洗官僚
+		EOM_purging_bureaucrats = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_purging_bureaucrats
+
+            modifier = {
+				stability_factor = -0.2
+				political_power_gain = 0.15
+			}
+        }
+		
+		#夜骐精英卫队
+		EOM_batpony_elite_guard_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_batpony_elite_guard
+
+            modifier = {
+				conscription_factor = 0.05
+			}
+        }
+		EOM_batpony_elite_guard_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_batpony_elite_guard
+
+            modifier = {
+				conscription_factor = 0.05
+				army_attack_factor = 0.1
+			}
+        }
+		EOM_batpony_elite_guard_3 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_batpony_elite_guard
+
+            modifier = {
+				conscription_factor = 0.05
+				army_attack_factor = 0.1
+				army_org_regain = 0.05
+				industrial_capacity_factory = -0.05
+			}
+        }
+		
+		#特批住房项目
+		EOM_specially_approved_housing_projects = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_specially_approved_housing_projects
+
+            modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+        }
+		
+		#高压统治
+		EOM_high_handed_rule_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_high_handed_rule
+
+            modifier = {
+				stability_factor = 0.05
+			}
+        }
+		EOM_high_handed_rule_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_high_handed_rule
+
+            modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+        }
+		EOM_high_handed_rule_3 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_high_handed_rule
+
+            modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+        }
+		
+		#仁慈统治
+		EOM_reign_of_mercy_1 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_reign_of_mercy
+
+            modifier = {
+				consumer_goods_factor = 0.05
+			}
+        }
+		EOM_reign_of_mercy_2 = {
+            allowed = {
+                original_tag = EOM
+            }
+
+            removal_cost = -1
+            picture = EOM_reign_of_mercy
+
+            modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+        }
     }
 }

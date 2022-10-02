@@ -27,3 +27,16 @@
  
  Orthodoxy_EQU_bar:0 "GFX_Orthodoxy_value_bar_right_pic"
  Orthodoxy_EOM_bar:0 "GFX_Orthodoxy_value_bar_left_pic"
+                        
+ EQU_orthodoxy_sub_1:0 "§Y小马国临时政府的正统度§! §R-1§!"
+ EQU_orthodoxy_sub_2:0 "§Y小马国临时政府的正统度§! §R-2§!"
+ EOM_orthodoxy_sub_1:0 "§Y月之帝国的正统度§! §R-1§!"
+ EOM_orthodoxy_sub_2:0 "§Y月之帝国的正统度§! §R-2§!"
+ 
+ EQU_EOM_orthodoxy_add_sub_1:0 "§Y小马国临时政府§!的正统度 §G+1§!\n§Y月之帝国§!的正统度 §R-1§!"
+ EQU_EOM_orthodoxy_add_sub_2:0 "§Y小马国临时政府§!的正统度 §G+3§!\n§Y月之帝国§!的正统度 §R-3§!"
+ EQU_EOM_orthodoxy_add_sub_3:0 "§Y小马国临时政府§!的正统度 §G+10§!\n§Y月之帝国§!的正统度 §R-10§!"
+ 
+ EQU_EOM_orthodoxy_sub_add_1:0 "§Y小马国临时政府§!的正统度 §R-1§!\n§Y月之帝国§!的正统度 §G+1§!"
+ EQU_EOM_orthodoxy_sub_add_3:0 "§Y小马国临时政府§!的正统度 §R-5§!\n§Y月之帝国§!的正统度 §G+5§!"
+ EQU_EOM_orthodoxy_sub_add_4:0 "§Y小马国临时政府§!的正统度 §R-10§!\n§Y月之帝国§!的正统度 §G+10§!"

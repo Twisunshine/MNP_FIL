@@ -1,4 +1,4 @@
-version="1.11.12"
+version="1.12.2"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -46,5 +46,5 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="map/terrain"
 replace_path="tutorial"
-supported_version="1.11.12"
+supported_version="1.12.2"
 remote_file_id="2839589088"

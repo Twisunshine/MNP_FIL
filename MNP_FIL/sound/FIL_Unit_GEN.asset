@@ -1,0 +1,413 @@
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	EER_infantry_idle
+	EER_infantry_neutral_combat
+	EER_infantry_positive_combat
+	EER_infantry_retreat
+	EER_infantry_move_out
+	EQU_infantry_idle
+	EQU_infantry_neutral_combat
+	EQU_infantry_positive_combat
+	EQU_infantry_retreat
+	EQU_infantry_move_out
+	EOM_infantry_idle
+	EOM_infantry_neutral_combat
+	EOM_infantry_positive_combat
+	EOM_infantry_retreat
+	EOM_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+######## EER
+soundeffect = 
+{
+    name = "EER_infantry_idle"
+    sounds = {
+        sound = GEN_Idle_001
+        sound = GEN_Idle_002
+        sound = GEN_Idle_003
+        sound = GEN_Idle_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EER_infantry_neutral_combat"
+    sounds = {
+        sound = GEN_Neutral_001
+        sound = GEN_Neutral_002
+        sound = GEN_Neutral_003
+        sound = GEN_Neutral_004
+        sound = GEN_Neutral_005
+        sound = GEN_Neutral_006
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EER_infantry_positive_combat"
+    sounds = {
+        sound = GEN_Positive_001
+        sound = GEN_Positive_002
+        sound = GEN_Positive_003
+        sound = GEN_Positive_004
+        sound = GEN_Positive_005
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EER_infantry_retreat"
+    sounds = {
+        sound = GEN_Retreat_001
+        sound = GEN_Retreat_002
+        sound = GEN_Retreat_003
+        sound = GEN_Retreat_004
+        sound = GEN_Retreat_005
+        sound = GEN_Retreat_006
+		sound = GEN_Retreat_007
+        sound = GEN_Retreat_008
+        sound = GEN_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EER_infantry_move_out"
+    sounds = {
+        sound = GEN_Out_001
+        sound = GEN_Out_002
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## EQU
+soundeffect = 
+{
+    name = "EQU_infantry_idle"
+    sounds = {
+        sound = GEN_Idle_001
+        sound = GEN_Idle_002
+        sound = GEN_Idle_003
+        sound = GEN_Idle_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EQU_infantry_neutral_combat"
+    sounds = {
+        sound = GEN_Neutral_001
+        sound = GEN_Neutral_002
+        sound = GEN_Neutral_003
+        sound = GEN_Neutral_004
+        sound = GEN_Neutral_005
+        sound = GEN_Neutral_006
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EQU_infantry_positive_combat"
+    sounds = {
+        sound = GEN_Positive_001
+        sound = GEN_Positive_002
+        sound = GEN_Positive_003
+        sound = GEN_Positive_004
+        sound = GEN_Positive_005
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EQU_infantry_retreat"
+    sounds = {
+        sound = GEN_Retreat_001
+        sound = GEN_Retreat_002
+        sound = GEN_Retreat_003
+        sound = GEN_Retreat_004
+        sound = GEN_Retreat_005
+        sound = GEN_Retreat_006
+		sound = GEN_Retreat_007
+        sound = GEN_Retreat_008
+        sound = GEN_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EQU_infantry_move_out"
+    sounds = {
+        sound = GEN_Out_001
+        sound = GEN_Out_002
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## EOM
+soundeffect = 
+{
+    name = "EOM_infantry_idle"
+    sounds = {
+        sound = GEN_Idle_001
+        sound = GEN_Idle_002
+        sound = GEN_Idle_003
+        sound = GEN_Idle_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EOM_infantry_neutral_combat"
+    sounds = {
+        sound = GEN_Neutral_001
+        sound = GEN_Neutral_002
+        sound = GEN_Neutral_003
+        sound = GEN_Neutral_004
+        sound = GEN_Neutral_005
+        sound = GEN_Neutral_006
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EOM_infantry_positive_combat"
+    sounds = {
+        sound = GEN_Positive_001
+        sound = GEN_Positive_002
+        sound = GEN_Positive_003
+        sound = GEN_Positive_004
+        sound = GEN_Positive_005
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EOM_infantry_retreat"
+    sounds = {
+        sound = GEN_Retreat_001
+        sound = GEN_Retreat_002
+        sound = GEN_Retreat_003
+        sound = GEN_Retreat_004
+        sound = GEN_Retreat_005
+        sound = GEN_Retreat_006
+		sound = GEN_Retreat_007
+        sound = GEN_Retreat_008
+        sound = GEN_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "EOM_infantry_move_out"
+    sounds = {
+        sound = GEN_Out_001
+        sound = GEN_Out_002
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+############## AUDIO ASSETS
+####### GEN
+sound = 
+{
+	name = "GEN_Idle_001"
+	file = "FIL_GEN/GEN_Idle_001.wav"
+}
+sound = 
+{
+	name = "GEN_Idle_002"
+	file = "FIL_GEN/GEN_Idle_002.wav"
+}
+sound = 
+{
+	name = "GEN_Idle_003"
+	file = "FIL_GEN/GEN_Idle_003.wav"
+}
+sound = 
+{
+	name = "GEN_Idle_004"
+	file = "FIL_GEN/GEN_Idle_004.wav"
+}
+sound = 
+{
+	name = "GEN_Neutral_001"
+	file = "FIL_GEN/GEN_Neutral_001.wav"
+}
+sound = 
+{
+	name = "GEN_Neutral_002"
+	file = "FIL_GEN/GEN_Neutral_002.wav"
+}
+sound = 
+{
+	name = "GEN_Neutral_003"
+	file = "FIL_GEN/GEN_Neutral_003.wav"
+}
+sound = 
+{
+	name = "GEN_Neutral_004"
+	file = "FIL_GEN/GEN_Neutral_004.wav"
+}
+sound = 
+{
+	name = "GEN_Neutral_005"
+	file = "FIL_GEN/GEN_Neutral_005.wav"
+}
+sound = 
+{
+	name = "GEN_Neutral_006"
+	file = "FIL_GEN/GEN_Neutral_006.wav"
+}
+sound = 
+{
+	name = "GEN_Out_001"
+	file = "FIL_GEN/GEN_Neutral_001.wav"
+}
+sound = 
+{
+	name = "GEN_Out_002"
+	file = "FIL_GEN/GEN_Neutral_002.wav"
+}
+sound = 
+{
+	name = "GEN_Positive_001"
+	file = "FIL_GEN/GEN_Positive_001.wav"
+}
+sound = 
+{
+	name = "GEN_Positive_002"
+	file = "FIL_GEN/GEN_Positive_002.wav"
+}
+sound = 
+{
+	name = "GEN_Positive_003"
+	file = "FIL_GEN/GEN_Positive_003.wav"
+}
+sound = 
+{
+	name = "GEN_Positive_004"
+	file = "FIL_GEN/GEN_Positive_004.wav"
+}
+sound = 
+{
+	name = "GEN_Positive_005"
+	file = "FIL_GEN/GEN_Positive_005.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_001"
+	file = "FIL_GEN/GEN_Retreat_001.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_002"
+	file = "FIL_GEN/GEN_Retreat_002.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_003"
+	file = "FIL_GEN/GEN_Retreat_003.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_004"
+	file = "FIL_GEN/GEN_Retreat_004.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_005"
+	file = "FIL_GEN/GEN_Retreat_005.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_006"
+	file = "FIL_GEN/GEN_Retreat_006.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_007"
+	file = "FIL_GEN/GEN_Retreat_007.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_008"
+	file = "FIL_GEN/GEN_Retreat_008.wav"
+}
+sound = 
+{
+	name = "GEN_Retreat_009"
+	file = "FIL_GEN/GEN_Retreat_009.wav"
+}

@@ -1,0 +1,218 @@
+ideas = {
+	country = {
+        #值得骄傲
+        LAS_be_proud = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = 0.15
+              war_support_factor = 0.15
+
+            }
+        }
+        #闪电天马式管理
+         LAS_Lightning_Bolt_Management = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              conscription_factor = 0.01
+              attrition = -0.1
+              army_attack_factor = 0.15
+	          army_defence_factor = 0.15
+              army_morale_factor = -0.1
+              land_reinforce_rate = 0.03
+              
+            }
+        }
+        #贵族掣肘
+         LAS_aristocratic_handicap = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+             political_power_factor = 0.05
+             war_support_factor = -0.2
+             consumer_goods_factor = 0.05
+              
+            }
+        }
+        #谐律信仰
+         LAS_Harmony_Faith = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+             stability_factor = 0.1
+             conscription_factor = 0.05
+              
+            }
+        }
+        #加大生产
+        LAS_increase_production = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+             industrial_capacity_factory = 0.1
+             line_change_production_efficiency_factor = 0.05
+             production_factory_efficiency_gain_factor = 0.1
+              
+            }
+        }
+        #加大建设
+        LAS_increase_construction = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+             production_speed_buildings_factor = 0.15
+             local_building_slots_factor = 0.35
+             production_speed_arms_factory_factor = 0.3
+              
+            }
+        }
+        #扩建军队
+        LAS_expand_the_army = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+             training_time_army_factor = -0.35
+             command_power_gain_mult = 0.05
+             experience_gain_army_factor = 0.15
+              
+            }
+        }
+         #解决君主
+        LAS_solve_the_monarch_1 = {
+            name = LAS_solve_the_monarch
+            allowed = {
+                original_tag = LAS
+            }
+            cancel = {
+			not = { country_exists = EOM }
+			}
+
+            removal_cost = -1
+            picture = /
+
+            targeted_modifier = {
+		  tag = EOM
+		  attack_bonus_against = 0.05
+		  defense_bonus_against = 0.05
+		 
+	}
+        }
+         LAS_solve_the_monarch_2 = {
+            name = LAS_solve_the_monarch
+            allowed = {
+                original_tag = LAS
+            }
+            cancel = {
+			not = { country_exists = EOM }
+			}
+
+            removal_cost = -1
+            picture = /
+
+            targeted_modifier = {
+		  tag = EOM
+		  attack_bonus_against = 0.15
+		  defense_bonus_against = 0.15
+		 
+	}
+        }
+        #解决平等
+        LAS_address_equality_1 = {
+            name = LAS_address_equality
+            allowed = {
+                original_tag = LAS
+            }
+            cancel = {
+			not = { country_exists = EER }
+			}
+
+            removal_cost = -1
+            picture = /
+
+            targeted_modifier = {
+		  tag = EER
+		  attack_bonus_against = 0.05
+		  defense_bonus_against = 0.05
+		 
+	}
+        }
+         LAS_address_equality_2 = {
+            name = LAS_address_equality
+            allowed = {
+                original_tag = LAS
+            }
+            cancel = {
+			not = { country_exists = EER }
+			}
+
+            removal_cost = -1
+            picture = /
+
+            targeted_modifier = {
+		  tag = EER
+		  attack_bonus_against = 0.15
+		  defense_bonus_against = 0.15
+		 
+	}
+        }
+         #为小马国服役
+         LAS_Serving_for_Equestria = {
+            allowed = {
+                original_tag = LAS
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              army_attack_factor = 0.05
+	          army_defence_factor = 0.05
+              conscription_factor = 0.2
+              army_org_factor = -0.15
+              planning_speed = -0.05
+              experience_gain_army_factor = -0.02
+              experience_loss_factor = 0.03
+              
+            }
+        }
+
+        
+        
+}
+}

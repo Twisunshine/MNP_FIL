@@ -1,0 +1,46 @@
+Race_System_race_dynamic_modifier = {
+	enable = { always = yes }
+	
+	stability_factor = race_effect_main_1	 						# 主体占比 - 稳定度 (-20% ~ 20%)
+	
+	#equipment_bonus = {
+	#	infantry_equipment = {
+	#		license_infantry_eq_purchase_cost = race_effect_main_2	# 主体数量 步兵装备造价 - 每个多于1的种族 +10%
+	#	}
+	#}
+							
+	army_attack_factor = race_effect_0_1     						# 种族: 陆马 - 陆军防御 (-10% ~ 10%)
+	air_attack_factor = race_effect_1_1								# 种族: 天马 - 空中攻击 (-10% ~ 10%)
+	breakthrough_factor = race_effect_2_1							# 种族: 独角兽 - 陆军突破 (-10% ~ 10%)
+	land_night_attack = race_effect_3_1								# 种族: 夜骐 - 晚间攻击 (-20% ~ 20%)
+	stability_factor = 	race_effect_4_1								# 种族: 水晶小马 - 稳定度 (-20% ~ 20%)
+	army_intel_factor = race_effect_5_1								# 种族: 幻型灵 - 陆军情报 (-20% ~ 20%)
+					
+	# casualty_trickleback = race_effect_6_1						# 种族: 斑马 - 伤兵复原 (-20% ~ 20%)
+					
+	offence = race_effect_7_1										# 种族: 龙族 - 攻击 (-100% ~ 100%)
+	defence = race_effect_7_1										# 种族: 龙族 - 防御 (-100% ~ 100%)				
+	navy_org_factor = race_effect_7_2_1								# 种族: 龙族 / 骏鹰 - 海军组织度 (-50% ~ 50%) / (-10% ~ 10%)
+	army_org_factor = race_effect_7_2_2								# 种族: 龙族 / 鹿鹰兽 - 陆军组织度 (-50% ~ 50%) / (-10% ~ 10%)
+					
+	# max_strength = race_effect_8_1								# 种族: 牛类种族 - 步兵HP (-40 ~ +40)
+	
+	industrial_capacity_factory = race_effect_9_1					# 种族: 驯鹿 - 工厂产出 (-20% ~ 20%)
+	research_speed_factor = race_effect_10_1						# 种族: 马 - 研究速度 (-20% ~ 20%)
+	supply_consumption_factor = race_effect_11_1					# 种族: 驴&骡子 - 补给消耗 (+20% ~ -20%)						
+	army_org_regain = race_effect_12_1								# 种族: 狮鹫 - 组织度恢复 (-10% ~ 10%)
+	production_factory_efficiency_gain_factor = race_effect_13_1	# 种族: 驼鹿 - 工厂效率增长 (-10% ~ 10%)
+
+	# soft_attack = race_effect_15_1 								# 种族: 麒麟 - 对马员杀伤 (-20% ~ 20%)	
+						
+	equipment_capture_factor = race_effect_16_1						# 种族: 哈弗林格 - 缴获装备比率 (-10% ~ 10%)
+	experience_loss_factor = race_effect_17_1						# 种族: 水妖马 - 经验损失 (+20% ~ -20%)
+	local_resources_factor = race_effect_18_1						# 种族: 钻石狗 - 战略资源获取 (-10% ~ 10%)
+	dig_in_speed_factor = race_effect_18_1							# 种族: 钻石狗 - 壕沟速度 (-10% ~ 10%)
+	army_speed_factor = race_effect_19_1							# 种族: 猫族 - 陆军移动速度 (-10% ~ 10%)
+	industrial_capacity_dockyard = race_effect_20_1 				# 种族: 鹦鹉 - 海军船坞产出 (-20% ~ 20%)
+	production_speed_buildings_factor = race_effect_21_1			# 种族: 鹿  - 建造速度 (-10% ~ 10%)
+	army_attack_factor = race_effect_22_1							# 种族: 风暴兽 - 陆军攻击 (-10% ~ 10%)
+	air_defence_factor = race_effect_23_1							# 种族: 骏鹰 - 空军防御 (-10% ~ 10%)
+	naval_damage_factor = race_effect_24_1							# 种族: 海狮 - 海军攻击 (-20% ~ 20%)
+}

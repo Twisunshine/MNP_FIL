@@ -1,0 +1,70 @@
+add_namespace = sunset_shimmer
+
+#塞雷斯蒂娅的传送门
+country_event = {
+	id = sunset_shimmer.5
+	title = sunset_shimmer.5.t
+	desc = sunset_shimmer.5.d
+	
+	is_triggered_only = yes
+
+	option={
+		name = sunset_shimmer.5.tt
+		country_event = { id = sunset_shimmer.2 days = 15 }
+    }
+}
+
+#焚书
+country_event = {
+	id = sunset_shimmer.2
+	title = sunset_shimmer.2.t
+	desc = sunset_shimmer.2.d
+	
+	is_triggered_only = yes
+
+	option={
+		name = sunset_shimmer.2.tt
+		country_event = {  days = 15 id = sunset_shimmer.3  }
+    }
+	option={
+		name = sunset_shimmer.2.td
+		country_event = {  days = 15 id = sunset_shimmer.4  }
+    }
+	
+}
+#可靠之人
+country_event = {
+	id = sunset_shimmer.3
+	title = sunset_shimmer.3.t
+	desc = sunset_shimmer.3.d
+	
+	is_triggered_only = yes
+
+	option={
+		name = sunset_shimmer.3.tt
+		
+    }
+	option={
+		name = sunset_shimmer.3.td
+		country_event = {  days = 15 id = SOE.1  }
+    }
+	
+}
+#信任之人
+country_event = {
+	id = sunset_shimmer.4
+	title = sunset_shimmer.4.t
+	desc = sunset_shimmer.4.d
+	
+	is_triggered_only = yes
+
+	option={
+		name = sunset_shimmer.4.tt
+		
+    }
+	option={
+		name = sunset_shimmer.4.td
+		
+    }
+	
+}

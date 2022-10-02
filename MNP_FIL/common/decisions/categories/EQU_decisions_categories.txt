@@ -1,16 +1,60 @@
-EQU_EEE_WAR = {
+EQU_TS_and_her_friends = {
 	icon = GFX_decision_category_sov_great_patriotic_war
-	priority = 114514
+	priority = 1
 	visible = {
-		original_tag = EQU
-	}
+		or = {
+			original_tag = EQU
+			original_tag = LAS
 
+		}
+	}
 }
 
 EQU_Orthodoxy = {
 	icon = GFX_decision_category_sov_great_patriotic_war
 	priority = 1
 	visible = {
-		original_tag = EQU
+		AND = {
+			original_tag = EQU
+			EOM = { exists = yes }
+			EQU = { exists = yes }
 		}
 	}
+}
+
+EQU_take_power = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	priority = 114514
+	scripted_gui = EQU_congress_decision_ui	
+	visible = {
+		original_tag = EQU
+		not = {
+			has_country_flag = EQU_TS_and_FP_end
+		}
+	}
+}
+
+EQU_EQS = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	priority = 114513
+	visible = {
+		original_tag = EQU
+	}
+}
+
+EQU_LAS_special_command = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	priority = 100
+	visible = {
+		original_tag = EQU
+		not = {
+				has_country_flag = EQU_TS_friends_gone_RD
+			}
+		has_completed_focus = EQU_2_5_1
+		or = {
+        has_war_with = EOM
+		has_war_with = EER
+		}
+		
+	}
+}

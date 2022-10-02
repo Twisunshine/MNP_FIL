@@ -1,0 +1,80 @@
+add_namespace = ERG
+
+
+country_event = {
+	id = ERG.1
+	title = ERG.1.t
+	desc = ERG.1.d
+	
+	is_triggered_only = yes
+
+	immediate = { 
+		hidden_effect = {		
+			ERG = {
+                inherit_technology = EOM
+				transfer_state = 270
+				transfer_state = 226
+				transfer_state = 272
+				transfer_state = 229
+				transfer_state = 225
+				transfer_state = 286
+				transfer_state = 46
+				every_state = {
+				limit = {
+				is_core_of = EOM
+			}
+			add_core_of = ERG
+		}
+		every_state = {
+				limit = {
+				is_core_of = EER
+			}
+			add_core_of = ERG
+		}
+		every_state = {
+				limit = {
+				is_core_of = EQU
+			}
+			add_core_of = ERG
+		}
+		declare_war_on = {
+                              target = EER
+                                   type = civil_war
+				
+			                 }
+							declare_war_on = {
+                               target = EQU
+                                 type = civil_war
+				
+				
+			                       }
+							declare_war_on = {
+                               target = EOM
+                                      type = civil_war
+				
+			                     }
+			}
+			EER = {
+				create_wargoal = { target = ERG type = civil_war }
+			}
+			EOM = {
+				create_wargoal = { target = ERG type = civil_war }
+			}
+			EQU = {
+				create_wargoal = { target = ERG type = civil_war }
+			}
+	}
+	}
+
+	option={
+		name = ERG.1.tt	
+    }
+	option={
+		name = ERG.1.td
+		ERG = {
+			change_tag_from = EOM
+		}
+		
+    }
+}
+

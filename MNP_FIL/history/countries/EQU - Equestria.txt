@@ -66,6 +66,7 @@ recruit_character = EQU_Twilight_Sparkle
 recruit_character = EQU_Rarity
 recruit_character = EQU_Sassy_Saddles
 recruit_character = EQU_Sweetie_Drops
+recruit_character = EQU_government
 
 add_ideas = {
 		service_by_requirement
@@ -79,7 +80,7 @@ add_ideas = {
 		more_popular
 		Flaws_do_not_hide_beauty
 		Universal_education
-		straggler
+		deserters_everywhere
 		EQU_refugees
 		EQU_Harmonic_of_the_lighthouse
 		EQU_Twilight_Sparkle_Her_Majesty

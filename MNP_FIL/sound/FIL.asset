@@ -5,6 +5,8 @@ category = {
 		super_event_se_starlight_eqs
 		super_event_Meowmeow_King
 		super_event_Eternity_of_Equality
+		super_event_se_EOM_Unite
+		super_event_se_EQU_Unite
 	}
  	compressor = {
 		enabled = yes

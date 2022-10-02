@@ -190,6 +190,8 @@ ideologies = {
 			socialism_socialism = { can_be_randomly_selected = no }
 			socialism_equalist_socialism = { can_be_randomly_selected = no }
 			socialism_practical_communism = { can_be_randomly_selected = no }
+			socialism_syndicalism = { can_be_randomly_selected = no }
+			socialism_farsighted_socialism = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 255 0 0 }

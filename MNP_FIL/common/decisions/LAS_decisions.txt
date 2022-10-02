@@ -1,0 +1,488 @@
+LAS_recruit_militia = {
+    LAS_recruit_militia_1 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 465
+	}
+    ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 465
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 465
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 5
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_2 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 444
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 444
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 444
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 2
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_3 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 455
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 455
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 455
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 2
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_4 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 99
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 99
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 99
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_5 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 504
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 504
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 504
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_6 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 527
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 527
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 527
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_7 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 482
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 482
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 482
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 2
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_8 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 96
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 96
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 96
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 3
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_9 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 489
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 489
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 489
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 3
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_10 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 493
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 493
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 493
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 3
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_11 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 542
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 542
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 542
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_12 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 532
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 532
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 532
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_13 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 539
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 539
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 539
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_14 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 518
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 518
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 518
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+    LAS_recruit_militia_15 = {
+        
+        visible = {
+		original_tag = LAS
+        controls_state = 561
+	}
+     ai_will_do = {
+    base = 5
+    }
+    highlight_states = {
+    highlight_state_targets = {
+        state = 561
+    }
+    highlight_color_while_active = 3
+    highlight_color_before_active = 2
+}
+    cost = 100
+    days_remove = 100               
+          remove_effect = {           
+              random_owned_controlled_state = {
+                limit = {
+                    state = 561
+                }
+				create_unit = {
+					division = "division_template = \"民兵\" start_experience_factor = 0.0 start_equipment_factor = 0.95" 
+					owner = LAS
+					count = 1
+				}
+			}
+          }
+          days_re_enable = 10 
+    }
+
+
+
+}
+
+
+

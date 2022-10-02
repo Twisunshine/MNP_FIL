@@ -8,9 +8,17 @@
  SE_starlight_eqs_A:0 "迈向平等主义的乌托邦"
 
  SE_Meowmeow_King_T:0 "南大陆统一"
- SE_Meowmeow_King_D:0 "南大陆统一的描述"
+ SE_Meowmeow_King_D:0 "重归旧日的辉煌"
  SE_Meowmeow_King_A:0 "南大陆统一的选项"
  
  SE_Eternity_of_Equality_T:0 "平等的永恒"
- SE_Eternity_of_Equality_D:0 "平等的永恒的描述"
- SE_Eternity_of_Equality_A:0 "平等的永恒的选项"
+ SE_Eternity_of_Equality_D:0 "生前所有，即是永恒。"
+ SE_Eternity_of_Equality_A:0 "众马理应平等。\n——星光熠熠"
+ 
+ SE_EOM_Unite_T:0 "小马国统一"
+ SE_EOM_Unite_D:0 ""
+ SE_EOM_Unite_A:0 ""
+ 
+ SE_EQU_Unite_T:0 "小马国统一"
+ SE_EQU_Unite_D:0 ""
+ SE_EQU_Unite_A:0 ""

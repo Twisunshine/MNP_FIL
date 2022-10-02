@@ -1,0 +1,73 @@
+# 设置最大与最小值
+calculate_orthodoxy = {	
+	# EQU.EQU_orthodoxy_change 为EQU更改
+	# EOM.EOM_orthodoxy_change 为EOM更改
+	
+	add_to_variable = { EQU.EQU_Orthodoxy = EQU.EQU_orthodoxy_change }
+	subtract_from_variable = { EOM.EOM_Orthodoxy = EQU.EQU_orthodoxy_change }
+	
+	add_to_variable = { EOM.EOM_Orthodoxy = EOM.EOM_orthodoxy_change } 
+	subtract_from_variable = { EQU.EQU_Orthodoxy = EOM.EOM_orthodoxy_change } 
+	
+	set_variable = { EQU.EQU_orthodoxy_change = 0 }
+	set_variable = { EOM.EOM_orthodoxy_change = 0 }
+	
+	clamp_orthodoxy = yes
+	calculate_orthodoxy_buff = yes
+}
+# 计算正统度Buff
+calculate_orthodoxy_buff = {
+	set_temp_variable = { temp1 = EOM.EOM_Orthodoxy }
+	subtract_from_temp_variable = { temp1 = 50 }
+	
+	set_temp_variable = { temp2 = temp1 }
+	multiply_temp_variable = { temp2 = 0.008 }
+	set_variable = { EOM.EOM_Orthodoxy_stability_factor = temp2 }
+	set_variable = { EOM.EOM_Orthodoxy_war_support_factor = temp2 }
+	set_variable = { EOM.EOM_Orthodoxy_conscription_factor = temp2 }
+	
+	set_temp_variable = { temp2 = temp1 }
+	multiply_temp_variable = { temp2 = 0.004 }
+	set_variable = { EOM.EOM_Orthodoxy_political_power_factor = temp2 }
+	set_variable = { EOM.EOM_Orthodoxy_industrial_capacity_factory = temp2 }
+	set_variable = { EOM.EOM_Orthodoxy_army_attack_factor = temp2 }
+	
+	set_temp_variable = { temp2 = temp1 }
+	multiply_temp_variable = { temp2 = 0.003 }
+	set_variable = { EOM.EOM_Orthodoxy_army_morale_factor = temp2 }
+	
+	set_temp_variable = { temp1 = EQU.EQU_Orthodoxy }
+	subtract_from_temp_variable = { temp1 = 50 }
+	
+	set_temp_variable = { temp2 = temp1 }
+	multiply_temp_variable = { temp2 = 0.008 }
+	set_variable = { EQU.EQU_Orthodoxy_stability_factor = temp2 }
+	set_variable = { EQU.EQU_Orthodoxy_war_support_factor = temp2 }
+	set_variable = { EQU.EQU_Orthodoxy_conscription_factor = temp2 }
+	
+	set_temp_variable = { temp2 = temp1 }
+	multiply_temp_variable = { temp2 = 0.004 }
+	set_variable = { EQU.EQU_Orthodoxy_political_power_factor = temp2 }
+	set_variable = { EQU.EQU_Orthodoxy_industrial_capacity_factory = temp2 }
+	set_variable = { EQU.EQU_Orthodoxy_army_attack_factor = temp2 }
+	
+	set_temp_variable = { temp2 = temp1 }
+	multiply_temp_variable = { temp2 = 0.003 }
+	set_variable = { EQU.EQU_Orthodoxy_army_morale_factor = temp2 }
+	
+	force_update_dynamic_modifier = yes
+}
+
+# 设置最大与最小值
+clamp_orthodoxy = {
+	clamp_variable = {
+		var = EOM.EOM_Orthodoxy
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = EQU.EQU_Orthodoxy
+		min = 0
+		max = 100
+	}
+}

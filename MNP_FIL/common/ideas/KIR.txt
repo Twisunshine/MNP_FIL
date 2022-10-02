@@ -1,0 +1,121 @@
+ideas = {
+	country = {
+#####################################################CLK
+        
+		##大饥荒的余烬
+        KIR_Ash_of_Great_famine = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Ash_of_Great_famine
+			modifier = {
+				army_org_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.10
+				consumer_goods_factor = 0.15
+				monthly_population = -0.10
+			}
+        }
+		
+		##残酷的日月祭祀
+		KIR_Cruel_Sun_and_Moon_Sacrifice = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Cruel_Sun_and_Moon_Sacrifice
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -0.02
+			}
+        }
+	
+		##难以为继的传统
+		KIR_Unsustainable_tradition = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Unsustainable_tradition
+			modifier = {
+				research_speed_factor = -0.15
+				stability_factor = -0.10
+				conscription_factor = -0.20
+				war_support_factor = -0.25
+			}
+        }
+		
+		##沉默之森
+		KIR_Silent_Grove = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Silent_Grove
+			modifier = {
+				stability_factor = 0.15
+				encryption_factor = 0.10
+				political_power_gain = -0.15
+				mobilization_speed = -0.10
+			}
+        }
+		
+		##沼泽遍地
+		KIR_There_are_Swamps_Everywhere = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_There_are_Swamps_Everywhere
+			modifier = {
+				production_speed_buildings_factor = -0.30
+				global_building_slots_factor = -0.30
+				supply_consumption_factor = 0.10
+			}
+        }
+		
+		##信任危机
+		KIR_Crisis_of_Confidence = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Crisis_of_Confidence
+			modifier = {
+				research_speed_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+			}
+        }
+		
+		##不安的调度员
+		KIR_Uneasy_Schedler = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Uneasy_Schedler
+			modifier = {
+				stability_factor = -0.05
+				authoritarian_democracy_drift = 0.01
+				liberal_democracy_drift = 0.01
+				socialism_drift = 0.01
+			}
+        }
+		
+		
+	}
+}

@@ -1,0 +1,281 @@
+focus_tree = {
+	id = EOM_First_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = EOM
+		}
+	}
+	default = no
+	focus = {
+		id = EOM_1_1_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 2
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	focus = {
+		id = EOM_1_1_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 4
+		y = 1
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 750
+				producer = EOM
+			}
+		}
+	}
+	focus = {
+		id = EOM_1_1_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 6
+		y = 1
+		
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = EOM_1_2_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_1_1
+		}
+		x = 2
+		y = 2
+		
+		completion_reward = {
+			country_event = EOM_events.1
+		}
+	}
+	focus = {
+		id = EOM_1_2_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_1_2
+		}
+		x = 4
+		y = 2
+		
+		completion_reward = {
+			country_event = EOM_events.2
+		}
+	}
+	focus = {
+		id = EOM_1_2_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_1_3
+		}
+		x = 6
+		y = 2
+		
+		completion_reward = {
+			country_event = EOM_events.3
+		}
+	}
+	focus = {
+		id = EOM_1_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_2_1
+		}
+		prerequisite = {
+			focus = EOM_1_2_2
+		}
+		prerequisite = {
+			focus = EOM_1_2_3
+		}
+		x = 4
+		y = 3
+		
+		completion_reward = {
+			country_event = EOM_events.4
+		}
+	}
+	focus = {
+		id = EOM_1_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_3
+		}
+		x = 4
+		y = 4
+		
+		completion_reward = {
+			add_stability = -0.05
+			add_manpower = -500
+			add_political_power = 75
+		}
+	}
+	focus = {
+		id = EOM_1_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_4
+		}
+		x = 4
+		y = 5
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = EOM_preparing_war_against_changeling_1
+				days = 120
+			}
+		}
+	}
+	focus = {
+		id = EOM_1_6_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_5
+		}
+		x = 3
+		y = 6
+		
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = EOM_preparing_war_against_changeling_2_2
+				}
+				swap_ideas = {
+					remove_idea = EOM_preparing_war_against_changeling_2_2
+					add_idea = EOM_preparing_war_against_changeling_3
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = EOM_preparing_war_against_changeling_1
+					add_idea = EOM_preparing_war_against_changeling_2_1
+				}
+			}
+		}
+	}
+	focus = {
+		id = EOM_1_6_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_5
+		}
+		x = 5
+		y = 6
+		
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = EOM_preparing_war_against_changeling_2_1
+				}
+				swap_ideas = {
+					remove_idea = EOM_preparing_war_against_changeling_2_1
+					add_idea = EOM_preparing_war_against_changeling_3
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = EOM_preparing_war_against_changeling_1
+					add_idea = EOM_preparing_war_against_changeling_2_2
+				}
+			}
+		}
+	}
+	focus = {
+		id = EOM_1_7_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_6_2
+		}
+		x = 5
+		y = 7
+		
+		completion_reward = {
+			add_manpower = 10000
+		}
+	}
+	focus = {
+		id = EOM_1_7_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EOM_1_6_1
+		}
+		x = 3
+		y = 7
+	
+		completion_reward = {
+			hidden_effect = {
+				division_template = {
+					name = "夜骐加强师"
+					division_names_group = ALL_Inf_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						artillery_brigade = { x = 2 y = 1 }
+						artillery_brigade = { x = 2 y = 2 }
+					}
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					state = 350
+				}
+				create_unit = {
+					division = "name = \"夜骐加强师\" division_template = \"夜骐加强师\" start_experience_factor = 1 start_equipment_factor = 1" 
+					owner = EOM
+					count = 5
+				}
+			}
+		}
+	}
+	focus = {
+		id = EOM_1_8
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = EOM_1_7_1
+		}
+		prerequisite = {
+			focus = EOM_1_7_2
+		}
+		x = 4
+		y = 8
+		
+		completion_reward = {
+			declare_war_on = { 
+				target = CLK 
+				type = take_core_state  
+			}
+			
+			set_variable = { EOM.EOM_orthodoxy_change = 5 }
+			calculate_orthodoxy = yes
+			
+			custom_effect_tooltip = EQU_EOM_orthodoxy_sub_add_3
+			hidden_effect={
+				load_focus_tree = EOM_Second_Stage
+			}
+		}
+	}
+}

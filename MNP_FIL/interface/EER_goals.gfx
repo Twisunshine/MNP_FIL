@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	SpriteType = { 
+		name = "GFX_EER_the_great_war_of_liberation"
+		texturefile = "gfx/interface/goals/GFX_EER_the_great_war_of_liberation.dds"
+	}
+	
+}

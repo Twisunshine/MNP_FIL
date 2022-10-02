@@ -1,0 +1,579 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CLK = {
+				set_variable = { CLK_Thorax_rebellion = 60 }
+				calculate_thorax_rebellion = yes
+			}
+		}
+	}
+	
+	on_daily_CLK = {
+		effect = { 
+			set_variable = { CLK_EER_sur_controll = 0 }
+			set_variable = { CLK_EQU_sur_controll = 0 }
+			set_variable = { CLK_EOM_sur_controll = 0 }
+			set_variable = { CLK_SOE_sur_controll = 0 }
+			
+			if = {
+				limit = {
+					AND = {
+						OR = {
+							has_war_with = EER
+							has_war_with = EQU
+							has_war_with = EOM
+							has_war_with = SOE
+						}
+						NOT = {
+							has_country_flag = CLK_NOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						332 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						332 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						332 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						332 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						458 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						458 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						458 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						458 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						401 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						401 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						401 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						401 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						409 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						409 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						409 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						409 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						384 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						384 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						384 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						384 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						352 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						352 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						352 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						352 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						406 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						406 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						406 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						406 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						406 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						406 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						406 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						406 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						349 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						349 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						349 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						349 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						393 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						393 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						393 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						393 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						368 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						368 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						368 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						368 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						158 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						158 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						158 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						158 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						340 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						340 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						340 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						340 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						381 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						381 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						381 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						381 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						423 = {
+							is_controlled_by = EER
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						423 = {
+							is_controlled_by = EQU
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						423 = {
+							is_controlled_by = EOM
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						423 = {
+							is_controlled_by = SOE
+						}
+					}
+					add_to_variable = { CLK_SOE_sur_controll = 1 }
+				}
+				
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								check_variable = { CLK_EOM_sur_controll > CLK_EQU_sur_controll }
+								check_variable = { CLK_EOM_sur_controll > CLK_SOE_sur_controll }
+								check_variable = { CLK_EOM_sur_controll = CLK_EER_sur_controll }
+							}
+							AND = {
+								check_variable = { CLK_EOM_sur_controll > CLK_EER_sur_controll }
+								check_variable = { CLK_EOM_sur_controll > CLK_SOE_sur_controll }
+								check_variable = { CLK_EOM_sur_controll = CLK_EQU_sur_controll }
+							}
+							AND = {
+								check_variable = { CLK_EOM_sur_controll > CLK_EER_sur_controll }
+								check_variable = { CLK_EOM_sur_controll > CLK_EQU_sur_controll }
+								check_variable = { CLK_EOM_sur_controll = CLK_SOE_sur_controll }
+							}
+						}
+					}
+					add_to_variable = { CLK_EOM_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								check_variable = { CLK_EQU_sur_controll > CLK_EOM_sur_controll }
+								check_variable = { CLK_EQU_sur_controll > CLK_SOE_sur_controll }
+								check_variable = { CLK_EQU_sur_controll = CLK_EER_sur_controll }
+							}
+							AND = {
+								check_variable = { CLK_EQU_sur_controll > CLK_EER_sur_controll }
+								check_variable = { CLK_EQU_sur_controll > CLK_EQU_sur_controll }
+								check_variable = { CLK_EQU_sur_controll = CLK_SOE_sur_controll }
+							}
+						}
+					}
+					add_to_variable = { CLK_EQU_sur_controll = 1 }
+				}
+				else_if = {
+					limit = {
+						AND = {
+							check_variable = { CLK_EER_sur_controll > CLK_EOM_sur_controll }
+							check_variable = { CLK_EER_sur_controll = CLK_EQU_sur_controll }
+							check_variable = { CLK_EER_sur_controll = CLK_EER_sur_controll }
+						}
+					}
+					add_to_variable = { CLK_EER_sur_controll = 1 }
+				}
+			}
+		}
+	}
+}

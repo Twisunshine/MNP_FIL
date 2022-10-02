@@ -116,7 +116,6 @@ technologies = {
 		}
 	}
 	
-	
 	early_light_cruiser = {
 
 		enable_equipments = { 
@@ -233,7 +232,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1008
+		start_year = 1009
 		
 		folder = {
 			name = naval_folder
@@ -959,8 +958,6 @@ technologies = {
 		}
 	}
 
-	
-
 	######## JAPAN FOCUS TREE UNLOCK ########
 	torpedo_cruiser = {
 
@@ -969,12 +966,11 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1000
+		start_year = 1936
 
 		# only from focus!!! #####
 		allow = {
 			always = no
 		}
 	}
-	
 }

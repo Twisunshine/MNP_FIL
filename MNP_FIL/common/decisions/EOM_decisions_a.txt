@@ -1,0 +1,48 @@
+
+EOM_The_upcoming_communist_revolution = {
+    EOM_The_upcoming_communist_revolution_1 = {
+        activation = {       
+			has_game_rule = { 
+				rule = SOE_AI_BEHAVIOR 
+				option = SOE_HAS_ALTERNATE
+				}    
+            NOT = {
+				TAG = SOE
+			}              
+			has_war = yes
+            original_tag = EOM
+			surrender_progress > 0.2
+			has_stability < 0.4
+		}
+        available = {                           
+			not = {
+             has_war = yes
+            }
+            
+		} 
+        fire_only_once = yes
+        days_mission_timeout = 20
+            timeout_effect = {                      
+			country_event = SOE.1         
+		}
+    }
+}
+
+EOM_kill_sunset = {
+    EOM_kill_sunset_1 = {
+		cost = 50
+		days_remove = 25
+		days_re_enable = 5
+		
+		ai_will_do = {
+			factor = 114514
+		}
+		
+        remove_effect = {
+			SOE = {
+				add_to_variable = { SOE_kill_chance = 1.0 }        
+			}
+			custom_effect_tooltip = kill_sunset_chance_up
+		}
+    }
+}

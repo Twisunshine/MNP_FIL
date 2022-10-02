@@ -1,12 +1,13 @@
 characters={
-	CHI_royal_family={
-		name=CHI_royal_family
+	CHI_Hidengem_Spirit={
+		name=CHI_Hidengem_Spirit
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_CHI_royal_family.dds"
+				large="gfx/leaders/CHI/Portrait_CHI_Hidengem_Spirit.dds"
 			}
 		}
 		country_leader={
+			desc=CHI_Hidengem_Spirit_desc
 			ideology=despotism_absolute_monarchy
 			traits={  }
 			expire="2000.1.1.1"

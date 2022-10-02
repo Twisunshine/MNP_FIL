@@ -1,0 +1,104 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_SOE_red_amry_1"
+        texturefile = "gfx/interface/ideas/SOE_red_amry_1.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_red_amry_2"
+        texturefile = "gfx/interface/ideas/SOE_red_amry_2.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_red_amry_3"
+        texturefile = "gfx/interface/ideas/SOE_red_amry_3.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_low_public_support"
+        texturefile = "gfx/interface/ideas/SOE_low_public_support.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_unrecognized_regime"
+        texturefile = "gfx/interface/ideas/SOE_unrecognized_regime.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_communist_revolution"
+        texturefile = "gfx/interface/ideas/SOE_communist_revolution.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_seize_the_means_of_production"
+        texturefile = "gfx/interface/ideas/SOE_seize_the_means_of_production.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_hidden_factory_1"
+        texturefile = "gfx/interface/ideas/SOE_hidden_factory_1.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_hidden_factory_2"
+        texturefile = "gfx/interface/ideas/SOE_hidden_factory_2.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_National_mining_project"
+        texturefile = "gfx/interface/ideas/SOE_National_mining_project.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_National_Production_and_Construction_Corps"
+        texturefile = "gfx/interface/ideas/SOE_National_Production_and_Construction_Corps.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_guerrilla_warfare"
+        texturefile = "gfx/interface/ideas/SOE_guerrilla_warfare.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_political_commissar"
+        texturefile = "gfx/interface/ideas/SOE_political_commissar.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_thrifty"
+        texturefile = "gfx/interface/ideas/SOE_thrifty.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_NKVD"
+        texturefile = "gfx/interface/ideas/SOE_NKVD.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_EOM_1"
+        texturefile = "gfx/interface/ideas/SOE_attack_EOM.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_EOM_2"
+        texturefile = "gfx/interface/ideas/SOE_attack_EOM.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_EQU_1"
+        texturefile = "gfx/interface/ideas/SOE_attack_EQU.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_EQU_2"
+        texturefile = "gfx/interface/ideas/SOE_attack_EQU.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_EER_1"
+        texturefile = "gfx/interface/ideas/SOE_attack_EER.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_EER_2"
+        texturefile = "gfx/interface/ideas/SOE_attack_EER.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_CRY_1"
+        texturefile = "gfx/interface/ideas/SOE_attack_CRY.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_attack_CRY_2"
+        texturefile = "gfx/interface/ideas/SOE_attack_CRY.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_SOE_kuoda_shenchan"
+        texturefile = "gfx/interface/ideas/SOE_kuoda_shenchan.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SOE_imitation_weapon"
+		texturefile = "gfx/interface/ideas/idea_SOV_third_five_year_plan_military.dds"
+	}
+
+
+}

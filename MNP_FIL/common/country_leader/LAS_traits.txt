@@ -1,0 +1,31 @@
+leader_traits = {
+    military_district_commander = {
+		random = no
+		war_support_factor = 0.1
+		army_attack_factor = 0.1
+	    army_defence_factor = 0.1
+	}
+	Deputy_Commander_of_the_Military_Region = {
+		random = no
+		army_attack_factor = 0.05
+		planning_speed = 0.05
+		experience_gain_army_factor = 0.1
+	}
+	philanthropic_economist = {
+		random = no
+		industrial_capacity_factory = 0.05
+		production_factory_efficiency_gain_factor = 0.1
+		consumer_goods_factor = 0.05
+	}
+	Artistic_Propaganda_Master = {
+		random = no
+		stability_factor = 0.1
+		mobilization_speed = 0.05
+	}
+	Microphone_for_Fancy_Pants = {
+		random = no
+		stability_factor = 0.05
+		autonomy_gain = -0.1
+	}
+
+}

@@ -1,0 +1,96 @@
+ideas = {
+	country = {
+		#万国来朝
+        CHI_World_come_to_worship = {
+            allowed = {
+                original_tag = CHI
+            }
+
+            removal_cost = -1
+            picture = CHI_World_come_to_worship
+
+            modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.25
+				war_support_factor = 0.25
+            }
+        }
+		#牡丹逢秋
+        CHI_Peony_in_autumn = {
+            allowed = {
+                original_tag = CHI
+            }
+
+            removal_cost = -1
+            picture = CHI_Peony_in_autumn
+
+            modifier = {
+				industrial_capacity_factory = -0.1
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.1
+            }
+        }
+		#民有菜色
+        CHI_hungry_people = {
+            allowed = {
+                original_tag = CHI
+            }
+
+            removal_cost = -1
+            picture = CHI_hungry_people
+
+            modifier = {
+				consumer_goods_factor = 0.25
+				monthly_population = -0.15
+				conscription_factor = -0.15
+				global_building_slots_factor = -0.1
+            }
+        }
+		#久疏战阵
+        CHI_long_sparse_battle = {
+            allowed = {
+                original_tag = CHI
+            }
+
+            removal_cost = -1
+            picture = CHI_long_sparse_battle
+
+            modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.3
+				offence = -0.25
+				defence = -0.25
+				army_speed_factor = -0.1
+            }
+        }
+		#肘腋之患
+        CHI_disaster_around = {
+            allowed = {
+                original_tag = CHI
+            }
+
+            removal_cost = -1
+            picture = CHI_disaster_around
+
+            modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.05
+				supply_consumption_factor = 0.1
+            }
+        }
+		#科举制
+        CHI_Imperial_Examination_System = {
+            allowed = {
+                original_tag = CHI
+            }
+
+            removal_cost = -1
+            picture = CHI_Imperial_Examination_System
+
+            modifier = {
+				political_power_gain = 0.1
+				research_speed_factor = -0.05
+            }
+        }
+	}
+}

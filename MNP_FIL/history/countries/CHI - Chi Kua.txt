@@ -19,17 +19,34 @@ set_politics = {
 set_popularities = {
 	dictatorshipism = 0
 	fascism = 0
-	despotism = 100
-	authoritarian_democracy = 0
-	liberal_democracy = 0
+	despotism = 70
+	authoritarian_democracy = 25
+	liberal_democracy = 5
 	social_democracy = 0
 	socialism = 0
 	communism = 0
 }
 
 add_ideas = {
-		
+	limited_conscription
+	civilian_economy
+	limited_exports
+	government_plan
+	male_only
+	basic_citizenship
+	guild_production
+	large_scale_farming
+	Aura
+	smooth_operation
+	Universal_education
+	straggler
+	CHI_World_come_to_worship
+	CHI_Peony_in_autumn
+	CHI_hungry_people
+	CHI_long_sparse_battle
+	CHI_disaster_around
+	CHI_Imperial_Examination_System
 }
 
 
-recruit_character = CHI_royal_family
+recruit_character = CHI_Hidengem_Spirit

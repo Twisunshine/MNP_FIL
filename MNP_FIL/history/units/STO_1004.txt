@@ -13,176 +13,176 @@ division_template = {
 		artillery_brigade = { x = 2 y = 1 }
 		artillery_brigade = { x = 2 y = 2 }
 	}
-	
+
 	support = {
-      
+
 	}
 }
 
 units = {
-	division= {	
+	division= {
 		name =  "风暴兽第一警卫队"
 		location = 5645
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二警卫队"
 		location = 5645
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第三警卫队"
 		location = 1248
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第四警卫队"
 		location = 1192
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第五警卫队"
 		location = 151
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第六警卫队"
-		location = 3552
+		location = 4841
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第七警卫队"
 		location = 4381
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第八警卫队"
 		location = 2776
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第九警卫队"
 		location = 1949
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十警卫队"
 		location = 726
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十一警卫队"
 		location = 2693
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十二警卫队"
 		location = 1286
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十三警卫队"
 		location = 6287
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十四警卫队"
 		location = 516
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十五警卫队"
 		location = 4996
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十六警卫队"
 		location = 3809
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十七警卫队"
 		location = 1942
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十八警卫队"
 		location = 5360
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第十九警卫队"
 		location = 1142
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十警卫队"
 		location = 426
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十一警卫队"
 		location = 4193
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十二警卫队"
 		location = 2596
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十三警卫队"
 		location = 4342
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十四警卫队"
 		location = 6055
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十五警卫队"
 		location = 5866
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十六警卫队"
 		location = 2804
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十七警卫队"
 		location = 5256
 		division_template = "风暴兽警卫队"
 		start_experience_factor = 0.3
 	}
-	division= {	
+	division= {
 		name =  "风暴兽第二十八警卫队"
 		location = 8644
 		division_template = "风暴兽警卫队"

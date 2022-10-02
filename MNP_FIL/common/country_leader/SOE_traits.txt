@@ -1,0 +1,71 @@
+leader_traits = {
+    leaders_traits = {
+		random = no
+        foreign_subversive_activites = -0.30
+		political_power_gain = 0.05
+	}
+	The_Pony_Returning_From_Another_World = {
+	    random = no
+	    industrial_capacity_factory = 0.05
+		production_factory_efficiency_gain_factor = 0.05
+		planning_speed = 0.1
+		research_speed_factor = 0.03
+	}
+	Chairman = {
+	    random = no
+	    drift_defence_factor = 0.15
+	}
+	mad_scientist = {
+	    random = no
+	    research_speed_factor = 0.5
+		political_power_factor = -0.05
+	}
+	honest_orchard = {
+	    random = no
+	    stability_factor = 0.05
+	    political_power_factor = 0.15
+		industrial_capacity_factory = 0.1
+	}
+	loyal_athlete = {
+	    random = no
+		army_morale_factor = 0.1
+		drift_defence_factor = 0.2
+	}
+	laughing_god_pony = {
+	    random = no
+	    stability_factor = 0.3
+		political_power_factor = 0.15
+		army_morale_factor = 0.3
+		consumer_goods_factor = 0.01
+	}
+	generous_costume_designer = {
+	    random = no
+	    org_loss_when_moving = -0.1
+		army_org_factor = 0.1
+	}
+	kind_good_man = {
+	    random = no
+	    stability_factor = 0.1
+		war_support_factor = -0.1
+	}
+	chaotic_government = {
+		random = no
+	    stability_factor = -0.25
+		war_support_factor = -0.3
+		army_org_factor = -0.5
+		industrial_capacity_factory = -0.25
+		production_factory_efficiency_gain_factor = -0.3
+		army_attack_factor = -1
+		army_defence_factor = -1
+		surrender_limit = -1
+	}
+	marshal_of_the_people = {
+		random = no
+		drift_defence_factor = 0.15
+		war_support_factor = 0.1
+		army_attack_factor = 0.1
+	    army_defence_factor = 0.1
+		production_speed_arms_factory_factor = 0.15
+	}
+
+}

@@ -1,0 +1,18 @@
+EQU_kill_sunset = {
+    EQU_kill_sunset_1 = {
+		cost = 50
+		days_remove = 25
+		days_re_enable = 5
+		
+		ai_will_do = {
+			factor = 114514
+		}
+		
+        remove_effect = {                      
+			SOE = {
+				add_to_variable = { SOE_kill_chance = 1.0 }        
+			}
+			custom_effect_tooltip = kill_sunset_chance_up
+		}
+    }
+}

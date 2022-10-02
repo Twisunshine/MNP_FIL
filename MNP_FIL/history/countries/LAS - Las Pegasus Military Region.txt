@@ -1,0 +1,60 @@
+﻿capital = 465 
+
+
+
+set_research_slots = 3
+set_stability = 0.1
+set_war_support = 0.7
+
+# Starting tech
+
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 3
+	despotism = 50
+	authoritarian_democracy = 5
+	liberal_democracy = 42
+	social_democracy = 0
+	socialism = 0
+	communism = 0
+}
+
+recruit_character = LAS_Rainbow_Dash
+recruit_character = LAS_Applejack
+recruit_character = LAS_Pinkie_Pie
+recruit_character = LAS_Golden_Gavel
+recruit_character = LAS_Silver_Frames
+recruit_character = LAS_swan_song
+
+
+
+add_ideas = {
+	extensive_conscription
+	army_economic_policy_2
+	closed_economy
+	fully_control
+	all_adults
+	sound_citizenship
+	Specialized_chemical_factory
+	farm_production
+	more_popular
+	Flaws_do_not_hide_beauty
+	Universal_education
+	straggler
+	LAS_be_proud
+	LAS_Lightning_Bolt_Management
+	LAS_aristocratic_handicap
+	LAS_Harmony_Faith
+}
+
+
+
+

@@ -1,0 +1,163 @@
+add_namespace = LAS_events
+
+country_event = {
+	id = LAS_events.1
+	title = LAS_events.1.t
+	desc = LAS_events.1.d
+
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+
+	option={
+	name = LAS_events.1.tt
+	
+
+	
+		
+		
+    }
+	option={
+	name = LAS_events.1.td
+	
+	
+
+	
+		
+		LAS = {
+			change_tag_from = EQU
+			
+		}
+		
+    }
+
+}
+country_event = {
+	id = LAS_events.2
+	title = LAS_events.2.t
+	desc = LAS_events.2.d
+
+
+	fire_only_once = yes
+	hidden = yes
+
+	is_triggered_only = yes
+	immediate = {
+		LAS = {
+			load_oob = "LAS_civil_war"
+			set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 0
+	fascism = 3
+	despotism = 80
+	authoritarian_democracy = 5
+	liberal_democracy = 12
+	social_democracy = 0
+	socialism = 0
+	communism = 0
+}
+      
+
+		}
+
+	}
+
+	option={
+	name = LAS_events.2.tt
+	custom_effect_tooltip = LAS_events_2_tt
+
+	
+		
+		
+    }
+
+
+}
+country_event = {
+	id = LAS_events.3
+	title = LAS_events.3.t
+	desc = LAS_events.3.d
+
+
+	fire_only_once = yes
+	hidden = yes
+
+	is_triggered_only = yes
+	immediate = {
+		LAS = {
+			change_tag_from = EQU
+			
+		}
+		LAS = {
+			set_cosmetic_tag = LAS_EQU
+		}
+		LAS = { country_event = {days = 30 id =  LAS_events.4 } }
+		EQU = {
+			 end_puppet = LAS
+		}
+		EOM = {
+			annex_country = { target = EQU transfer_troops = NO }
+		}
+
+
+	}
+
+	option={
+	name = LAS_events.3.tt
+
+	
+		
+		
+    }
+
+
+}
+country_event = {
+	id = LAS_events.4
+	title = LAS_events.4.t
+	desc = LAS_events.4.d
+
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+
+	option={
+	name = LAS_events.4.tt
+	EQU = {
+           EQU_Spitfire = {
+				set_nationality = LAS
+
+			}
+			EQU_Soarin = {
+				set_nationality = LAS
+
+			}
+			EQU_Fleetfoot = {
+				set_nationality = LAS
+
+			}
+			EQU_Lightning_Dust = {
+				set_nationality = LAS
+
+			}
+	}
+	
+
+	
+		
+		
+    }
+
+
+}
+

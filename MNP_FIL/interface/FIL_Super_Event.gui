@@ -8,7 +8,7 @@ guiTypes = {
 		animation_time = 1
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		size = { width = 588 height = 480 }
+		size = { width = 1000 height = 800 }
 		Orientation = center
 		Origo = center
 		moveable = yes
@@ -23,85 +23,80 @@ guiTypes = {
 			spriteType ="GFX_tiled_window_transparent"
 		} 
 		
-		#标题界面
+		#主要界面
 		containerWindowType = {
-			name = "FIL_super_event_title"
-			size = { width = 570 height = 128 }
-			position = { x=7 y=-45 }
-			
-			#标题后的背景
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_1b_no_border"
-				alwaystransparent = yes
-			}
-			
+			name = "FIL_super_event_frame"
+			size = { width = 1000 height = 800 }
+			position = { x=0 y=0 }
 			#标题文字
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 0 y = 18 }
-				font = "fzrzhz_18_outline"
+				position = { x = 0 y = 70 }
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
 				text = "SE_EEE_WAR_T"
 				maxWidth = 580
 				maxHeight = 24
 				format = centre
 			}
-		}
-		
-		#超事件图片
-		iconType = {
-			name ="Image"
-			spriteType = "GFX_superevent_EEE_WAR"
-			position = { x=5 y =10 }
-			#Orientation = center
-			alwaystransparent = yes
-		}
-		
-		#主要界面
-		containerWindowType = {
-			name = "FIL_super_event_frame"
-			size = { width = 585 height = 480 }
-			position = { x=0 y=0 }
-			
+
 			#主要背景
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_bigevent_border"
 				alwaystransparent = yes
-			}
-			
-			#文字后的黑边
-		    iconType = {
-				name ="underlay"
-				spriteType = "GFX_superevent_text_underlay"
-				position = { x= 26 y = -200 }
-				Orientation = lower_left
-				alwaystransparent = yes
+				
 			}
 			
 			#超事件描述
 		    instantTextBoxType = {
 				name = "text"
-				position = {  x= 120 y = -195 }
+				position = {  x= 100 y = -500 }
 				font = "fzwhjz_20"
 				text = "SE_EEE_WAR_D"
-				maxWidth = 455
+				maxWidth = 380
 				maxHeight = 173
 				fixedsize = yes
-				format = right
+				format = centre
 				Orientation = lower_left
 				alwaystransparent = yes
 			 }
+		}
+		
+		containerWindowType = {
+			name = "FIL_super_event_picture"
+			size = { width = 1 height = 80 }
+			position = { x=0 y=0 }
+			
+			#超事件图片背景
+			iconType = {
+				name ="Image_bg"
+				spriteType = "GFX_super_events_pic_background"
+				position = { x=562 y =170 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.75
+			}
+			
+			#超事件图片
+			iconType = {
+				name ="Image"
+				spriteType = "GFX_superevent_EEE_WAR"
+				position = { x=577 y =183 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.604
+			}
 		}
 		
 		#关闭按钮
 		buttonType = {
 			name = "Option"
 			text = "SE_EEE_WAR_A"
+			format = center
 			shortcut = "ESCAPE"
-			position = { x = -120 y = 190 }
-			quadTextureSprite ="GFX_button_221x34"
+			position = { x = 20 y = 170 }
+			quadTextureSprite ="GFX_superevent_button"
 			buttonFont = "fzwhjz_22"
 			Orientation = center
 		}
@@ -116,7 +111,7 @@ guiTypes = {
 		animation_time = 1
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		size = { width = 588 height = 480 }
+		size = { width = 1000 height = 800 }
 		Orientation = center
 		Origo = center
 		moveable = yes
@@ -130,73 +125,75 @@ guiTypes = {
 		} 
 		
 		containerWindowType = {
-			name = "FIL_super_event_title"
-			size = { width = 570 height = 128 }
-			position = { x=7 y=-45 }
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_1b_no_border"
-				alwaystransparent = yes
-			}
-
+			name = "FIL_super_event_frame"
+			size = { width = 1000 height = 800 }
+			position = { x=0 y=0 }
+			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 0 y = 18 }
-				font = "fzrzhz_18_outline"
+				position = { x = 0 y = 70 }
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
 				text = "SE_starlight_eqs_T"
 				maxWidth = 580
 				maxHeight = 24
 				format = centre
 			}
-		}
-
-			iconType = {
-				name ="Image"
-				spriteType = "GFX_superevent_starlight_eqs"
-				position = { x=5 y =10 }
-				#Orientation = center
-				alwaystransparent = yes
-			}
-
-		containerWindowType = {
-			name = "FIL_super_event_frame"
-			size = { width = 585 height = 480 }
-			position = { x=0 y=0 }
 
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_bigevent_border"
 				alwaystransparent = yes
+				
 			}
 			
-		    iconType = {
-				name ="underlay"
-				spriteType = "GFX_superevent_text_underlay"
-				position = { x= 26 y = -200 }
+		    instantTextBoxType = {
+				name = "text"
+				position = {  x= 100 y = -500 }
+				font = "fzwhjz_20"
+				text = "SE_starlight_eqs_D"
+				maxWidth = 380
+				maxHeight = 173
+				fixedsize = yes
+				format = centre
 				Orientation = lower_left
 				alwaystransparent = yes
 			}
-
-		    instantTextBoxType = {
-				name = "text"
-				position = {  x= 120 y = -195 }
-				font = "fzwhjz_20"
-				text = "SE_starlight_eqs_D"
-				maxWidth = 455
-				maxHeight = 173
-				fixedsize = yes
-				format = right
-				Orientation = lower_left
-				alwaystransparent = yes
-			 }
 		}
+		
+		containerWindowType = {
+			name = "FIL_super_event_picture"
+			size = { width = 1 height = 80 }
+			position = { x=0 y=0 }
+			
+			#超事件图片背景
+			iconType = {
+				name ="Image_bg"
+				spriteType = "GFX_super_events_pic_background"
+				position = { x=562 y =170 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.75
+			}
+			
+			#超事件图片
+			iconType = {
+				name ="Image"
+				spriteType = "GFX_superevent_starlight_eqs"
+				position = { x=577 y =183 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.604
+			}
+		}
+
 		buttonType = {
 			name = "Option"
 			text = "SE_starlight_eqs_A"
+			format = center
 			shortcut = "ESCAPE"
-			position = { x = -120 y = 190 }
-			quadTextureSprite ="GFX_button_221x34"
+			position = { x = 20 y = 170 }
+			quadTextureSprite ="GFX_superevent_button"
 			buttonFont = "fzwhjz_22"
 			Orientation = center
 		}
@@ -211,7 +208,7 @@ guiTypes = {
 		animation_time = 1
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		size = { width = 588 height = 480 }
+		size = { width = 1000 height = 800 }
 		Orientation = center
 		Origo = center
 		moveable = yes
@@ -225,74 +222,75 @@ guiTypes = {
 		} 
 		
 		containerWindowType = {
-			name = "FIL_super_event_title"
-			size = { width = 570 height = 128 }
-			position = { x=7 y=-45 }
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_1b_no_border"
-				alwaystransparent = yes
-			}
-
+			name = "FIL_super_event_frame"
+			size = { width = 1000 height = 800 }
+			position = { x=0 y=0 }
+			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 0 y = 18 }
-				font = "fzrzhz_18_outline"
+				position = { x = 0 y = 70 }
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = SE_Meowmeow_King_T
+				text = "SE_Meowmeow_King_T"
 				maxWidth = 580
 				maxHeight = 24
 				format = centre
 			}
-		}
-
-		iconType = {
-			name ="Image"
-			spriteType = "GFX_Meowmeow_King"
-			position = { x=5 y =10 }
-			#Orientation = center
-			alwaystransparent = yes
-		}
-
-		containerWindowType = {
-			name = "FIL_super_event_frame"
-			size = { width = 585 height = 480 }
-			position = { x=0 y=0 }
 
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_bigevent_border"
 				alwaystransparent = yes
+				
 			}
-
-		    iconType = {
-				name ="underlay"
-				spriteType = "GFX_superevent_text_underlay"
-				position = { x= 26 y = -200 }
-				Orientation = lower_left
-				alwaystransparent = yes
-			}
-
+			
 		    instantTextBoxType = {
 				name = "text"
-				position = {  x= 120 y = -195 }
+				position = {  x= 100 y = -500 }
 				font = "fzwhjz_20"
-				text = SE_Meowmeow_King_D
-				maxWidth = 455
+				text = "SE_Meowmeow_King_D"
+				maxWidth = 380
 				maxHeight = 173
 				fixedsize = yes
-				format = right
+				format = centre
 				Orientation = lower_left
 				alwaystransparent = yes
 			 }
-
 		}
+		
+		containerWindowType = {
+			name = "FIL_super_event_picture"
+			size = { width = 1 height = 80 }
+			position = { x=0 y=0 }
+			
+			#超事件图片背景
+			iconType = {
+				name ="Image_bg"
+				spriteType = "GFX_super_events_pic_background"
+				position = { x=562 y =170 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.75
+			}
+			
+			#超事件图片
+			iconType = {
+				name ="Image"
+				spriteType = "GFX_Meowmeow_King"
+				position = { x=577 y =183 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.604
+			}
+		}
+
 		buttonType = {
 			name = "Option"
-			text = SE_Meowmeow_King_A
+			text = "SE_Meowmeow_King_A"
+			format = center
 			shortcut = "ESCAPE"
-			position = { x = -120 y = 190 }
-			quadTextureSprite ="GFX_button_221x34"
+			position = { x = 20 y = 170 }
+			quadTextureSprite ="GFX_superevent_button"
 			buttonFont = "fzwhjz_22"
 			Orientation = center
 		}
@@ -307,13 +305,13 @@ guiTypes = {
 		animation_time = 1
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		size = { width = 588 height = 480 }
+		size = { width = 1000 height = 800 }
 		Orientation = center
 		Origo = center
 		moveable = yes
 		clipping = no
 
-		show_sound = super_event_Eternity_of_Equality
+		show_sound = super_event_se_starlight_eqs
 		
 		background = {
 			name = "Background"
@@ -321,74 +319,269 @@ guiTypes = {
 		} 
 		
 		containerWindowType = {
-			name = "FIL_super_event_title"
-			size = { width = 570 height = 128 }
-			position = { x=7 y=-45 }
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_1b_no_border"
-				alwaystransparent = yes
-			}
-
+			name = "FIL_super_event_frame"
+			size = { width = 1000 height = 800 }
+			position = { x=0 y=0 }
+			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 0 y = 18 }
-				font = "fzrzhz_18_outline"
+				position = { x = 0 y = 70 }
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = SE_Eternity_of_Equality_T
+				text = "SE_Eternity_of_Equality_T"
 				maxWidth = 580
 				maxHeight = 24
 				format = centre
 			}
-		}
-
-		iconType = {
-			name ="Image"
-			spriteType = "GFX_Eternity_of_Equality"
-			position = { x=5 y =10 }
-			#Orientation = center
-			alwaystransparent = yes
-		}
-
-		containerWindowType = {
-			name = "FIL_super_event_frame"
-			size = { width = 585 height = 480 }
-			position = { x=0 y=0 }
 
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_bigevent_border"
 				alwaystransparent = yes
+				
 			}
-
-		    iconType = {
-				name ="underlay"
-				spriteType = "GFX_superevent_text_underlay"
-				position = { x= 26 y = -200 }
-				Orientation = lower_left
-				alwaystransparent = yes
-			}
-
+			
 		    instantTextBoxType = {
 				name = "text"
-				position = {  x= 120 y = -195 }
+				position = {  x= 100 y = -500 }
 				font = "fzwhjz_20"
-				text = SE_Eternity_of_Equality_D
-				maxWidth = 455
+				text = "SE_Eternity_of_Equality_D"
+				maxWidth = 380
 				maxHeight = 173
 				fixedsize = yes
-				format = right
+				format = centre
 				Orientation = lower_left
 				alwaystransparent = yes
 			 }
-
 		}
+		
+		containerWindowType = {
+			name = "FIL_super_event_picture"
+			size = { width = 1 height = 80 }
+			position = { x=0 y=0 }
+			
+			#超事件图片背景
+			iconType = {
+				name ="Image_bg"
+				spriteType = "GFX_super_events_pic_background"
+				position = { x=562 y =170 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.75
+			}
+			
+			#超事件图片
+			iconType = {
+				name ="Image"
+				spriteType = "GFX_Eternity_of_Equality"
+				position = { x=577 y =183 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.604
+			}
+		}
+
 		buttonType = {
 			name = "Option"
-			text = SE_Eternity_of_Equality_A
+			text = "SE_Eternity_of_Equality_A"
+			format = center
 			shortcut = "ESCAPE"
-			position = { x = -120 y = 190 }
-			quadTextureSprite ="GFX_button_221x34"
+			position = { x = 20 y = 170 }
+			quadTextureSprite ="GFX_superevent_button"
+			buttonFont = "fzwhjz_22"
+			Orientation = center
+		}
+	}
+	
+	## 月之帝国统一 ##
+	containerWindowType = {
+		name = "FIL_EOM_Unite_super_event"
+		position = { x= -20 y= -6000 }
+		show_position = { x = -20 y = 20 }
+		hide_position = { x= -20 y= -6000 }
+		animation_time = 1
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		size = { width = 1000 height = 800 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+
+		show_sound = super_event_se_EOM_Unite
+		
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_window_transparent"
+		} 
+		
+		containerWindowType = {
+			name = "FIL_super_event_frame"
+			size = { width = 1000 height = 800 }
+			position = { x=0 y=0 }
+			
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 0 y = 70 }
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 0}
+				text = "SE_EOM_Unite_T"
+				maxWidth = 580
+				maxHeight = 24
+				format = centre
+			}
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_bigevent_border"
+				alwaystransparent = yes
+				
+			}
+			
+		    instantTextBoxType = {
+				name = "text"
+				position = {  x= 100 y = -500 }
+				font = "fzwhjz_20"
+				text = "SE_EOM_Unite_D"
+				maxWidth = 380
+				maxHeight = 173
+				fixedsize = yes
+				format = centre
+				Orientation = lower_left
+				alwaystransparent = yes
+			 }
+		}
+		
+		containerWindowType = {
+			name = "FIL_super_event_picture"
+			size = { width = 1 height = 80 }
+			position = { x=0 y=0 }
+			
+			#超事件图片背景
+			iconType = {
+				name ="Image_bg"
+				spriteType = "GFX_super_events_pic_background"
+				position = { x=562 y =170 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.75
+			}
+			
+			#超事件图片
+			iconType = {
+				name ="Image"
+				spriteType = "GFX_superevent_EOM_Unite"
+				position = { x=577 y =183 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.604
+			}
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "SE_EOM_Unite_A"
+			format = center
+			shortcut = "ESCAPE"
+			position = { x = 20 y = 170 }
+			quadTextureSprite ="GFX_superevent_button"
+			buttonFont = "fzwhjz_22"
+			Orientation = center
+		}
+	}
+	
+	## 临时政府统一 ##
+	containerWindowType = {
+		name = "FIL_EQU_Unite_super_event"
+		position = { x= -20 y= -6000 }
+		show_position = { x = -20 y = 20 }
+		hide_position = { x= -20 y= -6000 }
+		animation_time = 1
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		size = { width = 1000 height = 800 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+
+		show_sound = super_event_se_EQU_Unite
+		
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_window_transparent"
+		} 
+		
+		containerWindowType = {
+			name = "FIL_super_event_frame"
+			size = { width = 1000 height = 800 }
+			position = { x=0 y=0 }
+			
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 0 y = 70 }
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 0}
+				text = "SE_EQU_Unite_T"
+				maxWidth = 580
+				maxHeight = 24
+				format = centre
+			}
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_bigevent_border"
+				alwaystransparent = yes
+				
+			}
+			
+		    instantTextBoxType = {
+				name = "text"
+				position = {  x= 100 y = -500 }
+				font = "fzwhjz_20"
+				text = "SE_EQU_Unite_D"
+				maxWidth = 380
+				maxHeight = 173
+				fixedsize = yes
+				format = centre
+				Orientation = lower_left
+				alwaystransparent = yes
+			 }
+		}
+		
+		containerWindowType = {
+			name = "FIL_super_event_picture"
+			size = { width = 1 height = 80 }
+			position = { x=0 y=0 }
+			
+			#超事件图片背景
+			iconType = {
+				name ="Image_bg"
+				spriteType = "GFX_super_events_pic_background"
+				position = { x=562 y =170 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.75
+			}
+			
+			#超事件图片
+			iconType = {
+				name ="Image"
+				spriteType = "GFX_superevent_EQU_Unite"
+				position = { x=577 y =183 }
+				#Orientation = center
+				alwaystransparent = yes
+				scale = 0.604
+			}
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "SE_EQU_Unite_A"
+			format = center
+			shortcut = "ESCAPE"
+			position = { x = 20 y = 170 }
+			quadTextureSprite ="GFX_superevent_button"
 			buttonFont = "fzwhjz_22"
 			Orientation = center
 		}

@@ -18,3 +18,13 @@ sound = {
 	file = "superevents/Eternity_of_Equality.wav"
 	always_load = no
 }
+sound = {
+	name = "se_EOM_Unite"
+	file = "superevents/EOM_Unite.wav"
+	always_load = no
+}
+sound = {
+	name = "se_EQU_Unite"
+	file = "superevents/EQU_Unite.wav"
+	always_load = no
+}

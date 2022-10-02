@@ -1,0 +1,76 @@
+scripted_gui = {
+
+	EQU_congress_decision_ui = {
+		context_type = decision_category
+		window_name = "EQU_congress_decision_ui_window"
+
+		properties = {
+			Twilight_Sparkle_Fancy_Pants_power_1 = {
+				image = "[EQU_Take_power_vlaue_1]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_2 = {
+				image = "[EQU_Take_power_vlaue_2]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_3 = {
+				image = "[EQU_Take_power_vlaue_3]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_4 = {
+				image = "[EQU_Take_power_vlaue_4]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_5 = {
+				image = "[EQU_Take_power_vlaue_5]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_6 = {
+				image = "[EQU_Take_power_vlaue_6]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_7 = {
+				image = "[EQU_Take_power_vlaue_7]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_8 = {
+				image = "[EQU_Take_power_vlaue_8]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_9 = {
+				image = "[EQU_Take_power_vlaue_9]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_10 = {
+				image = "[EQU_Take_power_vlaue_10]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_11 = {
+				image = "[EQU_Take_power_vlaue_11]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_12 = {
+				image = "[EQU_Take_power_vlaue_12]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_13 = {
+				image = "[EQU_Take_power_vlaue_13]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_14 = {
+				image = "[EQU_Take_power_vlaue_14]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_15 = {
+				image = "[EQU_Take_power_vlaue_15]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_16 = {
+				image = "[EQU_Take_power_vlaue_16]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_17 = {
+				image = "[EQU_Take_power_vlaue_17]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_18 = {
+				image = "[EQU_Take_power_vlaue_18]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_19 = {
+				image = "[EQU_Take_power_vlaue_19]"
+			}
+			Twilight_Sparkle_Fancy_Pants_power_20 = {
+				image = "[EQU_Take_power_vlaue_20]"
+			}
+
+		}
+		  
+    }
+		
+}
+	
+
+

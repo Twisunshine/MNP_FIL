@@ -1,0 +1,356 @@
+focus_tree = {
+	id = LAS_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LAS
+		}
+	}
+	default = no
+	focus = {
+		id = LAS_0_1
+		icon = GFX_LAS_0_1
+		cost = 4.00
+		x = 9
+		y = 0
+		completion_reward = {
+			add_war_support = 0.25
+			add_political_power = 150
+			army_experience = 50
+	        navy_experience = 50
+	        air_experience = 50
+		}
+
+	}
+	focus = {
+		id = LAS_0_2
+		icon = GFX_LAS_0_2
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_1
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 10000
+		producer = EQU
+	}
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 6000
+		producer = EQU
+	}
+		}
+
+	}
+	focus = {
+		id = LAS_0_5
+		icon = GFX_LAS_0_5
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_2
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 1000
+		producer = LAS
+	}
+	
+		}
+
+	}
+	focus = {
+		id = LAS_0_6
+		icon = GFX_focus_generic_steel
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_2
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 6
+			}
+		}
+		random_owned_controlled_state = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	random_owned_controlled_state = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+		}
+
+	}
+	focus = {
+		id = LAS_0_11
+		icon = GFX_goal_generic_military_sphere
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_5
+		}
+		prerequisite = {
+			focus = LAS_0_6
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			add_ideas = LAS_increase_production
+		}
+
+	}
+	focus = {
+		id = LAS_0_3
+		icon = GFX_LAS_0_3
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_1
+		}
+		x = 9
+		y = 1
+		completion_reward = {
+			add_equipment_to_stockpile = {
+		type = artillery_equipment
+		amount = 500
+		producer = LAS
+	}
+		}
+
+	}
+	focus = {
+		id = LAS_0_7
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_3
+		}
+		prerequisite = {
+			focus = LAS_0_2
+		}
+		x = 8
+		y = 2
+		completion_reward = {
+			465 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 4
+			instant_build = yes
+		}
+	}
+		}
+
+	}
+	focus = {
+		id = LAS_0_12
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_6
+		}
+		prerequisite = {
+			focus = LAS_0_7
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_ideas = LAS_increase_construction
+		}
+
+	}
+	focus = {
+		id = LAS_0_4
+		icon = GFX_LAS_0_4
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_1
+		}
+		x = 12
+		y = 1
+		completion_reward = {
+			add_manpower = 500000
+		}
+
+	}
+	focus = {
+		id = LAS_0_8
+		icon = GFX_LAS_0_8
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_3
+		}
+		prerequisite = {
+			focus = LAS_0_4
+		}
+		x = 10
+		y = 2
+		completion_reward = {
+			hidden_effect = {
+				load_oob = "LAS_army"
+			}
+			unlock_decision_category_tooltip = LAS_recruit_militia
+
+		}
+
+	}
+	focus = {
+		id = LAS_0_13
+		icon = GFX_LAS_0_13
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_7
+		}
+		prerequisite = {
+			focus = LAS_0_8
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+			add_ideas = LAS_expand_the_army
+			
+		}
+
+	}
+	focus = {
+		id = LAS_0_16
+		icon = GFX_LAS_0_16
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_11
+		}
+		prerequisite = {
+			focus = LAS_0_12
+		}
+		prerequisite = {
+			focus = LAS_0_13
+		}
+		x = 8
+		y = 4
+		completion_reward = {
+			add_ideas = LAS_solve_the_monarch_1
+		}
+
+	}
+	focus = {
+		id = LAS_0_9
+		icon = GFX_LAS_0_9
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_4
+		}
+		x = 12
+		y = 2
+		completion_reward = {
+			add_ideas = service_by_requirement
+		}
+
+	}
+	focus = {
+		id = LAS_0_14
+		icon = GFX_LAS_0_14
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_8
+		}
+		prerequisite = {
+			focus = LAS_0_9
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			add_ideas = all_adults_serve
+			add_ideas = LAS_Serving_for_Equestria
+		}
+
+	}
+	focus = {
+		id = LAS_0_10
+		icon = GFX_focus_SOV_the_road_of_life
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_4
+		}
+		x = 14
+		y = 2
+		completion_reward = {
+			add_ideas = Women_and_Children_Logistics
+		}
+
+	}
+	focus = {
+		id = LAS_0_15
+		icon = GFX_goal_generic_position_armies
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_9
+		}
+		prerequisite = {
+			focus = LAS_0_10
+		}
+		x = 13
+		y = 3
+		completion_reward = {
+			add_ideas = Women_and_Children_Auxiliary_Army
+		}
+
+	}
+	focus = {
+		id = LAS_0_17
+		icon = GFX_LAS_0_17
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_13
+		}
+		prerequisite = {
+			focus = LAS_0_14
+		}
+		prerequisite = {
+			focus = LAS_0_15
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			add_ideas = LAS_address_equality_1
+		}
+
+	}
+	focus = {
+		id = LAS_0_18
+		icon = GFX_LAS_0_18
+		cost = 4.00
+		prerequisite = {
+			focus = LAS_0_16
+		}
+		prerequisite = {
+			focus = LAS_0_17
+		}
+		x = 9
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = LAS_solve_the_monarch_1
+				add_idea = LAS_solve_the_monarch_2
+			}
+			swap_ideas = {
+				remove_idea = LAS_address_equality_1
+				add_idea = LAS_address_equality_2
+			}
+		}
+
+	}
+}

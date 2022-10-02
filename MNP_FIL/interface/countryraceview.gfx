@@ -1,0 +1,48 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_race_color"
+		texturefile = "gfx//interface//FIL_System/race_system/race_color.dds"
+		noOfFrames = 25 #有多少颜色(种族)
+	}
+	spriteType = {
+		name = "GFX_race_pie_part"
+		texturefile = "gfx//interface//FIL_System/race_system/race_pie_part.dds"
+		noOfFrames = 25	#有多少颜色(种族)
+	}
+	spriteType = {
+		name = "GFX_race_identify_pie"
+		texturefile = "gfx//interface//FIL_System/race_system/race_identify_pie.dds"
+	}
+	spriteType = {
+		name = "GFX_race_value_bar_pic"
+		texturefile = "gfx//interface//FIL_System/race_system/race_value_bar_pic.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_button_70x20_trans"
+		texturefile = "gfx//interface//FIL_System/race_system/button_70x20_trans.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_race_pointer"
+		texturefile = "gfx//interface//FIL_System/race_system/race_pointer.dds"
+		noOfFrames = 9
+	}
+	spriteType = {
+		name = "GFX_empty_trans"
+		texturefile = "gfx//interface//FIL_System/race_system/empty_trans.dds"
+	}
+	spriteType = {
+		name = "GFX_race_option_botton"
+		texturefile = "gfx//interface//FIL_System/race_system/race_option_botton.dds"
+	}
+	spriteType = {
+		name = "GFX_race_interface_bg"
+		texturefile = "gfx//interface//FIL_System/race_system/race_interface_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_race_checkbox"
+		texturefile = "gfx//interface//FIL_System/race_system/race_checkbox.dds"
+		noOfFrames = 2
+	}
+}

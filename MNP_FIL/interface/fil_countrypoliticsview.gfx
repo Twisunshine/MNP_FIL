@@ -378,6 +378,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialism_practical_communism_subtype.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ideology_socialism_syndicalism"
+		texturefile = "gfx/interface/ideologies/socialism_syndicalism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialism_farsighted_socialism"
+		texturefile = "gfx/interface/ideologies/socialism_farsighted_socialism_subtype.dds"
+	}
+	
 	#共产主义
 	
 	spriteType = {

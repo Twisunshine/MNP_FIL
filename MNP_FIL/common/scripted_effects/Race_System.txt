@@ -1,0 +1,2847 @@
+# 开局设定
+setting_race_start = {
+	resize_array = {
+		array = race_value
+		value = 0
+		size = 25
+	}
+	resize_array = {
+		array = race_identify_value
+		value = 0
+		size = 25
+	}
+	resize_array = {
+		array = race_pie_array
+		value = 1
+		size = 100
+	}
+	resize_array = {
+		array = race_identify_array
+		value = 2
+		size = 100
+	}
+	resize_array = {
+		array = race_change_rate
+		value = 0
+		size = 25
+	}
+	resize_array = {
+		array = race_nationals_num
+		value = 0
+		size = 25
+	}
+	resize_array = {
+		array = race_nationals_num_M
+		value = 0
+		size = 25
+	}
+}
+
+# 饼状图分配
+race_pie_change = {
+	set_variable = { ROOT.race_temp_1 = race_value^0 }
+	round_variable = ROOT.race_temp_1
+	set_variable = { ROOT.race_temp_2 = 0 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 1 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	#第二个种族比例 "保存" 到 "中间变量1" 中
+	set_variable = { ROOT.race_temp_1 = race_value^1 }
+	round_variable = ROOT.race_temp_1
+	#第二个种族比例 "加" 第一个种族比例 到 "中间变量2" 中
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	#第二个种族比例Frame(颜色图片的代码) 循环的添加到饼里
+	for_loop_effect = {
+		start = ROOT.race_temp_2				# 从 中间变量1 开始
+		end = ROOT.race_temp_1 					# 达到 中间变量2 结束
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 2 }		# 为饼添加编号2 (第二个种族)
+		add_to_variable = { ROOT.race_temp_2 = 1 }	# 每次循环都为 中间变量2 加1, 直到达到结束数量
+	}	#一直重复到所有种族数量都添加了
+
+	set_variable = { ROOT.race_temp_1 = race_value^2 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 3 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^3 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 4 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^4 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 5 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^5 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 6 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^6 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 7 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^7 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 8 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^8 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 9 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^9 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 10 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^10 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 11 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^11 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 12 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^12 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 13 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^13 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 14 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^14 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 15 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^15 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 16 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^16 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 17 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^17 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 18 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^18 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 19 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^19 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 20 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^20 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 21 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^21 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 22 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^22 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 23 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^23 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 24 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	set_variable = { ROOT.race_temp_1 = race_value^24 }
+	round_variable = ROOT.race_temp_1
+	add_to_variable = { ROOT.race_temp_1 = ROOT.race_temp_2 }
+	for_loop_effect = {
+		start = ROOT.race_temp_2
+		end = ROOT.race_temp_1
+		set_variable = { race_pie_array^ROOT.race_temp_2 = 25 }
+		add_to_variable = { ROOT.race_temp_2 = 1 }
+	}
+
+	clear_variable = ROOT.race_temp_1	# 删除中间变量
+	clear_variable = ROOT.race_temp_2	# 删除中间变量
+}
+
+# 计算种族数量
+calculate_race_num = {
+	set_variable = { race_num = 0 }
+
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^0
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^1
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^2
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^3
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^4
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^5
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^6
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^7
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^8
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^9
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^10
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^11
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^12
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^13
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^14
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^15
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^16
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^17
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^18
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^19
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^20
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^21
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^22
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^23
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^24
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_variable = { race_num = 1 }
+	}
+}
+
+# 计算种族列表显示内容
+calculate_race_show_element = {
+	clear_array = race_show_element
+
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^0
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 1
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^1
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 2
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^2
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 3
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^3
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 4
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^4
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 5
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^5
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 6
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^6
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 7
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^7
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 8
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^8
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 9
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^9
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 10
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^10
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 11
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^11
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 12
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^12
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 13
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^13
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 14
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^14
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 15
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^15
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 16
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^16
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 17
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^17
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 18
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^18
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 19
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^19
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 20
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^20
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 21
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^21
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 22
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^22
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 23
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^23
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 24
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = race_value^24
+				value = 0
+				compare = greater_than
+			}
+		}
+		add_to_array = {
+			array = race_show_element
+			value = 25
+		}
+	}
+}
+
+#计算主要民族数量
+calculate_race_main_num = {
+	set_variable = { race_main_num = 0}
+	if = {
+		limit = {
+			has_country_flag = Race_1_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_2_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_3_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_4_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_5_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_6_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_7_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_8_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_9_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_10_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_11_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_12_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_13_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_14_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_15_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_16_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_17_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_18_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_19_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_20_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_21_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_22_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_23_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_24_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_25_main
+		}
+		add_to_variable = { race_main_num = 1 }
+	}
+}
+
+# 种族认同条
+race_identify_change = {
+	# 删除先前内容 (刷新)
+	clear_array = race_identify_array
+
+	# 条有多大
+	resize_array = {
+		array = race_identify_array
+		value = 2	# 每块都有编号2 (不认同度)
+		size = 100	# 条有100块
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 1 }
+				NOT = {
+					has_country_flag = Race_1_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^0 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 1 }
+				has_country_flag = Race_1_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 2 }
+				NOT = {
+					has_country_flag = Race_2_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^1 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 2 }
+				has_country_flag = Race_2_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 3 }
+				NOT = {
+					has_country_flag = Race_3_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^2 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 3 }
+				has_country_flag = Race_3_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 4 }
+				NOT = {
+					has_country_flag = Race_4_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^3 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 4 }
+				has_country_flag = Race_4_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 5 }
+				NOT = {
+					has_country_flag = Race_5_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^4 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 5 }
+				has_country_flag = Race_5_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 6 }
+				NOT = {
+					has_country_flag = Race_6_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^5 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 6 }
+				has_country_flag = Race_6_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 7 }
+				NOT = {
+					has_country_flag = Race_7_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^6 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 7 }
+				has_country_flag = Race_7_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 8 }
+				NOT = {
+					has_country_flag = Race_8_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^7 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 8 }
+				has_country_flag = Race_8_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 9 }
+				NOT = {
+					has_country_flag = Race_9_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^8 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 9 }
+				has_country_flag = Race_9_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 10 }
+				NOT = {
+					has_country_flag = Race_10_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^9 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 10 }
+				has_country_flag = Race_10_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 11 }
+				NOT = {
+					has_country_flag = Race_11_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^10 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 11 }
+				has_country_flag = Race_11_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 12 }
+				NOT = {
+					has_country_flag = Race_12_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^11 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 12 }
+				has_country_flag = Race_12_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 13 }
+				NOT = {
+					has_country_flag = Race_13_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^12 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 13 }
+				has_country_flag = Race_13_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 14 }
+				NOT = {
+					has_country_flag = Race_14_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^13 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 14 }
+				has_country_flag = Race_14_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 15 }
+				NOT = {
+					has_country_flag = Race_15_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^14 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 15 }
+				has_country_flag = Race_15_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 16 }
+				NOT = {
+					has_country_flag = Race_16_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^15 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 16 }
+				has_country_flag = Race_16_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 17 }
+				NOT = {
+					has_country_flag = Race_17_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^16 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 17 }
+				has_country_flag = Race_17_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 18 }
+				NOT = {
+					has_country_flag = Race_18_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^17 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 18 }
+				has_country_flag = Race_18_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 19 }
+				NOT = {
+					has_country_flag = Race_19_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^18 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 19 }
+				has_country_flag = Race_19_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 20 }
+				NOT = {
+					has_country_flag = Race_20_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^19 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 20 }
+				has_country_flag = Race_20_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 21 }
+				NOT = {
+					has_country_flag = Race_21_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^20 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 21 }
+				has_country_flag = Race_21_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 22 }
+				NOT = {
+					has_country_flag = Race_22_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^21 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 22 }
+				has_country_flag = Race_22_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 23 }
+				NOT = {
+					has_country_flag = Race_23_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^22 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 23 }
+				has_country_flag = Race_23_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 24 }
+				NOT = {
+					has_country_flag = Race_24_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^23 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 24 }
+				has_country_flag = Race_24_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 25 }
+				NOT = {
+					has_country_flag = Race_25_main
+				}
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = race_identify_value^24 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = { Race_open = 25 }
+				has_country_flag = Race_25_main
+			}
+		}
+		set_variable = { ROOT.race_temp_3 = 100 }
+	}
+
+	round_variable = ROOT.race_temp_3
+	set_variable = { ROOT.race_temp_4 = 0 }
+
+	for_loop_effect = {
+		start = 0										# 从 0 开始
+		end = ROOT.race_temp_3 							# 达到 种族认同度数量 结束
+		add_to_array = {								# 为条添加编号1 (认同度)
+			array = race_identify_array
+			value = 1
+			index = ROOT.race_temp_4
+		}
+		add_to_temp_variable = { ROOT.race_temp_4 = 1 }	# 每次循环都为 temp2 加1, 直到达到结束数量
+	}
+
+	clear_variable = ROOT.race_temp_3
+	clear_variable = ROOT.race_temp_4
+}
+
+# 备份种族认同变化
+backup_race_identify = {
+	set_variable = { race_identify_backup^0 = race_identify_value^0 }
+	set_variable = { race_identify_backup^1 = race_identify_value^1 }
+	set_variable = { race_identify_backup^2 = race_identify_value^2 }
+	set_variable = { race_identify_backup^3 = race_identify_value^3 }
+	set_variable = { race_identify_backup^4 = race_identify_value^4 }
+	set_variable = { race_identify_backup^5 = race_identify_value^5 }
+	set_variable = { race_identify_backup^6 = race_identify_value^6 }
+	set_variable = { race_identify_backup^7 = race_identify_value^7 }
+	set_variable = { race_identify_backup^8 = race_identify_value^8 }
+	set_variable = { race_identify_backup^9 = race_identify_value^9 }
+	set_variable = { race_identify_backup^10 = race_identify_value^10 }
+	set_variable = { race_identify_backup^11 = race_identify_value^11 }
+	set_variable = { race_identify_backup^12 = race_identify_value^12 }
+	set_variable = { race_identify_backup^13 = race_identify_value^13 }
+	set_variable = { race_identify_backup^14 = race_identify_value^14 }
+	set_variable = { race_identify_backup^15 = race_identify_value^15 }
+	set_variable = { race_identify_backup^16 = race_identify_value^16 }
+	set_variable = { race_identify_backup^17 = race_identify_value^17 }
+	set_variable = { race_identify_backup^18 = race_identify_value^18 }
+	set_variable = { race_identify_backup^19 = race_identify_value^19 }
+	set_variable = { race_identify_backup^20 = race_identify_value^20 }
+	set_variable = { race_identify_backup^21 = race_identify_value^21 }
+	set_variable = { race_identify_backup^22 = race_identify_value^22 }
+	set_variable = { race_identify_backup^23 = race_identify_value^23 }
+	set_variable = { race_identify_backup^24 = race_identify_value^24 }
+}
+
+# 计算种族认同变化
+calculate_race_identify = {
+	set_temp_variable = { temp1 = race_identify_value^0 }
+	set_temp_variable = { temp2 = race_identify_backup^0 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^0 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^1 }
+	set_temp_variable = { temp2 = race_identify_backup^1 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^1 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^2 }
+	set_temp_variable = { temp2 = race_identify_backup^2 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^2 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^3 }
+	set_temp_variable = { temp2 = race_identify_backup^3 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^3 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^4 }
+	set_temp_variable = { temp2 = race_identify_backup^4 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^4 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^5 }
+	set_temp_variable = { temp2 = race_identify_backup^5 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^5 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^6 }
+	set_temp_variable = { temp2 = race_identify_backup^6 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^6 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^7 }
+	set_temp_variable = { temp2 = race_identify_backup^7 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^7 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^8 }
+	set_temp_variable = { temp2 = race_identify_backup^8 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^8 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^9 }
+	set_temp_variable = { temp2 = race_identify_backup^9 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^9 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^10 }
+	set_temp_variable = { temp2 = race_identify_backup^10 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^10 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^11 }
+	set_temp_variable = { temp2 = race_identify_backup^11 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^11 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^12 }
+	set_temp_variable = { temp2 = race_identify_backup^12 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^12 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^13 }
+	set_temp_variable = { temp2 = race_identify_backup^13 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^13 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^14 }
+	set_temp_variable = { temp2 = race_identify_backup^14 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^14 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^15 }
+	set_temp_variable = { temp2 = race_identify_backup^15 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^15 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^16 }
+	set_temp_variable = { temp2 = race_identify_backup^16 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^16 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^17 }
+	set_temp_variable = { temp2 = race_identify_backup^17 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^17 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^18 }
+	set_temp_variable = { temp2 = race_identify_backup^18 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^18 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^19 }
+	set_temp_variable = { temp2 = race_identify_backup^19 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^19 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^20 }
+	set_temp_variable = { temp2 = race_identify_backup^20 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^20 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^21 }
+	set_temp_variable = { temp2 = race_identify_backup^21 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^21 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^22 }
+	set_temp_variable = { temp2 = race_identify_backup^22 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^22 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^23 }
+	set_temp_variable = { temp2 = race_identify_backup^23 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^23 = temp1 }
+
+	set_temp_variable = { temp1 = race_identify_value^24 }
+	set_temp_variable = { temp2 = race_identify_backup^24 }
+	subtract_from_temp_variable = { temp1 = temp2 }
+	set_variable = { race_change_rate^24 = temp1 }
+}
+
+# 民族缓和性 - 指针位置计算
+calculate_race_mitigation_pointer = {	# min 4.71 	max = 1.58 	1% = 0.0313
+	clamp_variable = {
+		var = race_mitigation
+		min = 0
+		max = 100
+	}
+
+	set_temp_variable = { temp1 = race_mitigation }
+
+	if = {
+		limit = {
+			check_variable = {
+				var = temp1
+				value = 11.11
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = { race_mitigation_pointer = 1 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 11.11
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 22.22
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 2 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 22.22
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 33.33
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 3 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 33.33
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 44.44
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 4 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 44.44
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 55.55
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 5 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 55.55
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 66.66
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 6 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 66.66
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 77.77
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 7 }
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = temp1
+					value = 77.77
+					compare = greater_than
+				}
+				check_variable = {
+					var = temp1
+					value = 88.88
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_variable = { race_mitigation_pointer = 8 }
+	}
+	else = {
+		set_variable = { race_mitigation_pointer = 9 }
+	}
+}
+
+# 每季增加/减少民族认同度
+calculate_race_identify_season = {
+	set_variable = { race_identify_temp = 0 }
+
+	if = {
+		limit = {
+			check_variable = {
+				var = race_mitigation
+				value = 33.33
+				compare = less_than_or_equals
+			}
+		}
+		for_loop_effect = {
+			start = 0
+			end = 25
+
+			set_temp_variable = { temp1 = race_identify_value^race_identify_temp }
+			subtract_from_temp_variable = { temp1 = 1 }
+
+			clamp_temp_variable = {
+				var = temp1
+				min = 0
+				max = 100
+			}
+			set_variable = { race_identify_value^race_identify_temp = temp1 }
+			add_to_variable = { race_identify_temp = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			AND = {
+				check_variable = {
+					var = race_mitigation
+					value = 33.33
+					compare = greater_than
+				}
+				check_variable = {
+					var = race_mitigation
+					value = 66.66
+					compare = less_than_or_equals
+				}
+			}
+		}
+		for_loop_effect = {
+			start = 0
+			end = 25
+
+			set_temp_variable = { temp1 = race_identify_value^race_identify_temp }
+			add_to_temp_variable = { temp1 = 1 }
+
+			clamp_temp_variable = {
+				var = temp1
+				min = 0
+				max = 100
+			}
+			set_variable = { race_identify_value^race_identify_temp = temp1 }
+			add_to_variable = { race_identify_temp = 1 }
+		}
+	}
+	else = {
+		for_loop_effect = {
+			start = 0
+			end = 25
+
+			set_temp_variable = { temp1 = race_identify_value^race_identify_temp }
+			add_to_temp_variable = { temp1 = 2 }
+
+			clamp_temp_variable = {
+				var = temp1
+				min = 0
+				max = 100
+			}
+			set_variable = { race_identify_value^race_identify_temp = temp1 }
+			add_to_variable = { race_identify_temp = 1 }
+		}
+	}
+	clear_variable = race_identify_temp
+	race_main_setting = yes
+}
+
+#主体民族100%设定
+race_main_setting = {
+	if = {
+		limit = {
+			has_country_flag = Race_1_main
+		}
+		set_variable = { race_identify_value^0 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_2_main
+		}
+		set_variable = { race_identify_value^1 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_3_main
+		}
+		set_variable = { race_identify_value^2 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_4_main
+		}
+		set_variable = { race_identify_value^3 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_5_main
+		}
+		set_variable = { race_identify_value^4 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_6_main
+		}
+		set_variable = { race_identify_value^5 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_7_main
+		}
+		set_variable = { race_identify_value^6 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_8_main
+		}
+		set_variable = { race_identify_value^7 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_9_main
+		}
+		set_variable = { race_identify_value^8 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_10_main
+		}
+		set_variable = { race_identify_value^9 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_11_main
+		}
+		set_variable = { race_identify_value^10 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_12_main
+		}
+		set_variable = { race_identify_value^11 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_13_main
+		}
+		set_variable = { race_identify_value^12 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_14_main
+		}
+		set_variable = { race_identify_value^13 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_15_main
+		}
+		set_variable = { race_identify_value^14 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_16_main
+		}
+		set_variable = { race_identify_value^15 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_17_main
+		}
+		set_variable = { race_identify_value^16 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_18_main
+		}
+		set_variable = { race_identify_value^17 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_19_main
+		}
+		set_variable = { race_identify_value^18 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_20_main
+		}
+		set_variable = { race_identify_value^19 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_21_main
+		}
+		set_variable = { race_identify_value^20 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_22_main
+		}
+		set_variable = { race_identify_value^21 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_23_main
+		}
+		set_variable = { race_identify_value^22 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_24_main
+		}
+		set_variable = { race_identify_value^23 = 100 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_25_main
+		}
+		set_variable = { race_identify_value^24 = 100 }
+	}
+}
+
+# 主要民族占比Buff
+calculate_race_main_percentage = {
+	set_temp_variable = { temp1 = 0 }
+
+	if = {
+		limit = {
+			has_country_flag = Race_1_main
+		}
+		add_to_temp_variable = { temp1 = race_value^0 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_2_main
+		}
+		add_to_temp_variable = { temp1 = race_value^1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_3_main
+		}
+		add_to_temp_variable = { temp1 = race_value^2 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_4_main
+		}
+		add_to_temp_variable = { temp1 = race_value^3 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_5_main
+		}
+		add_to_temp_variable = { temp1 = race_value^4 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_6_main
+		}
+		add_to_temp_variable = { temp1 = race_value^5 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_7_main
+		}
+		add_to_temp_variable = { temp1 = race_value^6 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_8_main
+		}
+		add_to_temp_variable = { temp1 = race_value^7 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_9_main
+		}
+		add_to_temp_variable = { temp1 = race_value^8 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_10_main
+		}
+		add_to_temp_variable = { temp1 = race_value^9 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_11_main
+		}
+		add_to_temp_variable = { temp1 = race_value^10 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_12_main
+		}
+		add_to_temp_variable = { temp1 = race_value^11 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_13_main
+		}
+		add_to_temp_variable = { temp1 = race_value^12 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_14_main
+		}
+		add_to_temp_variable = { temp1 = race_value^13 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_15_main
+		}
+		add_to_temp_variable = { temp1 = race_value^14 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_16_main
+		}
+		add_to_temp_variable = { temp1 = race_value^15 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_17_main
+		}
+		add_to_temp_variable = { temp1 = race_value^16 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_18_main
+		}
+		add_to_temp_variable = { temp1 = race_value^17 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_19_main
+		}
+		add_to_temp_variable = { temp1 = race_value^18 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_20_main
+		}
+		add_to_temp_variable = { temp1 = race_value^19 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_21_main
+		}
+		add_to_temp_variable = { temp1 = race_value^20 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_22_main
+		}
+		add_to_temp_variable = { temp1 = race_value^21 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_23_main
+		}
+		add_to_temp_variable = { temp1 = race_value^22 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_24_main
+		}
+		add_to_temp_variable = { temp1 = race_value^23 }
+	}
+	if = {
+		limit = {
+			has_country_flag = Race_25_main
+		}
+		add_to_temp_variable = { temp1 = race_value^24 }
+	}
+	set_variable = { race_main_percentage = temp1 }
+}
+
+# 计算国家Buff
+calculate_race_effect = {
+	calculate_race_main_percentage = yes					# 计算主要民族占比
+
+	#主要民族占比
+	set_temp_variable = { temp1 = race_main_percentage }	# 设置主要民族占比 到 中间变量1
+	subtract_from_temp_variable = { temp1 = 50 }			# 中间变量1 减 50
+	multiply_temp_variable = { temp1 = 2 }					# 中间变量1 乘 2
+	divide_temp_variable = { temp1 = 100 }					# 中间变量1 除 100
+	multiply_temp_variable = { temp1 = 0.2 }				# 中间变量1 乘 效果最大值 (这里是 主要民族 稳定度 -20% ~ 20%)
+	set_variable = { race_effect_main_1 = temp1}			# race_effect_main_第几个效果
+
+	#主要民族数量
+	set_temp_variable = { temp1 = race_main_num }			# 设置主要民族数量 到 中间变量1
+	if = {
+		limit = {
+			check_variable = { temp1 > 1 }
+		}
+		subtract_from_temp_variable = { temp1 = 1 }
+	}
+	multiply_temp_variable = { temp1 = 0.1 }				# 中间变量1 乘 0.1 (10%造价)
+	set_variable = { race_effect_main_2 = temp1}
+
+	#陆马
+	set_temp_variable = { temp1 = race_identify_value^0 }	# 设置认同度 到 中间变量1
+	subtract_from_temp_variable = { temp1 = 50 }			# 中间变量1 减 50
+	multiply_temp_variable = { temp1 = 2 }					# 中间变量1 乘 2
+	divide_temp_variable = { temp1 = 100 }					# 中间变量1 除 100
+	set_temp_variable = { temp2 = race_value^0 }            # 设置种族占比 到 中间变量2
+	divide_temp_variable = { temp2 = 100 }					# 中间变量2 除 100
+	multiply_temp_variable = { temp1 = temp2 }              # 中间变量1 乘 中间变量2 保存到 中间变量1
+	multiply_temp_variable = { temp1 = 0.1 }				# 中间变量1 乘 效果最大值 (这里是 陆马的 陆军防御 -10% ~ 10%)
+	set_variable = { race_effect_0_1 = temp1}				# race_effect_种族代码_第几个效果
+
+	#天马
+	set_temp_variable = { temp1 = race_identify_value^1 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^1 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.1 }
+	set_variable = { race_effect_1_1 = temp1}
+
+	#独角兽
+	set_temp_variable = { temp1 = race_identify_value^2 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^2 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.1 }
+    set_variable = { race_effect_2_1 = temp1}
+
+	#夜骐
+	set_temp_variable = { temp1 = race_identify_value^3 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^3 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	set_variable = { race_effect_3_1 = temp1}
+
+	#水晶小马
+	set_temp_variable = { temp1 = race_identify_value^4 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^4 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.2 }
+    set_variable = { race_effect_4_1 = temp1}
+
+	#幻型灵
+	set_temp_variable = { temp1 = race_identify_value^5 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^5 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	set_variable = { race_effect_5_1 = temp1}
+
+	#斑马
+	set_temp_variable = { temp1 = race_identify_value^6 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^6 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	set_variable = { race_effect_6_1 = temp1}
+
+	#龙族
+	set_temp_variable = { temp1 = race_identify_value^7 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^7 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 1 }
+    set_variable = { race_effect_7_1 = temp1}
+
+	set_temp_variable = { temp1 = race_identify_value^7 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^7 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.5 }
+    set_variable = { race_effect_7_2 = temp1}
+
+	#牛类种族 ################################################# 步兵HP 待定
+	set_temp_variable = { temp1 = race_identify_value^8 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^8 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 40 }
+	round_temp_variable = temp1
+	set_variable = { race_effect_8_1 = temp1}
+
+	#驯鹿
+	set_temp_variable = { temp1 = race_identify_value^9 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^9 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.2 }
+    set_variable = { race_effect_9_1 = temp1}
+
+	#马(Horse)
+	set_temp_variable = { temp1 = race_identify_value^10 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^10 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	set_variable = { race_effect_10_1 = temp1}
+
+	#驴&骡子
+	set_temp_variable = { temp1 = race_identify_value^11 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^11 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	multiply_temp_variable = { temp1 = -1 }
+	set_variable = { race_effect_11_1 = temp1}
+
+	#狮鹫
+	set_temp_variable = { temp1 = race_identify_value^12 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^12 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.1 }
+    set_variable = { race_effect_12_1 = temp1}
+
+	#驼鹿&麋鹿
+	set_temp_variable = { temp1 = race_identify_value^13 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^13 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.1 }
+	set_variable = { race_effect_13_1 = temp1}
+
+	#鹿鹰兽
+	set_temp_variable = { temp1 = race_identify_value^14 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^14 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.1 }
+    set_variable = { race_effect_14_1 = temp1}
+
+	#麒麟
+	set_temp_variable = { temp1 = race_identify_value^15 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^15 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	set_variable = { race_effect_15_1 = temp1}
+
+	#哈弗林格马
+	set_temp_variable = { temp1 = race_identify_value^16 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^16 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.1 }
+	set_variable = { race_effect_16_1 = temp1}
+
+	#水妖马
+	set_temp_variable = { temp1 = race_identify_value^17 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^17 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.2 }
+	multiply_temp_variable = { temp1 = -1 }
+    set_variable = { race_effect_17_1 = temp1}
+
+	#钻石狗
+	set_temp_variable = { temp1 = race_identify_value^18 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^18 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.1 }
+	set_variable = { race_effect_18_1 = temp1}
+
+	#猫族
+	set_temp_variable = { temp1 = race_identify_value^19 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^19 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.1 }
+    set_variable = { race_effect_19_1 = temp1}
+
+	#鹦鹉
+	set_temp_variable = { temp1 = race_identify_value^20 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^20 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.2 }
+	set_variable = { race_effect_20_1 = temp1}
+
+	#鹿
+	set_temp_variable = { temp1 = race_identify_value^21 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^21 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.1 }
+	set_variable = { race_effect_21_1 = temp1}
+
+	#风暴兽
+	set_temp_variable = { temp1 = race_identify_value^22 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^22 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.1 }
+    set_variable = { race_effect_22_1 = temp1}
+
+	#骏鹰/海马
+	set_temp_variable = { temp1 = race_identify_value^23 }
+	subtract_from_temp_variable = { temp1 = 50 }
+	multiply_temp_variable = { temp1 = 2 }
+	divide_temp_variable = { temp1 = 100 }
+	set_temp_variable = { temp2 = race_value^23 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp1 = temp2 }
+	multiply_temp_variable = { temp1 = 0.1 }
+	set_variable = { race_effect_23_1 = temp1}
+
+	#海狮
+	set_temp_variable = { temp1 = race_identify_value^24 }
+	subtract_from_temp_variable = { temp1 = 50 }
+    multiply_temp_variable = { temp1 = 2 }
+    divide_temp_variable = { temp1 = 100 }
+    set_temp_variable = { temp2 = race_value^24 }
+    divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp1 = temp2 }
+    multiply_temp_variable = { temp1 = 0.2 }
+    set_variable = { race_effect_24_1 = temp1}
+
+	#重叠Buff计算
+	set_temp_variable = { temp1 = race_effect_7_2 }
+	add_to_temp_variable = { temp1 = race_effect_14_1 }
+	set_variable = { race_effect_7_2_1 = temp1}
+
+	set_temp_variable = { temp1 = race_effect_7_2 }
+	add_to_temp_variable = { temp1 = race_effect_23_1 }
+	set_variable = { race_effect_7_2_2 = temp1}
+
+	set_temp_variable = { temp1 = race_effect_4_1 }
+	add_to_temp_variable = { temp1 = race_effect_main_1 }
+	set_variable = { race_effect_4_1_1 = temp1}
+}
+
+# 计算种族居民数量
+calculate_race_nationals = {
+	set_temp_variable = { temp1 = max_manpower_k } 		# 保存 国家总居民数量 到 中间变量1
+	
+	set_temp_variable = { temp2 = race_value^0 }		# 保存 第一个种族的占比率 到 中间变量2
+	divide_temp_variable = { temp2 = 100 }				# 种族的占比率 到 百分比
+	multiply_temp_variable = { temp2 = temp1 }			# 中间变量2 乘 国家总居民数量
+	set_variable = { race_nationals_num^0 = temp2 }		# 中间变量2 保存到 种族居民数量变量 (k)
+	divide_temp_variable = { temp2 = 1000 }				# 中间变量2 除 1000
+	set_variable = { race_nationals_num_M^0 = temp2 }	# 中间变量2 保存到 种族居民数量变量 (M)
+
+	set_temp_variable = { temp2 = race_value^1 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^1 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^1 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^2 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^2 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^2 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^3 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^3 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^3 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^4 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^4 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^4 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^5 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^5 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^5 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^6 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^6 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^6 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^7 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^7 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^7 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^8 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^8 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^8 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^9 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^9 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^9 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^10 }
+	divide_temp_variable = { temp2 = 100 }
+	multiply_temp_variable = { temp2 = temp1 }
+	set_variable = { race_nationals_num^10 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^10 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^11 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^11 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^11 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^12 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^12 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^12 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^13 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^13 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^13 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^14 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^14 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^14 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^15 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^15 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^15 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^16 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^16 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^16 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^17 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^17 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^17 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^18 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^18 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^18 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^19 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^19 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^19 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^20 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^20 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^20 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^21 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^21 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^21 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^22 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^22 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^22 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^23 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^23 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^23 = temp2 }
+
+	set_temp_variable = { temp2 = race_value^24 }
+	divide_temp_variable = { temp2 = 100 }
+    multiply_temp_variable = { temp2 = temp1 }
+    set_variable = { race_nationals_num^24 = temp2 }
+	divide_temp_variable = { temp2 = 1000 }
+	set_variable = { race_nationals_num_M^24 = temp2 }
+}
+
+# 计算占领地区后的种族占比&数量
+calculate_race_state_change = {  
+	# ROOT = new / FROM = old / FROM.FROM = state ID
+	set_temp_variable = { temp0 = FROM.FROM.state_population_k } 			# 获取地区总马力
+	set_temp_variable = { temp1 = 0 }
+	set_temp_variable = { temp4 = ROOT.max_manpower_k }						# 获取占领方新总马力
+	divide_temp_variable = { temp4 = 100 }									# 获取占领方新总马力 除 100 = 占领方总马力的1%
+
+	while_loop_effect = {
+		limit = {
+			check_variable = { temp1 < 25 }									# 循环25次
+		}
+		set_temp_variable = { temp2 = FROM.race_value^temp1 }				# 获取被占领方种族占比
+		divide_temp_variable = { temp2 = 100 }								# 占比计算为百分比
+		multiply_temp_variable = { temp2 = temp0 }							# 种族百分比 乘 地区总马力 = 某种族数量
+
+		set_temp_variable = { temp3 = ROOT.race_nationals_num^temp1 } 		# 获取占领方种族数量
+		add_to_temp_variable = { temp3 = temp2 }							# 占领方某种族数量 加 被占领方地区某种族数量 = 新种族数量
+		divide_temp_variable = { temp3 = temp4 }							# 新种族数量 除 占领方新总马力的1% = 某种族百分比
+
+		set_variable = { ROOT.race_value^temp1 = temp3 }					# 更改占领方种族占比
+
+		add_to_temp_variable = { temp1 = 1 }
+	}
+	
+	set_temp_variable = { temp1 = 0 }
+	set_temp_variable = { temp2 = 100 }
+	
+	while_loop_effect = {
+		limit = {
+			check_variable = { temp1 < 25 }									# 循环25次
+		}
+		subtract_from_temp_variable = { temp2 = ROOT.race_value^temp1 }		# 100% 减去 占领方所有种族新占比的总和	
+		add_to_temp_variable = { temp1 = 1 }
+	}
+	
+	FROM = { calculate_race_num = yes }										# 计算被占领国种族数量
+	set_temp_variable = { temp1 = FROM.race_num }							# 计算后的种族数量放入 中间变量1
+	divide_temp_variable = { temp2 = temp1 }								# 剩余的百分比 除 被占领方种族数量 到 中间变量2
+	
+	set_temp_variable = { temp1 = 0 }
+	
+	while_loop_effect = {
+		limit = {
+			check_variable = { temp1 < 25 }									# 循环25次
+		}
+		if = {
+			limit = {
+				check_variable = { FROM.race_value^temp1 > 0 }				# 如果被占领方有这个种族的话
+			}
+			add_to_variable = { ROOT.race_value^temp1 = temp2 }				# 如果被占领方有这个种族的话, 占领方的这个种族 加 中间变量2
+		}	
+		add_to_temp_variable = { temp1 = 1 }
+	}
+}

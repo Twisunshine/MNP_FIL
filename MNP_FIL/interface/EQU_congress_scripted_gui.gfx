@@ -1,0 +1,21 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_EQU_Twilight_Sparkle_p" 
+		textureFile = "gfx/interface/EQU_take_power/EQU_Twilight_Sparkle_p.dds"
+	}
+	spriteType = {
+		name = "GFX_EQU_Fancy_Pants_b" 
+		textureFile = "gfx/interface/EQU_take_power/EQU_Fancy_Pants_b.dds"
+	}
+	spriteType = {
+		name = "GFX_EQU_Portrait_Twilight_Sparkle" 
+		textureFile = "gfx/leaders/EQU/Portrait_EQU_Twilight_Sparkle.dds"
+	}
+	spriteType = {
+		name = "GFX_EQU_take_power_kuang" 
+		textureFile = "gfx/interface/EQU_take_power/EQU_take_power_kuang.dds"
+	}
+
+	
+}

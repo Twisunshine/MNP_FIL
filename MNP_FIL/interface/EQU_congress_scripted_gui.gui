@@ -1,0 +1,160 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "EQU_congress_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 510 height= 580 }
+		iconType = {
+				name ="EQU_primer_Fancy_Pants"
+				spriteType = "GFX_Orthodoxy_right_leader_pic"
+				position = { x= 280 y = 5 }
+			}
+		iconType = {
+				name ="EQU_Twilight_Sparkle"
+				spriteType = "GFX_EQU_Portrait_Twilight_Sparkle"
+			position = { x= 65	 y = 5 }
+			}
+		instantTextboxType = {
+			name = "full_text"
+			position = { x = 14 y = 400 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "EQU_the_take_power_desc"
+			maxWidth = 470
+		}
+		iconType = {
+				name ="EQU_take_power_kuang"
+				spriteType = "GFX_EQU_take_power_kuang"
+			position = { x= 12	 y = 260 }
+			}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_1"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 14	 y = 261 }
+			}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_2"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 39	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_3"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 64	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_4"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 89	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_5"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 114	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_6"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 139	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_7"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 164	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_8"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 189	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_9"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 214	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_10"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 239	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_11"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 264	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_12"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 289	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_13"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 314	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_14"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 339	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_15"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 364	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_16"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 389	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_17"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 414	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_18"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 439	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_19"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 464	 y = 261 }
+		}
+		iconType = {
+				name ="Twilight_Sparkle_Fancy_Pants_power_20"
+				spriteType = "GFX_EQU_take_power_value"
+			position = { x= 470	 y = 261 }
+		}	
+
+		instantTextboxType = {
+			name = "full_text_1"
+			position = { x = 12 y = 340 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "EQU_the_take_power_1_desc"
+		}
+		instantTextboxType = {
+			name = "full_text_2"
+			position = { x = 395 y = 340 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "EQU_the_take_power_2_desc"
+		}
+		instantTextboxType = {
+			name = "full_text_3"
+			position = { x = 160 y = 350 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "EQU_the_take_power_3_desc"
+		}
+		
+
+	}
+	
+}

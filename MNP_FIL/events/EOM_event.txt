@@ -1,0 +1,520 @@
+add_namespace = EOM_events
+
+#梦中的保卫
+country_event = {
+	id = EOM_events.1
+	title = EOM_events.1.t
+	desc = EOM_events.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.1.tt
+		add_political_power = 10
+	}
+	option={
+		name = EOM_events.1.ts
+		add_stability = 0.01
+	}
+}
+
+#城中的保卫
+country_event = {
+	id = EOM_events.2
+	title = EOM_events.2.t
+	desc = EOM_events.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.2.tt
+		add_political_power = 10
+	}
+	option={
+		name = EOM_events.2.ts
+		add_stability = 0.01
+	}
+}
+
+#心中的保卫
+country_event = {
+	id = EOM_events.3
+	title = EOM_events.3.t
+	desc = EOM_events.3.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.3.tt
+		add_political_power = 10
+	}
+	option={
+		name = EOM_events.3.ts
+		add_stability = 0.01
+	}
+}
+
+#一团乱麻
+country_event = {
+	id = EOM_events.4
+	title = EOM_events.4.t
+	desc = EOM_events.4.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.4.tt
+		set_variable = { EQU.EQU_orthodoxy_change = 3 }
+		calculate_orthodoxy = yes
+		custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_2
+	}
+}
+
+#月色海军
+country_event = {
+	id = EOM_events.5
+	title = EOM_events.5.t
+	desc = EOM_events.5.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.5.tt
+		add_political_power = -75
+		229 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		270 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#印着露娜的大海报
+country_event = {
+	id = EOM_events.6
+	title = EOM_events.6.t
+	desc = EOM_events.6.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.6.tt
+		
+	}
+}
+
+#前线的海外记者
+country_event = {
+	id = EOM_events.7
+	title = EOM_events.7.t
+	desc = EOM_events.7.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.7.tt
+		add_ideas = straggler
+	}
+}
+
+#上古时期
+country_event = {
+	id = EOM_events.8
+	title = EOM_events.8.t
+	desc = EOM_events.8.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.8.tt
+		
+	}
+}
+
+#政府构成
+country_event = {
+	id = EOM_events.9
+	title = EOM_events.9.t
+	desc = EOM_events.9.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.9.tt
+		add_stability = -0.1
+	}
+}
+
+#茶余饭后
+country_event = {
+	id = EOM_events.10
+	title = EOM_events.10.t
+	desc = EOM_events.10.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.10.tt
+		
+	}
+}
+
+#投机倒把
+country_event = {
+	id = EOM_events.11
+	title = EOM_events.11.t
+	desc = EOM_events.11.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.11.tt
+		
+	}
+}
+
+#授勋仪式
+country_event = {
+	id = EOM_events.12
+	title = EOM_events.12.t
+	desc = EOM_events.12.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.12.tt
+		
+	}
+}
+
+#帝国宪法
+country_event = {
+	id = EOM_events.13
+	title = EOM_events.13.t
+	desc = EOM_events.13.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.13.tt
+		
+	}
+}
+
+#令马满意的演员
+country_event = {
+	id = EOM_events.14
+	title = EOM_events.14.t
+	desc = EOM_events.14.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.14.tt
+		remove_ideas = idea_EOM_Prince_Blueblood
+	}
+}
+
+#议员的幸福
+country_event = {
+	id = EOM_events.15
+	title = EOM_events.15.t
+	desc = EOM_events.15.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.15.tt
+		
+	}
+}
+
+#打破歧视
+country_event = {
+	id = EOM_events.16
+	title = EOM_events.16.t
+	desc = EOM_events.16.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.16.tt
+		
+	}
+}
+
+#支族与嫡子
+country_event = {
+	id = EOM_events.17
+	title = EOM_events.17.t
+	desc = EOM_events.17.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.17.tt
+		
+	}
+}
+
+#所有少数民族
+country_event = {
+	id = EOM_events.18
+	title = EOM_events.18.t
+	desc = EOM_events.18.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.18.tt
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+
+#公主的可靠朋友
+country_event = {
+	id = EOM_events.19
+	title = EOM_events.19.t
+	desc = EOM_events.19.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.19.tt
+		
+	}
+}
+
+#我们真正的公主
+country_event = {
+	id = EOM_events.20
+	title = EOM_events.20.t
+	desc = EOM_events.20.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.20.tt
+		
+	}
+}
+
+#接见月鹿派领袖
+country_event = {
+	id = EOM_events.21
+	title = EOM_events.21.t
+	desc = EOM_events.21.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.21.tt
+		
+	}
+}
+
+#月色报告
+country_event = {
+	id = EOM_events.22
+	title = EOM_events.22.t
+	desc = EOM_events.22.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.22.tt
+		
+	}
+}
+
+#与会者寥寥
+country_event = {
+	id = EOM_events.23
+	title = EOM_events.23.t
+	desc = EOM_events.23.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.23.tt
+		
+	}
+}
+
+#封闭边境
+country_event = {
+	id = EOM_events.24
+	title = EOM_events.24.t
+	desc = EOM_events.24.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.24.tt
+		
+	}
+}
+
+#邪教?
+country_event = {
+	id = EOM_events.25
+	title = EOM_events.25.t
+	desc = EOM_events.25.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.25.tt
+		add_stability = 0.15
+		add_political_power = 200
+		add_to_variable = { EOM_NM_control_value = 1 } 
+		custom_effect_tooltip = EOM_NM_control_value_add
+	}
+}
+
+#付出就有回报
+country_event = {
+	id = EOM_events.26
+	title = EOM_events.26.t
+	desc = EOM_events.26.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.26.tt
+		
+	}
+}
+
+#用眼睛看
+country_event = {
+	id = EOM_events.27
+	title = EOM_events.27.t
+	desc = EOM_events.27.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.27.tt
+		add_political_power = -75
+	}
+}
+
+#含糊其辞
+country_event = {
+	id = EOM_events.28
+	title = EOM_events.28.t
+	desc = EOM_events.28.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.28.tt
+		add_war_support = 0.05
+	}
+}
+
+#他从未对不起小马
+country_event = {
+	id = EOM_events.29
+	title = EOM_events.29.t
+	desc = EOM_events.29.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = EOM_events.29.tt
+		set_variable = { EOM.EOM_orthodoxy_change = 1 }
+		calculate_orthodoxy = yes
+		custom_effect_tooltip = EQU_EOM_orthodoxy_sub_add_1
+	}
+}
+
+
+# CLK向EOM投降
+country_event = {
+	id = EOM_events.30
+	title = EOM_events.30.t
+	desc = EOM_events.30.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			white_peace = CLK
+			transfer_state = 332
+			transfer_state = 458
+			transfer_state = 401
+			transfer_state = 409
+			transfer_state = 384
+			transfer_state = 352
+			transfer_state = 406
+			transfer_state = 349
+			transfer_state = 393
+			transfer_state = 368
+			transfer_state = 158
+			transfer_state = 340
+			transfer_state = 381
+			transfer_state = 423
+			EQU = {
+				white_peace = CLK
+				set_country_flag = CLK_NOT
+			}
+			EER = {
+				white_peace = CLK
+				set_country_flag = CLK_NOT
+			}
+			LAS = {
+				white_peace = CLK
+				set_country_flag = CLK_NOT
+			}
+		}
+	}
+
+	option={
+		name = EOM_events.30.tt
+		set_country_flag = CLK_NOT
+    }
+}

@@ -20,7 +20,7 @@
  EER_socialism_party:0 "平等党左派"
  EER_communism_party:0 "共产党"
  EER_Unite:0 "艾奎斯垂亚平等共和国"
- 
+
  ###角色
  EER_Starlight_Glimmer:0 "星光熠熠"
  EER_Starlight_Glimmer_desc:0 "星光熠熠是一匹怎么样的小马？这个问题恐怕谁都无法给出答案，对于大多数小马来说，星光熠熠就如她所创立的平等主义思想一样，难以参透，神秘莫测。\n\n星光熠熠原本只是小马国一匹普通的独角兽，但是在她遭遇到一系列因可爱标记和友谊引发的不好经历之后，她毅然抛弃了她旧日的生活，果断的离开了小马国，前往了如今的平等镇。星光熠熠自称，小马国昔日的宣传之中，谐律式的友谊和可爱标记被称作世界上最伟大和美好的事物。然而在识破了这是一场骗局之后，星光熠熠陷入了悲哀和失望之中。为了寻找出小马在世界上可以得到的真正的幸福是什么样子的，星光熠熠来到了平等镇，用自己的理想和发现武装了这里的小马，和他们一起建设起一个平等互助的乌托邦。\n\n随着1000年政变，小马大量流亡。面前小马当不幸境遇加深了星光熠熠的思考。星光熠熠认为，之前自己发现的“可爱标记带来了友谊的终结”这一现象，只不过是真正根源问题的其中一个表现罢了。也正是借此，星光熠熠扩展了自己的发现，并且将其逐步完善，最终创造出一个完备的思想体系，也就是现在的平等主义。\n\n然而，反对者诟病平等主义过于理想化，不具备经济学意义，并且漏洞百出，逻辑上并不严谨。但星光熠熠在面对质疑时，仍然乐观的宣称，在平等主义建成之后，所有小马都可以生活在一个幸福的乌托邦之中。"
@@ -44,9 +44,9 @@
  kind_vase:0 "友善的花瓶"
  charming_scumbag:0 "充满魅力的混蛋"
  great_philanthropist:0 "大慈善家"
- 
- 
- 
+
+
+
  ###国策汉化
  EER_refugee_influx:0 "难民如潮"
  EER_refugee_influx_desc:0 "月之帝国与临时政府的战争使得难民数量激增，越来越多的难民北上涌入了星光治下的平等国，这对于我们的影响有利有弊。\n\n这代表我们有了越来越多的马力，但是同时也让社会治安的压力激增，如果整治不当可能会引发严重的社会及经济问题，但是相对的如果治理得当我们将会让我们的马口飞速上升。\n\n不论如何，面对这次的难民潮我们显然不能什么都不做而坐以待毙，现在该做出行动了。"
@@ -142,124 +142,124 @@
  EER_building_an_equal_state_desc:0 "就在今天，星光熠熠在所有平等镇境内的民众面前，高声宣布以平等主义为思想核心的平等国在小马国的东北成立，这片地区将会迎来平等主义带来的心生。\n\n在第二天，各国媒体像是疯了一般报道平等国的建立，从幻形灵虫巢到狮鹫地区，从水晶帝国到苹果鲁萨，全世界似乎都知道了在昔日庞大帝国的东北部出现了一个用着新兴的理论的新生的国家。"
  EER_building_an_equal_state_tt:0 "§G完成这项国策后，我们将真正在国际舞台成为一个国家，并且解锁各项外交选项。§!"
  EER_establishing_emancipation_programs:0 "确立解放方针"
- EER_establishing_emancipation_programs_desc:0 ""
+ EER_establishing_emancipation_programs_desc:0 "终于，时候到了，星光熠熠将会在她的演讲当中带领着我们走向伟大的胜利，只是……我们真的准备好了吗？俗话说得好，“好的开始是成功的一半”，在演讲之前，恰当的准备工作很明显是必须的，只有这样，我们才能彻彻底底的确定下来在未来当中我们的路线与方针。"
  EER_establishing_emancipation_programs_tt:0 "§G星光熠熠会发表演讲，我们的后续路线将会由演讲准备过程中的各种选择决定。§!"
  EER_chairmans_speech:0 "主席的演讲"
- EER_chairmans_speech_desc:0 ""
+ EER_chairmans_speech_desc:0 "欢呼吧，平等镇的小马们！就如同我们平等的过去一般，“没有一匹小马会掉队！”在星光熠熠的领导下，我们必将在最后的总动员当中，为我们最终的光荣胜利，打下最坚固的基石！“快从暗中走出，加入这乌托邦，同化可爱标志，享受平等和睦！”"
  EER_enhanced_weapons_production:0 "加强武器生产"
- EER_enhanced_weapons_production_desc:0 ""
+ EER_enhanced_weapons_production_desc:0 "是的，我们现在已经有了属于我们自己的武器生产线，但是那还不够，武器是从我们的小马的双蹄中锻造出来的，我们需要更高质量的工马，这样才能使得更多的武器得以制造出来，送到我们的士兵们的蹄上！要知道在残酷的战场上，武器就是生命啊！"
  EER_expanded_staff:0 "扩大参谋部"
- EER_expanded_staff_desc:0 ""
+ EER_expanded_staff_desc:0 "光有武器是没有意义的，打架只需要依靠蛮力就可以了，但是战争，战争想要获胜需要的是脑袋，具体点来说，是头脑当中的那宝贵的战略思想，最伟大的战略家也许我们没几个，但是就像一句小马谚语一样“三个臭皮匠，顶个白胡子星璇”。组织起更多的有战略才华的小马们组成我们的新参谋部，一定会对于战争有着惊人的作用！"
  EER_equality_arsenal:0 "平等兵工厂"
- EER_equality_arsenal_desc:0 ""
+ EER_equality_arsenal_desc:0 "是的，感谢星光熠熠那充满了决心的演讲的鼓舞，我们的士兵现在已经充满了斗志了，但是光有斗志就想打赢战争还是太过于乐观了，我们不能给士兵们发根法棍就让他们上战场，所以是时候了，工程师小马们，动起来！让军用工厂的轰鸣声，开拓我们走向胜利的道路！"
  EER_secure_resupply_lines:0 "确保补给线"
- EER_secure_resupply_lines_desc:0 ""
+ EER_secure_resupply_lines_desc:0 "虽然有些身居高位的小马们会自私的认为“只要给车辆准备好油就行了，小马们吃皮带就行了。”但是很明显，我们伟大的领袖星光熠熠绝不是这样的小马！修好道路，让运输粮草的部队飞驰！让前线的每一个小马在艰苦的战斗之后，都能够吃到热乎乎的干草！"
  EER_everything_is_ready:0 "万事俱备......"
- EER_everything_is_ready_desc:0 ""
+ EER_everything_is_ready_desc:0 "终于，在漫长的最后准备之后，一切都基本准备就绪了，打开武器库！是时候把最后的装备，也通通分发到我们跃跃欲试的士兵们的蹄中了！让所有的小马们明白，我们，终于要带着她们回家了！"
  EER_all_thats_missing_is_the_east_wind:0 "......只欠东风"
- EER_all_thats_missing_is_the_east_wind_desc:0 ""
+ EER_all_thats_missing_is_the_east_wind_desc:0 "我们现在有了各种必须的装备，但是要打赢一场战争，除了装备之外，还需要民心，平等国的民心并不缺乏，但是还不够！鼓舞我们的平民，让她们明白，光明的解放，我们已经来了！"
  EER_open_the_door:0 "开门出击!"
- EER_open_the_door_desc:0 ""
+ EER_open_the_door_desc:0 "朋友们，动手吧，为了幸福，为了解放，为了一个平等的小马国，为了……理想！"
  EER_change_to_c_2:0 "§Y接下来将使用新的国策树§!"
  EER_civil_war_c1:0 "§R我们将解放整个小马国！\n§!"
- 
+
  EER_ADD_EERD:0 "§R双钻的势力增强了！§!"
  EER_NOADD_EERD:0 "§R双钻的势力削弱了！§!"
  EER_EQUORT:0 "§R临时政府的正统性将会被削弱！§!"
  EER_EOMORT:0 "§R月之帝国的正统性将会被削弱！§!"
- 
+
  ###国策第二阶段汉化
  EER_the_great_war_of_liberation:0 "伟大的解放战争"
- EER_the_great_war_of_liberation_desc:0 ""
+ EER_the_great_war_of_liberation_desc:0 "前进！前进！再前进！小马们，伟大的解放事业已然开始了，从现在开始，无论你是谁，你来自何方，你都不再是一个落难到我们这里的无名小卒，而是……伟大的平等革命不可或缺的重要一员！为了星光，为了平等的小马国！"
  EER_look_outside:0 "放眼外界"
- EER_look_outside_desc:0 ""
+ EER_look_outside_desc:0 "战火已经燃起了，也许我们对于外界战乱的开始难以预料，但是至少……我们可以用我们自己的方式去决定它的终结。看向外面，为了平等理想而战斗的小马驹们！我们要准备好好收拾一顿我们的敌马了！"
  ###第二阶段 - 注重小马国
  EER_hypocrites_in_the_south:0 "南方的伪君子"
- EER_hypocrites_in_the_south_desc:0 ""
+ EER_hypocrites_in_the_south_desc:0 "伴随着梦魇之月的归来，曾经的那些忠于塞拉斯蒂亚的贵族们纷纷聚集在了一起，扶持着公主曾经最得意的学生暮光闪闪成为了新的政府，然而可笑的是，这个打着过去塞拉斯蒂亚公主的名号的政权，却只不过是一个虚伪到了极点的假皮囊，我们会集中起我们的力量，将这个南方的伪君子所撕碎，一劳永逸……"
  EER_slander_the_name_of_the_nobility:0 "诽谤贵族名声"
- EER_slander_the_name_of_the_nobility_desc:0 ""
+ EER_slander_the_name_of_the_nobility_desc:0 "在过去的小马国当中，贵族们总是在用着尽可能的方法来给小马们制造着一个美好的形象，以此来维持着小马们对于自己阶级的信任，但是现在，一切都天翻地覆了，这也正是我们的最佳时机，让小马们听见我们的声音，去质疑曾经的那些贵族们！"
  EER_suspected_emergency_status:0 "怀疑紧急状态"
- EER_suspected_emergency_status_desc:0 ""
+ EER_suspected_emergency_status_desc:0 "自从战争开始之后，小马国的临时政府就一直在宣布处于紧急状态中，这无疑是加强了临时政府的抵抗能力，但是……紧急状态毕竟也对于普通小马们的生活造成了很大的困扰，如果我们可以略微挑拨一下小马们去质疑这种“严格把控”，从而让解除封控的呼声越来越高……那就无疑是太好了。"
  EER_democratic_illusion:0 "民主假象"
- EER_democratic_illusion_desc:0 ""
+ EER_democratic_illusion_desc:0 "如果说在民主方面，梦魇之月是一个装都不装的真小人，那么那些临时政府的贵族们，就毫无疑问的是一群道貌岸然的伪君子罢了，她们也呼吁民主，只不过都是一些可笑的“假民主”罢了，小马们有权利知道真相，知道她们正在服务的，是怎么样的一群跳梁小丑……"
  EER_fetching_moon_in_water:0 "水中捞月"
- EER_fetching_moon_in_water_desc:0 ""
+ EER_fetching_moon_in_water_desc:0 "经过了那么多的努力，我们终于让曾经统治顽固的小马国贵族们的临时政府变得岌岌可危了起来，现在，只需要我们在舆论上的最后一击……\n她们就要解体完蛋啦！"
  EER_mountain_arming:0 "依托山脉布防"
- EER_mountain_arming_desc:0 ""
+ EER_mountain_arming_desc:0 "我们不能双线作战，那样只会使得事情变得更加复杂，所以，当我们的军队正在对抗梦魇之月的军队的时候，我们最好在与小马国临时政府的前线上建造起来一些堡垒进行防御。况且，有效的防御也能大大增加小马国临时政府的马员伤亡，使得我们未来所进行的反攻更加顺利。"
  EER_attack_on_hollow_shades:0 "袭击林荫镇"
- EER_attack_on_hollow_shades_desc:0 ""
+ EER_attack_on_hollow_shades_desc:0 "林荫镇，夜骐们的一个重要家乡之一，在于梦魇之月的内战爆发了之后，她们就被小马国临时政府隔离了起来，临时政府没有打算为难她们，但是也没有分配什么兵力去保护她们，这可是一个千载难逢的劫掠当地居民于武器装备的大好机会啊……"
  EER_emphasis_on_class_equality:0 "强调阶级平等!"
- EER_emphasis_on_class_equality_desc:0 ""
+ EER_emphasis_on_class_equality_desc:0 "最后的时刻到了，临时政府就如同一栋破烂的房屋，只要我们轻轻地往她们的门上踹上一蹄子，她们就会轰然倒塌。\n——星光熠熠总书记在下达对小马国临时政府最后舆论攻势之前的演讲。"
  ###第二阶段 - 注重月之帝国
  EER_tyrant_in_the_middle:0 "中部的暴君"
- EER_tyrant_in_the_middle_desc:0 ""
+ EER_tyrant_in_the_middle_desc:0 "小马国的中部，那片曾经美丽富饶的小马乐土，如今被暗夜的永恒所笼罩着，毫无疑问，封建是比资本更加可恶的毒瘤，梦魇之月是我们必须去清除的威胁，我们蹄下最优秀的小马们必须立刻行动起来，没有任何的犹豫机会！"
  EER_stepping_into_deep_water:0 "步入深水区"
- EER_stepping_into_deep_water_desc:0 ""
+ EER_stepping_into_deep_water_desc:0 "是时候了！当我们的前线战士们在为了光明的未来而战斗的时刻，我们在后方的小马们也在进行着这样的一场战争！我们要深入梦魇之月的最深处的阴暗，要把她最黑暗的角落在我们这里证明，我们可以做的比她更好！我们平等国的小马们，才是小马世界真正的光！"
  EER_true_democracy:0 "真正的民主"
- EER_true_democracy_desc:0 ""
+ EER_true_democracy_desc:0 "梦魇之月从来不想着什么民主，她只是想要在坎特洛特的皇宫的宝座上永远的当着她的永夜女王，那么我们就应该袖蹄旁观，看着那些无助的小马们被梦魇的暴虐所压制吗？当然不！扩大宣传，小马们！让那些还在永夜当中的小马们见到真正的民主所散发出来的光芒，让她们意识到，她们还有我们！"
  EER_you_can_do_it:0 "你们可以做到"
- EER_you_can_do_it_desc:0 ""
+ EER_you_can_do_it_desc:0 "在舆论战上，我们已经取得了一部分的对梦魇之月的丰硕战果，但是这就已经足够了吗？不，当然不够！只要还有小马们生活在永夜的寒冷中瑟瑟发抖，只要还有小马被梦魇之月的暴蹄踩在蹄下无法发声，我们就得去做！继续去做！因为你们是平等的小马驹们，所以你们能做到，永远都能！"
  EER_commitment_benefits:0 "承诺福利"
- EER_commitment_benefits_desc:0 ""
+ EER_commitment_benefits_desc:0 "梦魇之月虽然自称小马国正统，但是即使是塞拉斯蒂亚公主时期的政策，也同样是有很多她根本就无法做到的，其中就包括对于部分贫困小马的福利补助政策，如果我们成功的证明了我们有能力在社会福利方面做的比梦魇之月更好，那么小马们无疑会纷纷看清梦魇之月统治的虚假，转而为了我们而奋起战斗。"
  EER_light_of_hope:0 "希望之光"
- EER_light_of_hope_desc:0 ""
+ EER_light_of_hope_desc:0 "希望，是这个世界上最珍贵的财富，也许有很多的小马们现在在梦魇之月的黑暗当中慢慢的开始绝望，开始顺从的听从着梦魇给予她们的发落，但是我们可以把希望重新带回给她们，因为我们知道，小马们的心灵深处，一直有着一团隐藏的革命的烈火！"
  EER_another_kind_of_war:0 "另一种战争"
- EER_another_kind_of_war_desc:0 ""
+ EER_another_kind_of_war_desc:0 "除了激烈的正面战场，我们后方的战士们亦没有停歇，我们的后方与梦魇之月的后方，也许完全不同，但是却亦是一场激烈程度不亚于前线的战乱，准备好，小马们，我们来了！"
  EER_slaughter_of_the_next_of_kin:0 "屠戮至亲"
- EER_slaughter_of_the_next_of_kin_desc:0 ""
+ EER_slaughter_of_the_next_of_kin_desc:0 "不管怎么样，梦魇之月有一段黑历史是她永远都抹不掉的：无论是一千年之前还是她如今的归来，她都是想要伤害她曾经的亲人，以及她本来应该去保护的小马们的，我们应该抓住这一点，继续鼓励本来就难以对梦魇之月产生信任的小马们进行反抗，毕竟，没有小马们会忘记曾经的那段可怖的神话。"
  EER_prisoner_on_the_moon:0 "月上之囚"
- EER_prisoner_on_the_moon_desc:0 ""
+ EER_prisoner_on_the_moon_desc:0 "梦魇之月是经历了整整一千年后才从月球回来的，小马们都知道这一点，但是问题就在于，这意味着什么呢？很简单，她对于现代的战争方式几乎一无所知！这无疑是给了我们一个绝佳的机会！继续加速研发武器装备，让她彻底失去在军事上追上我们的机会与可能性！"
  EER_one_pony_dictatorship:0 "一马独裁"
- EER_one_pony_dictatorship_desc:0 ""
+ EER_one_pony_dictatorship_desc:0 "没有小马会喜欢独裁者，即使是过去的塞拉斯蒂亚公主，也同样是以开明君主制的方式，才稳定了这个天堂一般的国度那么多年，而如今梦魇之月的到来彻底让独裁制这一存在重新回到了小马国的土地上，是时候展开宣传攻势了！小马们，站起来反抗那可恶的独裁者！为了平等的光辉！"
  EER_the_beautiful_hometown_of_canterlot:0 "美丽的坎特拉故乡"
- EER_the_beautiful_hometown_of_canterlot_desc:0 ""
+ EER_the_beautiful_hometown_of_canterlot_desc:0 "清晨，当小马们走上山岗，看着远处明媚的阳光之时，她们总是会不禁想起她们在远方被黑暗所笼罩的坎特拉家乡，想起她们的家人与朋友。我们不应该继续让她们等下去了，我们需要更多的工厂，为小马们夺回她们心心念念的故乡！"
  EER_defending_the_legacy_of_freedom:0 "保卫自由之遗"
- EER_defending_the_legacy_of_freedom_desc:0 ""
+ EER_defending_the_legacy_of_freedom_desc:0 "梦魇之月永远成不了赢家，即使她可以征服小马们曾经的家园，但是我们依旧仍在！平等国所在的极北之地，正是小马国自由精神最后的虚空之遗！我们将在这里展开我们的自由之翼，让平等国的理想与信念，成为新小马国最美好的希望！"
  ###第二阶段 - 自己的发展
  EER_ourselves:0 "我们自己"
- EER_ourselves_desc:0 ""
+ EER_ourselves_desc:0 "俗话说的好，“打铁还需自身硬”。想要赢下这一场艰难的革命，我们在勇敢的抗击外部的敌人之余，也必须去深入我们自己的内在，明白我们是谁，我们如何在我们的道路上奋力前行，以及……未来的我们将要勇敢走向何方。"
  EER_egalitarian_ideals:0 "平等主义理想"
- EER_egalitarian_ideals_desc:0 ""
+ EER_egalitarian_ideals_desc:0 "一切的开始，都是从“平等”而起，星光熠熠为了追求一种没有可爱标记束缚的光明未来而来到了平等镇，小马们因为贵族们与梦魇之月所推崇的“不同”而导致的混乱而被折磨不得不逃难于此地。也许有一些小马们会嘲笑我们的思想是“过度的理想主义”，但是那并不重要。因为历史已然证明了，小马们需要平等，她们，需要我们！"
  EER_defenders_of_freedom:0 "自由的保卫者"
- EER_defenders_of_freedom_desc:0 ""
+ EER_defenders_of_freedom_desc:0 "在首先解放一切之前，我们最需要优先讨论的，是如何保卫我们已经所拥有的一切，让我们的将士们明白她们究竟是为了什么而奋战，以及一旦战争失败之后我们会被临时政府和梦魇之月所夺去什么，无疑是让她们鼓舞起反抗意志的绝佳良药！"
  EER_defenders_of_democracy:0 "民主的捍卫者"
- EER_defenders_of_democracy_desc:0 ""
+ EER_defenders_of_democracy_desc:0 "众所周知，无论是小马国的那个虚伪的临时政府，还是残暴的梦魇之月，她们都在为了自己的那个所谓的“正统性”而撕打的你死我活，但是我们呢？我们应该怎么办？很简单！事实胜于雄辩，我们要做的非常简单，把我们对于民主的捍卫以事实的方式摆在马民们的面前，这样一来，面对着那个虚伪民主的小马国临时政府与装都不怎么装的梦魇之月，马民们会做什么样的选择，也就不言而喻了。"
  EER_progressive_leaders:0 "进步的领导者"
- EER_progressive_leaders_desc:0 ""
+ EER_progressive_leaders_desc:0 "也许有一些小马们会对此表示疑虑，但是很明显，如果要在花花短裤那个可笑的伪装与梦魇之月那可怖的头盔之下做出一个选择的话，我想没有小马会不愿意选择我们的星光领袖，而现在，我们要做的事情也非常的简单了——让星光熠熠的正面形象为更多的小马们所熟知，让小马们明白，有这样的一个先进思想的小马，在为了能够守护她们而奋力战斗着。"
  EER_factory_or_battlefield:0 "工厂或战场"
- EER_factory_or_battlefield_desc:0 ""
+ EER_factory_or_battlefield_desc:0 "前线还是后方？士兵还是装备？够了，大敌当前，不要再继续谈论这些琐碎的小问题了！我们……全部都要！让更多的兵力开赴前线，再从平民小马当中抽调出更多的技工小马加大生产力度！"
  EER_all_ponies_are_heroes:0 "小马皆英雄"
- EER_all_ponies_are_heroes_desc:0 ""
+ EER_all_ponies_are_heroes_desc:0 "这场战争是残酷的，无论结果如何，伟大的领袖星光熠熠都会相信着我们，相信着每一个追求平等主义的小马们，在她公平公正的眼中，无论你曾经是怎么样的出身，怎么样的过去，现在的你投身于平等大业的革命当中，那么……亲爱的小马驹们，你们，就都是好样的，都是为了平等革命而诞生的，最伟大的英雄！"
  EER_the_land_of_plenty:0 "富饶之地"
- EER_the_land_of_plenty_desc:0 ""
+ EER_the_land_of_plenty_desc:0 "随着我们的生产线的扩大化，我们也开始遭遇了一些全新的问题，更多的生产线就也意味着需要更多的资源，幸运的是，平等国现在所控制的土地，虽然长期以来没有小马开发，但是根据地质学家们的判断，它其实是一片真正的资源乐土，让我们行动起来，在平等主义的鼓舞下，创造一片属于全体马民的真正的富饶天堂吧！"
  EER_egalitarianism_warms_the_ponys_heart:0 "平等主义暖马心"
- EER_egalitarianism_warms_the_ponys_heart_desc:0 ""
+ EER_egalitarianism_warms_the_ponys_heart_desc:0 "终于，我们成功了，我们自身的内部已经在这场战争的淬炼当中经受住了考验，平等主义的彻底滋润已经让我们变得更加强壮，小马们喜笑颜开，因为她们知道，星光熠熠，永远会与她们同在！"
  EER_moving_forward:0 "向前进"
- EER_moving_forward_desc:0 ""
- 
+ EER_moving_forward_desc:0 "我们就快要胜利了！多亏了星光熠熠的平等思想对于我们的带领，她心中的“理想平等”也许很快就可以实现了，只是……双钻似乎有一点不同的想法……"
+
  ###国策第三阶段汉化
  ###第三阶段 - 相同之杖
  EER_establishing_the_same_staff:0 "建立"相同之杖""
- EER_establishing_the_same_staff_desc:0 ""
+ EER_establishing_the_same_staff_desc:0 "在如今的这个无论是前线还是后方各种政治思维都在进行着激烈的对弈的局面下，建立一支守卫我们国家内部的内务机关，很明显是非常必要的，无论是外部情报的搜集还是确保内部公民们的忠诚，都将会是这个部门的必要之职。"
  EER_know_the_enemy_and_know_oneself:0 "知己知彼"
- EER_know_the_enemy_and_know_oneself_desc:0 ""
+ EER_know_the_enemy_and_know_oneself_desc:0 "作为“相同之杖”的领袖，责任不仅仅是要收集外部的信息，还需要对自身的能力是否可以承担领袖之位有着清醒的认知，即“知己知彼”，而很明显，现在的领袖乐天派……恐怕不是很适合这个位置……"
  EER_necessary_evil:0 "必要之恶"
- EER_necessary_evil_desc:0 ""
+ EER_necessary_evil_desc:0 "作为对于内部国民忠诚的监督者，“相同之杖”需要确保她们对于我们伟大的领袖的绝对忠诚，但是如果出现了例外应该怎么办？也许就只能制造出一些“悲惨的意外”了，也许有小马会对此持反对意见，但是相信我们，只要能够保证所有小马们对于平等理想与伟大领袖的绝对忠诚，一切的恶意都可以是必要的……"
  EER_protecting_our_intelligence:0 "保护我们的情报"
- EER_protecting_our_intelligence_desc:0 ""
+ EER_protecting_our_intelligence_desc:0 "情报不只是一字一顿，更是令我们在信息战场上超凡脱俗的产物，普通的小马们根本无法理解我们的进步。如果想要保护我们的情报，就必须让我们的情报网络对于其他意图开展逆向工程的马来说太神秘了。"
  EER_defensive_attacks:0 "防御性攻击"
- EER_defensive_attacks_desc:0 ""
+ EER_defensive_attacks_desc:0 "俗话说得好“进攻就是最好的防守”。想要在信息战场上防御住敌人的层层渗透，最好的办法就是先发制马，只要我们率先进入了对方的谍报网络，那么，摸清对方的一切动向就指日可待！"
  EER_reliable_and_trustworthy:0 "可靠而可信"
- EER_reliable_and_trustworthy_desc:0 ""
+ EER_reliable_and_trustworthy_desc:0 "“相同之杖”作为我们在意识形态上的最可靠的防线，如果我们不能对于她们的能力与忠诚有着绝对的信任，那么也难以在守卫意识形态上有所建树，很明显，她们需要更多的资源分配和建设！"
  EER_not_just_intelligence_agency:0 "不只是情报部门"
- EER_not_just_intelligence_agency_desc:0 ""
+ EER_not_just_intelligence_agency_desc:0 "“攘外”，“安内”。“相同之杖”从不仅仅只是一个常规的情报部门，无论是稳定政府内部还是操控人民意识形态，“相同之杖”都在发挥着她们不可磨灭的作用！"
  EER_political_vetting:0 "政治审查"
- EER_political_vetting_desc:0 ""
+ EER_political_vetting_desc:0 "§R时候到了，是时候让她们拥有更多的在政治层面的权限了。 §!"
  EER_absolutely_reliable:0 "绝对可靠"
- EER_absolutely_reliable_desc:0 ""
+ EER_absolutely_reliable_desc:0 "§R相同之杖新获得的权力不仅仅只应该在政府内部了，还应该延展到每一个小马的个体身上。§!"
  EER_the_leaders_most_loyal_warriors:0 "领袖最忠诚的战士"
- EER_the_leaders_most_loyal_warriors_desc:0 ""
- 
+ EER_the_leaders_most_loyal_warriors_desc:0 "§R平等永恒，唯有忠诚。没有国家，你什么都不是。§!"
+
  ###第三阶段 - 处理左翼
  EER_dealing_with_the_left_wing:0 "处理左翼"
  EER_dealing_with_the_left_wing_desc:0 ""
@@ -341,8 +341,8 @@
  EER_we_share_the_same_goal_desc:0 ""
  EER_unity_above_all:0 "团结高于一切"
  EER_unity_above_all_desc:0 ""
- 
- ###第三阶段 - 战争的继续 
+
+ ###第三阶段 - 战争的继续
  EER_continuation_of_the_war:0 "战争的继续"
  EER_continuation_of_the_war_desc:0 ""
  EER_focus_on_weapons:0 "重视武器"
@@ -392,10 +392,10 @@
  EER_towards_victory_desc:0 ""
  EER_Equestria_has_been_unified:0 "小马国已经被我们统一！"
  EER_decide_the_future:0 "§R我们将根据内战期间采取的决策决定平等党领导权的归属和国家的前途！§!"
- 
+
  ###第三阶段 - 目前的国家建设
  EER_current_nation_building:0 "目前的国家建设"
- EER_current_nation_building_desc:0 ""
+ EER_current_nation_building_desc:0 "虽然当前我们的国家依然处于激烈的战争状态，但是国家的建设却依然是刻不容缓的，无论是经济、科学，还是文化的方面。一个良好的国家建设环境，不仅仅事关我们的民众生活水平，更能左右我们政府的未来是否光芒万丈……"
  ###第三阶段 - 经济领域
  EER_economic_field:0 "经济领域"
  EER_economic_field_desc:0 ""
@@ -466,37 +466,37 @@
  EER_equal_results_desc:0 ""
  ###第三阶段 - 思想领域
  EER_fields_of_thought:0 "思想领域"
- EER_fields_of_thought_desc:0 ""
+ EER_fields_of_thought_desc:0 "虽然物质层面的建设在短期内显得非常重要，但是我们是一个政府，应该以更加长远的目光去看待问题，从未来发展的角度来看待，精神层面对于我们马民的教化，无疑是最重要的。"
  EER_democracy_commitment:0 "民主承诺"
- EER_democracy_commitment_desc:0 ""
+ EER_democracy_commitment_desc:0 "有什么东西，是那个高高在上的梦魇之月，贪腐无能的临时政府，还有那个趾高气昂的邪茧女王都给不了小马们的？没错，是民主！只有我们伟大的平等领袖，才能勇敢的给予小马们公平公正的选举！虽然我们现在因为吃紧的战争还不会这样去做，但是战后，我们必将兑现诺言！"
  EER_we_bring_equality:0 "我们带来平等"
- EER_we_bring_equality_desc:0 ""
+ EER_we_bring_equality_desc:0 "我们信仰的是平等主义，那就意味着我们必须给我们的小马们以真正的平等，但是如何把现在这样的一个社会差异巨大的小马社会拉扯到平等呢？当然是完善的福利制度！当我们伸出我们的平等之蹄，把那些底层的小马们通过发放福利的手段拉上来之际，“我们带来平等”这句话，就将会再也不只是一句空谈了！"
  EER_civilian_authorization_of_military_power:0 "君权民授"
- EER_civilian_authorization_of_military_power_desc:0 ""
+ EER_civilian_authorization_of_military_power_desc:0 "马民们曾经是那样的天真，把权利交给了她们信赖的公主们，但是事实却是什么呢？公主们真的对得起那份她们曾经对小马们做出的承诺吗？既然君主们的权利曾经是小马们所赋予，那么现在，她们也应该有权利去把这一切给收回去！"
  EER_get_back_what_we_deserve:0 "拿回我们应得的"
- EER_get_back_what_we_deserve_desc:0 ""
+ EER_get_back_what_we_deserve_desc:0 "§R平等，我们伟大的平等领袖永远应得的财富！§!"
  EER_impact_on_the_field_of_education:0 "影响教育领域"
- EER_impact_on_the_field_of_education_desc:0 ""
+ EER_impact_on_the_field_of_education_desc:0 "知识，就是力量。但是非平等主义的教育，只会成为我们敌人的利刃，为了我们伟大的平等领袖，我们必须在平等国的教育上加大投资力度，让小马们更加忠诚的执行我们的平等思想！"
  EER_establishing_the_ministry_of_education:0 "建立教育部"
- EER_establishing_the_ministry_of_education_desc:0 ""
+ EER_establishing_the_ministry_of_education_desc:0 "教育，是一个严谨的体系。如果有任何一个地方没有得到妥善的监管，很有可能我们下一代的小马教育就会被那些与我们为敌的势力所趁虚而入，给我们的小马驹们传播错误的思想，所以成立教育部，自然是我们在教育领域进军后的重要一步！"
  EER_specially_allocated_education_funds:0 "特拨教育资金"
- EER_specially_allocated_education_funds_desc:0 ""
+ EER_specially_allocated_education_funds_desc:0 "现在我们已经拥有了完整的教育体系，但是光有一个可以勉强支撑起来的框架，是远远不够的，一栋夜晚当中的楼房，必须通了电，才能够熠熠生辉，教育亦是如此，我们有了完善的教育机构，但是还需要更多的资金，来让教育生根发芽。"
  EER_egalitarian_education:0 "平等主义教育"
- EER_egalitarian_education_desc:0 ""
+ EER_egalitarian_education_desc:0 "小马驹们在课堂吸收着知识，她们的思想也在一步步的为我们的平等主义所打动，如此甚好……/n/n……我们伟大的至高领袖最不需要的就是不信仰平等的小马了。"
  EER_criticize_the_existing_system:0 "批判现有制度"
- EER_criticize_the_existing_system_desc:0 ""
+ EER_criticize_the_existing_system_desc:0 "如果我们需要让我们的平等主义更加的深入小马们的内心，那么我们就永远不能仅仅只局限于宣传我们的新制度，还需要去不断的批判过去的陈旧制度，让小马们认识到过去制度的危害与腐朽，方才能安心地投入我们新制度的怀抱，重获新生。"
  EER_a_lesson_from_the_past:0 "前车之鉴"
- EER_a_lesson_from_the_past_desc:0 ""
+ EER_a_lesson_from_the_past_desc:0 "如果说单纯的理论无法让小马们认识到过去的制度的可恶，那么一个现实的血淋淋的教训呢？梦魇之月和临时政府的这场席卷整个小马国的痛苦灾难，不正是旧制度最重要的体现呢？假如，我们在这一切的起源传说上再“适当的”对小马们动一些手脚……"
  EER_tools_of_the_tyrant:0 "暴君的工具"
- EER_tools_of_the_tyrant_desc:0 ""
+ EER_tools_of_the_tyrant_desc:0 "旧的小马国体系虽然如今已经在连绵的战火当中风雨飘摇，但是不可否认的是，那个邪恶的梦魇之月所依靠的，依旧是这个陈旧的体系框架来维护着自己的那个所谓“小马国正统”，那么，是时候把她的这一切都撕碎了，用我们新时代平等主义小马的方式，打碎这个旧日的枷锁。"
  EER_the_ravings_of_the_invaders:0 "侵略者的呓语"
- EER_the_ravings_of_the_invaders_desc:0 ""
+ EER_the_ravings_of_the_invaders_desc:0 "内战依旧在进行着，但是另一个大敌亦在对着我们虎视眈眈，幻形灵，一个曾经已经入侵过我们一次的怪物，现在又一次对我们小马们展开了他们的攻势，我们必须团结起来，在伟大的平等主义的领导下，坚持到最后一刻。"
  EER_aristocrats_shield:0 "贵族的挡箭牌"
- EER_aristocrats_shield_desc:0 ""
+ EER_aristocrats_shield_desc:0 "贵族，他们依然在马哈顿醉生梦死着，哪怕小马国此时此刻在内战当中水深火热，他们依旧躲在他们的“谐律主义”帷幕之后，以为以此当做挡箭牌便可高枕无忧……\n……很明显，他们错了，平等主义的小马们就要来了。"
  EER_anti_monarchy_propaganda:0 "反君主制宣传"
  EER_anti_monarchy_propaganda_desc:0 ""
  EER_pro_egalitarian_propaganda:0 "亲平等主义宣传"
- EER_pro_egalitarian_propaganda_desc:0 ""
+ EER_pro_egalitarian_propaganda_desc:0 "邪茧，梦魇，暮光。她们各不相同，但是在事实上，她们对于她们本应该去保护的子民们，都是一样的那般无情，平等主义的小马们，向前进！让君主们一齐消失！"
  EER_emphasis_on_democratic_thinking:0 "重视民主思想"
  EER_emphasis_on_democratic_thinking_desc:0 ""
  EER_social_equality:0 "社会平等"
@@ -505,7 +505,7 @@
  EER_focus_on_progressive_ideas_desc:0 ""
  EER_embrace_the_red:0 "拥抱红色"
  EER_embrace_the_red_desc:0 ""
- 
+
  ###第三阶段 - 幻型灵问题
  EER_attitude_towards_changelings:0 "对幻型灵态度"
  EER_attitude_towards_changelings_desc:0 ""
@@ -564,7 +564,7 @@
  EER_4_6_desc:0 ""
  EER_4_7:0 "永绝后患！"
  EER_4_7_desc:0 ""
- 
+
  EER_4_8_1:0 "前往橡果园"
  EER_4_8_1_desc:0 ""
  EER_4_9_1:0 "恢复农业生产"
@@ -605,14 +605,14 @@
  EER_4_9_10_desc:0 ""
  EER_4_10_5:0 "看管战犯"
  EER_4_10_5_desc:0 ""
- 
+
  EER_4_11:0 "斩草除根"
  EER_4_11_desc:0 ""
  EER_4_12:0 "终归和平"
  EER_4_12_desc:0 ""
  EER_4_13:0 "解除战时体制"
  EER_4_13_desc:0 ""
- 
+
  EER_4_14_1:0 "取消分配制"
  EER_4_14_1_desc:0 ""
  EER_4_14_2:0 "停止动员"
@@ -624,7 +624,7 @@
  EER_4_15_2:0 "有限裁军"
  EER_4_15_2_desc:0 ""
  EER_4_16:0 "稳步前进"
- 
+
  EER_4_16_desc:0 ""
  EER_4_17:0 "履行承诺"
  EER_4_17_desc:0 ""
@@ -632,7 +632,7 @@
  EER_4_18_desc:0 ""
  EER_4_19:0 "一步一步来"
  EER_4_19_desc:0 ""
- 
+
  EER_4_20_1:0 "处理谐律分子"
  EER_4_20_1_desc:0 ""
  EER_4_21_1:0 "清除滋生土壤"
@@ -661,7 +661,7 @@
  EER_4_26_3_desc:0 ""
  EER_4_27_1:0 "清除永恒森林"
  EER_4_27_1_desc:0 ""
- 
+
  EER_4_20_2:0 "完善相同之杖"
  EER_4_20_2_desc:0 ""
  EER_4_21_4:0 "扩大化相同之杖"
@@ -674,7 +674,7 @@
  EER_4_23_3_desc:0 ""
  EER_4_24_2:0 "只有星光熠熠"
  EER_4_24_2_desc:0 ""
- 
+
  EER_4_20_3:0 "社会建设"
  EER_4_20_3_desc:0 ""
  EER_4_21_5:0 "可爱标记政策问题"
@@ -695,10 +695,6 @@
  EER_4_24_3_desc:0 ""
  EER_4_24_4:0 "公私并行"
  EER_4_24_4_desc:0 ""
- EER_4_24_3:0 "可爱标记以后再说吧"
- EER_4_24_3_desc:0 ""
- EER_4_24_4:0 "公私并行"
- EER_4_24_4_desc:0 ""
  EER_4_25_2:0 "先谈谈立法问题"
  EER_4_25_2_desc:0 ""
  EER_4_25_3:0 "国家的广泛投资"
@@ -715,8 +711,8 @@
  EER_4_27_3_desc:0 ""
  EER_4_28:0 "是时候了"
  EER_4_28_desc:0 ""
- 
- 
+
+
  EER_5_1:0 "我们的承诺"
  EER_5_1_desc:0 ""
  EER_5_2:0 "这是小马们应得的"
@@ -799,7 +795,7 @@
  EER_5_40_desc:0 ""
  EER_5_41:0 "星光熠熠的退休演讲"
  EER_5_41_desc:0 ""
- 
+
  #国策第三部分:
  EER_6_1:0 "事与愿违"
  EER_6_1_desc:0 ""
@@ -815,7 +811,7 @@
  EER_6_6_desc:0 ""
  EER_6_7:0 "拯救我们的经济"
  EER_6_7_desc:0 ""
- 
+
  EER_6_8_1:0 "停止浪费！"
  EER_6_8_1_desc:0 ""
  EER_6_9_1:0 "完全裁军"
@@ -848,7 +844,7 @@
  EER_6_11_3_desc:0 ""
  EER_6_12_3:0 "多生产点长棍面包吧"
  EER_6_12_3_desc:0 ""
- 
+
  EER_6_8_2:0 "商品出口"
  EER_6_8_2_desc:0 ""
  EER_6_9_4:0 "出售科技"
@@ -879,10 +875,10 @@
  EER_6_11_7_desc:0 ""
  EER_6_12_7:0 "巧妙的合同"
  EER_6_12_7_desc:0 ""
- 
+
  EER_6_13:0 "还不够"
  EER_6_13_desc:0 ""
- 
+
  EER_6_14_1:0 "为了安全，为了节约"
  EER_6_14_1_desc:0 ""
  EER_6_15_1:0 "别让小马知道！"
@@ -899,7 +895,7 @@
  EER_6_18_2_desc:0 ""
  EER_6_19_1:0 "只有书记知道真相"
  EER_6_19_1_desc:0 ""
- 
+
  EER_6_15_2:0 "国家统筹一切"
  EER_6_15_2_desc:0 ""
  EER_6_16_3:0 "恢复配给制"
@@ -912,7 +908,7 @@
  EER_6_18_3_desc:0 ""
  EER_6_19_2:0 "按需分配"
  EER_6_19_2_desc:0 ""
- 
+
  EER_6_14_2:0 "平衡的艺术"
  EER_6_14_2_desc:0 ""
  EER_6_15_3:0 "狮鹫的黄金"
@@ -927,7 +923,7 @@
  EER_6_18_4_desc:0 ""
  EER_6_19_3:0 "永恒的战争"
  EER_6_19_3_desc:0 ""
- 
+
  EER_6_15_4:0 "幻形灵的矿产"
  EER_6_15_4_desc:0 ""
  EER_6_16_6:0 "调和冲突"
@@ -942,7 +938,7 @@
  EER_6_18_5_desc:0 ""
  EER_6_19_4:0 "为我们好"
  EER_6_19_4_desc:0 ""
- 
+
  EER_6_20:0 "这应该管用了……"
  EER_6_20_desc:0 ""
  EER_6_21:0 "赤字合理多了"
@@ -953,7 +949,7 @@
  EER_6_23_desc:0 ""
  EER_6_24:0 "平等的永恒"
  EER_6_24_desc:0 ""
- 
+
  #国策第四部分:
  EER_7_1:0 "失控的森林"
  EER_7_1_desc:0 ""
@@ -983,21 +979,25 @@
  EER_7_7_2_desc:0 ""
  EER_7_8:0 "森林也将屈服"
  EER_7_8_desc:0 ""
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
  ###民族精神
  EER_the_refugee_flows_1:0 "难民潮"
  EER_the_refugee_flows_1_desc:0 "在采取了一系列行之有效的措施之后，我们已经避免了因难民过多而引起饥荒或住所不足发生的可能。现在难民不断涌入平等国，而我们则可以立刻把他们安排到合适的地点居住和工作。难民在源源不断为我们提供劳动力，这对我们国家有益无害。但不可否认的是，这些难民的意识形态千变万化，包含了各种不同主义的支持者。任由他们进入平等国，从长期来看对我们国家的稳定很可能造成隐患。"
  EER_stop_depriving_sign_of_cute_temporarily_1:0 "暂停剥夺可爱标记"
  EER_stop_depriving_sign_of_cute_temporarily_1_desc:0 "可爱标记是导致小马之间不平等的因素之一，这点毋庸置疑。作为被写入平等党党章的一条重要说明，它从未被平等党忘记。但是，目前的情况却使我们不得不在对这一思想实行上采取更务实的态度。\n\n涌入平等国的难民太多了，而且目前仍然在不断增长。即使我们想要把他们的可爱标记全部去除，也没有足够大的空间存放。更何况，接连几年的战乱，使得小马已经受了太多的苦，他们对一切都充满警惕。在没有完全让他们意识到可爱标记的危害之前，强行剥夺他们的标记无疑是在平等国尚不完全稳定的局势上火上浇油。出于这些考虑，我们不得不暂时改变我们的可爱标记政策。\n\n根据星光熠熠的命令，除了平等党党员和自愿放弃可爱标记的小马外，其余小马的可爱标记安全在平等国均会得到保证。虽然这延缓了我们的可爱标记政策推行，但就目前情况来看，这是明智之举。"
+ EER_stop_depriving_sign_of_cute_temporarily_2:0 "暂停剥夺可爱标记"
+ EER_stop_depriving_sign_of_cute_temporarily_2_desc:0 "可爱标记是导致小马之间不平等的因素之一，这点毋庸置疑。作为被写入平等党党章的一条重要说明，它从未被平等党忘记。但是，目前的情况却使我们不得不在对这一思想实行上采取更务实的态度。\n\n涌入平等国的难民太多了，而且目前仍然在不断增长。即使我们想要把他们的可爱标记全部去除，也没有足够大的空间存放。更何况，接连几年的战乱，使得小马已经受了太多的苦，他们对一切都充满警惕。在没有完全让他们意识到可爱标记的危害之前，强行剥夺他们的标记无疑是在平等国尚不完全稳定的局势上火上浇油。出于这些考虑，我们不得不暂时改变我们的可爱标记政策。\n\n根据星光熠熠的命令，除了平等党党员和自愿放弃可爱标记的小马外，其余小马的可爱标记安全在平等国均会得到保证。虽然这延缓了我们的可爱标记政策推行，但就目前情况来看，这是明智之举。"
  EER_starlight_glimmer_building:0 "星光熠熠楼"
  EER_starlight_glimmer_building_desc:0 "最初。星光熠熠只是规划并组织建造了少量完全相同的公寓给镇民居住，只为了保证平等镇所有小马的平等。但是后来大量避难者的到来迫使星光熠熠不断扩建这种简单但设备完善的公寓给新来的小马居住。正常情况下，如此规模的外来者涌入足以使任何小镇出现超负荷的情况，但是平等镇却从未出现过小马露宿街头的情况，这没有被星光熠熠忽视。\n\n在一段时间的忙碌后，星光熠熠将这种公寓的建筑方法归纳为一种新型建筑方法并加以推广到各个建设领域，这无疑大大加快了平等镇的基础设施建设。小马们亲切的将这种公寓称为“星光熠熠楼”。不过，这种建筑的缺点也很明显：主要建造材料虽然牢靠但是黏合性欠佳，导致损坏后几乎无法修复；房屋最初的设计以公寓为基础结构，为了照顾家具位置而作出的让步并不合理，导致它无法满足大空间建筑的建造，这也限制了平等国工厂的规模。"
  EER_heterochromatic_ideal:0 "异色理想"
  EER_heterochromatic_ideal_desc:0 "在平等党党章中，我们将自己定义为左翼政党。然而，在具体实施上，我们在大多数地方仍然混合了自由主义政策。星光熠熠解释说，这种情况的出现是因为小马国长期处于谐律主义和君主制的毒害之中，因此目前还无法立刻实行各种政策，所以不得不在很多方面采用实用主义态度。\n\n尽管在平等党党内，星光熠熠得到了很大程度的信服，但是不满的声音仍然在慢慢出现。很多党员开始怀疑平等党是否真的会兑现其关于社会主义方面的承诺。虽然目前这种混合型政策还在为我们带来收益，但假如不能尽早解决这个问题，这很有可能导致平等党分裂。"
+ EER_focus_the_battlefield:0 "专注战场"
+ EER_focus_the_plan:0 "专注谋略"
  EER_partisan_divisions:0 "党派分裂"
  EER_partisan_divisions_desc:0 ""
  EER_equestrian_equalist_republic_economic_plan:0 "平等国经济计划"
@@ -1056,13 +1056,13 @@
  EER_supply_of_ponys_traders:0 "马商的供应"
  EER_minerals_being_developed:0 "矿产被开发"
  EER_reform_is_underway:0 "改革进行中"
- 
- 
- 
- 
- 
+
+
+
+
+
  ###事件
- 
+
  EER_events.final_mobilization:0 "最后的动员演讲"
  EER_events.final_mobilization.t:0 "最后的动员演讲"
  EER_events.final_mobilization.d:0 "小马国所有受压迫的同胞们！\n\n我们今天聚集于此，是为了控诉暴君的不义，解放我们在艾奎斯垂亚的亲友。我曾居住在名流谷，一个现在已经被那些叛徒礼貌的送给了侵略者的城市。我和你们曾经是一样的，直到我发现了可爱标记和谐律主义的谎言。然而除了这比你们多出来的一点点天赋，我们再无任何的不同。\n\n我们曾经生活在谎言之中，被所谓的可爱标记和谐律压迫着。他们试图让我们相信他们勾勒出来的，虚假的图景。而当那些幻形灵到来后，他们却抱头鼠窜，将大片国土白白让出。不顾小马国处于危难之中，沉迷于宫廷闹剧之中。但是暴君的谎言无法再继续下去，也不可能再继续下去了！因为小马国的小马再也不愿意受到他们的欺骗了！\n\n可爱标记，是全世界最大的谎言。好好想一想吧，你们的不平等来自何处？你们一生的命运为何要被这可爱标记决定？他们表面上尊重你的天赋，实际上却在强迫你接受他们赏赐的命运。假如你的父母出现了刷子的可爱标记，你这一生也就只能和清理工具为伴了。试想，假如你的天赋是钢琴，但是你的家庭却无力承担，你就只能在扫帚和抹布之中寻找你的可爱标记了。而那些贵族却天天试图在高端酒会里给他们的存在寻找合理的理由。假如你的家族处于弱势，那就接受这种情况直到世界尽头吧！好好的享受你的被贵族决定的命运吧！因为高级的可爱标记已经被他们垄断了，你们就只能当个光屁股做最卑贱的工作吧！\n\n你们之中会有小马抱有幻想，自以为如果偶然发现了自己拥有书卷或王冠的可爱标记，就可以翻身了。但是我在这里告诉你，你们想错了！书卷会代表你是一个合适的纸张生产工，而王冠代表着你是一个天生的王室清洁工。放弃你们的幻想，因为那些小马国最好的位置，早已经被坎特拉富丽堂皇的王宫里，那些脑满肠肥的贵族占据了！他们用谐律主义和君主制牢牢的控制住了自己的位置，把自己的大屁股挤进去，任你拉也拉不出来！\n\n他们强迫音乐家去打磨小号部件，命令文学家去当小小文书，威逼画家去油漆墙壁，以及包括你们在内的其他小马去给他们当牛做马。你们能想象我星光熠熠不是在这里领导革命，而是成为一个给那些恶心的贵族表演小丑戏剧的烟花表演员吗？我不会，而且我也不想！所以我星光熠熠在此，不只对坎特拉的暴君、入侵的虫豸和马哈顿的吸血贵族宣战，更是对所有压迫小马的君主制度和谐律主义宣战！我宣布，我将永远和这种名为可爱标记的奴隶烙印斗争到底！"
@@ -1394,13 +1394,13 @@
  EER_events_c.100.t:0 "经济崩盘"
  EER_events_c.100.d:0 "一份加急文件在未得到事先许可的情况下，被直接从经济部越级提交给了领袖星光熠熠本马。虽然星光熠熠还没有打开阅读，她就预感到，一定有大事发生了。\n果不其然，刚刚读完第一页的梗概，星光熠熠就汗流浃背，把这份文件重新合上丢到了一旁。因为这之中所陈述的事实，完全足够摧毁整个平等国。\n赤字！赤字！赤字！巨额的赤字！平等国目前的支出足足超出了所有收入的数倍有余！全年所有的收入即使刚一到蹄就花光，平等国政府也得天天靠贷款过日子。但是谁又能负责去贷款呢？如此高的赤字，政府可能连下个月的工资都发不出！到时候又哪来的文员来做这些工作呢？所幸星光熠熠还有最后一张牌来解决这个问题，那就是时间！此事还没有走漏风声，而赤字也才刚刚出现。只要能够确保及时降低赤字，平等国就可以再次在一场毁灭性的风暴面前转危为安。而时间恐怕也不多了。星光熠熠火速特批了一笔资金来缓解现状，以争取更多的时间。所幸国库刚刚有多比巨额款项入账，可以允许星光熠熠这样做。但是假如不能迅速降低赤字，即使是现在的现金储备也会在未来几年内消耗殆尽。而一旦国库空了，平等国就将因为负债彻底分崩离析。星光熠熠不会让这种情况发生的。"
  EER_events_c.100.tt:0 "幸亏有领袖在"
- 
- 
- 
- 
- 
+
+
+
+
+
  ###新闻
- 
+
  EER_news_events.1:0 "小马国内战"
  EER_news_events.1.t:0 "小马国内战"
  EER_news_events.1.d:0 "随着各地区摩擦逐步演化为大规模军事冲突，小马国从内部分裂状态彻底陷入了内战的泥沼之中。\n据悉，小马国的分裂状态源于四年前一次成功的军事政变。原最高领导者塞雷斯蒂娅公主在那次政变中失踪，并被多位观察家怀疑为已经遇害。而政变的发起者是其妹妹露娜公主。然而，议会并不认可她的政变并宣布塞雷斯蒂娅公主的得意门生暮光闪闪为正统继承者，建立了与新中央政府对抗的临时政府。其后，幻形灵王国的东进运动和东北部的起义进一步撕裂了这个破碎的国家。自那时起，小马国的内战就已经只是时间问题了。\n而内战爆发的导火索在于不久前露娜公主对幻形灵王国的宣战——后者刚刚遭受了一场毁灭性的失败的政变，似乎露娜公主将其视为收复失地的好时机。而南方的临时政府和东北部的独立势力也将其视为取得国家领导权的契机接连向露娜政府宣战。但乐观者宣称，这只不过是小马国重新统一的必要考验。"  #正文描述
@@ -1422,13 +1422,14 @@
  EER_news_events.3.b:0 "艾奎斯垂亚平等共和国电告世界文：\n世界上各个文明的、独立的、伟大的国家，我，星光熠熠，艾奎斯垂亚平等共和国的总理代表我的国家向你们致意。\n在残暴的噩梦灵和嗜血的幻形灵的侵扰和蹂躏下，我们的国家曾一度处于毁灭的边缘。战火几乎将艾奎斯垂亚的文明焚烧殆尽。虽然在所有小马民众的支持下，我们的政府成功赢得了内战以及消灭了所有侵略者，但是我们仍然意识到和平的重要性。\n我们有幸被认为是艾奎斯垂亚所有小马福利的代言马，也正因此我们才得以在内战中获胜而这一代言马的身份，也时刻要求着我们的一举一动都符合艾奎斯垂亚小马的利益。而我们认为，任何形式的战争都是不符合小马们的利益的。因此，我们殷切希望艾奎斯垂亚可以永葆和平。\n尽管我们出于自卫考虑，不得不建设了一支极其强大的军队。但是我们希望永远没有使用它的必要。而我星光熠熠也在此保证，无论何种情况，艾奎斯垂亚军队永远不会被用于侵略的目的。\n我们呼吁世界和平，也希望世界各国可以在和平中永远存续下去。"
  EER_news_events.3.c:0 "平等国将成为和平灯塔！"
  EER_news_events.3.d:0 "看起来更像是展示力量？"
- 
- 
+
+
  ###决议
  EQU_NOT:0 "小马国临时政府已被我们击败"
  EOM_NOT:0 "月之帝国已被我们击败"
  CLK_NOT:0 "幻形灵王国已被我们击败"
  CRY_NOT:0 "水晶帝国已被我们击败"
+ EER_NOT:0 "平等国已被我们击败"
  EER_starlight_eqs:0 "内战决议"
  EER_starlight_eqs_1:0 "小马国再次统一"
  EER_starlight_eqs_2:0 "整合小马国临时政府"
@@ -1444,7 +1445,7 @@
  eer_clk:0 "将获得所有幻形灵小马占领区的§Y核心§!"
  eer_cry:0 "将获得水晶帝国所有领土的§Y核心§!"
  SRG_trading_with_EER:0 "与平等国交易"
- EER_trading_with_SRG:0 "与狮鹫统一战线交易" 
+ EER_trading_with_SRG:0 "与狮鹫统一战线交易"
  EER_northern_trading_route:0 "北方贸易航线"
  EER_northern_trading_route_desc:0 "狮鹫统一阵线作为我们在意识形态上表亲，加之在我们的努力之下，已经愿意为我们生产亟需的枪炮。但是在那之前，我们必须保证来往航路的安全。可能马哈顿海军还不敢公然攻击狮鹫们的运输船，但是我们的舰队他们还是照打不误的。所以在购买枪炮之前，我们首先要确保海上安全。\n\n当前安全值: [?EER_safety_values|+]\n我们需要100安全值,才可以与狮鹫交易."
  EER_northern_trading_route_1:0 "加强近岸防卫"
@@ -1455,27 +1456,27 @@
  EER_actions_in_enemy_countries:0 "在敌国的行动"
  EER_actions_in_enemy_countries_desc:0 "战争分两部分，一部分在正面战场，而另一部分在敌后战场。我们是小马的解放者，所以我们无疑是正义的。但是就在所谓的月之帝国和临时政府之中，还在为了维护他们的正统性殚精竭虑呢。侵略者的幻形灵王国，也同样内乱不断。是时候发挥我们在意识形态上的优势了。作为社会民主主义者，我们是小马国最进步的势力。只要在他们这些独裁国家点燃一丝火星，就会燃起一场马民大火，把他们燃烧殆尽。"
  EER_actions_in_enemy_countries_EQU_1:0 "传播对临时政府不利的材料"
- EER_actions_in_enemy_countries_EQU_2:0 "在临时政府治下鼓动罢工" 
- EER_actions_in_enemy_countries_EQU_3:0 "鼓动临时政府士兵哗变" 
- EER_actions_in_enemy_countries_EQU_4:0 "在新解放区宣传平等思想" 
+ EER_actions_in_enemy_countries_EQU_2:0 "在临时政府治下鼓动罢工"
+ EER_actions_in_enemy_countries_EQU_3:0 "鼓动临时政府士兵哗变"
+ EER_actions_in_enemy_countries_EQU_4:0 "在新解放区宣传平等思想"
  EER_actions_in_enemy_countries_EOM_1:0 "在月之帝国散发传单"
- EER_actions_in_enemy_countries_EOM_2:0 "在月之帝国占领区发动袭击" 
- EER_actions_in_enemy_countries_EOM_3:0 "收留月之帝国逃兵" 
- EER_actions_in_enemy_countries_EOM_4:0 "在新解放区抨击篡位恶梦灵" 
- EER_actions_in_enemy_countries_EOM_5:0 "鼓动月之帝国治下小马起义" 
- EER_CLK_Thorax_1:0 "给索拉克斯起义军输送枪支" 
- EER_CLK_Thorax_2:0 "给索拉克斯起义军输送火炮" 
+ EER_actions_in_enemy_countries_EOM_2:0 "在月之帝国占领区发动袭击"
+ EER_actions_in_enemy_countries_EOM_3:0 "收留月之帝国逃兵"
+ EER_actions_in_enemy_countries_EOM_4:0 "在新解放区抨击篡位恶梦灵"
+ EER_actions_in_enemy_countries_EOM_5:0 "鼓动月之帝国治下小马起义"
+ EER_CLK_Thorax_1:0 "给索拉克斯起义军输送枪支"
+ EER_CLK_Thorax_2:0 "给索拉克斯起义军输送火炮"
  EER_development_of_education_in_EER:0 "发展平等国教育"
  EER_development_of_education_in_EER_desc:0 "发展平等国教育决议描述\n当前科学值: [?EER_scientific_values|+]\n我们需要100科学值,才可以升级我们的科研教育等级."
  EER_development_of_education_in_EER_1:0 "购买国外零件"
  EER_development_of_education_in_EER_2:0 "转移科研重心"
  EER_development_of_education_in_EER_3:0 "提升我们的科研水平"
- EER_starlight_intraparty_struggle:0 "星光熠熠党内斗争"   
+ EER_starlight_intraparty_struggle:0 "星光熠熠党内斗争"
  EER_starlight_intraparty_struggle_1:0 "在左派成员家中安装窃听器"
  EER_starlight_intraparty_struggle_2:0 "暗中威胁左派同情者"
  EER_starlight_intraparty_struggle_3:0 "加强忠于星光熠熠的武装力量"
  EER_starlight_intraparty_struggle_4:0 "双钻正在党内正在党内扩大影响！"
- EER_double_diamond_intraparty_struggle:0 "双钻党内斗争"   
+ EER_double_diamond_intraparty_struggle:0 "双钻党内斗争"
  EER_double_diamond_intraparty_struggle_1:0 "对民众进行社会主义宣传"
  EER_double_diamond_intraparty_struggle_2:0 "加强忠于双钻的武装力量"
  EER_double_diamond_intraparty_struggle_3:0 "拉拢党内高层为同情派"
@@ -1506,8 +1507,8 @@
  EER_dealing_with_everfree_forest_second_3:0 "使用飞机大量喷洒除草剂"
  EER_dealing_with_everfree_forest_second_4:0 "再无永恒森林"
  EER_solving_financial_crisis:0 "解决财政危机"
- EER_solving_financial_crisis_desc:0 ""
- EER_solving_financial_crisis_1:0 "选项"
+ EER_solving_financial_crisis_desc:0 "当前年赤字: [?EER_financial_crisis_value|-]B"
+ EER_solving_financial_crisis_1:0 "解决了财政危机"
  EER_solving_financial_crisis_2:0 "工业出售"
  EER_solving_financial_crisis_3:0 "电子业出售"
  EER_solving_financial_crisis_4:0 "出售机床"
@@ -1582,40 +1583,40 @@
  EER_welfare_policy_49:0 "在广播宣传中赞美平等主义"
  EER_welfare_policy_50:0 "在电视电台中赞美平等主义"
  EER_welfare_policy_51:0 "在报纸杂志中赞美平等主义"
- 
- 
- 
+
+
+
  ###其他
  EER_unlock_starlight_intraparty_struggle_decision:0 "解锁星光熠熠党内斗争相关决议"
  EER_unlock_double_diamond_intraparty_struggle_decision:0 "解锁双钻党内斗争相关决议"
- 
+
  EER_unlock_northern_trade_decision:0 "解锁与北方交易的决议"
  EER_add_safety_values_tip:0 "安全值 §G+20§!"
  EER_add_safety_values_tip_10:0 "安全值 §G+10§!"
  EER_add_safety_values_tip_if:0 "安全值为100或100以上"
  EER_safety_unlock:0 "这将解锁我们与狮鹫的交易"
- 
+
  EER_add_thorax_rebellion_3:0 "叛乱度 §R+3§!"
  EER_add_thorax_rebellion_5:0 "叛乱度 §R+5§!"
  EER_operations_in_enemy_countries_decision:0 "解锁§Y决议§!"在敌国的行动""
- 
+
  EER_add_scientific_values_10:0 "科学值 §G+10§!"
  EER_add_scientific_values_20:0 "科学值 §G+20§!"
  EER_development_of_education_in_EER_decision:0 "解锁决议"发展平等国教育""
- 
+
  EQU_orthodoxy_sub_1:0 "小马国临时政府的正统度 §R-1§!"
  EQU_orthodoxy_sub_2:0 "小马国临时政府的正统度 §R-2§!"
  EOM_orthodoxy_sub_1:0 "月之帝国的正统度 §R-1§!"
  EOM_orthodoxy_sub_2:0 "月之帝国的正统度 §R-2§!"
- 
+
  EER_EERD_add:0 "§R双钻的势力被增强了§!"
  EER_EERD_sub:0 "§G双钻的势力被削减了§!"
- 
+
  CLK_rebellion_add:0 "索拉克丝的叛乱度 §G+5§!"
 
  EER_additional_resolution_to_EOM:0 "追加针对月之帝国§Y决议§!"
  EER_additional_resolution_to_EQU:0 "追加针对小马国临时政府§Y决议§!"
- 
+
  EER_unlock_dealing_with_harmonic_problem:0 "解锁决议"§Y处理谐律分子§!""
  EER_dealing_with_harmonic_problem_tip:0 "此选项需通过国策完成"
  EER_dealing_with_harmonic_problem_tip_1:0 "解锁条件: \n已完成\n-根除谐律思想\n-清理同情派\n-追踪隐藏的谐律分子\n-跨国境行动"
@@ -1625,24 +1626,24 @@
  EER_dealing_with_harmonic_problem_tip_5:0 "§G这会清理谐律同情派§!"
  EER_dealing_with_harmonic_problem_tip_done:0 "§Y谐律分子问题已解决§!"
  EER_harmonic_problem_tip_done:0 "§G谐律分子问题已解决§!"
- 
+
  EER_unlock_dealing_with_everfree_forest:0 "解锁决议"§Y处理永恒自由森林§!""
  EER_everfree_forest_progress_1:0 "处理永恒自由森林进度§G+1§!"
  EER_everfree_forest_progress_3:0 "处理永恒自由森林进度§G+3§!"
  EER_everfree_forest_progress_10:0 "处理永恒自由森林进度§G+10§!"
  EER_everfree_forest_progress_full:0 "处理永恒自由森林进度为§G100%§!"
- 
+
  EER_unlock_perfecting_staff_of_sameness:0 "解锁决议"§Y完善相同之杖§!""
  EER_perfecting_staff_of_sameness_tip_10:0 "专业度§G+10§!"
  EER_perfecting_staff_of_sameness_tip_20:0 "专业度§G+20§!"
- EER_perfecting_staff_of_sameness_tip_done:0 "需要专业度大于80"
- 
+ EER_perfecting_staff_of_sameness_tip_done:0 "需要专业度等于或大于80"
+
  EER_unlock_starlight_second:0 "§Y接下来将解锁福利相关国策§!"
- 
+
  EER_everfree_forest_tip:0 "我们将想办法处理永恒森林扩张的问题."
  EER_everfree_forest_progress_part_2_1:0 "处理永恒自由森林进度大于§G60§!"
  EER_everfree_forest_progress_zeroing:0 "处理永恒自由森林的进度被§R清零§!"
- 
+
  EER_financial_crisis_start:0 "§R我们爆发了财政危机！§!"
  EER_deal_with_financial_crisis:0 "§Y我们将想办法处理财政危机！§!"
  EER_solving_financial_crisis_tip_1:0 "年赤字小于或等于0"
@@ -1655,14 +1656,14 @@
  EER_solving_financial_crisis_sub_20:0 "年赤字§G-20B§!"
  EER_solving_financial_crisis_sub_25:0 "年赤字§G-25B§!"
  EER_solving_financial_crisis_sub_30:0 "年赤字§G-30B§!"
- 
+
  CLK_peace_ROC:0 "CLK与ROC和平的原因"
- 
+
  EER_utopia_forever:0 "§G艾奎斯垂亚平等共和国将成为永远的乌托邦!§!"
 
  EER_cannot_change_laws:0 "§R你将无法更改法案!§!"
  EER_cannot_change_laws_1:0 "§R无法更改法案§!"
- 
+
  EER_unlock_welfare_policy:0 "解锁决议"§Y平等国福利政策§!""
  EER_welfare_policy_add:0 "福利值§G+1§!"
  EER_welfare_policy_add_decision:0 "解锁三条福利决议"

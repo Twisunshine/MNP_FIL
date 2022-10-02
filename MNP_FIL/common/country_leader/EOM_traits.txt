@@ -10,9 +10,9 @@ leader_traits = {
 	}
 	unscrupulous_politician = {
 		random = no
-		consumer_goods_factor = 0.05
-		production_factory_max_efficiency_factor = 0.10
-		industrial_capacity_factory = 0.10
+		consumer_goods_factor = 0.10
+		monthly_population = -0.10
+		industrial_capacity_factory = 0.15
 	}
 	incompetent_vase = {
 		random = no
@@ -24,6 +24,24 @@ leader_traits = {
 	}
 	reluctant_surrenderists = {
 		random = no
+		political_power_cost = 0.05
+		stability_factor = -0.05
 		operative_slot = 1
+	}
+	encourage_morale_master = {
+		random = no
+		conscription_factor = 0.02
+		army_org_regain = 0.10
+	}
+	genius_of_governing_the_country = {
+		random = no
+		production_factory_max_efficiency_factor = 0.10
+		industrial_capacity_factory = 0.10
+		production_lack_of_resource_penalty_factor = -0.15
+	}
+	dancer_in_the_night = {
+		random = no
+		stability_factor = 0.20
+		political_power_cost = -0.15
 	}
 }

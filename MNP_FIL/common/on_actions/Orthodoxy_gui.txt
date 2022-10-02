@@ -3,9 +3,25 @@ on_actions = {
 		effect = {
 			EQU = {
 				set_country_flag = Orthodoxy_gui_open
+				
+				set_variable = {
+					var = EQU_Orthodoxy
+					value = 75
+				}
+				calculate_orthodoxy_buff = yes
+				
+				add_dynamic_modifier = { modifier = EQU_Orthodoxy_dynamic_modifier }
 			}
 			EOM = {
 				set_country_flag = Orthodoxy_gui_open
+				
+				set_variable = {
+					var = EOM_Orthodoxy
+					value = 25
+				}
+				calculate_orthodoxy_buff = yes
+				
+				add_dynamic_modifier = { modifier = EOM_Orthodoxy_dynamic_modifier }
 			}
 			EER = {
 				set_country_flag = Orthodoxy_gui_open

@@ -1,0 +1,301 @@
+focus_tree = {
+	id = EQU_First_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = EQU
+		}
+	}
+	default = no
+	focus = {
+		id = EQU_1_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 6
+		y = 1
+		
+		completion_reward = {
+			country_event = EQU_events.21
+		}
+	}
+	focus = {
+		id = EQU_1_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_1
+		}
+		x = 6
+		y = 2
+		
+		completion_reward = {
+			army_experience = 50
+			add_ideas = straggler
+		}
+	}
+	focus = {
+		id = EQU_1_3_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_2
+		}
+		x = 5
+		y = 3
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = EQU_1_4_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_3_1
+		}
+		x = 3
+		y = 4
+		
+		completion_reward = {
+			EQU = {
+				add_to_variable = { EQU_Orthodoxy = 1 }
+				add_to_variable = { EQU_Orthodoxy_stability_factor = 0.008 }
+				add_to_variable = { EQU_Orthodoxy_war_support_factor  = 0.008 }
+				add_to_variable = { EQU_Orthodoxy_political_power_factor = 0.004 }
+				add_to_variable = { EQU_Orthodoxy_industrial_capacity_factory = 0.004 }
+				add_to_variable = { EQU_Orthodoxy_conscription_factor = 0.008 }
+				add_to_variable = { EQU_Orthodoxy_army_attack_factor = 0.004 }
+				add_to_variable = { EQU_Orthodoxy_army_morale_factor = 0.003 }
+			}
+			EOM = {
+				add_to_variable = { EOM_Orthodoxy = -1 }
+				add_to_variable = { EOM_Orthodoxy_stability_factor = -0.008 }
+				add_to_variable = { EOM_Orthodoxy_war_support_factor  = -0.008 }
+				add_to_variable = { EOM_Orthodoxy_political_power_factor = -0.004 }
+				add_to_variable = { EOM_Orthodoxy_industrial_capacity_factory = -0.004 }
+				add_to_variable = { EOM_Orthodoxy_conscription_factor = -0.008 }
+				add_to_variable = { EOM_Orthodoxy_army_attack_factor = -0.004 }
+				add_to_variable = { EOM_Orthodoxy_army_morale_factor = -0.003 }
+    		}
+			force_update_dynamic_modifier = yes
+			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+		}
+	}
+	focus = {
+		id = EQU_1_3_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_2
+		}
+		x = 7
+		y = 3
+		
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = EQU_1_4_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_3_1
+		}
+		prerequisite = {
+			focus = EQU_1_3_2
+		}
+		x = 6
+		y = 4
+		
+		completion_reward = {
+			remove_ideas = EQU_war_cabinet
+		}
+	}
+	focus = {
+		id = EQU_1_5_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_4_2
+		}
+		x = 5
+		y = 5
+		
+		completion_reward = {
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
+	}
+	focus = {
+		id = EQU_1_5_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_4_2
+		}
+		x = 7
+		y = 5
+		
+		completion_reward = {
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
+		}
+	}
+	focus = {
+		id = EQU_1_6_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_5_2
+		}
+		prerequisite = {
+			focus = EQU_1_5_3
+		}
+		x = 6
+		y = 6
+		
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = EQU_1_4_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_3_2
+		}
+		x = 9
+		y = 4
+		
+		completion_reward = {
+			country_event = EQU_events.23
+		}
+	}
+	focus = {
+		id = EQU_1_5_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_4_1
+		}
+		x = 3
+		y = 5
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = EQU_1_6_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_5_1
+		}
+		x = 3
+		y = 6
+		
+		completion_reward = {
+			country_event = EQU_events.22
+		}
+	}
+	focus = {
+		id = EQU_1_5_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_4_3
+		}
+		x = 9
+		y = 5
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = EQU_1_6_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_5_4
+		}
+		x = 9
+		y = 6
+		
+		completion_reward = {
+			add_political_power = -50
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
+		}
+	}
+	focus = {
+		id = EQU_1_7
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_6_1
+		}
+		prerequisite = {
+			focus = EQU_1_6_2
+		}
+		prerequisite = {
+			focus = EQU_1_6_3
+		}
+		x = 6
+		y = 7
+		
+		completion_reward = {
+			add_war_support = 0.10
+		}
+	}
+	focus = {
+		id = EQU_1_8
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = EQU_1_7
+		}
+		x = 6
+		y = 8
+		
+		completion_reward = {
+			country_event = EQU_events.24
+		}
+	}
+	focus = {
+		id = EQU_1_9
+		icon = GFX_goal_unknown 
+		cost = 5.00
+		prerequisite = {
+			focus = EQU_1_8
+		}
+		x = 6
+		y = 9
+		
+		available = {
+			EOM = {
+				has_war = yes
+			}
+		}
+		
+		completion_reward = {
+			declare_war_on = { 
+				target = EOM 
+				type = civil_war   
+			}
+			declare_war_on = { 
+				target = CLK 
+				type = take_claimed_state   
+			}
+			hidden_effect={
+				EOM = {
+					create_wargoal = { target = EQU type = civil_war }
+				}
+				load_focus_tree = EQU_Second_Stage
+			}
+		}
+	}
+}

@@ -28,6 +28,207 @@ on_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					original_tag = EOM
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EQU }
+							owns_state = 11
+						}
+					}
+					EOM = {
+						set_country_flag = EQU_NOT
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EER }
+							owns_state = 304
+						}
+					}
+					EOM = {
+						set_country_flag = EER_NOT
+					}
+				}
+			}
+			if = {
+				limit = {
+					original_tag = EQU
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EOM }
+							owns_state = 350
+						}
+					}
+					EQU = {
+						set_country_flag = EOM_NOT
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EER }
+							owns_state = 304
+						}
+					}
+					EQU = {
+						set_country_flag = EER_NOT
+					}
+				}
+			}	
+		}
+	}
+	on_capitulation_immediate = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { original_tag = EQU }
+					FROM = {
+						OR = {
+							original_tag = EER
+							original_tag = EOM
+						}
+					}
+				}
+				ROOT = { country_event = LAS_events.3 }
+			}
+		}
+	}
+	on_daily_EQU = {
+		effect = { 
+			if = {
+				limit = {
+					EQU = {
+						check_variable = {
+							var = EQU_FS_support_equipment
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_country_flag = EQU_TS_friends_gone_FS
+				EQU = { country_event = EQU_events.1 }
+				LAS = { country_event = EQU_events.1 }
+			}
+		}
+	}
+	on_daily_LAS = {
+		effect = { 
+			if = {
+				limit = {
+					LAS = {
+						check_variable = {
+							var = EQU_FS_support_equipment
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_country_flag = EQU_TS_friends_gone_FS
+				LAS = { country_event = EQU_events.1 }
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = { 
+				limit = {
+					FROM = { 
+						OR = { 
+							original_tag = EQU
+						}
+					}
+					ROOT = { original_tag = EOM }
+					FROM.FROM = { state = 11 }
+					NOT = { has_global_flag = EQU_hasnot_manehattan }
+				}
+				FROM = { country_event = EQU_events.2 }
+			}
+			if = { 
+				limit = {
+					FROM = { 
+						OR = { 
+							original_tag = EQU
+						}
+					}
+					ROOT = { original_tag = EOM }
+					FROM.FROM = { state = 465 }
+					NOT = { has_global_flag = EQU_hasnot_las_Pegasus }
+				}
+				FROM = { country_event = EQU_events.3 }
+			}
+			if = { 
+				limit = {
+					FROM = { 
+						OR = { 
+							original_tag = EQU
+						}
+					}
+					ROOT = { original_tag = EOM }
+					FROM.FROM = { state = 527 }
+					NOT = { has_global_flag = EQU_hasnot_san_palomino_desert }
+				}
+				FROM = { country_event = EQU_events.4 }
+			}
+		}
+	}
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = SOE
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EQU }
+							owns_state = 11
+						}
+					}
+					SOE = {
+						country_event = SOE.11
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EOM }
+							owns_state = 350
+						}
+					}
+					SOE = {
+						country_event = SOE.12
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = EER }
+							owns_state = 304
+						}
+					}
+					SOE = {
+						country_event = SOE.5
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { country_exists = CRY }
+							owns_state = 147
+						}
+					}
+					SOE = {
+						country_event = SOE.6
+					}
+				}
+			}
 		}
 	}
 }

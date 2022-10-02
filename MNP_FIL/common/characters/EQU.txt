@@ -31,7 +31,14 @@ characters={
 		}
 	}
 	
-	
+	EQU_government = {
+		portraits={
+			civilian={
+				large="gfx/leaders/EQU/Portrait_EQU_government.dds"
+			}
+		}
+		
+	}
 	
 	EQU_Princess_Cadance = {
 		name = EQU_Princess_Cadance
@@ -75,6 +82,7 @@ characters={
 		}
 		field_marshal = {
 			traits = { }
+			legacy_id = 100
 			skill = 3
 			attack_skill = 5
 			defense_skill = 1
@@ -124,6 +132,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { }
+			legacy_id = 101
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -140,6 +149,7 @@ characters={
 		}
 		corps_commander = {
 			traits = { }
+			legacy_id = 102
 			skill = 2
 			attack_skill = 1
 			defense_skill = 3
@@ -201,6 +211,7 @@ characters={
 		portraits = {
 			civilian = {
 				small="gfx/leaders/EQU/idea_Portrait_Twilight_Sparkle.dds"
+				large="gfx/leaders/EQU/Portrait_EQU_Twilight_Sparkle.dds"
 			}
 			army = {
 				large="gfx/leaders/EQU/"
@@ -228,12 +239,14 @@ characters={
 		portraits = {
 			civilian = {
 				small="gfx/leaders/EQU/idea_Portrait_Jet_Set.dds"
+				large="gfx/leaders/EQU/Portrait_EQU_Jet_Set.dds"
 			}
-
+			
 		}
 		advisor = {
             cost = 150
             slot = political_advisor
+			idea_token = idea_EQU_Jet_Set
             allowed = {
 				custom_trigger_tooltip = {
 					tooltip = political_advisor_available

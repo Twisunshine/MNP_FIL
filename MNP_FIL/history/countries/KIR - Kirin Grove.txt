@@ -28,7 +28,25 @@ set_popularities = {
 }
 
 add_ideas = {
-		
+	disarmed_nation
+	civilian_economy
+	closed_economy
+	Laissez_faire
+	male_only
+	restricted_citizenship
+	hoof_production
+	smallholder_model
+	everywhere
+	Flaws_do_not_hide_beauty
+	Basic_education
+	mob
+	KIR_Ash_of_Great_famine
+	KIR_Cruel_Sun_and_Moon_Sacrifice
+	KIR_Unsustainable_tradition
+	KIR_Silent_Grove
+	KIR_There_are_Swamps_Everywhere
+	KIR_Crisis_of_Confidence
+	KIR_Uneasy_Schedler
 }
 
 

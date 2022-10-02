@@ -1,10 +1,10 @@
 spriteTypes = {
-	#主要背景
+	#主要背景 
 	corneredTileSpriteType = {
 		name = "GFX_tiled_window_bigevent_border"
 		size= { x=192 y=243 }
-		textureFile = "gfx/interface/tiles/tiled_window_bigevent_border.dds"
-		borderSize = { x=64 y=71 }
+		textureFile = "gfx/interface/super_events_frame.dds"
+		borderSize = { x=1 y=1 }
 		tilingCenter = no
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
@@ -25,25 +25,26 @@ spriteTypes = {
 		textureFile = "gfx/interface/superevent_text_underlay.dds"
 	}
 	
+	#图片后的背景
+	spriteType = {
+		name = "GFX_super_events_pic_background"
+		textureFile = "gfx/interface/super_events_pic_background.dds"
+	}
+	
 	#超事件按钮
 	spriteType = {
-		name = "GFX_button_221x34"
-		texturefile = "gfx/interface/button_221x34.dds"
-		noOfFrames = 1
+		name = "GFX_superevent_button"
+		texturefile = "gfx/interface/superevent_button.dds"
 	}
 	
 	#超事件图片
-	spriteType = {
+	spriteType = { #马国内战
 		name = "GFX_superevent_EEE_WAR"
 		textureFile = "gfx/superevent_pictures/EEE_WAR.DDS"
 	}
-	spriteType = { #马国内战
+	spriteType = { #星光线统一
 		name = "GFX_superevent_starlight_eqs"
 		textureFile = "gfx/superevent_pictures/starlight_eqs.DDS"
-	}
-	spriteType = { #星光线统一
-		name = "GFX_Meowmeow_King"
-		textureFile = "gfx/superevent_pictures/Meowmeow_King.DDS"
 	}
 	spriteType = { #图片未添加 - 喵喵王统一南大陆
 		name = "GFX_Meowmeow_King"
@@ -52,6 +53,14 @@ spriteTypes = {
 	spriteType = { #图片未添加 - 平等的永恒 (星光线结局)
 		name = "GFX_Eternity_of_Equality"
 		textureFile = "gfx/superevent_pictures/Eternity_of_Equality.DDS"
+	}
+	spriteType = { #图片未添加 - 月之帝国统一
+		name = "GFX_superevent_EOM_Unite"
+		textureFile = "gfx/superevent_pictures/EOM_Unite.DDS"
+	}
+	spriteType = { #图片未添加 - 临时政府统一
+		name = "GFX_superevent_EQU_Unite"
+		textureFile = "gfx/superevent_pictures/EQU_Unite.DDS"
 	}
 }
 

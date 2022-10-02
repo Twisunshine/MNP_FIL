@@ -1,0 +1,9 @@
+SOE_EQS = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+SOE_Second_civil_war = {
+	color = rgb { 82 2 15 }
+	color_ui = rgb { 82 2 15 }
+}
+

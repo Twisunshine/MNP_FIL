@@ -29,3 +29,42 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "Rising_Sun"
+
+	chance = {
+		factor = 0
+
+		modifier = {
+			tag = YAP
+			factor = 20
+		}
+	}
+}
+
+music = {
+	song = "Flooding_Greengrape"
+
+	chance = {
+		factor = 0
+
+		modifier = {
+			tag = KIR
+			factor = 20
+		}
+	}
+}
+music = {
+	song = "Pax_Paeonia"
+
+	chance = {
+		factor = 0
+
+		modifier = {
+			tag = CHI
+			factor = 20
+		}
+	}
+}
+

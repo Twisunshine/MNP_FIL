@@ -6,6 +6,10 @@ EQU = {
 	color = rgb { 211 211 211 }
 	color_ui = rgb { 211 211 211 }
 }
+LAS = {
+	color = rgb { 211 211 211 }
+	color_ui = rgb { 211 211 211 }
+}
 EOM = {
 	color = rgb { 25 25 112 }
 	color_ui = rgb { 25 25 112 }
@@ -13,4 +17,40 @@ EOM = {
 CLK = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
+}
+SOE = {
+	color = rgb { 82 2 15 }
+	color_ui = rgb { 82 2 15 }
+}
+MAG = {
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
+}
+LAC = {
+	color = rgb { 0 0 255 }
+	color_ui = rgb { 0 0 255 }
+}
+EQR = {
+	color = rgb { 255 102 255 }
+	color_ui = rgb { 255 102 255 }
+}
+CRP = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+BRG = {
+	color = rgb { 204 153 255 }
+	color_ui = rgb { 204 153 255 }
+}
+SSG = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
+}
+ASR = {
+	color =  rgb{ 255 0 0 }
+	color_ui =  rgb{ 255 0 0 }
+}
+ERG = {
+	color =  rgb{ 0 0 0 }
+	color_ui =  rgb{ 0 0 0 }
 }

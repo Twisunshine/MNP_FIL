@@ -15,4 +15,8 @@ opinion_modifiers = {
 	EER_trading_with_SRG = {
 		value = 50
 	}
+	#旧日盟友
+	EQU_Old_Allies = {
+		value = 50
+	}
 }

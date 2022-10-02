@@ -1,0 +1,1123 @@
+scripted_gui = {	
+	Race_gui = {
+		window_name = "countryracesview"
+		context_type = player_context
+		
+		visible = {
+			has_country_flag = Race_gui_open
+		}
+		
+		properties = {
+			#将Array里的Frame编号分配给图片Frame(颜色)选定
+			race_pie_0 = { frame = race_pie_array^0 }
+			race_pie_1 = { frame = race_pie_array^1 }
+			race_pie_2 = { frame = race_pie_array^2 }
+			race_pie_3 = { frame = race_pie_array^3 }
+			race_pie_4 = { frame = race_pie_array^4 }
+			race_pie_5 = { frame = race_pie_array^5 }
+			race_pie_6 = { frame = race_pie_array^6 }
+			race_pie_7 = { frame = race_pie_array^7 }
+			race_pie_8 = { frame = race_pie_array^8 }
+			race_pie_9 = { frame = race_pie_array^9 }
+			race_pie_10 = { frame = race_pie_array^10 }
+			race_pie_11 = { frame = race_pie_array^11 }
+			race_pie_12 = { frame = race_pie_array^12 }
+			race_pie_13 = { frame = race_pie_array^13 }
+			race_pie_14 = { frame = race_pie_array^14 }
+			race_pie_15 = { frame = race_pie_array^15 }
+			race_pie_16 = { frame = race_pie_array^16 }
+			race_pie_17 = { frame = race_pie_array^17 }
+			race_pie_18 = { frame = race_pie_array^18 }
+			race_pie_19 = { frame = race_pie_array^19 }
+			race_pie_20 = { frame = race_pie_array^20 }
+			race_pie_21 = { frame = race_pie_array^21 }
+			race_pie_22 = { frame = race_pie_array^22 }
+			race_pie_23 = { frame = race_pie_array^23 }
+			race_pie_24 = { frame = race_pie_array^24 }
+			race_pie_25 = { frame = race_pie_array^25 }
+			race_pie_26 = { frame = race_pie_array^26 }
+			race_pie_27 = { frame = race_pie_array^27 }
+			race_pie_28 = { frame = race_pie_array^28 }
+			race_pie_29 = { frame = race_pie_array^29 }
+			race_pie_30 = { frame = race_pie_array^30 }
+			race_pie_31 = { frame = race_pie_array^31 }
+			race_pie_32 = { frame = race_pie_array^32 }
+			race_pie_33 = { frame = race_pie_array^33 }
+			race_pie_34 = { frame = race_pie_array^34 }
+			race_pie_35 = { frame = race_pie_array^35 }
+			race_pie_36 = { frame = race_pie_array^36 }
+			race_pie_37 = { frame = race_pie_array^37 }
+			race_pie_38 = { frame = race_pie_array^38 }
+			race_pie_39 = { frame = race_pie_array^39 }
+			race_pie_40 = { frame = race_pie_array^40 }
+			race_pie_41 = { frame = race_pie_array^41 }
+			race_pie_42 = { frame = race_pie_array^42 }
+			race_pie_43 = { frame = race_pie_array^43 }
+			race_pie_44 = { frame = race_pie_array^44 }
+			race_pie_45 = { frame = race_pie_array^45 }
+			race_pie_46 = { frame = race_pie_array^46 }
+			race_pie_47 = { frame = race_pie_array^47 }
+			race_pie_48 = { frame = race_pie_array^48 }
+			race_pie_49 = { frame = race_pie_array^49 }
+			race_pie_50 = { frame = race_pie_array^50 }
+			race_pie_51 = { frame = race_pie_array^51 }
+			race_pie_52 = { frame = race_pie_array^52 }
+			race_pie_53 = { frame = race_pie_array^53 }
+			race_pie_54 = { frame = race_pie_array^54 }
+			race_pie_55 = { frame = race_pie_array^55 }
+			race_pie_56 = { frame = race_pie_array^56 }
+			race_pie_57 = { frame = race_pie_array^57 }
+			race_pie_58 = { frame = race_pie_array^58 }
+			race_pie_59 = { frame = race_pie_array^59 }
+			race_pie_60 = { frame = race_pie_array^60 }
+			race_pie_61 = { frame = race_pie_array^61 }
+			race_pie_62 = { frame = race_pie_array^62 }
+			race_pie_63 = { frame = race_pie_array^63 }
+			race_pie_64 = { frame = race_pie_array^64 }
+			race_pie_65 = { frame = race_pie_array^65 }
+			race_pie_66 = { frame = race_pie_array^66 }
+			race_pie_67 = { frame = race_pie_array^67 }
+			race_pie_68 = { frame = race_pie_array^68 }
+			race_pie_69 = { frame = race_pie_array^69 }
+			race_pie_70 = { frame = race_pie_array^70 }
+			race_pie_71 = { frame = race_pie_array^71 }
+			race_pie_72 = { frame = race_pie_array^72 }
+			race_pie_73 = { frame = race_pie_array^73 }
+			race_pie_74 = { frame = race_pie_array^74 }
+			race_pie_75 = { frame = race_pie_array^75 }
+			race_pie_76 = { frame = race_pie_array^76 }
+			race_pie_77 = { frame = race_pie_array^77 }
+			race_pie_78 = { frame = race_pie_array^78 }
+			race_pie_79 = { frame = race_pie_array^79 }
+			race_pie_80 = { frame = race_pie_array^80 }
+			race_pie_81 = { frame = race_pie_array^81 }
+			race_pie_82 = { frame = race_pie_array^82 }
+			race_pie_83 = { frame = race_pie_array^83 }
+			race_pie_84 = { frame = race_pie_array^84 }
+			race_pie_85 = { frame = race_pie_array^85 }
+			race_pie_86 = { frame = race_pie_array^86 }
+			race_pie_87 = { frame = race_pie_array^87 }
+			race_pie_88 = { frame = race_pie_array^88 }
+			race_pie_89 = { frame = race_pie_array^89 }
+			race_pie_90 = { frame = race_pie_array^90 }
+			race_pie_91 = { frame = race_pie_array^91 }
+			race_pie_92 = { frame = race_pie_array^92 }
+			race_pie_93 = { frame = race_pie_array^93 }
+			race_pie_94 = { frame = race_pie_array^94 }
+			race_pie_95 = { frame = race_pie_array^95 }
+			race_pie_96 = { frame = race_pie_array^96 }
+			race_pie_97 = { frame = race_pie_array^97 }
+			race_pie_98 = { frame = race_pie_array^98 }
+			race_pie_99 = { frame = race_pie_array^99 }
+			
+			Race_value_bar_pic_1 = { frame = race_identify_array^0 }
+			Race_value_bar_pic_2 = { frame = race_identify_array^1 }
+			Race_value_bar_pic_3 = { frame = race_identify_array^2 }
+			Race_value_bar_pic_4 = { frame = race_identify_array^3 }
+			Race_value_bar_pic_5 = { frame = race_identify_array^4 }
+			Race_value_bar_pic_6 = { frame = race_identify_array^5 }
+			Race_value_bar_pic_7 = { frame = race_identify_array^6 }
+			Race_value_bar_pic_8 = { frame = race_identify_array^7 }
+			Race_value_bar_pic_9 = { frame = race_identify_array^8 }
+			Race_value_bar_pic_10 ={ frame = race_identify_array^9 }
+			Race_value_bar_pic_11 = { frame = race_identify_array^10 }
+			Race_value_bar_pic_12 = { frame = race_identify_array^11 }
+			Race_value_bar_pic_13 = { frame = race_identify_array^12 }
+			Race_value_bar_pic_14 = { frame = race_identify_array^13 }
+			Race_value_bar_pic_15 = { frame = race_identify_array^14 }
+			Race_value_bar_pic_16 = { frame = race_identify_array^15 }
+			Race_value_bar_pic_17 = { frame = race_identify_array^16 }
+			Race_value_bar_pic_18 = { frame = race_identify_array^17 }
+			Race_value_bar_pic_19 = { frame = race_identify_array^18 }
+			Race_value_bar_pic_20 = { frame = race_identify_array^19 }
+			Race_value_bar_pic_21 = { frame = race_identify_array^20 }
+			Race_value_bar_pic_22 = { frame = race_identify_array^21 }
+			Race_value_bar_pic_23 = { frame = race_identify_array^22 }
+			Race_value_bar_pic_24 = { frame = race_identify_array^23 }
+			Race_value_bar_pic_25 = { frame = race_identify_array^24 }
+			Race_value_bar_pic_26 = { frame = race_identify_array^25 }
+			Race_value_bar_pic_27 = { frame = race_identify_array^26 }
+			Race_value_bar_pic_28 = { frame = race_identify_array^27 }
+			Race_value_bar_pic_29 = { frame = race_identify_array^28 }
+			Race_value_bar_pic_30 = { frame = race_identify_array^29 }
+			Race_value_bar_pic_31 = { frame = race_identify_array^30 }
+			Race_value_bar_pic_32 = { frame = race_identify_array^31 }
+			Race_value_bar_pic_33 = { frame = race_identify_array^32 }
+			Race_value_bar_pic_34 = { frame = race_identify_array^33 }
+			Race_value_bar_pic_35 = { frame = race_identify_array^34 }
+			Race_value_bar_pic_36 = { frame = race_identify_array^35 }
+			Race_value_bar_pic_37 = { frame = race_identify_array^36 }
+			Race_value_bar_pic_38 = { frame = race_identify_array^37 }
+			Race_value_bar_pic_39 = { frame = race_identify_array^38 }
+			Race_value_bar_pic_40 = { frame = race_identify_array^39 }
+			Race_value_bar_pic_41 = { frame = race_identify_array^40 }
+			Race_value_bar_pic_42 = { frame = race_identify_array^41 }
+			Race_value_bar_pic_43 = { frame = race_identify_array^42 }
+			Race_value_bar_pic_44 = { frame = race_identify_array^43 }
+			Race_value_bar_pic_45 = { frame = race_identify_array^44 }
+			Race_value_bar_pic_46 = { frame = race_identify_array^45 }
+			Race_value_bar_pic_47 = { frame = race_identify_array^46 }
+			Race_value_bar_pic_48 = { frame = race_identify_array^47 }
+			Race_value_bar_pic_49 = { frame = race_identify_array^48 }
+			Race_value_bar_pic_50 = { frame = race_identify_array^49 }
+			Race_value_bar_pic_51 = { frame = race_identify_array^50 }
+			Race_value_bar_pic_52 = { frame = race_identify_array^51 }
+			Race_value_bar_pic_53 = { frame = race_identify_array^52 }
+			Race_value_bar_pic_54 = { frame = race_identify_array^53 }
+			Race_value_bar_pic_55 = { frame = race_identify_array^54 }
+			Race_value_bar_pic_56 = { frame = race_identify_array^55 }
+			Race_value_bar_pic_57 = { frame = race_identify_array^56 }
+			Race_value_bar_pic_58 = { frame = race_identify_array^57 }
+			Race_value_bar_pic_59 = { frame = race_identify_array^58 }
+			Race_value_bar_pic_60 = { frame = race_identify_array^59 }
+			Race_value_bar_pic_61 = { frame = race_identify_array^60 }
+			Race_value_bar_pic_62 = { frame = race_identify_array^61 }
+			Race_value_bar_pic_63 = { frame = race_identify_array^62 }
+			Race_value_bar_pic_64 = { frame = race_identify_array^63 }
+			Race_value_bar_pic_65 = { frame = race_identify_array^64 }
+			Race_value_bar_pic_66 = { frame = race_identify_array^65 }
+			Race_value_bar_pic_67 = { frame = race_identify_array^66 }
+			Race_value_bar_pic_68 = { frame = race_identify_array^67 }
+			Race_value_bar_pic_69 = { frame = race_identify_array^68 }
+			Race_value_bar_pic_70 = { frame = race_identify_array^69 }
+			Race_value_bar_pic_71 = { frame = race_identify_array^70 }
+			Race_value_bar_pic_72 = { frame = race_identify_array^71 }
+			Race_value_bar_pic_73 = { frame = race_identify_array^72 }
+			Race_value_bar_pic_74 = { frame = race_identify_array^73 }
+			Race_value_bar_pic_75 = { frame = race_identify_array^74 }
+			Race_value_bar_pic_76 = { frame = race_identify_array^75 }
+			Race_value_bar_pic_77 = { frame = race_identify_array^76 }
+			Race_value_bar_pic_78 = { frame = race_identify_array^77 }
+			Race_value_bar_pic_79 = { frame = race_identify_array^78 }
+			Race_value_bar_pic_80 = { frame = race_identify_array^79 }
+			Race_value_bar_pic_81 = { frame = race_identify_array^80 }
+			Race_value_bar_pic_82 = { frame = race_identify_array^81 }
+			Race_value_bar_pic_83 = { frame = race_identify_array^82 }
+			Race_value_bar_pic_84 = { frame = race_identify_array^83 }
+			Race_value_bar_pic_85 = { frame = race_identify_array^84 }
+			Race_value_bar_pic_86 = { frame = race_identify_array^85 }
+			Race_value_bar_pic_87 = { frame = race_identify_array^86 }
+			Race_value_bar_pic_88 = { frame = race_identify_array^87 }
+			Race_value_bar_pic_89 = { frame = race_identify_array^88 }
+			Race_value_bar_pic_90 = { frame = race_identify_array^89 }
+			Race_value_bar_pic_91 = { frame = race_identify_array^90 }
+			Race_value_bar_pic_92 = { frame = race_identify_array^91 }
+			Race_value_bar_pic_93 = { frame = race_identify_array^92 }
+			Race_value_bar_pic_94 = { frame = race_identify_array^93 }
+			Race_value_bar_pic_95 = { frame = race_identify_array^94 }
+			Race_value_bar_pic_96 = { frame = race_identify_array^95 }
+			Race_value_bar_pic_97 = { frame = race_identify_array^96 }
+			Race_value_bar_pic_98 = { frame = race_identify_array^97 }
+			Race_value_bar_pic_99 = { frame = race_identify_array^98 }
+			Race_value_bar_pic_100 = { frame = race_identify_array^99 }
+			
+			race_color_1 = { frame = race_show_element^0 }
+			race_color_2 = { frame = race_show_element^1 }
+			race_color_3 = { frame = race_show_element^2 }
+			race_color_4 = { frame = race_show_element^3 }
+			race_color_5 = { frame = race_show_element^4 }
+			race_color_6 = { frame = race_show_element^5 }
+			race_color_7 = { frame = race_show_element^6 }
+			race_color_8 = { frame = race_show_element^7 }
+			race_color_9 = { frame = race_show_element^8 }
+			race_color_10 = { frame = race_show_element^9 }
+			race_color_11 = { frame = race_show_element^10 }
+			race_color_12 = { frame = race_show_element^11 }
+			race_color_13 = { frame = race_show_element^12 }
+			race_color_14 = { frame = race_show_element^13 }
+			race_color_15 = { frame = race_show_element^14 }
+			race_color_16 = { frame = race_show_element^15 }
+			race_color_17 = { frame = race_show_element^16 }
+			race_color_18 = { frame = race_show_element^17 }
+			race_color_19 = { frame = race_show_element^18 }
+			race_color_20 = { frame = race_show_element^19 }
+			race_color_21 = { frame = race_show_element^20 }
+			race_color_22 = { frame = race_show_element^21 }
+			race_color_23 = { frame = race_show_element^22 }
+			race_color_24 = { frame = race_show_element^23 }
+			race_color_25 = { frame = race_show_element^24 }
+			
+			race_pointer = { frame = race_mitigation_pointer }
+			
+			race_refresh_checkbox_1 = { frame = global.race_refresh_check_1 }
+			race_refresh_checkbox_2 = { frame = global.race_refresh_check_2 }
+			race_refresh_checkbox_3 = { frame = global.race_refresh_check_3 }
+		} 
+		
+		ai_enabled = {
+			
+		}
+		
+		effects = {		
+			race_color_name_1_click = { 
+				set_variable = { Race_open = race_show_element^0 }
+				race_identify_change = yes
+			}
+			race_color_name_2_click = { 
+				set_variable = { Race_open = race_show_element^1 }
+				race_identify_change = yes
+			}
+			race_color_name_3_click = { 
+				set_variable = { Race_open = race_show_element^2 }
+				race_identify_change = yes
+			}
+			race_color_name_4_click = { 
+				set_variable = { Race_open = race_show_element^3 }
+				race_identify_change = yes
+			}
+			race_color_name_5_click = { 
+				set_variable = { Race_open = race_show_element^4 }
+				race_identify_change = yes
+			}
+			race_color_name_6_click = { 
+				set_variable = { Race_open = race_show_element^5 }
+				race_identify_change = yes
+			}
+			race_color_name_7_click = { 
+				set_variable = { Race_open = race_show_element^6 }
+				race_identify_change = yes
+			}
+			race_color_name_8_click = { 
+				set_variable = { Race_open = race_show_element^7 }
+				race_identify_change = yes
+			}
+			race_color_name_9_click = { 
+				set_variable = { Race_open = race_show_element^8 }
+				race_identify_change = yes
+			}
+			race_color_name_10_click = { 
+				set_variable = { Race_open = race_show_element^9 }
+				race_identify_change = yes
+			}
+			race_color_name_11_click = { 
+				set_variable = { Race_open = race_show_element^10 }
+				race_identify_change = yes
+			}
+			race_color_name_12_click = { 
+				set_variable = { Race_open = race_show_element^11 }
+				race_identify_change = yes
+			}
+			race_color_name_13_click = { 
+				set_variable = { Race_open = race_show_element^12 }
+				race_identify_change = yes
+			}
+			race_color_name_14_click = { 
+				set_variable = { Race_open = race_show_element^13 }
+				race_identify_change = yes
+			}
+			race_color_name_15_click = { 
+				set_variable = { Race_open = race_show_element^14 }
+				race_identify_change = yes
+			}
+			race_color_name_16_click = { 
+				set_variable = { Race_open = race_show_element^15 }
+				race_identify_change = yes
+			}
+			race_color_name_17_click = { 
+				set_variable = { Race_open = race_show_element^16 }
+				race_identify_change = yes
+			}
+			race_color_name_18_click = { 
+				set_variable = { Race_open = race_show_element^17 }
+				race_identify_change = yes
+			}
+			race_color_name_19_click = { 
+				set_variable = { Race_open = race_show_element^18 }
+				race_identify_change = yes
+			}
+			race_color_name_20_click = { 
+				set_variable = { Race_open = race_show_element^19 }
+				race_identify_change = yes
+			}
+			race_color_name_21_click = { 
+				set_variable = { Race_open = race_show_element^20 }
+				race_identify_change = yes
+			}
+			race_color_name_22_click = { 
+				set_variable = { Race_open = race_show_element^21 }
+				race_identify_change = yes
+			}
+			race_color_name_23_click = { 
+				set_variable = { Race_open = race_show_element^22 }
+				race_identify_change = yes
+			}
+			race_color_name_24_click = { 
+				set_variable = { Race_open = race_show_element^23 }
+				race_identify_change = yes
+			}
+			race_color_name_25_click = { 
+				set_variable = { Race_open = race_show_element^24 }
+				race_identify_change = yes
+			}
+			
+			race_effect_title_1_click = { 
+				set_variable = { race_show_effect_type = 0 }
+			}
+			race_effect_title_2_click = { 
+				set_variable = { race_show_effect_type = 1 }
+			}
+			race_effect_title_3_click = { 
+				set_variable = { race_show_effect_type = 2 }
+			}
+			race_effect_title_4_click = { 
+				set_variable = { race_show_effect_type = 3 }
+			}
+			
+			race_option_1_click = {
+				set_variable = { race_value^0 = 0 }
+				set_variable = { race_value^1 = 0 }
+				set_variable = { race_value^2 = 0 }
+				set_variable = { race_value^3 = 0 }
+				set_variable = { race_value^4 = 30 }
+				set_variable = { race_value^5 = 0 }
+				set_variable = { race_value^6 = 0 }
+				set_variable = { race_value^7 = 0 }
+				set_variable = { race_value^8 = 20 }
+				set_variable = { race_value^9 = 0 }
+				set_variable = { race_value^10 = 0 }
+				set_variable = { race_value^11 = 0 }
+				set_variable = { race_value^12 = 0 }
+				set_variable = { race_value^13 = 10 }
+				set_variable = { race_value^14 = 0 }
+				set_variable = { race_value^15 = 0 }
+				set_variable = { race_value^16 = 0 }
+				set_variable = { race_value^17 = 0 }
+				set_variable = { race_value^18 = 25 }
+				set_variable = { race_value^19 = 0 }
+				set_variable = { race_value^20 = 0 }
+				set_variable = { race_value^21 = 15 }
+				set_variable = { race_value^22 = 0 }
+				set_variable = { race_value^23 = 0 }
+				set_variable = { race_value^24 = 0 }
+			}
+			race_option_2_click = {
+				set_variable = { race_value^0 = 50 }
+				set_variable = { race_value^1 = 25 }
+				set_variable = { race_value^2 = 15 }
+				set_variable = { race_value^3 = 0 }
+				set_variable = { race_value^4 = 0 }
+				set_variable = { race_value^5 = 0 }
+				set_variable = { race_value^6 = 0 }
+				set_variable = { race_value^7 = 0 }
+				set_variable = { race_value^8 = 0 }
+				set_variable = { race_value^9 = 0 }
+				set_variable = { race_value^10 = 0 }
+				set_variable = { race_value^11 = 0 }
+				set_variable = { race_value^12 = 0 }
+				set_variable = { race_value^13 = 0 }
+				set_variable = { race_value^14 = 0 }
+				set_variable = { race_value^15 = 0 }
+				set_variable = { race_value^16 = 0 }
+				set_variable = { race_value^17 = 0 }
+				set_variable = { race_value^18 = 10 }
+				set_variable = { race_value^19 = 0 }
+				set_variable = { race_value^20 = 0 }
+				set_variable = { race_value^21 = 0 }
+				set_variable = { race_value^22 = 0 }
+				set_variable = { race_value^23 = 0 }
+				set_variable = { race_value^24 = 0 }
+			}
+			race_option_3_click = {
+				
+			}
+			race_option_4_click = {
+				
+			}
+			race_option_5_click = {
+				
+			}
+			race_option_6_click = {
+				
+			}
+			race_option_7_click = {
+				
+			}
+			race_option_8_click = {
+				
+			}
+			race_option_9_click = {
+				
+			}
+			race_option_10_click = {
+				
+			}
+			race_option_11_click = {
+				
+			}
+			race_option_12_click = {
+				
+			}
+			race_option_13_click = {
+				
+			}
+			race_option_14_click = {
+				
+			}
+			race_option_15_click = {
+				
+			}
+			race_option_16_click = {
+				
+			}
+			race_option_17_click = {
+				
+			}
+			race_option_18_click = {
+				
+			}
+			
+			race_refresh_checkbox_1_click = {
+				if = {
+					limit = {
+						check_variable = { global.race_refresh_time = 1 }
+					}
+					set_variable = { global.race_refresh_time = 3 }
+					set_variable = { global.race_refresh_check_1 = 1 }
+					set_variable = { global.race_refresh_check_3 = 2 }
+				}
+				else = {
+					set_variable = { global.race_refresh_time = 1 }
+					set_variable = { global.race_refresh_check_1 = 2 }
+					set_variable = { global.race_refresh_check_2 = 1 }
+					set_variable = { global.race_refresh_check_3 = 1 }
+				}
+			}
+			race_refresh_checkbox_2_click = {
+				if = {
+					limit = {
+						check_variable = { global.race_refresh_time = 2 }
+					}
+					set_variable = { global.race_refresh_time = 3 }
+					set_variable = { global.race_refresh_check_2 = 1 }
+					set_variable = { global.race_refresh_check_3 = 2 }
+				}
+				else = {
+					set_variable = { global.race_refresh_time = 2 }
+					set_variable = { global.race_refresh_check_1 = 1 }
+					set_variable = { global.race_refresh_check_2 = 2 }
+					set_variable = { global.race_refresh_check_3 = 1 }
+				}
+			}
+			race_refresh_checkbox_3_click = {
+				if = {
+					limit = {
+						check_variable = { global.race_refresh_time = 3 }
+					}
+					set_variable = { global.race_refresh_time = 3 }
+					set_variable = { global.race_refresh_check_3 = 2 }
+				}
+				else = {
+					set_variable = { global.race_refresh_time = 3 }
+					set_variable = { global.race_refresh_check_1 = 1 }
+					set_variable = { global.race_refresh_check_2 = 1 }
+					set_variable = { global.race_refresh_check_3 = 2 }
+				}
+			}
+			
+			close_button_click = {
+				clr_country_flag = Race_gui_open
+			}
+		}
+		
+		#dynamic_lists = {
+		#	race_option_grid = {
+		#		array = race_value
+		#		entry_container = race_option_entry
+		#		change_scope = yes
+		#	}
+		#}
+		
+		triggers = {
+			race_option_1_click_enabled = {
+                is_debug = yes
+            }
+			race_option_2_click_enabled = {
+                is_debug = yes
+            }
+			race_option_3_click_enabled = {
+                is_debug = yes
+            }
+			race_option_4_click_enabled = {
+                is_debug = yes
+            }
+			race_option_5_click_enabled = {
+                is_debug = yes
+            }
+			race_option_6_click_enabled = {
+                is_debug = yes
+            }
+			race_option_7_click_enabled = {
+                is_debug = yes
+            }
+			race_option_8_click_enabled = {
+                is_debug = yes
+            }
+			race_option_9_click_enabled = {
+                is_debug = yes
+            }
+			race_option_10_click_enabled = {
+                is_debug = yes
+            }
+			race_option_11_click_enabled = {
+                is_debug = yes
+            }
+			race_option_12_click_enabled = {
+                is_debug = yes
+            }
+			race_option_13_click_enabled = {
+                is_debug = yes
+            }
+			race_option_14_click_enabled = {
+                is_debug = yes
+            }
+			race_option_15_click_enabled = {
+                is_debug = yes
+            }
+			race_option_16_click_enabled = {
+                is_debug = yes
+            }
+			race_option_17_click_enabled = {
+                is_debug = yes
+            }
+			race_option_18_click_enabled = {
+                is_debug = yes
+            }
+		
+			race_pie_visible = {
+                is_ai = no
+            }
+			race_bring_us_visible = {
+                is_ai = no
+            }
+			now_select_race_visible = {
+                is_ai = no
+            }
+			race_identify_pie_visible = {
+                is_ai = no
+            }
+			
+			race_color_1_visible = { 
+				check_variable = {
+					var = race_num
+					value = 0
+					compare = greater_than
+				}
+			}
+			race_color_2_visible = { 
+				check_variable = {
+					var = race_num
+					value = 1
+					compare = greater_than
+				}
+			}
+			race_color_3_visible = { 
+				check_variable = {
+					var = race_num
+					value = 2
+					compare = greater_than
+				}
+			}
+			race_color_4_visible = { 
+				check_variable = {
+					var = race_num
+					value = 3
+					compare = greater_than
+				}
+			}
+			race_color_5_visible = { 
+				check_variable = {
+					var = race_num
+					value = 4
+					compare = greater_than
+				}
+			}
+			race_color_6_visible = { 
+				check_variable = {
+					var = race_num
+					value = 5
+					compare = greater_than
+				}
+			}
+			race_color_7_visible = { 
+				check_variable = {
+					var = race_num
+					value = 6
+					compare = greater_than
+				}
+			}
+			race_color_8_visible = { 
+				check_variable = {
+					var = race_num
+					value = 7
+					compare = greater_than
+				}
+			}
+			race_color_9_visible = { 
+				check_variable = {
+					var = race_num
+					value = 8
+					compare = greater_than
+				}
+			}
+			race_color_10_visible = { 
+				check_variable = {
+					var = race_num
+					value = 9
+					compare = greater_than
+				}
+			}
+			race_color_11_visible = { 
+				check_variable = {
+					var = race_num
+					value = 10
+					compare = greater_than
+				}
+			}
+			race_color_12_visible = { 
+				check_variable = {
+					var = race_num
+					value = 11
+					compare = greater_than
+				}
+			}
+			race_color_13_visible = { 
+				check_variable = {
+					var = race_num
+					value = 12
+					compare = greater_than
+				}
+			}
+			race_color_14_visible = { 
+				check_variable = {
+					var = race_num
+					value = 13
+					compare = greater_than
+				}
+			}
+			race_color_15_visible = { 
+				check_variable = {
+					var = race_num
+					value = 14
+					compare = greater_than
+				}
+			}
+			race_color_16_visible = { 
+				check_variable = {
+					var = race_num
+					value = 15
+					compare = greater_than
+				}
+			}
+			race_color_17_visible = { 
+				check_variable = {
+					var = race_num
+					value = 16
+					compare = greater_than
+				}
+			}
+			race_color_18_visible = { 
+				check_variable = {
+					var = race_num
+					value = 17
+					compare = greater_than
+				}
+			}
+			race_color_19_visible = { 
+				check_variable = {
+					var = race_num
+					value = 18
+					compare = greater_than
+				}
+			}
+			race_color_20_visible = { 
+				check_variable = {
+					var = race_num
+					value = 19
+					compare = greater_than
+				}
+			}
+			race_color_21_visible = { 
+				check_variable = {
+					var = race_num
+					value = 20
+					compare = greater_than
+				}
+			}
+			race_color_22_visible = { 
+				check_variable = {
+					var = race_num
+					value = 21
+					compare = greater_than
+				}
+			}
+			race_color_23_visible = { 
+				check_variable = {
+					var = race_num
+					value = 22
+					compare = greater_than
+				}
+			}
+			race_color_24_visible = { 
+				check_variable = {
+					var = race_num
+					value = 23
+					compare = greater_than
+				}
+			}
+			race_color_25_visible = { 
+				check_variable = {
+					var = race_num
+					value = 24
+					compare = greater_than
+				}
+			}
+			
+			race_color_name_1_visible = { 
+				check_variable = {
+					var = race_num
+					value = 0
+					compare = greater_than
+				}
+			}
+			race_color_name_2_visible = { 
+				check_variable = {
+					var = race_num
+					value = 1
+					compare = greater_than
+				}
+			}
+			race_color_name_3_visible = { 
+				check_variable = {
+					var = race_num
+					value = 2
+					compare = greater_than
+				}
+			}
+			race_color_name_4_visible = { 
+				check_variable = {
+					var = race_num
+					value = 3
+					compare = greater_than
+				}
+			}
+			race_color_name_5_visible = { 
+				check_variable = {
+					var = race_num
+					value = 4
+					compare = greater_than
+				}
+			}
+			race_color_name_6_visible = { 
+				check_variable = {
+					var = race_num
+					value = 5
+					compare = greater_than
+				}
+			}
+			race_color_name_7_visible = { 
+				check_variable = {
+					var = race_num
+					value = 6
+					compare = greater_than
+				}
+			}
+			race_color_name_8_visible = { 
+				check_variable = {
+					var = race_num
+					value = 7
+					compare = greater_than
+				}
+			}
+			race_color_name_9_visible = { 
+				check_variable = {
+					var = race_num
+					value = 8
+					compare = greater_than
+				}
+			}
+			race_color_name_10_visible = { 
+				check_variable = {
+					var = race_num
+					value = 9
+					compare = greater_than
+				}
+			}
+			race_color_name_11_visible = { 
+				check_variable = {
+					var = race_num
+					value = 10
+					compare = greater_than
+				}
+			}
+			race_color_name_12_visible = { 
+				check_variable = {
+					var = race_num
+					value = 11
+					compare = greater_than
+				}
+			}
+			race_color_name_13_visible = { 
+				check_variable = {
+					var = race_num
+					value = 12
+					compare = greater_than
+				}
+			}
+			race_color_name_14_visible = { 
+				check_variable = {
+					var = race_num
+					value = 13
+					compare = greater_than
+				}
+			}
+			race_color_name_15_visible = { 
+				check_variable = {
+					var = race_num
+					value = 14
+					compare = greater_than
+				}
+			}
+			race_color_name_16_visible = { 
+				check_variable = {
+					var = race_num
+					value = 15
+					compare = greater_than
+				}
+			}
+			race_color_name_17_visible = { 
+				check_variable = {
+					var = race_num
+					value = 16
+					compare = greater_than
+				}
+			}
+			race_color_name_18_visible = { 
+				check_variable = {
+					var = race_num
+					value = 17
+					compare = greater_than
+				}
+			}
+			race_color_name_19_visible = { 
+				check_variable = {
+					var = race_num
+					value = 18
+					compare = greater_than
+				}
+			}
+			race_color_name_20_visible = { 
+				check_variable = {
+					var = race_num
+					value = 19
+					compare = greater_than
+				}
+			}
+			race_color_name_21_visible = { 
+				check_variable = {
+					var = race_num
+					value = 20
+					compare = greater_than
+				}
+			}
+			race_color_name_22_visible = { 
+				check_variable = {
+					var = race_num
+					value = 21
+					compare = greater_than
+				}
+			}
+			race_color_name_23_visible = { 
+				check_variable = {
+					var = race_num
+					value = 22
+					compare = greater_than
+				}
+			}
+			race_color_name_24_visible = { 
+				check_variable = {
+					var = race_num
+					value = 23
+					compare = greater_than
+				}
+			}
+			race_color_name_25_visible = { 
+				check_variable = {
+					var = race_num
+					value = 24
+					compare = greater_than
+				}
+			}
+			
+			race_effect_value_1_1_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}	
+			race_effect_value_1_2_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_3_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_4_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_5_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_6_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_7_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_8_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_9_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_10_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_11_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_12_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_13_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_14_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_15_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_16_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			race_effect_value_1_17_visible = { 
+				check_variable = { race_show_effect_type = 0}
+			}
+			
+			race_effect_value_2_1_visible = { 
+				check_variable = { race_show_effect_type = 1}
+			}
+			race_effect_value_2_2_visible = { 
+				check_variable = { race_show_effect_type = 1}
+			}
+			race_effect_value_2_3_visible = { 
+				check_variable = { race_show_effect_type = 1}
+			}
+			race_effect_value_2_4_visible = { 
+				check_variable = { race_show_effect_type = 1}
+			}
+			
+			race_effect_value_3_1_visible = { 
+				check_variable = { race_show_effect_type = 2}
+			}
+			race_effect_value_3_2_visible = { 
+				check_variable = { race_show_effect_type = 2}
+			}
+			race_effect_value_3_3_visible = { 
+				check_variable = { race_show_effect_type = 2}
+			}
+			race_effect_value_3_4_visible = { 
+				check_variable = { race_show_effect_type = 2}
+			}
+			
+			race_effect_value_4_1_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_2_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_3_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_4_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_5_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_6_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_7_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_8_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			
+			race_refresh_days_visible = { 
+				is_debug = yes
+			}
+			race_refresh_month_visible = { 
+				is_debug = yes
+			}
+			race_refresh_season_visible = { 
+				is_debug = yes
+			}
+			race_refresh_checkbox_1_visible = { 
+				is_debug = yes
+			}
+			race_refresh_checkbox_2_visible = { 
+				is_debug = yes
+			}
+			race_refresh_checkbox_3_visible = { 
+				is_debug = yes
+			}
+        }
+	}
+	
+	Race_topbar =  {
+		window_name = "race_open_button"
+		context_type = player_context
+		parent_window_token = top_bar
+		
+		visible = {
+	
+		}
+		
+		ai_enabled = {
+	
+		}
+		
+		effects = {
+			race_button_click = {
+				if = {
+					limit = {
+						has_country_flag = Race_gui_open
+					}
+					clr_country_flag = Race_gui_open
+				}
+				else = {
+					set_country_flag = Race_gui_open
+				}
+			}	
+			race_button_dlc_click = {
+				if = {
+					limit = {
+						has_country_flag = Race_gui_open
+					}
+					clr_country_flag = Race_gui_open
+				}
+				else = {
+					set_country_flag = Race_gui_open
+				}
+			}
+		}
+	
+		triggers = {
+			race_button_visible = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+            }
+			race_button_dlc_visible = {
+                has_dlc = "La Resistance"
+            }
+        }
+	}

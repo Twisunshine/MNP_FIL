@@ -70,11 +70,24 @@ add_ideas = {
 
 
 recruit_character = EOM_Nightmare_Moon
+recruit_character = EOM_Lilith_Nightstar
+recruit_character = EOM_Surging_Daylight
+recruit_character = EOM_Gloaming_Petal
 
 recruit_character = EOM_Suri_Polomare
 recruit_character = EOM_Prince_Blueblood
 recruit_character = EOM_Gladmane
 recruit_character = EOM_Zesty_Gourmand
+
+recruit_character = EOM_Angel
+recruit_character = EOM_Night_Dance
+recruit_character = EOM_Moon_Trace
+recruit_character = EOM_Fog_Rock
+recruit_character = EOM_Flash_Lightning
+recruit_character = EOM_Night_Shadow
+recruit_character = EOM_Night_Seven
+
+
 
 add_dynamic_modifier = { modifier = EOM_Orthodoxy_dynamic_modifier }
 

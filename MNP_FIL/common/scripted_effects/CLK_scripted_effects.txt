@@ -1,0 +1,49 @@
+# 设置最大与最小值
+calculate_thorax_rebellion = {	
+	# CLK.CLK_Thorax_rebellion
+
+	clamp_thorax_rebellion = yes
+	calculate_thorax_rebellion_buff = yes
+}
+
+# 计算叛乱值Buff
+calculate_thorax_rebellion_buff = {
+	set_temp_variable = { temp1 = CLK.CLK_Thorax_rebellion }
+	multiply_temp_variable = { temp1 = -0.003 }
+	set_variable = { CLK.CLK_Thorax_rebellion_stability_factor = temp1 }
+	set_variable = { CLK.CLK_Thorax_rebellion_war_support_factor = temp1 }
+	
+	set_temp_variable = { temp1 = CLK.CLK_Thorax_rebellion }
+	multiply_temp_variable = { temp1 = -0.002 }
+	set_variable = { CLK.CLK_Thorax_rebellion_monthly_population = temp1 }
+	
+	set_temp_variable = { temp1 = CLK.CLK_Thorax_rebellion }
+	divide_temp_variable = { temp1 = 100 }
+	multiply_temp_variable = { temp1 = -0.0015 }
+	set_variable = { CLK.CLK_Thorax_rebellion_compliance_growth = temp1 }
+	
+	set_temp_variable = { temp1 = CLK.CLK_Thorax_rebellion }
+	multiply_temp_variable = { temp1 = 0.004 }
+	set_variable = { CLK.CLK_Thorax_rebellion_resistance_target = temp1 }
+	
+	set_temp_variable = { temp1 = CLK.CLK_Thorax_rebellion }
+	multiply_temp_variable = { temp1 = 0.005 }
+	set_variable = { CLK.CLK_Thorax_rebellion_political_power_cost = temp1 }
+	set_variable = { CLK.CLK_Thorax_rebellion_resistance_damage_to_garrison = temp1 }
+	
+	force_update_dynamic_modifier = yes
+}
+
+# 设置最大与最小值
+clamp_thorax_rebellion = {
+	clamp_variable = {
+		var = CLK.CLK_Thorax_rebellion
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = CLK.CLK_Thorax_rebellion
+		min = 0
+		max = 100
+	}
+}

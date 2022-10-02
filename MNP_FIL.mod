@@ -1,4 +1,4 @@
-version="1.11.12"
+version="1.12.2"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -46,6 +46,6 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="map/terrain"
 replace_path="tutorial"
-supported_version="1.11.12"
+supported_version="1.12.2"
 path="C:/Users/Twisunshine/Documents/Paradox Interactive/Hearts of Iron IV/mod/MNP_FIL"
 remote_file_id="2839589088"
