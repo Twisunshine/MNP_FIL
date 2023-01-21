@@ -1,0 +1,27 @@
+on_actions = {
+	on_monthly_EQU = {
+		effect = {
+			if = {
+				limit = {
+					EQU = {
+						has_idea = Indiscriminate_conscription
+					}
+				}
+				EQU = {
+					add_corps_commander_role = {
+						Character = EQU_Derpy_Hooves
+						traits = { 
+							not_skilled_in_military
+							careful
+						}
+						skill = 1
+						attack_skill = 1
+						defense_skill = 1
+						planning_skill = 1
+						logistics_skill = 11
+					}
+				}
+			}
+		}
+	}
+}

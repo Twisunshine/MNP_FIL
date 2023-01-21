@@ -1,0 +1,75 @@
+ideas = {
+	country = {
+	
+		###民主遗产继承者
+		GFR_Heir_to_the_Democratic_Legacy = {
+
+            allowed = {
+				original_tag = GFR
+			}
+
+            removal_cost = -1
+			picture = GFR_Heir_to_the_Democratic_Legacy
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.15
+				defensive_war_stability_factor = 0.50
+			}
+        }
+		
+		###民主，民权，民意
+		GFR_People_Have_Rights_to_Decide = {
+
+            allowed = {
+				original_tag = GFR
+			}
+
+            removal_cost = -1
+			picture = GFR_People_Have_Rights_to_Decide
+			modifier = {
+				consumer_goods_factor = 0.05
+				army_org_factor = 0.10
+				industrial_capacity_factory = -0.05
+			}
+        }
+		
+		###自由的价码
+		GFR_Price_of_Freedom = {
+
+            allowed = {
+				original_tag = GFR
+			}
+
+            removal_cost = -1
+			picture = GFR_Price_of_Freedom
+			modifier = {
+				conscription_factor = 0.15
+				war_support_factor = 0.20
+				industrial_capacity_factory = -0.15
+				monthly_population = -0.15
+				mobilization_speed = 0.10
+				army_core_defence_factor = 0.20
+			}
+        }
+		
+		###借来的土地——并不完美
+		GFR_Borrowed_Land_not_Perfect = {
+
+            allowed = {
+				original_tag = GFR
+			}
+
+            removal_cost = -1
+			picture = GFR_Borrowed_Land_not_Perfect
+			modifier = {
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = -0.25
+				production_speed_factor = -0.15
+				production_speed_buildings_factor = -0.15
+			}
+        }
+		
+		
+	}
+	
+}

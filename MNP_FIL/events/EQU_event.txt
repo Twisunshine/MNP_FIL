@@ -195,7 +195,7 @@ country_event = {
 		add_to_variable = { EQU_TS_and_FP = -5 }
 				 dd_to_variable = { EQU_TS_power = -5 }
     }
-	 option = {
+	option = {
         name = EQU_events.8.td
 		set_country_flag = EQU_agree_to_build_Military
 		complete_national_focus = EQU_2_3_2

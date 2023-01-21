@@ -3,7 +3,7 @@
 oob = "CLK_1004"
 
 set_research_slots = 3
-set_stability = 0.2
+set_stability = 0.60
 set_war_support = 0.75
 
 # Starting tech
@@ -39,10 +39,10 @@ set_politics = {
 }
 
 set_popularities = {
-	dictatorshipism = 3
-	fascism = 30
-	despotism = 52
-	authoritarian_democracy = 1
+	dictatorshipism = 30
+	fascism = 3
+	despotism = 42
+	authoritarian_democracy = 11
 	liberal_democracy = 12
 	social_democracy = 2
 	socialism = 0
@@ -50,18 +50,22 @@ set_popularities = {
 }
 
 add_ideas = {
-		all_adults_serve
-		army_economic_policy
-		closed_economy
-		fully_control
-		Women_and_Children_Auxiliary_Army
-		basic_citizenship
-		guild_production
-		smallholder_model
-		everywhere
-		the_chaos
-		Basic_education
-		straggler
+		laws_ideas_1_6
+		laws_ideas_2_6
+		laws_ideas_3_5
+		laws_ideas_4_6
+		laws_ideas_5_4
+		laws_ideas_6_4
+		develop_ideas_1_2
+		develop_ideas_2_2
+		develop_ideas_3_4
+		develop_ideas_4_2
+		develop_ideas_5_2
+		develop_ideas_6_3
+		race_ideas_2_5
+		race_ideas_3_5
+		race_ideas_4_6
+		race_ideas_5_5
 		CLK_Love_of_hunger_1
 		CLK_Morphological_changes_1
 		CLK_colonial_west_EER_1
@@ -73,6 +77,15 @@ add_ideas = {
 
 recruit_character = CLK_Queen_Chrysalis
 recruit_character = CLK_Thorax
+recruit_character = CLK_Benedict
+recruit_character = CLK_Tristana
+recruit_character = CLK_Pharynx
+recruit_character = CLK_Dred
+recruit_character = CLK_Violent
+recruit_character = CLK_Renaya
+recruit_character = CLK_Hobert
+
+
 
 add_dynamic_modifier = { modifier = CLK_Thorax_rebellion_dynamic_modifier }
 

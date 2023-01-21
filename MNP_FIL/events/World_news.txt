@@ -1,0 +1,32 @@
+add_namespace = World_News
+
+news_event = {
+	id = World_News.1
+	title = World_News.1.Title
+	desc = World_News.1.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_World_News.1
+	
+	option = {
+		name = World_News.1.Opt1
+	}
+}
+
+add_namespace = World_News_hidden
+
+country_event = {
+	id = World_News_hidden.1
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = World_News.1}
+		
+    }
+}

@@ -9,18 +9,10 @@ news_event = {
 	major = yes
 	hidden = no
 	
-	picture = GFX_event_test
+	picture = GFX_Storm_King_to_Seaquestria
 	
 	option = {
 		name = Storm_King_to_Seaquestria_News.War.Opt1
-
-		STO = {
-			declare_war_on = {
-				target = SEA
-				type = annex_everything
-			}
-		}
-		
 	}
 }
 
@@ -35,5 +27,13 @@ country_event = {
 	
 	immediate = {
         news_event = { id = Storm_King_to_Seaquestria_News.War}
+		
+		STO = {
+			declare_war_on = {
+				target = SEA
+				type = annex_everything
+			}
+		}
+		
     }
 }

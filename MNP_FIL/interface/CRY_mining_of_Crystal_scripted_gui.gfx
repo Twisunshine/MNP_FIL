@@ -1,0 +1,96 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_6" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_6.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_203" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_203.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_147" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_147.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_200" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_200.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_190" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_190.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_217" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_217.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_211" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_211.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_222" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_222.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_165" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_165.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_214" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_214.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_181" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_181.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_129" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_129.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_187" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_187.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_127" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_127.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_124" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_124.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_state_130" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_state_130.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_flag" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_Imperial_Mining_Directorate" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_Imperial_Mining_Directorate.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_Crystal_Mining_Department" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_Crystal_Mining_Department.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_mining_of_Crystal_Crystal" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/CRY_mining_of_Crystal_Crystal.dds"
+	}
+	spriteType = {
+		name = "GFX_construction" 
+		textureFile = "gfx/interface/decisions/decision_generic_construction.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Crystal" 
+		textureFile = "gfx/interface/CRY_mining_of_Crystal/decision_mining_of_Crystal.dds"
+		legacy_lazy_load = no
+	}
+	
+
+	
+}

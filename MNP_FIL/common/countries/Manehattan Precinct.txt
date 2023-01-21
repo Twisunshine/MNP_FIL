@@ -1,0 +1,9 @@
+
+
+graphical_culture = SOV
+graphical_culture_2d = SOV
+
+#graphical_culture = middle_eastern_gfx
+#graphical_culture_2d = middle_eastern_2d
+
+color = RGB{ 0 100 0 } #DarkGreen

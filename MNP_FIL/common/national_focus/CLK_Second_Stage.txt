@@ -1,0 +1,449 @@
+focus_tree = {
+	id = CLK_Second_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CLK
+		}
+	}
+	default = no
+	
+	shared_focus = CLK_3_1_1
+	shared_focus = CLK_3_1_2
+	shared_focus = CLK_3_9_1
+	
+	focus = {
+		id = CLK_2_1_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 4
+		y = 1
+		
+		bypass = {
+			has_war_with = EOM
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = CLK_we_are_attacked
+		}
+	}
+	focus = {
+		id = CLK_2_2_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_1_1
+		}
+		x = 4
+		y = 2
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = CLK_2_3_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_2_1
+		}
+		x = 3
+		y = 3
+
+		completion_reward = {
+			custom_effect_tooltip = CLK_mobilisation
+			hidden_effect = {
+				division_template = {
+					name = "机动师"
+					division_names_group = ALL_Inf_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+					}
+				}
+				340 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				381 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				423 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 3
+					}
+				}
+				368 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				393 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 3
+					}
+				}
+				158 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				349 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				352 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				406 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 3
+					}
+				}
+				384 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+				401 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 3
+					}
+				}
+				409 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 3
+					}
+				}
+				332 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 3
+					}
+				}
+				458 = {
+					create_unit = {
+						division = "name = \"机动师\" division_template = \"机动师\" start_experience_factor = 0 start_equipment_factor = 0.6" 
+						owner = CLK
+						count = 4
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_3_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_2_1
+		}
+		x = 5
+		y = 3
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = CLK_hold_the_line_1
+				days = 90
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_4_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_3_1
+		}
+		prerequisite = {
+			focus = CLK_2_3_2
+		}
+		x = 4
+		y = 4
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CLK_hold_the_line_1
+				add_idea = CLK_hold_the_line_2
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_5_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_4_1
+		}
+		x = 4
+		y = 5
+
+		completion_reward = {
+			country_event = CLK_events.5
+		}
+	}
+	focus = {
+		id = CLK_2_6_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_5_1
+		}
+		x = 3
+		y = 6
+
+		completion_reward = {
+			unlock_decision_category_tooltip = CLK_love_hunger
+			set_variable = { CLK_love_value = 30 }
+			remove_ideas = CLK_Love_of_hunger_1
+		}
+	}
+	focus = {
+		id = CLK_2_7_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_6_1
+		}
+		x = 2
+		y = 7
+
+		completion_reward = {
+			add_political_power = -100
+			custom_effect_tooltip = CLK_2_7_1_tooltip
+			hidden_effect={
+				country_event = {
+					id = CLK_events.13
+					days = 10
+				}
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_7_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_6_1
+		}
+		x = 4
+		y = 7
+
+		completion_reward = {
+			add_political_power = -100
+			custom_effect_tooltip = CLK_2_7_2_tooltip
+			hidden_effect={
+				country_event = {
+					id = CLK_events.14
+					days = 10
+				}
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_7_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_6_2
+		}
+		x = 6
+		y = 7
+
+		completion_reward = {
+			add_political_power = -50
+			add_to_variable = { CLK_Thorax_rebellion = -1 }
+            calculate_thorax_rebellion = yes
+			custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+		}
+	}
+	focus = {
+		id = CLK_2_6_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_5_1
+		}
+		x = 6
+		y = 6
+
+		completion_reward = {
+			unlock_decision_category_tooltip = CLK_suppressing_Thorax_rebellion
+		}
+	}
+	focus = {
+		id = CLK_2_8_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_7_1
+		}
+		prerequisite = {
+			focus = CLK_2_7_2
+		}
+		prerequisite = {
+			focus = CLK_2_7_3
+		}
+		x = 4
+		y = 8
+
+		completion_reward = {
+			add_political_power = 200
+			country_event = CLK_events.6
+		}
+	}
+	focus = {
+		id = CLK_2_9_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_8_1
+		}
+		x = 3
+		y = 9
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 30
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_9_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_8_1
+		}
+		x = 5
+		y = 9
+
+		completion_reward = {
+			332 = {
+				add_manpower = -15000
+			}
+			158 = {
+				add_manpower = -15000
+			}
+			368 = {
+				add_manpower = -15000
+			}
+			add_to_variable = {
+				var = CLK_love_value
+				value = 30
+				tooltip = CLK_add_30_to_love_value
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_10_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_9_1
+		}
+		x = 3
+		y = 10
+
+		completion_reward = {
+			304 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			401 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			409 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_manpower = -10000
+		}
+	}
+	focus = {
+		id = CLK_2_10_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_9_2
+		}
+		x = 5
+		y = 10
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = develop_ideas_4_2
+				add_idea = develop_ideas_4_4
+			}
+		}
+	}
+	focus = {
+		id = CLK_2_11_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_2_10_1
+		}
+		prerequisite = {
+			focus = CLK_2_10_2
+		}
+		x = 4
+		y = 11
+		
+		completion_reward = {
+			set_country_flag = CLK_third_stage
+			set_country_flag = CLK_logistics_without_worry
+			custom_effect_tooltip = CLK_unlock_CLK_third_stage
+			custom_effect_tooltip = CLK_unlock_logistics_without_worry
+			mark_focus_tree_layout_dirty = yes
+			custom_effect_tooltip = CLK_unlock_ocupied_tooltip
+			set_variable = { occupied_region_show_1 = 4 }
+			CLK_calculate_area_type = yes
+			CLK_calculate_occupied_area_progrees = yes
+		}
+	}
+}

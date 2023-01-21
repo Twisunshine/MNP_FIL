@@ -1,0 +1,56 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			EQU = {
+				resize_array = {
+					array = EQU_bill_progress_time
+					value = 2
+					size = 100
+				}
+				
+				resize_array = {
+					array = EQU_bill_progress_support
+					value = 3
+					size = 100
+				}
+				
+				set_variable = { EQU_clock_upper_house = 1 }
+				
+				EQU_calculate_upper_house_party = yes
+				
+				set_variable = { EQU_upper_house_activ_bill = 0 }
+				set_variable = { EQU_upper_house_update_year = 1006 }
+				
+				set_variable = { EQU_upper_house_recognition_1 = 0.50 }
+				set_variable = { EQU_upper_house_recognition_2 = 0.30 }
+				set_variable = { EQU_upper_house_recognition_3 = 0.10 }
+				set_variable = { EQU_upper_house_recognition_4 = 0.70 }
+			}
+		}
+    }
+	
+	on_daily_EQU = {
+		effect = {
+			EQU_calculate_upper_house_bill_progress_time = yes
+			EQU_calculate_upper_house_bill_time = yes
+			EQU_calculate_upper_house_bill_support = yes
+			EQU_calculate_upper_house_bill_progress_support = yes
+			EQU_calculate_upper_house_bill_ready = yes
+			EQU_calculate_upper_house_bill_ckeck = yes
+		}
+	}
+
+	on_monthly_EQU = {
+		effect = {
+			add_to_variable = { EQU_clock_upper_house = 1 }
+			if = {
+				limit = {
+					check_variable = { EQU_clock_upper_house = 24 }
+				}
+				add_to_variable = { EQU_upper_house_update_year = 2 }
+				EQU_calculate_upper_house_party = yes
+				set_variable = { EQU_clock_upper_house = 0 }
+			}		
+		}
+	}
+}

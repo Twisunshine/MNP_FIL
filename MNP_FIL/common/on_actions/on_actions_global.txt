@@ -3,6 +3,15 @@ on_actions = {
 
 	on_startup = {
 		effect = {
+			CLK = {
+				add_ideas = idea_CLK_Queen_Chrysalis
+				add_ideas = idea_CLK_Benedict
+				add_ideas = idea_CLK_Tristana
+				add_ideas = idea_CLK_Hobert
+			}
+			CRY = {
+				add_ideas = idea_CRY_Amethyst_Maresbury
+			}
 			EER = {
 				country_event = EER_events.114514
 				add_ideas = idea_EER_Starlight_Glimmer

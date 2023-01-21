@@ -6,19 +6,19 @@ ideas = {
 
 
 
-		civilian_economy = {
+		laws_ideas_2_1 = {
 
 
 			cost = 150
 			removal_cost = -1
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			modifier = {
 				consumer_goods_factor = 0.4
 				stability_factor = 0.15
@@ -34,19 +34,19 @@ available = {
 			cancel_if_invalid = no
 		}
 
-		low_economic_mobilisation = {
+		laws_ideas_2_2 = {
 
 			available = {
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -68,25 +68,25 @@ available = {
 				}
 				modifier = {
 					has_war_support > 0.25
-					factor = 0 #don't even look at it if you could be taking partial mob
+					factor = 0 #don't even look at it if you could be taking partial develop_ideas_6_1
 				}
 				
    			}
 		}
 
-		partial_economic_mobilisation = {
+		laws_ideas_2_3 = {
 
 			available = {
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			cost = 150
 			removal_cost = -1
 
@@ -110,20 +110,20 @@ available = {
    			}
 		}
 
-		war_economy = {
+		laws_ideas_2_4 = {
 
 
 			available = {
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			cost = 150
 			removal_cost = -1
 
@@ -150,7 +150,7 @@ available = {
    			}
 		}
 
-		tot_economic_mobilisation = {
+		laws_ideas_2_5 = {
 
 
 			available = {
@@ -164,14 +164,10 @@ available = {
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			ai_will_do = {
    				factor = 1
-
-
-
-
    			}
 
 			cost = 150
@@ -188,7 +184,7 @@ available = {
 			cancel_if_invalid = no
 		}
 
-		army_economic_policy = {
+		laws_ideas_2_6 = {
 
 			picture = new_economic_policy
               available = {
@@ -197,14 +193,14 @@ available = {
 
 			}
                cost = 150
-			   available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 
 			removal_cost = -1
@@ -224,7 +220,9 @@ available = {
    				factor = 2
    			}
 		}
-		army_economic_policy_2 = {
+		
+		
+		laws_ideas_2_7 = {
 
 
 			picture = new_economic_policy
@@ -233,14 +231,14 @@ available = {
 				has_war_support > 0.7
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 
 			removal_cost = -1
@@ -261,16 +259,18 @@ available = {
    				factor = 0
    			}
 		}
-				undisturbed_isolation = {
+		
+		
+		undisturbed_isolation = {
 
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			allowed = {
 				always = no
 			}
@@ -309,14 +309,14 @@ available = {
 				always = no
 			}
 			removal_cost = -1
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			modifier = {
 				consumer_goods_factor = 0.4
 				production_speed_industrial_complex_factor = -0.4
@@ -347,7 +347,7 @@ available = {
 		law = yes
 		use_list_view = yes
 
-		trade_war = {
+		laws_ideas_3_1 = {
 
 
 
@@ -360,14 +360,14 @@ available = {
 				   has_stability > 0.5
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			modifier = {
 				min_export = 0.6
 				stability_factor = -0.1
@@ -383,19 +383,19 @@ available = {
 			cancel_if_invalid = no
 		}
 
-		free_trade = {
+		laws_ideas_3_2 = {
 
 			available = {
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			cost = 150
 			removal_cost = -1
 
@@ -415,20 +415,20 @@ available = {
    			}
 		}
 
-		export_focus = {
+		laws_ideas_3_3 = {
 
 			available = {
 
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -452,18 +452,18 @@ available = {
    			}
 		}
 
-		limited_exports = {
+		laws_ideas_3_4 = {
 			available = {
 
 			}
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			cost = 150
 			removal_cost = -1
 
@@ -481,20 +481,20 @@ available = {
    			}
 		}
 
-		closed_economy = {
+		laws_ideas_3_5 = {
 
 
 			available = {
 
 			}
-available = {
+			available = {
 			if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			cost = 150
 			removal_cost = -1
 
@@ -506,9 +506,7 @@ available = {
 				drift_defence_factor = 0.05
 			}
 
-			on_add = {
-				custom_effect_tooltip = closed_economy_TT
-			}
+			##on_add = { custom_effect_tooltip = laws_ideas_3_5_TT }
 
 			cancel_if_invalid = no
 
@@ -522,15 +520,16 @@ available = {
 		law = yes
 		use_list_view = yes
 
-		Laissez_faire = {
-available = {
-			if = { 
+		laws_ideas_4_1 = {
+		
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -545,15 +544,18 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		guidance_only = {
-available = {
-			if = { 
+		
+		
+		laws_ideas_4_2 = {
+		
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -568,15 +570,17 @@ available = {
 
 			cancel_if_invalid = no
 		}
-			public_private_partnership = {
-available = {
-			if = { 
+		
+		
+		laws_ideas_4_3 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -591,15 +595,19 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		 macro_adjustment = {
-available = {
-			if = { 
+		
+		
+		
+		laws_ideas_4_4 = {
+		
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -614,15 +622,16 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		government_plan = {
-available = {
-			if = { 
+		laws_ideas_4_5 = {
+		
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			available = {
 
@@ -648,16 +657,18 @@ available = {
 
 			cancel_if_invalid = no
 		}
-				fully_control = {
+		
+		
+		laws_ideas_4_6 = {
 
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			available = {
 
 				or = {
@@ -683,19 +694,21 @@ available = {
 			cancel_if_invalid = no
 		}
 	}
+	
+	
 	conscription_policy = {
 		law = yes
 		use_list_view = yes
 
-		male_only = {
-available = {
-			if = { 
+		laws_ideas_5_1 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -708,15 +721,17 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		all_adults = {
-available = {
-			if = { 
+		
+		
+		laws_ideas_5_2 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -731,15 +746,18 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		Women_and_Children_Logistics = {
-available = {
-			if = { 
+		
+		
+		
+		laws_ideas_5_3 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 			cost = 150
 			removal_cost = -1
@@ -755,15 +773,18 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		Women_and_Children_Auxiliary_Army = {
-available = {
-			if = { 
+		
+		
+		
+		laws_ideas_5_4 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			
 			available = {
                    has_war_support > 0.5
@@ -785,15 +806,18 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		Indiscriminate_conscription = {
-available = {
-			if = { 
+		
+		
+		
+		laws_ideas_5_5 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			
 			available = {
                    has_war_support > 0.8
@@ -816,24 +840,25 @@ available = {
 			cancel_if_invalid = no
 		}
 	}
+	
+	
 	civil_rights = {
 		law = yes
 		use_list_view = yes
 
-		no_difference_slave = {
-available = {
-			if = { 
+		laws_ideas_6_1 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			available = {
                   or = {
 					has_government = dictatorshipism
 					has_government = fascism
-					has_government = despotism
 				  }
 
 			}
@@ -853,17 +878,20 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		No_guarantee = {
-available = {
-			if = { 
+		
+		
+		laws_ideas_6_2 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 			available = {
                   or = {
+					has_government = dictatorshipism
 					has_government = fascism
 					has_government = despotism
 				  }
@@ -885,16 +913,19 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		restricted_citizenship = {
+		
+		
+		
+		laws_ideas_6_3 = {
 
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 
 			cost = 150
@@ -911,15 +942,18 @@ available = {
 
 			cancel_if_invalid = no
 		}
-		basic_citizenship = {
-available = {
+		
+		
+		
+		laws_ideas_6_4 = {
+			available = {
 			if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 
 
@@ -933,16 +967,19 @@ available = {
 			default = yes
 			cancel_if_invalid = no
 		}
-			sound_citizenship = {
+		
+		
+		
+		laws_ideas_6_5 = {
 
-available = {
-			if = { 
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 
 			cost = 150
@@ -959,15 +996,17 @@ available = {
 			
 			cancel_if_invalid = no
 		}
-		light_of_the_world = {
-available = {
-			if = { 
+		
+		
+		laws_ideas_6_6 = {
+			available = {
+				if = { 
 					limit = { original_tag = EER }
 					NOT = { 
 						has_country_flag = EER_cannot_change_laws_1 
 					}
 				}
-		}
+			}
 
 
 

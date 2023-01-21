@@ -1,0 +1,28 @@
+CRY_parliament = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	priority = 114514
+	scripted_gui = CRY_parliament_decision_ui	
+	visible = {
+		original_tag = CRY
+		has_country_flag = CRY_parliament_has_unlock
+	}
+}
+CRY_Awaken_the_crystal = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	priority = 10
+	visible = {
+		original_tag = CRY
+		has_country_flag = CRY_we_start_Regain_the_last_hope
+	}
+}
+CRY_mining_of_Crystal = {
+	icon = GFX_Crystal
+	scripted_gui = CRY_mining_of_Crystal_decision_ui	
+	priority = 10
+	visible = {
+		original_tag = CRY
+	}
+}
+
+
+

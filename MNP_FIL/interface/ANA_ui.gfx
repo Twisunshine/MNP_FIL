@@ -1,0 +1,35 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ANA_tiled_bg"
+		texturefile = "gfx/interface/ANA_gui/ANA_tiled_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_ANA_tiled_window_1b_thin_border1"
+		texturefile = "gfx/interface/ANA_gui/ANA_tiled_window_1b_thin_border1.dds"
+	}
+	spriteType = {
+		name = "GFX_ANA_tiled_window_1b_thin_border2"
+		texturefile = "gfx/interface/ANA_gui/ANA_tiled_window_1b_thin_border2.dds"
+	}
+        spriteType = {
+		name = "GFX_ANA_no_pony"
+		texturefile = "gfx/interface/ANA_gui/ANA_no_pony.dds"
+	}
+        spriteType = {
+		name = "GFX_ANA_diplo_action_bottom"
+		texturefile = "gfx/interface/ANA_gui/ANA_diplo_action_bottom.dds"
+	}
+
+
+	frameAnimatedSpriteType = {
+        name = "GFX_ANA_no_pony_desc"
+        texturefile = "gfx/interface/ANA_gui/ANA_no_pony_desc.dds"
+        noOfFrames = 15
+        transparencecheck = yes
+        animation_rate_fps = 8
+        looping = yes
+        play_on_show = yes
+        pause_on_loop = 0.0
+	}
+	
+}

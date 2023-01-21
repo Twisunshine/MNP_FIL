@@ -30,7 +30,7 @@ characters={
 			removal_cost = -114514
         }
 		field_marshal = {
-			traits = { }
+			traits = { wounded_by_twilight }
 			skill = 8
 			attack_skill = 9
 			defense_skill = 11
@@ -219,9 +219,13 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = {
+				bright_future
+				frail_and_sickly
+				regression
+			}
 			skill = 2
-			attack_skill = 3
+			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 2
@@ -235,7 +239,11 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { 
+				caring_for_troops 
+				careful
+				regression
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 4
@@ -251,12 +259,117 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { 
+				caring_for_troops
+				frail_and_sickly
+				regression
+			}
 			skill = 1
 			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 2
+		}
+	}
+	EOM_Minequo_Te = {
+		name = EOM_Minequo_Te
+		portraits = {
+			army = {
+				large="gfx/leaders/EOM/Portrait_EOM_Minequo_Te.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				surrender 
+				reluctance
+				careful
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EOM_Push_Mar = {
+		name = EOM_Push_Mar
+		portraits = {
+			army = {
+				large="gfx/leaders/EOM/Portrait_EOM_Push_Mar.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				surrender 
+				reluctance
+				negligent_management
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	EOM_Pondu_Cotan = {
+		name = EOM_Pondu_Cotan
+		portraits = {
+			army = {
+				large="gfx/leaders/EOM/Portrait_EOM_Pondu_Cotan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				surrender 
+				wonderbolts_background
+				reluctance
+				caring_for_troops
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	EOM_High_Winds = {
+		name = EOM_High_Winds
+		portraits = {
+			army = {
+				large="gfx/leaders/EOM/Portrait_EOM_High_Winds.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				surrender 
+				wonderbolts_background
+			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	EOM_Rancutor_Fawoo = {
+		name = EOM_Rancutor_Fawoo
+		portraits = {
+			army = {
+				large="gfx/leaders/EOM/Portrait_EOM_Rancutor_Fawoo.dds"
+			}
+		}
+		corps_commander = {
+			traits = { 
+				surrender 
+				wonderbolts_background
+				reluctance
+				follow_the_rules
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	EOM_Fog_Rock = {

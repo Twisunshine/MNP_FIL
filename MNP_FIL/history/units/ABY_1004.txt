@@ -1,0 +1,209 @@
+division_template = {
+	name = "阿比西尼亚步兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "阿比西尼亚炮兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 2 y = 0 }
+        artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {    
+		
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "阿比西尼亚第一步兵师"
+		location = 8329
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name =  "阿比西尼亚第二步兵师"
+		location = 4321
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第三步兵师"
+		location = 5295
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第四步兵师"
+		location = 2267
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第五步兵师"
+		location = 8329
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第六步兵师"
+		location =5529
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第七步兵师"
+		location = 5257
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第八步兵师"
+		location = 2805
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第九步兵师"
+		location =2462
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十步兵师"
+		location = 5316
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十一步兵师"
+		location = 5207
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十二步兵师"
+		location = 3392
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十三步兵师"
+		location = 8554
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十四步兵师"
+		location = 6375
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十五步兵师"
+		location =4277
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十六步兵师"
+		location = 262
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十七步兵师"
+		location = 3737
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十八步兵师"
+		location =3190
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第十九步兵师"
+		location = 1673
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第二十步兵师"
+		location = 8236
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第二十一步兵师"
+		location = 178
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第二十二步兵师"
+		location = 1012
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第二十三步兵师"
+		location = 2645
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第二十四步兵师"
+		location =1785
+		division_template = "阿比西尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "阿比西尼亚第一炮兵师"
+		location = 3895
+		division_template = "阿比西尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第二炮兵师"
+		location = 8329
+		division_template = "阿比西尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第三炮兵师"
+		location =6089
+		division_template = "阿比西尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "阿比西尼亚第四炮兵师"
+		location = 5529
+		division_template = "阿比西尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+}

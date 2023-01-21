@@ -1,0 +1,6 @@
+CLK_Factions_dynamic_modifier = {
+	enable = { always = yes }
+	
+	stability_weekly = CLK_queenist_faction_weekly_stability_debuff
+	political_power_cost = CLK_queenist_faction_weekly_political_power_debuff
+}

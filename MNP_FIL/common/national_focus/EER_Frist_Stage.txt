@@ -13,7 +13,7 @@ focus_tree = {
 	
 	focus = {
 		id = EER_refugee_influx
-		icon = GFX_goal_unknown
+		icon = GFX_EER_refugee_influx
 		cost = 0.00
 		x = 9
 		y = 1
@@ -24,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_assessing_the_situation
-		icon = GFX_goal_unknown
+		icon = GFX_EER_assessing_the_situation
 		cost = 0.00
 		prerequisite = {
 			focus = EER_refugee_influx
@@ -38,7 +38,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_their_chaos
-		icon = GFX_goal_unknown
+		icon = GFX_EER_their_chaos
 		cost = 0.00
 		prerequisite = {
 			focus = EER_assessing_the_situation
@@ -52,7 +52,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_condemnation_nightmare_moon
-		icon = GFX_goal_unknown
+		icon = GFX_EER_condemnation_nightmare_moon
 		cost = 0.00
 		prerequisite = {
 			focus = EER_their_chaos
@@ -66,7 +66,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_against_authoritarian_ideas
-		icon = GFX_goal_unknown
+		icon = GFX_EER_against_authoritarian_ideas
 		cost = 0.00
 		prerequisite = {
 			focus = EER_condemnation_nightmare_moon
@@ -80,7 +80,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_spreading_friendly_remarks
-		icon = GFX_goal_unknown
+		icon = GFX_EER_spreading_friendly_remarks
 		cost = 0.00
 		prerequisite = {
 			focus = EER_their_chaos
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_proactive_refugee_reception
-		icon = GFX_goal_unknown
+		icon = GFX_EER_proactive_refugee_reception
 		cost = 0.00
 		prerequisite = {
 			focus = EER_spreading_friendly_remarks
@@ -108,7 +108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_rescue_their_difficulties
-		icon = GFX_goal_unknown
+		icon = GFX_EER_rescue_their_difficulties
 		cost = 0.00
 		prerequisite = {
 			focus = EER_against_authoritarian_ideas
@@ -125,7 +125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_the_promise_of_peace
-		icon = GFX_goal_unknown
+		icon = GFX_EER_the_promise_of_peace
 		cost = 0.00
 		prerequisite = {
 			focus = EER_rescue_their_difficulties
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_our_processing
-		icon = GFX_goal_unknown
+		icon = GFX_EER_our_processing
 		cost = 0.00
 		prerequisite = {
 			focus = EER_assessing_the_situation
@@ -153,7 +153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_compulsory_collect_all_food
-		icon = GFX_goal_unknown
+		icon = GFX_EER_compulsory_collect_all_food
 		cost = 0.00
 		prerequisite = {
 			focus = EER_our_processing
@@ -167,7 +167,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_temporary_rationing
-		icon = GFX_goal_unknown
+		icon = GFX_EER_temporary_rationing
 		cost = 0.00
 		prerequisite = {
 			focus = EER_compulsory_collect_all_food
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_building_refugee_camps
-		icon = GFX_goal_unknown
+		icon = GFX_EER_building_refugee_camps
 		cost = 0.00
 		prerequisite = {
 			focus = EER_our_processing
@@ -195,7 +195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_expansion_of_equality_house
-		icon = GFX_goal_unknown
+		icon = GFX_EER_expansion_of_equality_house
 		cost = 0.00
 		prerequisite = {
 			focus = EER_building_refugee_camps
@@ -209,7 +209,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_show_our_friendliness
-		icon = GFX_goal_unknown
+		icon = GFX_EER_show_our_friendliness
 		cost = 0.00
 		prerequisite = {
 			focus = EER_temporary_rationing
@@ -226,7 +226,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_new_style_of_building
-		icon = GFX_goal_unknown
+		icon = GFX_EER_new_style_of_building
 		cost = 0.00
 		prerequisite = {
 			focus = EER_for_ponies
@@ -240,7 +240,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_for_ponies
-		icon = GFX_goal_unknown
+		icon = GFX_EER_for_ponies
 		cost = 0.00
 		prerequisite = {
 			focus = EER_take_a_breath
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_take_a_breath
-		icon = GFX_goal_unknown
+		icon = GFX_EER_take_a_breath
 		cost = 0.00
 		prerequisite = {
 			focus = EER_the_promise_of_peace
@@ -271,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_the_promise_of_home
-		icon = GFX_goal_unknown
+		icon = GFX_EER_the_promise_of_home
 		cost = 0.00
 		prerequisite = {
 			focus = EER_show_our_friendliness
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_for_equality
-		icon = GFX_goal_unknown
+		icon = GFX_EER_for_equality
 		cost = 0.00
 		prerequisite = {
 			focus = EER_take_a_breath
@@ -299,7 +299,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_pause_to_eliminate_cutie_mark
-		icon = GFX_goal_unknown
+		icon = GFX_EER_pause_to_eliminate_cutie_mark
 		cost = 0.00
 		prerequisite = {
 			focus = EER_for_ponies
@@ -313,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_build_new_town
-		icon = GFX_goal_unknown
+		icon = GFX_EER_build_new_town
 		cost = 0.00
 		prerequisite = {
 			focus = EER_new_style_of_building
@@ -330,7 +330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_promotion_of_equality_ideas
-		icon = GFX_goal_unknown
+		icon = GFX_EER_promotion_of_equality_ideas
 		cost = 0.00
 		prerequisite = {
 			focus = EER_for_equality
@@ -344,7 +344,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_refining_equality_thinking
-		icon = GFX_goal_unknown
+		icon = GFX_EER_refining_equality_thinking
 		cost = 0.00
 		prerequisite = {
 			focus = EER_for_equality
@@ -358,7 +358,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_building_an_egalitarian_system
-		icon = GFX_goal_unknown
+		icon = GFX_EER_building_an_egalitarian_system
 		cost = 0.00
 		prerequisite = {
 			focus = EER_promotion_of_equality_ideas
@@ -375,7 +375,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_get_ready
-		icon = GFX_goal_unknown
+		icon = GFX_EER_get_ready
 		cost = 0.00
 		prerequisite = {
 			focus = EER_building_an_egalitarian_system
@@ -395,7 +395,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_for_the_future
-		icon = GFX_goal_unknown
+		icon = GFX_EER_for_the_future
 		cost = 0.00
 		prerequisite = {
 			focus = EER_take_a_breath
@@ -409,7 +409,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_watch_out_for_enemies
-		icon = GFX_goal_unknown
+		icon = GFX_EER_watch_out_for_enemies
 		cost = 0.00
 		prerequisite = {
 			focus = EER_for_the_future
@@ -423,7 +423,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_alert_to_infiltration
-		icon = GFX_goal_unknown
+		icon = GFX_EER_alert_to_infiltration
 		cost = 0.00
 		prerequisite = {
 			focus = EER_for_the_future
@@ -437,7 +437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_establishment_staff_of_equality
-		icon = GFX_goal_unknown
+		icon = GFX_EER_establishment_staff_of_equality
 		cost = 0.00
 		prerequisite = {
 			focus = EER_watch_out_for_enemies
@@ -454,7 +454,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_building_an_equal_state
-		icon = GFX_goal_unknown
+		icon = GFX_EER_building_an_equal_state
 		cost = 0.00
 		prerequisite = {
 			focus = EER_get_ready
@@ -468,7 +468,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_establishing_emancipation_programs
-		icon = GFX_goal_unknown
+		icon = GFX_EER_establishing_emancipation_programs
 		cost = 0.00
 		prerequisite = {
 			focus = EER_building_an_equal_state
@@ -482,7 +482,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_chairmans_speech
-		icon = GFX_goal_unknown
+		icon = GFX_EER_chairmans_speech
 		cost = 4
 		prerequisite = {
 			focus = EER_establishing_emancipation_programs
@@ -500,7 +500,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_enhanced_weapons_production
-		icon = GFX_goal_unknown
+		icon = GFX_EER_enhanced_weapons_production
 		cost = 4
 		prerequisite = {
 			focus = EER_chairmans_speech
@@ -524,7 +524,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_expanded_staff
-		icon = GFX_goal_unknown
+		icon = GFX_EER_expanded_staff
 		cost = 4
 		prerequisite = {
 			focus = EER_chairmans_speech
@@ -548,7 +548,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_equality_arsenal
-		icon = GFX_goal_unknown
+		icon = GFX_EER_equality_arsenal
 		cost = 4
 		prerequisite = {
 			focus = EER_chairmans_speech
@@ -572,7 +572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_secure_resupply_lines
-		icon = GFX_goal_unknown
+		icon = GFX_EER_secure_resupply_lines
 		cost = 4
 		prerequisite = {
 			focus = EER_chairmans_speech
@@ -629,7 +629,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_everything_is_ready
-		icon = GFX_goal_unknown
+		icon = GFX_EER_everything_is_ready
 		cost = 4
 		prerequisite = {
 			focus = EER_enhanced_weapons_production
@@ -655,7 +655,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_all_thats_missing_is_the_east_wind
-		icon = GFX_goal_unknown
+		icon = GFX_EER_all_thats_missing_is_the_east_wind
 		cost = 4
 		prerequisite = {
 			focus = EER_enhanced_weapons_production
@@ -678,7 +678,7 @@ focus_tree = {
 	focus = {
 		id = EER_open_the_door
 	
-		icon = GFX_goal_unknown
+		icon = GFX_EER_open_the_door
 		cost = 2
 		prerequisite = {
 			focus = EER_everything_is_ready

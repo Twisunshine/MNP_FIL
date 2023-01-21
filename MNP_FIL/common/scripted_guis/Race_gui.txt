@@ -1,4 +1,4 @@
-scripted_gui = {	
+scripted_gui = {
 	Race_gui = {
 		window_name = "countryracesview"
 		context_type = player_context
@@ -242,7 +242,14 @@ scripted_gui = {
 			race_refresh_checkbox_1 = { frame = global.race_refresh_check_1 }
 			race_refresh_checkbox_2 = { frame = global.race_refresh_check_2 }
 			race_refresh_checkbox_3 = { frame = global.race_refresh_check_3 }
-		} 
+			
+			race_option_1 = { image = "[race_option_1_idea_icon]" }
+			race_option_2 = { image = "[race_option_2_idea_icon]" }
+			race_option_3 = { image = "[race_option_3_idea_icon]" }
+			race_option_4 = { image = "[race_option_4_idea_icon]" }
+			race_option_5 = { image = "[race_option_5_idea_icon]" }
+			race_option_6 = { image = "[race_option_6_idea_icon]" }
+		}
 		
 		ai_enabled = {
 			
@@ -364,106 +371,89 @@ scripted_gui = {
 			}
 			
 			race_option_1_click = {
-				set_variable = { race_value^0 = 0 }
-				set_variable = { race_value^1 = 0 }
-				set_variable = { race_value^2 = 0 }
-				set_variable = { race_value^3 = 0 }
-				set_variable = { race_value^4 = 30 }
-				set_variable = { race_value^5 = 0 }
-				set_variable = { race_value^6 = 0 }
-				set_variable = { race_value^7 = 0 }
-				set_variable = { race_value^8 = 20 }
-				set_variable = { race_value^9 = 0 }
-				set_variable = { race_value^10 = 0 }
-				set_variable = { race_value^11 = 0 }
-				set_variable = { race_value^12 = 0 }
-				set_variable = { race_value^13 = 10 }
-				set_variable = { race_value^14 = 0 }
-				set_variable = { race_value^15 = 0 }
-				set_variable = { race_value^16 = 0 }
-				set_variable = { race_value^17 = 0 }
-				set_variable = { race_value^18 = 25 }
-				set_variable = { race_value^19 = 0 }
-				set_variable = { race_value^20 = 0 }
-				set_variable = { race_value^21 = 15 }
-				set_variable = { race_value^22 = 0 }
-				set_variable = { race_value^23 = 0 }
-				set_variable = { race_value^24 = 0 }
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 1 }
+					}
+					set_variable = { race_menu_option_extra_open = 0 }
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { race_menu_option_extra_open = 1 }
+						}
+					}
+					set_variable = { race_menu_option_extra_open = 1 }
+					calculate_race_ideas_frame = yes
+				}
 			}
 			race_option_2_click = {
-				set_variable = { race_value^0 = 50 }
-				set_variable = { race_value^1 = 25 }
-				set_variable = { race_value^2 = 15 }
-				set_variable = { race_value^3 = 0 }
-				set_variable = { race_value^4 = 0 }
-				set_variable = { race_value^5 = 0 }
-				set_variable = { race_value^6 = 0 }
-				set_variable = { race_value^7 = 0 }
-				set_variable = { race_value^8 = 0 }
-				set_variable = { race_value^9 = 0 }
-				set_variable = { race_value^10 = 0 }
-				set_variable = { race_value^11 = 0 }
-				set_variable = { race_value^12 = 0 }
-				set_variable = { race_value^13 = 0 }
-				set_variable = { race_value^14 = 0 }
-				set_variable = { race_value^15 = 0 }
-				set_variable = { race_value^16 = 0 }
-				set_variable = { race_value^17 = 0 }
-				set_variable = { race_value^18 = 10 }
-				set_variable = { race_value^19 = 0 }
-				set_variable = { race_value^20 = 0 }
-				set_variable = { race_value^21 = 0 }
-				set_variable = { race_value^22 = 0 }
-				set_variable = { race_value^23 = 0 }
-				set_variable = { race_value^24 = 0 }
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					set_variable = { race_menu_option_extra_open = 0 }
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { race_menu_option_extra_open = 2 }
+						}
+					}
+					set_variable = { race_menu_option_extra_open = 2 }
+					calculate_race_ideas_frame_manuel = yes
+				}
 			}
 			race_option_3_click = {
-				
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					set_variable = { race_menu_option_extra_open = 0 }
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { race_menu_option_extra_open = 3 }
+						}
+					}
+					set_variable = { race_menu_option_extra_open = 3 }
+					calculate_race_ideas_frame_manuel = yes
+				}
 			}
 			race_option_4_click = {
-				
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					set_variable = { race_menu_option_extra_open = 0 }
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { race_menu_option_extra_open = 4 }
+						}
+					}
+					set_variable = { race_menu_option_extra_open = 4 }
+					calculate_race_ideas_frame_manuel = yes
+				}
 			}
 			race_option_5_click = {
-				
-			}
-			race_option_6_click = {
-				
-			}
-			race_option_7_click = {
-				
-			}
-			race_option_8_click = {
-				
-			}
-			race_option_9_click = {
-				
-			}
-			race_option_10_click = {
-				
-			}
-			race_option_11_click = {
-				
-			}
-			race_option_12_click = {
-				
-			}
-			race_option_13_click = {
-				
-			}
-			race_option_14_click = {
-				
-			}
-			race_option_15_click = {
-				
-			}
-			race_option_16_click = {
-				
-			}
-			race_option_17_click = {
-				
-			}
-			race_option_18_click = {
-				
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					set_variable = { race_menu_option_extra_open = 0 }
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { race_menu_option_extra_open = 5 }
+						}
+					}
+					set_variable = { race_menu_option_extra_open = 5 }
+					calculate_race_ideas_frame_manuel = yes
+				}
 			}
 			
 			race_refresh_checkbox_1_click = {
@@ -516,6 +506,7 @@ scripted_gui = {
 			
 			close_button_click = {
 				clr_country_flag = Race_gui_open
+				set_variable = { Race_button_highlight = 1 }
 			}
 		}
 		
@@ -528,61 +519,6 @@ scripted_gui = {
 		#}
 		
 		triggers = {
-			race_option_1_click_enabled = {
-                is_debug = yes
-            }
-			race_option_2_click_enabled = {
-                is_debug = yes
-            }
-			race_option_3_click_enabled = {
-                is_debug = yes
-            }
-			race_option_4_click_enabled = {
-                is_debug = yes
-            }
-			race_option_5_click_enabled = {
-                is_debug = yes
-            }
-			race_option_6_click_enabled = {
-                is_debug = yes
-            }
-			race_option_7_click_enabled = {
-                is_debug = yes
-            }
-			race_option_8_click_enabled = {
-                is_debug = yes
-            }
-			race_option_9_click_enabled = {
-                is_debug = yes
-            }
-			race_option_10_click_enabled = {
-                is_debug = yes
-            }
-			race_option_11_click_enabled = {
-                is_debug = yes
-            }
-			race_option_12_click_enabled = {
-                is_debug = yes
-            }
-			race_option_13_click_enabled = {
-                is_debug = yes
-            }
-			race_option_14_click_enabled = {
-                is_debug = yes
-            }
-			race_option_15_click_enabled = {
-                is_debug = yes
-            }
-			race_option_16_click_enabled = {
-                is_debug = yes
-            }
-			race_option_17_click_enabled = {
-                is_debug = yes
-            }
-			race_option_18_click_enabled = {
-                is_debug = yes
-            }
-		
 			race_pie_visible = {
                 is_ai = no
             }
@@ -1035,7 +971,7 @@ scripted_gui = {
 			race_effect_value_4_3_visible = { 
 				check_variable = { race_show_effect_type = 3}
 			}
-			race_effect_value_4_4_visible = { 
+			race_effect_value_4_4_visible = {
 				check_variable = { race_show_effect_type = 3}
 			}
 			race_effect_value_4_5_visible = { 
@@ -1048,6 +984,9 @@ scripted_gui = {
 				check_variable = { race_show_effect_type = 3}
 			}
 			race_effect_value_4_8_visible = { 
+				check_variable = { race_show_effect_type = 3}
+			}
+			race_effect_value_4_9_visible = { 
 				check_variable = { race_show_effect_type = 3}
 			}
 			
@@ -1072,6 +1011,507 @@ scripted_gui = {
         }
 	}
 	
+	race_menu_option_extra = {
+		window_name = "race_menu_option_extra"
+		context_type = player_context
+		
+		visible = {
+			AND = {
+				has_country_flag = Race_gui_open
+				OR = {
+					check_variable = { race_menu_option_extra_open = 1 }
+					check_variable = { race_menu_option_extra_open = 2 }
+					check_variable = { race_menu_option_extra_open = 3 }
+					check_variable = { race_menu_option_extra_open = 4 }
+					check_variable = { race_menu_option_extra_open = 5 }
+				}
+			}
+		}
+		
+		properties = {
+			race_ideas_1 = { frame = race_ideas_1_frame }
+			race_ideas_2 = { frame = race_ideas_2_frame }
+			race_ideas_3 = { frame = race_ideas_3_frame }
+			race_ideas_4 = { frame = race_ideas_4_frame }
+			race_ideas_5 = { frame = race_ideas_5_frame }
+			race_ideas_6 = { frame = race_ideas_6_frame }
+			
+			
+			race_ideas_icon_1 = { image = [race_ideas_1_icon] }
+			race_ideas_icon_2 = { image = [race_ideas_2_icon] }
+			race_ideas_icon_3 = { image = [race_ideas_3_icon] }
+			race_ideas_icon_4 = { image = [race_ideas_4_icon] }
+			race_ideas_icon_5 = { image = [race_ideas_5_icon] }
+			race_ideas_icon_6 = { image = [race_ideas_6_icon] }
+		}
+		
+		effects = {
+			close_click = {
+				set_variable = { race_menu_option_extra_open = 0 }
+			}
+			
+			race_ideas_1_click = {
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					add_ideas = race_ideas_2_1
+					remove_ideas = {
+						race_ideas_2_2
+						race_ideas_2_3
+						race_ideas_2_4
+						race_ideas_2_5
+						race_ideas_2_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					add_ideas = race_ideas_3_1
+					remove_ideas = {
+						race_ideas_3_2
+						race_ideas_3_3
+						race_ideas_3_4
+						race_ideas_3_5
+						race_ideas_3_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					add_ideas = race_ideas_4_1
+					remove_ideas = {
+						race_ideas_4_2
+						race_ideas_4_3
+						race_ideas_4_4
+						race_ideas_4_5
+						race_ideas_4_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					add_ideas = race_ideas_5_1
+					remove_ideas = {
+						race_ideas_5_2
+						race_ideas_5_3
+						race_ideas_5_4
+						race_ideas_5_5
+						race_ideas_5_6
+					}
+					add_political_power = -150
+				}
+				calculate_race_ideas_frame_manuel = yes
+			}
+			
+			race_ideas_2_click = {
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					add_ideas = race_ideas_2_2
+					remove_ideas = {
+						race_ideas_2_1
+						race_ideas_2_3
+						race_ideas_2_4
+						race_ideas_2_5
+						race_ideas_2_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					add_ideas = race_ideas_3_2
+					remove_ideas = {
+						race_ideas_3_1
+						race_ideas_3_3
+						race_ideas_3_4
+						race_ideas_3_5
+						race_ideas_3_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					add_ideas = race_ideas_4_2
+					remove_ideas = {
+						race_ideas_4_1
+						race_ideas_4_3
+						race_ideas_4_4
+						race_ideas_4_5
+						race_ideas_4_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					add_ideas = race_ideas_5_2
+					remove_ideas = {
+						race_ideas_5_1
+						race_ideas_5_3
+						race_ideas_5_4
+						race_ideas_5_5
+						race_ideas_5_6
+					}
+					add_political_power = -150
+				}
+				calculate_race_ideas_frame_manuel = yes
+			}
+			race_ideas_3_click = {
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					add_ideas = race_ideas_2_3
+					remove_ideas = {
+						race_ideas_2_1
+						race_ideas_2_2
+						race_ideas_2_4
+						race_ideas_2_5
+						race_ideas_2_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					add_ideas = race_ideas_3_3
+					remove_ideas = {
+						race_ideas_3_1
+						race_ideas_3_2
+						race_ideas_3_4
+						race_ideas_3_5
+						race_ideas_3_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					add_ideas = race_ideas_4_3
+					remove_ideas = {
+						race_ideas_4_1
+						race_ideas_4_2
+						race_ideas_4_4
+						race_ideas_4_5
+						race_ideas_4_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					add_ideas = race_ideas_5_3
+					remove_ideas = {
+						race_ideas_5_1
+						race_ideas_5_2
+						race_ideas_5_4
+						race_ideas_5_5
+						race_ideas_5_6
+					}
+					add_political_power = -150
+				}
+				calculate_race_ideas_frame_manuel = yes
+			}
+			race_ideas_4_click = {
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					add_ideas = race_ideas_2_4
+					remove_ideas = {
+						race_ideas_2_1
+						race_ideas_2_2
+						race_ideas_2_3
+						race_ideas_2_5
+						race_ideas_2_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					add_ideas = race_ideas_3_4
+					remove_ideas = {
+						race_ideas_3_1
+						race_ideas_3_2
+						race_ideas_3_3
+						race_ideas_3_5
+						race_ideas_3_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					add_ideas = race_ideas_4_4
+					remove_ideas = {
+						race_ideas_4_1
+						race_ideas_4_2
+						race_ideas_4_3
+						race_ideas_4_5
+						race_ideas_4_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					add_ideas = race_ideas_5_4
+					remove_ideas = {
+						race_ideas_5_1
+						race_ideas_5_2
+						race_ideas_5_3
+						race_ideas_5_5
+						race_ideas_5_6
+					}
+					add_political_power = -150
+				}
+				calculate_race_ideas_frame_manuel = yes
+			}
+			race_ideas_5_click = {
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					add_ideas = race_ideas_2_5
+					remove_ideas = {
+						race_ideas_2_1
+						race_ideas_2_2
+						race_ideas_2_3
+						race_ideas_2_4
+						race_ideas_2_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					add_ideas = race_ideas_3_5
+					remove_ideas = {
+						race_ideas_3_1
+						race_ideas_3_2
+						race_ideas_3_3
+						race_ideas_3_4
+						race_ideas_3_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					add_ideas = race_ideas_4_5
+					remove_ideas = {
+						race_ideas_4_1
+						race_ideas_4_2
+						race_ideas_4_3
+						race_ideas_4_4
+						race_ideas_4_6
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					add_ideas = race_ideas_5_5
+					remove_ideas = {
+						race_ideas_5_1
+						race_ideas_5_2
+						race_ideas_5_3
+						race_ideas_5_4
+						race_ideas_5_6
+					}
+					add_political_power = -150
+				}
+				calculate_race_ideas_frame_manuel = yes
+			}
+			race_ideas_6_click = {
+				if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 2 }
+					}
+					add_ideas = race_ideas_2_6
+					remove_ideas = {
+						race_ideas_2_1
+						race_ideas_2_2
+						race_ideas_2_3
+						race_ideas_2_4
+						race_ideas_2_5
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 3 }
+					}
+					add_ideas = race_ideas_3_6
+					remove_ideas = {
+						race_ideas_3_1
+						race_ideas_3_2
+						race_ideas_3_3
+						race_ideas_3_4
+						race_ideas_3_5
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 4 }
+					}
+					add_ideas = race_ideas_4_6
+					remove_ideas = {
+						race_ideas_4_1
+						race_ideas_4_2
+						race_ideas_4_3
+						race_ideas_4_4
+						race_ideas_4_5
+					}
+					add_political_power = -150
+				}
+				else_if = {
+					limit = {
+						check_variable = { race_menu_option_extra_open = 5 }
+					}
+					add_ideas = race_ideas_5_6
+					remove_ideas = {
+						race_ideas_5_1
+						race_ideas_5_2
+						race_ideas_5_3
+						race_ideas_5_4
+						race_ideas_5_5
+					}
+					add_political_power = -150
+				}
+				calculate_race_ideas_frame_manuel = yes
+			}
+		}
+		
+		triggers = {
+			race_ideas_5_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_icon_5_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_name_5_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_prerequisite_5_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_6_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_icon_6_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_name_6_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			race_ideas_prerequisite_6_visible = {
+				NOT = {
+					check_variable = { race_menu_option_extra_open = 1 }
+				}
+			}
+			
+			race_ideas_1_click_enabled = {
+				AND = {
+					NOT = {
+						check_variable = { race_menu_option_extra_open = 1 }
+					}
+					OR = {
+						check_variable = { race_social_attitudes = 1 }
+						check_variable = { race_social_attitudes = 2 }
+					}
+					has_political_power > 150
+				}
+			}
+			race_ideas_2_click_enabled = {
+				AND = {
+					NOT = {
+						check_variable = { race_menu_option_extra_open = 1 }
+					}
+					OR = {
+						check_variable = { race_social_attitudes = 1 }
+						check_variable = { race_social_attitudes = 2 }
+					}
+					has_political_power > 150
+				}
+			}
+			race_ideas_3_click_enabled = {
+				AND = {
+					NOT = {
+						check_variable = { race_menu_option_extra_open = 1 }
+					}
+					OR = {
+						check_variable = { race_social_attitudes = 2 }
+						check_variable = { race_social_attitudes = 3 }
+					}
+					has_political_power > 150
+				}
+			}
+			race_ideas_4_click_enabled = {
+				AND = {
+					NOT = {
+						check_variable = { race_menu_option_extra_open = 1 }
+					}
+					OR = {
+						check_variable = { race_social_attitudes = 3 }
+					}
+					has_political_power > 150
+				}
+			}
+			race_ideas_5_click_enabled = {
+				OR = {
+					check_variable = { race_social_attitudes = 3 }
+					check_variable = { race_social_attitudes = 4 }
+				}
+				has_political_power > 150
+			}
+			race_ideas_6_click_enabled = {
+				OR = {
+					check_variable = { race_social_attitudes = 4 }
+				}
+				has_political_power > 150
+			}
+        }
+	}
+	
 	Race_topbar =  {
 		window_name = "race_open_button"
 		context_type = player_context
@@ -1085,6 +1525,10 @@ scripted_gui = {
 	
 		}
 		
+		properties = {
+			race_button = { frame = Race_button_highlight }
+		}
+		
 		effects = {
 			race_button_click = {
 				if = {
@@ -1092,32 +1536,24 @@ scripted_gui = {
 						has_country_flag = Race_gui_open
 					}
 					clr_country_flag = Race_gui_open
+					set_variable = { Race_button_highlight = 1 }
 				}
 				else = {
 					set_country_flag = Race_gui_open
-				}
-			}	
-			race_button_dlc_click = {
-				if = {
-					limit = {
-						has_country_flag = Race_gui_open
-					}
-					clr_country_flag = Race_gui_open
-				}
-				else = {
-					set_country_flag = Race_gui_open
+					set_variable = { Race_button_highlight = 2 }
 				}
 			}
 		}
 	
 		triggers = {
-			race_button_visible = {
+			race_intel_agency_button_visible = {
 				NOT = {
 					has_dlc = "La Resistance"
 				}
             }
-			race_button_dlc_visible = {
-                has_dlc = "La Resistance"
+			race_intel_agency_button_click_enabled = {
+				always = no
             }
         }
 	}
+}

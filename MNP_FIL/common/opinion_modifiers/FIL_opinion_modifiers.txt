@@ -19,4 +19,8 @@ opinion_modifiers = {
 	EQU_Old_Allies = {
 		value = 50
 	}
+	#灭绝我们的民族
+	extinction_our_nation = {
+		value = -100
+	}
 }

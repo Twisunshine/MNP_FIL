@@ -1,0 +1,20 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			
+		}
+    }
+	
+	on_daily_CLK = {
+		effect = {
+			CLK_calculate_area_type = yes
+			CLK_calculate_occupied_area_progrees = yes
+		}
+	}
+
+	on_monthly_CLK = {
+		effect = {
+			
+		}
+	}
+}

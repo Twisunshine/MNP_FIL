@@ -57,6 +57,5 @@ news_event = {
 
 	option={
 		name = EQU_news_events.2.tt
-		add_political_power = 100
 	}
 }

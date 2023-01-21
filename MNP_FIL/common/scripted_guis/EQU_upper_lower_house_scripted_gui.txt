@@ -1,0 +1,463 @@
+scripted_gui = {	
+	upper_house = {
+		window_name = "upper_house"
+		context_type = player_context
+		
+		visible = {
+			TAG = EQU
+			has_country_flag = EQU_upper_house
+		}
+		
+		properties = {
+			bill_progress_time_1 = { frame = EQU_bill_progress_time^0 }
+			bill_progress_time_2 = { frame = EQU_bill_progress_time^1 }
+			bill_progress_time_3 = { frame = EQU_bill_progress_time^2 }
+			bill_progress_time_4 = { frame = EQU_bill_progress_time^3 }
+			bill_progress_time_5 = { frame = EQU_bill_progress_time^4 }
+			bill_progress_time_6 = { frame = EQU_bill_progress_time^5 }
+			bill_progress_time_7 = { frame = EQU_bill_progress_time^6 }
+			bill_progress_time_8 = { frame = EQU_bill_progress_time^7 }
+			bill_progress_time_9 = { frame = EQU_bill_progress_time^8 }
+			bill_progress_time_10 ={ frame = EQU_bill_progress_time^9 }
+			bill_progress_time_11 = { frame = EQU_bill_progress_time^10 }
+			bill_progress_time_12 = { frame = EQU_bill_progress_time^11 }
+			bill_progress_time_13 = { frame = EQU_bill_progress_time^12 }
+			bill_progress_time_14 = { frame = EQU_bill_progress_time^13 }
+			bill_progress_time_15 = { frame = EQU_bill_progress_time^14 }
+			bill_progress_time_16 = { frame = EQU_bill_progress_time^15 }
+			bill_progress_time_17 = { frame = EQU_bill_progress_time^16 }
+			bill_progress_time_18 = { frame = EQU_bill_progress_time^17 }
+			bill_progress_time_19 = { frame = EQU_bill_progress_time^18 }
+			bill_progress_time_20 = { frame = EQU_bill_progress_time^19 }
+			bill_progress_time_21 = { frame = EQU_bill_progress_time^20 }
+			bill_progress_time_22 = { frame = EQU_bill_progress_time^21 }
+			bill_progress_time_23 = { frame = EQU_bill_progress_time^22 }
+			bill_progress_time_24 = { frame = EQU_bill_progress_time^23 }
+			bill_progress_time_25 = { frame = EQU_bill_progress_time^24 }
+			bill_progress_time_26 = { frame = EQU_bill_progress_time^25 }
+			bill_progress_time_27 = { frame = EQU_bill_progress_time^26 }
+			bill_progress_time_28 = { frame = EQU_bill_progress_time^27 }
+			bill_progress_time_29 = { frame = EQU_bill_progress_time^28 }
+			bill_progress_time_30 = { frame = EQU_bill_progress_time^29 }
+			bill_progress_time_31 = { frame = EQU_bill_progress_time^30 }
+			bill_progress_time_32 = { frame = EQU_bill_progress_time^31 }
+			bill_progress_time_33 = { frame = EQU_bill_progress_time^32 }
+			bill_progress_time_34 = { frame = EQU_bill_progress_time^33 }
+			bill_progress_time_35 = { frame = EQU_bill_progress_time^34 }
+			bill_progress_time_36 = { frame = EQU_bill_progress_time^35 }
+			bill_progress_time_37 = { frame = EQU_bill_progress_time^36 }
+			bill_progress_time_38 = { frame = EQU_bill_progress_time^37 }
+			bill_progress_time_39 = { frame = EQU_bill_progress_time^38 }
+			bill_progress_time_40 = { frame = EQU_bill_progress_time^39 }
+			bill_progress_time_41 = { frame = EQU_bill_progress_time^40 }
+			bill_progress_time_42 = { frame = EQU_bill_progress_time^41 }
+			bill_progress_time_43 = { frame = EQU_bill_progress_time^42 }
+			bill_progress_time_44 = { frame = EQU_bill_progress_time^43 }
+			bill_progress_time_45 = { frame = EQU_bill_progress_time^44 }
+			bill_progress_time_46 = { frame = EQU_bill_progress_time^45 }
+			bill_progress_time_47 = { frame = EQU_bill_progress_time^46 }
+			bill_progress_time_48 = { frame = EQU_bill_progress_time^47 }
+			bill_progress_time_49 = { frame = EQU_bill_progress_time^48 }
+			bill_progress_time_50 = { frame = EQU_bill_progress_time^49 }
+			bill_progress_time_51 = { frame = EQU_bill_progress_time^50 }
+			bill_progress_time_52 = { frame = EQU_bill_progress_time^51 }
+			bill_progress_time_53 = { frame = EQU_bill_progress_time^52 }
+			bill_progress_time_54 = { frame = EQU_bill_progress_time^53 }
+			bill_progress_time_55 = { frame = EQU_bill_progress_time^54 }
+			bill_progress_time_56 = { frame = EQU_bill_progress_time^55 }
+			bill_progress_time_57 = { frame = EQU_bill_progress_time^56 }
+			bill_progress_time_58 = { frame = EQU_bill_progress_time^57 }
+			bill_progress_time_59 = { frame = EQU_bill_progress_time^58 }
+			bill_progress_time_60 = { frame = EQU_bill_progress_time^59 }
+			bill_progress_time_61 = { frame = EQU_bill_progress_time^60 }
+			bill_progress_time_62 = { frame = EQU_bill_progress_time^61 }
+			bill_progress_time_63 = { frame = EQU_bill_progress_time^62 }
+			bill_progress_time_64 = { frame = EQU_bill_progress_time^63 }
+			bill_progress_time_65 = { frame = EQU_bill_progress_time^64 }
+			bill_progress_time_66 = { frame = EQU_bill_progress_time^65 }
+			bill_progress_time_67 = { frame = EQU_bill_progress_time^66 }
+			bill_progress_time_68 = { frame = EQU_bill_progress_time^67 }
+			bill_progress_time_69 = { frame = EQU_bill_progress_time^68 }
+			bill_progress_time_70 = { frame = EQU_bill_progress_time^69 }
+			bill_progress_time_71 = { frame = EQU_bill_progress_time^70 }
+			bill_progress_time_72 = { frame = EQU_bill_progress_time^71 }
+			bill_progress_time_73 = { frame = EQU_bill_progress_time^72 }
+			bill_progress_time_74 = { frame = EQU_bill_progress_time^73 }
+			bill_progress_time_75 = { frame = EQU_bill_progress_time^74 }
+			bill_progress_time_76 = { frame = EQU_bill_progress_time^75 }
+			bill_progress_time_77 = { frame = EQU_bill_progress_time^76 }
+			bill_progress_time_78 = { frame = EQU_bill_progress_time^77 }
+			bill_progress_time_79 = { frame = EQU_bill_progress_time^78 }
+			bill_progress_time_80 = { frame = EQU_bill_progress_time^79 }
+			bill_progress_time_81 = { frame = EQU_bill_progress_time^80 }
+			bill_progress_time_82 = { frame = EQU_bill_progress_time^81 }
+			bill_progress_time_83 = { frame = EQU_bill_progress_time^82 }
+			bill_progress_time_84 = { frame = EQU_bill_progress_time^83 }
+			bill_progress_time_85 = { frame = EQU_bill_progress_time^84 }
+			bill_progress_time_86 = { frame = EQU_bill_progress_time^85 }
+			bill_progress_time_87 = { frame = EQU_bill_progress_time^86 }
+			bill_progress_time_88 = { frame = EQU_bill_progress_time^87 }
+			bill_progress_time_89 = { frame = EQU_bill_progress_time^88 }
+			bill_progress_time_90 = { frame = EQU_bill_progress_time^89 }
+			bill_progress_time_91 = { frame = EQU_bill_progress_time^90 }
+			bill_progress_time_92 = { frame = EQU_bill_progress_time^91 }
+			bill_progress_time_93 = { frame = EQU_bill_progress_time^92 }
+			bill_progress_time_94 = { frame = EQU_bill_progress_time^93 }
+			bill_progress_time_95 = { frame = EQU_bill_progress_time^94 }
+			bill_progress_time_96 = { frame = EQU_bill_progress_time^95 }
+			bill_progress_time_97 = { frame = EQU_bill_progress_time^96 }
+			bill_progress_time_98 = { frame = EQU_bill_progress_time^97 }
+			bill_progress_time_99 = { frame = EQU_bill_progress_time^98 }
+			bill_progress_time_100 = { frame = EQU_bill_progress_time^99 }
+
+			bill_progress_support_1 = { frame = EQU_bill_progress_support^0 }
+			bill_progress_support_2 = { frame = EQU_bill_progress_support^1 }
+			bill_progress_support_3 = { frame = EQU_bill_progress_support^2 }
+			bill_progress_support_4 = { frame = EQU_bill_progress_support^3 }
+			bill_progress_support_5 = { frame = EQU_bill_progress_support^4 }
+			bill_progress_support_6 = { frame = EQU_bill_progress_support^5 }
+			bill_progress_support_7 = { frame = EQU_bill_progress_support^6 }
+			bill_progress_support_8 = { frame = EQU_bill_progress_support^7 }
+			bill_progress_support_9 = { frame = EQU_bill_progress_support^8 }
+			bill_progress_support_10 ={ frame = EQU_bill_progress_support^9 }
+			bill_progress_support_11 = { frame = EQU_bill_progress_support^10 }
+			bill_progress_support_12 = { frame = EQU_bill_progress_support^11 }
+			bill_progress_support_13 = { frame = EQU_bill_progress_support^12 }
+			bill_progress_support_14 = { frame = EQU_bill_progress_support^13 }
+			bill_progress_support_15 = { frame = EQU_bill_progress_support^14 }
+			bill_progress_support_16 = { frame = EQU_bill_progress_support^15 }
+			bill_progress_support_17 = { frame = EQU_bill_progress_support^16 }
+			bill_progress_support_18 = { frame = EQU_bill_progress_support^17 }
+			bill_progress_support_19 = { frame = EQU_bill_progress_support^18 }
+			bill_progress_support_20 = { frame = EQU_bill_progress_support^19 }
+			bill_progress_support_21 = { frame = EQU_bill_progress_support^20 }
+			bill_progress_support_22 = { frame = EQU_bill_progress_support^21 }
+			bill_progress_support_23 = { frame = EQU_bill_progress_support^22 }
+			bill_progress_support_24 = { frame = EQU_bill_progress_support^23 }
+			bill_progress_support_25 = { frame = EQU_bill_progress_support^24 }
+			bill_progress_support_26 = { frame = EQU_bill_progress_support^25 }
+			bill_progress_support_27 = { frame = EQU_bill_progress_support^26 }
+			bill_progress_support_28 = { frame = EQU_bill_progress_support^27 }
+			bill_progress_support_29 = { frame = EQU_bill_progress_support^28 }
+			bill_progress_support_30 = { frame = EQU_bill_progress_support^29 }
+			bill_progress_support_31 = { frame = EQU_bill_progress_support^30 }
+			bill_progress_support_32 = { frame = EQU_bill_progress_support^31 }
+			bill_progress_support_33 = { frame = EQU_bill_progress_support^32 }
+			bill_progress_support_34 = { frame = EQU_bill_progress_support^33 }
+			bill_progress_support_35 = { frame = EQU_bill_progress_support^34 }
+			bill_progress_support_36 = { frame = EQU_bill_progress_support^35 }
+			bill_progress_support_37 = { frame = EQU_bill_progress_support^36 }
+			bill_progress_support_38 = { frame = EQU_bill_progress_support^37 }
+			bill_progress_support_39 = { frame = EQU_bill_progress_support^38 }
+			bill_progress_support_40 = { frame = EQU_bill_progress_support^39 }
+			bill_progress_support_41 = { frame = EQU_bill_progress_support^40 }
+			bill_progress_support_42 = { frame = EQU_bill_progress_support^41 }
+			bill_progress_support_43 = { frame = EQU_bill_progress_support^42 }
+			bill_progress_support_44 = { frame = EQU_bill_progress_support^43 }
+			bill_progress_support_45 = { frame = EQU_bill_progress_support^44 }
+			bill_progress_support_46 = { frame = EQU_bill_progress_support^45 }
+			bill_progress_support_47 = { frame = EQU_bill_progress_support^46 }
+			bill_progress_support_48 = { frame = EQU_bill_progress_support^47 }
+			bill_progress_support_49 = { frame = EQU_bill_progress_support^48 }
+			bill_progress_support_50 = { frame = EQU_bill_progress_support^49 }
+			bill_progress_support_51 = { frame = EQU_bill_progress_support^50 }
+			bill_progress_support_52 = { frame = EQU_bill_progress_support^51 }
+			bill_progress_support_53 = { frame = EQU_bill_progress_support^52 }
+			bill_progress_support_54 = { frame = EQU_bill_progress_support^53 }
+			bill_progress_support_55 = { frame = EQU_bill_progress_support^54 }
+			bill_progress_support_56 = { frame = EQU_bill_progress_support^55 }
+			bill_progress_support_57 = { frame = EQU_bill_progress_support^56 }
+			bill_progress_support_58 = { frame = EQU_bill_progress_support^57 }
+			bill_progress_support_59 = { frame = EQU_bill_progress_support^58 }
+			bill_progress_support_60 = { frame = EQU_bill_progress_support^59 }
+			bill_progress_support_61 = { frame = EQU_bill_progress_support^60 }
+			bill_progress_support_62 = { frame = EQU_bill_progress_support^61 }
+			bill_progress_support_63 = { frame = EQU_bill_progress_support^62 }
+			bill_progress_support_64 = { frame = EQU_bill_progress_support^63 }
+			bill_progress_support_65 = { frame = EQU_bill_progress_support^64 }
+			bill_progress_support_66 = { frame = EQU_bill_progress_support^65 }
+			bill_progress_support_67 = { frame = EQU_bill_progress_support^66 }
+			bill_progress_support_68 = { frame = EQU_bill_progress_support^67 }
+			bill_progress_support_69 = { frame = EQU_bill_progress_support^68 }
+			bill_progress_support_70 = { frame = EQU_bill_progress_support^69 }
+			bill_progress_support_71 = { frame = EQU_bill_progress_support^70 }
+			bill_progress_support_72 = { frame = EQU_bill_progress_support^71 }
+			bill_progress_support_73 = { frame = EQU_bill_progress_support^72 }
+			bill_progress_support_74 = { frame = EQU_bill_progress_support^73 }
+			bill_progress_support_75 = { frame = EQU_bill_progress_support^74 }
+			bill_progress_support_76 = { frame = EQU_bill_progress_support^75 }
+			bill_progress_support_77 = { frame = EQU_bill_progress_support^76 }
+			bill_progress_support_78 = { frame = EQU_bill_progress_support^77 }
+			bill_progress_support_79 = { frame = EQU_bill_progress_support^78 }
+			bill_progress_support_80 = { frame = EQU_bill_progress_support^79 }
+			bill_progress_support_81 = { frame = EQU_bill_progress_support^80 }
+			bill_progress_support_82 = { frame = EQU_bill_progress_support^81 }
+			bill_progress_support_83 = { frame = EQU_bill_progress_support^82 }
+			bill_progress_support_84 = { frame = EQU_bill_progress_support^83 }
+			bill_progress_support_85 = { frame = EQU_bill_progress_support^84 }
+			bill_progress_support_86 = { frame = EQU_bill_progress_support^85 }
+			bill_progress_support_87 = { frame = EQU_bill_progress_support^86 }
+			bill_progress_support_88 = { frame = EQU_bill_progress_support^87 }
+			bill_progress_support_89 = { frame = EQU_bill_progress_support^88 }
+			bill_progress_support_90 = { frame = EQU_bill_progress_support^89 }
+			bill_progress_support_91 = { frame = EQU_bill_progress_support^90 }
+			bill_progress_support_92 = { frame = EQU_bill_progress_support^91 }
+			bill_progress_support_93 = { frame = EQU_bill_progress_support^92 }
+			bill_progress_support_94 = { frame = EQU_bill_progress_support^93 }
+			bill_progress_support_95 = { frame = EQU_bill_progress_support^94 }
+			bill_progress_support_96 = { frame = EQU_bill_progress_support^95 }
+			bill_progress_support_97 = { frame = EQU_bill_progress_support^96 }
+			bill_progress_support_98 = { frame = EQU_bill_progress_support^97 }
+			bill_progress_support_99 = { frame = EQU_bill_progress_support^98 }
+			bill_progress_support_100 = { frame = EQU_bill_progress_support^99 }
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			upper_house_button_click = {
+				set_country_flag = EQU_upper_house
+				clr_country_flag = EQU_lower_house
+			}
+			lower_house_button_click = {
+				set_country_flag = EQU_lower_house
+				clr_country_flag = EQU_upper_house
+			}
+			off_button_click = {
+				clr_country_flag = EQU_upper_house
+				clr_country_flag = EQU_lower_house
+			}
+			
+			general_bill_1_click = {
+				set_variable = { EQU_upper_house_activ_bill = 1 }
+				EQU_set_upper_house_bill = yes
+			}
+			general_bill_2_click = {
+				set_variable = { EQU_upper_house_activ_bill = 2 }
+				EQU_set_upper_house_bill = yes
+			}
+			general_bill_3_click = {
+				set_variable = { EQU_upper_house_activ_bill = 3 }
+				EQU_set_upper_house_bill = yes
+			}
+			general_bill_4_click = {
+				set_variable = { EQU_upper_house_activ_bill = 4 }
+				EQU_set_upper_house_bill = yes
+			}
+			general_bill_5_click = {
+				set_variable = { EQU_upper_house_activ_bill = 5 }
+				EQU_set_upper_house_bill = yes
+			}
+			general_bill_6_click = {
+				set_variable = { EQU_upper_house_activ_bill = 6 }
+				EQU_set_upper_house_bill = yes
+			}
+			
+			bill_resolution_1_click = {
+				add_political_power = -25
+				add_to_variable = { EQU_upper_house_party_extra_value_1 = 1 }
+				EQU_calculate_upper_house_bill_support = yes
+				EQU_calculate_upper_house_bill_progress_support = yes
+			}
+			bill_resolution_2_click = {
+				add_political_power = -25
+				add_to_variable = { EQU_upper_house_party_extra_value_2 = 1 }
+				EQU_calculate_upper_house_bill_support = yes
+				EQU_calculate_upper_house_bill_progress_support = yes
+			}
+			bill_resolution_3_click = {
+				add_political_power = -25
+				add_to_variable = { EQU_upper_house_party_extra_value_3 = 1 }
+				EQU_calculate_upper_house_bill_support = yes
+				EQU_calculate_upper_house_bill_progress_support = yes
+			}
+			bill_resolution_4_click = {
+				add_political_power = -25
+				add_to_variable = { EQU_upper_house_party_extra_value_4 = 1 }
+				EQU_calculate_upper_house_bill_support = yes
+				EQU_calculate_upper_house_bill_progress_support = yes
+			}
+		}
+		
+		triggers = {
+			lower_house_button_click_enabled = {	
+				has_country_flag = EER_NOT
+				has_country_flag = EOM_NOT
+				has_country_flag = CLK_NOT
+            }
+			
+			general_bill_1_click_enabled = {
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+				NOT = {
+					has_idea = EQU_upper_house_general_bill_1
+				}
+			}
+			general_bill_2_click_enabled = {
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+				NOT = {
+					has_idea = EQU_upper_house_general_bill_2
+				}
+			}
+			general_bill_3_click_enabled = {
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+				NOT = {
+					has_idea = EQU_upper_house_general_bill_3
+				}
+			}
+			general_bill_4_click_enabled = {
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+				NOT = {
+					has_idea = EQU_upper_house_general_bill_4
+				}
+			}
+			general_bill_5_click_enabled = {
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+				NOT = {
+					has_idea = EQU_upper_house_general_bill_5
+				}
+			}
+			general_bill_6_click_enabled = {
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+				NOT = {
+					has_idea = EQU_upper_house_general_bill_6
+				}
+			}
+			
+			bill_resolution_1_click_enabled = {
+				has_political_power > 25
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+				NOT = {
+					check_variable = {
+						var = EQU_upper_house_party_extra_value_1
+						value = EQU_upper_house_party_1
+						compare = greater_than_or_equals
+					}
+					OR = {
+						has_country_flag = EQU_upper_house_endorsement
+					}
+				}
+            }
+			bill_resolution_2_click_enabled = {
+				has_political_power > 25
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+				NOT = {
+					check_variable = {
+						var = EQU_upper_house_party_extra_value_2
+						value = EQU_upper_house_party_2
+						compare = greater_than_or_equals
+					}
+					OR = {
+						has_country_flag = EQU_upper_house_endorsement
+					}
+				}
+            }
+			bill_resolution_3_click_enabled = {
+				has_political_power > 25
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+				NOT = {
+					check_variable = {
+						var = EQU_upper_house_party_extra_value_3
+						value = EQU_upper_house_party_3
+						compare = greater_than_or_equals
+					}
+					OR = {
+						has_country_flag = EQU_upper_house_endorsement
+					}
+				}
+            }
+			bill_resolution_4_click_enabled = {
+				has_political_power > 25
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+				NOT = {
+					check_variable = {
+						var = EQU_upper_house_party_extra_value_4
+						value = EQU_upper_house_party_4
+						compare = greater_than_or_equals
+					}
+					OR = {
+						has_country_flag = EQU_upper_house_endorsement
+					}
+				}
+            }
+        }
+	}
+	
+	lower_house = {
+		window_name = "lower_house"
+		context_type = player_context
+		
+		visible = {
+			TAG = EQU
+			has_country_flag = EQU_lower_house
+		}
+		
+		properties = {
+			
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			upper_house_button_click = {
+				set_country_flag = EQU_upper_house
+				clr_country_flag = EQU_lower_house
+			}
+			lower_house_button_click = {
+				set_country_flag = EQU_lower_house
+				clr_country_flag = EQU_upper_house
+			}
+			off_button_click = {
+				clr_country_flag = EQU_upper_house
+				clr_country_flag = EQU_lower_house
+			}
+		}
+		
+		triggers = {	
+			lower_house_button_click_enabled = {	
+				has_country_flag = EER_NOT
+				has_country_flag = EOM_NOT
+				has_country_flag = CLK_NOT
+            }
+        }
+	}
+	
+	upper_lower_house_window_open = {
+		window_name = "upper_lower_house_window_open"
+		context_type = player_context
+		
+		visible = {
+			TAG = EQU
+			has_completed_focus = EQU_2_1_2
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			upper_lower_house_open_button_click = {
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = EQU_upper_house
+							has_country_flag = EQU_lower_house
+						}
+					}
+					clr_country_flag = EQU_upper_house
+					clr_country_flag = EQU_lower_house
+				}
+				else = {
+					set_country_flag = EQU_upper_house
+				}
+			}
+		}
+		
+		triggers = {	
+			
+        }
+	}
+}

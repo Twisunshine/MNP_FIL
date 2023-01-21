@@ -1,0 +1,255 @@
+focus_tree = {
+	id = KIR_First_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KIR
+		}
+	}
+	default = no
+	focus = {
+		id = KIR_1_1_1
+		icon = GFX_KIR_1_1_1
+		cost = 2
+		x = 6
+		y = 1
+		
+		bypass = {
+			has_country_flag = KIR_Rain_Shine_sick
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = KIR_1_1_1_tooltip
+		}
+	}
+	focus = {
+		id = KIR_1_2_1
+		icon = GFX_KIR_1_2_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_1_1
+		}
+		x = 6
+		y = 2
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = KIR_1_3_1
+		icon = GFX_KIR_1_3_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_2_1
+		}
+		x = 6
+		y = 3
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = KIR_1_4_1
+		icon = GFX_KIR_1_4_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_3_1
+		}
+		x = 6
+		y = 4
+
+		completion_reward = {
+			add_popularity = {
+				ideology = despotism
+				popularity = -0.5
+			}
+		}
+	}
+	focus = {
+		id = KIR_1_5_1
+		icon = GFX_KIR_1_5_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_4_1
+		}
+		mutually_exclusive = {
+			focus = KIR_1_5_2
+		}
+		x = 3
+		y = 5
+
+		completion_reward = {
+			country_event = KIR_events.11
+		}
+	}
+	focus = {
+		id = KIR_1_6_1
+		icon = GFX_KIR_1_6_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_5_1
+		}
+		x = 2
+		y = 6
+
+		completion_reward = {
+			add_stability = 0.01
+		}
+	}
+	focus = {
+		id = KIR_1_6_2
+		icon = GFX_KIR_1_6_3
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_5_1
+		}
+		x = 4
+		y = 6
+
+		completion_reward = {
+			add_popularity = { ideology = despotism  popularity = 0.01 }
+		}
+	}
+	focus = {
+		id = KIR_1_5_2
+		icon = GFX_KIR_1_5_2
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_4_1
+		}
+		mutually_exclusive = {
+			focus = KIR_1_5_1
+		}
+		x = 9
+		y = 5
+
+		completion_reward = {
+			country_event = KIR_events.15
+		}
+	}
+	focus = {
+		id = KIR_1_6_3
+		icon = GFX_KIR_1_6_3
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_5_2
+		}
+		x = 8
+		y = 6
+
+		completion_reward = {
+			add_popularity = { ideology = despotism  popularity = -0.05 }
+		}
+	}
+	focus = {
+		id = KIR_1_6_4
+		icon = GFX_KIR_1_6_4
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_5_2
+		}
+		x = 10
+		y = 6
+
+		completion_reward = {
+			add_ideas = limited_exports
+		}
+	}
+	focus = {
+		id = KIR_1_7_2
+		icon = GFX_KIR_1_7_2
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_6_3
+		}
+		prerequisite = {
+			focus = KIR_1_6_4
+		}
+		x = 9
+		y = 7
+
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = { ideology = despotism  popularity = -0.1 }
+		}
+	}
+	focus = {
+		id = KIR_1_8_2
+		icon = GFX_KIR_1_8_2
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_7_2
+		}
+		x = 9
+		y = 8
+
+		completion_reward = {
+			country_event = KIR_events.16
+		}
+	}
+	focus = {
+		id = KIR_1_7_1
+		icon = GFX_KIR_1_7_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_6_1
+		}
+		prerequisite = {
+			focus = KIR_1_6_2
+		}
+		x = 3
+		y = 7
+
+		completion_reward = {
+			country_event = KIR_events.12
+		}
+	}
+	focus = {
+		id = KIR_1_8_1
+		icon = GFX_KIR_1_8_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_7_1
+		}
+		x = 3
+		y = 8
+
+		completion_reward = {
+			country_event = KIR_events.13
+		}
+	}
+	focus = {
+		id = KIR_1_9_1
+		icon = GFX_KIR_1_9_1
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_8_1
+		}
+		x = 3
+		y = 9
+
+		completion_reward = {
+			custom_effect_tooltip = KIR_1_9_1_tooltip
+			hidden_effect = {
+				country_event = KIR_events.14
+			}
+		}
+	}
+	focus = {
+		id = KIR_1_9_2
+		icon = GFX_KIR_1_9_2
+		cost = 2
+		prerequisite = {
+			focus = KIR_1_8_2
+		}
+		x = 9
+		y = 9
+
+		completion_reward = {
+			country_event = KIR_events.17
+		}
+	}
+}

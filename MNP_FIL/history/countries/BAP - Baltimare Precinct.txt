@@ -1,0 +1,48 @@
+﻿capital = 443
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.1
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 14
+	fascism = 10
+	despotism = 27
+	authoritarian_democracy = 25
+	liberal_democracy = 21
+	social_democracy = 2
+	socialism = 1
+	communism = 0
+}
+
+add_ideas = {
+	laws_ideas_1_3
+	laws_ideas_2_7
+	laws_ideas_3_4
+	laws_ideas_4_5
+	laws_ideas_5_1
+	laws_ideas_6_2
+	develop_ideas_1_4
+	develop_ideas_2_3
+	develop_ideas_3_3
+	develop_ideas_4_2
+	develop_ideas_5_3
+	develop_ideas_6_1
+	MAP_Stay_away_from_worm_nests_1
+	Regional_Rebellion_very_High
+	BAP_There_is_lot_of_opposition
+	BAP_Bloated_army
+	BAP_Empire_outcasts
+	BAP_Vast_wasteland
+}
+
+
+recruit_character = BAP_Benedict
+

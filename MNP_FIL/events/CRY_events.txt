@@ -1,0 +1,309 @@
+add_namespace = CRY_events
+
+
+country_event = {
+	id = CRY_events.1
+	title = CRY_events.1_t
+	desc = CRY_events.1_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.1_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.2
+	title = CRY_events.2_t
+	desc = CRY_events.2_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = { 
+		set_country_flag = CRY_Black_Crystal_problem
+
+	}
+
+	option={
+		name = CRY_events.2_tt
+		custom_effect_tooltip = CRY_Black_Crystal_problem_desc
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.3
+	title = CRY_events.3_t
+	desc = CRY_events.3_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.3_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.4
+	title = CRY_events.4_t
+	desc = CRY_events.4_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.4_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.5
+	title = CRY_events.5_t
+	desc = CRY_events.5_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.5_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.6
+	title = CRY_events.6_t
+	desc = CRY_events.6_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.6_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.7
+	title = CRY_events.7_t
+	desc = CRY_events.7_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.7_tt
+		add_popularity = {
+			ideology = authoritarian_democracy
+			popularity = 0.05
+		}
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.8
+	title = CRY_events.8_t
+	desc = CRY_events.8_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.8_tt
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.9
+	title = CRY_events.9_t
+	desc = CRY_events.9_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.9_tt
+		add_popularity = {
+			ideology = despotism
+			popularity = 0.05
+		}
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.10
+	title = CRY_events.10_t
+	desc = CRY_events.10_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.10_tt
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.11
+	title = CRY_events.11_t
+	desc = CRY_events.11_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.11_tt
+		add_popularity = {
+			ideology = liberal_democracy
+			popularity = 0.05
+		}
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.12
+	title = CRY_events.12_t
+	desc = CRY_events.12_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.12_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.13
+	title = CRY_events.13_t
+	desc = CRY_events.13_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.13_tt
+		
+    }
+	option={
+		name = CRY_events.13_ta
+		
+    }
+	option={
+		name = CRY_events.13_tb
+		
+    }
+	option={
+		name = CRY_events.13_tc
+		
+    }
+	option={
+		name = CRY_events.13_td
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.14
+	title = CRY_events.14_t
+	desc = CRY_events.14_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.14_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.15
+	title = CRY_events.15_t
+	desc = CRY_events.15_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.15_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.16
+	title = CRY_events.16_t
+	desc = CRY_events.16_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.16_tt
+		
+    }
+				
+}
+
+country_event = {
+	id = CRY_events.17
+	title = CRY_events.17_t
+	desc = CRY_events.17_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CRY_events.17_tt
+		
+    }
+				
+}

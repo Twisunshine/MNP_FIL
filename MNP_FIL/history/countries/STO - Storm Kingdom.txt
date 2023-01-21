@@ -56,18 +56,18 @@ set_popularities = {
 }
 
 add_ideas = {
-	all_adults_serve
-	tot_economic_mobilisation
-	closed_economy
-	fully_control
-	all_adults
-	restricted_citizenship
-	steampunk_era
-	smallholder_model
-	no_magic_creature
-	Flaws_do_not_hide_beauty
-	National_illiterate
-	Can_be_used
+	laws_ideas_1_6
+	laws_ideas_2_5
+	laws_ideas_3_5
+	laws_ideas_4_6
+	laws_ideas_5_2
+	laws_ideas_6_3
+	develop_ideas_1_3
+	develop_ideas_2_2
+	develop_ideas_3_1
+	develop_ideas_4_4
+	develop_ideas_5_1
+	develop_ideas_6_5
 }
 
 

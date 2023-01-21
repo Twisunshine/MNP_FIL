@@ -1,0 +1,2245 @@
+shared_focus = {
+	id = CLK_3_1_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	x = 15
+	y = 1
+	
+	allow_branch = {has_country_flag = CLK_third_stage}
+	
+	available = { 
+		has_country_flag = CLK_logistics_without_worry
+	}
+	
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = CLK_3_1_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	x = 29
+	y = 1
+
+	allow_branch = {has_country_flag = CLK_third_stage}
+	
+	available = { 
+		has_country_flag = CLK_logistics_without_worry
+	}
+	
+	completion_reward = {
+		add_tech_bonus = {
+			name = construction_tech
+			bonus = 1
+			uses = 1
+			category = construction_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_9_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	x = 24
+	y = 10
+	
+	allow_branch = {has_country_flag = CLK_third_stage}
+	
+	available = { 
+		has_country_flag = CLK_logistics_without_worry
+	}
+	
+	completion_reward = {
+		add_command_power = 100
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = CLK_3_2_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_1_1
+	}
+	x = 15
+	y = 2
+	
+	completion_reward = {
+		add_ideas = CLK_weapon_of_knowledge
+	}
+}
+shared_focus = {
+	id = CLK_3_3_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_2_1
+	}
+	x = 15
+	y = 3 
+
+	completion_reward = {
+		add_political_power = -100
+		add_stability = -0.05
+		swap_ideas = {
+			remove_idea = develop_ideas_5_2
+			add_idea = develop_ideas_5_3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_4_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_1
+	}
+	x = 11
+	y = 4
+
+	completion_reward = {
+		add_stability = 0.1
+	}
+}
+shared_focus = {
+	id = CLK_3_5_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_1
+	}
+	x = 10
+	y = 5
+
+	completion_reward = {
+		add_political_power = -100
+		add_stability = 0.15
+	}
+}
+shared_focus = {
+	id = CLK_3_5_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_1
+	}
+	x = 12
+	y = 5
+
+	completion_reward = {
+		add_popularity = {
+			ideology = dictatorshipism
+			popularity = 0.05
+		}
+		add_to_variable = {
+			var = CLK_militarist_faction_loyalty
+			value = 5
+			tooltip = CLK_add_5_to_militarist_faction_loyalty
+		}
+		country_event = CLK_events.8	
+	}
+}
+shared_focus = {
+	id = CLK_3_4_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_1
+	}
+	x = 15
+	y = 4
+
+	completion_reward = {
+		add_ideas = CLK_thought_education_1
+	}
+}
+shared_focus = {
+	id = CLK_3_5_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_2
+	}
+	x = 15
+	y = 5
+
+	completion_reward = {
+		country_event = CLK_events.10
+	}
+}
+shared_focus = {
+	id = CLK_3_6_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_3
+	}
+	x = 14
+	y = 6
+
+	completion_reward = {
+		add_war_support = 0.05
+	}
+}
+shared_focus = {
+	id = CLK_3_6_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_3
+	}
+	x = 16
+	y = 6
+
+	completion_reward = {
+		add_manpower = 15000
+	}
+}
+shared_focus = {
+	id = CLK_3_7_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_6_3
+	}
+	prerequisite = {
+		focus = CLK_3_6_4
+	}
+	x = 15
+	y = 7
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = CLK_thought_education_1
+			add_idea = CLK_thought_education_2
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_4_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_1
+	}
+	x = 19
+	y = 4
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			category = electronics
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_5_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_3
+	}
+	x = 18
+	y = 5
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = infantry_weapons
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_6_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_4
+	}
+	x = 18
+	y = 6
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = infantry_weapons
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_10_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_9_1
+	}
+	available = {
+		has_completed_focus = CLK_3_15_3
+	}
+	x = 18
+	y = 11
+
+	completion_reward = {
+		add_timed_idea = {
+			idea = CLK_three_month_dead_horse
+			days = 90
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_11_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_2
+	}
+	available = {
+		has_full_control_of_state = 465
+	}
+	x = 18
+	y = 12
+
+	completion_reward = {
+		433 = {
+			add_manpower = -50000
+		}
+		465 = {
+			add_manpower = -50000
+			add_compliance = 10
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_12_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_3
+	}
+	x = 17
+	y = 13
+
+	completion_reward = {
+		country_event = CLK_events.19
+	}
+}
+shared_focus = {
+	id = CLK_3_12_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_3
+	}
+	x = 19
+	y = 13
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_militarist_faction_power
+			value = -5
+			tooltip = CLK_minus_5_to_CLK_militarist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_conservativist_faction_power
+			value = 5
+			tooltip = CLK_add_5_to_conservativist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_conservativist_faction_loyalty
+			value = 5
+			tooltip = CLK_add_5_to_conservativist_faction_loyalty
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_13_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_4
+	}
+	prerequisite = {
+		focus = CLK_3_12_5
+	}
+	x = 18
+	y = 14
+
+	completion_reward = {
+		add_to_variable = {
+			var = race_mitigation
+			value = -1
+			tooltip = CLK_minus_1_race_mitigation
+		}
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_14_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_4
+	}
+	x = 17
+	y = 15
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+		465 = {
+			add_manpower = -500000
+			add_resistance = -10
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_14_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_4
+	}
+	x = 19
+	y = 15
+
+	completion_reward = {
+		465 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_15_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_3
+	}
+	prerequisite = {
+		focus = CLK_3_14_4
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_controll_occupied_area_5_tooltip		
+			check_variable = { occupied_region_5 = 1 }
+		}
+	}
+	x = 18
+	y = 16
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_5
+			value = 30
+			tooltip = CLK_add_30_to_CLK_occupied_area_colonization_5
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_5_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_3
+	}
+	x = 20
+	y = 5
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_6_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_5
+	}
+	x = 20
+	y = 6
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
+		}
+		add_manpower = -15000
+	}
+}
+shared_focus = {
+	id = CLK_3_7_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_6_5
+	}
+	prerequisite = {
+		focus = CLK_3_6_6
+	}
+	x = 19
+	y = 7
+
+	completion_reward = {
+		add_research_slot = 1
+		remove_ideas = CLK_weapon_of_knowledge
+	}
+}
+shared_focus = {
+	id = CLK_3_2_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_1_2
+	}
+	x = 25
+	y = 2
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = industry
+			bonus = 1
+			uses = 2
+			category = industry
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_3_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_2_2
+	}
+	mutually_exclusive = {
+		focus = CLK_3_3_3
+	}
+	x = 24
+	y = 3
+
+	completion_reward = {
+		15 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		417 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_4_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_2
+	}
+	x = 24
+	y = 4
+
+	completion_reward = {
+		add_ideas = CLK_each_performs_its_own_duty
+	}
+}
+shared_focus = {
+	id = CLK_3_3_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_2_2
+	}
+	mutually_exclusive = {
+		focus = CLK_3_3_2
+	}
+	x = 26
+	y = 3
+
+	completion_reward = {
+		15 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		417 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_4_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_3
+	}
+	x = 26
+	y = 4
+
+	completion_reward = {
+		353 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		386 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		397 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_5_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_3
+	}
+	prerequisite = {
+		focus = CLK_3_4_4
+		focus = CLK_3_4_5
+	}
+	mutually_exclusive = {
+		focus = CLK_3_5_7
+	}
+	x = 23
+	y = 5
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = electronics_tech
+			bonus = 1
+			uses = 1
+			category = electronics
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_6_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_6
+	}
+	x = 22
+	y = 6
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = construction_tech
+			bonus = 1
+			uses = 1
+			category = construction_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_6_8
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_6
+	}
+	x = 24
+	y = 6
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = excavation_tech
+			bonus = 1
+			uses = 1
+			category = excavation_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_5_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_4
+		focus = CLK_3_4_5
+	}
+	mutually_exclusive = {
+		focus = CLK_3_5_6
+	}
+	x = 27
+	y = 5
+
+	completion_reward = {
+		unlock_decision_category_tooltip = CLK_plundering_ponies
+		set_variable = { CLK_plunder_value = 0 }
+	}
+}
+shared_focus = {
+	id = CLK_3_6_9
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_7
+	}
+	x = 26
+	y = 6
+
+	completion_reward = {
+		add_political_power = -50
+		add_to_variable = {
+			var = CLK_plunder_value
+			value = 20
+			tooltip = CLK_add_20_to_plunder_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_10_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_9_1
+	}
+	available = {
+		has_completed_focus = CLK_3_15_2
+	}
+	x = 26
+	y = 11
+
+	completion_reward = {
+		add_timed_idea = {
+			idea = CLK_three_month_dead_horse
+			days = 90
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_11_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_4
+	}
+	available = {
+		has_full_control_of_state = 350
+	}
+	x = 26
+	y = 12
+
+	completion_reward = {
+		385 = {
+			add_manpower = -50000
+		}
+		450 = {
+			add_manpower = -75000
+			add_manpower = 50000
+			add_compliance = 10
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_12_8
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_5
+	}
+	x = 26
+	y = 13
+
+	completion_reward = {
+		350 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_13_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_8
+	}
+	x = 25
+	y = 14
+
+	completion_reward = {
+		350 = {
+			add_manpower = -25000
+			add_resistance = -10
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_13_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_8
+	}
+	x = 27
+	y = 14
+
+	completion_reward = {
+		350 = {
+			add_manpower = -3000
+		}
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_14_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_6
+	}
+	prerequisite = {
+		focus = CLK_3_13_7
+	}
+	x = 26
+	y = 15
+
+	completion_reward = {
+		add_political_power = 75
+		add_war_support = 0.05
+	}
+}
+shared_focus = {
+	id = CLK_3_15_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_7
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_controll_occupied_area_3_tooltip		
+			check_variable = { occupied_region_3 = 1 }
+		}
+	}
+	x = 26
+	y = 16
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_3
+			value = 30
+			tooltip = CLK_add_30_to_CLK_occupied_area_colonization_3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_6_10
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_7
+	}
+	x = 28
+	y = 6
+
+	completion_reward = {
+		add_stability = -0.1
+		add_to_variable = {
+			var = CLK_plunder_value
+			value = 20
+			tooltip = CLK_add_20_to_plunder_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_7_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_6_7
+		focus = CLK_3_6_9
+	}
+	prerequisite = {
+		focus = CLK_3_6_8
+		focus = CLK_3_6_10
+	}
+	x = 25
+	y = 7
+
+	completion_reward = {
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = CLK_3_5_7
+				}
+			}
+			swap_ideas = {
+				remove_idea = develop_ideas_1_2
+				add_idea = develop_ideas_1_3
+			}
+		}
+		else {
+			add_to_variable = {
+				var = CLK_plunder_value
+				value = 40
+				tooltip = CLK_add_40_to_plunder_value
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_2_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_1_2
+	}
+	x = 33
+	y = 2
+
+	completion_reward = {
+		country_event = CLK_events.11
+	}
+}
+shared_focus = {
+	id = CLK_3_3_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_2_3
+	}
+	mutually_exclusive = {
+		focus = CLK_3_3_5
+	}
+	x = 31
+	y = 3
+
+	completion_reward = {
+		add_to_array = { array = race_identify_value value = -3 index = 0 }
+		add_to_array = { array = race_identify_value value = -3 index = 1 }
+		add_to_array = { array = race_identify_value value = -3 index = 2 }
+		custom_effect_tooltip = CLK_minus_3_race_identify_0
+		custom_effect_tooltip = CLK_minus_3_race_identify_1
+		custom_effect_tooltip = CLK_minus_3_race_identify_2
+		add_war_support = 0.05 
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_4_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_4
+	}
+	x = 31
+	y = 4
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_5_8
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_6
+	}
+	x = 30
+	y = 5
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = infantry_weapons
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+        }
+		add_tech_bonus = {
+			name = land_doctrine
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+        }
+		add_tech_bonus = {
+			name = construction_tech
+			bonus = 0.5
+			uses = 1
+			category = construction_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_5_9
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_6
+	}
+	x = 32
+	y = 5
+
+	completion_reward = {
+		add_political_power = -150
+		swap_ideas = {
+			remove_idea = develop_ideas_2_2
+			add_idea = develop_ideas_2_3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_6_11
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_8
+	}
+	prerequisite = {
+		focus = CLK_3_5_9
+	}
+	x = 31
+	y = 6
+
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = CLK_3_7_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_6_11
+	}
+	x = 31
+	y = 7
+
+	completion_reward = {
+		country_event = CLK_events.12
+	}
+}
+shared_focus = {
+	id = CLK_3_3_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_2_3
+	}
+	mutually_exclusive = {
+		focus = CLK_3_3_4
+	}
+	x = 35
+	y = 3
+
+	completion_reward = {
+		add_to_variable = {
+			var = race_mitigation
+			value = -5
+			tooltip = CLK_minus_5_race_mitigation
+		}
+		add_war_support = 0.2
+	}
+}
+shared_focus = {
+	id = CLK_3_4_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_5
+	}
+	x = 34
+	y = 4
+
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = CLK_3_4_8
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_3_5
+	}
+	x = 36
+	y = 4
+
+	completion_reward = {
+		add_to_array = { array = race_identify_value value = -5 index = 0 }
+		add_to_array = { array = race_identify_value value = -5 index = 1 }
+		add_to_array = { array = race_identify_value value = -5 index = 2 }
+		custom_effect_tooltip = CLK_minus_5_race_identify_0
+		custom_effect_tooltip = CLK_minus_5_race_identify_1
+		custom_effect_tooltip = CLK_minus_5_race_identify_2
+		add_to_variable = {
+			var = CLK_love_value
+			value = 10	
+			tooltip = CLK_add_10_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_5_10
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_4_7
+	}
+	prerequisite = {
+		focus = CLK_3_4_8
+	}
+	x = 35
+	y = 5
+
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CLK_3_6_12
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_10
+	}
+	x = 34
+	y = 6
+
+	completion_reward = {
+		add_to_array = { array = race_identify_value value = -5 index = 6 }
+		custom_effect_tooltip = CLK_minus_5_race_identify_6
+		add_to_array = { array = race_identify_value value = -5 index = 9 }
+		custom_effect_tooltip = CLK_minus_5_race_identify_9
+		add_to_variable = {
+			var = CLK_love_value
+			value = 30
+			tooltip = CLK_add_30_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_6_13
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_10
+	}
+	x = 36
+	y = 6
+
+	completion_reward = {
+		add_opinion_modifier = {
+			target = HAI
+			modifier = extinction_our_nation
+		}
+		add_opinion_modifier = {
+			target = FAR
+			modifier = extinction_our_nation
+		}
+		add_to_variable = {
+			var = CLK_love_value
+			value = 30
+			tooltip = CLK_add_30_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_7_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_6_12
+	}
+	prerequisite = {
+		focus = CLK_3_6_13
+	}
+	x = 35
+	y = 7
+
+	completion_reward = {
+		remove_ideas = CLK_The_consequences_of_overexpansion_1
+		swap_ideas = {
+				remove_idea = develop_ideas_2_2
+				add_idea = develop_ideas_2_3
+			}
+	}
+}
+shared_focus = {
+	id = CLK_3_6_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_1
+	}
+	x = 10
+	y = 6
+
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+		country_event = CLK_events.7
+	}
+}
+shared_focus = {
+	id = CLK_3_6_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_5_2
+	}
+	x = 12
+	y = 6
+
+	completion_reward = {
+		add_political_power = 100
+		add_war_support = 0.05
+	}
+}
+shared_focus = {
+	id = CLK_3_7_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_6_1
+	}
+	prerequisite = {
+		focus = CLK_3_6_2
+	}
+	x = 11
+	y = 7
+
+	completion_reward = {
+		country_event = CLK_events.9
+	}
+}
+shared_focus = {
+	id = CLK_3_8_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_7_2
+	}
+	prerequisite = {
+		focus = CLK_3_7_1
+	}
+	prerequisite = {
+		focus = CLK_3_7_3
+	}
+	x = 15
+	y = 8
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = develop_ideas_5_3
+			add_idea = develop_ideas_5_4
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_12_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_1
+	}
+	x = 11
+	y = 13
+
+	completion_reward = {
+		custom_effect_tooltip = CLK_west_equestria_minus_10_resistance
+			hidden_effect = {
+				340 = {
+					add_resistance = -10
+				} 
+				381 = {
+					add_resistance = -10
+				} 
+				423 = {
+					add_resistance = -10
+				} 
+				368 = {
+					add_resistance = -10
+				} 
+				393 = {
+					add_resistance = -10
+				} 
+				158 = {
+					add_resistance = -10
+				} 
+				349 = {
+					add_resistance = -10
+				} 
+				352 = {
+					add_resistance = -10
+				} 
+				406 = {
+					add_resistance = -10
+				} 
+				384 = {
+					add_resistance = -10
+				} 
+				401 = {
+					add_resistance = -10
+				} 
+				409 = {
+					add_resistance = -10
+				} 
+				332 = {
+					add_resistance = -10
+				}
+				458 = {
+					add_resistance = -10
+				}
+			}
+			add_manpower = -5000
+	}
+}
+shared_focus = {
+	id = CLK_3_10_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_9_1
+	}
+	x = 14
+	y = 11
+
+	completion_reward = {
+		add_manpower = -3000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -500
+		}
+		add_command_power = -25
+		add_to_variable = { CLK_Thorax_rebellion = -1 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+	}
+}
+shared_focus = {
+	id = CLK_3_11_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_1
+	}
+	x = 12
+	y = 12
+
+	completion_reward = {
+		custom_effect_tooltip = CLK_west_equestria_minus_10_compliance
+		custom_effect_tooltip = CLK_west_equestria_minus_10_resistance
+		hidden_effect = {
+			340 = {
+				add_resistance = -10
+			} 
+			381 = {
+				add_resistance = -10
+			} 
+			423 = {
+				add_resistance = -10
+			} 
+			368 = {
+				add_resistance = -10
+			} 
+			393 = {
+				add_resistance = -10
+			} 
+			158 = {
+				add_resistance = -10
+			} 
+			349 = {
+				add_resistance = -10
+			} 
+			352 = {
+				add_resistance = -10
+			} 
+			406 = {
+				add_resistance = -10
+			} 
+			384 = {
+				add_resistance = -10
+			} 
+			401 = {
+				add_resistance = -10
+			} 
+			409 = {
+				add_resistance = -10
+			} 
+			332 = {
+				add_resistance = -10
+			}
+			458 = {
+				add_resistance = -10
+			}
+			340 = {
+				add_compliance = -10
+			} 
+			381 = {
+				add_compliance = -10
+			} 
+			423 = {
+				add_compliance = -10
+			} 
+			368 = {
+				add_compliance = -10
+			} 
+			393 = {
+				add_compliance = -10
+			} 
+			158 = {
+				add_compliance = -10
+			} 
+			349 = {
+				add_compliance = -10
+			} 
+			352 = {
+				add_compliance = -10
+			} 
+			406 = {
+				add_compliance = -10
+			} 
+			384 = {
+				add_compliance = -10
+			} 
+			401 = {
+				add_compliance = -10
+			} 
+			409 = {
+				add_compliance = -10
+			} 
+			332 = {
+				add_compliance = -10
+			}
+			458 = {
+				add_compliance = -10
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_12_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_1
+	}
+	x = 13
+	y = 13
+
+	completion_reward = {
+		add_manpower = 500
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 50
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_13_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_1
+	}
+	x = 11
+	y = 14
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = military_police_tech
+			bonus = 0.5
+			uses = 2
+			category = military_police_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_13_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_2
+	}
+	x = 13
+	y = 14
+
+	completion_reward = {
+		country_event = CLK_events.15
+	}
+}
+shared_focus = {
+	id = CLK_3_14_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_1
+	}
+	prerequisite = {
+		focus = CLK_3_13_2
+	}
+	x = 12
+	y = 15
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_1
+			value = 5
+			tooltip = CLK_add_5_to_CLK_occupied_area_colonization_1
+		}
+		country_event = CLK_events.16
+	}
+}
+shared_focus = {
+	id = CLK_3_11_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_1
+	}
+	x = 15
+	y = 12
+
+	completion_reward = {
+		add_popularity = {
+			ideology = liberal_democracy
+			popularity = -0.05
+		}
+		add_to_variable = { CLK_Thorax_rebellion = -1 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+	}
+}
+shared_focus = {
+	id = CLK_3_12_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_2
+	}
+	x = 15
+	y = 13
+
+	completion_reward = {
+		country_event = CLK_events.17
+		add_to_variable = { CLK_Thorax_rebellion = -1 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+	}
+}
+shared_focus = {
+	id = CLK_3_13_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_3
+	}
+	x = 15
+	y = 14
+
+	completion_reward = {
+		add_to_variable = {
+			var = race_mitigation
+			value = -1
+			tooltip = CLK_minus_1_race_mitigation
+		}
+		add_to_variable = { CLK_Thorax_rebellion = -1 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+	}
+}
+shared_focus = {
+	id = CLK_3_14_2
+	icon = GFX_goal_unknown
+	cost = 2.00
+	available = {
+	
+	}
+	prerequisite = {
+		focus = CLK_3_13_3
+	}
+	x = 15
+	y = 15
+
+	completion_reward = {
+		409 = {
+			add_manpower = -50000
+		}
+		add_to_variable = { CLK_Thorax_rebellion = -1 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+	}
+}
+shared_focus = {
+	id = CLK_3_15_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_1
+	}
+	prerequisite = {
+		focus = CLK_3_14_2
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_controll_occupied_area_1_tooltip		
+			check_variable = { occupied_region_1 = 1 }
+		}
+	}
+	x = 14
+	y = 16
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_1
+			value = 10
+			tooltip = CLK_add_10_to_CLK_occupied_area_colonization_1
+		}
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+		add_to_variable = { CLK_Thorax_rebellion = -3 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_minus_3_to_thorax_rebellion
+		add_manpower = -5000
+		
+	}
+}
+shared_focus = {
+	id = CLK_3_12_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_4
+	}
+	x = 21
+	y = 13
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = construction_tech
+			bonus = 1
+			uses = 1
+			category = construction_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_12_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_4
+	}
+	x = 23
+	y = 13
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 1
+			uses = 1
+			category = land_doctrine
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_11_4
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_3
+	}
+	x = 22
+	y = 12
+
+	completion_reward = {
+		add_timed_idea = {
+			idea = CLK_three_month_dead_horse
+			days = 90
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_10_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_9_1
+	}
+	x = 22
+	y = 11
+
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_13_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_6
+	}
+	prerequisite = {
+		focus = CLK_3_12_7
+	}
+	x = 22
+	y = 14
+
+	completion_reward = {
+		country_event = CLK_events.18
+	}
+}
+shared_focus = {
+	id = CLK_3_14_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	available = {
+		has_full_control_of_state = 229
+	}
+	prerequisite = {
+		focus = CLK_3_13_5
+	}
+	x = 21
+	y = 15
+
+	completion_reward = {
+		429 = {
+			add_manpower = -50000
+		}
+		229 = {
+			add_manpower = -50000
+			add_compliance = 10
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_14_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_5
+	}
+	x = 23
+	y = 15
+
+	completion_reward = {
+		270 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_15_3
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_5
+	}
+	prerequisite = {
+		focus = CLK_3_14_6
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_controll_occupied_area_2_tooltip		
+			check_variable = { occupied_region_2 = 1 }
+		}
+	}
+	x = 22
+	y = 16
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_2
+			value = 30
+			tooltip = CLK_add_30_to_CLK_occupied_area_colonization_2
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_10_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_9_1
+	}
+	available = {
+		has_completed_focus = CLK_3_15_4
+	}
+	x = 30
+	y = 11
+
+	completion_reward = {
+		add_timed_idea = {
+			idea = CLK_three_month_dead_horse
+			days = 90
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_11_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_5
+	}
+	x = 30
+	y = 12
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = cat_special_forces_generic
+			bonus = 1
+			uses = 1
+			category = cat_special_forces_generic
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_12_9
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_6
+	}
+	x = 29
+	y = 13
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_love_value
+			value = 20
+			tooltip = CLK_add_20_to_love_value
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_12_10
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_6
+	}
+	x = 31
+	y = 13
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = CLK_3_13_8
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_9
+	}
+	prerequisite = {
+		focus = CLK_3_12_10
+	}
+	x = 30
+	y = 14
+
+	completion_reward = {
+		country_event = CLK_events.20
+	}
+}
+shared_focus = {
+	id = CLK_3_14_8
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_8
+	}
+	available = {
+		has_full_control_of_state = 11
+	}
+	x = 29
+	y = 15
+
+	completion_reward = {
+		create_ship = {
+			type = battleship
+			equipment_variant = "战列舰"
+			creator = EQU
+		}
+		create_ship = {
+			type = battleship
+			equipment_variant = "战列舰"
+			creator = EQU
+		}
+		create_ship = {
+			type = battleship
+			equipment_variant = "战列舰"
+			creator = EQU
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_14_9
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_8
+	}
+	x = 31
+	y = 15
+
+	completion_reward = {
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.05
+		}
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id = CLK_3_15_5
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_8
+	}
+	x = 29
+	y = 16
+
+	completion_reward = {
+		navy_experience = 100
+	}
+}
+shared_focus = {
+	id = CLK_3_15_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_9
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_controll_occupied_area_4_tooltip		
+			check_variable = { occupied_region_4 = 1 }
+		}
+	}
+	x = 31
+	y = 16
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_4
+			value = 15
+			tooltip = CLK_add_15_to_CLK_occupied_area_colonization_4
+		}
+		country_event = CLK_events.23
+	}
+}
+shared_focus = {
+	id = CLK_3_10_6
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_9_1
+	}
+	available = {
+		has_completed_focus = CLK_3_15_4
+	}
+	x = 34
+	y = 11
+
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = CLK_3_11_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_10_6
+	}
+	available = {
+		has_full_control_of_state = 443
+	}
+	x = 34
+	y = 12
+
+	completion_reward = {
+		443 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_12_11
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_11_7
+	}
+	x = 34
+	y = 13
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = construction_tech
+			bonus = 1
+			uses = 1
+			category = construction_tech
+        }
+	}
+}
+shared_focus = {
+	id = CLK_3_13_9
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_12_11
+	}
+	x = 34
+	y = 14
+
+	completion_reward = {
+		country_event = CLK_events.21
+	}
+}
+shared_focus = {
+	id = CLK_3_14_10
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_9
+	}
+	x = 33
+	y = 15
+
+	completion_reward = {
+		add_political_power = 75
+		country_event = CLK_events.22
+	}
+}
+shared_focus = {
+	id = CLK_3_14_11
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_13_9
+	}
+	x = 35
+	y = 15
+
+	completion_reward = {
+		add_stability = 0.05
+		add_to_variable = {
+			var = CLK_conservativist_faction_power
+			value = -5
+			tooltip = CLK_minus_5_to_conservativist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_royalist_faction_power
+			value = 5
+			tooltip = CLK_add_5_to_royalist_faction_power
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_15_7
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_14_10
+	}
+	prerequisite = {
+		focus = CLK_3_14_11
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_controll_occupied_area_6_tooltip		
+			check_variable = { occupied_region_6 = 1 }
+		}
+	}
+	x = 34
+	y = 16
+
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_6
+			value = 5
+			tooltip = CLK_add_5_to_CLK_occupied_area_colonization_6
+		}
+	}
+}
+shared_focus = {
+	id = CLK_3_16_1
+	icon = GFX_goal_unknown
+	cost = 2.00
+	prerequisite = {
+		focus = CLK_3_15_1
+	}
+	prerequisite = {
+		focus = CLK_3_15_2
+	}
+	prerequisite = {
+		focus = CLK_3_15_3
+	}
+	prerequisite = {
+		focus = CLK_3_15_4
+	}
+	prerequisite = {
+		focus = CLK_3_15_5
+	}
+	prerequisite = {
+		focus = CLK_3_15_6
+	}
+	prerequisite = {
+		focus = CLK_3_15_7
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CLK_occupy_whole_territory_tooltip		
+			check_variable = { occupied_region_1 = 1 }
+			check_variable = { occupied_region_2 = 1 }
+			check_variable = { occupied_region_3 = 1 }
+			check_variable = { occupied_region_4 = 1 }
+			check_variable = { occupied_region_5 = 1 }
+			check_variable = { occupied_region_6 = 1 }
+		}
+	}
+	x = 24
+	y = 17
+
+	completion_reward = {
+		custom_effect_tooltip = CLK_3_16_1_tooltip
+		hidden_effect={ load_focus_tree = CLK_Fourth_Stage }
+		mark_focus_tree_layout_dirty = yes
+	}
+}

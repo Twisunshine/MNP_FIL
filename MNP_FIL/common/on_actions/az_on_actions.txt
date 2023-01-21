@@ -178,57 +178,5 @@ on_actions = {
 			}
 		}
 	}
-	on_annex = {
-		effect = {
-			if = {
-				limit = {
-					original_tag = SOE
-				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { country_exists = EQU }
-							owns_state = 11
-						}
-					}
-					SOE = {
-						country_event = SOE.11
-					}
-				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { country_exists = EOM }
-							owns_state = 350
-						}
-					}
-					SOE = {
-						country_event = SOE.12
-					}
-				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { country_exists = EER }
-							owns_state = 304
-						}
-					}
-					SOE = {
-						country_event = SOE.5
-					}
-				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { country_exists = CRY }
-							owns_state = 147
-						}
-					}
-					SOE = {
-						country_event = SOE.6
-					}
-				}
-			}
-		}
-	}
+	
 }

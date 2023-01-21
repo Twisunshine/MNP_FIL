@@ -1,0 +1,11 @@
+spriteTypes = {	
+		#### Leader trait icons ####
+
+	spriteType = {
+		name = "GFX_trait_not_skilled_in_military"
+		texturefile = "gfx/interface/traits/personal/trait_not_skilled_in_military.dds"
+	}			
+		
+	
+
+}

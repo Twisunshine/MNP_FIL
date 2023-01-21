@@ -1,0 +1,488 @@
+ideas = {
+	country = {
+		#蹄上明珠
+        SMA_Apple_of_my_eye = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				political_power_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+		    }
+        }
+		#复刻西艾模式
+        SMA_Fork_western_Equestria_mode = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				resistance_growth = -0.05
+				compliance_growth = 0.05
+				non_core_manpower = 0.1
+				conscription_factor = -0.15
+		    }
+        }
+		SMA_Fork_western_Equestria_mode_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				resistance_growth = -0.15
+				compliance_growth = 0.15
+				non_core_manpower = 0.1
+				conscription_factor = -0.15
+				monthly_population = -0.15
+		    }
+        }
+		#普遍裙带关系
+        SMA_Universal_nepotism = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				political_power_cost = -0.1
+				production_factory_max_efficiency_factor = -0.15
+				army_org_factor = -0.1
+				army_defence_factor = -0.1
+		    }
+        }
+		SMA_Universal_nepotism_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				political_power_cost = -0.1
+				production_factory_max_efficiency_factor = -0.15
+		    }
+        }
+		
+		#产业化移民
+        SMA_Industrial_immigration = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				consumer_goods_factor = -0.05
+				monthly_population = 0.15
+		    }
+        }
+		SMA_Industrial_immigration_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				consumer_goods_factor = -0.15
+				monthly_population = 0.30
+				industrial_capacity_factory = 0.05
+		    }
+        }
+		
+		#庸虫自扰
+        SMA_Quacks_disturb_themselves = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = /
+            modifier = {
+				stability_factor = 0.2
+				industrial_capacity_factory = -0.15
+		    }
+        }
+	
+		#邪茧拨款
+		SMA_Chrysalis_appropriation = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_Chrysalis_appropriation
+			
+            modifier = {
+				political_power_factor = 0.1
+				consumer_goods_factor = -0.05
+		    }
+        }
+		SMA_Chrysalis_appropriation_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_Chrysalis_appropriation
+			
+            modifier = {
+				political_power_factor = 0.1
+				consumer_goods_factor = -0.05
+				supply_consumption_factor = -0.1
+		    }
+        }
+		
+		#虚情假意
+		SMA_hypocrisy = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_hypocrisy
+			
+            modifier = {
+				industrial_capacity_factory = 0.10
+		    }
+        }
+		
+		#企业计划
+		SMA_business_plan = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_business_plan
+			
+            modifier = {
+				political_power_gain = 0.25
+		    }
+        }
+		SMA_business_plan_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_business_plan
+			
+            modifier = {
+				political_power_gain = 0.25
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.10
+		    }
+        }
+		SMA_business_plan_3 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_business_plan
+			
+            modifier = {
+				political_power_gain = 0.25
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.10
+		    }
+        }
+		SMA_business_plan_4 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_business_plan
+			
+            modifier = {
+				political_power_gain = 0.25
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.20
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_buildings_factor = 0.10
+		    }
+        }
+		
+		#本土企业
+		SMA_Local_enterprise = {
+            allowed = {
+			    original_tag = SMA
+		    }
+			
+			cancel = {
+				has_government = authoritarian_democracy
+			}
+			
+            removal_cost = -1
+            picture = SMA_Local_enterprise
+			
+            modifier = {
+				consumer_goods_factor = -0.07
+		    }
+        }
+		
+		
+		
+		
+		
+		
+		
+		#游击队之魂
+		SMA_guerrilla_soul = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_guerrilla_soul
+			
+            modifier = {
+				max_surrender_limit_offset = 0.50
+				army_attack_factor = 0.15
+				army_morale_factor = 0.10
+				supply_consumption_factor = -0.15
+				no_supply_grace = 144
+		    }
+        }
+		
+		#忏悔
+		SMA_repent = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_repent
+			
+            modifier = {
+				stability_factor = 0.15
+				industrial_capacity_factory = -0.05
+		    }
+        }
+		SMA_repent_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_repent
+			
+            modifier = {
+				stability_factor = 0.15
+				industrial_capacity_factory = -0.05
+				conscription_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.10
+		    }
+        }
+		
+		#殚精竭虑
+		SMA_cudgel_our_brains = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_cudgel_our_brains
+			
+            modifier = {
+				political_power_factor = -0.10
+				stability_factor = -0.25
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				research_speed_factor = -0.10
+				army_morale_factor = 0.15
+		    }
+        }
+		
+		#临阵倒戈
+		SMA_get_cold_feet = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_get_cold_feet
+			
+            modifier = {
+				non_core_manpower = 0.15
+		    }
+        }
+		
+		#保守派的帮助
+		SMA_help_from_conservatives = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_help_from_conservatives
+			
+            modifier = {
+				political_power_factor = -0.20
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.10
+		    }
+        }
+		
+		#破釜沉舟
+		SMA_fight_to_death = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_fight_to_death
+			
+            modifier = {
+				stability_factor = -0.05
+				operative_slot = 1
+		    }
+        }
+		SMA_fight_to_death_2 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_fight_to_death
+			
+            modifier = {
+				stability_factor = -0.05
+				operative_slot = 1
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.10
+				monthly_population = -0.15
+		    }
+        }
+		SMA_fight_to_death_3 = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_fight_to_death
+			
+            modifier = {
+				stability_factor = -0.30
+				operative_slot = 1
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.10
+				army_attack_factor = 0.10
+				army_morale_factor = 0.10
+				monthly_population = -0.15
+				non_core_manpower = -0.20
+				resistance_growth = -0.20
+		    }
+        }
+		
+		#官方意识形态
+		SMA_official_ideology = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_official_ideology
+			
+            modifier = {
+				stability_factor = 0.05
+				communism_drift = -0.02
+				socialism_drift = -0.02
+				fascism_drift = -0.02
+				dictatorshipism_drift = -0.02
+		    }
+        }
+		
+		#稚嫩的议会
+		SMA_immature_parliament = {
+            allowed = {
+			    original_tag = SMA
+		    }
+
+            removal_cost = -1
+            picture = SMA_immature_parliament
+			
+            modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+		    }
+        }
+		
+		
+		
+		
+	}
+}

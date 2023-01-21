@@ -28,7 +28,18 @@ set_popularities = {
 }
 
 add_ideas = {
-		
+	laws_ideas_1_6
+	laws_ideas_2_2
+	laws_ideas_3_5
+	laws_ideas_4_6
+	laws_ideas_5_2
+	laws_ideas_6_2
+	develop_ideas_1_6
+	develop_ideas_2_6
+	develop_ideas_3_6
+	develop_ideas_4_6
+	develop_ideas_5_6
+	develop_ideas_6_6
 }
 
 

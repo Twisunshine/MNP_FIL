@@ -1,0 +1,307 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			set_variable = { global.race_refresh_time = 1 }			# 刷新时间间隔
+			set_variable = { global.race_refresh_check_1 = 2 }
+			set_variable = { global.race_clock = 3 }
+			
+			every_country = {
+				if = {
+					limit = {										# 如果国家设定了种族系统
+						OR = {
+							TAG = CLK
+							TAG = CHI
+							TAG = CRY
+							TAG = EQU
+							TAG = EOM
+							TAG = EER
+							TAG = KIR
+						}
+					}
+					setting_race_start = yes						# 开局基础设定
+				}
+			}
+		
+			EQU = {
+				add_to_array = { array = race_value value = 30 index = 0 }				# 种族占比 种族1 / 100 = 100%
+				add_to_array = { array = race_identify_value value = 100 index = 0 } 	# 种族认同 种族1 / 100 = 100%
+				add_to_array = { array = race_main value = 1 index = 0 }				# 种族主体 种族1
+				
+				add_to_array = { array = race_value value = 30 index = 1 }
+				add_to_array = { array = race_identify_value value = 100 index = 1 }
+				add_to_array = { array = race_main value = 1 index = 1 }
+				
+				add_to_array = { array = race_value value = 30 index = 2 }
+				add_to_array = { array = race_identify_value value = 100 index = 2 }
+				add_to_array = { array = race_main value = 1 index = 2 }
+				
+				add_to_array = { array = race_value value = 9  index = 3 }
+				add_to_array = { array = race_identify_value value = 50 index = 3 }
+				add_to_array = { array = race_main value = 0 index = 3 }
+				
+				add_to_array = { array = race_value value = 1  index = 11 }
+				add_to_array = { array = race_identify_value value = 70 index = 11 }
+				add_to_array = { array = race_main value = 0 index = 11 }
+
+				set_variable = { race_mitigation = 60 }	#民族缓和性 0~100(%)
+				set_variable = { race_red_value = 30 } #民族红值-接纳程度
+				set_variable = { race_blue_value = 30 } #民族蓝值-极端程度
+			}
+			
+			CLK = {
+				add_to_array = { array = race_value value = 8 index = 0 }
+				add_to_array = { array = race_identify_value value = 15 index = 0 }
+				add_to_array = { array = race_main value = 0 index = 0 }
+				
+				add_to_array = { array = race_value value = 8  index = 1 }
+				add_to_array = { array = race_identify_value value = 15 index = 1 }
+				add_to_array = { array = race_main value = 0 index = 1 }
+			
+				add_to_array = { array = race_value value = 8 index = 2 }
+				add_to_array = { array = race_identify_value value = 15 index = 2 }
+				add_to_array = { array = race_main value = 0 index = 2 }
+				
+				add_to_array = { array = race_value value = 70 index = 5 }				
+				add_to_array = { array = race_identify_value value = 100 index = 5 } 	
+				add_to_array = { array = race_main value = 1 index = 5 }	
+				
+				add_to_array = { array = race_value value = 5 index = 6 }
+				add_to_array = { array = race_identify_value value = 40 index = 6 }
+				add_to_array = { array = race_main value = 0 index = 6 }
+				
+				add_to_array = { array = race_value value = 1 index = 9 }
+				add_to_array = { array = race_identify_value value = 40 index = 9 }
+				add_to_array = { array = race_main value = 0 index = 9 }
+				
+				set_variable = { race_mitigation = 20 }
+				set_variable = { race_red_value = 0 }
+				set_variable = { race_blue_value = 55 }
+			}
+			
+			CHI = {
+				add_to_array = { array = race_value value = 67  index = 2 }
+				add_to_array = { array = race_identify_value value = 100 index = 2 }
+				add_to_array = { array = race_main value = 1 index = 2 }
+				
+				add_to_array = { array = race_value value = 3  index = 6 }
+				add_to_array = { array = race_identify_value value = 50 index = 6 }
+				add_to_array = { array = race_main value = 0 index = 6 }
+				
+				add_to_array = { array = race_value value = 19  index = 12 }
+				add_to_array = { array = race_identify_value value = 80 index = 12 }
+				add_to_array = { array = race_main value = 0 index = 12 }
+				
+				add_to_array = { array = race_value value = 8  index = 13 }
+				add_to_array = { array = race_identify_value value = 65 index = 13 }
+				add_to_array = { array = race_main value = 0 index = 13 }
+				
+				add_to_array = { array = race_value value = 3  index = 14 }
+				add_to_array = { array = race_identify_value value = 60 index = 14 }
+				add_to_array = { array = race_main value = 0 index = 14 }
+				
+				set_variable = { race_mitigation = 65 }
+				set_variable = { race_red_value = 45 }
+				set_variable = { race_blue_value = 30 }
+			}
+			
+			CRY = {
+				add_to_array = { array = race_value value = 100 index = 4 }
+				add_to_array = { array = race_identify_value value = 100 index = 4 }
+				add_to_array = { array = race_main value = 1 index = 4 }
+				
+				set_variable = { race_mitigation = 40 }
+				set_variable = { race_red_value = 10 }
+				set_variable = { race_blue_value = 20 }
+			}
+			
+			EOM = {
+				add_to_array = { array = race_value value = 28 index = 0 }				
+				add_to_array = { array = race_identify_value value = 100 index = 0 } 	
+				add_to_array = { array = race_main value = 1 index = 0 }	
+				
+				add_to_array = { array = race_value value = 28 index = 1 }
+				add_to_array = { array = race_identify_value value = 100 index = 1 }
+				add_to_array = { array = race_main value = 1 index = 1 }
+				
+				add_to_array = { array = race_value value = 28 index = 2 }
+				add_to_array = { array = race_identify_value value = 100 index = 2 }
+				add_to_array = { array = race_main value = 1 index = 2 }
+				
+				add_to_array = { array = race_value value = 10  index = 3 }
+				add_to_array = { array = race_identify_value value = 80 index = 3 }
+				add_to_array = { array = race_main value = 0 index = 3 }
+				
+				add_to_array = { array = race_value value = 1  index = 8 }
+				add_to_array = { array = race_identify_value value = 30 index = 8 }
+				add_to_array = { array = race_main value = 0 index = 8 }
+				
+				add_to_array = { array = race_value value = 2  index = 11 }
+				add_to_array = { array = race_identify_value value = 70 index = 11 }
+				add_to_array = { array = race_main value = 0 index = 11 }
+			
+				add_to_array = { array = race_value value = 3 index = 21 }
+				add_to_array = { array = race_identify_value value = 70 index = 21 }
+				add_to_array = { array = race_main value = 0 index = 21 }
+			
+				set_variable = { race_mitigation = 30 }
+				set_variable = { race_red_value = 20 }
+				set_variable = { race_blue_value = 20 }
+			}
+
+			EER = {		
+				add_to_array = { array = race_value value = 33 index = 0 }			
+				add_to_array = { array = race_identify_value value = 100 index = 0 } 
+				add_to_array = { array = race_main value = 1 index = 0 }
+				
+				add_to_array = { array = race_value value = 34 index = 1 }
+				add_to_array = { array = race_identify_value value = 100 index = 1 }
+				add_to_array = { array = race_main value = 1 index = 1 }
+				
+				add_to_array = { array = race_value value = 33 index = 2 }
+				add_to_array = { array = race_identify_value value = 50 index = 2 }
+				add_to_array = { array = race_main value = 1 index = 2 }
+
+				set_variable = { race_mitigation = 75 }
+				set_variable = { race_red_value = 70 }
+				set_variable = { race_blue_value = 45 }
+			}
+			
+			KIR = {		
+				add_to_array = { array = race_value value = 100 index = 15 }			
+				add_to_array = { array = race_identify_value value = 100 index = 15 } 
+				add_to_array = { array = race_main value = 1 index = 15 }
+
+				set_variable = { race_mitigation = 50 }
+				set_variable = { race_red_value = 0 }
+				set_variable = { race_blue_value = 10 }
+			}
+			
+			every_country = {
+				set_variable = { Race_open = 1 }					# 开局种族界面选定
+
+				backup_race_identify = yes							# 备份现有认同度
+				calculate_race_num	= yes							# 计算国内种族数量
+				calculate_race_main_num = yes						# 计算主要民族数量
+				if = {
+					limit = {										# 如果国家设定了种族系统
+						OR = {
+							TAG = CLK
+							TAG = CHI
+							TAG = CRY
+							TAG = EQU
+							TAG = EOM
+							TAG = EER
+							TAG = KIR
+						}
+					}
+					add_dynamic_modifier = { modifier = Race_System_race_dynamic_modifier }
+					if = {
+						limit = {
+							is_ai = no
+						}
+						race_pie_change = yes						# 更新占比饼图
+						race_identify_change = yes					# 更新认同度条
+						calculate_race_mitigation_pointer = yes		# 更新政策指针
+						calculate_race_show_element	= yes			# 更新种族列表显示内容
+					}
+					calculate_race_nationals = yes					# 计算各种族数量
+					calculate_race_effect = yes						# 更新种族效果
+				}
+				calculate_social_attitudes = yes					# 计算社会态度
+			}
+        }
+    }
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { global.race_refresh_time = 1 }
+				}
+				if = {
+					limit = {
+						is_ai = no
+					}
+					race_pie_change = yes								# 更新占比饼图
+					race_identify_change = yes							# 更新认同度条
+					calculate_race_mitigation_pointer = yes				# 更新政策指针
+					calculate_race_show_element	= yes					# 计算种族列表显示内容
+				}
+				race_main_setting = yes									# 更新主体民族认同度 (100%)
+
+				calculate_race_num = yes								# 计算国内种族数量
+				calculate_race_main_num = yes							# 计算主要民族数量
+				calculate_race_nationals = yes							# 计算各种族数量
+				calculate_race_effect = yes								# 更新种族效果
+			}
+			calculate_social_attitudes = yes							# 计算社会态度
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			calculate_social_attitudes_modifier = yes					# 计算社会态度效果
+			if = {
+				limit = {
+					check_variable = { global.race_refresh_time = 2 }
+				}
+				if = {
+					limit = {
+						is_ai = no
+					}
+					race_pie_change = yes								# 更新占比饼图
+					race_identify_change = yes							# 更新认同度条
+					calculate_race_mitigation_pointer = yes				# 更新政策指针
+					calculate_race_show_element	= yes					# 计算种族列表显示内容
+				}
+				race_main_setting = yes									# 更新主体民族认同度 (100%)
+
+				calculate_race_num = yes								# 计算国内种族数量
+				calculate_race_main_num = yes							# 计算主要民族数量
+				calculate_race_nationals = yes							# 计算各种族数量
+				calculate_race_effect = yes								# 更新种族效果
+			}
+			# 每三月计算一次通过民族政策改变的认同度
+			if = {
+				limit = {
+					check_variable = { global.race_clock = 1 }
+				}
+
+				calculate_race_identify_season = yes					# 计算每季支持率更改
+				calculate_race_identify = yes							# 计算种族认同每季变化度
+				backup_race_identify = yes								# 备份现有认同度
+
+				if = {
+					limit = {
+						check_variable = { global.race_refresh_time = 3 }
+					}
+					if = {
+						limit = {
+							is_ai = no
+						}
+						race_pie_change = yes							# 更新占比饼图
+						race_identify_change = yes						# 更新认同度条
+						calculate_race_mitigation_pointer = yes			# 更新政策指针
+						calculate_race_show_element	= yes				# 计算种族列表显示内容
+					}
+					race_main_setting = yes								# 更新主体民族认同度 (100%)
+
+					calculate_race_num = yes							# 计算国内种族数量
+					calculate_race_main_num = yes						# 计算主要民族数量
+					calculate_race_nationals = yes						# 计算各种族数量
+					calculate_race_effect = yes							# 更新种族效果
+				}
+				set_variable = { global.race_clock = 3 }
+			}
+			else = {
+				subtract_from_variable = { global.race_clock = 1 }
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			calculate_race_state_change = yes
+		}
+	}
+}

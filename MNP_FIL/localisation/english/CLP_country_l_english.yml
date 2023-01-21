@@ -1,0 +1,22 @@
+﻿l_english:
+ CLP_despotism:0 "坎特拉辖区"
+ CLP_despotism_DEF:0 "坎特拉辖区"
+ CLP_despotism_ADJ:0 "辖区"
+ CLP:0 "坎特拉辖区"
+ CLP_DEF:0 "坎特拉辖区"
+ CLP_ADJ:0 "辖区"
+ CLP_dictatorshipism_party:0 "军国派"
+ CLP_fascism_party:0 "女王派"
+ CLP_despotism_party:0 "保皇派"
+ CLP_authoritarian_democracy_party:0 "保守派"
+ CLP_liberal_democracy_party:0 "小马叛乱"
+ CLP_social_democracy_party:0 "小马叛乱"
+ CLP_socialism_party:0 "小马叛乱"
+ CLP_communism_party:0 "小马叛乱"
+ 
+CLP_changeling_civil_war:0 "坎特拉公爵领"
+CLP_changeling_civil_war_DEF:0 "公爵领"
+CLP_changeling_civil_war_ADJ:0 "小马"
+
+
+#民族精神

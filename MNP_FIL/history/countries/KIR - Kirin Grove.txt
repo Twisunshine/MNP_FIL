@@ -1,4 +1,4 @@
-﻿capital = 72
+﻿capital = 53
 
 set_research_slots = 1
 set_stability = 0.9
@@ -28,18 +28,22 @@ set_popularities = {
 }
 
 add_ideas = {
-	disarmed_nation
-	civilian_economy
-	closed_economy
-	Laissez_faire
-	male_only
-	restricted_citizenship
-	hoof_production
-	smallholder_model
-	everywhere
-	Flaws_do_not_hide_beauty
-	Basic_education
-	mob
+	laws_ideas_1_1
+	laws_ideas_2_1
+	laws_ideas_3_5
+	laws_ideas_4_1
+	laws_ideas_5_1
+	laws_ideas_6_3
+	develop_ideas_1_1
+	develop_ideas_2_2
+	develop_ideas_3_4
+	develop_ideas_4_4
+	develop_ideas_5_2
+	develop_ideas_6_1
+	race_ideas_2_4
+	race_ideas_3_5
+	race_ideas_4_4
+	race_ideas_5_4
 	KIR_Ash_of_Great_famine
 	KIR_Cruel_Sun_and_Moon_Sacrifice
 	KIR_Unsustainable_tradition

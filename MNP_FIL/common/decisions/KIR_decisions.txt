@@ -1,0 +1,254 @@
+KIR_Finish_the_Famine = {
+	KIR_Finish_the_Famine_end = {
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = KIR_Finish_the_Famine_endneed	
+				has_country_flag = KIR_Finish_the_Famine_endneed
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 150
+		days_remove = 60
+		fire_only_once = yes
+		remove_effect = {
+			remove_ideas = KIR_Ash_of_Great_famine
+		}
+	}
+	
+	KIR_Finish_the_Famine_start_1 = {
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			country_event = KIR_events.1
+		}
+	}
+	KIR_Finish_the_Famine_start_2 = {
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			country_event = KIR_events.2
+		}
+	}
+	KIR_Finish_the_Famine_start_3 = {
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			country_event = KIR_events.3
+		}
+	}
+	
+	KIR_Finish_the_Famine_endflag = {
+		activation = {                         
+			has_country_flag = KIR_Finish_the_Famine_Mid
+		}                                    
+		available = {                       
+			always = no
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		fire_only_once = yes
+		days_mission_timeout = 600
+		timeout_effect = {
+			custom_effect_tooltip = KIR_Finish_the_Famine_endneed_1
+			swap_ideas = {
+				remove_idea = develop_ideas_2_2
+				add_idea = develop_ideas_2_3
+			}
+			set_country_flag = KIR_Finish_the_Famine_endneed
+		}
+		
+	}
+	
+	KIR_Finish_the_Famine_start_4 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_start_4
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+		remove_effect = {
+			country_event = KIR_events.4
+		}
+	}
+	KIR_Finish_the_Famine_start_5 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_start_5
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+		remove_effect = {
+			country_event = KIR_events.5
+		}
+	}
+	KIR_Finish_the_Famine_start_6 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_start_6
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+		remove_effect = {
+			country_event = KIR_events.6
+		}
+	}
+	
+	KIR_Finish_the_Famine_start_7 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_Landlord
+			has_country_flag = KIR_Finish_the_Famine_Landlordplus
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 50
+		days_remove = 90
+		remove_effect = {
+			random_state = {
+				limit = {
+					is_core_of = KIR
+				}
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				add_extra_state_shared_building_slots = 1
+			}
+        }
+	}
+	KIR_Finish_the_Famine_start_8 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_Landlord
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 100
+		days_remove = 60
+		remove_effect = {
+			random_state = {
+				limit = {
+					is_core_of = KIR
+				}
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				add_extra_state_shared_building_slots = 1
+			}
+        }
+	}
+	KIR_Finish_the_Famine_start_9 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_Landlord
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		days_remove = 90
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_offsite_building = { type = industrial_complex level = 7 }
+		}
+		remove_effect = {
+			add_offsite_building = { type = industrial_complex level = -7 }
+        }
+	}
+	
+	KIR_Finish_the_Famine_start_10 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_Balance
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		days_remove = 90
+		days_re_enable = 30
+		remove_effect = { 
+            add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = KIR
+			}
+		}
+	}
+	KIR_Finish_the_Famine_start_11 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_Balance
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		days_remove = 90
+		days_re_enable = 30
+		remove_effect = { 
+            add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = KIR
+			}
+		}
+	}
+	
+	KIR_Finish_the_Famine_start_12 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_Peopleplus
+			has_country_flag = KIR_Finish_the_Famine_People
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 50
+		days_remove = 90
+		modifier = {
+			production_speed_buildings_factor = 0.50
+        }
+	}
+	KIR_Finish_the_Famine_start_13 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_People
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 75
+		days_remove = 90
+		days_re_enable = 30
+		modifier = {
+			consumer_goods_factor = -0.30
+        }
+	}
+	KIR_Finish_the_Famine_start_14 = {
+		visible = {
+			has_country_flag = KIR_Finish_the_Famine_People
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 100
+		days_remove = 90
+		days_re_enable = 30
+		modifier = {
+			production_speed_industrial_complex_factor = 1.00
+        }
+	}
+}

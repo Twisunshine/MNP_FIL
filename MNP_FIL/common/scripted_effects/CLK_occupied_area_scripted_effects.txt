@@ -1,0 +1,771 @@
+# 设置最大与最小值
+calculate_orthodoxy = {	
+	# EQU.EQU_orthodoxy_change 为EQU更改
+	# EOM.EOM_orthodoxy_change 为EOM更改
+	
+	add_to_variable = { EQU.EQU_Orthodoxy = EQU.EQU_orthodoxy_change }
+	subtract_from_variable = { EOM.EOM_Orthodoxy = EQU.EQU_orthodoxy_change }
+	
+	add_to_variable = { EOM.EOM_Orthodoxy = EOM.EOM_orthodoxy_change } 
+	subtract_from_variable = { EQU.EQU_Orthodoxy = EOM.EOM_orthodoxy_change } 
+	
+	set_variable = { EQU.EQU_orthodoxy_change = 0 }
+	set_variable = { EOM.EOM_orthodoxy_change = 0 }
+	
+	clamp_orthodoxy = yes
+	calculate_orthodoxy_buff = yes
+}
+
+# 计算地区类型
+CLK_calculate_area_type = {
+	# 地区1
+	if = {
+		limit = {
+			AND = {
+				controls_state = 340
+				controls_state = 381
+				controls_state = 423
+				controls_state = 368
+				controls_state = 393
+				controls_state = 158
+				controls_state = 349
+				controls_state = 352
+				controls_state = 406
+				controls_state = 384
+				controls_state = 401
+				controls_state = 409
+				controls_state = 332
+				controls_state = 458
+			}
+		}
+		set_variable = { occupied_region_1 = 1 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_1 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_1 = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controls_state = 340
+				controls_state = 381
+				controls_state = 423
+				controls_state = 368
+				controls_state = 393
+				controls_state = 158
+				controls_state = 349
+				controls_state = 352
+				controls_state = 406
+				controls_state = 384
+				controls_state = 401
+				controls_state = 409
+				controls_state = 332
+				controls_state = 458
+			}
+		}
+		set_variable = { occupied_region_1 = 2 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_1 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_1 = 2 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+					controls_state = 340
+					controls_state = 381
+					controls_state = 423
+					controls_state = 368
+					controls_state = 393
+					controls_state = 158
+					controls_state = 349
+					controls_state = 352
+					controls_state = 406
+					controls_state = 384
+					controls_state = 401
+					controls_state = 409
+					controls_state = 332
+					controls_state = 458
+				}
+			}
+		}
+		set_variable = { occupied_region_1 = 3 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_1 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_1 = 3 }
+		}
+	}
+	
+	# 地区2
+	if = {
+		limit = {
+			AND = {
+				controls_state = 230
+				controls_state = 299
+				controls_state = 327
+				controls_state = 329
+				controls_state = 377
+				controls_state = 407
+				controls_state = 419
+				controls_state = 425
+				controls_state = 415
+				controls_state = 373
+				controls_state = 98
+				controls_state = 316
+				controls_state = 226
+				controls_state = 321
+				controls_state = 312
+				controls_state = 270
+				controls_state = 272
+				controls_state = 286
+				controls_state = 310
+				controls_state = 229
+				controls_state = 225
+				controls_state = 46
+				controls_state = 247
+				controls_state = 249
+			}
+		}
+		set_variable = { occupied_region_2 = 1 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_2 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_2 = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controls_state = 230
+				controls_state = 299
+				controls_state = 327
+				controls_state = 329
+				controls_state = 377
+				controls_state = 407
+				controls_state = 419
+				controls_state = 425
+				controls_state = 415
+				controls_state = 373
+				controls_state = 98
+				controls_state = 316
+				controls_state = 226
+				controls_state = 321
+				controls_state = 312
+				controls_state = 270
+				controls_state = 272
+				controls_state = 286
+				controls_state = 310
+				controls_state = 229
+				controls_state = 225
+				controls_state = 46
+				controls_state = 247
+				controls_state = 249
+			}
+		}
+		set_variable = { occupied_region_2 = 2 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_2 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_2 = 2 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+					controls_state = 230
+					controls_state = 299
+					controls_state = 327
+					controls_state = 329
+					controls_state = 377
+					controls_state = 407
+					controls_state = 419
+					controls_state = 425
+					controls_state = 415
+					controls_state = 373
+					controls_state = 98
+					controls_state = 316
+					controls_state = 226
+					controls_state = 321
+					controls_state = 312
+					controls_state = 270
+					controls_state = 272
+					controls_state = 286
+					controls_state = 310
+					controls_state = 229
+					controls_state = 225
+					controls_state = 46
+					controls_state = 247
+					controls_state = 249
+				}
+			}
+		}
+		set_variable = { occupied_region_2 = 3 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_2 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_2 = 3 }
+		}
+	}
+	
+	# 地区3
+	if = {
+		limit = {
+			AND = {
+				controls_state = 319
+				controls_state = 411
+				controls_state = 420
+				controls_state = 430
+				controls_state = 390
+				controls_state = 402
+				controls_state = 536
+				controls_state = 369
+				controls_state = 370
+				controls_state = 14
+				controls_state = 395
+				controls_state = 357
+				controls_state = 333
+				controls_state = 302
+				controls_state = 256
+				controls_state = 313
+				controls_state = 350
+				controls_state = 355
+				controls_state = 288
+				controls_state = 281
+				controls_state = 262
+				controls_state = 236
+				controls_state = 257
+				controls_state = 152
+			}
+		}
+		set_variable = { occupied_region_3 = 1 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_3 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_3 = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controls_state = 319
+				controls_state = 411
+				controls_state = 420
+				controls_state = 430
+				controls_state = 390
+				controls_state = 402
+				controls_state = 536
+				controls_state = 369
+				controls_state = 370
+				controls_state = 14
+				controls_state = 395
+				controls_state = 357
+				controls_state = 333
+				controls_state = 302
+				controls_state = 256
+				controls_state = 313
+				controls_state = 350
+				controls_state = 355
+				controls_state = 288
+				controls_state = 281
+				controls_state = 262
+				controls_state = 236
+				controls_state = 257
+				controls_state = 152
+			}
+		}
+		set_variable = { occupied_region_3 = 2 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_3 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_3 = 2 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+					controls_state = 319
+					controls_state = 411
+					controls_state = 420
+					controls_state = 430
+					controls_state = 390
+					controls_state = 402
+					controls_state = 536
+					controls_state = 369
+					controls_state = 370
+					controls_state = 14
+					controls_state = 395
+					controls_state = 357
+					controls_state = 333
+					controls_state = 302
+					controls_state = 256
+					controls_state = 313
+					controls_state = 350
+					controls_state = 355
+					controls_state = 288
+					controls_state = 281
+					controls_state = 262
+					controls_state = 236
+					controls_state = 257
+					controls_state = 152
+				}
+			}
+		}
+		set_variable = { occupied_region_3 = 3 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_3 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_3 = 3 }
+		}
+	}
+	
+	# 地区4
+	if = {
+		limit = {
+			AND = {
+				controls_state = 344
+				controls_state = 328
+				controls_state = 282
+				controls_state = 297
+				controls_state = 325
+				controls_state = 358
+				controls_state = 248
+				controls_state = 263
+				controls_state = 252
+				controls_state = 266
+				controls_state = 337
+				controls_state = 271
+				controls_state = 304
+				controls_state = 318
+				controls_state = 258
+				controls_state = 234
+				controls_state = 169
+				controls_state = 189
+				controls_state = 246
+				controls_state = 206
+				controls_state = 216
+				controls_state = 251
+				controls_state = 207
+				controls_state = 193
+				controls_state = 128
+			}
+		}
+		set_variable = { occupied_region_4 = 1 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_4 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_4 = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controls_state = 344
+				controls_state = 328
+				controls_state = 282
+				controls_state = 297
+				controls_state = 325
+				controls_state = 358
+				controls_state = 248
+				controls_state = 263
+				controls_state = 252
+				controls_state = 266
+				controls_state = 337
+				controls_state = 271
+				controls_state = 304
+				controls_state = 318
+				controls_state = 258
+				controls_state = 234
+				controls_state = 169
+				controls_state = 189
+				controls_state = 246
+				controls_state = 206
+				controls_state = 216
+				controls_state = 251
+				controls_state = 207
+				controls_state = 193
+				controls_state = 128
+			}
+		}
+		set_variable = { occupied_region_4 = 2 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_4 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_4 = 2 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+					controls_state = 344
+					controls_state = 328
+					controls_state = 282
+					controls_state = 297
+					controls_state = 325
+					controls_state = 358
+					controls_state = 248
+					controls_state = 263
+					controls_state = 252
+					controls_state = 266
+					controls_state = 337
+					controls_state = 271
+					controls_state = 304
+					controls_state = 318
+					controls_state = 258
+					controls_state = 234
+					controls_state = 169
+					controls_state = 189
+					controls_state = 246
+					controls_state = 206
+					controls_state = 216
+					controls_state = 251
+					controls_state = 207
+					controls_state = 193
+					controls_state = 128
+				}
+			}
+		}
+		set_variable = { occupied_region_4 = 3 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_4 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_4 = 3 }
+		}
+	}
+	
+	# 地区5
+	if = {
+		limit = {
+			AND = {
+				controls_state = 561
+				controls_state = 518
+				controls_state = 542
+				controls_state = 493
+				controls_state = 539
+				controls_state = 489
+				controls_state = 493
+				controls_state = 532
+				controls_state = 527
+				controls_state = 465
+				controls_state = 444
+				controls_state = 482
+				controls_state = 99
+				controls_state = 455
+				controls_state = 504
+				controls_state = 96
+				controls_state = 599
+				controls_state = 442
+				controls_state = 431
+				controls_state = 572
+				controls_state = 473
+				controls_state = 554
+			}
+		}
+		set_variable = { occupied_region_5 = 1 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_5 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_5 = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controls_state = 561
+				controls_state = 518
+				controls_state = 542
+				controls_state = 493
+				controls_state = 539
+				controls_state = 489
+				controls_state = 493
+				controls_state = 532
+				controls_state = 527
+				controls_state = 465
+				controls_state = 444
+				controls_state = 482
+				controls_state = 99
+				controls_state = 455
+				controls_state = 504
+				controls_state = 96
+				controls_state = 599
+				controls_state = 442
+				controls_state = 431
+				controls_state = 572
+				controls_state = 473
+				controls_state = 554
+			}
+		}
+		set_variable = { occupied_region_5 = 2 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_5 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_5 = 2 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+					controls_state = 561
+					controls_state = 518
+					controls_state = 542
+					controls_state = 493
+					controls_state = 539
+					controls_state = 489
+					controls_state = 493
+					controls_state = 532
+					controls_state = 527
+					controls_state = 465
+					controls_state = 444
+					controls_state = 482
+					controls_state = 99
+					controls_state = 455
+					controls_state = 504
+					controls_state = 96
+					controls_state = 599
+					controls_state = 442
+					controls_state = 431
+					controls_state = 572
+					controls_state = 473
+					controls_state = 554
+				}
+			}
+		}
+		set_variable = { occupied_region_5 = 3 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_5 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_5 = 3 }
+		}
+	}
+
+	# 地区6
+	if = {
+		limit = {
+			AND = {
+				controls_state = 437
+				controls_state = 623
+				controls_state = 449
+				controls_state = 478
+				controls_state = 427
+				controls_state = 466
+				controls_state = 388
+				controls_state = 364
+				controls_state = 383
+				controls_state = 398
+				controls_state = 737
+				controls_state = 421
+				controls_state = 197
+				controls_state = 441
+				controls_state = 443
+				controls_state = 457
+				controls_state = 470
+				controls_state = 434
+				controls_state = 456
+				controls_state = 453
+			}
+		}
+		set_variable = { occupied_region_6 = 1 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_6 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_6 = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controls_state = 437
+				controls_state = 623
+				controls_state = 449
+				controls_state = 478
+				controls_state = 427
+				controls_state = 466
+				controls_state = 388
+				controls_state = 364
+				controls_state = 383
+				controls_state = 398
+				controls_state = 737
+				controls_state = 421
+				controls_state = 197
+				controls_state = 441
+				controls_state = 443
+				controls_state = 457
+				controls_state = 470
+				controls_state = 434
+				controls_state = 456
+				controls_state = 453
+			}
+		}
+		set_variable = { occupied_region_6 = 2 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_6 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_6 = 2 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				OR = {
+					controls_state = 437
+					controls_state = 623
+					controls_state = 449
+					controls_state = 478
+					controls_state = 427
+					controls_state = 466
+					controls_state = 388
+					controls_state = 364
+					controls_state = 383
+					controls_state = 398
+					controls_state = 737
+					controls_state = 421
+					controls_state = 197
+					controls_state = 441
+					controls_state = 443
+					controls_state = 457
+					controls_state = 470
+					controls_state = 434
+					controls_state = 456
+					controls_state = 453
+				}
+			}
+		}
+		set_variable = { occupied_region_6 = 3 }
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { occupied_region_show_6 = 4 }
+				}
+			}
+			set_variable = { occupied_region_show_6 = 3 }
+		}
+	}
+	
+	# 地区1. 340, 381, 423, 368, 393, 158, 349, 352, 406, 384, 401, 409, 332, 458
+	# 地区2. 230, 299, 327, 329, 377, 407, 419, 425, 415, 373, 98, 316, 226, 321, 312, 270, 272, 286, 310, 229, 225, 46, 247, 249
+	# 坎特拉公爵领. 319, 411, 420, 430, 390, 402, 536, 369, 370, 14, 395, 357, 333, 302, 256, 313, 350, 355, 288, 281, 262, 236, 257, 152
+	# 北小马国解放阵线. 344, 328, 382, 297, 325, 358, 248, 263, 252, 266, 337, 271, 304, 318, 258, 234, 169, 189, 246, 206, 216, 251, 207, 193, 128
+    # 天马独立军. 561, 518, 542, 493, 539, 489, 493, 532, 527, 465, 444, 482, 99, 455, 504, 96, 599, 442, 431, 572, 473, 554
+    # 谐律临时政府. 437, 623, 449, 478, 427, 466, 388, 364, 383, 398, 737, 421, 197, 441, 443, 457, 470, 434, 456, 453
+}
+
+# 计算殖民进度条
+CLK_calculate_occupied_area_progrees = {
+	clear_array = CLK_occupied_area_progrees
+	if = {
+		limit = {
+			check_variable = { occupied_region_show_1 = 4 }
+		}
+		set_variable = { ROOT.temp_1 = CLK_occupied_area_colonization_1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { occupied_region_show_2 = 4 }
+		}
+		set_variable = { ROOT.temp_1 = CLK_occupied_area_colonization_2 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { occupied_region_show_3 = 4 }
+		}
+		set_variable = { ROOT.temp_1 = CLK_occupied_area_colonization_3 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { occupied_region_show_4 = 4 }
+		}
+		set_variable = { ROOT.temp_1 = CLK_occupied_area_colonization_4 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { occupied_region_show_5 = 4 }
+		}
+		set_variable = { ROOT.temp_1 = CLK_occupied_area_colonization_5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { occupied_region_show_6 = 4 }
+		}
+		set_variable = { ROOT.temp_1 = CLK_occupied_area_colonization_6 }
+	}
+	
+	resize_array = {
+		array = CLK_occupied_area_progrees
+		value = 2
+		size = 100
+	}
+	round_variable = ROOT.temp_1
+	set_variable = { ROOT.temp_2 = 0 }
+
+	for_loop_effect = {
+		start = 0			
+		end = ROOT.temp_1 
+		add_to_array = {	
+			array = CLK_occupied_area_progrees
+			value = 1
+			index = ROOT.temp_2
+		}
+		add_to_temp_variable = { ROOT.temp_1 = 1 }
+	}
+
+	clear_variable = ROOT.temp_1
+	clear_variable = ROOT.temp_2
+}

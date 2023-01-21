@@ -1,0 +1,83 @@
+ideas = {
+	country = {
+		#新的海上霸主
+		CNN_New_sea_overlord = {
+			allowed = {
+				original_tag = CNN
+			}
+
+            removal_cost = -1
+            picture = NOTHING
+            modifier = {
+				consumer_goods_factor = -0.15
+				min_export = 0.15
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.15
+            }
+		}
+		#詹妮诺的理想
+		CNN_Jenninos_ideal = {
+			allowed = {
+				original_tag = CNN
+			}
+
+            removal_cost = -1
+            picture = NOTHING
+            modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.40
+				supply_consumption_factor = 0.10
+				mobilization_speed = -0.15
+            }
+		}
+		#高昂的外交成本
+		CNN_expensive_diplomatic = {
+			allowed = {
+				original_tag = CNN
+			}
+
+            removal_cost = -1
+            picture = NOTHING
+            modifier = {
+				political_power_cost = 0.15
+				consumer_goods_factor = 0.10
+				opinion_gain_monthly_factor = 0.30
+            }
+		}
+		#宣称潘瑟拉湾
+		CNN_claimed_Panthera_Bay = {
+			allowed = {
+				original_tag = CNN
+			}
+
+            removal_cost = -1
+            picture = NOTHING
+            modifier = {
+				political_power_cost = 0.05
+				war_support_factor = 0.10
+				conscription_factor = 0.05
+            }
+			
+			targeted_modifier = {
+				tag = ABY
+				attack_bonus_against = 0.10
+			}
+		}
+		#猫狗海权之争
+		CNN_Cats_and_dogs_disputes = {
+			allowed = {
+				original_tag = CNN
+			}
+
+            removal_cost = -1
+            picture = NOTHING
+                
+            modifier = {
+				industrial_capacity_dockyard = 0.15
+				research_speed_factor = 0.05
+				production_speed_dockyard_factor = 0.20
+				experience_gain_navy = 0.05
+            }
+		}
+	}
+}

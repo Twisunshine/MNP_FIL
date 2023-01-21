@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_democracy_controlled_democracy
+			ideology=liberal_democracy_liberal_democracy
 			traits={  }
 			expire="2000.1.1.1"
 			id=-1

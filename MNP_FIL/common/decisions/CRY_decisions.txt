@@ -1,0 +1,499 @@
+CRY_parliament = {
+	CRY_parliament_1_test = {
+
+		complete_effect = {  
+			
+		}
+	}
+}
+
+CRY_Awaken_the_crystal = {
+	CRY_Awaken_the_crystal_1 = {
+		activation = {                         
+			has_country_flag = CRY_we_start_Regain_the_last_hope
+		}                                    
+		available = {                           
+			has_completed_focus = CRY_0_26
+			not = {
+				dictatorshipism > 0.25
+			}
+		}
+		fire_only_once = yes
+		days_mission_timeout = 180
+		timeout_effect = {                      
+			complete_national_focus = CRY_0_12
+			add_political_power = -200
+			add_stability = -0.2
+			country_event = CRY_events.6
+		}
+		complete_effect = {                    
+			add_political_power = 200
+			add_stability = 0.1          
+		}
+	}
+	CRY_Awaken_the_crystal_2 = {
+		cost = 20
+		days_re_enable = 30
+		complete_effect = {                    
+			add_popularity = { 
+				ideology = dictatorshipism 
+				popularity = -0.01 
+			}   
+		}
+	}
+	
+}
+CRY_mining_of_Crystal = {
+	CRY_mining_of_Crystal_1 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		available = {            
+			num_of_civilian_factories_available_for_projects > 2
+          }
+		  visible = {
+			check_variable = { CRY_Mining_crystal_units < 36  }
+	  }
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+	   	}
+		days_re_enable = 50
+          remove_effect = { 
+			add_to_variable = {CRY_Mining_crystal_units = 1}
+			custom_effect_tooltip = CRY_add_one_Mining_crystal_units
+          }
+		complete_effect = {  
+		}
+	}
+	CRY_mining_of_Crystal_2 = {
+		icon = GFX_decision_generic_construction
+		cost = 100
+		modifier = {
+			civilian_factory_use = 5
+	   	}
+		available = {            
+			num_of_civilian_factories_available_for_projects > 5
+          }
+		  visible = {
+			check_variable = { CRY_Mining_crystal_units < 36  }
+	  }
+		  days_re_enable = 100
+		days_remove = 150
+          remove_effect = { 
+			add_to_variable = {CRY_Mining_crystal_units = 3}
+			custom_effect_tooltip = CRY_add_three_Mining_crystal_units
+          }
+		complete_effect = {  
+		}
+	}
+	CRY_mining_of_Crystal_3 = {
+		icon = GFX_decision_generic_construction
+		cost = 200
+		modifier = {
+			civilian_factory_use = 15
+	   	}
+		available = {            
+			num_of_civilian_factories_available_for_projects > 15
+          }
+		  visible = {
+				check_variable = { CRY_Mining_crystal_units < 36  }
+		  }
+		  days_re_enable = 150
+		days_remove = 250
+          remove_effect = { 
+			add_to_variable = {CRY_Mining_crystal_units = 5}
+			custom_effect_tooltip = CRY_add_five_Mining_crystal_units
+          }
+		complete_effect = {  
+		}
+	}
+	CRY_mining_of_Crystal_state_6 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_6 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_6}
+			clr_country_flag = CRY_we_are_mining_in_state_6
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_6
+		}
+	}
+	CRY_mining_of_Crystal_state_217 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_217 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_217}
+			clr_country_flag = CRY_we_are_mining_in_state_217
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_217
+		}
+	}
+	CRY_mining_of_Crystal_state_200 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_200 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_200}
+			clr_country_flag = CRY_we_are_mining_in_state_200
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_200
+		}
+	}
+	CRY_mining_of_Crystal_state_147 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_147 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_147}
+			clr_country_flag = CRY_we_are_mining_in_state_147
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_147
+		}
+	}
+	CRY_mining_of_Crystal_state_190 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_190 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_190}
+			clr_country_flag = CRY_we_are_mining_in_state_190
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_190
+		}
+	}
+	CRY_mining_of_Crystal_state_203 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_203 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_203}
+			clr_country_flag = CRY_we_are_mining_in_state_203
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_203
+		}
+	}
+	CRY_mining_of_Crystal_state_211 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_211 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_211}
+			clr_country_flag = CRY_we_are_mining_in_state_211
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_211
+		}
+	}
+	CRY_mining_of_Crystal_state_222 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_222 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_222}
+			clr_country_flag = CRY_we_are_mining_in_state_222
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_222
+		}
+	}
+	CRY_mining_of_Crystal_state_165 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_165 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_165}
+			clr_country_flag = CRY_we_are_mining_in_state_165
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_165
+		}
+	}
+	CRY_mining_of_Crystal_state_214 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_214 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_214}
+			clr_country_flag = CRY_we_are_mining_in_state_214
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_214
+		}
+	}
+	CRY_mining_of_Crystal_state_181 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_181 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_181}
+			clr_country_flag = CRY_we_are_mining_in_state_181
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_181
+		}
+	}
+	CRY_mining_of_Crystal_state_129 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_129 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_129}
+			clr_country_flag = CRY_we_are_mining_in_state_129
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_129
+		}
+	}
+	CRY_mining_of_Crystal_state_187 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_187 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_187}
+			clr_country_flag = CRY_we_are_mining_in_state_187
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_187
+		}
+	}
+	CRY_mining_of_Crystal_state_127 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_127 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_127}
+			clr_country_flag = CRY_we_are_mining_in_state_127
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_127
+		}
+	}
+	CRY_mining_of_Crystal_state_124 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_124 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_124}
+			clr_country_flag = CRY_we_are_mining_in_state_124
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_124
+		}
+	}
+	CRY_mining_of_Crystal_state_130 = {
+		icon = GFX_decision_generic_construction
+		cost = 50
+		modifier = {
+			
+	   	}
+		   visible = {     
+				check_variable = { CRY_Mining_crystal_units_state_130 > 0 }	       
+          }
+		  days_re_enable = 35
+		days_remove = 120
+          remove_effect = { 
+			custom_effect_tooltip = CRY_mining_of_Crystal_tooltip_desc
+			add_to_variable = {CRY_Remaining_crystals = CRY_Mining_crystal_units_state_130}
+			clr_country_flag = CRY_we_are_mining_in_state_130
+          }
+		complete_effect = { 
+			set_country_flag = CRY_we_are_mining_in_state_130
+		}
+	}
+	CRY_mining_of_Crystal_4 = {
+		icon = GFX_Crystal
+		cost = 100
+		modifier = {
+			production_speed_industrial_complex_factor = 0.2
+	   	}
+		available = {     
+			custom_trigger_tooltip = {
+				tooltip = CRY_Remaining_crystals_trigger_50	
+				check_variable = { CRY_Remaining_crystals > 49 }
+
+			}       
+          }
+		  days_re_enable = 30
+		days_remove = 50
+          remove_effect = { 
+			
+          }
+		complete_effect = { 
+			subtract_from_variable = {CRY_Remaining_crystals = 50} 
+		}
+	}
+	CRY_mining_of_Crystal_5 = {
+		icon = GFX_Crystal
+		cost = 100
+		modifier = {
+			production_speed_arms_factory_factor = 0.2
+	   	}
+		available = {     
+			custom_trigger_tooltip = {
+				tooltip = CRY_Remaining_crystals_trigger_50	
+				check_variable = { CRY_Remaining_crystals > 49 }
+
+			}       
+          }
+		  days_re_enable = 30
+		days_remove = 50
+          remove_effect = { 
+			
+          }
+		complete_effect = { 
+			subtract_from_variable = {CRY_Remaining_crystals = 50} 
+		}
+	}
+	CRY_mining_of_Crystal_6 = {
+		icon = GFX_Crystal
+		cost = 50
+		modifier = {
+			army_attack_factor = 0.1
+			army_defence_factor = 0.1
+	   	}
+		available = {     
+			custom_trigger_tooltip = {
+				tooltip = CRY_Remaining_crystals_trigger_30	
+				check_variable = { CRY_Remaining_crystals > 29 }
+
+			}       
+          }
+		  days_re_enable = 15
+		days_remove = 35
+          remove_effect = { 
+			
+          }
+		complete_effect = { 
+			subtract_from_variable = {CRY_Remaining_crystals = 30} 
+		}
+	}
+	
+}
+

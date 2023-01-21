@@ -1,0 +1,657 @@
+add_namespace = colonial_government_events
+
+#成立特别管理区
+country_event = {
+	id = colonial_government_events.1
+	title = colonial_government_events.1.t
+	desc = colonial_government_events.1.d
+	
+	is_triggered_only = yes
+	
+	option={
+		name = colonial_government_events.1.tt
+		hidden_effect = {
+			set_autonomy = {
+				target = SMA
+				autonomous_state = autonomy_colony 
+			}
+			SMA = {
+				inherit_technology = CLK
+				transfer_state = 230
+				transfer_state = 299
+				transfer_state = 327
+				transfer_state = 329
+				transfer_state = 377
+				transfer_state = 407
+				transfer_state = 419
+				transfer_state = 425
+				transfer_state = 415
+				transfer_state = 373
+				transfer_state = 98
+				transfer_state = 316
+				transfer_state = 226
+				transfer_state = 321
+				transfer_state = 312
+				transfer_state = 270
+				transfer_state = 272
+				transfer_state = 286
+				transfer_state = 310
+				transfer_state = 229
+				transfer_state = 225
+				transfer_state = 46
+				transfer_state = 247
+				transfer_state = 249
+				set_popularities = {
+					dictatorshipism = 31
+					fascism = 8
+					despotism = 27
+					authoritarian_democracy = 11
+					liberal_democracy = 15
+					social_democracy = 5
+					socialism = 1
+					communism = 2
+				}
+				add_ideas = idea_SMA_Tristana
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+			}
+		}
+    }
+	option={
+		name = colonial_government_events.1.td
+		hidden_effect = {
+			set_autonomy = {
+				target = SMA
+				autonomous_state = autonomy_colony 
+			}
+			SMA = {
+				inherit_technology = CLK
+				transfer_state = 230
+				transfer_state = 299
+				transfer_state = 327
+				transfer_state = 329
+				transfer_state = 377
+				transfer_state = 407
+				transfer_state = 419
+				transfer_state = 425
+				transfer_state = 415
+				transfer_state = 373
+				transfer_state = 98
+				transfer_state = 316
+				transfer_state = 226
+				transfer_state = 321
+				transfer_state = 312
+				transfer_state = 270
+				transfer_state = 272
+				transfer_state = 286
+				transfer_state = 310
+				transfer_state = 229
+				transfer_state = 225
+				transfer_state = 46
+				transfer_state = 247
+				transfer_state = 249
+				set_popularities = {
+					dictatorshipism = 31
+					fascism = 8
+					despotism = 27
+					authoritarian_democracy = 11
+					liberal_democracy = 15
+					social_democracy = 5
+					socialism = 1
+					communism = 2
+				}
+				add_ideas = idea_SMA_Tristana
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+			}		
+		}
+		SMA = {
+			change_tag_from = CLK
+		}
+    }
+	
+}
+
+#成立新虫巢
+country_event = {
+	id = colonial_government_events.2
+	title = colonial_government_events.2.t
+	desc = colonial_government_events.2.d
+	
+	is_triggered_only = yes
+	
+	option={
+		name = colonial_government_events.2.tt
+		hidden_effect = {
+			set_autonomy = {
+				target = NWN
+				autonomous_state = autonomy_colony 
+			}
+			NWN = {
+				inherit_technology = CLK
+				transfer_state = 561
+				transfer_state = 518
+				transfer_state = 542
+				transfer_state = 493
+				transfer_state = 539
+				transfer_state = 489
+				transfer_state = 493
+				transfer_state = 532
+				transfer_state = 527
+				transfer_state = 465
+				transfer_state = 444
+				transfer_state = 482
+				transfer_state = 99
+				transfer_state = 455
+				transfer_state = 504
+				transfer_state = 96
+				transfer_state = 599
+				transfer_state = 442
+				transfer_state = 431
+				transfer_state = 572
+				transfer_state = 473
+				transfer_state = 554
+				set_popularities = {
+					dictatorshipism = 27
+					fascism = 1
+					despotism = 31
+					authoritarian_democracy = 6
+					liberal_democracy = 22
+					social_democracy = 5
+					socialism = 8
+					communism = 2
+				}
+				delete_unit_template_and_units = {
+					division_template = "EUP护卫队"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "皇家步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "艾奎斯垂亚步兵师"
+					disband = yes 
+				 }
+			}
+		}
+    }
+	option={
+		name = colonial_government_events.2.td
+		hidden_effect = {
+			set_autonomy = {
+				target = NWN
+				autonomous_state = autonomy_colony 
+			}
+			NWN = {
+				inherit_technology = CLK
+				transfer_state = 561
+				transfer_state = 518
+				transfer_state = 542
+				transfer_state = 493
+				transfer_state = 539
+				transfer_state = 489
+				transfer_state = 493
+				transfer_state = 532
+				transfer_state = 527
+				transfer_state = 465
+				transfer_state = 444
+				transfer_state = 482
+				transfer_state = 99
+				transfer_state = 455
+				transfer_state = 504
+				transfer_state = 96
+				transfer_state = 599
+				transfer_state = 442
+				transfer_state = 431
+				transfer_state = 572
+				transfer_state = 473
+				transfer_state = 554
+				set_popularities = {
+					dictatorshipism = 27
+					fascism = 1
+					despotism = 31
+					authoritarian_democracy = 6
+					liberal_democracy = 22
+					social_democracy = 5
+					socialism = 8
+					communism = 2
+				}
+			}
+		}
+		NWN = {
+			change_tag_from = CLK
+		}
+	}
+	
+}
+
+
+#成立坎特拉辖区
+country_event = {
+	id = colonial_government_events.3
+	title = colonial_government_events.3.t
+	desc = colonial_government_events.3.d
+	
+	is_triggered_only = yes
+	
+	option={
+		name = colonial_government_events.3.tt
+		hidden_effect = {
+			set_autonomy = {
+				target = CLP
+				autonomous_state = autonomy_colony 
+			}
+			CLP = {
+				inherit_technology = CLK
+				transfer_state = 319
+				transfer_state = 411
+				transfer_state = 420
+				transfer_state = 430
+				transfer_state = 390
+				transfer_state = 402
+				transfer_state = 536
+				transfer_state = 369
+				transfer_state = 370
+				transfer_state = 14
+				transfer_state = 395
+				transfer_state = 357
+				transfer_state = 333
+				transfer_state = 302
+				transfer_state = 256
+				transfer_state = 313
+				transfer_state = 350
+				transfer_state = 355
+				transfer_state = 288
+				transfer_state = 281
+				transfer_state = 262
+				transfer_state = 236
+				transfer_state = 257
+				transfer_state = 152
+				set_popularities = {
+					dictatorshipism = 11
+					fascism = 27
+					despotism = 8
+					authoritarian_democracy = 29
+					liberal_democracy = 15
+					social_democracy = 7
+					socialism = 1
+					communism = 2
+				}
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+			}
+		}
+    }
+	option={
+		name = colonial_government_events.3.td
+		hidden_effect = {
+			set_autonomy = {
+				target = CLP
+				autonomous_state = autonomy_colony 
+			}
+			CLP = {
+				inherit_technology = CLK
+				transfer_state = 319
+				transfer_state = 411
+				transfer_state = 420
+				transfer_state = 430
+				transfer_state = 390
+				transfer_state = 402
+				transfer_state = 536
+				transfer_state = 369
+				transfer_state = 370
+				transfer_state = 14
+				transfer_state = 395
+				transfer_state = 357
+				transfer_state = 333
+				transfer_state = 302
+				transfer_state = 256
+				transfer_state = 313
+				transfer_state = 350
+				transfer_state = 355
+				transfer_state = 288
+				transfer_state = 281
+				transfer_state = 262
+				transfer_state = 236
+				transfer_state = 257
+				transfer_state = 152
+				set_popularities = {
+					dictatorshipism = 11
+					fascism = 27
+					despotism = 8
+					authoritarian_democracy = 29
+					liberal_democracy = 15
+					social_democracy = 7
+					socialism = 1
+					communism = 2
+				}
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+			}
+		}
+		CLP = {
+			change_tag_from = CLK
+		}
+	}
+	
+}
+
+
+#成立马哈顿辖区
+country_event = {
+	id = colonial_government_events.4
+	title = colonial_government_events.4.t
+	desc = colonial_government_events.4.d
+	
+	is_triggered_only = yes
+	
+	option={
+		name = colonial_government_events.4.tt
+		hidden_effect = {
+			set_autonomy = {
+				target = MAP
+				autonomous_state = autonomy_colony 
+			}
+			MAP = {
+				inherit_technology = CLK
+				transfer_state = 344
+				transfer_state = 328
+				transfer_state = 297
+				transfer_state = 325
+				transfer_state = 358
+				transfer_state = 248
+				transfer_state = 263
+				transfer_state = 252
+				transfer_state = 266
+				transfer_state = 337
+				transfer_state = 271
+				transfer_state = 304
+				transfer_state = 318
+				transfer_state = 258
+				transfer_state = 234
+				transfer_state = 169
+				transfer_state = 189
+				transfer_state = 246
+				transfer_state = 206
+				transfer_state = 216
+				transfer_state = 251
+				transfer_state = 207
+				transfer_state = 193
+				transfer_state = 128
+				transfer_state = 282
+				transfer_state = 363
+				transfer_state = 11
+				set_popularities = {
+					dictatorshipism = 11
+					fascism = 15
+					despotism = 16
+					authoritarian_democracy = 11
+					liberal_democracy = 18
+					social_democracy = 10
+					socialism = 9
+					communism = 10
+				}
+				add_ideas = idea_MAP_Harold
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+				234 = { set_demilitarized_zone = yes }
+				246 = { set_demilitarized_zone = yes }
+				251 = { set_demilitarized_zone = yes }
+				207 = { set_demilitarized_zone = yes }
+				216 = { set_demilitarized_zone = yes }
+				206 = { set_demilitarized_zone = yes }
+				189 = { set_demilitarized_zone = yes }
+				169 = { set_demilitarized_zone = yes }
+			}
+		}
+    }
+	option={
+		name = colonial_government_events.4.td
+		hidden_effect = {
+			set_autonomy = {
+				target = MAP
+				autonomous_state = autonomy_colony 
+			}
+			MAP = {
+				inherit_technology = CLK
+				transfer_state = 344
+				transfer_state = 328
+				transfer_state = 297
+				transfer_state = 325
+				transfer_state = 358
+				transfer_state = 248
+				transfer_state = 263
+				transfer_state = 252
+				transfer_state = 266
+				transfer_state = 337
+				transfer_state = 271
+				transfer_state = 304
+				transfer_state = 318
+				transfer_state = 258
+				transfer_state = 234
+				transfer_state = 169
+				transfer_state = 189
+				transfer_state = 246
+				transfer_state = 206
+				transfer_state = 216
+				transfer_state = 251
+				transfer_state = 207
+				transfer_state = 193
+				transfer_state = 128
+				transfer_state = 282
+				transfer_state = 363
+				transfer_state = 11
+				set_popularities = {
+					dictatorshipism = 11
+					fascism = 15
+					despotism = 16
+					authoritarian_democracy = 11
+					liberal_democracy = 18
+					social_democracy = 10
+					socialism = 9
+					communism = 10
+				}
+				add_ideas = idea_MAP_Harold
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+				234 = { set_demilitarized_zone = yes }
+				246 = { set_demilitarized_zone = yes }
+				251 = { set_demilitarized_zone = yes }
+				207 = { set_demilitarized_zone = yes }
+				216 = { set_demilitarized_zone = yes }
+				206 = { set_demilitarized_zone = yes }
+				189 = { set_demilitarized_zone = yes }
+				169 = { set_demilitarized_zone = yes }
+			}
+		}
+		MAP = {
+			change_tag_from = CLK
+		}
+	}
+	
+}
+
+#成立巴尔的马辖区
+country_event = {
+	id = colonial_government_events.5
+	title = colonial_government_events.5.t
+	desc = colonial_government_events.5.d
+	
+	is_triggered_only = yes
+	
+	option={
+		name = colonial_government_events.5.tt
+		hidden_effect = {
+			set_autonomy = {
+				target = BAP
+				autonomous_state = autonomy_colony 
+			}
+			BAP = {
+				inherit_technology = CLK
+				transfer_state = 437
+				transfer_state = 449
+				transfer_state = 478
+				transfer_state = 427
+				transfer_state = 466
+				transfer_state = 388
+				transfer_state = 364
+				transfer_state = 383
+				transfer_state = 398
+				transfer_state = 737
+				transfer_state = 421
+				transfer_state = 197
+				transfer_state = 441
+				transfer_state = 443
+				transfer_state = 457
+				transfer_state = 470
+				transfer_state = 434
+				transfer_state = 456
+				transfer_state = 623
+				transfer_state = 453
+				set_popularities = {
+					dictatorshipism = 14
+					fascism = 10
+					despotism = 27
+					authoritarian_democracy = 25
+					liberal_democracy = 21
+					social_democracy = 2
+					socialism = 1
+					communism = 0
+				}
+				add_ideas = idea_BAP_Benedict
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+			}
+		}
+    }
+	option={
+		name = colonial_government_events.5.td
+		hidden_effect = {
+			set_autonomy = {
+				target = BAP
+				autonomous_state = autonomy_colony 
+			}
+			BAP = {
+				inherit_technology = CLK
+				transfer_state = 437
+				transfer_state = 449
+				transfer_state = 478
+				transfer_state = 427
+				transfer_state = 466
+				transfer_state = 388
+				transfer_state = 364
+				transfer_state = 383
+				transfer_state = 398
+				transfer_state = 737
+				transfer_state = 421
+				transfer_state = 197
+				transfer_state = 441
+				transfer_state = 443
+				transfer_state = 457
+				transfer_state = 470
+				transfer_state = 434
+				transfer_state = 456
+				transfer_state = 623
+				transfer_state = 453
+				set_popularities = {
+					dictatorshipism = 14
+					fascism = 10
+					despotism = 27
+					authoritarian_democracy = 25
+					liberal_democracy = 21
+					social_democracy = 2
+					socialism = 1
+					communism = 0
+				}
+				add_ideas = idea_BAP_Benedict
+				delete_unit_template_and_units = {
+					division_template = "帝国步兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国炮兵师"
+					disband = yes 
+				 }
+				 delete_unit_template_and_units = {
+					division_template = "帝国坦克师"
+					disband = yes 
+				 }
+			}
+		}
+		BAP = {
+			change_tag_from = CLK
+		}
+	}
+	
+}

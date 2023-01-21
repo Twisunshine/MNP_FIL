@@ -1,109 +1,431 @@
 ideas = {
 	country = {
-#####################################################CLK
-        
-            CLK_Love_of_hunger_1 = {
+        CLK_Love_of_hunger_1 = {
+            allowed = {
+			    original_tag = CLK
+		    }
 
-                allowed = {
-				    original_tag = CLK
-			    }
+            removal_cost = -1
+            picture = CLK_Love_of_hunger_1
+            modifier = {
+			consumer_goods_factor = 0.15
+			supply_consumption_factor = 0.10
+			army_attack_factor = 0.05
+			army_morale_factor = -0.10
+		    }
+        }
+			
+		CLK_Morphological_changes_1 = {
+            allowed = {
+			    original_tag = CLK
+		    }
 
-                removal_cost = -1
-                picture = CLK_Love_of_hunger_1
-                modifier = {
-				consumer_goods_factor = 0.15
-				supply_consumption_factor = 0.10
-				army_attack_factor = 0.05
-				army_morale_factor = -0.10
-			    }
-            }
-				
-			CLK_Morphological_changes_1 = {
-
-                allowed = {
-				    original_tag = CLK
-			    }
-
-                removal_cost = -1
-                picture = CLK_Morphological_changes_1
-                modifier = {
+            removal_cost = -1
+            picture = CLK_Morphological_changes_1
+			
+            modifier = {
 				decryption_factor = 0.15
 				army_attack_factor = 0.1
 				recon_factor = 0.2
-			    }
-            }
-				
-			CLK_colonial_west_EER_1 = {
+		    }
+        }
+			
+		CLK_colonial_west_EER_1 = {
+            allowed = {
+			    original_tag = CLK
+		    }
 
-                    allowed = {
-				        original_tag = CLK
-			    }
-
-                removal_cost = -1
-                picture = CLK_colonial_west_EER_1
-                modifier = {
+            removal_cost = -1
+            picture = CLK_colonial_west_EER_1
+			
+            modifier = {
 				consumer_goods_factor = -0.10
 				war_support_factor = 0.15
 				supply_consumption_factor = -0.05
-				industrial_capacity_factory = -0.15
+				industrial_capacity_factory = 0.10
 				production_factory_max_efficiency_factor = -0.05
-			    }
-            }
-				
-			CLK_Tolt_contract_1 = {
-
-                    allowed = {
-				        original_tag = CLK
-			    }
-				
-				cancel = {
+		    }
+        }
+			
+		CLK_Tolt_contract_1 = {
+            allowed = {
+				original_tag = CLK
+		    }
+			
+			cancel = {
 				not = { has_war = no }
-				}
+			}
 
-                removal_cost = -1
-                picture = CLK_Tolt_contract_1
-                modifier = {
+            removal_cost = -1
+            picture = CLK_Tolt_contract_1
+			
+            modifier = {
 				consumer_goods_factor = -0.05
 				war_support_factor = 0.10
 				stability_factor = 0.10
-			    }
-            }
-				
-			CLK_The_consequences_of_overexpansion_1 = {
+		    }
+        }
+			
+		CLK_The_consequences_of_overexpansion_1 = {
+            allowed = {
+			    original_tag = CLK
+		    }
 
-                    allowed = {
-				        original_tag = CLK
-			    }
-
-                removal_cost = -1
-                picture = The_consequences_of_overexpansion_1
-                modifier = {
+            removal_cost = -1
+            picture = The_consequences_of_overexpansion_1
+			
+            modifier = {
 				conscription = -0.01
 				stability_factor = -0.10
 				production_speed_buildings_factor = -0.10
 				research_speed_factor = -0.10
 				local_resources_factor = -0.10
-			    }
-            }
+		    }
+        }
+		
+		CLK_prefer_the_status_quo = {
+			allowed = {
+			     original_tag = CLK
+		    }
 			
-			CLK_prefer_the_status_quo = {
-
-                    allowed = {
-				        original_tag = CLK
-			    }
-				
-				removal_cost = -1
-                picture = CLK_prefer_the_status_quo
-                modifier = {
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
 				conscription_factor = 0.2
 				experience_gain_army_factor = -0.10
 				training_time_factor = -0.10
 				army_defence_factor = -0.10
 				surrender_limit = 0.1
-			    }
-            }
-
-
+			}
+        }
 		
-		}
+		#脆弱的辎重
+		CLK_fragile_burden = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				supply_consumption_factor = -0.1
+				monthly_population = -0.1
+				political_power_cost = 0.15
+			}
+        }
+		
+		#随机处决
+		CLK_random_execution = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			cancel = {
+				not = { has_war = no }
+			}
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				stability_weekly = 0.01
+				resistance_damage_to_garrison = -0.2
+				resistance_growth = -0.2
+			}
+        }
+		
+		#崭新的指挥官
+		CLK_new_commander = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				army_attack_factor = 0.25
+				planning_speed = 0.2
+				experience_gain_army = 0.25
+			}
+        }
+		
+		#稳住战线
+		CLK_hold_the_line_1 = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				political_power_factor = -0.2
+				planning_speed = 0.2
+			}
+        }
+		
+		CLK_hold_the_line_2 = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				political_power_factor = -0.2
+				planning_speed = 0.2
+				army_defence_factor = 0.2
+			}
+        }
+		
+		#知识的武器
+		CLK_weapon_of_knowledge = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				research_speed_factor = 0.15
+			}
+        }
+		
+		#思想教育
+		CLK_thought_education_1 = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				political_power_factor = 0.1
+			}
+        }
+		
+		CLK_thought_education_2 = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				political_power_factor = 0.1
+				recruitable_population_factor = 0.1
+			}
+        }
+		
+		#各司其职
+		CLK_each_performs_its_own_duty = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				production_speed_buildings_factor = 0.1 
+				monthly_population = 0.1
+			}
+        }
+		
+		#焦土平叛
+		CLK_scorched_earth_rebel = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				political_power_factor = -0.10
+				industrial_capacity_factory = -0.15
+				recruitable_population_factor = -0.1
+				stability_factor = -0.2
+			}
+        }
+		
+		#三月亡马
+		CLK_three_month_dead_horse = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+            picture = CLK_prefer_the_status_quo
+			
+            modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = -0.3
+				army_speed_factor = 0.15
+				army_org_regain = 0.1
+			}
+        }
+		#劫掠小马
+		CLK_marauding_pony = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				consumer_goods_factor = -0.5
+		    }
+        }
+		#民怨沸腾
+		CLK_public_grievances = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				resistance_damage_to_garrison = 0.20
+		    }
+        }
+		#聚焦国内
+		CLK_focus_on_domestic = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				political_power_factor = 0.10
+		    }
+        }
+		#皇家财富
+		CLK_royal_jewelry = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				consumer_goods_factor = -0.05
+		    }
+        }
+		#互为后援
+		CLK_mutual_support = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				naval_attrition = -0.20
+		    }
+        }
+		#以一敌百
+		CLK_one_against_one_hundred = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				naval_damage_factor = 0.20
+		    }
+        }
+		#海上蜂群
+		CLK_sea_swarm = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				industrial_capacity_dockyard = 0.20
+		    }
+        }
+		
+		
+	}
+	
+	hidden_ideas = {
+		CLK_queenist_faction = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				stability_weekly_factor = 0.002
+				conscription_factor = 0.2
+				army_attack_factor = 0.2
+		    }
+        }
+		CLK_militarist_faction = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				war_support_factor = -0.5
+				army_attack_factor = -0.5
+				industrial_capacity_factory = -0.5
+		    }
+        }
+		CLK_royalist_faction = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				political_power_factor = -0.5
+				stability_factor = -0.75
+				consumer_goods_factor = 0.5
+		    }
+        }
+		CLK_conservativist_faction = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {	
+				production_speed_arms_factory_factor = -0.5 
+				industrial_capacity_factory = -0.75
+				research_speed_factor = -0.3
+		    }
+        }
+		CLK_practitioner_faction = {
+			allowed = {
+			     original_tag = CLK
+		    }
+			
+			removal_cost = -1
+			
+            modifier = {
+				stability_factor = 0.2
+				conscription_factor = -0.5
+				conscription = -0.025
+		    }
+        }
+		
+	}
 }

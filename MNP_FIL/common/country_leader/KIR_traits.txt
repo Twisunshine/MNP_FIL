@@ -1,0 +1,6 @@
+leader_traits = {
+    sickly_patriarch = {
+		random = no
+        political_power_factor = -0.1
+	}
+}

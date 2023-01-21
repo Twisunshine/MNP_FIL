@@ -99,7 +99,7 @@ EQU_Orthodoxy = {
         days_remove = 15
 		days_re_enable = 360
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			war_support_weekly = -0.01
@@ -115,7 +115,7 @@ EQU_Orthodoxy = {
         days_remove = 15
 		days_re_enable = 360
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			stability_weekly = -0.01
@@ -131,7 +131,7 @@ EQU_Orthodoxy = {
         days_remove = 15
 		days_re_enable = 180
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			liberal_democracy_drift = 0.01
@@ -636,6 +636,9 @@ EQU_EQS = {
 			has_country_flag = EOM_NOT
 			has_country_flag = CLK_NOT
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 
 		 complete_effect = {
@@ -652,6 +655,9 @@ EQU_EQS = {
 			NOT = {
 				has_country_flag = EER_integrated_territory_EOM
 			}
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		fire_only_once = yes
 		cost = 150
@@ -674,6 +680,9 @@ EQU_EQS = {
 				has_country_flag = EER_integrated_territory_CLK
 			}
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		
 		fire_only_once = yes
 		cost = 150
@@ -694,6 +703,9 @@ EQU_EQS = {
 			NOT = {
 				has_country_flag = EQU_integrated_territory_EER
 			}
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		
 		fire_only_once = yes

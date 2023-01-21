@@ -1,5 +1,7 @@
 ﻿capital = 147 
 
+oob = "CRY_1004"
+
 set_research_slots = 1
 set_stability = 0.0
 set_war_support = 0.1
@@ -17,19 +19,46 @@ set_politics = {
 }
 
 set_popularities = {
-	dictatorshipism = 22
-	fascism = 17
-	despotism = 12
-	authoritarian_democracy = 30
-	liberal_democracy = 15
+	dictatorshipism = 19
+	fascism = 5
+	despotism = 7
+	authoritarian_democracy = 60
+	liberal_democracy = 5
 	social_democracy = 3
 	socialism = 0
 	communism = 1
 }
 
 add_ideas = {
-		
+	laws_ideas_1_3
+	laws_ideas_2_1
+	laws_ideas_3_5
+	laws_ideas_4_6
+	laws_ideas_5_1
+	laws_ideas_6_4
+	develop_ideas_1_1
+	develop_ideas_2_1
+	develop_ideas_3_2
+	develop_ideas_4_2
+	develop_ideas_5_1
+	develop_ideas_6_1
+	race_ideas_2_4
+	race_ideas_3_5
+	race_ideas_4_4
+	race_ideas_5_3
+	CRY_First_Thaw_of_Frozen_Soil
+	CRY_Extreme_Sadness_1
+	CRY_Stagnant_Millennium
+	CRY_BattleHardened_SelfDefense_Forces
+	CRY_Sombra_Cultist_Expansion
+	CRY_the_Crystal_Heart
 }
 
 
 recruit_character = CRY_Crystal_Pony_Self-Defense_Force
+recruit_character = CRY_Golden_Hooves
+recruit_character = CRY_Amethyst_Maresbury
+recruit_character = CRY_Erlan
+recruit_character = CRY_Moe_cloud
+recruit_character = CRY_General_Yacellul
+recruit_character = CRY_Liu_Ying

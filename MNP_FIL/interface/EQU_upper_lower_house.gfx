@@ -1,0 +1,78 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_button_139x62_lower_house"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/button_139x62_lower_house.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_button_139x62_upper_house"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/button_139x62_upper_house.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_button_52x52_lower_house"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/button_52x52_lower_house.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_button_250x50_upper_house"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/button_250x50_upper_house.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bill_progress_time"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/bill_progress_time.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bill_progress_support"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/bill_progress_support.dds"
+		noOfFrames = 3
+	}
+	
+	
+	
+	
+	spriteType = {
+		name = "GFX_upper_lower_house_switch_bg"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/upper_lower_house_switch_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_upper_lower_house_switch_button"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/upper_lower_house_switch_button.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_upper_house_bg"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/upper_house_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_button_bill_upper_house"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/button_bill_upper_house.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_button_resolution_upper_house"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/button_resolution_upper_house.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_upper_house_bill_progress_bg"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/upper_house_bill_progress_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_upper_house_bill_progress_extra"
+		texturefile = "gfx/interface/FIL_System/upper_lower_house/upper_house_bill_progress_extra.dds"
+	}
+}

@@ -1,0 +1,147 @@
+add_namespace = Caninia_Abyssinia_News
+
+news_event = {
+	id = Caninia_Abyssinia_News.War
+	title = Caninia_Abyssinia_News.Title
+	desc = Caninia_Abyssinia_News.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_Caninia_Abyssinia_News
+	
+	option = {
+		name = Caninia_Abyssinia_News.Opt1
+	}
+}
+
+add_namespace = Caninia_Abyssinia_News_hidden
+
+country_event = {
+	id = Caninia_Abyssinia_News_hidden.War
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = Caninia_Abyssinia_News.War}
+		
+		CNN = {
+			declare_war_on = {
+				target = ABY
+				type = take_claimed_state
+			}
+		}
+		
+    }
+}
+
+###
+add_namespace = Ornithia_CA_News
+
+news_event = {
+	id = Ornithia_CA_News.1
+	title = Ornithia_CA_News.1.Title
+	desc = Ornithia_CA_News.1.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_Ornithia_CA_News_1
+	
+	option = {
+		name = Ornithia_CA_News.1.Opt1
+	}
+}
+
+news_event = {
+	id = Ornithia_CA_News.2
+	title = Ornithia_CA_News.2.Title
+	desc = Ornithia_CA_News.2.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_Ornithia_CA_News_1
+	
+	option = {
+		name = Ornithia_CA_News.2.Opt1
+	}
+}
+
+news_event = {
+	id = Ornithia_CA_News.3
+	title = Ornithia_CA_News.3.Title
+	desc = Ornithia_CA_News.3.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_Ornithia_CA_News_2
+	
+	option = {
+		name = Ornithia_CA_News.3.Opt1
+	}
+}
+
+###
+add_namespace = Ornithia_CA_News_hidden
+
+country_event = {
+	id = Ornithia_CA_News_hidden.1
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = Ornithia_CA_News.1}
+		
+		ORN = {
+			declare_war_on = {
+				target = ABY
+				type = annex_everything
+			}
+		}
+		
+    }
+}
+
+country_event = {
+	id = Ornithia_CA_News_hidden.2
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = Ornithia_CA_News.2}
+		
+		ORN = {
+			declare_war_on = {
+				target = CNN
+				type = annex_everything
+			}
+		}
+		
+    }
+}
+
+country_event = {
+	id = Ornithia_CA_News_hidden.3
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = Ornithia_CA_News.3}
+    }
+}
+
+

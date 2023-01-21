@@ -25,7 +25,7 @@ leader_traits = {
 	Microphone_for_Fancy_Pants = {
 		random = no
 		stability_factor = 0.05
-		autonomy_gain = -0.1
+		autonomy_gain_global_factor = -1
 	}
 
 }

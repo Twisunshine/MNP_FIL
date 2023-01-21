@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { use_troops_like_god }
 			skill = 3
 			attack_skill = 5
 			defense_skill = 1
@@ -72,7 +72,7 @@ characters={
 			removal_cost = -114514
         }
 		corps_commander = {
-			traits = { }
+			traits = { careful }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -88,12 +88,31 @@ characters={
 			}
 			
 		}
-		
-
 		corps_commander = {
-			traits = { }
+			traits = { caring_for_troops }
 			skill = 2
 			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	LAS_Chief_Thunderhooves = {
+		name = LAS_Chief_Thunderhooves
+		portraits = {
+			army = {
+				large="gfx/leaders/LAS/Portrait_LAS_Chief_Thunderhooves.dds"
+			}
+			
+		}
+		field_marshal = {
+			traits = { 
+				stick_to_letter_of_law 
+				follow_the_rules
+				experienced
+			}
+			skill = 5
+			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2

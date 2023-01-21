@@ -30,6 +30,7 @@ set_popularities = {
 recruit_character = LAS_Rainbow_Dash
 recruit_character = LAS_Applejack
 recruit_character = LAS_Pinkie_Pie
+recruit_character = LAS_Chief_Thunderhooves
 recruit_character = LAS_Golden_Gavel
 recruit_character = LAS_Silver_Frames
 recruit_character = LAS_swan_song
@@ -37,18 +38,18 @@ recruit_character = LAS_swan_song
 
 
 add_ideas = {
-	extensive_conscription
-	army_economic_policy_2
-	closed_economy
-	fully_control
-	all_adults
-	sound_citizenship
-	Specialized_chemical_factory
-	farm_production
-	more_popular
-	Flaws_do_not_hide_beauty
-	Universal_education
-	straggler
+	laws_ideas_1_4
+	laws_ideas_2_4
+	laws_ideas_3_5
+	laws_ideas_4_6
+	laws_ideas_5_2
+	laws_ideas_6_5
+	develop_ideas_1_4
+	develop_ideas_2_3
+	develop_ideas_3_3
+	develop_ideas_4_4
+	develop_ideas_5_3
+	develop_ideas_6_3
 	LAS_be_proud
 	LAS_Lightning_Bolt_Management
 	LAS_aristocratic_handicap

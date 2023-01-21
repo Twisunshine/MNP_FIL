@@ -5,6 +5,9 @@ EER_starlight_eqs = {
 			has_country_flag = EOM_NOT
 			has_country_flag = CLK_NOT
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 
 		 complete_effect = {
@@ -29,6 +32,9 @@ EER_starlight_eqs = {
 				has_country_flag = EER_integrated_territory_EQU
 			}
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 		cost = 150
 		days_remove = 180
@@ -47,6 +53,9 @@ EER_starlight_eqs = {
 		}
 		visible = {
 			has_country_flag = EER_integrated_territory_EQU
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		fire_only_once = yes
 		cost = 150
@@ -69,6 +78,9 @@ EER_starlight_eqs = {
 				has_country_flag = EER_integrated_territory_EOM
 			}
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 		cost = 150
 		days_remove = 180
@@ -85,9 +97,10 @@ EER_starlight_eqs = {
 			has_country_flag = EOM_NOT
 		}
 		visible = {
-
-				has_country_flag = EER_integrated_territory_EOM
-
+			has_country_flag = EER_integrated_territory_EOM
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		fire_only_once = yes
 		cost = 150
@@ -109,6 +122,9 @@ EER_starlight_eqs = {
 				has_country_flag = EER_integrated_territory_CLK
 			}
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 		cost = 150
 		days_remove = 180
@@ -128,6 +144,9 @@ EER_starlight_eqs = {
 
 				has_country_flag = EER_integrated_territory_CLK
 
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		fire_only_once = yes
 		cost = 150
@@ -150,6 +169,9 @@ EER_starlight_eqs = {
 				has_country_flag = EER_integrated_territory_CRY
 			}
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 		cost = 150
 		days_remove = 180
@@ -167,9 +189,10 @@ EER_starlight_eqs = {
 			has_country_flag = CRY_NOT
 		}
 		visible = {
-
-				has_country_flag = EER_integrated_territory_CRY
-
+			has_country_flag = EER_integrated_territory_CRY
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		fire_only_once = yes
 		cost = 150
@@ -190,7 +213,7 @@ EER_starlight_eqs = {
 EER_northern_trading_route = {
 	#解锁前
 	EER_northern_trading_route_1 = {
-		cost = 50
+		cost = 25
 		available = {
 			EER = {
 				AND = {
@@ -206,7 +229,10 @@ EER_northern_trading_route = {
 				}
 			}
 		}
-
+		ai_will_do = {
+			factor = 20
+		}
+		
 		days_remove = 60
 		days_re_enable = 0
 		icon = mission_icon
@@ -223,7 +249,7 @@ EER_northern_trading_route = {
 		}
 	}
 	EER_northern_trading_route_2 = {
-		cost = 50
+		cost = 25
 		available = {
 			EER = {
 				has_equipment = {
@@ -236,7 +262,10 @@ EER_northern_trading_route = {
 				}
 			}
 		}
-
+		ai_will_do = {
+			factor = 20
+		}
+		
 		days_remove = 60
 		days_re_enable = 0
 		icon = mission_icon
@@ -254,7 +283,7 @@ EER_northern_trading_route = {
 	}
 	#解锁
 	EER_northern_trading_route_3 = {
-		cost = 150
+		cost = 100
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = EER_add_safety_values_tip_if
@@ -265,6 +294,10 @@ EER_northern_trading_route = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 20
+		}
+		
 		days_remove = 15
 		fire_only_once = yes
 		icon = mission_icon
@@ -278,12 +311,15 @@ EER_northern_trading_route = {
 	}
 	#解锁后
 	EER_northern_trading_route_4 = {
-		cost = 75
+		cost = 45
 		available = {
 			has_war = yes
 		}
 		visible = {
 			has_country_flag = EER_its_safe
+		}
+		ai_will_do = {
+			factor = 25
 		}
 		days_remove = 60
 		days_re_enable = 0
@@ -299,12 +335,15 @@ EER_northern_trading_route = {
 		}
 	}
 	EER_northern_trading_route_5 = {
-		cost = 100
+		cost = 75
 		available = {
 			has_war = yes
 		}
 		visible = {
 			has_country_flag = EER_its_safe
+		}
+		ai_will_do = {
+			factor = 20
 		}
 		days_remove = 60
 		days_re_enable = 0
@@ -330,6 +369,9 @@ EER_development_of_education_in_EER  = {
 		available = {
 
 		}
+		ai_will_do = {
+			factor = 20
+		}
 
 		days_remove = 60
 		days_re_enable = 0
@@ -352,6 +394,9 @@ EER_development_of_education_in_EER  = {
 		cost = 75
 		available = {
 
+		}
+		ai_will_do = {
+			factor = 20
 		}
 
 		days_remove = 120
@@ -377,6 +422,9 @@ EER_development_of_education_in_EER  = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 20
+		}
 
 		days_remove = 15
 		fire_only_once = yes
@@ -385,7 +433,10 @@ EER_development_of_education_in_EER  = {
 		selectable_mission = yes
 
 		complete_effect = {
-			add_ideas = Universal_education
+			swap_ideas = {
+				remove_idea = develop_ideas_5_2
+				add_idea = develop_ideas_5_3
+			}
 			clr_country_flag = EER_development_of_education_in_EER
 			clear_variable = EER_scientific_values
 		}
@@ -401,24 +452,24 @@ EER_actions_in_enemy_countries = {
 				original_tag = EQU
 			}
 		}
-		        visible = {
-
-		country_exists = EQU
-	}
-	days_re_enable = 120
-	cost = 50
-	complete_effect = {
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = -50
-			producer = EER
+		visible = {
+			country_exists = EQU
 		}
-		set_variable = { EQU.EQU_orthodoxy_change = -1 }
-		calculate_orthodoxy = yes
-		custom_effect_tooltip = EQU_orthodoxy_sub_1
-	}
-
-
+		ai_will_do = {
+			factor = 20
+		}
+		days_re_enable = 120
+		cost = 50
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 150
+				producer = EER
+			}
+			set_variable = { EQU.EQU_orthodoxy_change = -1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EQU_orthodoxy_sub_1
+		}
 	}
 	EER_actions_in_enemy_countries_EQU_2 = {
 		icon = GFX_decision_generic_prepare_civil_war
@@ -430,12 +481,15 @@ EER_actions_in_enemy_countries = {
 		visible = {
 			country_exists = EQU
 		}
+		ai_will_do = {
+			factor = 20
+		}
 		days_re_enable = 120
 		cost = 100
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -500
+				amount = 500
 				producer = EER
 			}
 			set_variable = { EQU.EQU_orthodoxy_change = -1 }
@@ -454,12 +508,15 @@ EER_actions_in_enemy_countries = {
 		visible = {
 			country_exists = EQU
 		}
+		ai_will_do = {
+			factor = 20
+		}
 		days_re_enable = 150
 		cost = 75
 		complete_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 50
+				amount = 750
 				producer = EER
 			}
 			set_variable = { EQU.EQU_orthodoxy_change = -1 }
@@ -479,6 +536,9 @@ EER_actions_in_enemy_countries = {
 		visible = {
 			country_exists = EQU
 		}
+		ai_will_do = {
+			factor = 20
+		}
 		days_re_enable = 180
 		cost = 100
 		complete_effect = {
@@ -496,24 +556,21 @@ EER_actions_in_enemy_countries = {
 				original_tag = EOM
 			}
 		}
-		        visible = {
-
-		country_exists = EOM
-	}
-	days_re_enable = 120
-	cost = 50
-	complete_effect = {
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = -50
-			producer = EER
+		visible = {
+			country_exists = EOM
 		}
-		set_variable = { EOM.EOM_orthodoxy_change = -1 }
-		calculate_orthodoxy = yes
-		custom_effect_tooltip = EOM_orthodoxy_sub_1
-	}
-
-
+		days_re_enable = 120
+		cost = 50
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 150
+				producer = EER
+			}
+			set_variable = { EOM.EOM_orthodoxy_change = -1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+		}
 	}
 	EER_actions_in_enemy_countries_EOM_2 = {
 		icon = GFX_decision_generic_prepare_civil_war
@@ -522,68 +579,65 @@ EER_actions_in_enemy_countries = {
 				original_tag = EOM
 			}
 		}
-		        visible = {
-
-		country_exists = EOM
-	}
-	days_re_enable = 120
-	cost = 100
-	complete_effect = {
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = -500
-			producer = EER
+		visible = {
+			country_exists = EOM
 		}
-		set_variable = { EOM.EOM_orthodoxy_change = -1 }
-		calculate_orthodoxy = yes
-		custom_effect_tooltip = EOM_orthodoxy_sub_1
-	}
-
-
+		days_re_enable = 120
+		cost = 100
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 750
+				producer = EER
+			}
+			set_variable = { EOM.EOM_orthodoxy_change = -1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+		}
 	}
 	EER_actions_in_enemy_countries_EOM_3 = {
 		icon = GFX_decision_generic_prepare_civil_war
 		target_trigger = {
 			FROM = {
 				original_tag = EOM
-
 			}
 			has_completed_focus = EER_you_can_do_it
 		}
-		        visible = {
-
-		country_exists = EOM
-	}
-	days_re_enable = 150
-	cost = 50
-
-	complete_effect = {
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 150
+		visible = {
+			country_exists = EOM
 		}
-		add_manpower = 5000
-		EOM = {
-			set_variable = { EOM.EOM_orthodoxy_change = -1 }
-			calculate_orthodoxy = yes
-			add_manpower = -5000
+		ai_will_do = {
+			factor = 20
 		}
-		custom_effect_tooltip = EOM_orthodoxy_sub_1
-	}
-
-
+		days_re_enable = 150
+		cost = 50
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 150
+			}
+			add_manpower = 5000
+			EOM = {
+				set_variable = { EOM.EOM_orthodoxy_change = -1 }
+				calculate_orthodoxy = yes
+				add_manpower = -5000
+			}
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+		}
 	}
 	EER_actions_in_enemy_countries_EOM_4 = {
 		icon = GFX_decision_generic_prepare_civil_war
 		target_trigger = {
 			FROM = {
 				original_tag = EOM
-
 			}
 			has_completed_focus = EER_stepping_into_deep_water
 		}
 		visible = {
 			country_exists = EOM
+		}
+		ai_will_do = {
+			factor = 20
 		}
 		days_re_enable = 180
 		cost = 100
@@ -601,27 +655,28 @@ EER_actions_in_enemy_countries = {
 		target_trigger = {
 			FROM = {
 				original_tag = EOM
-
 			}
 			has_completed_focus = EER_stepping_into_deep_water
 		}
-		        visible = {
+		visible = {
+			country_exists = EOM
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		days_re_enable = 150
+		cost = 75
 
-		country_exists = EOM
-	}
-	days_re_enable = 150
-	cost = 75
-
-	complete_effect = {
-		set_variable = { EOM.EOM_orthodoxy_change = -1 }
-		calculate_orthodoxy = yes
-		custom_effect_tooltip = EOM_orthodoxy_sub_1
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 50
+		complete_effect = {
+			set_variable = { EOM.EOM_orthodoxy_change = -1 }
+			calculate_orthodoxy = yes
+			custom_effect_tooltip = EOM_orthodoxy_sub_1
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+			}
 		}
 	}
-}
 }
 
 #星光熠熠党内斗争 - 星光线
@@ -631,7 +686,6 @@ EER_starlight_intraparty_struggle = {
 
 		days_re_enable = 90
 		cost = 25
-
 		available = {
 			EER = {
 				has_equipment = {

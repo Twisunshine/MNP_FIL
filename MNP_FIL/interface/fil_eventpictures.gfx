@@ -1,4 +1,10 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_World_News.1"
+		texturefile = "gfx/event_pictures/World_News.1.dds"
+	}
+	
+	
 	
 	spriteType = {
 		name = "GFX_news_event_EEE_war"
@@ -9,26 +15,29 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event_starlight_eqs.dds"
 	}
 	spriteType = {
-		name = "GFX_news_event_soe_Revolutionary_victory"
-		texturefile = "gfx/event_pictures/soe_Revolutionary_victory.dds"
+		name = "GFX_Caninia_Abyssinia_News"
+		texturefile = "gfx/event_pictures/Caninia_Abyssinia_News.dds"
 	}
 	spriteType = {
-		name = "GFX_event_kill_sunset"
-		texturefile = "gfx/event_pictures/kill_sunset.dds"
+		name = "GFX_Ornithia_CA_News_1"
+		texturefile = "gfx/event_pictures/Ornithia_CA_News_1.dds"
 	}
 	spriteType = {
-		name = "GFX_news_event_soe_has_canterlot"
-		texturefile = "gfx/event_pictures/soe_has_canterlot.dds"
+		name = "GFX_Ornithia_CA_News_2"
+		texturefile = "gfx/event_pictures/Ornithia_CA_News_2.dds"
 	}
 	spriteType = {
-		name = "GFX_news_event_soe_has_Manehattan"
-		texturefile = "gfx/event_pictures/soe_has_Manehattan.dds"
+		name = "GFX_SRG_News"
+		texturefile = "gfx/event_pictures/SRG_News.dds"
 	}
 	spriteType = {
-		name = "GFX_news_event_soe_has_Village"
-		texturefile = "gfx/event_pictures/soe_has_Village.dds"
+		name = "GFX_Storm_King_to_Seaquestria"
+		texturefile = "gfx/event_pictures/Storm_King_to_Seaquestria.dds"
 	}
-
+	spriteType = {
+		name = "GFX_War_Griffon"
+		texturefile = "gfx/event_pictures/War_Griffon.dds"
+	}
 	
 	
 }

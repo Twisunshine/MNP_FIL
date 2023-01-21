@@ -33,7 +33,7 @@ characters={
 			removal_cost = -114514
         }
 		field_marshal = {
-			traits = { }
+			traits = { caring_for_troops }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 1
@@ -71,10 +71,10 @@ characters={
         }
 		field_marshal = {
 			legacy_id = 114
-			traits = { }
+			traits = { positionalism }
 			skill = 3
 			attack_skill = 3
-			defense_skill = 3
+			defense_skill = 5
 			planning_skill = 2
 			logistics_skill = 4
 		}
@@ -109,7 +109,10 @@ characters={
         }
 		corps_commander = {
 			legacy_id = 233
-			traits = { }
+			traits = { 
+				careful
+				follow_the_rules
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -144,7 +147,7 @@ characters={
 			removal_cost = -114514
         }
 		corps_commander = {
-			traits = { }
+			traits = { not_skilled_in_military }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 4
@@ -202,7 +205,10 @@ characters={
 			removal_cost = -114514
         }
 		corps_commander = {
-			traits = { }
+			traits = { 
+				not_skilled_in_military 
+				caring_for_troops
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -236,7 +242,7 @@ characters={
 			removal_cost = -114514
         }
 		corps_commander = {
-			traits = { }
+			traits = { bright_future }
 			skill = 2
 			attack_skill = 3
 			defense_skill = 2

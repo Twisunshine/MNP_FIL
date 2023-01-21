@@ -22,16 +22,33 @@ set_politics = {
 set_popularities = {
 	dictatorshipism = 0
 	fascism = 0
-	despotism = 100
-	authoritarian_democracy = 0
-	liberal_democracy = 0
+	despotism = 75
+	authoritarian_democracy = 20
+	liberal_democracy = 5
 	social_democracy = 0
 	socialism = 0
 	communism = 0
 }
 
 add_ideas = {
-		
+	laws_ideas_1_5
+	laws_ideas_2_2
+	laws_ideas_3_4
+	laws_ideas_4_6
+	laws_ideas_5_3
+	laws_ideas_6_3
+	develop_ideas_1_2
+	develop_ideas_2_2
+	develop_ideas_3_1
+	develop_ideas_4_3
+	develop_ideas_5_3
+	develop_ideas_6_5
+	GFE_Military_System
+	GFE_Outcast_of_the_Empire
+	GFE_Anti_unification_Sentiment
+	GFE_Empire_Frontier
+	GFE_Economic_Desperation
+	GFE_Increasingly_Unpopular
 }
 
 

@@ -31,8 +31,13 @@ focus_tree = {
 		x = 31
 		y = 1
 		
+		available = {
+			has_completed_focus = EQU_2_6
+		}
+		
 		completion_reward = {
 			add_political_power = 100
+			EQU_calculate_upper_house_party = yes
 		}
 	}
 	focus = {
@@ -574,8 +579,8 @@ focus_tree = {
 		y = 11
 		completion_reward = {
 			swap_ideas = {
-			add_idea = quite_satisfactory
-			remove_idea = straggler
+				remove_idea = develop_ideas_6_4
+				add_idea = develop_ideas_6_5
 			}
 		}
 
@@ -597,46 +602,108 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_3
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
 		}
 		x = 21
 		y = 3
-
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_2_3_3_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 7 }
+			EQU_set_upper_house_bill = yes
+		}
 	}
 	focus = {
 		id = EQU_2_4_5
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_3
 		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
+		}
+		
 		x = 21
 		y = 4
-
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_2_4_5_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
 	}
 	focus = {
 		id = EQU_2_3_4
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
+		}
+		
 		x = 23
 		y = 3
-
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_2_3_4_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 8 }
+			EQU_set_upper_house_bill = yes
+		}
 	}
 	focus = {
 		id = EQU_2_4_6
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_4
 		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
+		}
+		
 		x = 23
 		y = 4
 
+		completion_reward = {
+			custom_effect_tooltip = EQU_2_4_6_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+		}
 	}
 	focus = {
 		id = EQU_2_6_3
@@ -864,24 +931,53 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_5
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 25
 		y = 3
 
+		completion_reward = {
+			custom_effect_tooltip = EQU_2_3_5_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 9 }
+			EQU_set_upper_house_bill = yes
+		}
 	}
 	focus = {
 		id = EQU_2_4_7
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_5
 		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
+		}
 		x = 25
 		y = 4
-
+		
+		completion_reward = {
+			custom_effect_tooltip = EQU_2_4_7_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = socialism popularity = 0.05 }
+		}
 	}
 	focus = {
 		id = EQU_2_12_7
@@ -903,85 +999,155 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_6
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 27
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_6_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 10 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_8
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_6
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 27
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_8_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = authoritarian_democracy popularity = -0.1 }
 		}
 	}
 	focus = {
 		id = EQU_2_3_7
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 29
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_7_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 11 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_9
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_7
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 29
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_9_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_political_power = -300
 		}
 	}
 	focus = {
 		id = EQU_2_3_8
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 31
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_8_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 12 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_10
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_8
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 31
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_10_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_to_variable = { EQU_TS_power = 3 }
+			custom_effect_tooltip = EQU_TS_power_tooltip_4
 		}
 	}
 	focus = {
@@ -1073,29 +1239,53 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_9
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 33
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_9_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 13 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_11
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_9
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 33
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_11_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+            add_to_variable = { EQU_TS_and_FP = -5 }
+			custom_effect_tooltip = EQU_TS_FP_between_6
 		}
 	}
 	focus = {
@@ -1191,29 +1381,52 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_10
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 35
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_10_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 14 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_12
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_10
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 35
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_12_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
 		}
 	}
 	focus = {
@@ -1312,57 +1525,103 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_11
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 37
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_11_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 15 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_13
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_11
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 37
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_13_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = authoritarian_democracy popularity = -0.1 }
 		}
 	}
 	focus = {
 		id = EQU_2_3_12
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 39
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_12_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 16 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_14
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_12
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 39
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_14_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			add_popularity = { ideology = liberal_democracy popularity = 0.05 }
 		}
 	}
 	focus = {
@@ -1569,29 +1828,52 @@ focus_tree = {
 	focus = {
 		id = EQU_2_3_13
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 5.00
 		prerequisite = {
 			focus = EQU_2_2_2
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_not_activ
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_ready
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
 		}
 		x = 41
 		y = 3
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_3_13_tooltip
+			set_variable = { EQU_upper_house_activ_bill = 17 }
+			EQU_set_upper_house_bill = yes
 		}
 	}
 	focus = {
 		id = EQU_2_4_15
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		prerequisite = {
 			focus = EQU_2_3_13
+		}
+		available = {
+			NOT = {
+				has_country_flag = EQU_upper_house_endorsement
+			}
+			custom_trigger_tooltip = {
+				tooltip = EQU_upper_house_bill_activ
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
 		}
 		x = 41
 		y = 4
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = EQU_2_4_15_tooltip
+			set_country_flag = EQU_upper_house_endorsement
+			army_experience = -500
 		}
 	}
 	focus = {
@@ -1605,8 +1887,8 @@ focus_tree = {
 		y = 7
 		
 		completion_reward = {
-			add_ideas = free_trade
-			add_ideas = Laissez_faire
+			add_ideas = laws_ideas_3_2
+			add_ideas = laws_ideas_4_1
 		}
 	}
 	focus = {
@@ -1858,6 +2140,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EQU_2_11_2
 		}
+		available = {
+			has_idea = race_ideas_4_3
+		}
 		x = 4
 		y = 12
 		completion_reward = {
@@ -1866,6 +2151,11 @@ focus_tree = {
 			set_variable = { EQU.EQU_orthodoxy_change = 1 }
 			calculate_orthodoxy = yes
 			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+			swap_ideas = { 
+				remove_idea = race_ideas_4_3
+				add_idea = race_ideas_4_5
+			}
+			subtract_from_variable = { race_red_value = 10 }
 		}
 
 	}
@@ -2067,8 +2357,8 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = -10000
 			swap_ideas = {
-			add_idea = large_scale_farming
-			remove_idea = farm_production
+				remove_idea = develop_ideas_2_3
+				add_idea = develop_ideas_2_4
 			}
 		}
 
@@ -2088,10 +2378,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -100
 			add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 5000
-		producer = EQU
-	           }
+				type = infantry_equipment
+				amount = 5000
+				producer = EQU
+	          }
 		}
 
 	}
@@ -2167,19 +2457,27 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EQU_2_14_4
 		}
+		available = {
+			has_idea = race_ideas_2_4
+		}
 		x = 11
 		y = 15
 		completion_reward = {
-			add_stability = -0.1
-			add_war_support = 0.05
+			add_stability = -0.15
+			add_war_support = 0.15
 			add_equipment_to_stockpile = {
 				type = support_equipment
-				amount = 300
+				amount = 350
 				producer = EQU
 			}
 			set_variable = { EQU.EQU_orthodoxy_change = 1 }
 			calculate_orthodoxy = yes
 			custom_effect_tooltip = EQU_EOM_orthodoxy_add_sub_1
+			swap_ideas = { 
+				remove_idea = race_ideas_2_4
+				add_idea = race_ideas_2_5
+			}
+			add_to_variable = { race_blue_value = 10 }
 		}
 
 	}

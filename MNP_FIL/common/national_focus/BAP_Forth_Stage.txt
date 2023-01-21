@@ -1,0 +1,497 @@
+focus_tree = {
+	id = BAP_Forth_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BAP_Forth
+		}
+	}
+	default = no
+	focus = {
+		id = BAP_4_1_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 31
+		y = 0
+
+	}
+	focus = {
+		id = BAP_4_1_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 44
+		y = 0
+
+	}
+	focus = {
+		id = BAP_4_2_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_1_1
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = BAP_4_3_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_1
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_4_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_1
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_5_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_1
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_6_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_1
+		}
+		mutually_exclusive = {
+			focus = BAP_4_6_1
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_6_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_1
+		}
+		mutually_exclusive = {
+			focus = BAP_4_6_2
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_4_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_1
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_5_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_2
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_2_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_1_1
+		}
+		x = 31
+		y = 1
+
+	}
+	focus = {
+		id = BAP_4_3_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_2
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_3_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_2
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_4_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_3
+		}
+		prerequisite = {
+			focus = BAP_4_3_2
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_2_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_1_1
+		}
+		x = 33
+		y = 1
+
+	}
+	focus = {
+		id = BAP_4_3_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_3
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_4_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_4
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_5_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_4
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_6_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_3
+		}
+		prerequisite = {
+			focus = BAP_4_5_2
+		}
+		prerequisite = {
+			focus = BAP_4_4_3
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_4_5
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_4
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_5_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_5
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_6_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_4
+		}
+		mutually_exclusive = {
+			focus = BAP_4_6_5
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_6_5
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_4
+		}
+		mutually_exclusive = {
+			focus = BAP_4_6_4
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_2_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_1_2
+		}
+		mutually_exclusive = {
+			focus = BAP_4_2_5
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = BAP_4_3_5
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_4
+		}
+		x = 41
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_3_6
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_4
+		}
+		x = 43
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_4_6
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_6
+		}
+		prerequisite = {
+			focus = BAP_4_3_5
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_5_5
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_6
+		}
+		x = 40
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_6_6
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_5
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_2_5
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_1_2
+		}
+		mutually_exclusive = {
+			focus = BAP_4_2_4
+		}
+		x = 46
+		y = 1
+
+	}
+	focus = {
+		id = BAP_4_3_7
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_5
+		}
+		x = 45
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_3_8
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_2_5
+		}
+		x = 47
+		y = 2
+
+	}
+	focus = {
+		id = BAP_4_4_7
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_3_8
+		}
+		prerequisite = {
+			focus = BAP_4_3_7
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = BAP_4_5_6
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_7
+			focus = BAP_4_4_6
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_5_7
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_4_7
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = BAP_4_6_7
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_5_7
+		}
+		x = 47
+		y = 5
+
+	}
+	focus = {
+		id = BAP_4_7_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_6_3
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = BAP_4_8_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_7_1
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = BAP_4_8_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_7_1
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = BAP_4_9_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_8_2
+		}
+		prerequisite = {
+			focus = BAP_4_8_1
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = BAP_4_7_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_4_6_6
+			focus = BAP_4_6_7
+		}
+		prerequisite = {
+			focus = BAP_4_5_6
+		}
+		x = 44
+		y = 6
+
+	}
+}

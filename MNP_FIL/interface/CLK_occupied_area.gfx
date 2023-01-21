@@ -1,0 +1,19 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_occupied_area_color"
+		texturefile = "gfx/interface/FIL_System/occupied_area/occupied_area_color.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_occupied_area_1"
+		texturefile = "gfx/interface/FIL_System/occupied_area/occupied_area_1.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_occupied_area_progress"
+		texturefile = "gfx/interface/FIL_System/occupied_area/occupied_area_progress.dds"
+		noOfFrames = 2
+	}
+}

@@ -107,13 +107,16 @@ focus_tree = {
 					has_idea = idea_EER_Twisunshine_Intelligent
 				}
 				country_event = EER_events_c.69
-				remove_ideas = idea_EER_Twisunshine_Intelligent
-				add_ideas = idea_EER_Coco_Pommel
+				##remove_ideas = idea_EER_Twisunshine_Intelligent
+				##add_ideas = idea_EER_Coco_Pommel
 			}
 			else = {
+				limit = {
+					has_idea = idea_EER_Coco_Pommel
+				}
 				country_event = EER_events_c.70
-				remove_ideas = idea_EER_Coco_Pommel
-				add_ideas = idea_EER_Twisunshine_Intelligent
+				##remove_ideas = idea_EER_Coco_Pommel
+				##add_ideas = idea_EER_Twisunshine_Intelligent
 			}
 		}
 	}
@@ -132,13 +135,16 @@ focus_tree = {
 					has_idea = idea_EER_Twisunshine_Intelligent
 				}
 				country_event = EER_events_c.71
-				add_ideas = idea_EER_Coco_Pommel
-				add_ideas = EER_Silver_Shill
+				##remove_ideas = idea_EER_Coco_Pommel
+				##add_ideas = idea_EER_Silver_Shill
 			}
 			else = {
+				limit = {
+					has_idea = idea_EER_Coco_Pommel
+				}
 				country_event = EER_events_c.72
-				remove_ideas = idea_EER_Twisunshine_Intelligent
-				add_ideas = EER_Silver_Shill
+				##remove_ideas = idea_EER_Twisunshine_Intelligent
+				##add_ideas = idea_EER_Silver_Shill
 			}
 		}
 	}
@@ -214,7 +220,7 @@ focus_tree = {
 		x = 2
 		y = 9
 		completion_reward = {
-			add_ideas = disarmed_nation
+			add_ideas = laws_ideas_1_1
 			subtract_from_variable = {
 				var = EER_financial_crisis_value
 				value = 20
@@ -251,8 +257,8 @@ focus_tree = {
 		y = 10
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = Can_be_used
-				add_idea = quite_satisfactory
+				remove_idea = develop_ideas_6_5
+				add_idea = develop_ideas_6_4
 			}
 			subtract_from_variable = {
 				var = EER_financial_crisis_value
@@ -731,8 +737,8 @@ focus_tree = {
 		y = 12
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = quite_satisfactory
-				add_idea = deserters_everywhere
+				remove_idea = develop_ideas_6_4
+				add_idea = develop_ideas_6_2
 			}
 			swap_ideas = {
 				remove_idea = EER_expanded_staff_of_sameness
@@ -775,8 +781,8 @@ focus_tree = {
 		y = 10
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = Universal_education
-				add_idea = Basic_education
+				remove_idea = develop_ideas_5_3
+				add_idea = develop_ideas_5_2
 			}
 			subtract_from_variable = {
 				var = EER_financial_crisis_value
@@ -879,8 +885,8 @@ focus_tree = {
 		y = 12
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = large_scale_farming
-				add_idea = commercial_agriculture
+				remove_idea = develop_ideas_2_4
+				add_idea = develop_ideas_2_5
 			}
 			subtract_from_variable = {
 				var = EER_financial_crisis_value
@@ -1068,7 +1074,7 @@ focus_tree = {
 		x = 10
 		y = 15
 		completion_reward = {
-			add_ideas = fully_control
+			add_ideas = laws_ideas_4_6
 			subtract_from_variable = {
 				var = EER_financial_crisis_value
 				value = 10

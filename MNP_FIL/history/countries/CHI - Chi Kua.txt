@@ -28,18 +28,22 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_conscription
-	civilian_economy
-	limited_exports
-	government_plan
-	male_only
-	basic_citizenship
-	guild_production
-	large_scale_farming
-	Aura
-	smooth_operation
-	Universal_education
-	straggler
+	laws_ideas_1_3
+	laws_ideas_2_1
+	laws_ideas_3_4
+	laws_ideas_4_5
+	laws_ideas_5_1
+	laws_ideas_6_4
+	develop_ideas_1_2
+	develop_ideas_2_4
+	develop_ideas_3_5
+	develop_ideas_4_5
+	develop_ideas_5_3
+	develop_ideas_6_3
+	race_ideas_2_3
+	race_ideas_3_4
+	race_ideas_4_2
+	race_ideas_5_3
 	CHI_World_come_to_worship
 	CHI_Peony_in_autumn
 	CHI_hungry_people
@@ -47,6 +51,17 @@ add_ideas = {
 	CHI_disaster_around
 	CHI_Imperial_Examination_System
 }
+
+
+give_guarantee = BAN
+give_guarantee = MAN
+give_guarantee = TAR
+give_guarantee = YAP
+
+
+
+
+
 
 
 recruit_character = CHI_Hidengem_Spirit

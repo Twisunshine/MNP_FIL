@@ -1,0 +1,52 @@
+focus_tree = {
+	id = BAP_Second_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BAP_Second
+		}
+	}
+	default = no
+	focus = {
+		id = BAP_2_1_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = BAP_2_2_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_2_1_1
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = BAP_2_3_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_2_2_1
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = BAP_2_4_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = BAP_2_3_1
+		}
+		x = 30
+		y = 5
+
+	}
+}

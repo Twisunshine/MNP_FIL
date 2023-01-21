@@ -1,0 +1,224 @@
+scripted_gui = {
+
+	CRY_communism_countryracesview = {
+		window_name = "CRY_communism_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_communism_gui_open
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_communism_gui_open
+		}
+
+	}
+	CRY_liberal_democracy_countryracesview = {
+		window_name = "CRY_liberal_democracy_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_liberal_democracy_gui_open
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_liberal_democracy_gui_open
+		}
+
+	}
+	CRY_authoritarian_democracy_countryracesview = {
+		window_name = "CRY_authoritarian_democracy_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_authoritarian_democracy_gui_open
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_authoritarian_democracy_gui_open
+		}
+
+	}
+	CRY_despotism_countryracesview = {
+		window_name = "CRY_despotism_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_despotism_gui_open
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_despotism_gui_open
+		}
+
+	}
+	CRY_fascism_countryracesview = {
+		window_name = "CRY_fascism_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_fascism_gui_open
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_fascism_gui_open
+		}
+
+	}
+	CRY_party_desc_countryracesview = {
+		window_name = "CRY_party_desc"
+		context_type = player_context
+
+		visible = {
+			or = {
+				has_country_flag = CRY_fascism_gui_open
+				has_country_flag = CRY_despotism_gui_open
+				has_country_flag = CRY_authoritarian_democracy_gui_open
+				has_country_flag = CRY_liberal_democracy_gui_open
+				has_country_flag = CRY_communism_gui_open
+
+
+
+			}
+		}
+
+	}
+
+	
+	CRY_parliament_decision_ui = {
+		context_type = decision_category
+		window_name = "CRY_parliament_decision_ui_window"
+
+		properties = {
+			
+		}
+		visible = {
+		
+		   
+	   }
+
+		effects = {
+			CRY_communism_Pie_chart_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_communism_gui_open
+					}
+					clr_country_flag = CRY_communism_gui_open
+				}
+				else = {
+					set_country_flag = CRY_communism_gui_open
+				}
+				clr_country_flag = CRY_liberal_democracy_gui_open
+				clr_country_flag = CRY_authoritarian_democracy_gui_open
+				clr_country_flag = CRY_despotism_gui_open
+				clr_country_flag = CRY_fascism_gui_open
+			}
+			CRY_liberal_democracy_Pie_chart_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_liberal_democracy_gui_open
+					}
+					clr_country_flag = CRY_liberal_democracy_gui_open
+				}
+				else = {
+					set_country_flag = CRY_liberal_democracy_gui_open
+				}
+				clr_country_flag = CRY_communism_gui_open
+				clr_country_flag = CRY_authoritarian_democracy_gui_open
+				clr_country_flag = CRY_despotism_gui_open
+				clr_country_flag = CRY_fascism_gui_open
+			}
+			CRY_authoritarian_democracy_Pie_chart_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_authoritarian_democracy_gui_open
+					}
+					clr_country_flag = CRY_authoritarian_democracy_gui_open
+				}
+				else = {
+					set_country_flag = CRY_authoritarian_democracy_gui_open
+				}
+				clr_country_flag = CRY_liberal_democracy_gui_open
+				clr_country_flag = CRY_communism_gui_open
+				clr_country_flag = CRY_despotism_gui_open
+				clr_country_flag = CRY_fascism_gui_open
+			}
+			CRY_despotism_Pie_chart_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_despotism_gui_open
+					}
+					clr_country_flag = CRY_despotism_gui_open
+				}
+				else = {
+					set_country_flag = CRY_despotism_gui_open
+				}
+				clr_country_flag = CRY_liberal_democracy_gui_open
+				clr_country_flag = CRY_authoritarian_democracy_gui_open
+				clr_country_flag = CRY_communism_gui_open
+				clr_country_flag = CRY_fascism_gui_open
+			}
+			CRY_fascism_Pie_chart_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_fascism_gui_open
+					}
+					clr_country_flag = CRY_fascism_gui_open
+				}
+				else = {
+					set_country_flag = CRY_fascism_gui_open
+				}
+				clr_country_flag = CRY_liberal_democracy_gui_open
+				clr_country_flag = CRY_authoritarian_democracy_gui_open
+				clr_country_flag = CRY_despotism_gui_open
+				clr_country_flag = CRY_communism_gui_open
+			}
+		}
+		triggers = {
+            CRY_communism_Pie_chart_visible = {
+            }
+			CRY_liberal_democracy_Pie_chart_visible = {
+            }
+			CRY_authoritarian_democracy_Pie_chart_visible = {
+            }
+			CRY_despotism_Pie_chart_visible = {
+            }
+			CRY_fascism_Pie_chart_visible = {
+            }
+			CRY_Pie_chart_cover_ANA_visible = {
+				has_country_flag = CRY_parliament_ANA
+			}
+			CRY_Pie_chart_cover_Black_Crystal_visible = {
+				has_country_flag = CRY_parliament_Black_Crystal_come_back
+			}
+			CRY_communism_Pie_chart_dead_visible = {
+            }
+			CRY_liberal_democracy_Pie_chart_dead_visible = {
+            }
+			CRY_authoritarian_democracy_Pie_chart_dead_visible = {
+            }
+			CRY_despotism_Pie_chart_dead_visible = {
+            }
+			CRY_fascism_Pie_chart_dead_visible = {
+            }
+			
+        }
+		
+
+    }
+	
+		
+}
+	
+
+

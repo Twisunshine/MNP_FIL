@@ -1,0 +1,191 @@
+leader_traits = {
+	bright_future = { 
+		type = all
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+	}
+	
+	not_skilled_in_military = { 
+		type = all
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			experience_gain_factor = -0.25
+		}
+	}
+	
+	use_troops_like_god = { 
+		type = all
+		trait_type = personality_trait
+		
+		attack_skill = 1
+		defense_skill = 1
+		logistics_skill = 1
+		planning_skill = 1
+	}
+	
+	have_conections = { 
+		type = all
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			promote_cost_factor = -0.5
+		}
+	}	
+	
+	frail_and_sickly = { 
+		type = all
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			sickness_chance = 0.25
+		}
+	}	
+	
+	wonderbolts_background = { 
+		type = all
+		trait_type = personality_trait
+		
+		attack_skill = 1
+		
+		modifier = {
+			wounded_chance_factor = -0.1
+		}
+	}	
+	
+	
+	
+	surrender = { 
+		type = all
+		trait_type = personality_trait
+		
+	}
+	
+	regression = { 
+		type = all
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			promote_cost_factor = -0.75
+		}
+	}
+	
+	reluctance = { 
+		type = all
+		trait_type = personality_trait
+		
+		attack_skill = -1
+		defense_skill = -1
+		logistics_skill = -1
+		planning_skill = -1
+	}	
+	
+	experienced = { 
+		type = all
+		trait_type = personality_trait
+		
+		attack_skill = 2
+		defense_skill = 2
+		logistics_skill = 2
+		planning_skill = 2
+		
+		non_shared_modifier = {
+			experience_gain_factor = -0.80
+		}
+	}
+	
+	caring_for_troops = { 
+		type = land
+		trait_type = personality_trait
+		
+		logistics_skill = 1
+		
+		modifier = {
+			army_org_regain = 0.1
+		}
+	}
+	
+	corruption = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			supply_consumption_factor = 0.1
+		}
+	}
+	
+	stick_to_letter_of_law = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			army_org_factor = 0.1
+		}
+	}
+	
+	follow_the_rules = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			max_planning_factor = 0.20
+		}
+		
+		non_shared_modifier = {
+			experience_gain_factor = -0.05
+		}
+	}
+	
+	positionalism = { 
+		type = land
+		trait_type = personality_trait
+		
+		attack_skill = -1
+		defense_skill = 1
+		
+		modifier = {
+			dig_in_speed_factor = 0.1
+		}
+	}
+	
+	careful = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			max_planning_factor = 0.2
+			planning_speed = -0.1
+		}
+	}
+	
+	negligent_management = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			experience_gain_army_unit_factor = -0.1
+			army_org_factor = -0.1
+		}
+	}
+	
+	passionate_military_adventure = { 
+		type = land
+		trait_type = personality_trait
+		
+		modifier = {
+			promote_cost_factor = 0.5
+			army_speed_factor = 0.1
+		}
+	}
+	
+	wounded_by_twilight = { 
+		type = land
+		trait_type = status_trait
+		
+		attack_skill = -5
+		defense_skill = -5
+	}
+}

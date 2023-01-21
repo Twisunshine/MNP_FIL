@@ -118,91 +118,813 @@ CLK_war_in_eqs = {
 	}
 }
 
-CLK_Thorax_rebellion = {
-    CLK_Thorax_rebellion_a = {
-        cost = 50
-        days_remove = 15
-		days_re_enable = 120
+CLK_factions = {
+	CLK_queenist_1 = {
+        cost = 75
 		visible = {
-			
+			check_variable = { CLK_factions_selected = 1 }
 		}
 		ai_will_do = {
 			factor = 10
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_bigger_1		
+				check_variable = {
+					var = CLK_queen_value
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		
         remove_effect = { 
+			if = {
+				limit = {	
+					check_variable = {
+						var = CLK_queenist_faction_power
+						value = 20
+						compare = less_than_or_equals
+					}
+				}
+				add_to_variable = {
+					var = CLK_queen_value
+					value = -1
+					tooltip = CLK_minus_1_to_queen_value
+				}
+				add_to_variable = {
+					var = CLK_queenist_faction_power
+					value = 1
+					tooltip = CLK_add_1_to_queenist_faction_power
+				}
+				add_to_variable = {
+					var = CLK_conservativist_faction_loyalty
+					value = -3
+					tooltip = CLK_minus_3_to_conservativist_faction_loyalty
+				}
+			}
+			else = {
+				add_to_variable = {
+					var = CLK_queen_value
+					value = -1
+					tooltip = CLK_minus_1_to_queen_value
+				}
+				add_to_variable = {
+					var = CLK_queenist_faction_power
+					value = 1
+					tooltip = CLK_add_1_to_queenist_faction_power
+				}
+				
+				add_to_variable = { CLK_militarist_faction_loyalty = -1 }
+				add_to_variable = { CLK_royalist_faction_loyalty = -1 }
+				add_to_variable = { CLK_conservativist_faction_loyalty = -1 }
+				add_to_variable = { CLK_officer_faction_loyalty = -1 }
+				add_to_variable = { CLK_practitioner_faction_loyalty = -1 }	
+				custom_effect_tooltip = CLK_minus_1_to_all_faction_loyalty
+			}
+        }
+    }
+	CLK_queenist_2 = {
+        cost = 25
+		visible = {
+			check_variable = { CLK_factions_selected = 1 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_less_than_5		
+				check_variable = {
+					var = CLK_queen_value
+					value = 5
+					compare = less_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = 1
+				tooltip = CLK_add_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_queenist_faction_power
+				value = -1
+				tooltip = CLK_minus_1_to_queenist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_loyalty
+				value = 2
+				tooltip = CLK_add_3_to_conservativist_faction_loyalty
+			}
+        }
+    }
+	CLK_militarist_1 = {
+        cost = 25
+		visible = {
+			check_variable = { CLK_factions_selected = 2 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_bigger_1		
+				check_variable = {
+					var = CLK_queen_value
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = -1
+				tooltip = CLK_minus_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_militarist_faction_power
+				value = 1
+				tooltip = CLK_add_1_to_CLK_militarist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_loyalty
+				value = -1
+				tooltip = CLK_minus_1_to_conservativist_faction_loyalty
+			}
+			add_to_variable = {
+				var = CLK_practitioner_faction_loyalty
+				value = -1
+				tooltip = CLK_minus_1_to_practitioner_faction_loyalty
+			}
+        }
+    }
+	CLK_militarist_2 = {
+        cost = 75
+		visible = {
+			check_variable = { CLK_factions_selected = 2 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_less_than_5		
+				check_variable = {
+					var = CLK_queen_value
+					value = 5
+					compare = less_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = 1
+				tooltip = CLK_add_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_militarist_faction_power
+				value = -1
+				tooltip = CLK_minus_1_to_CLK_militarist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_militarist_faction_loyalty
+				value = 3
+				tooltip = CLK_minus_3_to_militarist_faction_loyalty
+			}
+        }
+    }
+	CLK_royalist_1 = {
+        cost = 25
+		visible = {
+			check_variable = { CLK_factions_selected = 3 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_bigger_1		
+				check_variable = {
+					var = CLK_queen_value
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = -1
+				tooltip = CLK_minus_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_royalist_faction_power
+				value = 1
+				tooltip = CLK_add_1_to_royalist_faction_power
+			}
+        }
+    }
+	CLK_royalist_2 = {
+        cost = 75
+		visible = {
+			check_variable = { CLK_factions_selected = 3 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_less_than_5		
+				check_variable = {
+					var = CLK_queen_value
+					value = 5
+					compare = less_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = 1
+				tooltip = CLK_add_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_royalist_faction_power
+				value = -1
+				tooltip = CLK_minus_1_to_royalist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_militarist_faction_loyalty
+				value = 3
+				tooltip = CLK_minus_3_to_royalist_faction_loyalty
+			}
+        }
+    }
+	CLK_conservativist_1 = {
+        cost = 50
+		visible = {
+			check_variable = { CLK_factions_selected = 4 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_bigger_1		
+				check_variable = {
+					var = CLK_queen_value
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = -1
+				tooltip = CLK_minus_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_power
+				value = 1
+				tooltip = CLK_add_1_to_conservativist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_loyalty
+				value = 1
+				tooltip = CLK_add_1_to_conservativist_faction_loyalty
+			}
+        }
+    }
+	CLK_conservativist_2 = {
+        cost = 50
+		visible = {
+			check_variable = { CLK_factions_selected = 4 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_less_than_5		
+				check_variable = {
+					var = CLK_queen_value
+					value = 5
+					compare = less_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = 1
+				tooltip = CLK_add_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_power
+				value = -1
+				tooltip = CLK_minus_1_to_conservativist_faction_power
+			}
+        }
+    }
+	CLK_officer_1 = {
+        cost = 50
+		visible = {
+			check_variable = { CLK_factions_selected = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_bigger_1		
+				check_variable = {
+					var = CLK_queen_value
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = -1
+				tooltip = CLK_minus_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_officer_faction_power
+				value = 1
+				tooltip = CLK_add_1_to_officer_faction_power
+			}
+        }
+    }
+	CLK_officer_2 = {
+        cost = 50
+		visible = {
+			check_variable = { CLK_factions_selected = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_queen_value_less_than_5		
+				check_variable = {
+					var = CLK_queen_value
+					value = 5
+					compare = less_than_or_equals
+				}
+			}
+		}
+		
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_queen_value
+				value = 1
+				tooltip = CLK_add_1_to_queen_value
+			}
+			add_to_variable = {
+				var = CLK_officer_faction_power
+				value = -1
+				tooltip = CLK_minus_1_to_officer_faction_power
+			}
+        }
+    }
+	
+	CLK_queenist_bonus_1 = {
+		cost = 100
+        visible = {
+            check_variable = { CLK_factions_selected = 1 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_15_queenist_faction_power		
+				check_variable = { CLK_queenist_faction_power > 15 }
+			}
+        }
+        complete_effect = {
+             add_manpower = 10000
+        }
+		
+		days_re_enable = 120
+    } 
+	
+	CLK_queenist_bonus_2 = {
+		cost = 50
+        visible = {
+            check_variable = { CLK_factions_selected = 1 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_25_queenist_faction_power		
+				check_variable = { CLK_queenist_faction_power > 25 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 90
+		
+		modifier = {
+			weekly_manpower = -500 
+        }
+		
+        remove_effect = {
+            add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 15000
+			}
+        }
+    } 
+	
+	CLK_queenist_bonus_3 = {
+		cost = 50
+        visible = {
+            check_variable = { CLK_factions_selected = 1 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_30_queenist_faction_power		
+				check_variable = { CLK_queenist_faction_power > 30 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 90
+		
+		modifier = {
+			production_speed_buildings_factor = 1
+        }
+    } 
+	
+	CLK_queenist_bonus_4 = {
+		cost = 25
+        visible = {
+            check_variable = { CLK_factions_selected = 1 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_50_queenist_faction_power		
+				check_variable = { CLK_queenist_faction_power > 50 }
+			}
+        }
+		
+        days_remove = 60
+		days_re_enable = 90
+		
+		modifier = {
+			army_attack_factor = 0.5
+        }
+		
+        remove_effect = {
+            add_political_power = 100
+        }
+    } 
+	
+	CLK_militarist_bonus_1 = {
+		cost = 50
+        visible = {
+			check_variable = { CLK_factions_selected = 2 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_25_militarist_faction_power		
+				check_variable = { CLK_militarist_faction_power > 25 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 90
+		
+		modifier = {
+			industrial_capacity_factory = 0.1
+        }
+		
+        remove_effect = {
+            
+        }
+    } 
+	
+	CLK_militarist_bonus_2 = {
+		cost = 25
+        visible = {
+			check_variable = { CLK_factions_selected = 2 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_30_militarist_faction_power		
+				check_variable = { CLK_militarist_faction_power > 30 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 90
+		
+		modifier = {
+			conscription_factor = 0.1
+        }
+		
+        remove_effect = {
+            add_war_support = 0.05
+        }
+    } 
+	
+	CLK_militarist_bonus_3 = {
+		cost = 100
+        visible = {
+			check_variable = { CLK_factions_selected = 2 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_50_militarist_faction_power		
+				check_variable = { CLK_militarist_faction_power > 50 }
+			}
+        }
+		
+        days_remove = 60
+		days_re_enable = 90
+		
+		modifier = {
+			army_attack_factor = 0.2
+        }
+    } 
+	
+	CLK_militarist_bonus_4 = {
+		cost = 50
+        visible = {
+			check_variable = { CLK_factions_selected = 2 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_70_militarist_faction_power		
+				check_variable = { CLK_militarist_faction_power > 70 }
+			}
+        }
+		
+        days_remove = 180
+		days_re_enable = 180
+		
+		modifier = {
+			weekly_manpower = 3000 
+        }
+		
+        remove_effect = {
+            add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 15000
+			}
+        }
+    }
+	
+	CLK_royalist_bonus_1 = {
+		cost = 50
+        visible = {
+			check_variable = { CLK_factions_selected = 3 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_25_royalist_faction_power		
+				check_variable = { CLK_royalist_faction_power > 25 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 90
+		
+		modifier = {
+			production_speed_buildings_factor = 0.1
+        }
+    } 
+	
+	CLK_royalist_bonus_2 = {
+		cost = 75
+        visible = {
+			check_variable = { CLK_factions_selected = 3 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_30_royalist_faction_power		
+				check_variable = { CLK_royalist_faction_power > 30 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 120
+		
+		modifier = {
+			political_power_factor = 0.05
+        }
+		 
+        remove_effect = {
+            add_stability = 0.05
+        }
+    } 
+	 
+	CLK_royalist_bonus_3 = {
+		cost = 75
+        visible = {
+			check_variable = { CLK_factions_selected = 3 }
+        }
+		ai_will_do = { 
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_50_royalist_faction_power		
+				check_variable = { CLK_royalist_faction_power > 50 }
+			}
+        }
+		
+        days_remove = 120
+		days_re_enable = 120
+		
+		modifier = {
+			consumer_goods_factor = -0.2
+        }
+    }
+	 
+	CLK_royalist_bonus_4 = {
+		cost = 50
+        visible = {
+			check_variable = { CLK_factions_selected = 3 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_70_royalist_faction_power		
+				check_variable = { CLK_royalist_faction_power > 70 }
+			}
+        }
+		
+        days_remove = 180
+		days_re_enable = 180
+		
+		modifier = {
+			stability_weekly_factor = 0.01
+        }
+    }
+	
+	CLK_officer_bonus_1 = {
+		cost = 50
+        visible = {
+			check_variable = { CLK_factions_selected = 5 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_25_officer_faction_power		
+				check_variable = { CLK_officer_faction_power > 25 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 180
+		
+		modifier = {
+			planning_speed = 0.1
+        }
+		
+        remove_effect = {
             add_to_variable = { CLK_Thorax_rebellion = -1 }
             calculate_thorax_rebellion = yes
+			custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
         }
-    }
+    } 
 	
-    CLK_Thorax_rebellion_b = {
+	CLK_officer_bonus_2 = {
+		cost = 50
+        visible = {
+			check_variable = { CLK_factions_selected = 5 }
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_bigger_25_officer_faction_power		
+				check_variable = { CLK_officer_faction_power > 25 }
+			}
+        }
+		
+        days_remove = 90
+		days_re_enable = 180
+		
+		modifier = {
+			training_time_factor = -0.15
+        }
+		
+        remove_effect = {
+            army_experience = 50
+        }
+    } 
+}
+
+CLK_love_hunger = {
+	CLK_love_hunger_loop = {
+		available = {
+			always = no
+		}
+		activation = {
+			has_completed_focus = CLK_2_6_1
+			NOT = {
+				has_country_flag = CLK_love_hunger_loop_end
+			}
+		}
+
+		days_mission_timeout = 60
+		selectable_mission = no
+		
+		cancel_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_love_value_empty		
+				check_variable = { CLK_love_value < 0 }
+			}
+        }
+        cancel_effect = {
+           add_ideas = CLK_Love_of_hunger_1
+		   set_country_flag = CLK_love_hunger_loop_end
+		   remove_decision = CLK_love_hunger_loop
+        }
+		
+		timeout_effect = {
+			add_to_variable = {
+				var = CLK_love_value
+				value = -10
+				tooltip = CLK_minus_10_to_love_value
+			}
+		}
+	}
+	
+	CLK_love_hunger_loop_extra = {
+		available = {
+			always = no
+		}
+		activation = {
+			has_completed_focus = CLK_2_6_1
+			has_completed_focus = CLK_3_5_10
+		}
+
+		days_mission_timeout = 60
+		selectable_mission = no
+		
+		timeout_effect = {
+			add_to_variable = {
+				var = CLK_love_value
+				value = 20
+				tooltip = CLK_add_20_to_love_value
+			}
+			add_manpower = -4000
+		}
+	}
+	
+	CLK_love_hunger_1 = {
         cost = 50
-        days_remove = 15
-		days_re_enable = 180
-		visible = {
-			
-		}
-		ai_will_do = {
-			factor = 10
-		}
-        remove_effect = { 
-            add_to_variable = { CLK_Thorax_rebellion = -2 }
-            calculate_thorax_rebellion = yes
-        }
-    }
-	
-    CLK_Thorax_rebellion_c = {
-        cost = 75
-        days_remove = 15
-		days_re_enable = 120
-		visible = {
-			
-		}
-		ai_will_do = {
-			factor = 10
-		}
-        remove_effect = { 
-            add_to_variable = { CLK_Thorax_rebellion = -2 }
-            calculate_thorax_rebellion = yes
-        }
-    }
-	
-    CLK_Thorax_rebellion_d = {
-        cost = 100
-        days_remove = 15
-		days_re_enable = 180
-		visible = {
-			
-		}
-		ai_will_do = {
-			factor = 10
-		}
-        remove_effect = { 
-            add_to_variable = { CLK_Thorax_rebellion = -3 }
-            calculate_thorax_rebellion = yes
-        }
-    }
-	
-    CLK_Thorax_rebellion_e = {
-        cost = 125
-        days_remove = 15
-		days_re_enable = 120
-		visible = {
-			
-		}
-		ai_will_do = {
-			factor = 10
-		}
-        remove_effect = { 
-            add_to_variable = { CLK_Thorax_rebellion = -3 }
-            calculate_thorax_rebellion = yes
-        }
-    }
-	
-    CLK_Thorax_rebellion_f = {
-        cost = 150
-        days_remove = 20
-		days_re_enable = 270
+        days_remove = 60
 		visible = {
 			
 		}
@@ -210,8 +932,318 @@ CLK_Thorax_rebellion = {
 			factor = 15
 		}
         remove_effect = { 
-            add_to_variable = { CLK_Thorax_rebellion = -5 }
+			add_to_variable = {
+				var = CLK_love_value
+				value = 15
+				tooltip = CLK_add_15_to_love_value
+			}
+			random_owned_controlled_state = {
+				prioritize = { 340 381 423 368 393 158 349 352 406 384 401 409 332 458 }
+				add_resistance = 10
+				add_compliance = -10
+			}
+        }
+    }
+	
+	CLK_love_hunger_2 = {
+        days_remove = 60
+		visible = {
+			
+		}
+		available = {
+            command_power > 50
+			has_equipment = {
+				infantry_equipment > 499
+			}
+        }
+		ai_will_do = {
+			factor = 15
+		}
+		complete_effect = {
+			add_command_power = -50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+        remove_effect = { 
+			add_to_variable = {
+				var = CLK_love_value
+				value = 15
+				tooltip = CLK_add_15_to_love_value
+			}
+			random_owned_controlled_state = {
+				prioritize = { 340 381 423 368 393 158 349 352 406 384 401 409 332 458 }
+				add_manpower = -2000
+			}
+        }
+    }
+	CLK_love_hunger_3 = {
+        days_remove = 75
+		available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_love_value_not_less_10
+				NOT = {
+					check_variable = { CLK_love_value < 10 }
+				}
+			}
+        }
+		visible = {
+			
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CLK_love_value
+				value = -10
+				tooltip = CLK_minus_10_to_love_value
+			}
+		}
+        modifier = {
+            army_attack_factor = 0.1
+			army_org_regain = 0.1
+        }
+    }
+	CLK_love_hunger_4 = {
+        days_remove = 75
+		available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_love_value_not_less_10
+				NOT = {
+					check_variable = { CLK_love_value < 10 }
+				}
+			}
+			NOT = {
+				has_idea = CLK_Love_of_hunger_1
+			}
+        }
+		visible = {
+			
+		}
+		ai_will_do = {
+			factor = 15
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = CLK_love_value
+				value = -10
+				tooltip = CLK_minus_10_to_love_value
+			}
+		}
+        modifier = { 
+			industrial_capacity_factory = 0.1
+            monthly_population = 0.2
+        }
+    }
+	
+	CLK_love_hunger_5 = {
+        cost = 10
+		available = {
+            custom_trigger_tooltip = {
+				tooltip = CLK_love_value_bigger_30
+				check_variable = { CLK_love_value > 30 }
+			}
+        }
+		visible = {
+			has_country_flag = CLK_love_hunger_loop_end
+		}
+		ai_will_do = {
+			factor = 15
+		}
+        complete_effect = {
+			add_to_variable = {
+				var = CLK_love_value
+				value = -20
+				tooltip = CLK_minus_20_to_love_value
+			}
+			remove_ideas = CLK_Love_of_hunger_1
+			clr_country_flag = CLK_love_hunger_loop_end
+			unlock_decision_tooltip = CLK_love_hunger_loop
+		}
+    }
+}
+
+CLK_suppressing_Thorax_rebellion = {
+	CLK_suppressing_Thorax_rebellion_loop = {
+		available = {
+			always = no
+		}
+		activation = {
+			has_completed_focus = CLK_2_6_2
+			has_idea = CLK_scorched_earth_rebel
+		}
+
+		days_mission_timeout = 60
+		selectable_mission = no
+		
+		cancel_trigger = {
+			NOT = {
+				has_idea = CLK_scorched_earth_rebel
+			}
+        }
+		
+		timeout_effect = {
+			add_to_variable = { CLK_Thorax_rebellion = -1 }
             calculate_thorax_rebellion = yes
+			custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+		}
+	}
+
+	CLK_suppressing_Thorax_rebellion_1 = {
+        cost = 50
+		available = {
+            NOT = {
+				has_idea = CLK_scorched_earth_rebel
+			}
+        }
+		visible = {
+			NOT = {
+				has_idea = CLK_scorched_earth_rebel
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+        complete_effect = {
+			add_ideas = CLK_scorched_earth_rebel
+			unlock_decision_tooltip = CLK_suppressing_Thorax_rebellion_loop
+		}
+    }
+	
+	CLK_suppressing_Thorax_rebellion_2 = {
+        cost = 50
+		available = {
+			has_idea = CLK_scorched_earth_rebel
+        }
+		visible = {
+			has_idea = CLK_scorched_earth_rebel
+		}
+		ai_will_do = {
+			factor = 15
+		}
+        complete_effect = {
+			remove_ideas = CLK_scorched_earth_rebel
+		}
+    }
+}
+
+CLK_plundering_ponies = {
+	CLK_plundering_ponies_1 = {
+		cost = 30
+        days_remove = 90
+		visible = {
+			
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_plunder_value_not_less_10
+				NOT = {
+					check_variable = { CLK_plunder_value < 10 }
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = {
+			add_to_variable = {
+				var = CLK_plunder_value
+				value = -10
+				tooltip = CLK_minus_10_to_plunder_value
+			}
+			add_tech_bonus = {
+				name = construction_tech
+				bonus = 1
+				uses = 1
+				category = construction_tech
+			}
+        }
+    }
+	CLK_plundering_ponies_2 = {
+		cost = 30
+        days_remove = 90
+		visible = {
+			
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_plunder_value_not_less_10
+				NOT = {
+					check_variable = { CLK_plunder_value < 10 }
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = {
+			add_to_variable = {
+				var = CLK_plunder_value
+				value = -10
+				tooltip = CLK_minus_10_to_plunder_value
+			}
+			add_tech_bonus = {
+				name = excavation_tech
+				bonus = 1
+				uses = 1
+				category = excavation_tech
+			}
+        }
+    }
+	CLK_plundering_ponies_3 = {
+		cost = 100
+        days_remove = 180
+		fire_only_once = yes
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_plunder_value_not_less_80
+				NOT = {
+					check_variable = { CLK_plunder_value < 80 }
+				}
+			}
+			NOT = {
+				has_idea = steampunk_era
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = {
+			add_to_variable = {
+				var = CLK_plunder_value
+				value = -80
+				tooltip = CLK_minus_80_to_plunder_value
+			}
+			add_ideas = steampunk_era
+        }
+    }
+	CLK_plundering_ponies_4 = {
+		cost = 100
+        days_remove = 180
+		fire_only_once = yes
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CLK_plunder_value_not_less_80
+				NOT = {
+					check_variable = { CLK_plunder_value < 80 }
+				}
+			}
+			NOT = {
+				has_idea = Specialized_chemical_factory
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+        remove_effect = {
+			add_to_variable = {
+				var = CLK_plunder_value
+				value = -80
+				tooltip = CLK_minus_80_to_plunder_value
+			}
+			add_ideas = Specialized_chemical_factory
         }
     }
 }

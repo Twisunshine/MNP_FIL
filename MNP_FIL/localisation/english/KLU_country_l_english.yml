@@ -1,9 +1,9 @@
 ﻿l_english:
- KLU_authoritarian_democracy:0 "九流镇"
- KLU_authoritarian_democracy_DEF:0 "九流镇"
+ KLU_authoritarian_democracy:0 "九流"
+ KLU_authoritarian_democracy_DEF:0 "九流"
  KLU_authoritarian_democracy_ADJ:0 "生物"
- KLU:0 "九流镇"
- KLU_DEF:0 "九流镇"
+ KLU:0 "九流"
+ KLU_DEF:0 "九流"
  KLU_ADJ:0 "生物"
  KLU_dictatorshipism_party:0 "反派支持者"
  KLU_fascism_party:0 "进步党"

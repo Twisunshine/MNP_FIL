@@ -7,7 +7,7 @@ EOM_Orthodoxy = {
 			
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
         remove_effect = { 
             set_variable = { EOM.EOM_orthodoxy_change = 1 }
@@ -23,7 +23,7 @@ EOM_Orthodoxy = {
 			
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			stability_weekly = -0.01
@@ -42,7 +42,7 @@ EOM_Orthodoxy = {
 			
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			research_speed_factor = -0.1
@@ -61,7 +61,7 @@ EOM_Orthodoxy = {
 			
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			consumer_goods_factor = 0.05
@@ -80,7 +80,7 @@ EOM_Orthodoxy = {
 			
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 25
 		}
 		modifier = {
 			political_power_gain = -0.25
@@ -151,6 +151,9 @@ EOM_EQS = {
 			has_country_flag = EQU_NOT
 			has_country_flag = CLK_NOT
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		fire_only_once = yes
 
 		 complete_effect = {
@@ -167,6 +170,9 @@ EOM_EQS = {
 			NOT = {
 				has_country_flag = EER_integrated_territory_EOM
 			}
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		fire_only_once = yes
 		cost = 150
@@ -188,6 +194,9 @@ EOM_EQS = {
 				has_country_flag = EER_integrated_territory_CLK
 			}
 		}
+		ai_will_do = {
+			factor = 40
+		}
 		
 		fire_only_once = yes
 		cost = 150
@@ -208,6 +217,9 @@ EOM_EQS = {
 			NOT = {
 				has_country_flag = EOM_integrated_territory_EER
 			}
+		}
+		ai_will_do = {
+			factor = 40
 		}
 		
 		fire_only_once = yes

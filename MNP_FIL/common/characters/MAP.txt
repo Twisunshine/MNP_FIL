@@ -1,0 +1,58 @@
+characters={
+	MAP_AEQS_Eltius={
+		name=MAP_AEQS_Eltius
+		portraits={
+			civilian={
+				large="gfx/leaders/MAP/MAP_AEQS_Eltius.dds"
+				small="gfx/leaders/MAP/idea_MAP_AEQS_Eltius.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism_authoritarian_communism
+			traits = {
+				marshal_of_the_people
+			}
+			expire = "1976.1.1.1"
+		}
+	}
+	MAP_Harold={
+		name=MAP_Harold
+		portraits={
+			civilian={
+				large="gfx/leaders/MAP/MAP_Harold.dds"
+				small="gfx/leaders/MAP/idea_MAP_Harold.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_changeling_system
+			traits={ Experienced }
+			expire="1965.1.1.1"
+		}
+		advisor = {
+            cost = 150
+            slot = head_of_government
+			idea_token = idea_MAP_Harold
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+            traits = {
+                Bailiwick_Governor
+            }
+			removal_cost = -114514
+        }
+		
+	}
+	MAP_Anarchy_state = {
+		name=MAP_Anarchy_state
+		portraits={
+			civilian={
+				large="gfx/leaders/MAP/MAP_Anarchy_state.dds"
+				small="gfx/leaders/MAP/idea_MAP_Anarchy_state.dds"
+			}
+		}
+	}
+
+}

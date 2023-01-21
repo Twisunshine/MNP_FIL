@@ -1,0 +1,49 @@
+﻿capital = 11
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.1
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 11
+	fascism = 15
+	despotism = 16
+	authoritarian_democracy = 11
+	liberal_democracy = 18
+	social_democracy = 10
+	socialism = 9
+	communism = 10
+}
+
+add_ideas = {
+	laws_ideas_1_3
+	laws_ideas_2_7
+	laws_ideas_3_4
+	laws_ideas_4_5
+	laws_ideas_5_1
+	laws_ideas_6_2
+	develop_ideas_1_4
+	develop_ideas_2_3
+	develop_ideas_3_3
+	develop_ideas_4_2
+	develop_ideas_5_3
+	develop_ideas_6_1
+	MAP_Stay_away_from_worm_nests_1
+	Regional_Rebellion_very_High
+	MAP_Bolshevik_partisans
+	MAP_Cultural_metropolis
+}
+
+recruit_character = MAP_AEQS_Eltius
+recruit_character = MAP_Harold
+recruit_character = MAP_Anarchy_state
+
+
+

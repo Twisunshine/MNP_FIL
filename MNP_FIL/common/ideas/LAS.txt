@@ -25,7 +25,7 @@ ideas = {
             picture = /
 
             modifier = {
-              conscription_factor = 0.01
+              conscription = 0.01
               attrition = -0.1
               army_attack_factor = 0.15
 	          army_defence_factor = 0.15

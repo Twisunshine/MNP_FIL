@@ -1,0 +1,864 @@
+guiTypes = {
+	containerWindowType = {
+		name = "occupied_area"
+		position = {x = 0 y = 0}
+		size = {width = 1000 height = 650}
+		orientation = center
+		origo = center
+		moveable = yes
+		click_to_front = yes
+		clipping = no
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		containerWindowType = {
+			name = "occupied_map"
+			position = {x = -170 y = -95 }
+			size = {width = 600 height = 400}
+			orientation = center
+			origo = center
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window2_1b_border"
+			}
+			
+			iconType = {
+				name ="occupied_area_color_1"
+				spriteType = "GFX_occupied_area_color"
+				position = { x= 25 y = 30 }
+			}
+			
+			instantTextBoxType = {
+				name ="gegion_type_1"
+				position = { x = 50 y = 30 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = CLK_region_type_1
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			iconType = {
+				name ="occupied_area_color_2"
+				spriteType = "GFX_occupied_area_color"
+				position = { x= 25 y = 60 }
+			}
+			
+			instantTextBoxType = {
+				name ="gegion_type_2"
+				position = { x = 50 y = 60 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = CLK_region_type_2
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			iconType = {
+				name ="occupied_area_color_3"
+				spriteType = "GFX_occupied_area_color"
+				position = { x= 25 y = 90 }
+			}
+			
+			instantTextBoxType = {
+				name ="gegion_type_3"
+				position = { x = 50 y = 90 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = CLK_region_type_3
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			iconType = {
+				name ="occupied_area_color_4"
+				spriteType = "GFX_occupied_area_color"
+				position = { x= 25 y = 120 }
+			}
+			
+			instantTextBoxType = {
+				name ="gegion_type_4"
+				position = { x = 50 y = 120 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = CLK_region_type_4
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			ButtonType = {
+				name = "occupied_map_region_1"
+				position = { x = 40 y = 150 }
+				quadTextureSprite ="GFX_occupied_area_1"
+				clicksound = click_default
+				oversound = ui_menu_over
+			}
+			
+			ButtonType = {
+				name = "occupied_map_region_2"
+				position = { x = 180 y = 120 }
+				quadTextureSprite ="GFX_occupied_area_1"	
+				clicksound = click_default
+				oversound = ui_menu_over
+			}
+			
+			ButtonType = {
+				name = "occupied_map_region_3"
+				position = { x = 320 y = 100 }
+				quadTextureSprite ="GFX_occupied_area_1"	
+				clicksound = click_default
+				oversound = ui_menu_over
+			}
+			
+			ButtonType = {
+				name = "occupied_map_region_4"
+				position = { x = 450 y = 80 }
+				quadTextureSprite ="GFX_occupied_area_1"	
+				clicksound = click_default
+				oversound = ui_menu_over
+			}
+			
+			ButtonType = {
+				name = "occupied_map_region_5"
+				position = { x = 230 y = 245 }
+				quadTextureSprite ="GFX_occupied_area_1"	
+				clicksound = click_default
+				oversound = ui_menu_over
+			}
+			
+			ButtonType = {
+				name = "occupied_map_region_6"
+				position = { x = 400 y = 225 }
+				quadTextureSprite ="GFX_occupied_area_1"	
+				clicksound = click_default
+				oversound = ui_menu_over
+			}
+		}
+		
+		containerWindowType = {
+			name = "region_info"
+			position = {x = 300 y = -180}
+			size = {width = 320 height = 230}
+			orientation = center
+			origo = center
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window2_1b_border"
+			}
+			
+			instantTextBoxType = {
+				name ="region_info_choosed"
+				position = { x = 23 y = 30 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = CLK_region_info_text
+				format = left
+				maxWidth = 285
+				maxHeight = 40	
+			}
+			
+			ButtonType = {
+				name = "give_region_option_1"
+				position = { x = 35 y = 80 }
+				quadTextureSprite = "GFX_diplo_actions_bg"	
+				buttonText = CLK_give_region_option_1
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center 
+				pdx_tooltip = CLK_give_region_option_tooltip
+			}
+			
+			ButtonType = {
+				name = "give_region_option_2"
+				position = { x = 35 y = 120 }
+				quadTextureSprite = "GFX_diplo_actions_bg"	
+				buttonText = CLK_give_region_option_2
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_give_region_option_tooltip
+			}
+			
+			ButtonType = {
+				name = "give_region_option_3"
+				position = { x = 35 y = 160 }
+				quadTextureSprite = "GFX_diplo_actions_bg"	
+				buttonText = CLK_give_region_option_3
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_give_region_option_tooltip
+			}
+		}
+		
+		containerWindowType = {
+			name = "general_resolution_option"
+			position = {x = 300 y = 27}
+			size = {width = 320 height = 155}
+			orientation = center
+			origo = center
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window2_1b_border"
+			}
+			
+			ButtonType = {
+				name = "general_resolution_option_1"
+				position = { x = 35 y = 30 }
+				quadTextureSprite ="GFX_diplo_actions_bg"	
+				buttonText = CLK_general_resolution_option_1
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_general_resolution_option_1_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_resolution_option_2"
+				position = { x = 35 y = 70 }
+				quadTextureSprite ="GFX_diplo_actions_bg"	
+				buttonText = CLK_general_resolution_option_2
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_general_resolution_option_2_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_resolution_option_3"
+				position = { x = 35 y = 110 }
+				quadTextureSprite ="GFX_diplo_actions_bg"	
+				buttonText = CLK_general_resolution_option_3
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_general_resolution_option_3_tooltip
+			}
+		}
+		
+		containerWindowType = {
+			name = "regional_resolution"
+			position = {x = -5 y = 205 }
+			size = {width = 930 height = 180}
+			orientation = center
+			origo = center
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window2_1b_border"
+			}
+			
+			ButtonType = {
+				name = "regional_resolution_option_1"
+				position = { x = 50 y = 40 }
+				quadTextureSprite = "GFX_diplo_actions_bg"	
+				buttonText = CLK_regional_resolution_option_1
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_regional_resolution_option_1_tooltip
+			}
+			
+			ButtonType = {
+				name = "regional_resolution_option_2"
+				position = { x = 550 y = 40 }
+				quadTextureSprite = "GFX_diplo_actions_bg"	
+				buttonText = CLK_regional_resolution_option_2
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_regional_resolution_option_2_tooltip
+			}
+			
+			ButtonType = {
+				name = "regional_resolution_option_3"
+				position = { x = 300 y = 40 }
+				quadTextureSprite = "GFX_diplo_actions_bg" 
+				buttonText = CLK_regional_resolution_option_3
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_regional_resolution_option_3_tooltip
+			}
+			
+			ButtonType = {
+				name = "regional_resolution_option_4"
+				position = { x = 50 y = 80 }
+				quadTextureSprite = "GFX_diplo_actions_bg"	
+				buttonText = CLK_regional_resolution_option_4
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_regional_resolution_option_4_tooltip
+			}
+			
+			ButtonType = {
+				name = "regional_resolution_option_5"
+				position = { x = 300 y = 80 }
+				quadTextureSprite ="GFX_diplo_actions_bg"	
+				buttonText = CLK_regional_resolution_option_5
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = CLK_regional_resolution_option_5_tooltip
+			}
+			
+			iconType = {
+				name ="colonization_progress_1"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 50 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_2"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 55 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_3"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 60 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_4"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 65 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_5"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 70 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_6"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 75 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_7"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 80 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_8"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 85 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_9"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 90 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_10"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 95 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_11"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 100 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_12"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 105 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_13"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 110 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_14"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 115 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_15"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 120 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_16"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 125 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_17"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 130 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_18"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 135 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_19"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 140 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_20"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 145 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_21"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 150 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_22"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 155 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_23"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 160 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_24"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 165 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_25"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 170 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_26"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 175 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_27"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 180 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_28"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 185 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_29"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 190 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_30"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 195 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_31"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 200 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_32"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 205 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_33"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 210 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_34"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 215 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_35"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 220 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_36"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 225 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_37"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 230 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_38"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 235 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_39"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 240 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_40"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 245 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_41"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 250 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_42"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 255 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_43"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 260 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_44"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 265 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_45"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 270 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_46"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 275 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_47"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 280 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_48"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 285 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_49"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 290 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_50"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 295 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_51"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 300 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_52"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 305 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_53"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 310 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_54"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 315 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_55"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 320 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_56"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 325 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_57"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 330 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_58"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 335 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_59"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 340 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_60"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 345 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_61"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 350 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_62"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 355 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_63"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 360 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_64"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 365 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_65"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 370 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_66"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 375 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_67"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 380 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_68"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 385 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_69"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 390 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_70"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 395 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_71"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 400 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_72"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 405 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_73"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 410 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_74"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 415 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_75"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 420 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_76"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 425 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_77"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 430 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_78"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 435 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_79"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 440 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_80"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 445 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_81"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 450 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_82"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 455 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_83"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 460 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_84"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 465 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_85"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 470 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_86"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 475 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_87"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 480 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_88"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 485 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_89"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 490 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_90"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 495 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_91"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 500 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_92"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 505 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_93"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 510 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_94"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 515 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_95"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 520 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_96"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 525 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_97"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 530 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_98"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 535 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_99"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 540 y = 127 }
+			}
+			iconType = {
+				name ="colonization_progress_100"
+				spriteType = "GFX_occupied_area_progress"
+				position = { x= 545 y = 127 }
+			}
+		}
+		
+		ButtonType = {
+			name = "off_button"
+			position = { x = -45 y = -630 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+			orientation = LOWER_RIGHT
+		}
+	}
+	
+	containerWindowType = {
+		name = "ocupied_area_window_open"
+		position = {x = 0 y = 0}
+		size = {width = 75 height = 155}
+		orientation = LOWER_RIGHT #center 
+		moveable = no
+		click_to_front = no
+		clipping = no
+		
+		ButtonType = {
+			name = "ocupied_area_open_button"
+			position = { x = -76 y = -320 }
+			quadTextureSprite ="GFX_Orthodoxy_window_open"	
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+		}
+	}
+}

@@ -1,0 +1,244 @@
+focus_tree = {
+	id =KIR_Second_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KIR
+		}
+	}
+	default = no
+	focus = {
+		id = KIR_2_1_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = KIR_2_1_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 32
+		y = 1
+
+	}
+
+	focus = {
+		id = KIR_2_2_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_1_1
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = KIR_2_3_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_1
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_3_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_1
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_4_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_3_2
+		}
+		prerequisite = {
+			focus = KIR_2_3_1
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = KIR_2_2_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_1_1
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = KIR_2_3_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_2
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_3_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_2
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_4_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_3_4
+		}
+		prerequisite = {
+			focus = KIR_2_3_3
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = KIR_2_2_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_1_2
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = KIR_2_3_5
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_3
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_3_6
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_3
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_4_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_3_6
+		}
+		prerequisite = {
+			focus = KIR_2_3_5
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = KIR_2_2_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_1_2
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = KIR_2_3_7
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_4
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_3_8
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_2_4
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = KIR_2_4_4
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_3_8
+		}
+		prerequisite = {
+			focus = KIR_2_3_7
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = KIR_2_5_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_4_2
+		}
+		prerequisite = {
+			focus = KIR_2_4_1
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = KIR_2_5_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = KIR_2_4_4
+		}
+		prerequisite = {
+			focus = KIR_2_4_3
+		}
+		x = 32
+		y = 5
+
+	}
+}

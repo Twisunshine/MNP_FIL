@@ -1,7 +1,10 @@
 ﻿l_english:
- GFS_authoritarian_democracy:0 "狮鹫岩"
- GFS_authoritarian_democracy_DEF:0 "狮鹫岩"
+ GFS_authoritarian_democracy:0 "狮鹫岩王国"
+ GFS_authoritarian_democracy_DEF:0 "狮鹫岩王国"
  GFS_authoritarian_democracy_ADJ:0 "狮鹫"
+ GFS_liberal_democracy:0 "谐律狮鹫岩政府"
+ GFS_liberal_democracy_DEF:0 "谐律狮鹫岩政府"
+ GFS_liberal_democracy_ADJ:0 "狮鹫"
  GFS:0 "狮鹫岩"
  GFS_DEF:0 "狮鹫岩"
  GFS_ADJ:0 "狮鹫"

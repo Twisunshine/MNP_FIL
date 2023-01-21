@@ -1,0 +1,39 @@
+add_namespace = SRG_News
+
+news_event = {
+	id = SRG_News.War
+	title = SRG_News.Title
+	desc = SRG_News.Desc
+	
+	is_triggered_only = yes
+	major = yes
+	hidden = no
+	
+	picture = GFX_SRG_News
+	
+	option = {
+		name = SRG_News.War.Opt1
+	}
+}
+
+add_namespace = SRG_News_hidden
+
+country_event = {
+	id = SRG_News_hidden.War
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+    hidden = yes
+	
+	immediate = {
+        news_event = { id = SRG_News.War}
+		
+		SRG = {
+			annex_country = {
+				target = BUG
+				transfer_troops = yes
+			}
+		}
+		
+    }
+}

@@ -50,18 +50,22 @@ set_popularities = {
 }
 
 add_ideas = {
-		steampunk_era
-		large_scale_farming
-		more_popular
-		Flaws_do_not_hide_beauty
-		Basic_education
-		straggler
-		extensive_conscription
-		war_economy
-		limited_exports
-		fully_control
-		male_only
-		basic_citizenship
+		develop_ideas_1_3
+		develop_ideas_2_4
+		develop_ideas_3_3
+		develop_ideas_4_4
+		develop_ideas_5_2
+		develop_ideas_6_3
+		laws_ideas_1_6
+		laws_ideas_2_4
+		laws_ideas_3_4
+		laws_ideas_4_6
+		laws_ideas_5_1
+		laws_ideas_6_4
+		race_ideas_2_3
+		race_ideas_3_3
+		race_ideas_4_2
+		race_ideas_5_1
 		EER_the_refugee_flows_1
 		EER_stop_depriving_sign_of_cute_temporarily_1
 		EER_starlight_glimmer_building

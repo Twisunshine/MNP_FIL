@@ -1,0 +1,1055 @@
+scripted_gui = {
+	CRY_state_6_countryracesview = {
+		window_name = "CRY_state_6_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_6_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_6 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_6 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_6_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_6 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_6
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_6
+			   }
+			check_variable = { CRY_Mining_crystal_units_state_6 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_217_countryracesview = {
+		window_name = "CRY_state_217_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_217_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_217 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_217 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_217_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_217 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_217
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_217
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_217 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_200_countryracesview = {
+		window_name = "CRY_state_200_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_200_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_200 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_200 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_200_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_200 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_200
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_200
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_200 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_147_countryracesview = {
+		window_name = "CRY_state_147_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_147_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_147 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_147 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_147_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_147 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_147
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_147
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_147 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_190_countryracesview = {
+		window_name = "CRY_state_190_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_190_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_190 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_190 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_190_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_190 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_190
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_190
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_190 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_203_countryracesview = {
+		window_name = "CRY_state_203_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_203_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_203 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_203 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_203_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_203 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_203
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_203
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_203 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_211_countryracesview = {
+		window_name = "CRY_state_211_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_211_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_211 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_211 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_211_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_211 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_211
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_211
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_211 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_222_countryracesview = {
+		window_name = "CRY_state_222_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_222_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_222 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_222 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_222_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_222 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_222
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_222
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_222 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_165_countryracesview = {
+		window_name = "CRY_state_165_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_165_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_165 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_165 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_165_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_165 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_165
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_165
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_165 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_214_countryracesview = {
+		window_name = "CRY_state_214_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_214_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_214 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_214 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_214_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_214 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_214
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_214
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_214 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_181_countryracesview = {
+		window_name = "CRY_state_181_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_181_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_181 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_181 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_181_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_181 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_181
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_181
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_181 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_129_countryracesview = {
+		window_name = "CRY_state_129_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_129_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_129 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_129 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_129_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_129 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_129
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_129
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_129 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_187_countryracesview = {
+		window_name = "CRY_state_187_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_187_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_187 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_187 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_187_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_187 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_187
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_187
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_187 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_127_countryracesview = {
+		window_name = "CRY_state_127_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_127_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_127 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_127 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_127_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_127 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_127
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_127
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_127 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_124_countryracesview = {
+		window_name = "CRY_state_124_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_124_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_124 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_124 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_124_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_124 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_124
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_124
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_124 < 10  }
+	       }
+		   
+        }
+	}
+	CRY_state_130_countryracesview = {
+		window_name = "CRY_state_130_countryracesview"
+		context_type = player_context
+		
+        effects = {
+			close_button_click = {
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_openlog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units_state_130 = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units = 1}
+			}
+			CRY_closelog_button_click = {
+				add_to_variable = {CRY_Mining_crystal_units = 1}
+				subtract_from_variable = {CRY_Mining_crystal_units_state_130 = 1}
+			}
+		}
+
+		visible = {
+			has_country_flag = CRY_state_130_gui_open
+		}
+		triggers = {
+			CRY_closelog_button_click_enabled = {
+				check_variable = { CRY_Mining_crystal_units_state_130 > 0 }
+				not = {
+					has_country_flag = CRY_we_are_mining_in_state_130
+				   }
+		   }
+		    CRY_openlog_button_click_enabled = {
+			check_variable = { CRY_Mining_crystal_units > 0  }
+			not = {
+				has_country_flag = CRY_we_are_mining_in_state_130
+			   }
+			   check_variable = { CRY_Mining_crystal_units_state_130 < 10  }
+	       }
+		   
+        }
+	}
+
+	
+	CRY_mining_of_Crystal_decision_ui = {
+		context_type = decision_category
+		window_name = "CRY_mining_of_Crystal_decision_ui_window"
+
+		properties = {
+			
+		}
+		visible = {
+		
+		   
+	   }
+
+		effects = {
+			CRY_mining_of_Crystal_state_6_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_6_gui_open
+					}
+					clr_country_flag = CRY_state_6_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_6_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_217_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_217_gui_open
+					}
+					clr_country_flag = CRY_state_217_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_217_gui_open
+				}
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_200_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_200_gui_open
+					}
+					clr_country_flag = CRY_state_200_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_200_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_147_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_147_gui_open
+					}
+					clr_country_flag = CRY_state_147_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_147_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_190_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_190_gui_open
+					}
+					clr_country_flag = CRY_state_190_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_190_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_203_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_203_gui_open
+					}
+					clr_country_flag = CRY_state_203_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_203_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_211_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_211_gui_open
+					}
+					clr_country_flag = CRY_state_211_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_211_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_222_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_222_gui_open
+					}
+					clr_country_flag = CRY_state_222_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_222_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_165_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_165_gui_open
+					}
+					clr_country_flag = CRY_state_165_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_165_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_214_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_214_gui_open
+					}
+					clr_country_flag = CRY_state_214_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_214_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_181_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_181_gui_open
+					}
+					clr_country_flag = CRY_state_181_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_181_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_129_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_129_gui_open
+					}
+					clr_country_flag = CRY_state_129_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_129_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_187_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_187_gui_open
+					}
+					clr_country_flag = CRY_state_187_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_187_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_127_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_127_gui_open
+					}
+					clr_country_flag = CRY_state_127_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_127_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_124_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_124_gui_open
+					}
+					clr_country_flag = CRY_state_124_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_124_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_130_gui_open
+			}
+			CRY_mining_of_Crystal_state_130_click = {
+				if = {
+					limit = {
+						has_country_flag = CRY_state_130_gui_open
+					}
+					clr_country_flag = CRY_state_130_gui_open
+				}
+				else = {
+					set_country_flag = CRY_state_130_gui_open
+				}
+				clr_country_flag = CRY_state_217_gui_open
+				clr_country_flag = CRY_state_6_gui_open
+				clr_country_flag = CRY_state_147_gui_open
+				clr_country_flag = CRY_state_200_gui_open
+				clr_country_flag = CRY_state_190_gui_open
+				clr_country_flag = CRY_state_203_gui_open
+				clr_country_flag = CRY_state_211_gui_open
+				clr_country_flag = CRY_state_222_gui_open
+				clr_country_flag = CRY_state_165_gui_open
+				clr_country_flag = CRY_state_214_gui_open
+				clr_country_flag = CRY_state_181_gui_open
+				clr_country_flag = CRY_state_129_gui_open
+				clr_country_flag = CRY_state_187_gui_open
+				clr_country_flag = CRY_state_127_gui_open
+				clr_country_flag = CRY_state_124_gui_open
+			}
+		}
+		triggers = {
+			
+			
+			
+        }
+		
+
+    }
+	
+		
+}
+	
+
+

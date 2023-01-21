@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+        #反对派林立
+        BAP_There_is_lot_of_opposition = {
+            allowed = {
+                original_tag = BAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                stability_factor = -0.3
+                war_support_factor = -0.3
+                political_power_gain = -0.5
+            }
+        }
+        #臃肿的军队
+        BAP_Bloated_army = {
+            allowed = {
+                original_tag = BAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                army_org_factor = -0.1
+                supply_consumption_factor = 0.05
+                resistance_growth = 0.2
+            }
+        }
+        #帝国弃民
+        BAP_Empire_outcasts = {
+            allowed = {
+                original_tag = BAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                consumer_goods_factor = 0.1
+                conscription_factor = -0.4
+            }
+        }
+        #广阔的荒地
+        BAP_Vast_wasteland = {
+            allowed = {
+                original_tag = BAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                local_building_slots_factor = -0.2
+            }
+        }
+         
+}
+}

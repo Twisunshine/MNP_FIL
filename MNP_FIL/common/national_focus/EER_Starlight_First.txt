@@ -13,7 +13,7 @@ focus_tree = {
 
 	focus = {
 		id = EER_4_1
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_1
 		cost = 2
 		x = 11
 		y = 1
@@ -25,7 +25,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_4_2
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_2
 		cost = 2
 		prerequisite = {
 			focus = EER_4_1
@@ -39,7 +39,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_4_3
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_3
 		cost = 2
 		prerequisite = {
 			focus = EER_4_2
@@ -48,14 +48,14 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = quite_satisfactory
-				add_idea = Can_be_used
+				remove_idea = develop_ideas_6_4
+				add_idea = develop_ideas_6_5
 			}
 		}
 	}
 	focus = {
 		id = EER_4_4
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_4
 		cost = 2
 		prerequisite = {
 			focus = EER_4_3
@@ -68,7 +68,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_4_5_1
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_5_1
 		cost = 2
 		prerequisite = {
 			focus = EER_4_4
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_4_5_2
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_5_2
 		cost = 2
 		prerequisite = {
 			focus = EER_4_4
@@ -122,7 +122,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EER_4_6
-		icon = GFX_goal_unknown
+		icon = GFX_EER_4_6
 		cost = 2
 		prerequisite = {
 			focus = EER_4_5_1
@@ -685,7 +685,7 @@ focus_tree = {
 		x = 9
 		y = 14
 		completion_reward = {
-			add_ideas = macro_adjustment
+			add_ideas = laws_ideas_4_4
 		}
 	}
 	focus = {
@@ -698,7 +698,7 @@ focus_tree = {
 		x = 11
 		y = 14
 		completion_reward = {
-			add_ideas = male_only
+			add_ideas = laws_ideas_5_1
 		}
 	}
 	focus = {
@@ -727,7 +727,7 @@ focus_tree = {
 		x = 10
 		y = 15
 		completion_reward = {
-			add_ideas = civilian_economy
+			add_ideas = laws_ideas_2_1
 		}
 	}
 	focus = {
@@ -743,7 +743,7 @@ focus_tree = {
 		x = 12
 		y = 15
 		completion_reward = {
-			add_ideas = extensive_conscription
+			add_ideas = laws_ideas_1_4
 		}
 	}
 	focus = {
@@ -760,8 +760,8 @@ focus_tree = {
 		y = 16
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = Flaws_do_not_hide_beauty
-				add_idea = smooth_operation
+				remove_idea = develop_ideas_4_4
+				add_idea = develop_ideas_4_5
 			}
 		}
 	}
@@ -1401,7 +1401,7 @@ focus_tree = {
 		x = 17
 		y = 22
 		completion_reward = {
-			add_ideas = free_trade
+			add_ideas = laws_ideas_3_2
 		}
 	}
 	focus = {

@@ -1,0 +1,38 @@
+scripted_gui = {
+	CLK_factions_gui = {
+		context_type = decision_category
+		window_name = "CLK_factions_gui_window"
+
+		properties = {
+
+		}
+		
+		effects = {
+            faction_button_1_click = {
+                set_variable = { CLK_factions_selected = 1 }
+            }
+			faction_button_2_click = {
+                set_variable = { CLK_factions_selected = 2 }
+            }
+			faction_button_3_click = {
+                set_variable = { CLK_factions_selected = 3 }
+            }
+			faction_button_4_click = {
+                set_variable = { CLK_factions_selected = 4 }
+            }
+			faction_button_5_click = {
+                set_variable = { CLK_factions_selected = 5 }
+            }
+			faction_button_6_click = {
+                
+            }
+        }
+		
+		triggers = {
+
+        }
+    }
+}
+	
+
+

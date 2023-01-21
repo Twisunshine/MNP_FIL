@@ -1,405 +1,93 @@
 ideas = {
 	country = {
 		ABY_A_country_full_of_barren = {
-			
 			allowed = {
 				original_tag = ABY
-			    }
+			}
 
             removal_cost = -1
             picture = NOTHING
             modifier = {
-				industrial_capacity_factory = -0.2
-                consumer_goods_factor = +0.2
-                }
-
+				industrial_capacity_factory = -0.20
+                consumer_goods_factor = 0.20
+            }
 		}
 
 		ABY_national_power_struggle = {
-
             allowed = {
 				original_tag = ABY
-			    }
+			}
 
             removal_cost = -1
             picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                
+			
             modifier = {
-				stability_factor = -0.2
+				political_power_gain = -0.20
                 conscription_factor = -0.25
-				}
-                
-
+				drift_defence_factor = -0.5
+			}
 		}
 		
 		ABY_Democratic_Revolutionary_Movement = {
-
 			allowed = {
 				original_tag = ABY
-			    }
+			}
 
             removal_cost = -1
             picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
                 
             modifier = {
+				stability_factor = -0.20
 				liberal_democracy_drift = 0.02
                 social_democracy_drift = 0.02
                 fascism_drift = 0.02
-                }
-                
+            }
 		}
-		
-		ABY_Democratic_Revolutionary_Movement_01 = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                
-            modifier = {
-				liberal_democracy_drift = 0.02
-                }
-                
-		}
-
-		ABY_Democratic_Revolutionary_Movement_02 = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                
-            modifier = {
-				liberal_democracy_drift = 0.02
-                social_democracy_drift = 0.02
-                }
-                            
-		}
-		
-		ABY_Democratic_Revolutionary_Movement_03 = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                
-            modifier = {
-                despotism_drift = 0.1
-                }
-                            
-		}
-		
-		ABY_Democratic_Revolutionary_Movement_04 = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                
-            modifier = {
-				liberal_democracy_drift = 0.02
-                fascism_drift = 0.02 
-                }
-                            
-		}
-		
-		Enthusiasm_for_revival_is_at_an_all-time_high = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                
-            modifier = {
-				despotism_drift = 0.05
-                industrial_capacity_factory = 0.2
-                stability_factor = 0.1
-                }
-        }
-		
-		ABY_Parliament_is_in_name_only = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                               
-            modifier = {
-				stability_factor = -0.1
-                conscription_factor = -0.10
-				}
-        }
-							
-		ABY_Ban_of_magic = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                               
-            modifier = {
-				industrial_capacity_factory = -0.1
-                production_speed_buildings_factor = -0.1
-                political_power_gain = 0.5
-				}  
-        }
-							
-		ABY_More_ban_of_magic = {
-
-			allowed = {
-				original_tag = ABY
-			    }
-
-            removal_cost = -1
-            picture = NOTHING
-            cancel = {
-				has_government = communism
-                has_government = fascism
-                has_government = authoritarian_democracy
-				has_government = liberal_democracy
-				has_government = social_democracy
-				has_government = authoritarian_democracy
-				}
-                               
-            modifier = {
-				industrial_capacity_factory = -0.2
-                production_speed_buildings_factor = -0.2
-                political_power_gain = 0.5
-                stability_weekly = 0.3
-			}  
-		}
-		
-		ABY_Stray_Cat_Lab = {
-
+		#衰落的海上贸易
+		ABY_Declining_Maritime_trade = {
 			allowed = {
 				original_tag = ABY
 			}
 
             removal_cost = -1
             picture = NOTHING
-                               
+                
+            modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.20
+				production_speed_buildings_factor = -0.15
+            }
+		}
+		#极端反对魔法
+		ABY_Extreme_opposition_magic = {
+			allowed = {
+				original_tag = ABY
+			}
+
+            removal_cost = -1
+            picture = NOTHING
+                
             modifier = {
 				research_speed_factor = 0.10
-			}  
+				army_speed_factor = -0.10
+				army_org_factor = -0.10
+            }
 		}
-		
-		ABY_Public_Affairs_Bureau = {
-
+		#猫狗海权之争
+		ABY_Cats_and_dogs_disputes = {
 			allowed = {
 				original_tag = ABY
 			}
 
             removal_cost = -1
             picture = NOTHING
-                               
+                
             modifier = {
-				local_building_slots_factor = 0.15
-			}  
-		}
-		
-		ABY_Public_Affairs_Bureau = {
-
-			allowed = {
-				original_tag = ABY
-			}
-
-            removal_cost = -1
-            picture = NOTHING
-                               
-            modifier = {
-				local_building_slots_factor = 0.15
-			}  
-		}
-		
-		#######################################
-		ABY_Confiscated_noble_property_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-	
-			removal_cost = -1
-			picture = NOTHING
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-			}
-		}
-		
-		ABY_Iron_wall_of_anti-magic_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-		
-            removal_cost = -1
-            picture = NOTHING
-			
-			modifier = {
-				army_morale_factor = 0.15 
-			}
-		}
-		ABY_anti-magic_collars = {
-			allowed = {
-				original_tag = ABY
-			}
-		
-            removal_cost = -1
-            picture = NOTHING
-			
-			modifier = {
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
-			}
-		}
-		ABY_Blue_sky_without_magic_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-		
-            removal_cost = -1
-            picture = NOTHING
-			
-			modifier = {
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
-				surrender_limit = 0.3
-				production_factory_max_efficiency_factor = 0.15
-			}
-		}
-		ABY_Close_surveillance_of_magical_races_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-			
-			removal_cost = -1
-			picture = NOTHING
-			
-			modifier = {
-				operative_slot = 1	
-			}
-		}
-		ABY_Newly_emerging_cities_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-			
-			removal_cost = -1
-			picture = NOTHING
-			
-			modifier = {
-				weekly_manpower = 500
-				production_factory_efficiency_gain_factor = 0.1
-			}
-		}
-		ABY_Send_more_troops_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-			
-			removal_cost = -1
-			picture = NOTHING
-			
-			modifier = {
-				occupation_cost = 0.1
-				non_core_manpower = 0.2
-			}
-		}
-		ABY_Restoring_past_glory_idea = {
-			allowed = {
-				original_tag = ABY
-			}
-			
-			removal_cost = -1
-			picture = NOTHING
-			
-			modifier = {
-				local_manpower = 0.2
-			}
+				industrial_capacity_dockyard = 0.15
+				research_speed_factor = 0.05
+				production_speed_dockyard_factor = 0.20
+				experience_gain_navy = 0.05
+            }
 		}
 	}
 }

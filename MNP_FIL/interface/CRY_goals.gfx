@@ -1,0 +1,88 @@
+spriteTypes = {
+	
+    SpriteType = {
+        name = "GFX_CRY_0_1"
+        texturefile = "gfx/interface/goals/CRY_0_1.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_2"
+        texturefile = "gfx/interface/goals/CRY_0_2.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_3"
+        texturefile = "gfx/interface/goals/CRY_0_3.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_4"
+        texturefile = "gfx/interface/goals/CRY_0_4.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_5"
+        texturefile = "gfx/interface/goals/CRY_0_5.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_6"
+        texturefile = "gfx/interface/goals/CRY_0_6.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_7"
+        texturefile = "gfx/interface/goals/CRY_0_7.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_8"
+        texturefile = "gfx/interface/goals/CRY_0_8.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_9"
+        texturefile = "gfx/interface/goals/CRY_0_9.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_10"
+        texturefile = "gfx/interface/goals/CRY_0_10.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_11"
+        texturefile = "gfx/interface/goals/CRY_0_11.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_13"
+        texturefile = "gfx/interface/goals/CRY_0_13.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_15"
+        texturefile = "gfx/interface/goals/CRY_0_15.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_17"
+        texturefile = "gfx/interface/goals/CRY_0_17.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_18"
+        texturefile = "gfx/interface/goals/CRY_0_18.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_16"
+        texturefile = "gfx/interface/goals/CRY_0_16.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_19"
+        texturefile = "gfx/interface/goals/CRY_0_19.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_14"
+        texturefile = "gfx/interface/goals/CRY_0_14.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_21"
+        texturefile = "gfx/interface/goals/CRY_0_21.dds"
+    }
+    SpriteType = {
+        name = "GFX_CRY_0_26"
+        texturefile = "gfx/interface/goals/CRY_0_26.dds"
+    }
+	SpriteType = {
+        name = "GFX_CRY_0_20"
+        texturefile = "gfx/interface/goals/CRY_0_20.dds"
+    }
+	
+}

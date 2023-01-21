@@ -1,0 +1,44 @@
+﻿capital = 350
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.1
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 11
+	fascism = 27
+	despotism = 8
+	authoritarian_democracy = 29
+	liberal_democracy = 15
+	social_democracy = 7
+	socialism = 1
+	communism = 2
+}
+
+add_ideas = {
+	laws_ideas_1_3
+	laws_ideas_2_7
+	laws_ideas_3_4
+	laws_ideas_4_5
+	laws_ideas_5_1
+	laws_ideas_6_2
+	develop_ideas_1_4
+	develop_ideas_2_3
+	develop_ideas_3_3
+	develop_ideas_4_2
+	develop_ideas_5_3
+	develop_ideas_6_1
+	Regional_Rebellion_High
+	
+}
+
+
+
+

@@ -1,0 +1,350 @@
+ideas = {
+	country = {
+        #远离虫巢的统治
+        MAP_Stay_away_from_worm_nests_1 = {
+            name = MAP_Stay_away_from_worm_nests
+            allowed = {
+                original_tag = MAP
+                original_tag = BAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.15
+              war_support_factor = -0.15
+              communism_drift = 0.01
+              socialism_drift = 0.01
+              social_democracy_drift = 0.01
+              liberal_democracy_drift = 0.01
+
+            }
+        }
+        MAP_Stay_away_from_worm_nests_2 = {
+            name = MAP_Stay_away_from_worm_nests
+            allowed = {
+                original_tag = MAP
+                original_tag = BAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.1
+              war_support_factor = -0.1
+              communism_drift = 0.03
+              socialism_drift = 0.03
+              social_democracy_drift = 0.02
+            }
+        }
+        #布匪游击队
+        MAP_Bolshevik_partisans = {
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.05
+              war_support_factor = -0.05
+              industrial_capacity_factory = -0.1
+              communism_drift = 0.03
+            }
+        }
+        #文化大都市
+        MAP_Cultural_metropolis = {
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = 0.15
+              production_speed_infrastructure_factor = 0.1
+              consumer_goods_factor = 0.02
+              global_building_slots_factor = 0.05
+              liberal_democracy_drift = 0.01
+            }
+        }
+         #地区叛乱：非常高
+         Regional_Rebellion_very_High = {
+            allowed = {
+                original_tag = MAP
+                original_tag = NWN
+                original_tag = SMA
+                original_tag = BAP
+                original_tag = CLP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.2
+              war_support_factor = -0.2
+              production_speed_buildings_factor = -0.5
+              local_building_slots_factor = -0.25
+              industrial_capacity_factory = -1
+              attrition = 0.5
+              consumer_goods_factor = 0.5
+              conscription_factor = -0.05
+              mobilization_speed = -0.15
+              army_org_factor = -0.5
+              army_core_attack_factor = -0.25
+              army_core_defence_factor = -0.25
+              resistance_growth = 0.5
+              compliance_growth = -0.5
+              required_garrison_factor = 0.65
+              resistance_target = 0.35
+            }
+        }
+        #地区叛乱：高
+        Regional_Rebellion_High = {
+            allowed = {
+                original_tag = MAP
+                original_tag = NWN
+                original_tag = SMA
+                original_tag = BAP
+                original_tag = CLP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.15
+              war_support_factor = -0.15
+              production_speed_buildings_factor = -0.45
+              local_building_slots_factor = -0.2
+              industrial_capacity_factory = -0.75
+              attrition = 0.35
+              consumer_goods_factor = 0.4
+              conscription_factor = -0.03
+              mobilization_speed = -0.1
+              army_org_factor = -0.35
+              army_core_attack_factor = -0.2
+              army_core_defence_factor = -0.2
+              resistance_growth = 0.4
+              compliance_growth = -0.45
+              required_garrison_factor = 0.55
+              resistance_target = 0.35
+            }
+        }
+        #地区叛乱：中
+        Regional_Rebellion_Medium = {
+            allowed = {
+                original_tag = MAP
+                original_tag = NWN
+                original_tag = SMA
+                original_tag = BAP
+                original_tag = CLP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.1
+              war_support_factor = -0.1
+              production_speed_buildings_factor = -0.25
+              local_building_slots_factor = -0.2
+              industrial_capacity_factory = -0.55
+              attrition = 0.2
+              consumer_goods_factor = 0.35
+              conscription_factor = -0.01
+              mobilization_speed = -0.03
+              army_org_factor = -0.2
+              army_core_attack_factor = -0.1
+              army_core_defence_factor = -0.1
+              resistance_growth = 0.3
+              compliance_growth = -0.35
+              required_garrison_factor = 0.4
+              resistance_target = 0.25
+            }
+        }
+        #地区叛乱：低
+        Regional_Rebellion_Low = {
+            allowed = {
+                original_tag = MAP
+                original_tag = NWN
+                original_tag = SMA
+                original_tag = BAP
+                original_tag = CLP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.05
+              war_support_factor = -0.05
+              production_speed_buildings_factor = -0.1
+              local_building_slots_factor = -0.1
+              industrial_capacity_factory = -0.15
+              attrition = 0.05
+              consumer_goods_factor = 0.2
+              army_org_factor = -0.1
+              army_core_attack_factor = -0.05
+              army_core_defence_factor = -0.05
+              resistance_growth = 0.15
+              compliance_growth = -0.25
+              required_garrison_factor = 0.2
+              resistance_target = 0.15
+            }
+        }
+        #地区叛乱：非常低
+        Regional_Rebellion_very_Low = {
+            allowed = {
+                original_tag = MAP
+                original_tag = NWN
+                original_tag = SMA
+                original_tag = BAP
+                original_tag = CLP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              production_speed_buildings_factor = -0.05
+              local_building_slots_factor = -0.05
+              industrial_capacity_factory = -0.05
+              consumer_goods_factor = 0.05
+              resistance_growth = 0.05
+              compliance_growth = -0.1
+              required_garrison_factor = 0.1
+              resistance_target = 0.1
+            }
+        }
+        #辖区卫队
+        MAP_Prefecture_Guard_1 = {
+        name = MAP_Prefecture_Guard
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                army_attack_factor = -0.05
+	            army_defence_factor = -0.05
+                planning_speed = -0.1
+                conscription_factor = 0.02
+                army_org_factor = -0.05
+                resistance_growth = -0.05
+            }
+        }
+        MAP_Prefecture_Guard_2 = {
+            name = MAP_Prefecture_Guard
+                allowed = {
+                    original_tag = MAP
+                }
+    
+                removal_cost = -1
+                picture = /
+    
+                modifier = {
+                    army_attack_factor = 0.05
+                    army_defence_factor = 0.05
+                    planning_speed = -0.05
+                    conscription_factor = 0.04
+                    army_org_factor = 0.02
+                    resistance_growth = -0.1
+                }
+            }
+        MAP_Prefecture_Guard_3 = {
+        name = MAP_Prefecture_Guard
+                    allowed = {
+                        original_tag = MAP
+                    }
+        
+                    removal_cost = -1
+                    picture = /
+        
+                    modifier = {
+                        army_attack_factor = 0.1
+                        army_defence_factor = 0.1
+                        planning_speed = 0.05
+                        conscription_factor = 0.06
+                        army_org_factor = 0.1
+                        resistance_growth = -0.2
+                    }
+                }
+        #工业建设计划
+        MAP_Industrial_construction_plans = {
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                local_building_slots_factor = 0.05
+                production_speed_industrial_complex_factor = 0.45
+                production_speed_infrastructure_factor = 0.6
+            }
+        }
+        #马哈顿暴乱
+        MAP_manehattan_riots = {
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              stability_factor = -0.15
+              production_speed_infrastructure_factor = -0.1
+              consumer_goods_factor = 0.05
+              communism_drift = 0.03
+              socialism_drift = 0.03
+              social_democracy_drift = 0.03
+              liberal_democracy_drift = 0.03
+              production_speed_buildings_factor = -0.2
+            }
+        }
+        #满目疮痍的大都市
+        MAP_Devastated_metropolis = {
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+              liberal_democracy_drift = -0.05
+              line_change_production_efficiency_factor = -0.15
+              consumer_goods_factor = 0.2
+              mobilization_speed = -0.03
+            }
+        }
+        #炮击的余孽
+        MAP_Remnants_of_shelling = {
+            allowed = {
+                original_tag = MAP
+            }
+
+            removal_cost = -1
+            picture = /
+
+            modifier = {
+                compliance_growth = 0.25
+                resistance_growth = -0.25
+                communism_drift = 0.04
+                socialism_drift = 0.02
+            }
+        }
+        
+        
+}
+}

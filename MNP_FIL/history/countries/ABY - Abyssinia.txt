@@ -1,5 +1,7 @@
 ﻿capital = 663
 
+oob = "ABY_1004"
+
 set_research_slots = 2
 set_stability = 0.3
 set_war_support = 0.1
@@ -48,21 +50,24 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_conscription
-	low_economic_mobilisation
-	closed_economy
-	guidance_only
-	male_only
-	restricted_citizenship
-	steampunk_era
-	farm_production
-	no_magic_creature
-	chaos
-	Basic_education
-	straggler
+	laws_ideas_1_3
+	laws_ideas_2_2
+	laws_ideas_3_1
+	laws_ideas_4_2
+	laws_ideas_5_1
+	laws_ideas_6_3
+	develop_ideas_1_3
+	develop_ideas_2_3
+	develop_ideas_3_1
+	develop_ideas_4_3
+	develop_ideas_5_2
+	develop_ideas_6_3
 	ABY_A_country_full_of_barren
 	ABY_national_power_struggle
-	ABY_Democratic_Revolutionary_Movement	
+	ABY_Democratic_Revolutionary_Movement
+	ABY_Declining_Maritime_trade
+	ABY_Extreme_opposition_magic
+	ABY_Cats_and_dogs_disputes
 }
 
 

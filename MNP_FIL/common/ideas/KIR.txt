@@ -116,6 +116,34 @@ ideas = {
 			}
         }
 		
+		##地主反对
+		KIR_Landlord_opposes = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Landlord_opposes
+			modifier = {
+				stability_factor = -0.30
+			}
+        }
+		
+		##民众不满
+		KIR_Unsatisfied_people = {
+
+            allowed = {
+				original_tag = KIR
+			}
+
+            removal_cost = -1
+			picture = KIR_Unsatisfied_people
+			modifier = {
+				monthly_population = -0.10
+			}
+        }
+		
 		
 	}
 }

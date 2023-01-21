@@ -1,0 +1,793 @@
+ideas = {
+	hidden_ideas = {
+		###政治权力
+		race_ideas_2_1 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 15 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 15 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_2_1
+			modifier = {
+				stability_factor = 0.10
+				industrial_capacity_factory = -0.10
+				political_power_gain = -0.05
+			}
+        }
+		
+		race_ideas_2_2 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_2_2
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = -0.05
+				political_power_gain = -0.05
+			}
+        }
+		
+		race_ideas_2_3 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 10 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 10 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_2_3
+			modifier = {
+				political_power_gain = 0.05
+			}
+        }
+		
+		race_ideas_2_4 = {
+            allowed = {
+				always = yes
+			}
+
+            removal_cost = -1
+			picture = race_ideas_2_4
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.05
+				political_power_gain = 0.05
+			}
+        }
+		
+		race_ideas_2_5 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_2_5
+			modifier = {
+				stability_factor = -0.10
+				industrial_capacity_factory = 0.10
+				political_power_gain = 0.10
+			}
+        }
+		
+		race_ideas_2_6 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_2_6
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = 0.15
+				political_power_gain = 0.10
+			}
+        }
+		
+		###经济权力
+		race_ideas_3_1 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 15 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 15 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_3_1
+			modifier = {
+				consumer_goods_factor = 0.04
+				industry_free_repair_factor = 0.20
+			}
+        }
+		
+		race_ideas_3_2 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_3_2
+			modifier = {
+				consumer_goods_factor = 0.02
+				industry_free_repair_factor = 0.10
+			}
+        }
+		
+		race_ideas_3_3 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 10 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 10 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_3_3
+			modifier = {
+				consumer_goods_factor = -0.02
+			}
+        }
+		
+		race_ideas_3_4 = {
+            allowed = {
+				always = yes
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_3_4
+			modifier = {
+				consumer_goods_factor = -0.03
+				industry_free_repair_factor = -0.10
+			}
+        }
+		
+		race_ideas_3_5 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_3_5
+			modifier = {
+				consumer_goods_factor = -0.04
+				industry_free_repair_factor = -0.15
+			}
+        }
+		
+		race_ideas_3_6 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_3_6
+			modifier = {
+				consumer_goods_factor = -0.05
+				industry_free_repair_factor = -0.20
+			}
+        }
+		
+		###参军权力
+		race_ideas_4_1 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_4_1
+			modifier = {
+				non_core_manpower = 0.20
+				army_org_regain = -0.02
+			}
+        }
+		
+		race_ideas_4_2 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_4_2
+			modifier = {
+				non_core_manpower = 0.15
+				army_org_regain = -0.01
+			}
+        }
+		
+		race_ideas_4_3 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 10 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 10 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_4_3
+			modifier = {
+				non_core_manpower = -0.10
+				army_org_regain = 0.02
+			}
+        }
+		
+		race_ideas_4_4 = {
+            allowed = {
+				always = yes
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_4_4
+			modifier = {
+				non_core_manpower = -0.15
+				army_org_regain = 0.04
+			}
+        }
+		
+		race_ideas_4_5 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_4_5
+			modifier = {
+				non_core_manpower = 0.10
+				army_org_factor = -0.05
+			}
+        }
+		
+		race_ideas_4_6 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_4_6
+			modifier = {
+				non_core_manpower = 0.30
+				army_org_factor = -0.15
+			}
+        }
+		
+		###文化保留
+		race_ideas_5_1 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_5_1
+			modifier = {
+				resistance_damage_to_garrison = -0.20
+				compliance_growth = -0.10
+				resistance_growth = 0.10
+				research_speed_factor = 0.10
+			}
+        }
+		
+		race_ideas_5_2 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 25 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 25 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_5_2
+			modifier = {
+				resistance_damage_to_garrison = -0.10
+				research_speed_factor = 0.5
+			}
+        }
+		
+		race_ideas_5_3 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_red_value = 10 }
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_red_value = 10 }
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_red_value
+					min = 0
+					max = 100
+				}
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_5_3
+			modifier = {
+				
+			}
+        }
+		
+		race_ideas_5_4 = {
+            allowed = {
+				always = yes
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_5_4
+			modifier = {
+				resistance_damage_to_garrison = 0.05
+				war_support_factor = 0.15
+				resistance_growth = 0.05
+				research_speed_factor = -0.05
+			}
+        }
+		
+		race_ideas_5_5 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 10 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_5_5
+			modifier = {
+				resistance_damage_to_garrison = 0.10
+				war_support_factor = 0.25
+				resistance_growth = 0.10
+				research_speed_factor = -0.05
+			}
+        }
+		
+		race_ideas_5_6 = {
+            allowed = {
+				always = yes
+			}
+			on_add = {
+				add_to_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			on_remove = {
+				subtract_from_variable = { race_blue_value = 25 }
+				clamp_temp_variable = {
+					var = race_blue_value
+					min = 0
+					max = 100
+				}
+			}
+			
+            removal_cost = -1
+			picture = race_ideas_5_6
+			modifier = {
+				resistance_damage_to_garrison = 0.20
+				war_support_factor = 0.40
+				resistance_growth = -0.15
+				research_speed_factor = -0.10
+			}
+        }
+	}
+}

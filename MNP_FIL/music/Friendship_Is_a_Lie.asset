@@ -15,6 +15,10 @@ music = {
 	file = "Rising Sun.ogg"
 }
 music = {
+	name = "Griffons_Glory"
+	file = "Griffon's Glory.ogg"
+}
+music = {
 	name = "Flooding_Greengrape"
 	file = "Flooding Greengrape.ogg"
 }

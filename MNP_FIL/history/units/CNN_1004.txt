@@ -1,0 +1,201 @@
+division_template = {
+	name = "坎尼尼亚步兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "坎尼尼亚炮兵师"
+	division_names_group = ALL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        artillery_brigade = { x = 2 y = 0 }
+        artillery_brigade = { x = 2 y = 1 }
+        artillery_brigade = { x = 2 y = 2 }	
+	}
+	
+	support = {    
+		engineer = { x = 0 y = 0 }
+ 	}
+}
+
+units = {
+	division= {	
+		name =  "坎尼尼亚第一步兵师"
+		location = 6402
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第二步兵师"
+		location = 8334
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第三步兵师"
+		location = 5205
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第四步兵师"
+		location = 2316
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第五步兵师"
+		location = 3756
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第六步兵师"
+		location = 2649
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第七步兵师"
+		location = 751
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第八步兵师"
+		location = 8410
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第九步兵师"
+		location = 5574
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十步兵师"
+		location = 5109
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十一步兵师"
+		location = 1021
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十二步兵师"
+		location = 5992
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十三步兵师"
+		location = 8490
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十四步兵师"
+		location = 8490
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十五步兵师"
+		location = 1436
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十六步兵师"
+		location = 5903
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十七步兵师"
+		location = 3467
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第十八步兵师"
+		location = 751
+		division_template = "坎尼尼亚步兵师"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name =  "坎尼尼亚第一炮兵师"
+		location = 8490
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第二炮兵师"
+		location = 751
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第三炮兵师"
+		location = 1038
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第四炮兵师"
+		location = 2973
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第五炮兵师"
+		location = 2308
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第六炮兵师"
+		location = 727
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第七炮兵师"
+		location = 5903
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name =  "坎尼尼亚第八炮兵师"
+		location = 5171
+		division_template = "坎尼尼亚炮兵师"
+		start_experience_factor = 0.3
+	}
+}

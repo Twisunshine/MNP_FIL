@@ -1,0 +1,35 @@
+on_actions = {
+	on_daily_MAP = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						MAP_Crystaller_Building_Riot > 0.99
+					}
+				}
+				MAP = {
+					country_event = MAP_events.112
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						MAP_Celestial_Riot > 0.99
+					}
+				}
+				MAP = {
+					country_event = MAP_events.113
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = MAP_Crystaller_Building_Shelled
+					has_country_flag = MAP_Celestial_Shelled
+				}
+				MAP = {
+					country_event = { id = MAP_events.114 days = 3 }
+				}
+			}
+		}
+	}
+}

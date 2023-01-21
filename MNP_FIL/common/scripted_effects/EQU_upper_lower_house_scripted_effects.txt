@@ -1,0 +1,497 @@
+### 计算上议院议员分配
+EQU_calculate_upper_house_party = {	
+	EQU = {
+		set_temp_variable = { temp1 = party_popularity@authoritarian_democracy }
+		multiply_temp_variable = { temp1 = 100 }
+		round_temp_variable = temp1
+		set_variable = { EQU_upper_house_party_1 = temp1 }
+		set_temp_variable = { temp1 = party_popularity@despotism }
+		multiply_temp_variable = { temp1 = 100 }
+		round_temp_variable = temp1
+		set_variable = { EQU_upper_house_party_2 = temp1 }
+		set_temp_variable = { temp1 = party_popularity@social_democracy }
+		multiply_temp_variable = { temp1 = 100 }
+		round_temp_variable = temp1
+		set_variable = { EQU_upper_house_party_3 = temp1 }
+		set_temp_variable = { temp1 = party_popularity@liberal_democracy }
+		multiply_temp_variable = { temp1 = 100 }
+		round_temp_variable = temp1
+		set_variable = { EQU_upper_house_party_4 = temp1 }
+	}
+}
+
+### 计算进度条时间
+EQU_calculate_upper_house_bill_progress_time = {
+	EQU = {
+		clear_array = EQU_bill_progress_time
+
+		resize_array = {
+			array = EQU_bill_progress_time
+			value = 2
+			size = 100
+		}
+		
+		if = {
+			limit = {
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
+			
+			set_variable = { ROOT.bill_temp_1 = EQU_upper_house_bill_time }
+			multiply_variable = { ROOT.bill_temp_1 = 3.33 }
+			round_variable = ROOT.bill_temp_1
+			set_variable = { ROOT.bill_temp_2 = 0 }
+
+			for_loop_effect = {
+				start = 0			
+				end = ROOT.bill_temp_1 
+				add_to_array = {	
+					array = EQU_bill_progress_time
+					value = 1
+					index = ROOT.bill_temp_2
+				}
+				add_to_temp_variable = { ROOT.bill_temp_1 = 1 }
+			}
+
+			clear_variable = ROOT.bill_temp_1
+			clear_variable = ROOT.bill_temp_2
+		}
+	}
+}
+
+### 计算法案提议时间流逝
+EQU_calculate_upper_house_bill_time = {
+	EQU = {
+		if = {
+			limit = {
+				AND = {
+					check_variable = { EQU_upper_house_bill_time > 0 }
+					check_variable = { EQU_upper_house_activ_bill > 0 }
+				}
+			}
+			subtract_from_variable = { EQU_upper_house_bill_time = 1 }
+		}
+		else_if = {
+			limit = {
+				AND = {
+					check_variable = { EQU_upper_house_bill_time = 0 }
+					check_variable = { EQU_upper_house_activ_bill > 0 }
+				}
+			}
+			EQU_calculate_upper_house_bill_pass = yes
+			set_variable = { EQU_upper_house_activ_bill = 0 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_time = 0 }
+			set_variable = { EQU_upper_house_activ_bill = 0 }
+			
+			set_variable = { EQU_upper_house_party_extra_value_1 = 0 }
+			set_variable = { EQU_upper_house_party_extra_value_2 = 0 }
+			set_variable = { EQU_upper_house_party_extra_value_3 = 0 }
+			set_variable = { EQU_upper_house_party_extra_value_4 = 0 }
+		}
+	}
+}
+
+### 设置法案提议后的基本设置
+EQU_set_upper_house_bill = {
+	EQU = {
+		set_variable = { EQU_upper_house_bill_time = 30 }
+		set_variable = { EQU_upper_house_bill_not_ready = 90 }
+		EQU_calculate_upper_house_bill_progress_time = yes
+		EQU_calculate_upper_house_bill_support = yes
+		EQU_calculate_upper_house_bill_progress_support = yes
+	}
+}
+
+### 计算法案支持率
+EQU_calculate_upper_house_bill_support = {
+	EQU = {
+		set_temp_variable = { temp1 = 0 }
+		
+		set_temp_variable = { temp2 = EQU_upper_house_party_1 }
+		set_temp_variable = { temp3 = EQU_upper_house_recognition_1 }
+		set_temp_variable = { temp4 = 100 }
+		divide_temp_variable = { temp4 = EQU_upper_house_party_1 }
+		multiply_temp_variable = { temp4 = EQU_upper_house_party_extra_value_1 }
+		divide_temp_variable = { temp4 = 100 }
+		add_to_temp_variable = { temp3 = temp4 }
+		multiply_temp_variable = { temp2 = temp3 }
+		add_to_temp_variable = { temp1 = temp2 }
+		
+		set_temp_variable = { temp2 = EQU_upper_house_party_2 }
+		set_temp_variable = { temp3 = EQU_upper_house_recognition_2 }
+		set_temp_variable = { temp4 = 100 }
+		divide_temp_variable = { temp4 = EQU_upper_house_party_2 }
+		multiply_temp_variable = { temp4 = EQU_upper_house_party_extra_value_2 }
+		divide_temp_variable = { temp4 = 100 }
+		add_to_temp_variable = { temp3 = temp4 }
+		multiply_temp_variable = { temp2 = temp3 }
+		add_to_temp_variable = { temp1 = temp2 }
+		
+		set_temp_variable = { temp2 = EQU_upper_house_party_3 }
+		set_temp_variable = { temp3 = EQU_upper_house_recognition_3 }
+		set_temp_variable = { temp4 = 100 }
+		divide_temp_variable = { temp4 = EQU_upper_house_party_3 }
+		multiply_temp_variable = { temp4 = EQU_upper_house_party_extra_value_3 }
+		divide_temp_variable = { temp4 = 100 }
+		add_to_temp_variable = { temp3 = temp4 }
+		multiply_temp_variable = { temp2 = temp3 }
+		add_to_temp_variable = { temp1 = temp2 }
+		
+		set_temp_variable = { temp2 = EQU_upper_house_party_4 }
+		set_temp_variable = { temp3 = EQU_upper_house_recognition_4 }
+		set_temp_variable = { temp4 = 100 }
+		divide_temp_variable = { temp4 = EQU_upper_house_party_4 }
+		multiply_temp_variable = { temp4 = EQU_upper_house_party_extra_value_4 }
+		divide_temp_variable = { temp4 = 100 }
+		add_to_temp_variable = { temp3 = temp4 }
+		multiply_temp_variable = { temp2 = temp3 }
+		add_to_temp_variable = { temp1 = temp2 }
+		
+		set_variable = { EQU_upper_house_bill_support = temp1 }
+	}
+}
+
+### 计算法案支持率进度条
+EQU_calculate_upper_house_bill_progress_support = {
+	EQU = {
+		clear_array = EQU_bill_progress_support
+		
+		if = {
+			limit = {
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
+			
+			resize_array = {
+				array = EQU_bill_progress_support
+				value = 2
+				size = 100
+			}
+			
+			set_variable = { ROOT.bill_temp_1 = EQU_upper_house_bill_support }
+			round_variable = ROOT.bill_temp_1
+			set_variable = { ROOT.bill_temp_2 = 0 }
+
+			for_loop_effect = {
+				start = 0			
+				end = ROOT.bill_temp_1 
+				add_to_array = {	
+					array = EQU_bill_progress_support
+					value = 1
+					index = ROOT.bill_temp_2
+				}
+				add_to_temp_variable = { ROOT.bill_temp_1 = 1 }
+			}
+
+			clear_variable = ROOT.bill_temp_1
+			clear_variable = ROOT.bill_temp_2
+		}
+		else = {
+			resize_array = {
+				array = EQU_bill_progress_support
+				value = 3
+				size = 100
+			}
+		}
+	}
+}
+
+### 计算法案是否通过
+EQU_calculate_upper_house_bill_pass = {
+	EQU = {
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_bill_support > 66.66 }
+					has_country_flag = EQU_upper_house_endorsement
+				}
+			}
+			clr_country_flag = EQU_upper_house_endorsement
+			
+			if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 1 }
+				}
+				add_timed_idea = { idea = EQU_upper_house_general_bill_1  days = 720 }
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 2 }
+				}
+				add_timed_idea = { idea = EQU_upper_house_general_bill_2  days = 720 }
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 3 }
+				}
+				add_timed_idea = { idea = EQU_upper_house_general_bill_3  days = 180 }
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 4 }
+				}
+				add_timed_idea = { idea = EQU_upper_house_general_bill_4  days = 180 }
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 5 }
+				}
+				add_timed_idea = { idea = EQU_upper_house_general_bill_5  days = 180 }
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 6 }
+				}
+				add_timed_idea = { idea = EQU_upper_house_general_bill_6  days = 720 }
+			}
+			
+			
+			
+			
+			
+			
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 7 }
+				}
+				add_stability = 0.2
+				add_political_power = 200
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 8 }
+				}
+				358 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 4196
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 3749
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 7249
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 3799
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 3436
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 7244
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 4857
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = 1491
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 9 }
+				}
+				add_ideas = EQU_upper_house_general_bill_9
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 10 }
+				}
+				division_template = {
+					name = "雇佣兵师"
+					division_names_group = ALL_Inf_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						artillery_brigade = { x = 2 y = 1 }
+					}
+				}
+				11 = {
+					create_unit = {
+						division = "name = \"雇佣兵师\" division_template = \"雇佣兵师\" start_experience_factor = 0.6 start_equipment_factor = 1" 
+						owner = EQU
+						count = 6
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 11 }
+				}
+				add_ideas = army_economic_policy
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 12 }
+				}
+				add_ideas = EQU_upper_house_general_bill_12
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 13 }
+				}
+				add_political_power = 250
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 14 }
+				}
+				add_ideas = EQU_upper_house_general_bill_14
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 15 }
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10000
+					producer = POF
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10000
+					producer = SHI
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 16 }
+				}
+				add_ideas = EQU_upper_house_general_bill_16
+			}
+			else_if = {
+				limit = {
+					check_variable = { EQU_upper_house_activ_bill = 17 }
+				}
+				set_variable = { EQU.EQU_orthodoxy_change = 3 }
+				calculate_orthodoxy = yes
+			}
+		}
+		else = {
+			clr_country_flag = EQU_upper_house_endorsement
+		}
+		EQU_calculate_upper_house_bill_ckeck = yes
+	}
+}
+
+### 计算上议院可以再次提议法案时间
+EQU_calculate_upper_house_bill_ready = {
+	EQU = {
+		if = {
+			limit = {
+				check_variable = { EQU_upper_house_bill_not_ready > 0 }
+			}
+			subtract_from_variable = { EQU_upper_house_bill_not_ready = 1 }
+		}
+	}
+}
+
+### 计算上议院法案的GUI对号
+EQU_calculate_upper_house_bill_ckeck = {
+	EQU = {
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_activ_bill = 1 }
+					has_idea = EQU_upper_house_general_bill_1
+				}
+			}
+			set_variable = { EQU_upper_house_bill_check_1 = 2 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_check_1 = 0 }
+		}
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_activ_bill = 2 }
+					has_idea = EQU_upper_house_general_bill_2
+				}
+			}
+			set_variable = { EQU_upper_house_bill_check_2 = 2 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_check_2 = 0 }
+		}
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_activ_bill = 3 }
+					has_idea = EQU_upper_house_general_bill_3
+				}
+			}
+			set_variable = { EQU_upper_house_bill_check_3 = 2 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_check_3 = 0 }
+		}
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_activ_bill = 4 }
+					has_idea = EQU_upper_house_general_bill_4
+				}
+			}
+			set_variable = { EQU_upper_house_bill_check_4 = 2 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_check_4 = 0 }
+		}
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_activ_bill = 5 }
+					has_idea = EQU_upper_house_general_bill_5
+				}
+			}
+			set_variable = { EQU_upper_house_bill_check_5 = 2 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_check_5 = 0 }
+		}
+		if = {
+			limit = {
+				OR = {
+					check_variable = { EQU_upper_house_activ_bill = 6 }
+					has_idea = EQU_upper_house_general_bill_6
+				}
+			}
+			set_variable = { EQU_upper_house_bill_check_6 = 2 }
+		}
+		else = {
+			set_variable = { EQU_upper_house_bill_check_6 = 0 }
+		}
+		
+		
+	}
+}

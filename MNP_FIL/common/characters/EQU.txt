@@ -48,8 +48,8 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
-			skill = 2
+			traits = { have_conections }
+			skill = 3
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 4
@@ -64,8 +64,10 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
-			skill = 2
+			traits = { 
+				use_troops_like_god
+				have_conections 
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -81,7 +83,7 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { use_troops_like_god }
 			legacy_id = 100
 			skill = 3
 			attack_skill = 5
@@ -98,12 +100,15 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
+			traits = { 
+				wonderbolts_background 
+				stick_to_letter_of_law
+			}
 			skill = 4
 			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 1
+			planning_skill = 6
+			logistics_skill = 2
 		}
 	}
 	EQU_Wind_Rider = {
@@ -114,8 +119,11 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { }
-			skill = 2
+			traits = { 
+				wonderbolts_background
+				experienced
+			}
+			skill = 5
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 2
@@ -131,7 +139,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { careful }
 			legacy_id = 101
 			skill = 3
 			attack_skill = 3
@@ -148,7 +156,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { caring_for_troops }
 			legacy_id = 102
 			skill = 2
 			attack_skill = 1
@@ -165,7 +173,10 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { 
+				wonderbolts_background
+				follow_the_rules
+			}
 			skill = 2
 			attack_skill = 4
 			defense_skill = 1
@@ -181,7 +192,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { wonderbolts_background }
 			skill = 2
 			attack_skill = 3
 			defense_skill = 2
@@ -197,12 +208,23 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = { 
+				passionate_military_adventure
+				bright_future
+			}
 			skill = 3
 			attack_skill = 5
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	EQU_Derpy_Hooves = {
+		name = EQU_Derpy_Hooves
+		portraits = {
+			army = {
+				large="gfx/leaders/EQU/Portrait_EQU_Derpy_Hooves.dds"
+			}
 		}
 	}
 	

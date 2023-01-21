@@ -326,8 +326,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option={
-		name = 12.tt
-
+		name = EER_events_c.12.tt
     }
 }
 #梦魇之月小故事
@@ -1125,7 +1124,10 @@ country_event = {
     }
 	option={
 		name = EER_events_c.61.tt_2
-		add_manpower = -500
+		hidden_effect = {
+			add_manpower = -500
+		}
+		custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip_3
     }
 }
 #外交违约的风险
@@ -1146,7 +1148,10 @@ country_event = {
     }
 	option={
 		name = EER_events_c.62.tt_2
-		add_political_power = -100
+		hidden_effect = {
+			add_political_power = -100
+		}
+		custom_effect_tooltip = EER_dealing_with_harmonic_problem_tip_4
     }
 }
 #如何开展工作
@@ -1159,12 +1164,12 @@ country_event = {
 	is_triggered_only = yes
 
 	option={
-		name = EER_events_c.62.tt_1
+		name = EER_events_c.63.tt_1
 		add_to_variable = { EER_perfecting_staff_of_sameness = 10 }
 		custom_effect_tooltip = EER_perfecting_staff_of_sameness_tip_10
     }
 	option={
-		name = EER_events_c.62.tt_2
+		name = EER_events_c.63.tt_2
 		add_political_power = 200
     }
 }

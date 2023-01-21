@@ -1,0 +1,702 @@
+focus_tree = {
+	id = CRY_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRY
+		}
+	}
+	default = no
+	focus = {
+		id = CRY_0_1
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 8
+		y = 2
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = CRY_0_2
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_1
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			add_stability = 0.01
+			country_event = CRY_events.1
+			hidden_effect = {
+				country_event = { days = 35 id = CRY_events.2 }
+			}
+		}
+		
+
+	}
+	focus = {
+		id = CRY_0_3
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_2
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = CRY_Black_Crystal_problem_desc	
+				has_country_flag = CRY_Black_Crystal_problem
+			}
+		}	
+		x = 8
+		y = 4
+		completion_reward = {
+			country_event = CRY_events.3
+		}
+
+	}
+	focus = {
+		id = CRY_0_4
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_3
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = CRY_Black_Crystal_problem_desc	
+				has_country_flag = CRY_Black_Crystal_problem
+			}
+		}	
+		x = 8
+		y = 5
+		completion_reward = {
+			add_political_power = 25
+		}
+
+	}
+	focus = {
+		id = CRY_0_5
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_4
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = CRY_Black_Crystal_problem_desc	
+				has_country_flag = CRY_Black_Crystal_problem
+			}
+		}	
+		x = 7
+		y = 6
+		completion_reward = {
+			add_manpower = 400
+		}
+
+	}
+	focus = {
+		id = CRY_0_6
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_4
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = CRY_Black_Crystal_problem_desc	
+				has_country_flag = CRY_Black_Crystal_problem
+			}
+		}	
+		x = 9
+		y = 6
+		completion_reward = {
+			add_stability = 0.01
+		}
+
+	}
+	focus = {
+		id = CRY_0_7
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_5
+		}
+		prerequisite = {
+			focus = CRY_0_6
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = CRY_Black_Crystal_problem_desc	
+				has_country_flag = CRY_Black_Crystal_problem
+			}
+		}	
+		x = 8
+		y = 7
+		completion_reward = {
+			add_political_power = 25
+		}
+
+	}
+	focus = {
+		id = CRY_0_8
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_7
+		}
+		x = 8
+		y = 8
+		completion_reward = {
+			country_event = CRY_events.4
+		}
+
+	}
+	focus = {
+		id = CRY_0_9
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_8
+		}
+		x = 8
+		y = 9
+		completion_reward = {
+			add_popularity = { 
+				ideology = dictatorshipism 
+				popularity = -0.05 
+			}
+			add_popularity = { 
+				ideology = authoritarian_democracy 
+				popularity = 0.05 
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_10
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_9
+		}
+		x = 8
+		y = 10
+		completion_reward = {
+			add_political_power = 25
+			add_manpower = 50
+			country_event = CRY_events.5
+		}
+
+	}
+	focus = {
+		id = CRY_0_11
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_10
+		}
+		mutually_exclusive = {
+			focus = CRY_0_12
+		}
+		x = 6
+		y = 11
+		completion_reward = {
+				remove_ideas = CRY_Sombra_Cultist_Expansion
+				add_ideas = CRY_Regain_the_last_hope
+				unlock_decision_category_tooltip = CRY_Awaken_the_crystal
+				set_country_flag = CRY_we_start_Regain_the_last_hope
+				set_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+
+	}
+	focus = {
+		id = CRY_0_13
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_11
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 4
+		y = 12
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CRY_Extreme_Sadness_1
+				add_idea = CRY_Extreme_Sadness_2
+			}
+			add_political_power = 50
+	}
+
+	}
+	focus = {
+		id = CRY_0_15
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = CRY_0_13
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 2
+		y = 13
+		completion_reward = {
+			add_manpower = -1000
+			add_war_support = 0.05
+			country_event = CRY_events.7
+		}
+
+	}
+	focus = {
+		id = CRY_0_17
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = CRY_0_15
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 1
+		y = 16
+		completion_reward = {
+			add_manpower = -1000
+			add_war_support = 0.05
+			country_event = CRY_events.8
+		}
+
+	}
+	focus = {
+		id = CRY_0_18
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = CRY_0_15
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 3
+		y = 16
+		completion_reward = {
+			add_manpower = -1000
+			add_stability = 0.05
+			country_event = CRY_events.9
+		}
+
+	}
+	focus = {
+		id = CRY_0_16
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = CRY_0_13
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 5
+		y = 14
+		completion_reward = {
+			add_manpower = -1000
+			add_political_power = 50
+			country_event = CRY_events.10
+		}
+
+	}
+	focus = {
+		id = CRY_0_12
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_10
+		}
+		mutually_exclusive = {
+			focus = CRY_0_11
+		}
+		x = 10
+		y = 11
+		completion_reward = {
+			custom_effect_tooltip = CRY_we_give_up_Black_Crystal_problem
+			remove_ideas = CRY_Sombra_Cultist_Expansion
+			if = {
+				limit = { has_idea = CRY_Regain_the_last_hope }
+				remove_ideas = CRY_Regain_the_last_hope
+			}
+			if = {
+				limit = { has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up }
+				clr_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+			}
+			add_ideas = CRY_Let_it_be
+		}
+
+	}
+	focus = {
+		id = CRY_0_27
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_12
+		}
+		x = 10
+		y = 12
+		completion_reward = {
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = 0.05
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_28
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_27
+		}
+		x = 10
+		y = 13
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = CRY_0_29
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_28
+		}
+		x = 10
+		y = 14
+		completion_reward = {
+			add_political_power = 25
+		}
+
+	}
+	focus = {
+		id = CRY_0_30
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_29
+		}
+		x = 9
+		y = 15
+		completion_reward = {
+			country_event = CRY_events.14
+		}
+
+	}
+	focus = {
+		id = CRY_0_31
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_29
+		}
+		x = 11
+		y = 15
+		completion_reward = {
+			country_event = CRY_events.15
+		}
+
+	}
+	focus = {
+		id = CRY_0_32
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_30
+		}
+		prerequisite = {
+			focus = CRY_0_31
+		}
+		x = 10
+		y = 16
+		completion_reward = {
+			country_event = CRY_events.16
+			remove_ideas = CRY_BattleHardened_SelfDefense_Forces
+			add_popularity = {
+				ideology = authoritarian_democracy
+				popularity = -0.3
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_14
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_11
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 7
+		y = 12
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = CRY_0_19
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = CRY_0_16
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 5
+		y = 16
+		completion_reward = {
+			add_manpower = -1000
+			add_stability = 0.05
+			country_event = CRY_events.11
+		}
+
+	}
+	focus = {
+		id = CRY_0_20
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_17
+		}
+		prerequisite = {
+			focus = CRY_0_18
+		}
+		prerequisite = {
+			focus = CRY_0_19
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 4
+		y = 17
+		completion_reward = {
+			add_manpower = 5000
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = -0.1
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_21
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_14
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 7
+		y = 13
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = -0.01
+			}
+			custom_effect_tooltip = CRY_decisions_extend
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = CRY_Awaken_the_crystal_1
+					days = 45
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_22
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_21
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 7
+		y = 14
+		completion_reward = {
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = -0.01
+			}
+			custom_effect_tooltip = CRY_decisions_extend
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = CRY_Awaken_the_crystal_1
+					days = 45
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_23
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_22
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 7
+		y = 15
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 10
+				producer = CRY
+			}
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = -0.01
+			}
+			custom_effect_tooltip = CRY_decisions_extend
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = CRY_Awaken_the_crystal_1
+					days = 45
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_24
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_23
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 7
+		y = 16
+		completion_reward = {
+			add_stability = 0.03
+			add_popularity = {
+				ideology = dictatorshipism
+				popularity = -0.03
+			}
+			custom_effect_tooltip = CRY_decisions_extend
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = CRY_Awaken_the_crystal_1
+					days = 40
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = CRY_0_25
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_24
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 7
+		y = 17
+		completion_reward = {
+			add_stability = 0.2
+			country_event = CRY_events.12
+			
+
+		}
+
+	}
+	focus = {
+		id = CRY_0_26
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_20
+		}
+		prerequisite = {
+			focus = CRY_0_25
+		}
+		available = {
+			has_country_flag = CRY_never_gonne_give_Black_Crystal_problem_up
+		}
+		x = 6
+		y = 18
+		completion_reward = {
+			remove_ideas = CRY_Regain_the_last_hope
+			country_event = CRY_events.13
+		}
+
+	}
+	focus = {
+		id = CRY_0_33
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_32
+		}
+		x = 9
+		y = 17
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = CRY_0_34
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CRY_0_32
+		}
+		x = 11
+		y = 17
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = CRY_0_35
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = CRY_0_33
+		}
+		prerequisite = {
+			focus = CRY_0_34
+		}
+		x = 10
+		y = 18
+		completion_reward = {
+			remove_ideas = CRY_Let_it_be
+			country_event = CRY_events.17
+			load_focus_tree = CRY_Black_Crystal_focus
+		}
+
+	}
+}

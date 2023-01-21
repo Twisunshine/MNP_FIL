@@ -12,7 +12,7 @@ news_event = {
 	is_triggered_only = yes
 	hidden = no
 
-  option={
+	option={
 		name = EER_news_events.1.tt
 		#custom_effect_tooltip = EER_news_events_1_tt
 		ai_chance = {
@@ -28,7 +28,7 @@ news_event = {
 				}
 			}
 			tag = eer
-	  }
+		}
 		hidden_effect = {
 			if = {
 				limit = {
@@ -37,8 +37,8 @@ news_event = {
 				country_event = { id = fil_superevents.1 }
 			}
 		}
-  }
-  option={
+	}
+	option={
 		name = EER_news_events.1eer.tt
 		#custom_effect_tooltip = EER_news_events_1eer_tt
 		ai_chance = {
@@ -53,9 +53,9 @@ news_event = {
 				country_event = { id = fil_superevents.1 }
 			}
 		}
-  }
+	}
 
-  option={
+	option={
 		name = EER_news_events.1equ.tt
 		#custom_effect_tooltip = EER_news_events_1equ_tt
 		ai_chance = {
@@ -72,9 +72,9 @@ news_event = {
 				country_event = { id = fil_superevents.1 }
 			}
 		}
-  }
+	}
 
-  option={
+	option={
 		name = EER_news_events.1eom.tt
 		#custom_effect_tooltip = EER_news_events_1eom_tt
 		ai_chance = {
@@ -89,9 +89,9 @@ news_event = {
 				country_event = { id = fil_superevents.1 }
 			}
 		}
-  }
+	}
 
-  option={
+	option={
 		name = EER_news_events.1clk.tt
 		#custom_effect_tooltip = EER_news_events_1clk_tt
 		ai_chance = {
@@ -106,7 +106,7 @@ news_event = {
 				country_event = { id = fil_superevents.1 }
 			}
 		}
-  }
+	}
 }
 
 news_event = {

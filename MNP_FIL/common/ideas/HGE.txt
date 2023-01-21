@@ -1,0 +1,90 @@
+ideas = {
+	country = {
+	
+		###民主代餐
+		HGE_Democracy_Replacement = {
+
+            allowed = {
+				original_tag = HGE
+			}
+
+            removal_cost = -1
+			picture = HGE_Democracy_Replacement
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = 0.05
+			}
+        }
+		
+		###驻军之围
+		HGE_Garrisffons_Siege = {
+
+            allowed = {
+				original_tag = HGE
+			}
+
+            removal_cost = -1
+			picture = HGE_Garrisffons_Siege
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.50
+				consumer_goods_factor = 0.40
+				conscription = -0.01
+			}
+        }
+		
+		###联邦一梦
+		HGE_Federal_Dream = {
+
+            allowed = {
+				original_tag = HGE
+			}
+
+            removal_cost = -1
+			picture = HGE_Federal_Dream
+			modifier = {
+				political_power_gain = 0.25
+				autonomy_gain = 0.1
+				authoritarian_democracy_acceptance = 40
+				liberal_democracy_acceptance = 40
+				social_democracy_acceptance = 40
+			}
+        }
+		
+		###有限治权
+		HGE_Limited_Autonomy = {
+
+            allowed = {
+				original_tag = HGE
+			}
+
+            removal_cost = -1
+			picture = HGE_Limited_Autonomy
+			modifier = {
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.15
+				cic_to_overlord_factor = -0.15
+				production_speed_industrial_complex_factor = 0.15
+				mic_to_overlord_factor = 0.25
+			}
+        }
+		
+		###国立北风神教
+		HGE_National_Borei_Sect = {
+
+            allowed = {
+				original_tag = HGE
+			}
+
+            removal_cost = -1
+			picture = HGE_National_Borei_Sect
+			modifier = {
+				drift_defence_factor = 0.75
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.05
+			}
+        }
+		
+	}
+	
+}

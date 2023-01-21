@@ -62,6 +62,7 @@ recruit_character = EQU_Pinkie_Pie
 recruit_character = EQU_Soarin
 recruit_character = EQU_Fleetfoot
 recruit_character = EQU_Lightning_Dust
+recruit_character = EQU_Derpy_Hooves
 recruit_character = EQU_Twilight_Sparkle
 recruit_character = EQU_Rarity
 recruit_character = EQU_Sassy_Saddles
@@ -69,18 +70,22 @@ recruit_character = EQU_Sweetie_Drops
 recruit_character = EQU_government
 
 add_ideas = {
-		service_by_requirement
-		war_economy
-		free_trade
-		guidance_only
-		all_adults
-		basic_citizenship
-		Specialized_chemical_factory
-		farm_production
-		more_popular
-		Flaws_do_not_hide_beauty
-		Universal_education
-		deserters_everywhere
+		laws_ideas_1_5
+		laws_ideas_2_4
+		laws_ideas_3_2
+		laws_ideas_4_2
+		laws_ideas_5_2
+		laws_ideas_6_4
+		develop_ideas_1_4
+		develop_ideas_2_3
+		develop_ideas_3_3
+		develop_ideas_4_4
+		develop_ideas_5_3
+		develop_ideas_6_3
+		race_ideas_2_4
+		race_ideas_3_3
+		race_ideas_4_3
+		race_ideas_5_3
 		EQU_refugees
 		EQU_Harmonic_of_the_lighthouse
 		EQU_Twilight_Sparkle_Her_Majesty

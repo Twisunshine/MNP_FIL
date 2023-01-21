@@ -1,0 +1,26 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_eer"
+		modifier = diff_strong_ai_generic
+		countries = { EER }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_equ"
+		modifier = diff_strong_ai_generic
+		countries = { EQU }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_eom"
+		modifier = diff_strong_ai_generic
+		countries = { EOM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_clk"
+		modifier = diff_strong_ai_generic
+		countries = { CLK }
+		multiplier = 2.0
+	}
+}

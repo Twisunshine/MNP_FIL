@@ -1,0 +1,1888 @@
+shared_focus = {
+	id = CLK_5_1_1
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 28
+	y = 0
+	
+	allow_branch = {has_country_flag = CLK_fifth_stage}
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_2
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_2
+		}
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_5
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_5
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_12_1
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 25
+	y = 13
+	
+	allow_branch = {has_country_flag = CLK_fifth_stage}
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_3
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_3
+		}
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_4
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_4
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_12_2
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 36
+	y = 13
+	
+	allow_branch = {has_country_flag = CLK_fifth_stage}
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		country_event = CLK_events.37
+	}
+}
+shared_focus = {
+	id = CLK_5_2_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_1_1
+	}
+	x = 22
+	y = 1
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_2
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_2
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_3_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_2_1
+	}
+	x = 20
+	y = 2
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA ={
+			add_stability = 0.15
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_4_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_1
+	}
+	x = 18
+	y = 3
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_queenist_faction_power
+			value = 1
+			tooltip = CLK_add_1_to_queenist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_conservativist_faction_power
+			value = -1
+			tooltip = CLK_minus_1_to_conservativist_faction_power
+		}
+		add_popularity = {
+    		ideology = fascism
+    		popularity = 0.01
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_3_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_2_1
+	}
+	x = 25
+	y = 2
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA = {
+			add_political_power = 50
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_4_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_1
+	}
+	prerequisite = {
+		focus = CLK_5_3_2
+	}
+	x = 22
+	y = 3
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA ={
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_2
+	}
+	x = 21
+	y = 4
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_political_power = -50
+		SMA = {
+			add_ideas = SMA_Chrysalis_appropriation
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_2
+	}
+	x = 23
+	y = 4
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA = {
+			add_manpower = 15000
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_6_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_5_2
+	}
+	prerequisite = {
+		focus = CLK_5_5_3
+	}
+	x = 22
+	y = 5
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA = {
+			swap_ideas = {
+				remove_idea = SMA_Chrysalis_appropriation
+				add_ideas = SMA_Chrysalis_appropriation_2
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_7_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_6_1
+	}
+	x = 22
+	y = 6
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 10000
+			target = SMA
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_13_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_12_1
+	}
+	x = 22
+	y = 14
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_4_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_2
+	}
+	x = 25
+	y = 3
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		270 = {
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_3
+	}
+	x = 26
+	y = 4
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA = {
+			#获得两条998年的驱逐舰
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_2_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_1_1
+	}
+	x = 34
+	y = 1
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		465 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_3_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_2_2
+	}
+	x = 31
+	y = 2
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			add_political_power = 50
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_4_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_3
+	}
+	x = 31
+	y = 3
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		465 = {
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_3
+	}
+	prerequisite = {
+		focus = CLK_5_4_4
+	}
+	x = 28
+	y = 4
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			create_ship = {
+				type = battleship
+				equipment_variant = "战列舰"
+				creator = EQU
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_6
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_4
+	}
+	x = 30
+	y = 4
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			#获得三条巡洋舰
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_6_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_5_4
+	}
+	prerequisite = {
+		focus = CLK_5_5_5
+	}
+	prerequisite = {
+		focus = CLK_5_5_6
+	}
+	x = 27
+	y = 5
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			#获得一条航空母舰
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_6_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_5_6
+	}
+	prerequisite = {
+		focus = CLK_5_5_5
+	}
+	prerequisite = {
+		focus = CLK_5_5_4
+	}
+	x = 29
+	y = 5
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 100
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_7_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_6_2
+	}
+	prerequisite = {
+		focus = CLK_5_6_3
+	}
+	x = 28
+	y = 6
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			#民族精神帝国海军南部基地
+			#add_ideas = production_speed_dockyard_factor = 0.20 industrial_capacity_dockyard = 0.20
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_8_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_7_3
+	}
+	mutually_exclusive = {
+		focus = CLK_5_8_2
+		focus = CLK_5_8_3
+	}
+	x = 31
+	y = 7
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#海军学说加速卡100%
+	}
+}
+shared_focus = {
+	id = CLK_5_8_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_7_3
+	}
+	mutually_exclusive = {
+		focus = CLK_5_8_3
+		focus = CLK_5_8_4
+	}
+	x = 25
+	y = 7
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#战列舰加速卡100%
+	}
+}
+shared_focus = {
+	id = CLK_5_9_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_8_4
+	}
+	x = 31
+	y = 8
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_political_power = -200
+		#获得六条驱逐舰
+	}
+}
+shared_focus = {
+	id = CLK_5_10_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_9_3
+	}
+	x = 31
+	y = 9
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#获得三条巡洋舰
+	}
+}
+shared_focus = {
+	id = CLK_5_11_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_10_3
+	}
+	x = 31
+	y = 10
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_ideas = CLK_sea_swarm
+	}
+}
+shared_focus = {
+	id = CLK_5_3_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_2_2
+	}
+	x = 36
+	y = 2
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 10000
+			target = NWN
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_4_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_4
+	}
+	prerequisite = {
+		focus = CLK_5_3_3
+	}
+	x = 34
+	y = 3
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		465 = {
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_7
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_5
+	}
+	x = 34
+	y = 4
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			add_political_power = 150
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_6_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_5_7
+	}
+	x = 34
+	y = 5
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			add_political_power = 100
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_7_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_6_4
+	}
+	x = 33
+	y = 6
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			stability = 0.20
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_7_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_6_4
+	}
+	x = 35
+	y = 6
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_8_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_7_4
+	}
+	prerequisite = {
+		focus = CLK_5_7_5
+	}
+	x = 34
+	y = 7
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			add_popularity = {
+    			ideology = fascism
+    			popularity = 0.10
+			}
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_13_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_12_2
+	}
+	x = 35
+	y = 14
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		BAP = {
+			add_political_power = 25
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_14_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_13_3
+	}
+	x = 35
+	y = 15
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		BAP ={
+			add_stability = 0.05
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_8
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_4
+	}
+	x = 36
+	y = 4
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		SMA = {
+			add_ideas = SMA_Local_enterprise
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_13_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_12_2
+	}
+	x = 37
+	y = 14
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_popularity = {
+    		ideology = authoritarian_democracy
+    		popularity = -0.15
+		}
+		add_to_variable = {
+			var = CLK_royalist_faction_power
+			value = 3
+			tooltip = CLK_add_3_to_royalist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_conservativist_faction_power
+			value = -3
+			tooltip = CLK_minus_3_to_conservativist_faction_power
+		}
+		BAP = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = 0.40
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_14_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_13_4
+	}
+	x = 37
+	y = 15
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		443 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_7
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_4
+	}
+	prerequisite = {
+		focus = CLK_5_14_5
+	}
+	x = 36
+	y = 16
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			#country_event = 不法之徒 add_stability=-0.10 
+		}
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_6
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_6
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_4_6
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_3_4
+	}
+	x = 38
+	y = 3
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		465 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_5_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_1
+	}
+	x = 18
+	y = 4
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_queenist_faction_power
+			value = 1
+			tooltip = CLK_add_1_to_queenist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_royalist_faction_power
+			value = -1
+			tooltip = CLK_minus_1_to_royalist_faction_power
+		}
+		add_popularity = {
+    		ideology = fascism
+    		popularity = 0.01
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_6_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_4_6
+	}
+	x = 38
+	y = 5
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = NWN
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_7_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_5_1
+	}
+	x = 18
+	y = 6
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_queenist_faction_power
+			value = 1
+			tooltip = CLK_add_1_to_queenist_faction_power
+		}
+		add_to_variable = {
+			var = CLK_militarist_faction_power
+			value = -1
+			tooltip = CLK_minus_1_to_militarist_faction_power
+		}
+		add_popularity = {
+    		ideology = fascism
+    		popularity = 0.01
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_8_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_7_1
+	}
+	prerequisite = {
+		focus = CLK_5_7_2
+	}
+	x = 20
+	y = 7
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_2
+			value = 2
+			tooltip = CLK_add_2_to_CLK_occupied_area_colonization_2
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_8_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_7_3
+	}
+	mutually_exclusive = {
+		focus = CLK_5_8_2
+		focus = CLK_5_8_4
+	}
+	x = 28
+	y = 7
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		navy_experience = 200
+	}
+}
+shared_focus = {
+	id = CLK_5_8_6
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_6_5
+	}
+	x = 38
+	y = 7
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		NWN = {
+			#country_event = 小马包身工 选择add_ideas = industrial_capacity_factory=0.15 stability_factor=-0.20
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_9_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_8_2
+	}
+	x = 25
+	y = 8
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#获得10条驱逐舰
+	}
+}
+shared_focus = {
+	id = CLK_5_9_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_8_3
+	}
+	x = 28
+	y = 8
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#获得五条驱逐舰
+	}
+}
+shared_focus = {
+	id = CLK_5_10_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_9_1
+	}
+	x = 25
+	y = 9
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#海军战斗机加速卡100%
+	}
+}
+shared_focus = {
+	id = CLK_5_10_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_9_2
+	}
+	x = 28
+	y = 9
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#航空母舰加速卡100%*2
+		#获得一条航空母舰
+	}
+}
+shared_focus = {
+	id = CLK_5_11_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_10_1
+	}
+	x = 25
+	y = 10
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_ideas = CLK_mutual_support
+	}
+}
+shared_focus = {
+	id = CLK_5_11_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_10_2
+	}
+	x = 28
+	y = 10
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_ideas = CLK_one_against_one_hundred
+	}
+}
+shared_focus = {
+	id = CLK_5_13_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_12_1
+	}
+	x = 28
+	y = 14
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_4
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_4
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_14_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_13_1
+	}
+	x = 20
+	y = 15
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_3
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_14_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_13_1
+		focus = CLK_5_13_2
+	}
+	x = 25
+	y = 15
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		country_event = CLK_events.38
+	}
+}
+shared_focus = {
+	id = CLK_5_14_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_13_2
+	}
+	x = 30
+	y = 15
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = MAP
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_1
+	}
+	x = 18
+	y = 16
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#民族精神四通八达
+			#add_ideas = production_speed_factor=0.15
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_1
+	}
+	x = 21
+	y = 16
+
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_ideas = CLK_royal_jewelry
+		CLP = {
+			#country_event = 上交皇室财宝
+			#add_ideas = 皇家财富consumer_goods_factor = -0.05
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_2
+	}
+	mutually_exclusive = {
+		focus = CLK_5_15_4
+	}
+	x = 24
+	y = 16
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_3
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_3
+		}
+		CLP = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_2
+	}
+	mutually_exclusive = {
+		focus = CLK_5_15_3
+	}
+	x = 26
+	y = 16
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_4
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_4
+		}
+		MAP = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_3
+	}
+	x = 29
+	y = 16
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		MAP = {
+			#add_ideas = 西艾参谋 resistance_damage_to_garrison = -0.10
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_15_6
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_14_3
+	}
+	x = 31
+	y = 16
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		MAP = {
+			#country_event = 飞行员训练
+			#事件效果：游击队叛乱-3 add_manpower=-3000 stability = -0.05
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_16_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_1
+	}
+	x = 17
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#修建一条从350到395的一级铁路
+	}
+}
+shared_focus = {
+	id = CLK_5_16_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_1
+	}
+	x = 19
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		#修建一条从350到377的一级铁路
+	}
+}
+shared_focus = {
+	id = CLK_5_16_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_2
+	}
+	x = 21
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = CLP
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 2000
+			target = CLP
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_16_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_3
+	}
+	x = 24
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#add_ideas = 变节者political_power_factor = -0.05 conscription_factor = 0.05
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_16_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_4
+	}
+	x = 26
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		MAP = {
+			#add_ideas = 变节者political_power_factor = -0.05 conscription_factor = 0.05
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_16_6
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_5
+	}
+	prerequisite = {
+		focus = CLK_5_15_6
+	}
+	x = 30
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		MAP = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_16_7
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_15_7
+	}
+	x = 36
+	y = 17
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		BAP = {
+			#爱意+0.5kLv
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_1
+	}
+	prerequisite = {
+		focus = CLK_5_16_2
+	}
+	x = 18
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_political_power = -200
+		CLP = {
+			add_political_power = 200
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_3
+	}
+	x = 21
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#country_event = 女王的恩赐
+			#swap_ideas = 皇家财富 add_ideas = consumer_goods_factor = -0.05
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_4
+	}
+	x = 24
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			stability = 0.15
+			add_political_power = 75
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_5
+	}
+	x = 26
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		MAP = {
+			stability = 0.15
+			add_political_power = 75
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_5
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_6
+	}
+	x = 29
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_political_power = -200
+		MAP = {
+			add_political_power = 200
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_6
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_6
+	}
+	x = 31
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		11 = {
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_17_7
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_16_7
+	}
+	x = 36
+	y = 18
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = electronic_mechanical_engineering
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_18_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_17_1
+	}
+	prerequisite = {
+		focus = CLK_5_17_2
+	}
+	x = 20
+	y = 19
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_18_2
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_17_3
+		focus = CLK_5_17_4
+	}
+	x = 25
+	y = 19
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			add_political_power = 100
+		}
+		MAP = {
+			add_political_power = 100
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_18_3
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_17_5
+	}
+	prerequisite = {
+		focus = CLK_5_17_6
+	}
+	x = 30
+	y = 19
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_to_variable = {
+			var = CLK_occupied_area_colonization_4
+			value = 1
+			tooltip = CLK_add_1_to_CLK_occupied_area_colonization_4
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_18_4
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_17_7
+	}
+	x = 36
+	y = 19
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		add_political_power = 100
+	}
+}
+shared_focus = {
+	id = CLK_5_19_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_18_2
+	}
+	x = 25
+	y = 20
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#游击队叛乱-3
+		}
+		MAP = {
+			#游击队叛乱-3
+		}
+	}
+}
+shared_focus = {
+	id = CLK_5_20_1
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = CLK_5_19_1
+	}
+	x = 25
+	y = 21
+	
+	available = { 
+		#has_country_flag = 辖区一切正常
+	}
+	
+	completion_reward = {
+		CLP = {
+			#游击队叛乱-3
+		}
+		MAP = {
+			#游击队叛乱-3
+		}
+	}
+}

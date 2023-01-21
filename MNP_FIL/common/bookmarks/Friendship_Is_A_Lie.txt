@@ -46,9 +46,9 @@ bookmarks = {
 				EER_heterochromatic_ideal
 			}
 			focuses = {
-				EER_chairmans_speech
+				EER_refugee_influx
 				EER_the_great_war_of_liberation
-				EER_open_the_door
+				EER_chairmans_speech
 			}
 			
 		}
@@ -56,10 +56,14 @@ bookmarks = {
 			history = CRY_FRIENDSHIP_IS_A_LIE_DESC
 			ideology = despotism
 			ideas={
-				
+				CRY_Extreme_Sadness_1
+				CRY_Stagnant_Millennium
+				CRY_the_Crystal_Heart
 			}	
 			focuses = {
-
+				CRY_0_3
+				CRY_0_10
+				CRY_0_7
 			}		
 		}
 		CLK = {
@@ -71,7 +75,9 @@ bookmarks = {
 				CLK_Tolt_contract_1
 			}
 			focuses = {
-
+				CLK_1_9_1
+				CLK_1_14_1
+				CLK_1_10_2
 			}
 		}
 		KIR = {
@@ -83,7 +89,9 @@ bookmarks = {
 				KIR_Silent_Grove
 			}
 			focuses = {
-
+				KIR_1_9_1
+				KIR_return_to_the_past
+				KIR_1_9_2
 			}			
 		}
 		ABY = {

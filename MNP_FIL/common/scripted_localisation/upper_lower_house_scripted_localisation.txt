@@ -1,0 +1,165 @@
+defined_text = { 
+	name = EQU_upper_house_rest_days
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_bill_not_ready = 0 }
+			}
+		}
+		localization_key = EQU_upper_house_update_time_1
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_bill_not_ready > 0 }
+			}
+		}
+		localization_key = EQU_upper_house_update_time_2
+	}
+}
+
+defined_text = { 
+	name = EQU_upper_house_days_left
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+		}
+		localization_key = EQU_upper_house_days_left_1
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+			}
+		}
+		localization_key = EQU_upper_house_days_left_2
+	}
+}
+
+defined_text = {
+	name = EQU_upper_house_support
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+		}
+		localization_key = EQU_upper_house_support_1
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+				NOT = {
+					OR = {
+						has_country_flag = EQU_upper_house_endorsement
+					}
+				}
+			}
+		}
+		localization_key = EQU_upper_house_support_2
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill > 0 }
+				has_country_flag = EQU_upper_house_endorsement
+			}
+		}
+		localization_key = EQU_upper_house_support_3
+	}
+}
+
+defined_text = {
+	name = EQU_upper_house_activ_bill
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 0 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_0
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 1 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_1
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 2 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_2
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 3 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_3
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 4 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_4
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 5 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_5
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 6 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_6
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 7 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_7
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = EQU
+				check_variable = { EQU_upper_house_activ_bill = 8 }
+			}
+		}
+		localization_key = EQU_upper_house_bill_8
+	}
+}

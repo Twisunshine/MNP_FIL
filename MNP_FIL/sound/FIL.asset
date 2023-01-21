@@ -7,6 +7,8 @@ category = {
 		super_event_Eternity_of_Equality
 		super_event_se_EOM_Unite
 		super_event_se_EQU_Unite
+		news_event_se_MAP_The_riot_ended
+		news_event_se_MAP_into_anarchy
 	}
  	compressor = {
 		enabled = yes

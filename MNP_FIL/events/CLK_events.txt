@@ -1,6 +1,5 @@
 add_namespace = CLK_events
 
-
 country_event = {
 	id = CLK_events.1
 	title = CLK_events.1_t
@@ -15,6 +14,615 @@ country_event = {
 		set_politics = {
 			ruling_party = liberal_democracy
 		}
-    }
-				
+    }			
 }
+
+#神出鬼没
+country_event = {
+	id = CLK_events.2
+	title = CLK_events.2_t
+	desc = CLK_events.2_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.2_tt
+		
+    }			
+}
+
+#这不是借口
+country_event = {
+	id = CLK_events.3
+	title = CLK_events.3_t
+	desc = CLK_events.3_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.3_tt
+		
+    }			
+}
+
+#梦魇之月撕毁合约
+country_event = {
+	id = CLK_events.4
+	title = CLK_events.4_t
+	desc = CLK_events.4_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.4_tt
+		
+    }			
+}
+
+#前功尽弃
+country_event = {
+	id = CLK_events.5
+	title = CLK_events.5_t
+	desc = CLK_events.5_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.5_tt
+		
+    }			
+}
+
+#及时止损
+country_event = {
+	id = CLK_events.6
+	title = CLK_events.6_t
+	desc = CLK_events.6_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.6_tt
+		add_to_variable = { CLK_Thorax_rebellion = 1 }
+        calculate_thorax_rebellion = yes
+		custom_effect_tooltip = CLK_add_1_to_thorax_rebellion
+    }			
+}
+
+#官方历史
+country_event = {
+	id = CLK_events.7
+	title = CLK_events.7_t
+	desc = CLK_events.7_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.7_tt
+		
+    }			
+}
+
+#母亲
+country_event = {
+	id = CLK_events.8
+	title = CLK_events.8_t
+	desc = CLK_events.8_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.8_tt
+		
+    }			
+}
+
+#无悔岁月
+country_event = {
+	id = CLK_events.9
+	title = CLK_events.9_t
+	desc = CLK_events.9_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.9_tt
+		add_stability = 0.05
+    }			
+}
+
+#幻形灵一元论
+country_event = {
+	id = CLK_events.10
+	title = CLK_events.10_t
+	desc = CLK_events.10_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.10_tt
+		
+    }			
+}
+
+#时代变了
+country_event = {
+	id = CLK_events.11
+	title = CLK_events.11_t
+	desc = CLK_events.11_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.11_tt
+		
+    }			
+}
+
+#替罪羔羊
+country_event = {
+	id = CLK_events.12
+	title = CLK_events.12_t
+	desc = CLK_events.12_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.12_tt
+		remove_ideas = CLK_The_consequences_of_overexpansion_1
+    }			
+}
+
+#稳定殖民政府
+country_event = {
+	id = CLK_events.13
+	title = CLK_events.13_t
+	desc = CLK_events.13_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.13_tt
+		
+    }			
+}
+
+#重新进入叛乱区
+country_event = {
+	id = CLK_events.14
+	title = CLK_events.14_t
+	desc = CLK_events.14_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.14_tt
+		
+    }			
+}
+
+#死亡与友谊与纸杯蛋糕
+country_event = {
+	id = CLK_events.15
+	title = CLK_events.15_t
+	desc = CLK_events.15_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.15_tt
+		
+    }			
+}
+
+#贼不走空
+country_event = {
+	id = CLK_events.16
+	title = CLK_events.16_t
+	desc = CLK_events.16_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.16_tt
+		
+    }			
+}
+
+#一个新政府
+country_event = {
+	id = CLK_events.17
+	title = CLK_events.17_t
+	desc = CLK_events.17_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.17_tt
+		
+    }			
+}
+
+#神圣的土地
+country_event = {
+	id = CLK_events.18
+	title = CLK_events.18_t
+	desc = CLK_events.18_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.18_tt
+		
+    }			
+}
+
+#武装入住
+country_event = {
+	id = CLK_events.19
+	title = CLK_events.19_t
+	desc = CLK_events.19_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.19_tt
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+		}
+    }			
+}
+
+#踩在脚下
+country_event = {
+	id = CLK_events.20
+	title = CLK_events.20_t
+	desc = CLK_events.20_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.20_tt
+		add_war_support = 0.05
+    }			
+}
+
+#举目无亲
+country_event = {
+	id = CLK_events.21
+	title = CLK_events.21_t
+	desc = CLK_events.21_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.21_tt
+		
+    }			
+}
+
+#与政治绝缘
+country_event = {
+	id = CLK_events.22
+	title = CLK_events.22_t
+	desc = CLK_events.22_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.22_tt
+		
+    }			
+}
+
+#请记住我
+country_event = {
+	id = CLK_events.23
+	title = CLK_events.23_t
+	desc = CLK_events.23_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.23_tt
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -3000
+		}
+		add_manpower = -15000
+    }			
+}
+
+#殷殷嘱托
+country_event = {
+	id = CLK_events.24
+	title = CLK_events.24_t
+	desc = CLK_events.24_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.24_tt
+    }			
+}
+
+#任重道远
+country_event = {
+	id = CLK_events.25
+	title = CLK_events.25_t
+	desc = CLK_events.25_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.25_tt
+    }			
+}
+
+
+#劳逸结合
+country_event = {
+	id = CLK_events.26
+	title = CLK_events.26_t
+	desc = CLK_events.26_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.26_tt
+    }			
+}
+
+
+#盘根错节
+country_event = {
+	id = CLK_events.27
+	title = CLK_events.27_t
+	desc = CLK_events.27_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.27_tt
+    }			
+}
+
+
+#强颜欢笑
+country_event = {
+	id = CLK_events.28
+	title = CLK_events.28_t
+	desc = CLK_events.28_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.28_tt
+    }			
+}
+
+#小马献花
+country_event = {
+	id = CLK_events.29
+	title = CLK_events.29_t
+	desc = CLK_events.29_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.29_tt
+    }			
+}
+
+#意犹未尽
+country_event = {
+	id = CLK_events.30
+	title = CLK_events.30_t
+	desc = CLK_events.30_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.30_tt
+    }			
+}
+
+#极力推荐
+country_event = {
+	id = CLK_events.31
+	title = CLK_events.31_t
+	desc = CLK_events.31_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.31_tt
+		add_war_support = -0.10
+    }			
+}
+
+#确保安全
+country_event = {
+	id = CLK_events.32
+	title = CLK_events.32_t
+	desc = CLK_events.32_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.32_tt
+		add_manpower = -1500
+    }
+}
+
+#公开处决
+country_event = {
+	id = CLK_events.33
+	title = CLK_events.33_t
+	desc = CLK_events.33_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.33_tt
+    }
+}
+
+#满意的女王
+country_event = {
+	id = CLK_events.34
+	title = CLK_events.34_t
+	desc = CLK_events.34_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.34_tt
+		add_stability = 0.10
+    }
+}
+
+#好大喜功
+country_event = {
+	id = CLK_events.35
+	title = CLK_events.35_t
+	desc = CLK_events.35_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.35_tt
+    }
+}
+
+#非常规授勋
+country_event = {
+	id = CLK_events.36
+	title = CLK_events.36_t
+	desc = CLK_events.36_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.36_tt
+    }
+}
+
+#遥远的巴尔的马
+country_event = {
+	id = CLK_events.37
+	title = CLK_events.37_t
+	desc = CLK_events.37_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.37_tt
+    }
+}
+
+
+#自己打自己
+country_event = {
+	id = CLK_events.38
+	title = CLK_events.38_t
+	desc = CLK_events.38_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.38_tt
+    }
+}
+
+#叛徒呓语
+country_event = {
+	id = CLK_events.39
+	title = CLK_events.39_t
+	desc = CLK_events.39_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = CLK_events.39_tt
+		add_stability = -0.15
+    }
+}
+

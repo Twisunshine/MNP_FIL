@@ -1,0 +1,50 @@
+﻿capital = 229
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.1
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	dictatorshipism = 31
+	fascism = 8
+	despotism = 27
+	authoritarian_democracy = 11
+	liberal_democracy = 15
+	social_democracy = 5
+	socialism = 1
+	communism = 2
+}
+
+add_ideas = {
+	laws_ideas_1_3
+	laws_ideas_2_7
+	laws_ideas_3_4
+	laws_ideas_4_5
+	laws_ideas_5_1
+	laws_ideas_6_2
+	develop_ideas_1_4
+	develop_ideas_2_3
+	develop_ideas_3_3
+	develop_ideas_4_2
+	develop_ideas_5_3
+	develop_ideas_6_1
+	Regional_Rebellion_Medium
+	SMA_Apple_of_my_eye
+	SMA_Fork_western_Equestria_mode
+	SMA_Universal_nepotism
+	SMA_Industrial_immigration
+	SMA_Quacks_disturb_themselves
+}
+
+
+recruit_character = SMA_Thorax
+recruit_character = SMA_Tristana
+
+

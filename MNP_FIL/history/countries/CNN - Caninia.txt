@@ -1,5 +1,7 @@
 ﻿capital = 719
 
+oob = "CNN_1004"
+
 set_research_slots = 2
 set_stability = 0.7
 set_war_support = 0.5
@@ -18,17 +20,33 @@ set_politics = {
 
 set_popularities = {
 	dictatorshipism = 0
-	fascism = 0
-	despotism = 100
-	authoritarian_democracy = 0
-	liberal_democracy = 0
-	social_democracy = 0
+	fascism = 6
+	despotism = 41
+	authoritarian_democracy = 6
+	liberal_democracy = 41
+	social_democracy = 6
 	socialism = 0
 	communism = 0
 }
 
 add_ideas = {
-		
+	laws_ideas_1_4
+	laws_ideas_2_3
+	laws_ideas_3_1
+	laws_ideas_4_2
+	laws_ideas_5_2
+	laws_ideas_6_4
+	develop_ideas_1_4
+	develop_ideas_2_3
+	develop_ideas_3_1
+	develop_ideas_4_2
+	develop_ideas_5_3
+	develop_ideas_6_4
+	CNN_New_sea_overlord
+	CNN_Jenninos_ideal
+	CNN_expensive_diplomatic
+	CNN_claimed_Panthera_Bay
+	CNN_Cats_and_dogs_disputes
 }
 
 

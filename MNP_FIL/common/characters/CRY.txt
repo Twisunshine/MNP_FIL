@@ -13,5 +13,113 @@ characters={
 			id=-1
 		}
 	}
+	CRY_Golden_Hooves={
+		name=CRY_Golden_Hooves
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Portrait_CRY_Golden_Hooves.dds"
+			}
+		}
+		corps_commander = {
+			traits = { not_skilled_in_military }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+	}
+	CRY_Moe_cloud={
+		name=CRY_Moe_cloud
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Portrait_CRY_Moe_cloud.dds"
+			}
+		}
+		corps_commander = {
+			traits = { frail_and_sickly bright_future }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+	}
+	CRY_General_Yacellul={
+		name=CRY_General_Yacellul
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Portrait_CRY_General_Yacellul.dds"
+			}
+		}
+		corps_commander = {
+			traits = { experienced positionalism }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		
+	}
+	CRY_Erlan={
+		name=CRY_Erlan
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Portrait_CRY_Erlan.dds"
+			}
+		}
+		field_marshal = {
+			traits = { use_troops_like_god caring_for_troops }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		
+	}
+	CRY_Liu_Ying={
+		name=CRY_Liu_Ying
+		portraits={
+			civilian={
+				large="gfx/leaders/CRY/Portrait_CRY_Liu_Ying.dds"
+			}
+		}
+		field_marshal = {
+			traits = { caring_for_troops careful positionalism }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		
+	}
+	CRY_Amethyst_Maresbury={
+		name=CRY_Amethyst_Maresbury
+		portraits={
+			civilian={
+				small="gfx/leaders/CRY/idea_Portrait_CRY_Amethyst_Maresbury.dds"
+			}
+		}
+		advisor = { 
+			slot = political_advisor
+			idea_token = idea_CRY_Amethyst_Maresbury
+			allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+			traits = { Minister_of_Propaganda }
+			removal_cost = -114514
+
+		}
+		
+		
+	}
 
 }

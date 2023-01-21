@@ -120,7 +120,7 @@ country_event = {
 	}
 }
 
-#前线的海外记者
+#临时军事法庭
 country_event = {
 	id = EOM_events.7
 	title = EOM_events.7.t
@@ -131,7 +131,10 @@ country_event = {
 
 	option={
 		name = EOM_events.7.tt
-		add_ideas = straggler
+		swap_ideas = {
+			remove_idea = develop_ideas_6_2
+			add_idea = develop_ideas_6_3
+		}
 	}
 }
 
@@ -402,8 +405,8 @@ country_event = {
 
 	option={
 		name = EOM_events.25.tt
-		add_stability = 0.15
 		add_political_power = 200
+		add_popularity = { ideology = dictatorshipism popularity = -0.15 }
 		add_to_variable = { EOM_NM_control_value = 1 } 
 		custom_effect_tooltip = EOM_NM_control_value_add
 	}

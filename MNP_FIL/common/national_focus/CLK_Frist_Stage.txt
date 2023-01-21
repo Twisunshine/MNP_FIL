@@ -1,0 +1,556 @@
+focus_tree = {
+	id = CLK_Frist_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = CLK
+		}
+	}
+	default = no
+	
+	shared_focus = CLK_3_1_1
+	shared_focus = CLK_3_1_2
+	shared_focus = CLK_3_9_1
+	
+	focus = {
+		id = CLK_1_1_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 4
+		y = 1
+		completion_reward = {
+			add_stability = 0.2
+		}
+	}
+	focus = {
+		id = CLK_1_2_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_1_1
+		}
+		x = 4
+		y = 2
+		
+		completion_reward = {
+			set_country_flag = CLK_third_stage
+			custom_effect_tooltip = CLK_unlock_CLK_third_stage
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	focus = {
+		id = CLK_1_3_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_2_1
+		}
+		x = 2
+		y = 3
+		
+		completion_reward = {
+			add_to_variable = {
+				var = CLK_queenist_faction_power
+				value = 2
+				tooltip = CLK_add_2_to_queenist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_power
+				value = -2
+				tooltip = CLK_minus_2_to_conservativist_faction_power
+			}
+			add_to_variable = {
+				var = CLK_conservativist_faction_loyalty
+				value = -5
+				tooltip = CLK_minus_5_to_conservativist_faction_loyalty
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_3_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_2_1
+		}
+		x = 4
+		y = 3
+
+		completion_reward = {
+			add_political_power = -50
+			add_to_variable = {
+				var = CLK_royalist_faction_loyalty
+				value = 	5
+				tooltip = CLK_add_5_to_royalist_faction_loyalty
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_3_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_2_1
+		}
+		x = 6
+		y = 3
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_to_variable = {
+				var = CLK_militarist_faction_loyalty
+				value = 5
+				tooltip = CLK_add_5_to_militarist_faction_loyalty
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_4_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_3_1
+		}
+		prerequisite = {
+			focus = CLK_1_3_2
+		}
+		prerequisite = {
+			focus = CLK_1_3_3
+		}
+		x = 4
+		y = 4
+
+		completion_reward = {
+			add_manpower = -5000
+			add_to_variable = {
+				var = CLK_officer_faction_loyalty
+				value = 5
+				tooltip = CLK_add_5_to_officer_faction_loyalty
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_5_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_4_1
+		}
+		x = 3
+		y = 5
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = CLK_1_5_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_4_1
+		}
+		x = 5
+		y = 5
+
+		completion_reward = {
+			add_to_variable = { CLK_Thorax_rebellion = -3 }
+            calculate_thorax_rebellion = yes
+			custom_effect_tooltip = CLK_minus_3_to_thorax_rebellion
+		}
+	}
+	focus = {
+		id = CLK_1_6_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_5_1
+		}
+		prerequisite = {
+			focus = CLK_1_5_2
+		}
+		x = 4
+		y = 6
+
+		completion_reward = {
+			country_event = CLK_events.2
+		}
+	}
+	focus = {
+		id = CLK_1_7_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_6_1
+		}
+		x = 4
+		y = 7
+
+		completion_reward = {
+			add_manpower = -15000
+			custom_effect_tooltip = CLK_west_equestria_minus_10_resistance
+			hidden_effect = {
+				340 = {
+					add_resistance = -10
+				} 
+				381 = {
+					add_resistance = -10
+				} 
+				423 = {
+					add_resistance = -10
+				} 
+				368 = {
+					add_resistance = -10
+				} 
+				393 = {
+					add_resistance = -10
+				} 
+				158 = {
+					add_resistance = -10
+				} 
+				349 = {
+					add_resistance = -10
+				} 
+				352 = {
+					add_resistance = -10
+				} 
+				406 = {
+					add_resistance = -10
+				} 
+				384 = {
+					add_resistance = -10
+				} 
+				401 = {
+					add_resistance = -10
+				} 
+				409 = {
+					add_resistance = -10
+				} 
+				332 = {
+					add_resistance = -10
+				}
+				458 = {
+					add_resistance = -10
+				}
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_8_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_7_1
+		}
+		x = 3
+		y = 8
+
+		completion_reward = {
+			random_controlled_state = {
+				prioritize = { 340 381 423 368 393 158 349 352 406 384 401 409 332 458 }
+				limit = {
+					industrial_complex > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 3
+				}
+			}
+			15 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_8_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_7_1
+		}
+		x = 5
+		y = 8
+
+		completion_reward = {
+			add_to_variable = { CLK_Thorax_rebellion = -1 }
+            calculate_thorax_rebellion = yes
+			custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+			custom_effect_tooltip = CLK_west_equestria_minus_10_compliance
+			hidden_effect = {
+				340 = {
+					add_compliance = -10
+				} 
+				381 = {
+					add_compliance = -10
+				} 
+				423 = {
+					add_compliance = -10
+				} 
+				368 = {
+					add_compliance = -10
+				} 
+				393 = {
+					add_compliance = -10
+				} 
+				158 = {
+					add_compliance = -10
+				} 
+				349 = {
+					add_compliance = -10
+				} 
+				352 = {
+					add_compliance = -10
+				} 
+				406 = {
+					add_compliance = -10
+				} 
+				384 = {
+					add_compliance = -10
+				} 
+				401 = {
+					add_compliance = -10
+				} 
+				409 = {
+					add_compliance = -10
+				} 
+				332 = {
+					add_compliance = -10
+				}
+				458 = {
+					add_compliance = -10
+				}
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_9_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_8_1
+		}
+		prerequisite = {
+			focus = CLK_1_8_2
+		}
+		x = 4
+		y = 9
+
+		completion_reward = {
+			country_event = CLK_events.3
+		}
+	}
+	focus = {
+		id = CLK_1_10_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_9_1
+		}
+		x = 2
+		y = 10
+
+		completion_reward = {
+			add_ideas = CLK_fragile_burden
+		}
+	}
+	focus = {
+		id = CLK_1_10_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_9_1
+		}
+		x = 4
+		y = 10
+
+		completion_reward = {
+			add_to_variable = { CLK_Thorax_rebellion = -1 }
+            calculate_thorax_rebellion = yes
+			custom_effect_tooltip = CLK_minus_1_to_thorax_rebellion
+			custom_effect_tooltip = CLK_west_equestria_minus_10_resistance
+			hidden_effect = {
+				340 = {
+					add_resistance = -10
+				} 
+				381 = {
+					add_resistance = -10
+				} 
+				423 = {
+					add_resistance = -10
+				} 
+				368 = {
+					add_resistance = -10
+				} 
+				393 = {
+					add_resistance = -10
+				} 
+				158 = {
+					add_resistance = -10
+				} 
+				349 = {
+					add_resistance = -10
+				} 
+				352 = {
+					add_resistance = -10
+				} 
+				406 = {
+					add_resistance = -10
+				} 
+				384 = {
+					add_resistance = -10
+				} 
+				401 = {
+					add_resistance = -10
+				} 
+				409 = {
+					add_resistance = -10
+				} 
+				332 = {
+					add_resistance = -10
+				}
+				458 = {
+					add_resistance = -10
+				}
+			}
+			add_stability = -0.1
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5000
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_10_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_9_1
+		}
+		x = 6
+		y = 10
+
+		completion_reward = {
+			add_ideas = CLK_random_execution
+		}
+	}
+	focus = {
+		id = CLK_1_11_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_10_1
+		}
+		prerequisite = {
+			focus = CLK_1_10_2
+		}
+		prerequisite = {
+			focus = CLK_1_10_3
+		}
+		x = 4
+		y = 11
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = develop_ideas_4_2
+				add_idea = develop_ideas_4_5
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_12_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_11_1
+		}
+		x = 4
+		y = 12
+
+		completion_reward = {
+			custom_effect_tooltip = CLK_1_12_1_tooltip
+		}
+	}
+	focus = {
+		id = CLK_1_13_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_12_1
+		}
+		x = 4
+		y = 13
+
+		completion_reward = {
+			add_manpower = -50000
+			swap_ideas = {
+				remove_idea = develop_ideas_4_4
+				add_idea = develop_ideas_4_5
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_13_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_12_1
+		}
+		x = 2
+		y = 13
+
+		completion_reward = {
+			add_ideas = CLK_new_commander
+		}
+	}
+	focus = {
+		id = CLK_1_13_3
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = CLK_1_12_1
+		}
+		x = 6
+		y = 13
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = laws_ideas_2_6
+				add_idea = laws_ideas_2_7
+			}
+		}
+	}
+	focus = {
+		id = CLK_1_14_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		
+		available = { has_war = no }
+		
+		prerequisite = {
+			focus = CLK_1_13_1
+		}
+		prerequisite = {
+			focus = CLK_1_13_2
+		}
+		prerequisite = {
+			focus = CLK_1_13_3
+		}
+		x = 4
+		y = 14
+		
+		completion_reward = {
+			set_country_flag = CLK_logistics_without_worry
+			custom_effect_tooltip = CLK_unlock_logistics_without_worry
+			declare_war_on = { 
+				target = EOM 
+				type = annex_everything  
+			}
+		}
+	}
+}

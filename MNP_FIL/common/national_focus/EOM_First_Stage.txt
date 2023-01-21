@@ -275,6 +275,12 @@ focus_tree = {
 			custom_effect_tooltip = EQU_EOM_orthodoxy_sub_add_3
 			hidden_effect={
 				load_focus_tree = EOM_Second_Stage
+				CLK = {
+					country_event = CLK_events.4
+					load_focus_tree = CLK_Second_Stage
+					clr_country_flag = CLK_third_stage
+					mark_focus_tree_layout_dirty = yes
+				}
 			}
 		}
 	}

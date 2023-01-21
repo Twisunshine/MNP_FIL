@@ -28,3 +28,13 @@ sound = {
 	file = "superevents/EQU_Unite.wav"
 	always_load = no
 }
+sound = {
+	name = "se_MAP_The_riot_ended"
+	file = "superevents/MAP_The_riot_ended.wav"
+	always_load = no
+}
+sound = {
+	name = "se_MAP_into_anarchy"
+	file = "superevents/MAP_into_anarchy.wav"
+	always_load = no
+}

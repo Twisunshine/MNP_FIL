@@ -16,11 +16,62 @@ spriteTypes = {
 	
 	#经济干预
 	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_4_1"
+		texturefile = "gfx/interface/laws/laws_ideas_4_1.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_4_2"
+		texturefile = "gfx/interface/laws/laws_ideas_4_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_4_3"
+		texturefile = "gfx/interface/laws/laws_ideas_4_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_4_4"
+		texturefile = "gfx/interface/laws/laws_ideas_4_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_4_5"
+		texturefile = "gfx/interface/laws/laws_ideas_4_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_4_6"
+		texturefile = "gfx/interface/laws/laws_ideas_4_6.dds"
+	}
 	
 	#征兵政策
 	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_5_1"
+		texturefile = "gfx/interface/laws/laws_ideas_5_1.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_5_2"
+		texturefile = "gfx/interface/laws/laws_ideas_5_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_5_3"
+		texturefile = "gfx/interface/laws/laws_ideas_5_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_5_4"
+		texturefile = "gfx/interface/laws/laws_ideas_5_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_laws_ideas_5_5"
+		texturefile = "gfx/interface/laws/laws_ideas_5_5.dds"
+	}
 	
 	#公民权利
 	
@@ -35,113 +86,323 @@ spriteTypes = {
 	#工业发展
 	
 	spriteType = {
-		name = "GFX_idea_hoof_production"
-		texturefile = "gfx/interface/laws/hoof_production.dds"
+		name = "GFX_idea_develop_ideas_1_1"
+		texturefile = "gfx/interface/laws/develop_ideas_1_1.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_guild_production"
-		texturefile = "gfx/interface/laws/guild_production.dds"
+		name = "GFX_idea_develop_ideas_1_2"
+		texturefile = "gfx/interface/laws/develop_ideas_1_2.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_steampunk_era"
-		texturefile = "gfx/interface/laws/steampunk_era.dds"
+		name = "GFX_idea_develop_ideas_1_3"
+		texturefile = "gfx/interface/laws/develop_ideas_1_3.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_Specialized_chemical_factory"
-		texturefile = "gfx/interface/laws/Specialized_chemical_factory.dds"
+		name = "GFX_idea_develop_ideas_1_4"
+		texturefile = "gfx/interface/laws/develop_ideas_1_4.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_factory_complex"
-		texturefile = "gfx/interface/laws/factory_complex.dds"
+		name = "GFX_idea_develop_ideas_1_5"
+		texturefile = "gfx/interface/laws/develop_ideas_1_5.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_industrial_city"
-		texturefile = "gfx/interface/laws/industrial_city.dds"
+		name = "GFX_idea_develop_ideas_1_6"
+		texturefile = "gfx/interface/laws/develop_ideas_1_6.dds"
 	}
 	
 	#农业发展
 	
 	spriteType = {
-		name = "GFX_idea_slash_and_burn"
-		texturefile = "gfx/interface/laws/slash_and_burn.dds"
+		name = "GFX_idea_develop_ideas_2_1"
+		texturefile = "gfx/interface/laws/develop_ideas_2_1.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_smallholder_model"
-		texturefile = "gfx/interface/laws/smallholder_model.dds"
+		name = "GFX_idea_develop_ideas_2_2"
+		texturefile = "gfx/interface/laws/develop_ideas_2_2.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_farm_production"
-		texturefile = "gfx/interface/laws/farm_production.dds"
+		name = "GFX_idea_develop_ideas_2_3"
+		texturefile = "gfx/interface/laws/develop_ideas_2_3.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_large_scale_farming"
-		texturefile = "gfx/interface/laws/large_scale_farming.dds"
+		name = "GFX_idea_develop_ideas_2_4"
+		texturefile = "gfx/interface/laws/develop_ideas_2_4.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_commercial_agriculture"
-		texturefile = "gfx/interface/laws/commercial_agriculture.dds"
+		name = "GFX_idea_develop_ideas_2_5"
+		texturefile = "gfx/interface/laws/develop_ideas_2_5.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_mechanized_agriculture"
-		texturefile = "gfx/interface/laws/mechanized_agriculture.dds"
+		name = "GFX_idea_develop_ideas_2_6"
+		texturefile = "gfx/interface/laws/develop_ideas_2_6.dds"
 	}
 	
 	#魔法普及
 	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_3_1"
+		texturefile = "gfx/interface/laws/develop_ideas_3_1.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_3_2"
+		texturefile = "gfx/interface/laws/develop_ideas_3_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_3_3"
+		texturefile = "gfx/interface/laws/develop_ideas_3_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_3_4"
+		texturefile = "gfx/interface/laws/develop_ideas_3_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_3_5"
+		texturefile = "gfx/interface/laws/develop_ideas_3_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_3_6"
+		texturefile = "gfx/interface/laws/develop_ideas_3_6.dds"
+	}
 	
 	#政府运行
 	
 	spriteType = {
-		name = "GFX_idea_government_collapse"
-		texturefile = "gfx/interface/laws/government_collapse.dds"
+		name = "GFX_idea_develop_ideas_4_1"
+		texturefile = "gfx/interface/laws/develop_ideas_4_1.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_the_chaos"
-		texturefile = "gfx/interface/laws/the_chaos.dds"
+		name = "GFX_idea_develop_ideas_4_2"
+		texturefile = "gfx/interface/laws/develop_ideas_4_2.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_chaos"
-		texturefile = "gfx/interface/laws/chaos.dds"
+		name = "GFX_idea_develop_ideas_4_3"
+		texturefile = "gfx/interface/laws/develop_ideas_4_3.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_Flaws_do_not_hide_beauty"
-		texturefile = "gfx/interface/laws/Flaws_do_not_hide_beauty.dds"
+		name = "GFX_idea_develop_ideas_4_4"
+		texturefile = "gfx/interface/laws/develop_ideas_4_4.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_smooth_operation"
-		texturefile = "gfx/interface/laws/smooth_operation.dds"
+		name = "GFX_idea_develop_ideas_4_5"
+		texturefile = "gfx/interface/laws/develop_ideas_4_5.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_social_instrument"
-		texturefile = "gfx/interface/laws/social_instrument.dds"
+		name = "GFX_idea_develop_ideas_4_6"
+		texturefile = "gfx/interface/laws/develop_ideas_4_6.dds"
 	}
 	
 	#科研教育
 	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_5_1"
+		texturefile = "gfx/interface/laws/develop_ideas_5_1.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_5_2"
+		texturefile = "gfx/interface/laws/develop_ideas_5_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_5_3"
+		texturefile = "gfx/interface/laws/develop_ideas_5_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_5_4"
+		texturefile = "gfx/interface/laws/develop_ideas_5_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_5_5"
+		texturefile = "gfx/interface/laws/develop_ideas_5_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_develop_ideas_5_6"
+		texturefile = "gfx/interface/laws/develop_ideas_5_6.dds"
+	}
 	
 	#军队素质
 	
 	
 	
+	###社会发展度
+	
+	#社会态度
+	
+	spriteType = {
+		name = "GFX_race_ideas_1_1_icon"
+		texturefile = "gfx/interface/laws/race_ideas_1_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_1_2_icon"
+		texturefile = "gfx/interface/laws/race_ideas_1_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_1_3_icon"
+		texturefile = "gfx/interface/laws/race_ideas_1_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_1_4_icon"
+		texturefile = "gfx/interface/laws/race_ideas_1_4.dds"
+	}
+	
+	#政治权利
+	
+	spriteType = {
+		name = "GFX_race_ideas_2_1_icon"
+		texturefile = "gfx/interface/laws/race_ideas_2_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_2_2_icon"
+		texturefile = "gfx/interface/laws/race_ideas_2_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_2_3_icon"
+		texturefile = "gfx/interface/laws/race_ideas_2_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_2_4_icon"
+		texturefile = "gfx/interface/laws/race_ideas_2_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_2_5_icon"
+		texturefile = "gfx/interface/laws/race_ideas_2_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_2_6_icon"
+		texturefile = "gfx/interface/laws/race_ideas_2_6.dds"
+	}
+	
+	#经济权利
+	
+	spriteType = {
+		name = "GFX_race_ideas_3_1_icon"
+		texturefile = "gfx/interface/laws/race_ideas_3_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_3_2_icon"
+		texturefile = "gfx/interface/laws/race_ideas_3_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_3_3_icon"
+		texturefile = "gfx/interface/laws/race_ideas_3_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_3_4_icon"
+		texturefile = "gfx/interface/laws/race_ideas_3_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_3_5_icon"
+		texturefile = "gfx/interface/laws/race_ideas_3_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_3_6_icon"
+		texturefile = "gfx/interface/laws/race_ideas_3_6.dds"
+	}
+	
+	#参军权利
+	
+	spriteType = {
+		name = "GFX_race_ideas_4_1_icon"
+		texturefile = "gfx/interface/laws/race_ideas_4_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_4_2_icon"
+		texturefile = "gfx/interface/laws/race_ideas_4_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_4_3_icon"
+		texturefile = "gfx/interface/laws/race_ideas_4_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_4_4_icon"
+		texturefile = "gfx/interface/laws/race_ideas_4_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_4_5_icon"
+		texturefile = "gfx/interface/laws/race_ideas_4_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_4_6_icon"
+		texturefile = "gfx/interface/laws/race_ideas_4_6.dds"
+	}
+	
+	#文化保留
+	
+	spriteType = {
+		name = "GFX_race_ideas_5_1_icon"
+		texturefile = "gfx/interface/laws/race_ideas_5_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_5_2_icon"
+		texturefile = "gfx/interface/laws/race_ideas_5_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_5_3_icon"
+		texturefile = "gfx/interface/laws/race_ideas_5_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_5_4_icon"
+		texturefile = "gfx/interface/laws/race_ideas_5_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_5_5_icon"
+		texturefile = "gfx/interface/laws/race_ideas_5_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_race_ideas_5_6_icon"
+		texturefile = "gfx/interface/laws/race_ideas_5_6.dds"
+	}
 	
 	
+	
+	
+	###意识形态
 	
 	
 	#独裁主义

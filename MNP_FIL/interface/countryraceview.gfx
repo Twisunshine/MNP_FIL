@@ -45,4 +45,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//FIL_System/race_system/race_checkbox.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_race_button"
+		texturefile = "gfx//interface//FIL_System/race_system/race_button.dds"
+		noOfFrames = 2
+	}
 }

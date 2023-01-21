@@ -1,0 +1,13 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					date > 1008.5.30
+					date < 1008.7.01			
+				}
+				news_event = { id = World_News_hidden.1 }
+			}	
+		}
+	}
+}

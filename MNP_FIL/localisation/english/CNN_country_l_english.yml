@@ -6,12 +6,32 @@
  CNN_DEF:0 "坎尼尼亚"
  CNN_ADJ:0 "钻石猎犬"
  CNN_dictatorshipism_party:0 "反派支持者"
- CNN_fascism_party:0 "进步党"
- CNN_despotism_party:0 "王室"
- CNN_authoritarian_democracy_party:0 "牦牛当局"
- CNN_liberal_democracy_party:0 "谐律党"
- CNN_social_democracy_party:0 "工党"
+ CNN_fascism_party:0 "矿产巨企"
+ CNN_despotism_party:0 "凯瑟琳派"
+ CNN_authoritarian_democracy_party:0 "王室中立派"
+ CNN_liberal_democracy_party:0 "詹妮诺派"
+ CNN_social_democracy_party:0 "改革文官"
  CNN_socialism_party:0 "共产党"
  CNN_communism_party:0 "共产党"
- CNN_Katherina_Proudpaws:0 "凯瑟琳 傲爪"
+ 
+ 
+ 
+ 
+ ###角色
+ CNN_Katherina_Proudpaws:0 "凯瑟琳·傲爪"
  CNN_Katherina_Proudpaws_desc:0 ""
+ 
+ 
+ 
+ 
+ 
+ ###民族精神
+ CNN_New_sea_overlord:0 "新的海上霸主"
+ CNN_Jenninos_ideal:0 "詹妮诺的理想"
+ CNN_expensive_diplomatic:0 "高昂的外交成本"
+ CNN_claimed_Panthera_Bay:0 "宣称潘瑟拉湾"
+ CNN_Cats_and_dogs_disputes:0 "猫狗海权之争"
+ 
+ 
+ 
+ 

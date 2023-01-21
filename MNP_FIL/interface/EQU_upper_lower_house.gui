@@ -1,0 +1,1538 @@
+guiTypes = {
+	containerWindowType = {
+		name = "upper_house"
+		position = {x = 0 y = 0}
+		size = {width = 1000 height = 650}
+		orientation = center
+		origo = center
+		moveable = no
+		click_to_front = no
+		clipping = no
+		
+		iconType = {
+			name ="bill_progress_bg"
+			spriteType = "GFX_upper_house_bg"
+			position = { x= 0 y = 0 }
+		}
+		
+		containerWindowType = {
+			name = "councillor_info"
+			position = {x = 193 y = 270}
+			size = {width = 311 height = 359}
+			orientation = left
+			origo = center
+			
+			instantTextBoxType = {
+				name ="councillor_info_1_1"
+				position = { x = 30 y = 70 }
+				textureFile = ""
+				font = "hoi_20mbs"
+				borderSize = {x = 0 y = 0}
+				text = "宪政党"
+				format = left
+				maxWidth = 140
+				maxHeight = 40
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_1_2"
+				position = { x = 30 y = 96 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_councillor_party_1
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_1_3"
+				position = { x = 0 y = 96 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_party_recognition_1
+				format = center
+				maxWidth = 311
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_2_1"
+				position = { x = 30 y = 136 }
+				textureFile = ""
+				font = "hoi_20mbs"
+				borderSize = {x = 0 y = 0}
+				text = "王党"
+				format = left
+				maxWidth = 140
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_2_2"
+				position = { x = 30 y = 162 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_councillor_party_2
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_2_3"
+				position = { x = 0 y = 162 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_party_recognition_2
+				format = center
+				maxWidth = 311
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_3_1"
+				position = { x = 30 y = 202 }
+				textureFile = ""
+				font = "hoi_20mbs"
+				borderSize = {x = 0 y = 0}
+				text = "社会民主党"
+				format = left
+				maxWidth = 140
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_3_2"
+				position = { x = 30 y = 228 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_councillor_party_3
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_3_3"
+				position = { x = 0 y = 228 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_party_recognition_3
+				format = center
+				maxWidth = 311
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_4_1"
+				position = { x = 30 y = 268 }
+				textureFile = ""
+				font = "hoi_20mbs"
+				borderSize = {x = 0 y = 0}
+				text = "谐律党"
+				format = left
+				maxWidth = 140
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_4_2"
+				position = { x = 30 y = 294 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_councillor_party_4
+				format = left
+				maxWidth = 100
+				maxHeight = 40	
+			}
+			
+			instantTextBoxType = {
+				name ="councillor_info_4_3"
+				position = { x = 0 y = 294 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_party_recognition_4
+				format = center
+				maxWidth = 311
+				maxHeight = 40	
+			}
+		}
+		
+		containerWindowType = {
+			name = "general_bill"
+			position = {x = 0 y = -55 }
+			size = {width = 273 height = 359}
+			orientation = center
+			origo = center
+			
+			ButtonType = {
+				name = "general_bill_1"
+				position = { x = 15 y = 55 }
+				quadTextureSprite ="GFX_button_bill_upper_house"	
+				buttonText = EQU_general_bill_1
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_general_bill_1_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_bill_2"
+				position = { x = 15 y = 103 }
+				quadTextureSprite ="GFX_button_bill_upper_house"	
+				buttonText = EQU_general_bill_2
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_general_bill_2_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_bill_3"
+				position = { x = 15 y = 151 }
+				quadTextureSprite ="GFX_button_bill_upper_house"	
+				buttonText = EQU_general_bill_3
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_general_bill_3_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_bill_4"
+				position = { x = 15 y = 199 }
+				quadTextureSprite ="GFX_button_bill_upper_house"	
+				buttonText = EQU_general_bill_4
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_general_bill_4_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_bill_5"
+				position = { x = 15 y = 247 }
+				quadTextureSprite ="GFX_button_bill_upper_house"	
+				buttonText = EQU_general_bill_5
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_general_bill_5_tooltip
+			}
+			
+			ButtonType = {
+				name = "general_bill_6"
+				position = { x = 15 y = 295 }
+				quadTextureSprite ="GFX_button_bill_upper_house"	
+				buttonText = EQU_general_bill_6
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_general_bill_6_tooltip
+			}
+		}
+		
+		containerWindowType = {
+			name = "bill_resolution"
+			position = {x = 305 y = -105}
+			size = {width = 311 height = 256}
+			orientation = center
+			origo = center
+			
+			ButtonType = {
+				name = "bill_resolution_1"
+				position = { x = 32 y = 50 }
+				quadTextureSprite = "GFX_button_resolution_upper_house"	
+				buttonText = EQU_bill_resolution_1
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center 
+				pdx_tooltip = EQU_bill_resolution_1_tooltip
+			}
+			
+			ButtonType = {
+				name = "bill_resolution_2"
+				position = { x = 32 y = 96 }
+				quadTextureSprite = "GFX_button_resolution_upper_house"	
+				buttonText = EQU_bill_resolution_2
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_bill_resolution_2_tooltip
+			}
+			
+			ButtonType = {
+				name = "bill_resolution_3"
+				position = { x = 32 y = 142 }
+				quadTextureSprite = "GFX_button_resolution_upper_house"	
+				buttonText = EQU_bill_resolution_3
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_bill_resolution_3_tooltip
+			}
+			
+			ButtonType = {
+				name = "bill_resolution_4"
+				position = { x = 32 y = 188 }
+				quadTextureSprite = "GFX_button_resolution_upper_house"	
+				buttonText = EQU_bill_resolution_4
+				buttonFont = "hoi_20mbs"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = center
+				pdx_tooltip = EQU_bill_resolution_4_tooltip
+			}
+		}
+		
+		containerWindowType = {
+			name = "update_time"
+			position = {x = 305 y = 79}
+			size = {width = 311 height = 89}
+			orientation = center
+			origo = center
+			
+			instantTextBoxType = {
+				name ="update_time_info_1"
+				position = { x = 80 y = 3 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_upper_house_update_time
+				format = left
+				maxWidth = 250
+				maxHeight = 80	
+			}
+			
+			instantTextBoxType = {
+				name ="update_time_info_2"
+				position = { x = 80 y = 44 }
+				textureFile = ""
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				text = EQU_upper_house_update_time_0
+				format = left
+				maxWidth = 250
+				maxHeight = 80	
+			}
+		}
+		
+		containerWindowType = {
+			name = "bill_progress"
+			position = {x = 0 y = 218 }
+			size = {width = 924 height = 168}
+			orientation = center
+			origo = center
+			
+			instantTextBoxType = {
+				name ="bill_progress_title"
+				position = { x = 17 y = 35 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 0}
+				text = EQU_upper_house_activ_bill
+				format = center
+				maxWidth = 924
+				maxHeight = 80	
+			}
+			
+			iconType = {
+				name ="bill_progress_time_1"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 30 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_2"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 39 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_3"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 48 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_4"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 57 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_5"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 66 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_6"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 75 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_7"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 84 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_8"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 93 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_9"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 102 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_10"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 111 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_11"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 120 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_12"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 129 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_13"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 138 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_14"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 147 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_15"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 156 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_16"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 165 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_17"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 174 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_18"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 183 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_19"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 192 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_20"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 201 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_21"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 210 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_22"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 219 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_23"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 228 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_24"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 237 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_25"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 246 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_26"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 255 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_27"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 264 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_28"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 273 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_29"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 282 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_30"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 291 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_31"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 300 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_32"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 309 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_33"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 318 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_34"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 327 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_35"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 336 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_36"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 345 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_37"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 354 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_38"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 363 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_39"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 372 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_40"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 381 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_41"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 390 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_42"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 399 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_43"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 408 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_44"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 417 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_45"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 426 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_46"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 435 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_47"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 444 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_48"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 453 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_49"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 462 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_50"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 471 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_51"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 480 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_52"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 489 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_53"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 498 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_54"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 507 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_55"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 516 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_56"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 525 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_57"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 534 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_58"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 543 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_59"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 552 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_60"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 561 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_61"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 570 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_62"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 579 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_63"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 588 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_64"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 597 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_65"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 606 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_66"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 615 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_67"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 624 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_68"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 633 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_69"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 642 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_70"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 651 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_71"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 660 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_72"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 669 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_73"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 678 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_74"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 687 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_75"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 696 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_76"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 705 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_77"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 714 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_78"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 723 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_79"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 732 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_80"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 741 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_81"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 750 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_82"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 759 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_83"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 768 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_84"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 777 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_85"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 786 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_86"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 795 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_87"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 804 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_88"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 813 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_89"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 822 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_90"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 831 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_91"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 840 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_92"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 849 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_93"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 858 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_94"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 867 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_95"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 876 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_96"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 885 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_97"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 894 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_98"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 903 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_99"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 912 y = 97 }
+			}
+			iconType = {
+				name ="bill_progress_time_100"
+				spriteType = "GFX_bill_progress_time"
+				position = { x= 921 y = 97 }
+			}
+			
+			instantTextBoxType = {
+				name ="update_time_info_time"
+				position = { x = 17 y = 100 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = [EQU_upper_house_days_left]
+				format = center
+				maxWidth = 924
+				maxHeight = 80	
+			}
+			
+			iconType = {
+				name ="bill_progress_support_1"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 30 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_2"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 39 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_3"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 48 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_4"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 57 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_5"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 66 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_6"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 75 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_7"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 84 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_8"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 93 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_9"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 102 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_10"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 111 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_11"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 120 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_12"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 129 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_13"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 138 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_14"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 147 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_15"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 156 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_16"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 165 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_17"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 174 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_18"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 183 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_19"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 192 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_20"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 201 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_21"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 210 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_22"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 219 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_23"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 228 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_24"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 237 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_25"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 246 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_26"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 255 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_27"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 264 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_28"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 273 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_29"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 282 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_30"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 291 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_31"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 300 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_32"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 309 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_33"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 318 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_34"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 327 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_35"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 336 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_36"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 345 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_37"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 354 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_38"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 363 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_39"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 372 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_40"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 381 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_41"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 390 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_42"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 399 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_43"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 408 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_44"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 417 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_45"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 426 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_46"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 435 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_47"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 444 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_48"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 453 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_49"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 462 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_50"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 471 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_51"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 480 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_52"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 489 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_53"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 498 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_54"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 507 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_55"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 516 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_56"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 525 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_57"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 534 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_58"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 543 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_59"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 552 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_60"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 561 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_61"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 570 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_62"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 579 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_63"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 588 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_64"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 597 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_65"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 606 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_66"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 615 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_67"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 624 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_68"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 633 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_69"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 642 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_70"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 651 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_71"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 660 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_72"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 669 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_73"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 678 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_74"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 687 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_75"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 696 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_76"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 705 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_77"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 714 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_78"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 723 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_79"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 732 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_80"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 741 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_81"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 750 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_82"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 759 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_83"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 768 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_84"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 777 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_85"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 786 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_86"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 795 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_87"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 804 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_88"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 813 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_89"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 822 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_90"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 831 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_91"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 840 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_92"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 849 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_93"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 858 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_94"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 867 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_95"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 876 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_96"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 885 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_97"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 894 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_98"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 903 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_99"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 912 y = 142 }
+			}
+			iconType = {
+				name ="bill_progress_support_100"
+				spriteType = "GFX_bill_progress_support"
+				position = { x= 921 y = 142 }
+			}
+			
+			iconType = {
+				name ="bill_progress_bg_extra"
+				spriteType = "GFX_upper_house_bill_progress_extra"
+				position = { x= 0 y = -42 }
+			}
+			
+			iconType = {
+				name ="bill_progress_bg"
+				spriteType = "GFX_upper_house_bill_progress_bg"
+				position = { x= 0 y = -42 }
+			}
+			
+			instantTextBoxType = {
+				name ="update_time_info_passrate"
+				position = { x = 17 y = 143 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = [EQU_upper_house_support]
+				format = center
+				maxWidth = 924
+				maxHeight = 26
+				pdx_tooltip_delayed = EQU_bill_passrate_tooltip_delayed
+			}
+		}
+		
+		containerWindowType = {
+			name = "house_switch"
+			position = {x = 601 y = -257}
+			size = {width = 150 height = 135}
+			orientation = center
+			origo = center
+			
+			background = {
+				name = "Background"		
+				spriteType ="GFX_upper_lower_house_switch_bg"
+			}
+			
+			ButtonType = {
+				name = "upper_house_button"
+				position = { x = 12 y = 16 }
+				quadTextureSprite ="GFX_upper_lower_house_switch_button"	
+				buttonText = "上议院"
+				buttonFont = "hoi_36header"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = CENTER
+				pdx_tooltip = EQU_upper_house_switch_tooltip
+			}
+			
+			ButtonType = {
+				name = "lower_house_button"
+				position = { x = 12 y = 81 } 
+				quadTextureSprite ="GFX_upper_lower_house_switch_button"	
+				buttonText = "下议院"
+				buttonFont = "hoi_36header"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = CENTER
+				pdx_tooltip = EQU_lower_house_switch_tooltip
+			}
+		}
+		
+		ButtonType = {
+			name = "off_button"
+			position = { x = -26 y = -625 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+			orientation = LOWER_RIGHT
+		}
+	}
+	
+	containerWindowType = {
+		name = "lower_house"
+		position = {x = 0 y = 0}
+		size = {width = 1000 height = 650}
+		orientation = center
+		origo = center
+		moveable = no
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			spriteType ="GFX_tiled_bg"
+		}
+		
+		instantTextBoxType = {
+			name ="upper_house_title"
+			position = { x = 0 y = 34 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "下议院"
+			format = center
+			maxWidth = 1000
+			maxHeight = 66	
+		}
+		
+		containerWindowType = {
+			name = "house_switch"
+			position = {x = 570 y = -258}
+			size = {width = 150 height = 135}
+			orientation = center
+			origo = center
+			
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			
+			ButtonType = {
+				name = "upper_house_button"
+				position = { x = 5 y = 10 }
+				quadTextureSprite ="GFX_button_139x62_upper_house"	
+				buttonText = ""
+				buttonFont = "hoi_36header"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = CENTER
+			}
+			
+			ButtonType = {
+				name = "lower_house_button"
+				position = { x = 5 y = 60 } 
+				quadTextureSprite ="GFX_button_139x62_lower_house"	
+				buttonText = ""
+				buttonFont = "hoi_36header"
+				clicksound = click_default
+				oversound = ui_menu_over
+				format = CENTER
+			}
+		}
+		
+		ButtonType = {
+			name = "off_button"
+			position = { x = -63 y = -605 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+			orientation = LOWER_RIGHT
+		}
+	}
+	
+	containerWindowType = {
+		name = "upper_lower_house_window_open"
+		position = {x = 0 y = 0}
+		size = {width = 75 height = 155}
+		orientation = LOWER_RIGHT #center 
+		moveable = no
+		click_to_front = no
+		clipping = no
+		
+		ButtonType = {
+			name = "upper_lower_house_open_button"
+			position = { x = -76 y = -400 }
+			quadTextureSprite ="GFX_Orthodoxy_window_open"	
+			clicksound = click_default
+			oversound = ui_menu_over
+			format = CENTER
+		}
+	}
+}

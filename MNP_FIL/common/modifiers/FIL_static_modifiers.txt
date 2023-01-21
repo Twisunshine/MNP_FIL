@@ -1,0 +1,14 @@
+#芝士地区修正文件(如果进游戏有效果但不显示那么就说明你没写gui)
+
+
+#废墟（特指巴尔的马）╮(╯▽╰)╭
+ruin = {
+	disable_strategic_redeployment = 1
+	army_speed_factor_for_controller = -0.35
+	army_attack_factor = -0.5
+	army_defence_factor = -0.5
+	attrition = 0.3
+	dig_in_speed = -5
+	local_building_slots = -10
+	local_resources = -0.3
+}

@@ -1,0 +1,66 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					date > 1006.11.30
+					date < 1007.01.01			
+				}
+				news_event = { id = Storm_King_to_Seaquestria_News_hidden.War }
+			}	
+		}
+	}
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					date > 1006.05.30
+					date < 1006.07.01			
+				}
+				country_event = { id = Auto_War_Griffon_News_hidden.War }
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					date > 1005.06.30
+					date < 1005.09.01			
+				}
+				country_event = { id = SRG_News_hidden.War }
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					date > 1007.01.30
+					date < 1007.03.01			
+				}
+				country_event = { id = Caninia_Abyssinia_News_hidden.War }
+				random_list = {
+					30 = {
+						country_event = {
+							id = Ornithia_CA_News_hidden.1
+							days = 50
+						}
+					}
+					30 = {
+						country_event = {
+							id = Ornithia_CA_News_hidden.2
+							days = 50
+						}
+					}
+					40 = {
+						country_event = {
+							id = Ornithia_CA_News_hidden.3
+							days = 50
+						}
+					}
+				}
+			}
+		}
+	}
+}

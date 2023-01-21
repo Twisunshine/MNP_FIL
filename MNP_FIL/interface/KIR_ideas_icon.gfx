@@ -1,14 +1,48 @@
 spriteTypes = {
 	
 	SpriteType = {
-        name = "GFX_idea_KIR_Crisis_of_Confidence"
-        texturefile = "gfx/interface/ideas/KIR_Crisis_of_Confidence.dds"
+        name = "GFX_idea_KIR_Ash_of_Great_famine"
+        texturefile = "gfx/interface/ideas/KIR_Ash_of_Great_famine.dds"
     }
 	
     SpriteType = {
+        name = "GFX_idea_KIR_Cruel_Sun_and_Moon_Sacrifice"
+        texturefile = "gfx/interface/ideas/KIR_Cruel_Sun_and_Moon_Sacrifice.dds"
+    }
+	
+	SpriteType = {
         name = "GFX_idea_KIR_Unsustainable_tradition"
         texturefile = "gfx/interface/ideas/KIR_Unsustainable_tradition.dds"
     }
 	
+    SpriteType = {
+        name = "GFX_idea_KIR_Silent_Grove"
+        texturefile = "gfx/interface/ideas/KIR_Silent_Grove.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_KIR_There_are_Swamps_Everywhere"
+        texturefile = "gfx/interface/ideas/KIR_There_are_Swamps_Everywhere.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_KIR_Crisis_of_Confidence"
+        texturefile = "gfx/interface/ideas/KIR_Crisis_of_Confidence.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_KIR_Uneasy_Schedler"
+        texturefile = "gfx/interface/ideas/KIR_Uneasy_Schedler.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_KIR_Landlord_opposes"
+        texturefile = "gfx/interface/ideas/KIR_Landlord_opposes.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_KIR_Unsatisfied_people"
+        texturefile = "gfx/interface/ideas/KIR_Unsatisfied_people.dds"
+    }
 	
 }

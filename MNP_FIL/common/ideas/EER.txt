@@ -114,7 +114,7 @@ ideas = {
 			modifier = {
 			stability_factor = -0.15
 			political_power_factor = -0.15
-				}
+			}
         }
 		
 		
@@ -827,7 +827,7 @@ ideas = {
 				agency_upgrade_time = -0.10
 				political_power_gain = 0.15
 				army_morale_factor = 0.10
-				recruitable_population_factor = -0.75
+				conscription_factor = -0.25
 			}
 		}
 		EER_expanded_staff_of_sameness_2 = {

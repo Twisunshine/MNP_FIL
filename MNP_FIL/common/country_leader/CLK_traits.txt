@@ -1,0 +1,41 @@
+leader_traits = {
+    dictator = {
+		random = no
+        political_power_factor = 0.15
+	}
+	
+	ruthless_monarch = {
+		random = no
+        war_stability_factor = 0.25
+		opinion_gain_monthly = -5
+	}
+	
+	consider_all_aspects = {
+		random = no
+        political_power_cost = -0.10
+		stability_factor = 0.20
+	}
+	
+	wartime_economist = {
+		random = no
+		consumer_goods_factor = 0.15
+		industrial_capacity_factory = 0.25
+        war_support_factor = 0.3
+	}
+	
+	life_is_expensive = {
+		random = no
+		supply_consumption_factor = 0.05
+        army_org_factor = 0.10
+	}
+	
+	eternal_emperor = {
+		random = no
+		conscription = 0.025
+        political_power_factor = 0.20
+		non_core_manpower = 0.05
+		operative_slot = 2
+		offensive_war_stability_factor = 0.40
+		command_power_gain = 0.02
+	}
+}

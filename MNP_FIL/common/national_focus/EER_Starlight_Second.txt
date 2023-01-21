@@ -910,7 +910,7 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
-		add_ideas = light_of_the_world
+		add_ideas = laws_ideas_6_6
 	}
 }
 

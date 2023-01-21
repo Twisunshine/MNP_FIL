@@ -293,7 +293,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_topbar_background"
-		texturefile = "gfx//interface//topbar//background.dds"
+		texturefile = "gfx//interface//topbar//background_extended.dds"
 		transparencecheck = yes
 	}
 	

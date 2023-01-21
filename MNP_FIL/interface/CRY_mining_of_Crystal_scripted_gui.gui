@@ -1,0 +1,1210 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CRY_state_6_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_6_countryracesview_desc"
+			text = "[6.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_6_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_6|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_6_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_6"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_217_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_217_countryracesview_desc"
+			text = "[217.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_217_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_217|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_217_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_217"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_200_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_200_countryracesview_desc"
+			text = "[200.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_200_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_200|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_200_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_200"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_147_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_147_countryracesview_desc"
+			text = "[147.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_147_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_147|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_147_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_147"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_190_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_190_countryracesview_desc"
+			text = "[190.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_190_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_190|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_190_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_190"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_203_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_203_countryracesview_desc"
+			text = "[203.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_203_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_203|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_203_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_203"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_211_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_211_countryracesview_desc"
+			text = "[211.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 90	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_211_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_211|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_211_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_211"
+			position = { x= 110	 y = 20 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_222_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_222_countryracesview_desc"
+			text = "[222.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 125	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_222_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_222|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_222_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_222"
+			position = { x= 80	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_165_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_165_countryracesview_desc"
+			text = "[165.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_165_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_165|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_165_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_165"
+			position = { x= 100	 y = 2 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_214_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_214_countryracesview_desc"
+			text = "[214.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_214_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_214|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_214_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_214"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_181_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_181_countryracesview_desc"
+			text = "[181.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_181_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_181|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_181_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_181"
+			position = { x= 110	 y = 0 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_129_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_129_countryracesview_desc"
+			text = "[129.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_129_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_129|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_129_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_129"
+			position = { x= 80	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_187_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_187_countryracesview_desc"
+			text = "[187.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 80	 y = 105 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_187_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_187|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_187_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_187"
+			position = { x= 110	 y = 0 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_127_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_127_countryracesview_desc"
+			text = "[127.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_127_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_127|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_127_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_127"
+			position = { x= 100	 y = 0 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_124_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_124_countryracesview_desc"
+			text = "[124.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_124_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_124|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_124_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_124"
+			position = { x= 90	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+	containerWindowType = {
+		name = "CRY_state_130_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 350 height = 25%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		instantTextBoxType = {
+			name ="CRY_state_130_countryracesview_desc"
+			text = "[130.GetName]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 100	 y = 90 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		instantTextBoxType = {
+			name ="CRY_mining_of_Crystal_state_130_countryracesview_desc"
+			text = "[?CRY_Mining_crystal_units_state_130|Y0]"
+			font = "fzrzhz_34_outline_1"
+			position = { x= 150	 y = 125 }
+			maxWidth = 420
+			maxHeight = 200
+			format = left
+		}
+		iconType = {
+			name ="CRY_mining_of_Crystal_state_130_countryracesview"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_130"
+			position = { x= 110	 y = 10 }
+		}
+		buttonType = {
+			name ="CRY_openlog_button"
+			spriteType = "GFX_openlog_button"
+			position = { x= 220	 y = 125 }
+			pdx_tooltip = "CRY_openlog_button_max"
+		}
+		buttonType = {
+			name ="CRY_closelog_button"
+			spriteType = "GFX_closelog_button"
+			position = { x= 80	 y = 125 }
+			pdx_tooltip = ""
+		}
+	
+		
+	}
+
+    containerWindowType = {
+		name = "CRY_mining_of_Crystal_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 510 height= 580 }
+
+	iconType = {
+			name ="CRY_mining_of_Crystal_flag"
+			spriteType = "GFX_CRY_mining_of_Crystal_flag"
+			position = { x= -8	 y = 10 }
+			pdx_tooltip = ""
+    }
+	iconType = {
+		name ="CRY_mining_of_Crystal_Imperial_Mining_Directorate"
+		spriteType = "GFX_CRY_mining_of_Crystal_Imperial_Mining_Directorate"
+		position = { x= 120	 y = 10 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name ="CRY_mining_of_Crystal_Crystal_Mining_Department"
+		spriteType = "GFX_CRY_mining_of_Crystal_Crystal_Mining_Department"
+		position = { x= 175	 y = 80 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name ="CRY_mining_of_Crystal_Crystal"
+		spriteType = "GFX_CRY_mining_of_Crystal_Crystal"
+		position = { x= 120	 y = 80 }
+		alwaystransparent = yes
+	}
+	instantTextBoxType = {
+		name ="CRY_mining_of_Crystal_Mining_units"
+		text = "[CRYminingunits]"
+		font = "fzrzhz_34_outline_1"
+		position = { x= 130	 y = 180 }
+		maxWidth = 420
+		maxHeight = 200
+		format = left
+	}
+	instantTextBoxType = {
+		name ="CRY_Remaining_crystals"
+		text = "CRY_Remaining_crystals_desc"
+		font = "fzrzhz_34_outline_1"
+		position = { x= 40	 y = 500 }
+		maxWidth = 420
+		maxHeight = 200
+		format = left
+	}
+	
+	buttonType = {
+			name ="CRY_mining_of_Crystal_state_6"
+			spriteType = "GFX_CRY_mining_of_Crystal_state_6"
+			position = { x= 130	 y = 375 }
+			pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+    }
+	buttonType = {
+		name ="CRY_mining_of_Crystal_state_203"
+		spriteType = "GFX_CRY_mining_of_Crystal_state_203"
+		position = { x= 215	 y = 372 }
+		pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_147"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_147"
+	position = { x= 172	 y = 353 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_200"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_200"
+	position = { x= 125	 y = 338 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_190"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_190"
+	position = { x= 200	 y = 330 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_217"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_217"
+	position = { x= 60	 y = 370 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_211"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_211"
+	position = { x= 281	 y = 380 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_222"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_222"
+	position = { x= 80	 y = 420 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_165"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_165"
+	position = { x= -5	 y = 345 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_214"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_214"
+	position = { x= 350	 y = 369 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_181"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_181"
+	position = { x= 40	 y = 288 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_129"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_129"
+	position = { x= 140	 y = 282 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_187"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_187"
+	position = { x= 295	 y = 290 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_127"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_127"
+	position = { x= 42	 y = 220 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_124"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_124"
+	position = { x= 138	 y = 230 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+buttonType = {
+	name ="CRY_mining_of_Crystal_state_130"
+	spriteType = "GFX_CRY_mining_of_Crystal_state_130"
+	position = { x= 295	 y = 225 }
+	pdx_tooltip = "CRY_mining_of_Crystal_assignment_desc"
+}
+
+
+
+   
+	
+	
+    }
+}

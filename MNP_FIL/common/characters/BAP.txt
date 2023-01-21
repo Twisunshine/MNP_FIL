@@ -1,0 +1,33 @@
+characters={
+	BAP_Benedict={
+		name=BAP_Benedict
+		portraits={
+			civilian={
+				large="gfx/leaders/BAP/Portrait_BAP_Benedict.tag"
+				small = "gfx/leaders/BAP/idea_Portrait_BAP_Benedict.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_changeling_system
+			traits={ Depressed }
+			expire="2000.1.1.1"
+			id=-1
+		}
+		advisor = {
+            cost = 150
+            slot = head_of_government
+			idea_token = idea_BAP_Benedict
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+            traits = {
+                Bailiwick_Governor
+            }
+			removal_cost = -114514
+        }
+	}
+
+}

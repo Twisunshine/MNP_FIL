@@ -1,0 +1,351 @@
+add_namespace = KIR_events
+
+country_event = {
+	id = KIR_events.1
+	title = KIR_events.1.t
+	desc = KIR_events.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.1.o1
+		set_country_flag = KIR_Finish_the_Famine_Mid
+		set_country_flag = KIR_Finish_the_Famine_start_4
+    }
+	
+	option={
+		name = KIR_events.1.o2
+		set_country_flag = KIR_Finish_the_Famine_Mid
+		set_country_flag = KIR_Finish_the_Famine_start_5
+    }
+	
+	option={
+		name = KIR_events.1.o3
+		set_country_flag = KIR_Finish_the_Famine_Mid
+		set_country_flag = KIR_Finish_the_Famine_start_6
+    }
+}
+
+country_event = {
+	id = KIR_events.2
+	title = KIR_events.2.t
+	desc = KIR_events.2.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.2.o
+	}
+}
+
+country_event = {
+	id = KIR_events.3
+	title = KIR_events.3.t
+	desc = KIR_events.3.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.3.o
+    }
+}
+
+country_event = {
+	id = KIR_events.4
+	title = KIR_events.4.t
+	desc = KIR_events.4.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.4.o1
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.7
+				days = 25
+			}
+			add_timed_idea = {
+				idea = KIR_Unsatisfied_people
+				days = 1080
+			}
+		}
+		set_country_flag = KIR_Finish_the_Famine_Landlordplus
+		political_power = -100
+		custom_effect_tooltip = KIR_Finish_the_Famine_Peopleanger
+    }
+	
+	option={
+		name = KIR_events.4.o2
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.7
+				days = 25
+			}
+		}
+    }
+	
+	option={
+		name = KIR_events.4.o3
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.8
+				days = 25
+			}
+		}
+    }
+}
+
+country_event = {
+	id = KIR_events.5
+	title = KIR_events.5.t
+	desc = KIR_events.5.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.5.o1
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.7
+				days = 25
+			}
+		}
+    }
+	
+	option={
+		name = KIR_events.5.o2
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.8
+				days = 25
+			}
+		}
+    }
+	
+	option={
+		name = KIR_events.5.o3
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.9
+				days = 25
+			}
+		}
+    }
+}
+
+country_event = {
+	id = KIR_events.6
+	title = KIR_events.6.t
+	desc = KIR_events.6.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.6.o1
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.9
+				days = 25
+			}
+			add_timed_idea = {
+				idea = KIR_Landlord_opposes
+				days = 1080
+			}
+		}
+		set_country_flag = KIR_Finish_the_Famine_Peopleplus
+		political_power = -100
+		custom_effect_tooltip = KIR_Finish_the_Famine_Landlordanger
+		
+    }
+	
+	option={
+		name = KIR_events.6.o2
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.9
+				days = 25
+			}
+		}
+    }
+	
+	option={
+		name = KIR_events.6.o3
+		hidden_effect = {
+			country_event = {
+				id = KIR_events.8
+				days = 25
+			}
+		}
+    }
+}
+
+country_event = {
+	id = KIR_events.7
+	title = KIR_events.7.t
+	desc = KIR_events.7.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.7.o
+		set_country_flag = KIR_Finish_the_Famine_Landlord
+    }
+}
+
+country_event = {
+	id = KIR_events.8
+	title = KIR_events.8.t
+	desc = KIR_events.8.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.8.o
+		set_country_flag = KIR_Finish_the_Famine_Balance
+    }
+}
+
+country_event = {
+	id = KIR_events.9
+	title = KIR_events.9.t
+	desc = KIR_events.9.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.9.o
+		set_country_flag = KIR_Finish_the_Famine_People
+    }
+}
+
+country_event = {
+	id = KIR_events.10
+	title = KIR_events.10.t
+	desc = KIR_events.10.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = KIR_events.10.o
+		add_country_leader_trait = sickly_patriarch
+		hidden_effect = {
+			load_focus_tree = KIR_First_Stage
+			set_country_flag = KIR_Rain_Shine_sick
+		}
+		custom_effect_tooltip = KIR_events_10
+    }
+}
+
+
+#去找一个训练有素的医生来
+country_event = {
+	id = KIR_events.11
+	title = KIR_events.11.t
+	desc = KIR_events.11.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.11.a
+		
+	}
+}
+#探病
+country_event = {
+	id = KIR_events.12
+	title = KIR_events.12.t
+	desc = KIR_events.12.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.12.a
+		
+	}
+}
+#指定继承者
+country_event = {
+	id = KIR_events.13
+	title = KIR_events.13.t
+	desc = KIR_events.13.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.13.a
+		
+	}
+}
+#最后的演讲
+country_event = {
+	id = KIR_events.14
+	title = KIR_events.14.t
+	desc = KIR_events.14.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.14.a
+		
+	}
+}
+#重新
+country_event = {
+	id = KIR_events.15
+	title = KIR_events.15.t
+	desc = KIR_events.15.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.15.a
+		
+	}
+}
+#族长痊愈
+country_event = {
+	id = KIR_events.16
+	title = KIR_events.16.t
+	desc = KIR_events.16.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.16.a
+		
+	}
+}
+#雨晴的自我批判
+country_event = {
+	id = KIR_events.17
+	title = KIR_events.17.t
+	desc = KIR_events.17.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KIR_events.17.a
+		
+	}
+}
+
+
+
+

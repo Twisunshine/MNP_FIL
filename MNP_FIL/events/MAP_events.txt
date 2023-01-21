@@ -1,0 +1,528 @@
+add_namespace = MAP_events
+
+country_event = {
+	id = MAP_events.1
+	title = MAP_events.1.t
+	desc = MAP_events.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.1.tt
+    }
+}
+country_event = {
+	id = MAP_events.2
+	title = MAP_events.2.t
+	desc = MAP_events.2.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.2.tt
+    }
+}
+country_event = {
+	id = MAP_events.3
+	title = MAP_events.3.t
+	desc = MAP_events.3.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.3.tt
+		add_popularity = {
+			ideology = dictatorshipism
+			popularity = 0.05
+		}
+		set_country_flag = MAP_General_Klimt_come
+		unlock_decision_category_tooltip = MAP_Suppression_of_rebellion
+		clamp_variable = {
+			var = MAP_Insurgency_index
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Penetration_index
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Prepare_the_index
+			min = 0
+			max = 1
+		}
+		add_to_variable = {MAP_Insurgency_index = 0.84}
+		add_to_variable = {MAP_Penetration_index = 0.1}
+    }
+}
+country_event = {
+	id = MAP_events.4
+	title = MAP_events.4.t
+	desc = MAP_events.4.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.4.tt
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+    }
+}
+country_event = {
+	id = MAP_events.5
+	title = MAP_events.5.t
+	desc = MAP_events.5.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.5.tt
+		add_popularity = {
+			ideology = despotism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = MAP_events.6
+				days = 15
+			}
+			country_event = MAP_news_events.1
+		}
+    }
+}
+country_event = {
+	id = MAP_events.6
+	title = MAP_events.6.t
+	desc = MAP_events.6.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.6.tt
+		hidden_effect = {
+			country_event = {
+				id = MAP_events.7
+				days = 10
+			}
+		}
+    }
+}
+country_event = {
+	id = MAP_events.7
+	title = MAP_events.7.t
+	desc = MAP_events.7.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.7.tt
+		set_country_flag = MAP_focus_18
+		set_country_flag = MAP_The_riots_began
+		set_country_flag = MAP_The_riots_began_decisions
+		custom_effect_tooltip = MAP_unlock_The_riots_began
+		custom_effect_tooltip = MAP_unlock_next_focus
+		mark_focus_tree_layout_dirty = yes
+		hidden_effect = {
+		country_event = MAP_news_events.2
+		add_ideas = MAP_manehattan_riots
+			11 = {
+				set_demilitarized_zone = yes
+			}
+		}
+		clamp_variable = {
+			var = MAP_Crystaller_Building_Riot
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Crystaller_Building_police
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Crystaller_Building_army
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Celestial_Riot
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Celestial_police
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_Celestial_army
+			min = 0
+			max = 1
+		}
+		clamp_variable = {
+			var = MAP_police
+			min = 0
+			max = 1
+		}
+		add_to_variable = {
+			MAP_Celestial_police = 0.19
+		}
+		add_to_variable = {
+			MAP_Crystaller_Building_Riot = 0.56
+		}
+		add_to_variable = {
+			MAP_Crystaller_Building_police = 0.21
+		}
+		add_to_variable = {
+			MAP_Celestial_Riot = 0.51
+		}
+		add_to_variable = {
+			MAP_police = 0.6
+		}
+    }
+}
+country_event = {
+	id = MAP_events.8
+	title = MAP_events.8.t
+	desc = MAP_events.8.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.8.tt
+		custom_effect_tooltip = MAP_we_must_be_suppressed
+		hidden_effect = {
+			add_political_power = 150
+		}
+    }
+}
+country_event = {
+	id = MAP_events.9
+	title = MAP_events.9.t
+	desc = MAP_events.9.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.9.tt
+		custom_effect_tooltip = MAP_police_desc_1
+		add_to_variable = {
+			MAP_Celestial_police = 0.05
+		}
+		add_to_variable = {
+			MAP_Crystaller_Building_police = 0.05
+		}
+    }
+}
+country_event = {
+	id = MAP_events.10
+	title = MAP_events.10.t
+	desc = MAP_events.10.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.10.tt
+		#女王国触发事件
+    }
+}
+country_event = {
+	id = MAP_events.11
+	title = MAP_events.11.t
+	desc = MAP_events.11.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.11.tt
+    }
+}
+country_event = {
+	id = MAP_events.12
+	title = MAP_events.12.t
+	desc = MAP_events.12.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.12.tt
+		set_country_flag = MAP_The_bridge_was_repaired
+		11 = {
+			set_demilitarized_zone = no
+		}
+    }
+}
+country_event = {
+	id = MAP_events.13
+	title = MAP_events.13.t
+	desc = MAP_events.13.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.13.tt
+		subtract_from_variable = {
+			MAP_Crystaller_Building_Riot = 0.05
+		}
+		subtract_from_variable = {
+			MAP_Celestial_Riot = 0.05
+		}
+		subtract_from_variable = {
+			MAP_Crystaller_Building_police = 0.03
+		}
+		subtract_from_variable = {
+			MAP_Celestial_police = 0.04
+		}
+    }
+}
+country_event = {
+	id = MAP_events.14
+	title = MAP_events.14.t
+	desc = MAP_events.14.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.14.tt
+		add_to_variable = {
+			MAP_Crystaller_Building_army = 0.2
+		}
+		add_to_variable = {
+			MAP_Celestial_army = 0.2
+		}
+		custom_effect_tooltip = MAP_army_desc_1
+		hidden_effect = {
+			add_command_power = 25
+		}
+    }
+}
+country_event = {
+	id = MAP_events.15
+	title = MAP_events.15.t
+	desc = MAP_events.15.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.15.tt
+    }
+}
+country_event = {
+	id = MAP_events.16
+	title = MAP_events.16.t
+	desc = MAP_events.16.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.16.tt
+		set_country_flag = MAP_allow_use_weapons
+		hidden_effect = {
+			add_command_power = 75
+			add_political_power = 120
+		}
+    }
+}
+country_event = {
+	id = MAP_events.17
+	title = MAP_events.17.t
+	desc = MAP_events.17.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.17.tt
+		subtract_from_variable = {
+				MAP_Crystaller_Building_Riot = 0.08
+		}
+		subtract_from_variable = {
+			MAP_Celestial_Riot = 0.04
+		}
+		custom_effect_tooltip = MAP_riot_down_desc
+    }
+}
+country_event = {
+	id = MAP_events.18
+	title = MAP_events.18.t
+	desc = MAP_events.18.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.18.tt
+		subtract_from_variable = {
+			MAP_Crystaller_Building_Riot = 0.05
+	    }
+	    subtract_from_variable = {
+		    MAP_Celestial_Riot = 0.07
+	    }
+	    custom_effect_tooltip = MAP_riot_down_desc
+    }
+}
+country_event = {
+	id = MAP_events.19
+	title = MAP_events.19.t
+	desc = MAP_events.19.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.19.tt
+		set_country_flag = MAP_allow_use_tank
+		custom_effect_tooltip = MAP_Eleventh_hour
+    }
+}
+country_event = {
+	id = MAP_events.20
+	title = MAP_events.20.t
+	desc = MAP_events.20.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.20.tt
+		clr_country_flag = MAP_The_riots_began
+		clr_country_flag = MAP_The_riots_began_decisions
+		hidden_effect = {
+			country_event = MAP_news_events.3
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.25
+			}
+			swap_ideas = {
+				remove_idea = MAP_Stay_away_from_worm_nests_1
+				add_idea = MAP_Stay_away_from_worm_nests_2
+			}
+			remove_ideas = MAP_manehattan_riots
+			remove_ideas = MAP_Cultural_metropolis
+			add_ideas = MAP_Devastated_metropolis
+			add_ideas = MAP_Remnants_of_shelling
+		}
+		custom_effect_tooltip = MAP_it_over
+    }
+}
+country_event = {
+	id = MAP_events.112
+	title = MAP_events.112.t
+	desc = MAP_events.112.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.112.tt
+		hidden_effect = {
+			set_country_flag = MAP_Crystaller_Building_Shelled
+			hidden_effect = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = liberal_democracy
+					popularity = 0.13
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = social_democracy
+					popularity = 0.07
+				}
+			}
+		}
+    }
+}
+country_event = {
+	id = MAP_events.113
+	title = MAP_events.113.t
+	desc = MAP_events.113.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.113.tt
+		hidden_effect = {
+			set_country_flag = MAP_Celestial_Shelled
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.13
+			}
+			add_popularity = {
+				ideology = liberal_democracy
+				popularity = 0.14
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.07
+			}
+		}
+    }
+}
+country_event = {
+	id = MAP_events.114
+	title = MAP_events.114.t
+	desc = MAP_events.114.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option={
+		name = MAP_events.114.tt
+		hidden_effect = {
+			country_event = MAP_news_events.4
+			set_cosmetic_tag = MAP_Anarchy
+			clr_country_flag = MAP_The_riots_began
+			clr_country_flag = MAP_The_riots_began_decisions
+			clr_country_flag = MAP_General_Klimt_come
+			11 = {
+				set_demilitarized_zone = no
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+			add_country_leader_role = {
+				character = MAP_Anarchy_state
+				promote_leader = yes
+				country_leader = {
+					ideology = communism_anarchy
+					expire = "1145.1.1.1"
+					traits = {  }
+				}
+			}
+			remove_ideas = idea_MAP_Harold
+		}
+		custom_effect_tooltip = MAP_we_down_to_Anarchy
+    }
+}

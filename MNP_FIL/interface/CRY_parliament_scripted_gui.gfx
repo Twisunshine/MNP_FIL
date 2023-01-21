@@ -1,0 +1,90 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_CRY_authoritarian_democracy_party" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_authoritarian_democracy_party.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_authoritarian_democracy_Pie_chart" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_authoritarian_democracy_Pie_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_communism_party" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_communism_party.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_communism_Pie_chart" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_communism_Pie_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_despotism_party" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_despotism_party.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_despotism_Pie_chart" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_despotism_Pie_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_fascism_party" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_fascism_party.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_fascism_Pie_chart" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_fascism_Pie_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_liberal_democracy_party" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_liberal_democracy_party.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_liberal_democracy_Pie_chart" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_liberal_democracy_Pie_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_Pie_chart_cover" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_Pie_chart_cover.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_Pie_chart_cover_Small_in_middle" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_Pie_chart_cover_Small_in_middle.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_Pie_chart_cover_ANA" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_Pie_chart_cover_ANA.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_Pie_chart_cover_dead" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_Pie_chart_cover_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_Pie_chart_cover_Black_Crystal" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_Pie_chart_cover_Black_Crystal.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_communism_Pie_chart_dead" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_communism_Pie_chart_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_authoritarian_democracy_Pie_chart_dead" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_authoritarian_democracy_Pie_chart_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_liberal_democracy_Pie_chart_dead" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_liberal_democracy_Pie_chart_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_despotism_Pie_chart_dead" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_despotism_Pie_chart_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_fascism_Pie_chart_dead" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_fascism_Pie_chart_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_CRY_parliament_desc" 
+		textureFile = "gfx/interface/CRY_parliament/CRY_parliament_desc.dds"
+	}
+	
+
+	
+}

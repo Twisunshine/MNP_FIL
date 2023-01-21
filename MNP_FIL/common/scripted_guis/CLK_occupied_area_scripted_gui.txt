@@ -1,0 +1,1232 @@
+scripted_gui = {	
+	occupied_area = {
+		window_name = "occupied_area"
+		context_type = player_context
+		
+		visible = {
+			TAG = CLK
+			has_completed_focus = CLK_2_11_1
+			has_country_flag = CLK_occupied_area
+		}
+		
+		properties = {
+			occupied_area_color_1 = { frame = 1 }
+			occupied_area_color_2 = { frame = 2 }
+			occupied_area_color_3 = { frame = 3 }
+			occupied_area_color_4 = { frame = 4 }
+			
+			occupied_map_region_1 = { frame = occupied_region_show_1 }
+			occupied_map_region_2 = { frame = occupied_region_show_2 }
+			occupied_map_region_3 = { frame = occupied_region_show_3 }
+			occupied_map_region_4 = { frame = occupied_region_show_4 }
+			occupied_map_region_5 = { frame = occupied_region_show_5 }
+			occupied_map_region_6 = { frame = occupied_region_show_6 }
+		
+			colonization_progress_1 = { frame = CLK_occupied_area_progrees^0 }
+			colonization_progress_2 = { frame = CLK_occupied_area_progrees^1 }
+			colonization_progress_3 = { frame = CLK_occupied_area_progrees^2 }
+			colonization_progress_4 = { frame = CLK_occupied_area_progrees^3 }
+			colonization_progress_5 = { frame = CLK_occupied_area_progrees^4 }
+			colonization_progress_6 = { frame = CLK_occupied_area_progrees^5 }
+			colonization_progress_7 = { frame = CLK_occupied_area_progrees^6 }
+			colonization_progress_8 = { frame = CLK_occupied_area_progrees^7 }
+			colonization_progress_9 = { frame = CLK_occupied_area_progrees^8 }
+			colonization_progress_10 ={ frame = CLK_occupied_area_progrees^9 }
+			colonization_progress_11 = { frame = CLK_occupied_area_progrees^10 }
+			colonization_progress_12 = { frame = CLK_occupied_area_progrees^11 }
+			colonization_progress_13 = { frame = CLK_occupied_area_progrees^12 }
+			colonization_progress_14 = { frame = CLK_occupied_area_progrees^13 }
+			colonization_progress_15 = { frame = CLK_occupied_area_progrees^14 }
+			colonization_progress_16 = { frame = CLK_occupied_area_progrees^15 }
+			colonization_progress_17 = { frame = CLK_occupied_area_progrees^16 }
+			colonization_progress_18 = { frame = CLK_occupied_area_progrees^17 }
+			colonization_progress_19 = { frame = CLK_occupied_area_progrees^18 }
+			colonization_progress_20 = { frame = CLK_occupied_area_progrees^19 }
+			colonization_progress_21 = { frame = CLK_occupied_area_progrees^20 }
+			colonization_progress_22 = { frame = CLK_occupied_area_progrees^21 }
+			colonization_progress_23 = { frame = CLK_occupied_area_progrees^22 }
+			colonization_progress_24 = { frame = CLK_occupied_area_progrees^23 }
+			colonization_progress_25 = { frame = CLK_occupied_area_progrees^24 }
+			colonization_progress_26 = { frame = CLK_occupied_area_progrees^25 }
+			colonization_progress_27 = { frame = CLK_occupied_area_progrees^26 }
+			colonization_progress_28 = { frame = CLK_occupied_area_progrees^27 }
+			colonization_progress_29 = { frame = CLK_occupied_area_progrees^28 }
+			colonization_progress_30 = { frame = CLK_occupied_area_progrees^29 }
+			colonization_progress_31 = { frame = CLK_occupied_area_progrees^30 }
+			colonization_progress_32 = { frame = CLK_occupied_area_progrees^31 }
+			colonization_progress_33 = { frame = CLK_occupied_area_progrees^32 }
+			colonization_progress_34 = { frame = CLK_occupied_area_progrees^33 }
+			colonization_progress_35 = { frame = CLK_occupied_area_progrees^34 }
+			colonization_progress_36 = { frame = CLK_occupied_area_progrees^35 }
+			colonization_progress_37 = { frame = CLK_occupied_area_progrees^36 }
+			colonization_progress_38 = { frame = CLK_occupied_area_progrees^37 }
+			colonization_progress_39 = { frame = CLK_occupied_area_progrees^38 }
+			colonization_progress_40 = { frame = CLK_occupied_area_progrees^39 }
+			colonization_progress_41 = { frame = CLK_occupied_area_progrees^40 }
+			colonization_progress_42 = { frame = CLK_occupied_area_progrees^41 }
+			colonization_progress_43 = { frame = CLK_occupied_area_progrees^42 }
+			colonization_progress_44 = { frame = CLK_occupied_area_progrees^43 }
+			colonization_progress_45 = { frame = CLK_occupied_area_progrees^44 }
+			colonization_progress_46 = { frame = CLK_occupied_area_progrees^45 }
+			colonization_progress_47 = { frame = CLK_occupied_area_progrees^46 }
+			colonization_progress_48 = { frame = CLK_occupied_area_progrees^47 }
+			colonization_progress_49 = { frame = CLK_occupied_area_progrees^48 }
+			colonization_progress_50 = { frame = CLK_occupied_area_progrees^49 }
+			colonization_progress_51 = { frame = CLK_occupied_area_progrees^50 }
+			colonization_progress_52 = { frame = CLK_occupied_area_progrees^51 }
+			colonization_progress_53 = { frame = CLK_occupied_area_progrees^52 }
+			colonization_progress_54 = { frame = CLK_occupied_area_progrees^53 }
+			colonization_progress_55 = { frame = CLK_occupied_area_progrees^54 }
+			colonization_progress_56 = { frame = CLK_occupied_area_progrees^55 }
+			colonization_progress_57 = { frame = CLK_occupied_area_progrees^56 }
+			colonization_progress_58 = { frame = CLK_occupied_area_progrees^57 }
+			colonization_progress_59 = { frame = CLK_occupied_area_progrees^58 }
+			colonization_progress_60 = { frame = CLK_occupied_area_progrees^59 }
+			colonization_progress_61 = { frame = CLK_occupied_area_progrees^60 }
+			colonization_progress_62 = { frame = CLK_occupied_area_progrees^61 }
+			colonization_progress_63 = { frame = CLK_occupied_area_progrees^62 }
+			colonization_progress_64 = { frame = CLK_occupied_area_progrees^63 }
+			colonization_progress_65 = { frame = CLK_occupied_area_progrees^64 }
+			colonization_progress_66 = { frame = CLK_occupied_area_progrees^65 }
+			colonization_progress_67 = { frame = CLK_occupied_area_progrees^66 }
+			colonization_progress_68 = { frame = CLK_occupied_area_progrees^67 }
+			colonization_progress_69 = { frame = CLK_occupied_area_progrees^68 }
+			colonization_progress_70 = { frame = CLK_occupied_area_progrees^69 }
+			colonization_progress_71 = { frame = CLK_occupied_area_progrees^70 }
+			colonization_progress_72 = { frame = CLK_occupied_area_progrees^71 }
+			colonization_progress_73 = { frame = CLK_occupied_area_progrees^72 }
+			colonization_progress_74 = { frame = CLK_occupied_area_progrees^73 }
+			colonization_progress_75 = { frame = CLK_occupied_area_progrees^74 }
+			colonization_progress_76 = { frame = CLK_occupied_area_progrees^75 }
+			colonization_progress_77 = { frame = CLK_occupied_area_progrees^76 }
+			colonization_progress_78 = { frame = CLK_occupied_area_progrees^77 }
+			colonization_progress_79 = { frame = CLK_occupied_area_progrees^78 }
+			colonization_progress_80 = { frame = CLK_occupied_area_progrees^79 }
+			colonization_progress_81 = { frame = CLK_occupied_area_progrees^80 }
+			colonization_progress_82 = { frame = CLK_occupied_area_progrees^81 }
+			colonization_progress_83 = { frame = CLK_occupied_area_progrees^82 }
+			colonization_progress_84 = { frame = CLK_occupied_area_progrees^83 }
+			colonization_progress_85 = { frame = CLK_occupied_area_progrees^84 }
+			colonization_progress_86 = { frame = CLK_occupied_area_progrees^85 }
+			colonization_progress_87 = { frame = CLK_occupied_area_progrees^86 }
+			colonization_progress_88 = { frame = CLK_occupied_area_progrees^87 }
+			colonization_progress_89 = { frame = CLK_occupied_area_progrees^88 }
+			colonization_progress_90 = { frame = CLK_occupied_area_progrees^89 }
+			colonization_progress_91 = { frame = CLK_occupied_area_progrees^90 }
+			colonization_progress_92 = { frame = CLK_occupied_area_progrees^91 }
+			colonization_progress_93 = { frame = CLK_occupied_area_progrees^92 }
+			colonization_progress_94 = { frame = CLK_occupied_area_progrees^93 }
+			colonization_progress_95 = { frame = CLK_occupied_area_progrees^94 }
+			colonization_progress_96 = { frame = CLK_occupied_area_progrees^95 }
+			colonization_progress_97 = { frame = CLK_occupied_area_progrees^96 }
+			colonization_progress_98 = { frame = CLK_occupied_area_progrees^97 }
+			colonization_progress_99 = { frame = CLK_occupied_area_progrees^98 }
+			colonization_progress_100 = { frame = CLK_occupied_area_progrees^99 }
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			off_button_click = {
+				clr_country_flag = CLK_occupied_area
+			}
+			
+			occupied_map_region_1_click = {
+				set_variable = { occupied_region_show_1 = 4 }
+				set_variable = { occupied_region_show_2 = 0 }
+				set_variable = { occupied_region_show_3 = 0 }
+				set_variable = { occupied_region_show_4 = 0 }
+				set_variable = { occupied_region_show_5 = 0 }
+				set_variable = { occupied_region_show_6 = 0 }
+				CLK_calculate_area_type = yes
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			occupied_map_region_2_click = {
+				set_variable = { occupied_region_show_1 = 0 }
+				set_variable = { occupied_region_show_2 = 4 }
+				set_variable = { occupied_region_show_3 = 0 }
+				set_variable = { occupied_region_show_4 = 0 }
+				set_variable = { occupied_region_show_5 = 0 }
+				set_variable = { occupied_region_show_6 = 0 }
+				CLK_calculate_area_type = yes
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			occupied_map_region_3_click = {
+				set_variable = { occupied_region_show_1 = 0 }
+				set_variable = { occupied_region_show_2 = 0 }
+				set_variable = { occupied_region_show_3 = 4 }
+				set_variable = { occupied_region_show_4 = 0 }
+				set_variable = { occupied_region_show_5 = 0 }
+				set_variable = { occupied_region_show_6 = 0 }
+				CLK_calculate_area_type = yes
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			occupied_map_region_4_click = {
+				set_variable = { occupied_region_show_1 = 0 }
+				set_variable = { occupied_region_show_2 = 0 }
+				set_variable = { occupied_region_show_3 = 0 }
+				set_variable = { occupied_region_show_4 = 4 }
+				set_variable = { occupied_region_show_5 = 0 }
+				set_variable = { occupied_region_show_6 = 0 }
+				CLK_calculate_area_type = yes
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			occupied_map_region_5_click = {
+				set_variable = { occupied_region_show_1 = 0 }
+				set_variable = { occupied_region_show_2 = 0 }
+				set_variable = { occupied_region_show_3 = 0 }
+				set_variable = { occupied_region_show_4 = 0 }
+				set_variable = { occupied_region_show_5 = 4 }
+				set_variable = { occupied_region_show_6 = 0 }
+				CLK_calculate_area_type = yes
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			occupied_map_region_6_click = {
+				set_variable = { occupied_region_show_1 = 0 }
+				set_variable = { occupied_region_show_2 = 0 }
+				set_variable = { occupied_region_show_3 = 0 }
+				set_variable = { occupied_region_show_4 = 0 }
+				set_variable = { occupied_region_show_5 = 0 }
+				set_variable = { occupied_region_show_6 = 4 }
+				CLK_calculate_area_type = yes
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			
+			give_region_option_1_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_1 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_2 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_3 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_3 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_4 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_4 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_5 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_5 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_6 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_6 = 1 }
+				}
+				add_to_variable = { CLK_militarist_faction_loyalty = 10 }
+				clamp_variable = {
+					var = CLK_militarist_faction_loyalty
+					min = 0
+					max = 100
+				}
+			}
+			give_region_option_2_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_1 = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_2 = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_3 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_3 = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_4 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_4 = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_5 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_5 = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_6 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_6 = 2 }
+				}
+				add_to_variable = { CLK_royalist_faction_loyalty = 10 }
+				clamp_variable = {
+					var = CLK_royalist_faction_loyalty
+					min = 0
+					max = 100
+				}
+			}
+			give_region_option_3_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_1 = 3 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_2 = 3 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_3 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_3 = 3 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_4 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_4 = 3 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_5 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_5 = 3 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_6 = 4 }
+					}
+					set_variable = { CLK_occupied_area_faction_6 = 3 }
+				}
+				add_to_variable = { CLK_conservativist_faction_loyalty = 10 }
+				clamp_variable = {
+					var = CLK_conservativist_faction_loyalty
+					min = 0
+					max = 100
+				}
+			}
+			
+			general_resolution_option_1_click = {
+				
+			}
+			
+			regional_resolution_option_1_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_1 = 5 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_1
+						min = 0
+						max = 100
+					}
+    
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_2 = 5 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_2
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_3 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_3 = 5 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_3
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_4 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_4 = 5 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_4
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_5 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_5 = 5 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_5
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_6 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_6 = 5 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_6
+						min = 0
+						max = 100
+					}
+				}	
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			regional_resolution_option_2_click = {
+				
+			}
+			regional_resolution_option_3_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_1 = 10 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_1
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_2 = 10 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_2
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_3 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_3 = 10 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_3
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_4 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_4 = 10 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_4
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_5 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_5 = 10 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_5
+						min = 0
+						max = 100
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_6 = 4 }
+					}
+					add_to_variable = { CLK_occupied_area_colonization_6 = 10 }
+					clamp_variable = {
+						var = CLK_occupied_area_colonization_6
+						min = 0
+						max = 100
+					}
+				}	
+				CLK_calculate_occupied_area_progrees = yes
+			}
+			regional_resolution_option_4_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					add_state_core = 340
+					add_state_core = 381
+					add_state_core = 423
+					add_state_core = 368
+					add_state_core = 393
+					add_state_core = 158
+					add_state_core = 349
+					add_state_core = 352
+					add_state_core = 406
+					add_state_core = 384
+					add_state_core = 401
+					add_state_core = 409
+					add_state_core = 332
+					add_state_core = 458
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_state_core = 230
+					add_state_core = 299
+					add_state_core = 327
+					add_state_core = 329
+					add_state_core = 377
+					add_state_core = 407
+					add_state_core = 419
+					add_state_core = 425
+					add_state_core = 415
+					add_state_core = 373
+					add_state_core = 98
+					add_state_core = 316
+					add_state_core = 226
+					add_state_core = 321
+					add_state_core = 312
+					add_state_core = 270
+					add_state_core = 272
+					add_state_core = 286
+					add_state_core = 310
+					add_state_core = 229
+					add_state_core = 225
+					add_state_core = 46
+					add_state_core = 247
+					add_state_core = 249
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_state_core = 319
+					add_state_core = 411
+					add_state_core = 420
+					add_state_core = 430
+					add_state_core = 390
+					add_state_core = 402
+					add_state_core = 536
+					add_state_core = 369
+					add_state_core = 370
+					add_state_core = 14
+					add_state_core = 395
+					add_state_core = 357
+					add_state_core = 333
+					add_state_core = 302
+					add_state_core = 256
+					add_state_core = 313
+					add_state_core = 350
+					add_state_core = 355
+					add_state_core = 288
+					add_state_core = 281
+					add_state_core = 262
+					add_state_core = 236
+					add_state_core = 257
+					add_state_core = 152
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_state_core = 344
+					add_state_core = 328
+					add_state_core = 282
+					add_state_core = 297
+					add_state_core = 325
+					add_state_core = 358
+					add_state_core = 248
+					add_state_core = 263
+					add_state_core = 252
+					add_state_core = 266
+					add_state_core = 337
+					add_state_core = 271
+					add_state_core = 304
+					add_state_core = 318
+					add_state_core = 258
+					add_state_core = 234
+					add_state_core = 169
+					add_state_core = 189
+					add_state_core = 246
+					add_state_core = 206
+					add_state_core = 216
+					add_state_core = 251
+					add_state_core = 207
+					add_state_core = 193
+					add_state_core = 128
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_state_core = 561
+					add_state_core = 518
+					add_state_core = 542
+					add_state_core = 493
+					add_state_core = 539
+					add_state_core = 489
+					add_state_core = 493
+					add_state_core = 532
+					add_state_core = 527
+					add_state_core = 465
+					add_state_core = 444
+					add_state_core = 482
+					add_state_core = 99
+					add_state_core = 455
+					add_state_core = 504
+					add_state_core = 96
+					add_state_core = 599
+					add_state_core = 442
+					add_state_core = 431
+					add_state_core = 572
+					add_state_core = 473
+					add_state_core = 554
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					add_state_core = 437
+					add_state_core = 623
+					add_state_core = 449
+					add_state_core = 478
+					add_state_core = 427
+					add_state_core = 466
+					add_state_core = 388
+					add_state_core = 364
+					add_state_core = 383
+					add_state_core = 398
+					add_state_core = 737
+					add_state_core = 421
+					add_state_core = 197
+					add_state_core = 441
+					add_state_core = 443
+					add_state_core = 457
+					add_state_core = 470
+					add_state_core = 434
+					add_state_core = 456
+					add_state_core = 453
+				}
+			}
+			regional_resolution_option_5_click = {
+				if = {
+					limit = {
+						check_variable = { occupied_region_show_1 = 4 }
+					}
+					random_controlled_state = {
+						prioritize = { 340 381 423 368 393 158 349 352 406 384 401 409 332 458 }
+						limit = {
+							arms_factory > 1
+						}
+						remove_building = {
+							type = arms_factory
+							level = 2
+						}
+					}
+					random_controlled_state = {
+						prioritize = { 340 381 423 368 393 158 349 352 406 384 401 409 332 458 }
+						limit = {
+							industrial_complex > 1
+						}
+						remove_building = {
+							type = industrial_complex
+							level = 2
+						}
+					}
+					15 = {
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+					set_variable = { CLK_occupied_area_plunder_1 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_2 = 4 }
+					}
+					random_controlled_state = {
+						prioritize = { 230 299 327 329 377 407 419 425 415 373 98 316 226 321 312 270 272 286 310 229 225 46 247 249 }
+						limit = {
+							arms_factory > 1
+						}
+						remove_building = {
+							type = arms_factory
+							level = 2
+						}
+					}
+					random_controlled_state = {
+						prioritize = { 230 299 327 329 377 407 419 425 415 373 98 316 226 321 312 270 272 286 310 229 225 46 247 249 }
+						limit = {
+							industrial_complex > 1
+						}
+						remove_building = {
+							type = industrial_complex
+							level = 2
+						}
+					}
+					417 = {
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+					set_variable = { CLK_occupied_area_plunder_2 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_3 = 4 }
+					}
+					random_controlled_state = {
+						prioritize = { 319 411 420 430 390 402 536 369 370 14 395 357 333 302 256 313 350 355 288 281 262 236 257 152 }
+						limit = {
+							arms_factory > 1
+						}
+						remove_building = {
+							type = arms_factory
+							level = 2
+						}
+					}
+					random_controlled_state = {
+						prioritize = { 319 411 420 430 390 402 536 369 370 14 395 357 333 302 256 313 350 355 288 281 262 236 257 152 }
+						limit = {
+							industrial_complex > 1
+						}
+						remove_building = {
+							type = industrial_complex
+							level = 2
+						}
+					}
+					433 = {
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+					set_variable = { CLK_occupied_area_plunder_3 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_4 = 4 }
+					}
+					random_controlled_state = {
+						prioritize = { 344 328 382 297 325 358 248 263 252 266 337 271 304 318 258 234 169 189 246 206 216 251 207 193 128 }
+						limit = {
+							arms_factory > 1
+						}
+						remove_building = {
+							type = arms_factory
+							level = 2
+						}
+					}
+					random_controlled_state = {
+						prioritize = { 344 328 382 297 325 358 248 263 252 266 337 271 304 318 258 234 169 189 246 206 216 251 207 193 128 }
+						limit = {
+							industrial_complex > 1
+						}
+						remove_building = {
+							type = industrial_complex
+							level = 2
+						}
+					}
+					429 = {
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+					set_variable = { CLK_occupied_area_plunder_4 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_5 = 4 }
+					}
+					random_controlled_state = {
+						prioritize = { 561 518 542 493 539 489 493 532 527 465 444 482 99 455 504 96 599 442 431 572 473 554 }
+						limit = {
+							arms_factory > 1
+						}
+						remove_building = {
+							type = arms_factory
+							level = 2
+						}
+					}
+					random_controlled_state = {
+						prioritize = { 561 518 542 493 539 489 493 532 527 465 444 482 99 455 504 96 599 442 431 572 473 554 }
+						limit = {
+							industrial_complex > 1
+						}
+						remove_building = {
+							type = industrial_complex
+							level = 2
+						}
+					}
+					385 = {
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+					set_variable = { CLK_occupied_area_plunder_5 = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { occupied_region_show_6 = 4 }
+					}
+					random_controlled_state = {
+						prioritize = { 437 623 449 478 427 466 388 364 383 398 737 421 197 441 443 457 470 434 456 453 }
+						limit = {
+							arms_factory > 1
+						}
+						remove_building = {
+							type = arms_factory
+							level = 2
+						}
+					}
+					random_controlled_state = {
+						prioritize = { 437 623 449 478 427 466 388 364 383 398 737 421 197 441 443 457 470 434 456 453 }
+						limit = {
+							industrial_complex > 1
+						}
+						remove_building = {
+							type = industrial_complex
+							level = 2
+						}
+					}
+					382 = {
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+					set_variable = { CLK_occupied_area_plunder_6 = 1 }
+				}
+				add_to_variable = { CLK_plunder_value = 20 }
+			}
+		}
+		
+		triggers = {
+			lower_house_button_click_enabled = {	
+				has_country_flag = EER_NOT
+				has_country_flag = EOM_NOT
+				has_country_flag = CLK_NOT
+            }
+			
+			give_region_option_1_click_enabled = {
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						check_variable = { occupied_region_1 = 1 }
+						check_variable = {CLK_occupied_area_faction_1 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						check_variable = { occupied_region_2 = 1 }
+						check_variable = {CLK_occupied_area_faction_2 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						check_variable = { occupied_region_3 = 1 }
+						check_variable = {CLK_occupied_area_faction_3 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						check_variable = { occupied_region_4 = 1 }
+						check_variable = {CLK_occupied_area_faction_4 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						check_variable = { occupied_region_5 = 1 }
+						check_variable = {CLK_occupied_area_faction_5 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						check_variable = { occupied_region_6 = 1 }
+						check_variable = { CLK_occupied_area_faction_6 = 0 }
+					}
+				}
+            }
+			give_region_option_2_click_enabled = {	
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						check_variable = { occupied_region_1 = 1 }
+						check_variable = { CLK_occupied_area_faction_1 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						check_variable = { occupied_region_2 = 1 }
+						check_variable = { CLK_occupied_area_faction_2 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						check_variable = { occupied_region_3 = 1 }
+						check_variable = { CLK_occupied_area_faction_3 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						check_variable = { occupied_region_4 = 1 }
+						check_variable = { CLK_occupied_area_faction_4 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						check_variable = { occupied_region_5 = 1 }
+						check_variable = { CLK_occupied_area_faction_5 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						check_variable = { occupied_region_6 = 1 }
+						check_variable = { CLK_occupied_area_faction_6 = 0 }
+					}
+				}
+            }
+			give_region_option_3_click_enabled = {	
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						check_variable = { occupied_region_1 = 1 }
+						check_variable = { CLK_occupied_area_faction_1 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						check_variable = { occupied_region_2 = 1 }
+						check_variable = { CLK_occupied_area_faction_2 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						check_variable = { occupied_region_3 = 1 }
+						check_variable = { CLK_occupied_area_faction_3 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						check_variable = { occupied_region_4 = 1 }
+						check_variable = { CLK_occupied_area_faction_4 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						check_variable = { occupied_region_5 = 1 }
+						check_variable = { CLK_occupied_area_faction_5 = 0 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						check_variable = { occupied_region_6 = 1 }
+						check_variable = { CLK_occupied_area_faction_6 = 0 }
+					}
+				}
+            }
+			
+			general_resolution_option_1_click_enabled = {
+				
+			}
+			general_resolution_option_2_click_enabled = {
+				
+			}
+			general_resolution_option_3_click_enabled = {
+				
+			}
+			
+			regional_resolution_option_1_click_enabled = {
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						OR = {
+							check_variable = { occupied_region_1 = 1 }
+							check_variable = { occupied_region_1 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						OR = {
+							check_variable = { occupied_region_2 = 1 }
+							check_variable = { occupied_region_2 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						OR = {
+							check_variable = { occupied_region_3 = 1 }
+							check_variable = { occupied_region_3 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						OR = {
+							check_variable = { occupied_region_4 = 1 }
+							check_variable = { occupied_region_4 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						OR = {
+							check_variable = { occupied_region_5 = 1 }
+							check_variable = { occupied_region_5 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						OR = {
+							check_variable = { occupied_region_6 = 1 }
+							check_variable = { occupied_region_6 = 2 }
+						}
+					}
+				}
+			}
+			regional_resolution_option_2_click_enabled = {
+				has_war = no
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						check_variable = { occupied_region_1 = 1 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						check_variable = { occupied_region_2 = 1 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						check_variable = { occupied_region_3 = 1 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						check_variable = { occupied_region_4 = 1 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						check_variable = { occupied_region_5 = 1 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						check_variable = { occupied_region_6 = 1 }
+					}
+				}
+			}
+			regional_resolution_option_3_click_enabled = {
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						OR = {
+							check_variable = { occupied_region_1 = 1 }
+							check_variable = { occupied_region_1 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						OR = {
+							check_variable = { occupied_region_2 = 1 }
+							check_variable = { occupied_region_2 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						OR = {
+							check_variable = { occupied_region_3 = 1 }
+							check_variable = { occupied_region_3 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						OR = {
+							check_variable = { occupied_region_4 = 1 }
+							check_variable = { occupied_region_4 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						OR = {
+							check_variable = { occupied_region_5 = 1 }
+							check_variable = { occupied_region_5 = 2 }
+						}
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						OR = {
+							check_variable = { occupied_region_6 = 1 }
+							check_variable = { occupied_region_6 = 2 }
+						}
+					}
+				}
+			}
+			regional_resolution_option_4_click_enabled = {
+				OR = {
+					AND = {
+						check_variable = { occupied_region_show_1 = 4 }
+						check_variable = { occupied_region_1 = 1 }
+						check_variable = { CLK_occupied_area_colonization_1 = 100 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_2 = 4 }
+						check_variable = { occupied_region_2 = 1 }
+						check_variable = { CLK_occupied_area_colonization_2 = 100 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_3 = 4 }
+						check_variable = { occupied_region_3 = 1 }
+						check_variable = { CLK_occupied_area_colonization_3 = 100 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_4 = 4 }
+						check_variable = { occupied_region_4 = 1 }
+						check_variable = { CLK_occupied_area_colonization_4 = 100 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_5 = 4 }
+						check_variable = { occupied_region_5 = 1 }
+						check_variable = { CLK_occupied_area_colonization_5 = 100 }
+					}
+					AND = {
+						check_variable = { occupied_region_show_6 = 4 }
+						check_variable = { occupied_region_6 = 1 }
+						check_variable = { CLK_occupied_area_colonization_6 = 100 }
+					}
+				}
+			}
+			regional_resolution_option_5_click_enabled = {
+				AND = {
+					has_completed_focus = CLK_3_5_7
+					OR = {
+						AND = {
+							check_variable = { occupied_region_show_1 = 4 }
+							check_variable = { occupied_region_1 = 1 }
+							NOT = {
+								check_variable = { CLK_occupied_area_plunder_1 = 1 }
+							}
+						}
+						AND = {
+							check_variable = { occupied_region_show_2 = 4 }
+							check_variable = { occupied_region_2 = 1 }
+							NOT = {
+								check_variable = { CLK_occupied_area_plunder_2 = 1 }
+							}
+						}
+						AND = {
+							check_variable = { occupied_region_show_3 = 4 }
+							check_variable = { occupied_region_3 = 1 }
+							NOT = {
+								check_variable = { CLK_occupied_area_plunder_3 = 1 }
+							}
+						}
+						AND = {
+							check_variable = { occupied_region_show_4 = 4 }
+							check_variable = { occupied_region_4 = 1 }
+							NOT = {
+								check_variable = { CLK_occupied_area_plunder_4 = 1 }
+							}
+						}
+						AND = {
+							check_variable = { occupied_region_show_5 = 4 }
+							check_variable = { occupied_region_5 = 1 }
+							NOT = {
+								check_variable = { CLK_occupied_area_plunder_5 = 1 }
+							}
+						}
+						AND = {
+							check_variable = { occupied_region_show_6 = 4 }
+							check_variable = { occupied_region_6 = 1 }
+							NOT = {
+								check_variable = { CLK_occupied_area_plunder_6 = 1 }
+							}
+						}
+					}
+				}
+			}
+        }
+	}
+	
+	occupied_area_open = {
+		window_name = "ocupied_area_window_open"
+		context_type = player_context
+		
+		visible = {
+			TAG = CLK
+			has_completed_focus = CLK_2_11_1
+		}
+		
+		ai_enabled = {
+			always = no
+		}
+		
+		effects = {
+			ocupied_area_open_button_click = {
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = CLK_occupied_area
+						}
+					}
+					clr_country_flag = CLK_occupied_area
+				}
+				else = {
+					set_country_flag = CLK_occupied_area
+				}
+			}
+		}
+	}
+}

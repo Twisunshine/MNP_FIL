@@ -1,8 +1,199 @@
 spriteTypes = {	
 	
 	SpriteType = { 
-		name = "GFX_EER_the_great_war_of_liberation"
-		texturefile = "gfx/interface/goals/GFX_EER_the_great_war_of_liberation.dds"
+		name = "GFX_EER_refugee_influx"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_refugee_influx.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_EER_assessing_the_situation"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_assessing_the_situation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_their_chaos"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_their_chaos.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_condemnation_nightmare_moon"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_condemnation_nightmare_moon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_spreading_friendly_remarks"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_spreading_friendly_remarks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_against_authoritarian_ideas"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_against_authoritarian_ideas.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_proactive_refugee_reception"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_proactive_refugee_reception.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_rescue_their_difficulties"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_rescue_their_difficulties.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_the_promise_of_peace"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_the_promise_of_peace.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_our_processing"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_our_processing.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_compulsory_collect_all_food"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_compulsory_collect_all_food.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_temporary_rationing"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_temporary_rationing.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_building_refugee_camps"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_building_refugee_camps.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_expansion_of_equality_house"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_expansion_of_equality_house.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_show_our_friendliness"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_show_our_friendliness.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_the_promise_of_home"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_the_promise_of_home.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_take_a_breath"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_take_a_breath.dds"
+	}
+	
+	
+	
+	
+	
+	
+	SpriteType = { 
+		name = "GFX_EER_building_an_equal_state"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_building_an_equal_state.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_establishing_emancipation_programs"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_establishing_emancipation_programs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_chairmans_speech"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_chairmans_speech.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_equality_arsenal"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_equality_arsenal.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_enhanced_weapons_production"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_enhanced_weapons_production.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_expanded_staff"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_expanded_staff.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_secure_resupply_lines"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_secure_resupply_lines.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_everything_is_ready"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_everything_is_ready.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_all_thats_missing_is_the_east_wind"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_all_thats_missing_is_the_east_wind.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_open_the_door"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_open_the_door.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_the_great_war_of_liberation"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_the_great_war_of_liberation.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = { 
+		name = "GFX_EER_4_1"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_1.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_4_2"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_2.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_4_3"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_3.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_4_4"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_4.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_4_5_1"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_5_1.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_4_5_2"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_5_2.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_EER_4_6"
+		texturefile = "gfx/interface/goals/EER/GFX_EER_4_6.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

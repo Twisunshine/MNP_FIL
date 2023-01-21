@@ -1,0 +1,99 @@
+defined_text = { 
+	name = CLK_queenist_is_activ
+	text = {
+		trigger = {
+			check_variable = { CLK_queenist_activ = 0 }
+		}
+		localization_key = CLK_queenist
+	}
+	text = {
+		trigger = {
+			check_variable = { CLK_queenist_activ = 1 }
+		}
+		localization_key = CLK_queenist_activ
+	}
+}
+
+defined_text = { 
+	name = CLK_militarist_is_activ
+	text = {
+		trigger = {
+			check_variable = { CLK_militarist_activ = 0 }
+		}
+		localization_key = CLK_militarist
+	}
+	text = {
+		trigger = {
+			check_variable = { CLK_militarist_activ = 1 }
+		}
+		localization_key = CLK_militarist_activ
+	}
+}
+
+defined_text = { 
+	name = CLK_royalist_is_activ
+	text = {
+		trigger = {
+			check_variable = { CLK_royalist_activ = 0 }
+		}
+		localization_key = CLK_royalist
+	}
+	text = {
+		trigger = {
+			check_variable = { CLK_royalist_activ = 1 }
+		}
+		localization_key = CLK_royalist_activ
+	}
+}
+
+defined_text = { 
+	name = CLK_conservativist_is_activ
+	text = {
+		trigger = {
+			check_variable = { CLK_conservativist_activ = 0 }
+		}
+		localization_key = CLK_conservativist
+	}
+	text = {
+		trigger = {
+			check_variable = { CLK_conservativist_activ = 1 }
+		}
+		localization_key = CLK_conservativist_activ
+	}
+}
+
+defined_text = { 
+	name = CLK_officer_is_activ
+	text = {
+		trigger = {
+			check_variable = { CLK_officer_activ = 0 }
+		}
+		localization_key = CLK_officer
+	}
+	text = {
+		trigger = {
+			check_variable = { CLK_officer_activ = 1 }
+		}
+		localization_key = CLK_officer_activ
+	}
+}
+
+defined_text = { 
+	name = CLK_practitioner_is_activ
+	text = {
+		trigger = {
+			check_variable = { CLK_practitioner_activ = 0 }
+		}
+		localization_key = CLK_practitioner
+	}
+	text = {
+		trigger = {
+			check_variable = { CLK_practitioner_activ = 1 }
+		}
+		localization_key = CLK_practitioner_activ
+	}
+}
+	
+	
+	
+	

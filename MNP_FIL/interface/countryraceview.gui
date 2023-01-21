@@ -1293,7 +1293,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
-				text = "race_effect_value_16"
+				text = "race_effect_value_9"
 			#	pdx_tooltip = "race_tooltip_1"
 				maxWidth = 225
 				maxHeight = 20
@@ -1404,7 +1404,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
-				text = "race_effect_value_6"
+				text = "race_effect_value_16"
 				maxWidth = 225
 				maxHeight = 20
 				format = left
@@ -1415,12 +1415,12 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
-				text = "race_effect_value_9"
+				text = "race_effect_main_value_2"
 				maxWidth = 225
 				maxHeight = 20
 				format = left
 			}
-
+			
 			instantTextboxType = {
 				name = "race_effect_value_2_1"
 				position = { x = 0 y = 10 }
@@ -1587,13 +1587,25 @@ guiTypes = {
 				maxHeight = 20
 				format = left
 			}
+			
 			instantTextboxType = {
 				name = "race_effect_value_4_8"
 				position = { x = 230 y = 100 }
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
-				text = "race_effect_main_value_2"
+				text = "race_effect_value_6_1"
+				maxWidth = 225
+				maxHeight = 20
+				format = left
+			}
+			instantTextboxType = {
+				name = "race_effect_value_4_9"
+				position = { x = 0 y = 130 }
+				textureFile = ""
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "race_effect_value_6_2"
 				maxWidth = 225
 				maxHeight = 20
 				format = left
@@ -2242,201 +2254,43 @@ guiTypes = {
 
 				buttonType = {
 					name = "race_option_1"
-					position = { x = -178 y = 8 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
+					position = { x = 40 y = 25 }
+					clicksound = click_default
+					quadTextureSprite ="GFX_race_ideas_1_icon"
 					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
+					pdx_tooltip_delayed = "race_option_1_tooltip_delayed"
 				}
 				buttonType = {
 					name = "race_option_2"
-					position = { x = -178 y = 38 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
+					position = { x = 40 y = 105 }
+					clicksound = click_default
+					quadTextureSprite ="race_ideas_2_icon"
+					pdx_tooltip = "race_option_2_tooltip"
+					pdx_tooltip_delayed = "race_option_2_tooltip_delayed"
 				}
 				buttonType = {
 					name = "race_option_3"
-					position = { x = -178 y = 68 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
+					position = { x = 40 y = 175 }
+					clicksound = click_default
+					quadTextureSprite ="race_ideas_3_icon"
+					pdx_tooltip = "race_option_3_tooltip"
+					pdx_tooltip_delayed = "race_option_3_tooltip_delayed"
 				}
 				buttonType = {
 					name = "race_option_4"
-					position = { x = -178 y = 98 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
+					position = { x = 40 y = 245 }
+					clicksound = click_default
+					quadTextureSprite ="race_ideas_4_icon"
+					pdx_tooltip = "race_option_4_tooltip"
+					pdx_tooltip_delayed = "race_option_4_tooltip_delayed"
 				}
 				buttonType = {
 					name = "race_option_5"
-					position = { x = -178 y = 128 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_6"
-					position = { x = -178 y = 158 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_7"
-					position = { x = -178 y = 188 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_8"
-					position = { x = -178 y = 218 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_9"
-					position = { x = -178 y = 248 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_10"
-					position = { x = -178 y = 278 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_11"
-					position = { x = -178 y = 308 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_12"
-					position = { x = -178 y = 338 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_13"
-					position = { x = -178 y = 368 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_14"
-					position = { x = -178 y = 398 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_15"
-					position = { x = -178 y = 428 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_16"
-					position = { x = -178 y = 458 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_17"
-					position = { x = -178 y = 488 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
-				}
-				buttonType = {
-					name = "race_option_18"
-					position = { x = -178 y = 518 }
-					quadTextureSprite ="GFX_race_option_botton"
-					buttonFont = "hoi_18mbs"
-					text = "race_option_1"
-					format = left
-					pdx_tooltip = "race_option_1_tooltip"
-					Orientation = "UPPER_RIGHT"
-					clicksound = click_close
+					position = { x = 40 y = 315 }
+					clicksound = click_default
+					quadTextureSprite ="race_ideas_5_icon"
+					pdx_tooltip = "race_option_5_tooltip"
+					pdx_tooltip_delayed = "race_option_5_tooltip_delayed"
 				}
 			}
 		}
@@ -2524,24 +2378,335 @@ guiTypes = {
 
 		#种族系统
 		buttonType = {
-			name = "race_button"
+			name = "race_intel_agency_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite ="GFX_staff_office_button"
+			quadTextureSprite ="GFX_topbar_intelligence"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "shift+w"
+			pdx_tooltip = "TOPBAR_INTELLIGENCE_DONT_HAVE_DESC"
+			pdx_tooltip_delayed = "TOPBAR_INTELLIGENCE_DONT_HAVE_DESC_DELAYED"
+		}
+		buttonType = {
+			name = "race_button"
+			position = { x = 56 y = 0 }
+			quadTextureSprite ="GFX_race_button"
 			Orientation = "center"
 			shortcut = "shift+r"
 			clicksound = click_close
 			oversound = ui_menu_over
 			pdx_tooltip = "TOPBAR_RACE_DESC"
 		}
+	}
+	
+	containerWindowType = {
+		name = "race_menu_option_extra"
+		position = { x = -356 y = 80 }	
+		show_position = { x = 540 y = 80 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=530 }
+		show_sound = open_sub_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		instantTextboxType = {
+			name = "title"
+			position = { x = 20 y = 24 }
+			font = "hoi_20b"
+			text = [race_menu_option_extra_title]
+			maxWidth = 450
+			maxHeight = 20
+			format = center
+		}
+		
+		#instantTextboxType = {
+		#	name = "switch"
+		#	position = { x = 20 y = 36 }
+		#	font = "hoi_18b"
+		#	text = race_menu_option_extra_switch
+		#	maxWidth = 450
+		#	maxHeight = 20
+		#	format = center
+		#}
+		
+		containerWindowType = {
+			name = "race_menu_option_extra_bg"
+			size = { width=500 height=470 }
+			position = { x = 0 y = 55 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window2_1b_border"
+			}
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+				position = { x = -1 y = 0 }					
+			}
+		}
+		
 		buttonType = {
-			name = "race_button_dlc"
-			position = { x = 56 y = 0 }
-			quadTextureSprite ="GFX_staff_office_button"
-			Orientation = "center"
-			shortcut = "shift+r"
-			clicksound = click_close
+			name = "race_ideas_1"
+			position = { x = 14 y = 67 }
+			quadTextureSprite ="GFX_idea_entry_bg_3"
+			clicksound = click_default
 			oversound = ui_menu_over
-			pdx_tooltip = "TOPBAR_RACE_DESC"
+			pdx_tooltip = "race_ideas_1_tooltip"
+		}
+		
+		iconType = {
+			name = "race_ideas_icon_1"
+			position = { x = 52 y = 104 }
+			spriteType = "race_ideas_1_icon"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_name_1"
+			position = { x = 90 y = 92 }
+			font = "hoi_18mbs"
+			fixedsize = yes			
+			text = "[race_ideas_name_1]"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes			
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_prerequisite_1"
+			position = { x = 230 y = 97 }
+			font = "hoi_16mbs"
+			text = "race_option_need_pp_value"
+			maxWidth = 142
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "race_ideas_2"
+			position = { x = 14 y = 141 }
+			quadTextureSprite ="GFX_idea_entry_bg_3"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "race_ideas_2_tooltip"
+		}
+		
+		iconType = {
+			name = "race_ideas_icon_2"
+			position = { x = 52 y = 178 }
+			spriteType = "race_ideas_2_icon"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_name_2"
+			position = { x = 90 y = 166 }
+			font = "hoi_18mbs"
+			fixedsize = yes			
+			text = "[race_ideas_name_2]"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes			
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_prerequisite_2"
+			position = { x = 230 y = 171 }
+			font = "hoi_16mbs"
+			text = "race_option_need_pp_value"
+			maxWidth = 142
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "race_ideas_3"
+			position = { x = 14 y = 215 }
+			quadTextureSprite ="GFX_idea_entry_bg_3"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "race_ideas_3_tooltip"
+		}
+		
+		iconType = {
+			name = "race_ideas_icon_3"
+			position = { x = 52 y = 252 }
+			spriteType = "race_ideas_3_icon"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_name_3"
+			position = { x = 90 y = 240 }
+			font = "hoi_18mbs"
+			fixedsize = yes			
+			text = "[race_ideas_name_3]"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes			
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_prerequisite_3"
+			position = { x = 230 y = 245 }
+			font = "hoi_16mbs"
+			text = "race_option_need_pp_value"
+			maxWidth = 142
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "race_ideas_4"
+			position = { x = 14 y = 289 }
+			quadTextureSprite ="GFX_idea_entry_bg_3"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "race_ideas_4_tooltip"
+		}
+		
+		iconType = {
+			name = "race_ideas_icon_4"
+			position = { x = 52 y = 326 }
+			spriteType = "race_ideas_4_icon"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_name_4"
+			position = { x = 90 y = 316 }
+			font = "hoi_18mbs"
+			fixedsize = yes			
+			text = "[race_ideas_name_4]"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes			
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_prerequisite_4"
+			position = { x = 230 y = 319 }
+			font = "hoi_16mbs"
+			text = "race_option_need_pp_value"
+			maxWidth = 142
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "race_ideas_5"
+			position = { x = 14 y = 363 }
+			quadTextureSprite ="GFX_idea_entry_bg_3"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "race_ideas_5_tooltip"
+		}
+		
+		iconType = {
+			name = "race_ideas_icon_5"
+			position = { x = 52 y = 400 }
+			spriteType = "race_ideas_5_icon"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_name_5"
+			position = { x = 90 y = 390 }
+			font = "hoi_18mbs"
+			fixedsize = yes			
+			text = "[race_ideas_name_5]"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes			
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_prerequisite_5"
+			position = { x = 230 y = 393 }
+			font = "hoi_16mbs"
+			text = "race_option_need_pp_value"
+			maxWidth = 142
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "race_ideas_6"
+			position = { x = 14 y = 437 }
+			quadTextureSprite ="GFX_idea_entry_bg_3"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "race_ideas_6_tooltip"
+		}
+		
+		iconType = {
+			name = "race_ideas_icon_6"
+			position = { x = 52 y = 474 }
+			spriteType = "race_ideas_6_icon"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_name_6"
+			position = { x = 90 y = 464 }
+			font = "hoi_18mbs"
+			fixedsize = yes			
+			text = "[race_ideas_name_6]"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes			
+		}
+		
+		instantTextboxType = {
+			name = "race_ideas_prerequisite_6"
+			position = { x = 230 y = 467 }
+			font = "hoi_16mbs"
+			text = "race_option_need_pp_value"
+			maxWidth = 142
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "close"
+			position = { x = -50 y = 5 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
 		}
 	}
 }

@@ -7,327 +7,227 @@ country_event = {
 	desc = Second_civil_war.1.d
 	
 	is_triggered_only = yes
-
-	immediate = { 
-		hidden_effect = {		
-			SOE = {
-				set_cosmetic_tag = SOE_Second_civil_war
-				set_capital = { state = 350 }
-				transfer_state = 350
-				transfer_state = 355
-				transfer_state = 370
-				transfer_state = 14
-				transfer_state = 536
-				transfer_state = 357
-				transfer_state = 402
-				transfer_state = 420
-				transfer_state = 411
-				transfer_state = 319
-				add_state_core = 350
-				add_state_core = 355
-				add_state_core = 370
-				add_state_core = 14
-				add_state_core = 536
-				add_state_core = 357
-				add_state_core = 402
-				add_state_core = 420
-				add_state_core = 411
-				add_state_core = 319
-				transfer_state = 328
-				add_state_core = 328
-				transfer_state = 297
-				add_state_core = 297
-				transfer_state = 282
-				add_state_core = 282
-				transfer_state = 288
-				add_state_core = 288
-				transfer_state = 281
-				add_state_core = 281
-				transfer_state = 313
-				add_state_core = 313
-				transfer_state = 390
-				add_state_core = 390
-				transfer_state = 369
-				add_state_core = 369
-				transfer_state = 377
-				add_state_core = 377
-				transfer_state = 333
-				add_state_core = 333
-
-			}
-			MAG = {
-				transfer_state = 11
-				add_state_core = 11
-				transfer_state = 358
-				add_state_core = 358
-				transfer_state = 363
-				add_state_core = 363
-				transfer_state = 325
-				add_state_core = 325
-				transfer_state = 364
-				add_state_core = 364
-				transfer_state = 383
-				add_state_core = 383
-				transfer_state = 398
-				add_state_core = 398
-				transfer_state = 395
-				add_state_core = 395
-				transfer_state = 344
-				add_state_core = 344
-				transfer_state = 388
-				add_state_core = 388
-				transfer_state = 737
-				add_state_core = 737
-			}
-			EQR = {
-				transfer_state = 304
-				add_state_core = 304
-				transfer_state = 337
-				add_state_core = 337
-				transfer_state = 318
-				add_state_core = 318
-				transfer_state = 266
-				add_state_core = 266
-				transfer_state = 271
-				add_state_core = 271
-				transfer_state = 258
-				add_state_core = 258
-				transfer_state = 128
-				add_state_core = 128
-				transfer_state = 251
-				add_state_core = 251
-				transfer_state = 207
-				add_state_core = 207
-				transfer_state = 193
-				add_state_core = 193
-				transfer_state = 216
-				add_state_core = 216
-				transfer_state = 246
-				add_state_core = 246
-				transfer_state = 206
-				add_state_core = 206
-				transfer_state = 234
-				add_state_core = 234
-				transfer_state = 189
-				add_state_core = 189
-				transfer_state = 169
-				add_state_core = 169
-			}
-			BRG = {
-				transfer_state = 443
-				add_state_core = 443
-				transfer_state = 197
-				add_state_core = 197
-				transfer_state = 441
-				add_state_core = 441
-				transfer_state = 421
-				add_state_core = 421
-				transfer_state = 434
-				add_state_core = 434
-				transfer_state = 457
-				add_state_core = 457
-				transfer_state = 466
-				add_state_core = 466
-				transfer_state = 427
-				add_state_core = 427
-				transfer_state = 470
-				add_state_core = 470
-				transfer_state = 453
-				add_state_core = 453
-				transfer_state = 456
-				add_state_core = 456
-				transfer_state = 449
-				add_state_core = 449
-				transfer_state = 478
-				add_state_core = 478
-			}
-			ASR = {
-				transfer_state = 623
-				add_state_core = 623
-				transfer_state = 437
-				add_state_core = 437
-				transfer_state = 431
-				add_state_core = 431
-				transfer_state = 554
-				add_state_core = 554
-				transfer_state = 572
-				add_state_core = 572
-				transfer_state = 473
-				add_state_core = 473
-				transfer_state = 442
-				add_state_core = 442
-				transfer_state = 96
-				add_state_core = 96
-				transfer_state = 482
-				add_state_core = 482
-				transfer_state = 504
-				add_state_core = 504
-				transfer_state = 599
-				add_state_core = 599
-				transfer_state = 430
-				add_state_core = 430
-			}
-			CRP = {
-				transfer_state = 147
-				add_state_core = 147
-				transfer_state = 203
-				add_state_core = 203
-				transfer_state = 222
-				add_state_core = 222
-				transfer_state = 211
-				add_state_core = 211
-				transfer_state = 214
-				add_state_core = 214
-				transfer_state = 252
-				add_state_core = 252
-				transfer_state = 248
-				add_state_core = 248
-				transfer_state = 236
-				add_state_core = 236
-				transfer_state = 257
-				add_state_core = 257
-				transfer_state = 152
-				add_state_core = 152
-				transfer_state = 262
-				add_state_core = 262
-				transfer_state = 6
-				add_state_core = 6
-				transfer_state = 190
-				add_state_core = 190
-				transfer_state = 187
-				add_state_core = 187
-				transfer_state = 130
-				add_state_core = 130
-				transfer_state = 263
-				add_state_core = 263
-				transfer_state = 217
-				add_state_core = 217
-				transfer_state = 165
-				add_state_core = 165
-				transfer_state = 200
-				add_state_core = 200
-				transfer_state = 181
-				add_state_core = 181
-				transfer_state = 129
-				add_state_core = 129
-				transfer_state = 127
-				add_state_core = 127
-				transfer_state = 124
-				add_state_core = 124
-				transfer_state = 230
-				add_state_core = 230
-				transfer_state = 256
-				add_state_core = 256
-				transfer_state = 247
-				add_state_core = 247
-				transfer_state = 46
-				add_state_core = 46
-				transfer_state = 302
-				add_state_core = 302
-				transfer_state = 249
-				add_state_core = 249
-			}
-			LAC = {
-				transfer_state = 465
-				add_state_core = 465
-				transfer_state = 527
-				add_state_core = 527
-				transfer_state = 99
-				add_state_core = 99
-				transfer_state = 444
-				add_state_core = 444
-				transfer_state = 455
-				add_state_core = 455
-				transfer_state = 542
-				add_state_core = 542
-				transfer_state = 532
-				add_state_core = 532
-				transfer_state = 561
-				add_state_core = 561
-				transfer_state = 539
-				add_state_core = 539
-				transfer_state = 518
-				add_state_core = 518
-				transfer_state = 493
-				add_state_core = 493
-				transfer_state = 489
-				add_state_core = 489
-				transfer_state = 425
-				add_state_core = 425
-				transfer_state = 419
-				add_state_core = 419
-				transfer_state = 373
-				add_state_core = 373
-				transfer_state = 415
-				add_state_core = 415
-				transfer_state = 407
-				add_state_core = 407
-			}
-			SSG = {
-				transfer_state = 423
-				add_state_core = 423
-				transfer_state = 381
-				add_state_core = 381
-				transfer_state = 340
-				add_state_core = 340
-				transfer_state = 368
-				add_state_core = 368
-				transfer_state = 393
-				add_state_core = 393
-				transfer_state = 158
-				add_state_core = 158
-				transfer_state = 406
-				add_state_core = 406
-				transfer_state = 352
-				add_state_core = 352
-				transfer_state = 349
-				add_state_core = 349
-				transfer_state = 384
-				add_state_core = 384
-				transfer_state = 401
-				add_state_core = 401
-				transfer_state = 406
-				add_state_core = 406
-				transfer_state = 409
-				add_state_core = 409
-				transfer_state = 458
-				add_state_core = 458
-				transfer_state = 332
-				add_state_core = 332
-				transfer_state = 270
-				add_state_core = 270
-				transfer_state = 226
-				add_state_core = 226
-				transfer_state = 316
-				add_state_core = 316
-				transfer_state = 98
-				add_state_core = 98
-				transfer_state = 229
-				add_state_core = 229
-				transfer_state = 272
-				add_state_core = 272
-				transfer_state = 286
-				add_state_core = 286
-				transfer_state = 321
-				add_state_core = 321
-				transfer_state = 329
-				add_state_core = 329
-				transfer_state = 225
-				add_state_core = 225
-				transfer_state = 310
-				add_state_core = 310
-				transfer_state = 312
-				add_state_core = 312
-				transfer_state = 327
-				add_state_core = 327
-				transfer_state = 299
-				add_state_core = 299
-			}
-	}
+	immediate = {
+		set_nationality = {
+			target_country = NMN
+			character = EQU_Fleetfoot
+		}
+		
 	}
 
+	
 	option={
 		name = Second_civil_war.1.tt
+		EQU = {
+			EQU_Fleetfoot = {
+				set_nationality = NWN
+			}
+	}
+		if = {
+			limit = {
+				EQU_Fleetfoot = {
+					is_corps_commander = yes
+				}
+			}
+			EQU_Fleetfoot = {
+				promote_leader = yes
+			}
+		}
+		NWN = {
+			set_cosmetic_tag = NWN_changeling_civil_war
+			declare_war_on = { target = CLP type = civil_war }
+			declare_war_on = { target = MAP type = civil_war }
+			declare_war_on = { target = BAP type = civil_war }
+			add_country_leader_role = {
+				character = EQU_Fleetfoot
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism_military_junta
+					expire = "1145.1.1.1"
+					traits = {  }
+				}
+			}
+		}
+		
+    }
+	
+}
+country_event = {
+	id = Second_civil_war.2
+	title = Second_civil_war.2.t
+	desc = Second_civil_war.2.d
+	
+	is_triggered_only = yes
+	immediate = {
+		set_nationality = {
+			target_country = CLP
+			character = EOM_Lilith_Nightstar
+		}
+		
+	}
+
+	
+	option={
+		name = Second_civil_war.2.tt
+		EOM = {
+			EOM_Lilith_Nightstar = {
+				set_nationality = CLP
+			}
+	}
+		if = {
+			limit = {
+				EOM_Lilith_Nightstar = {
+					is_corps_commander = yes
+				}
+			}
+			EOM_Lilith_Nightstar = {
+				promote_leader = yes
+			}
+		}
+		CLP = {
+			set_cosmetic_tag = CLP_changeling_civil_war
+				declare_war_on = { target = NWN type = civil_war }
+				declare_war_on = { target = MAP type = civil_war }
+				declare_war_on = { target = BAP type = civil_war }
+			add_country_leader_role = {
+				character = EOM_Lilith_Nightstar
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism_despotism
+					expire = "1145.1.1.1"
+					traits = {  }
+				}
+			}
+			add_popularity = { ideology = despotism popularity = 0.5 }
+		}
+		
+    }
+	
+}
+country_event = {
+	id = Second_civil_war.3
+	title = Second_civil_war.3.t
+	desc = Second_civil_war.3.d
+	
+	is_triggered_only = yes
+	immediate = {
+		set_nationality = {
+			target_country = BAP
+			character = EQU_Princess_Cadance
+		}
+		
+	}
+
+	
+	option={
+		name = Second_civil_war.3.tt
+		EQU = {
+			EQU_Princess_Cadance = {
+				set_nationality = BAP
+			}
+	}
+		if = {
+			limit = {
+				EQU_Princess_Cadance = {
+					is_corps_commander = yes
+				}
+			}
+			EQU_Princess_Cadance = {
+				promote_leader = yes
+			}
+		}
+		BAP = {
+			set_cosmetic_tag = BAP_changeling_civil_war
+				declare_war_on = { target = CLP type = civil_war }
+				declare_war_on = { target = MAP type = civil_war }
+				declare_war_on = { target = NWN type = civil_war }
+			add_country_leader_role = {
+				character = EQU_Princess_Cadance
+				promote_leader = yes
+				country_leader = {
+					ideology = liberal_democracy_harmonicism
+					expire = "1145.1.1.1"
+					traits = {  }
+				}
+			}
+			add_popularity = { ideology = liberal_democracy popularity = 0.4 }
+		}
+		
+    }
+	
+}
+country_event = {
+	id = Second_civil_war.4
+	title = Second_civil_war.4.t
+	desc = Second_civil_war.4.d
+	
+	is_triggered_only = yes
+
+	
+	option={
+		name = Second_civil_war.4.tt
+		
+		SMA = {
+			add_country_leader_role = {
+				character = SMA_Thorax
+				promote_leader = yes
+				country_leader = {
+					ideology = authoritarian_democracy_controlled_democracy
+					expire = "1145.1.1.1"
+					traits = {  }
+				}
+			}
+			add_field_marshal_role = {
+				character = SMA_Thorax
+				skill = 1
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 4
+			  }
+			set_cosmetic_tag = SMA_changeling_civil_war
+				declare_war_on = { target = CLK type = civil_war }
+			
+			add_popularity = { ideology = authoritarian_democracy popularity = 0.45 }
+		}
+		
+    }	
+}
+country_event = {
+	id = Second_civil_war.5
+	title = Second_civil_war.5.t
+	desc = Second_civil_war.5.d
+	
+	is_triggered_only = yes
+
+	
+	option={
+		name = Second_civil_war.5.tt
+		MAP = {
+			set_cosmetic_tag = MAP_changeling_civil_war
+				declare_war_on = { target = CLP type = civil_war }
+				declare_war_on = { target = NWN type = civil_war }
+				declare_war_on = { target = BAP type = civil_war }
+				add_field_marshal_role = {
+					character = MAP_AEQS_Eltius
+					skill = 5
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 3
+					logistics_skill = 5
+				  }
+				  add_country_leader_role = {
+					character = MAP_AEQS_Eltius
+					promote_leader = yes
+					country_leader = {
+						ideology = communism_authoritarian_communism
+						expire = "1145.1.1.1"
+						traits = {  }
+					}
+				}
+		}
+		
+		
     }
 	
 }

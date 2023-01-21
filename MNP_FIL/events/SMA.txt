@@ -1,0 +1,508 @@
+add_namespace = SMA_events
+
+#雄心勃勃
+country_event = {
+	id = SMA_events.1
+	title = SMA_events.1_t
+	desc = SMA_events.1_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.1_tt
+    }
+}
+
+#复杂的关系网
+country_event = {
+	id = SMA_events.2
+	title = SMA_events.2_t
+	desc = SMA_events.2_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.2_tt
+    }
+}
+
+#吃晚饭
+country_event = {
+	id = SMA_events.3
+	title = SMA_events.3_t
+	desc = SMA_events.3_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.3_tt
+		add_political_power = 75
+    }
+}
+
+#工作餐
+country_event = {
+	id = SMA_events.4
+	title = SMA_events.4_t
+	desc = SMA_events.4_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.4_tt
+		add_political_power = 75
+    }
+}
+
+#吃早饭
+country_event = {
+	id = SMA_events.5
+	title = SMA_events.5_t
+	desc = SMA_events.5_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.5_tt
+		add_political_power = 75
+    }
+}
+
+#贵族兵
+country_event = {
+	id = SMA_events.6
+	title = SMA_events.6_t
+	desc = SMA_events.6_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.6_tt
+    }
+}
+
+#传言
+country_event = {
+	id = SMA_events.7
+	title = SMA_events.7_t
+	desc = SMA_events.7_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.7_tt
+    }
+}
+
+#误会
+country_event = {
+	id = SMA_events.8
+	title = SMA_events.8_t
+	desc = SMA_events.8_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.8_tt
+    }
+}
+
+#复杂的关系网
+country_event = {
+	id = SMA_events.9
+	title = SMA_events.9_t
+	desc = SMA_events.9_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.9_tt
+    }
+}
+
+#维持现状
+country_event = {
+	id = SMA_events.10
+	title = SMA_events.10_t
+	desc = SMA_events.10_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.10_tt
+		add_political_power = 100
+    }
+}
+
+#实用态度
+country_event = {
+	id = SMA_events.11
+	title = SMA_events.11_t
+	desc = SMA_events.11_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.11_tt
+    }
+}
+
+#止痛药也许有用
+country_event = {
+	id = SMA_events.12
+	title = SMA_events.12_t
+	desc = SMA_events.12_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.12_tt
+    }
+}
+
+#公民证
+country_event = {
+	id = SMA_events.13
+	title = SMA_events.13_t
+	desc = SMA_events.13_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.13_tt
+    }
+}
+
+#直视阳光
+country_event = {
+	id = SMA_events.14
+	title = SMA_events.14_t
+	desc = SMA_events.14_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.14_tt
+		add_ideas = SMA_guerrilla_soul
+    }
+}
+
+#保留希望
+country_event = {
+	id = SMA_events.15
+	title = SMA_events.15_t
+	desc = SMA_events.15_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.15_tt
+    }
+}
+
+#无奈之举
+country_event = {
+	id = SMA_events.16
+	title = SMA_events.16_t
+	desc = SMA_events.16_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.16_tt
+    }
+}
+
+#平行执政
+country_event = {
+	id = SMA_events.17
+	title = SMA_events.17_t
+	desc = SMA_events.17_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.17_tt
+    }
+}
+
+#谐律指导
+country_event = {
+	id = SMA_events.18
+	title = SMA_events.18_t
+	desc = SMA_events.18_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.18_tt
+    }
+}
+
+#驱雾的归乡
+country_event = {
+	id = SMA_events.19
+	title = SMA_events.19_t
+	desc = SMA_events.19_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.19_tt
+    }
+}
+
+#艰苦卓绝的斗争
+country_event = {
+	id = SMA_events.20
+	title = SMA_events.20_t
+	desc = SMA_events.20_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.20_tt
+    }
+}
+
+#坎特拉和解
+country_event = {
+	id = SMA_events.21
+	title = SMA_events.21_t
+	desc = SMA_events.21_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.21_tt
+    }
+}
+
+#偿还贷款
+country_event = {
+	id = SMA_events.22
+	title = SMA_events.22_t
+	desc = SMA_events.22_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.22_tt
+    }
+}
+
+#殿下，我很荣幸
+country_event = {
+	id = SMA_events.23
+	title = SMA_events.23_t
+	desc = SMA_events.23_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.23_tt
+    }
+}
+
+#发放光荣弹
+country_event = {
+	id = SMA_events.24
+	title = SMA_events.24_t
+	desc = SMA_events.24_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.24_tt
+		add_stability = -0.30
+    }
+}
+
+#我们对小马的责任
+country_event = {
+	id = SMA_events.25
+	title = SMA_events.25_t
+	desc = SMA_events.25_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.25_tt
+    }
+}
+
+#优势在敌
+country_event = {
+	id = SMA_events.26
+	title = SMA_events.26_t
+	desc = SMA_events.26_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.26_tt
+		add_war_support = 0.25
+    }
+}
+
+#绞死邪茧
+country_event = {
+	id = SMA_events.27
+	title = SMA_events.27_t
+	desc = SMA_events.27_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.27_tt
+    }
+}
+
+#没有免费的爱意
+country_event = {
+	id = SMA_events.28
+	title = SMA_events.28_t
+	desc = SMA_events.28_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.28_tt
+    }
+}
+
+#意想不到之处
+country_event = {
+	id = SMA_events.29
+	title = SMA_events.29_t
+	desc = SMA_events.29_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.29_tt
+    }
+}
+
+#劳动赎罪
+country_event = {
+	id = SMA_events.30
+	title = SMA_events.30_t
+	desc = SMA_events.30_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.30_tt
+    }
+}
+
+#索拉克斯的演讲
+country_event = {
+	id = SMA_events.31
+	title = SMA_events.31_t
+	desc = SMA_events.31_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.31_tt
+    }
+}
+
+#驱雾的演讲
+country_event = {
+	id = SMA_events.32
+	title = SMA_events.32_t
+	desc = SMA_events.32_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.32_tt
+    }
+}
+
+#得鱼忘筌
+country_event = {
+	id = SMA_events.33
+	title = SMA_events.33_t
+	desc = SMA_events.33_d
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option={
+		name = SMA_events.33_tt
+		add_stability = -0.50
+    }
+}
+
+
+
+

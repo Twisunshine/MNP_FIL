@@ -1,0 +1,42 @@
+characters={
+	
+	SMA_Thorax={
+		name=CLK_Thorax
+		portraits={
+			civilian={
+				large="gfx/leaders/CLK/Portrait_CLK_Thorax.dds"
+			}
+		}
+		
+	}
+	SMA_Tristana={
+		name=SMA_Tristana
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMA/SMA_Tristana.tag"
+				small = "gfx/leaders/SMA/idea_SMA_Tristana.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_changeling_system
+			traits={  }
+			expire="1965.1.1.1"
+		}
+		advisor = {
+            cost = 150
+            slot = head_of_government
+			idea_token = idea_SMA_Tristana
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+            traits = {
+                Bailiwick_Governor
+            }
+			removal_cost = -114514
+        }
+	}
+
+}

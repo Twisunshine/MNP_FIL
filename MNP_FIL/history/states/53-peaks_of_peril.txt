@@ -11,6 +11,12 @@ state={
 		owner = KIR
 		add_core_of = KIR
 		victory_points = { 2682 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+		    }
+		}
 	}
 	local_supplies=5.000
 }

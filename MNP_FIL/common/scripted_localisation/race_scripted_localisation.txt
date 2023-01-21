@@ -156,9 +156,107 @@ defined_text = {
 	name = selected_race_identify_value
 	text = {
 		trigger = {
-			AND = {
-				has_country_flag = Race_1_main
-				check_variable = { Race_open = 1 }
+			OR = {
+				AND = {
+					check_variable = { race_main^0 = 1 }
+					check_variable = { Race_open = 1 }
+				}
+				AND = {
+					check_variable = { race_main^1 = 1 }
+					check_variable = { Race_open = 2 }
+				}
+				AND = {
+					check_variable = { race_main^2 = 1 }
+					check_variable = { Race_open = 3 }
+				}
+				AND = {
+					check_variable = { race_main^3 = 1 }
+					check_variable = { Race_open = 4 }
+				}
+				AND = {
+					check_variable = { race_main^4 = 1 }
+					check_variable = { Race_open = 5 }
+				}
+				AND = {
+					check_variable = { race_main^5 = 1 }
+					check_variable = { Race_open = 6 }
+				}
+				AND = {
+					check_variable = { race_main^6 = 1 }
+					check_variable = { Race_open = 7 }
+				}
+				AND = {
+					check_variable = { race_main^7 = 1 }
+					check_variable = { Race_open = 8 }
+				}
+				AND = {
+					check_variable = { race_main^8 = 1 }
+					check_variable = { Race_open = 9 }
+				}
+				AND = {
+					check_variable = { race_main^9 = 1 }
+					check_variable = { Race_open = 10 }
+				}
+				AND = {
+					check_variable = { race_main^10 = 1 }
+					check_variable = { Race_open = 11 }
+				}
+				AND = {
+					check_variable = { race_main^11 = 1 }
+					check_variable = { Race_open = 12 }
+				}
+				AND = {
+					check_variable = { race_main^12 = 1 }
+					check_variable = { Race_open = 13 }
+				}
+				AND = {
+					check_variable = { race_main^13 = 1 }
+					check_variable = { Race_open = 14 }
+				}
+				AND = {
+					check_variable = { race_main^14 = 1 }
+					check_variable = { Race_open = 15 }
+				}
+				AND = {
+					check_variable = { race_main^15 = 1 }
+					check_variable = { Race_open = 16 }
+				}
+				AND = {
+					check_variable = { race_main^16 = 1 }
+					check_variable = { Race_open = 17 }
+				}
+				AND = {
+					check_variable = { race_main^17 = 1 }
+					check_variable = { Race_open = 18 }
+				}
+				AND = {
+					check_variable = { race_main^18 = 1 }
+					check_variable = { Race_open = 19 }
+				}
+				AND = {
+					check_variable = { race_main^19 = 1 }
+					check_variable = { Race_open = 20 }
+				}
+				AND = {
+					check_variable = { race_main^20 = 1 }
+					check_variable = { Race_open = 21 }
+				}
+				AND = {
+					check_variable = { race_main^21 = 1 }
+					check_variable = { Race_open = 22 }
+				}
+				AND = {
+					check_variable = { race_main^22 = 1 }
+					check_variable = { Race_open = 23 }
+				}
+				AND = {
+					check_variable = { race_main^23 = 1 }
+					check_variable = { Race_open = 24 }
+				}
+				AND = {
+					check_variable = { race_main^24 = 1 }
+					check_variable = { Race_open = 25 }
+				}
 			}
 		}
 		localization_key = main_race
@@ -166,9 +264,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				NOT = {
-					has_country_flag = Race_1_main
-				}
+				check_variable = { race_main^0 = 0 }
 				check_variable = { Race_open = 1 }
 			}
 		}
@@ -177,18 +273,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_2_main
-				check_variable = { Race_open = 2 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_2_main
-				}
+				check_variable = { race_main^1 = 0 }
 				check_variable = { Race_open = 2 }
 			}
 		}
@@ -197,18 +282,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_3_main
-				check_variable = { Race_open = 3 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_3_main
-				}
+				check_variable = { race_main^2 = 0 }
 				check_variable = { Race_open = 3 }
 			}
 		}
@@ -217,18 +291,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_4_main
-				check_variable = { Race_open = 4 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_4_main
-				}
+				check_variable = { race_main^3 = 0 }
 				check_variable = { Race_open = 4 }
 			}
 		}
@@ -237,18 +300,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_5_main
-				check_variable = { Race_open = 5 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_5_main
-				}
+				check_variable = { race_main^4 = 0 }
 				check_variable = { Race_open = 5 }
 			}
 		}
@@ -257,18 +309,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_6_main
-				check_variable = { Race_open = 6 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_6_main
-				}
+				check_variable = { race_main^5 = 0 }
 				check_variable = { Race_open = 6 }
 			}
 		}
@@ -277,18 +318,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_7_main
-				check_variable = { Race_open = 7 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_7_main
-				}
+				check_variable = { race_main^6 = 0 }
 				check_variable = { Race_open = 7 }
 			}
 		}
@@ -297,18 +327,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_8_main
-				check_variable = { Race_open = 8 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_8_main
-				}
+				check_variable = { race_main^7 = 0 }
 				check_variable = { Race_open = 8 }
 			}
 		}
@@ -317,18 +336,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_9_main
-				check_variable = { Race_open = 9 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_9_main
-				}
+				check_variable = { race_main^8 = 0 }
 				check_variable = { Race_open = 9 }
 			}
 		}
@@ -337,18 +345,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_10_main
-				check_variable = { Race_open = 10 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_10_main
-				}
+				check_variable = { race_main^9 = 0 }
 				check_variable = { Race_open = 10 }
 			}
 		}
@@ -357,18 +354,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_11_main
-				check_variable = { Race_open = 11 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_11_main
-				}
+				check_variable = { race_main^10 = 0 }
 				check_variable = { Race_open = 11 }
 			}
 		}
@@ -377,18 +363,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_12_main
-				check_variable = { Race_open = 12 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_12_main
-				}
+				check_variable = { race_main^11 = 0 }
 				check_variable = { Race_open = 12 }
 			}
 		}
@@ -397,18 +372,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_13_main
-				check_variable = { Race_open = 13 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_13_main
-				}
+				check_variable = { race_main^12 = 0 }
 				check_variable = { Race_open = 13 }
 			}
 		}
@@ -417,18 +381,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_14_main
-				check_variable = { Race_open = 14 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_14_main
-				}
+				check_variable = { race_main^13 = 0 }
 				check_variable = { Race_open = 14 }
 			}
 		}
@@ -437,18 +390,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_15_main
-				check_variable = { Race_open = 15 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_15_main
-				}
+				check_variable = { race_main^14 = 0 }
 				check_variable = { Race_open = 15 }
 			}
 		}
@@ -457,18 +399,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_16_main
-				check_variable = { Race_open = 16 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_16_main
-				}
+				check_variable = { race_main^15 = 0 }
 				check_variable = { Race_open = 16 }
 			}
 		}
@@ -477,18 +408,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_17_main
-				check_variable = { Race_open = 17 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_17_main
-				}
+				check_variable = { race_main^16 = 0 }
 				check_variable = { Race_open = 17 }
 			}
 		}
@@ -497,18 +417,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_18_main
-				check_variable = { Race_open = 18 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_18_main
-				}
+				check_variable = { race_main^17 = 0 }
 				check_variable = { Race_open = 18 }
 			}
 		}
@@ -517,18 +426,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_19_main
-				check_variable = { Race_open = 19 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_19_main
-				}
+				check_variable = { race_main^18 = 0 }
 				check_variable = { Race_open = 19 }
 			}
 		}
@@ -537,18 +435,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_20_main
-				check_variable = { Race_open = 20 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_20_main
-				}
+				check_variable = { race_main^19 = 0 }
 				check_variable = { Race_open = 20 }
 			}
 		}
@@ -557,18 +444,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_21_main
-				check_variable = { Race_open = 21 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_21_main
-				}
+				check_variable = { race_main^20 = 0 }
 				check_variable = { Race_open = 21 }
 			}
 		}
@@ -577,18 +453,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_22_main
-				check_variable = { Race_open = 22 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_22_main
-				}
+				check_variable = { race_main^21 = 0 }
 				check_variable = { Race_open = 22 }
 			}
 		}
@@ -597,18 +462,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_23_main
-				check_variable = { Race_open = 23 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_23_main
-				}
+				check_variable = { race_main^22 = 0 }
 				check_variable = { Race_open = 23 }
 			}
 		}
@@ -617,18 +471,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_24_main
-				check_variable = { Race_open = 24 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_24_main
-				}
+				check_variable = { race_main^23 = 0 }
 				check_variable = { Race_open = 24 }
 			}
 		}
@@ -637,18 +480,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				has_country_flag = Race_25_main
-				check_variable = { Race_open = 25 }
-			}
-		}
-		localization_key = main_race
-	}
-	text = {
-		trigger = {
-			AND = {
-				NOT = {
-					has_country_flag = Race_25_main
-				}
+				check_variable = { race_main^24 = 0 }
 				check_variable = { Race_open = 25 }
 			}
 		}
@@ -968,15 +800,13 @@ defined_text = {
 	name = race_tooltip_1
 	text = {
 		trigger = {
-			has_country_flag = Race_1_main
+			check_variable = { race_main^0 = 1 }
 		}
 		localization_key = race_tooltip_1_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_1_main
-			}
+			check_variable = { race_main^0 = 0 }
 		}
 		localization_key = race_tooltip_1_2
 	}
@@ -985,15 +815,13 @@ defined_text = {
 	name = race_tooltip_2
 	text = {
 		trigger = {
-			has_country_flag = Race_2_main
+			check_variable = { race_main^1 = 1 }
 		}
 		localization_key = race_tooltip_2_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_2_main
-			}
+			check_variable = { race_main^1 = 0 }
 		}
 		localization_key = race_tooltip_2_2
 	}
@@ -1002,15 +830,13 @@ defined_text = {
 	name = race_tooltip_3
 	text = {
 		trigger = {
-			has_country_flag = Race_3_main
+			check_variable = { race_main^2 = 1 }
 		}
 		localization_key = race_tooltip_3_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_3_main
-			}
+			check_variable = { race_main^2 = 0 }
 		}
 		localization_key = race_tooltip_3_2
 	}
@@ -1019,15 +845,13 @@ defined_text = {
 	name = race_tooltip_4
 	text = {
 		trigger = {
-			has_country_flag = Race_4_main
+			check_variable = { race_main^3 = 1 }
 		}
 		localization_key = race_tooltip_4_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_4_main
-			}
+			check_variable = { race_main^3 = 0 }
 		}
 		localization_key = race_tooltip_4_2
 	}
@@ -1036,15 +860,13 @@ defined_text = {
 	name = race_tooltip_5
 	text = {
 		trigger = {
-			has_country_flag = Race_5_main
+			check_variable = { race_main^4 = 1 }
 		}
 		localization_key = race_tooltip_5_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_5_main
-			}
+			check_variable = { race_main^4 = 0 }
 		}
 		localization_key = race_tooltip_5_2
 	}
@@ -1053,15 +875,13 @@ defined_text = {
 	name = race_tooltip_6
 	text = {
 		trigger = {
-			has_country_flag = Race_6_main
+			check_variable = { race_main^5 = 1 }
 		}
 		localization_key = race_tooltip_6_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_6_main
-			}
+			check_variable = { race_main^5 = 0 }
 		}
 		localization_key = race_tooltip_6_2
 	}
@@ -1070,15 +890,13 @@ defined_text = {
 	name = race_tooltip_7
 	text = {
 		trigger = {
-			has_country_flag = Race_7_main
+			check_variable = { race_main^6 = 1 }
 		}
 		localization_key = race_tooltip_7_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_7_main
-			}
+			check_variable = { race_main^6 = 0 }
 		}
 		localization_key = race_tooltip_7_2
 	}
@@ -1087,15 +905,13 @@ defined_text = {
 	name = race_tooltip_8
 	text = {
 		trigger = {
-			has_country_flag = Race_8_main
+			check_variable = { race_main^7 = 1 }
 		}
 		localization_key = race_tooltip_8_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_8_main
-			}
+			check_variable = { race_main^7 = 0 }
 		}
 		localization_key = race_tooltip_8_2
 	}
@@ -1104,15 +920,13 @@ defined_text = {
 	name = race_tooltip_9
 	text = {
 		trigger = {
-			has_country_flag = Race_9_main
+			check_variable = { race_main^8 = 1 }
 		}
 		localization_key = race_tooltip_9_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_9_main
-			}
+			check_variable = { race_main^8 = 0 }
 		}
 		localization_key = race_tooltip_9_2
 	}
@@ -1121,15 +935,13 @@ defined_text = {
 	name = race_tooltip_10
 	text = {
 		trigger = {
-			has_country_flag = Race_10_main
+			check_variable = { race_main^9 = 1 }
 		}
 		localization_key = race_tooltip_10_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_10_main
-			}
+			check_variable = { race_main^9 = 0 }
 		}
 		localization_key = race_tooltip_10_2
 	}
@@ -1138,15 +950,13 @@ defined_text = {
 	name = race_tooltip_11
 	text = {
 		trigger = {
-			has_country_flag = Race_11_main
+			check_variable = { race_main^10 = 1 }
 		}
 		localization_key = race_tooltip_11_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_11_main
-			}
+			check_variable = { race_main^10 = 0 }
 		}
 		localization_key = race_tooltip_11_2
 	}
@@ -1155,15 +965,13 @@ defined_text = {
 	name = race_tooltip_12
 	text = {
 		trigger = {
-			has_country_flag = Race_12_main
+			check_variable = { race_main^11 = 1 }
 		}
 		localization_key = race_tooltip_12_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_12_main
-			}
+			check_variable = { race_main^11 = 0 }
 		}
 		localization_key = race_tooltip_12_2
 	}
@@ -1172,15 +980,13 @@ defined_text = {
 	name = race_tooltip_13
 	text = {
 		trigger = {
-			has_country_flag = Race_13_main
+			check_variable = { race_main^12 = 1 }
 		}
 		localization_key = race_tooltip_13_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_13_main
-			}
+			check_variable = { race_main^12 = 0 }
 		}
 		localization_key = race_tooltip_13_2
 	}
@@ -1189,15 +995,13 @@ defined_text = {
 	name = race_tooltip_14
 	text = {
 		trigger = {
-			has_country_flag = Race_14_main
+			check_variable = { race_main^13 = 1 }
 		}
 		localization_key = race_tooltip_14_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_14_main
-			}
+			check_variable = { race_main^13 = 0 }
 		}
 		localization_key = race_tooltip_14_2
 	}
@@ -1206,15 +1010,13 @@ defined_text = {
 	name = race_tooltip_15
 	text = {
 		trigger = {
-			has_country_flag = Race_15_main
+			check_variable = { race_main^14 = 1 }
 		}
 		localization_key = race_tooltip_15_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_15_main
-			}
+			check_variable = { race_main^14 = 0 }
 		}
 		localization_key = race_tooltip_15_2
 	}
@@ -1223,15 +1025,13 @@ defined_text = {
 	name = race_tooltip_16
 	text = {
 		trigger = {
-			has_country_flag = Race_16_main
+			check_variable = { race_main^15 = 1 }
 		}
 		localization_key = race_tooltip_16_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_16_main
-			}
+			check_variable = { race_main^15 = 0 }
 		}
 		localization_key = race_tooltip_16_2
 	}
@@ -1240,15 +1040,13 @@ defined_text = {
 	name = race_tooltip_17
 	text = {
 		trigger = {
-			has_country_flag = Race_17_main
+			check_variable = { race_main^16 = 1 }
 		}
 		localization_key = race_tooltip_17_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_17_main
-			}
+			check_variable = { race_main^16 = 0 }
 		}
 		localization_key = race_tooltip_17_2
 	}
@@ -1257,15 +1055,13 @@ defined_text = {
 	name = race_tooltip_18
 	text = {
 		trigger = {
-			has_country_flag = Race_18_main
+			check_variable = { race_main^17 = 1 }
 		}
 		localization_key = race_tooltip_18_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_18_main
-			}
+			check_variable = { race_main^17 = 0 }
 		}
 		localization_key = race_tooltip_18_2
 	}
@@ -1274,15 +1070,13 @@ defined_text = {
 	name = race_tooltip_19
 	text = {
 		trigger = {
-			has_country_flag = Race_19_main
+			check_variable = { race_main^18 = 1 }
 		}
 		localization_key = race_tooltip_19_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_19_main
-			}
+			check_variable = { race_main^18 = 0 }
 		}
 		localization_key = race_tooltip_19_2
 	}
@@ -1291,15 +1085,13 @@ defined_text = {
 	name = race_tooltip_20
 	text = {
 		trigger = {
-			has_country_flag = Race_20_main
+			check_variable = { race_main^19 = 1 }
 		}
 		localization_key = race_tooltip_20_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_20_main
-			}
+			check_variable = { race_main^19 = 0 }
 		}
 		localization_key = race_tooltip_20_2
 	}
@@ -1308,15 +1100,13 @@ defined_text = {
 	name = race_tooltip_21
 	text = {
 		trigger = {
-			has_country_flag = Race_21_main
+			check_variable = { race_main^20 = 1 }
 		}
 		localization_key = race_tooltip_21_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_21_main
-			}
+			check_variable = { race_main^20 = 0 }
 		}
 		localization_key = race_tooltip_21_2
 	}
@@ -1325,15 +1115,13 @@ defined_text = {
 	name = race_tooltip_22
 	text = {
 		trigger = {
-			has_country_flag = Race_22_main
+			check_variable = { race_main^21 = 1 }
 		}
 		localization_key = race_tooltip_22_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_22_main
-			}
+			check_variable = { race_main^21 = 0 }
 		}
 		localization_key = race_tooltip_22_2
 	}
@@ -1342,15 +1130,13 @@ defined_text = {
 	name = race_tooltip_23
 	text = {
 		trigger = {
-			has_country_flag = Race_23_main
+			check_variable = { race_main^22 = 1 }
 		}
 		localization_key = race_tooltip_23_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_23_main
-			}
+			check_variable = { race_main^22 = 0 }
 		}
 		localization_key = race_tooltip_23_2
 	}
@@ -1359,15 +1145,13 @@ defined_text = {
 	name = race_tooltip_24
 	text = {
 		trigger = {
-			has_country_flag = Race_24_main
+			check_variable = { race_main^23 = 1 }
 		}
 		localization_key = race_tooltip_24_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_24_main
-			}
+			check_variable = { race_main^23 = 0 }
 		}
 		localization_key = race_tooltip_24_2
 	}
@@ -1376,15 +1160,13 @@ defined_text = {
 	name = race_tooltip_25
 	text = {
 		trigger = {
-			has_country_flag = Race_25_main
+			check_variable = { race_main^24 = 1 }
 		}
 		localization_key = race_tooltip_25_1
 	}
 	text = {
 		trigger = {
-			NOT = {
-				has_country_flag = Race_25_main
-			}
+			check_variable = { race_main^24 = 0 }
 		}
 		localization_key = race_tooltip_25_2
 	}
@@ -9936,5 +9718,1008 @@ race_show_tooltip_25 = {
 			check_variable = { race_show_element^24 = 25 }
 		}
 		localization_key = [race_tooltip_25]
+	}
+}
+
+race_menu_option_extra_title = {
+	name = race_menu_option_extra_title
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_menu_option_extra_title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_menu_option_extra_title_2
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_menu_option_extra_title_3
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_menu_option_extra_title_4
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_menu_option_extra_title_5
+	}
+}
+
+race_ideas_name_1 = {
+	name = race_ideas_name_1
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_1
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_1
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_1
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_1
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_1
+	}
+}
+
+race_ideas_name_2 = {
+	name = race_ideas_name_2
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_2
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_2
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_2
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_2
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_2
+	}
+}
+
+race_ideas_name_3 = {
+	name = race_ideas_name_3
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_3
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_3
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_3
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_3
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_3
+	}
+}
+
+race_ideas_name_4 = {
+	name = race_ideas_name_4
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_4
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_4
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_4
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_4
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_4
+	}
+}
+
+race_ideas_name_5 = {
+	name = race_ideas_name_5
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_5
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_5
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_5
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_5
+	}
+}
+
+race_ideas_name_6 = {
+	name = race_ideas_name_6
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_6
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_6
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_6
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_6
+	}
+}
+
+race_ideas_1_tooltip = {
+	name = race_ideas_1_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_1_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_1_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_1_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_1_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_1_tooltip
+	}
+}
+
+race_ideas_2_tooltip = {
+	name = race_ideas_2_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_2_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_2_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_2_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_2_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_2_tooltip
+	}
+}
+
+race_ideas_3_tooltip = {
+	name = race_ideas_3_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_3_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_3_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_3_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_3_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_3_tooltip
+	}
+}
+
+race_ideas_4_tooltip = {
+	name = race_ideas_4_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_4_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_4_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_4_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_4_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_4_tooltip
+	}
+}
+
+race_ideas_5_tooltip = {
+	name = race_ideas_5_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_5_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_5_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_5_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_5_tooltip
+	}
+}
+
+race_ideas_6_tooltip = {
+	name = race_ideas_6_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_6_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_6_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_6_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_6_tooltip
+	}
+}
+
+race_option_1_idea_tooltip = {
+	name = race_option_1_idea_tooltip
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 1 }
+		}
+		localization_key = race_ideas_1_1_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 2 }
+		}
+		localization_key = race_ideas_1_2_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 3 }
+		}
+		localization_key = race_ideas_1_3_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 4 }
+		}
+		localization_key = race_ideas_1_4_tooltip
+	}
+}
+
+race_option_2_idea_tooltip = {
+	name = race_option_2_idea_tooltip
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_1
+		}
+		localization_key = race_ideas_2_1_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_2
+		}
+		localization_key = race_ideas_2_2_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_3
+		}
+		localization_key = race_ideas_2_3_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_4
+		}
+		localization_key = race_ideas_2_4_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_5
+		}
+		localization_key = race_ideas_2_5_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_6
+		}
+		localization_key = race_ideas_2_6_tooltip
+	}
+}
+
+race_option_3_idea_tooltip = {
+	name = race_option_3_idea_tooltip
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_1
+		}
+		localization_key = race_ideas_3_1_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_2
+		}
+		localization_key = race_ideas_3_2_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_3
+		}
+		localization_key = race_ideas_3_3_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_4
+		}
+		localization_key = race_ideas_3_4_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_5
+		}
+		localization_key = race_ideas_3_5_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_6
+		}
+		localization_key = race_ideas_3_6_tooltip
+	}
+}
+
+race_option_4_idea_tooltip = {
+	name = race_option_4_idea_tooltip
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_1
+		}
+		localization_key = race_ideas_4_1_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_2
+		}
+		localization_key = race_ideas_4_2_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_3
+		}
+		localization_key = race_ideas_4_3_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_4
+		}
+		localization_key = race_ideas_4_4_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_5
+		}
+		localization_key = race_ideas_4_5_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_6
+		}
+		localization_key = race_ideas_4_6_tooltip
+	}
+}
+
+race_option_5_idea_tooltip = {
+	name = race_option_5_idea_tooltip
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_1
+		}
+		localization_key = race_ideas_5_1_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_2
+		}
+		localization_key = race_ideas_5_2_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_3
+		}
+		localization_key = race_ideas_5_3_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_4
+		}
+		localization_key = race_ideas_5_4_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_5
+		}
+		localization_key = race_ideas_5_5_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_6
+		}
+		localization_key = race_ideas_5_6_tooltip
+	}
+}
+
+race_option_need_pp_value = {
+	name = race_option_need_pp_value
+	text = {
+		trigger = {
+			OR = {
+				has_political_power > 150
+				has_political_power = 150
+			}
+		}
+		localization_key = race_option_need_pp_value_1
+	}
+	text = {
+		localization_key = race_option_need_pp_value_2
+	}
+}
+
+
+race_ideas_1_icon = {
+	name = race_ideas_1_icon
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_1_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_1_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_1_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_1_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_1_icon
+	}
+}
+
+race_ideas_2_icon = {
+	name = race_ideas_2_icon
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_2_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_2_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_2_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_2_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_2_icon
+	}
+}
+
+race_ideas_3_icon = {
+	name = race_ideas_3_icon
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_3_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_3_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_3_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_3_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_3_icon
+	}
+}
+
+race_ideas_4_icon = {
+	name = race_ideas_4_icon
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 1 }
+		}
+		localization_key = race_ideas_1_4_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_4_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_4_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_4_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_4_icon
+	}
+}
+
+race_ideas_5_icon = {
+	name = race_ideas_5_icon
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_5_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_5_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_5_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_5_icon
+	}
+}
+
+race_ideas_6_icon = {
+	name = race_ideas_6_icon
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 2 }
+		}
+		localization_key = race_ideas_2_6_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 3 }
+		}
+		localization_key = race_ideas_3_6_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 4 }
+		}
+		localization_key = race_ideas_4_6_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_menu_option_extra_open = 5 }
+		}
+		localization_key = race_ideas_5_6_icon
+	}
+}
+
+race_option_1_idea_icon = {
+	name = race_option_1_idea_icon
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 1 }
+		}
+		localization_key = race_ideas_1_1_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 2 }
+		}
+		localization_key = race_ideas_1_2_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 3 }
+		}
+		localization_key = race_ideas_1_3_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { race_social_attitudes = 4 }
+		}
+		localization_key = race_ideas_1_4_icon
+	}
+}
+
+race_option_2_idea_icon = {
+	name = race_option_2_idea_icon
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_1
+		}
+		localization_key = race_ideas_2_1_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_2
+		}
+		localization_key = race_ideas_2_2_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_3
+		}
+		localization_key = race_ideas_2_3_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_4
+		}
+		localization_key = race_ideas_2_4_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_5
+		}
+		localization_key = race_ideas_2_5_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_2_6
+		}
+		localization_key = race_ideas_2_6_icon
+	}
+}
+
+race_option_3_idea_icon = {
+	name = race_option_3_idea_icon
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_1
+		}
+		localization_key = race_ideas_3_1_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_2
+		}
+		localization_key = race_ideas_3_2_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_3
+		}
+		localization_key = race_ideas_3_3_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_4
+		}
+		localization_key = race_ideas_3_4_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_5
+		}
+		localization_key = race_ideas_3_5_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_3_6
+		}
+		localization_key = race_ideas_3_6_icon
+	}
+}
+
+race_option_4_idea_icon = {
+	name = race_option_4_idea_icon
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_1
+		}
+		localization_key = race_ideas_4_1_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_2
+		}
+		localization_key = race_ideas_4_2_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_3
+		}
+		localization_key = race_ideas_4_3_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_4
+		}
+		localization_key = race_ideas_4_4_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_5
+		}
+		localization_key = race_ideas_4_5_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_4_6
+		}
+		localization_key = race_ideas_4_6_icon
+	}
+}
+
+race_option_5_idea_icon = {
+	name = race_option_5_idea_icon
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_1
+		}
+		localization_key = race_ideas_5_1_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_2
+		}
+		localization_key = race_ideas_5_2_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_3
+		}
+		localization_key = race_ideas_5_3_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_4
+		}
+		localization_key = race_ideas_5_4_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_5
+		}
+		localization_key = race_ideas_5_5_icon
+	}
+	text = {
+		trigger = {
+			has_idea = race_ideas_5_6
+		}
+		localization_key = race_ideas_5_6_icon
 	}
 }

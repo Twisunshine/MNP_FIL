@@ -30,7 +30,7 @@ news_event = {
 		}
 	}
 	
-	picture = GFX_event_test
+	picture = GFX_War_Griffon
 	
 	is_triggered_only = yes
 	major = yes

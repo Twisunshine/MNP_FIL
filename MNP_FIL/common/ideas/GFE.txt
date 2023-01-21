@@ -1,0 +1,107 @@
+ideas = {
+	country = {
+	
+		###军政体制
+		GFE_Military_System = {
+
+            allowed = {
+				original_tag = GFE
+			}
+
+            removal_cost = -1
+			picture = GFE_Military_System
+			modifier = {
+				political_power_factor = -0.15
+				conscription = 0.03
+			}
+        }
+		
+		###帝国弃子
+		GFE_Outcast_of_the_Empire = {
+
+            allowed = {
+				original_tag = GFE
+			}
+
+            removal_cost = -1
+			picture = GFE_Outcast_of_the_Empire
+			modifier = {
+				stability_factor = -0.30
+				monthly_population = -0.15
+				research_speed_factor = -0.15
+			}
+        }
+		
+		###反统一情绪
+		GFE_Anti_unification_Sentiment = {
+
+            allowed = {
+				original_tag = GFE
+			}
+
+            removal_cost = -1
+			picture = GFE_Anti_unification_Sentiment
+			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = 0.25
+				army_speed_factor = -0.15
+			}
+        }
+		
+		###帝国边陲
+		GFE_Empire_Frontier = {
+
+            allowed = {
+				original_tag = GFE
+			}
+
+            removal_cost = -1
+			picture = GFE_Empire_Frontier
+			modifier = {
+				army_org_factor = 0.15
+				dig_in_speed_factor = 0.15
+				max_planning = 0.20
+			}
+			
+			targeted_modifier = {
+			   tag = CHI
+			   attack_bonus_against = 0.25
+			   defense_bonus_against = 0.25
+			}
+        }
+		
+		###经济绝境
+		GFE_Economic_Desperation = {
+
+            allowed = {
+				original_tag = GFE
+			}
+
+            removal_cost = -1
+			picture = GFE_Increasingly_Unpopular
+			modifier = {
+				consumer_goods_factor = 0.30
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+			}
+        }
+		
+		###日益不受欢迎
+		GFE_Increasingly_Unpopular = {
+
+            allowed = {
+				original_tag = GFE
+			}
+
+            removal_cost = -1
+			picture = GFE_Increasingly_Unpopular
+			modifier = {
+				stability_weekly = -0.005
+				despotism_drift = -0.01
+			}
+        }
+		
+		
+	}
+	
+}

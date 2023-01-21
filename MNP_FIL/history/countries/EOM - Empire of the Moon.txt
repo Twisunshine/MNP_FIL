@@ -51,18 +51,22 @@ set_popularities = {
 }
 
 add_ideas = {
-		service_by_requirement
-		tot_economic_mobilisation
-		limited_exports
-		fully_control
-		all_adults
-		restricted_citizenship
-		Specialized_chemical_factory
-		large_scale_farming
-		more_popular
-		the_chaos
-		Basic_education
-		deserters_everywhere
+		laws_ideas_1_5
+		laws_ideas_2_5
+		laws_ideas_3_4
+		laws_ideas_4_6
+		laws_ideas_5_2
+		laws_ideas_6_3
+		develop_ideas_1_4
+		develop_ideas_2_4
+		develop_ideas_3_3
+		develop_ideas_4_2
+		develop_ideas_5_2
+		develop_ideas_6_2
+		race_ideas_2_4
+		race_ideas_3_3
+		race_ideas_4_3
+		race_ideas_5_3
 		EOM_regicide_atrocities
 		EOM_dummy_parliament
 		EOM_torn_country
@@ -86,6 +90,12 @@ recruit_character = EOM_Fog_Rock
 recruit_character = EOM_Flash_Lightning
 recruit_character = EOM_Night_Shadow
 recruit_character = EOM_Night_Seven
+
+recruit_character = EOM_Minequo_Te
+recruit_character = EOM_Push_Mar
+recruit_character = EOM_Pondu_Cotan
+recruit_character = EOM_High_Winds
+recruit_character = EOM_Rancutor_Fawoo
 
 
 

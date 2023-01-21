@@ -1,0 +1,1719 @@
+focus_tree = {
+	id = SMA_Second_Stage
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SMA 
+		}
+	}
+	default = no
+	focus = {
+		id = SMA_2_1_1
+		icon = GFX_goal_unknown
+		cost =2
+		x = 10
+		y = 0
+
+		completion_reward = {
+			country_event = SMA_events.14
+		}
+	}
+	focus = {
+		id = SMA_2_2_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_1_1
+		}
+		x = 10
+		y = 1
+
+		completion_reward = {
+			add_manpower = 5000
+		}
+	}
+	focus = {
+		id = SMA_2_3_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_2_1
+		}
+		x = 8
+		y = 2
+
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+	focus = {
+		id = SMA_2_3_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_2_1
+		}
+		x = 12
+		y = 2
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = SMA_2_4_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_3_1
+		}
+		prerequisite = {
+			focus = SMA_2_3_2
+		}
+		x = 10
+		y = 3
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_5_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_4_1
+		}
+		x = 10
+		y = 4
+
+		completion_reward = {
+			add_war_support = 0.15
+			CLK = {
+				country_event = CLK_events.39
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_6_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_5_1
+		}
+		x = 10
+		y = 5
+
+		completion_reward = {
+			declare_war_on = {
+				target = CLK
+				type = take_claimed_state
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_7_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_6_1
+		}
+		x = 3
+		y = 6
+
+		completion_reward = {
+			country_event = SMA_events.31
+		}
+	}
+	focus = {
+		id = SMA_2_7_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_6_1
+		}
+		x = 5
+		y = 6
+
+		completion_reward = {
+			country_event = SMA_events.32
+		}
+	}
+	focus = {
+		id = SMA_2_8_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_7_1
+		}
+		prerequisite = {
+			focus = SMA_2_7_2
+		}
+		x = 4
+		y = 7
+
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+	focus = {
+		id = SMA_2_7_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_6_1
+		}
+		x = 10
+		y = 6
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 15000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 3000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_8_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_7_3
+		}
+		x = 9
+		y = 7
+
+		completion_reward = {
+			#获得3个三步师和一名小马将领
+		}
+	}
+	focus = {
+		id = SMA_2_8_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_7_3
+		}
+		x = 11
+		y = 7
+
+		completion_reward = {
+			#获得3个五步一炮师
+		}
+	}
+	focus = {
+		id = SMA_2_9_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_8_2
+		}
+		prerequisite = {
+			focus = SMA_2_8_3
+		}
+		x = 10
+		y = 8
+
+		completion_reward = {
+			add_ideas = SMA_cudgel_our_brains
+		}
+	}
+	focus = {
+		id = SMA_2_10_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_3
+		}
+		x = 9
+		y = 9
+
+		completion_reward = {
+			army_experience = 100
+		}
+	}
+	focus = {
+		id = SMA_2_10_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_3
+		}
+		x = 11
+		y = 9
+
+		completion_reward = {
+			country_event = SMA_events.30
+			swap_ideas = { 
+				remove_idea = laws_ideas_2_5
+				add_idea = laws_ideas_2_6
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_11_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_10_4
+		}
+		prerequisite = {
+			focus = SMA_2_10_5
+		}
+		x = 10
+		y = 10
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_manpower = 5000
+		}
+	}
+	focus = {
+		id = SMA_2_7_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_6_1
+		}
+		x = 16
+		y = 6
+
+		completion_reward = {
+			country_event = SMA_events.29
+		}
+	}
+	focus = {
+		id = SMA_2_8_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_7_4
+		}
+		x = 14
+		y = 7
+
+		completion_reward = {
+			add_manpower =25000
+		}
+	}
+	focus = {
+		id = SMA_2_8_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_7_4
+		}
+		x = 16
+		y = 7
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = SMA_2_8_6
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_7_4
+		}
+		x = 18
+		y = 7
+
+		completion_reward = {
+			add_ideas = SMA_get_cold_feet
+		}
+	}
+	focus = {
+		id = SMA_2_9_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_8_4
+		}
+		prerequisite = {
+			focus = SMA_2_8_5
+		}
+		prerequisite = {
+			focus = SMA_2_8_6
+		}
+		x = 15
+		y = 8
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_10_6
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_4
+		}
+		x = 15
+		y = 9
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = 0.10
+			}
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = SMA_2_9_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_8_4
+		}
+		prerequisite = {
+			focus = SMA_2_8_5
+		}
+		prerequisite = {
+			focus = SMA_2_8_6
+		}
+		x = 17
+		y = 8
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_10_7
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_5
+		}
+		x = 17
+		y = 9
+
+		completion_reward = {
+			country_event = SMA_events.28
+		}
+	}
+	focus = {
+		id = SMA_2_11_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_10_6
+		}
+		prerequisite = {
+			focus = SMA_2_10_7
+		}
+		x = 16
+		y = 10
+
+		completion_reward = {
+			add_stability = 0.15
+			CLK = {
+				add_stability = -0.15
+			}
+			add_ideas = SMA_help_from_conservatives
+		}
+	}
+	focus = {
+		id = SMA_2_9_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_8_1
+		}
+		x = 3
+		y = 8
+
+		completion_reward = {
+			add_ideas = SMA_repent
+		}
+	}
+	focus = {
+		id = SMA_2_9_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_8_1
+		}
+		x = 5
+		y = 8
+
+		completion_reward = {
+			add_war_support = 0.20
+		}
+	}
+	focus = {
+		id = SMA_2_10_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_1
+		}
+		prerequisite = {
+			focus = SMA_2_9_2
+		}
+		x = 2
+		y = 9
+
+		completion_reward = {
+			add_manpower = 15000
+		}
+	}
+	focus = {
+		id = SMA_2_10_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_1
+		}
+		prerequisite = {
+			focus = SMA_2_9_2
+		}
+		x = 4
+		y = 9
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = laws_ideas_6_5
+				add_idea = laws_ideas_6_6
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_10_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_9_1
+		}
+		prerequisite = {
+			focus = SMA_2_9_2
+		}
+		x = 6
+		y = 9
+
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	focus = {
+		id = SMA_2_11_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_10_1
+		}
+		prerequisite = {
+			focus = SMA_2_10_2
+		}
+		prerequisite = {
+			focus = SMA_2_10_3
+		}
+		x = 4
+		y = 10
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = SMA_repent
+				add_idea = SMA_repent_2
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_12_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_11_1
+		}
+		prerequisite = {
+			focus = SMA_2_11_2
+		}
+		prerequisite = {
+			focus = SMA_2_11_3
+		}
+		x = 7
+		y = 11
+
+		available = {
+			NOT = {
+				country_exists = CLK
+			}
+		}
+
+		completion_reward = {
+			country_event = SMA_events.27
+		}
+	}
+	focus = {
+		id = SMA_2_12_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_11_1
+		}
+		prerequisite = {
+			focus = SMA_2_11_2
+		}
+		prerequisite = {
+			focus = SMA_2_11_3
+		}
+		x = 13
+		y = 11
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			country_event = SMA_events.26
+		}
+	}
+	focus = {
+		id = SMA_2_13_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_12_2
+		}
+		x = 11
+		y = 12
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_stability = -0.20
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 8000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_13_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_12_2
+		}
+		x = 13
+		y = 12
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_ideas = SMA_fight_to_death
+		}
+	}
+	focus = {
+		id = SMA_2_13_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_12_2
+		}
+		x = 15
+		y = 12
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = 0.10
+			}
+			add_war_support = 0.20
+		}
+	}
+	focus = {
+		id = SMA_2_14_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_12_1
+		}
+		x = 7
+		y = 13
+
+		completion_reward = {
+			add_political_power = -200
+			#获得CLK的所有核心
+		}
+	}
+	focus = {
+		id = SMA_2_14_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_13_1
+		}
+		prerequisite = {
+			focus = SMA_2_13_2
+		}
+		prerequisite = {
+			focus = SMA_2_13_3
+		}
+		x = 12
+		y = 13
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_stability = -0.10
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_popularity = {
+    			ideology = liberal_democracy
+    			popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_14_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_13_1
+		}
+		prerequisite = {
+			focus = SMA_2_13_2
+		}
+		prerequisite = {
+			focus = SMA_2_13_3
+		}
+		x = 14
+		y = 13
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_political_power = 150
+			country_event = SMA_events.25
+		}
+	}
+	focus = {
+		id = SMA_2_15_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_14_2
+		}
+		prerequisite = {
+			focus = SMA_2_14_3
+		}
+		x = 12
+		y = 14
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = SMA_fight_to_death
+				add_idea = SMA_fight_to_death_2
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_15_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_14_2
+		}
+		prerequisite = {
+			focus = SMA_2_14_3
+		}
+		x = 14
+		y = 14
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_stability = -0.25
+			add_manpower = 5000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 12000
+			}
+			swap_ideas = { 
+				remove_idea = laws_ideas_2_6
+				add_idea = laws_ideas_2_7
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_16_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_14_1
+		}
+		x = 7
+		y = 15
+
+		completion_reward = {
+			#失去西艾奎斯垂亚和特别管理区的核心，
+			#释放傀儡国艾奎斯垂亚救国政府Equestria Government for National Salvation，意识形态为指导式民主，领袖为驱雾Misty Fly
+		}
+	}
+	focus = {
+		id = SMA_2_16_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_15_1
+		}
+		prerequisite = {
+			focus = SMA_2_15_2
+		}
+		x = 12
+		y = 15
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			add_stability = -0.15
+			add_war_support = 0.25
+			add_manpower = 15000
+		}
+	}
+	focus = {
+		id = SMA_2_16_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_15_1
+		}
+		prerequisite = {
+			focus = SMA_2_15_2
+		}
+		x = 14
+		y = 15
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = SMA_fight_to_death_2
+				add_idea = SMA_fight_to_death_3
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_17_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_16_2
+		}
+		prerequisite = {
+			focus = SMA_2_16_3
+		}
+		x = 13
+		y = 16
+
+		available = {
+			has_war_with = CLK
+		}
+
+		completion_reward = {
+			country_event = SMA_events.24
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 15000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_18_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_16_1
+		}
+		x = 7
+		y = 17
+
+		completion_reward = {
+			add_war_support = -0.50
+			ENS = {
+				add_stability = 0.50
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_19_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_18_1
+		}
+		mutually_exclusive = {
+			focus = SMA_2_19_2
+		}
+		x = 1
+		y = 18
+
+		available = {
+			#韵律公主重新统一了艾奎斯垂亚
+		}
+
+		completion_reward = {
+			country_event = SMA_events.23
+		}
+	}
+	focus = {
+		id = SMA_2_19_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_18_1
+		}
+		mutually_exclusive = {
+			focus = SMA_2_19_1
+		}
+		x = 5
+		y = 18
+
+		available = {
+			#我们拒绝了小马们归还土地的要求
+		}
+
+		completion_reward = {
+			add_war_support = 0.10
+		}
+	}
+	focus = {
+		id = SMA_2_19_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_18_1
+		}
+		x = 10
+		y = 18
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = SMA_2_19_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_18_1
+		}
+		x = 17
+		y = 18
+
+		completion_reward = {
+			country_event = SMA_events.22
+		}
+	}
+	focus = {
+		id = SMA_2_20_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_19_1
+		}
+		x = 1
+		y = 19
+
+		completion_reward = {
+			country_event = SMA_events.21
+		}
+	}
+	focus = {
+		id = SMA_2_20_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_19_2
+		}
+		x = 5
+		y = 19
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			ENS = {
+				add_war_support = 0.20
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_20_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_19_3
+		}
+		x = 10
+		y = 19
+
+		completion_reward = {
+			country_event = SMA_events.20
+		}
+	}
+	focus = {
+		id = SMA_2_20_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_19_4
+		}
+		mutually_exclusive = {
+			focus = SMA_2_20_5
+		}
+		x = 16
+		y = 19
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = 0.05
+			}
+			add_popularity = {
+    			ideology = liberal_democracy
+    			popularity = -0.05
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_21_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_1
+		}
+		x = 1
+		y = 20
+
+		completion_reward = {
+			country_event = SMA_events.19
+		}
+	}
+	focus = {
+		id = SMA_2_21_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_2
+		}
+		x = 4
+		y = 20
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			ENS = {
+				#add_idea = 保卫谐律 效果：army_core_defence_factor = 0.15
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_21_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_2
+		}
+		x = 6
+		y = 20
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			ENS = {
+				add_stability = 0.20
+			}
+			270 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_21_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_3
+		}
+		x = 9
+		y = 20
+
+		completion_reward = {
+			add_ideas = SMA_official_ideology
+		}
+	}
+	focus = {
+		id = SMA_2_21_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_3
+		}
+		x = 11
+		y = 20
+
+		completion_reward = {
+			add_manpower = -5000
+			add_political_power = 75
+		}
+	}
+	focus = {
+		id = SMA_2_20_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_19_4
+		}
+		mutually_exclusive = {
+			focus = SMA_2_20_4
+		}
+		x = 18
+		y = 19
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = -0.20
+			}
+			remove_idea = SMA_help_from_conservatives
+		}
+	}
+	focus = {
+		id = SMA_2_21_6
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_4
+		}
+		x = 15
+		y = 20
+
+		completion_reward = {
+			add_war_support = -0.15
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = SMA_2_21_7
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_20_5
+		}
+		x = 19
+		y = 20
+
+		completion_reward = {
+			add_command_power = -50
+		}
+	}
+	focus = {
+		id = SMA_2_22_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_1
+		}
+		x = 1
+		y = 21
+
+		completion_reward = {
+			diplomatic_relation = {
+				country = BAP
+				relation = non_aggression_pact
+				active = yes
+			}
+			#SMA获得革命情谊 效果对BAP关系+200
+			#BAP获得革命情谊 效果对SMA关系+200
+		}
+	}
+	focus = {
+		id = SMA_2_22_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_2
+		}
+		prerequisite = {
+			focus = SMA_2_21_3
+		}
+		x = 5
+		y = 21
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			ENS = {
+				add_manpower = 20000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_22_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_4
+		}
+		x = 9
+		y = 21
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_22_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_5
+		}
+		x = 11
+		y = 21
+
+		completion_reward = {
+			country_event = SMA_events.18
+		}
+	}
+	focus = {
+		id = SMA_2_22_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_6
+		}
+		x = 14
+		y = 21
+
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = -75
+		}
+	}
+	focus = {
+		id = SMA_2_22_6
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_6
+		}
+		x = 16
+		y = 21
+
+		completion_reward = {
+			country_event = SMA_events.17
+		}
+	}
+	focus = {
+		id = SMA_2_22_7
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_7
+		}
+		x = 18
+		y = 21
+
+		completion_reward = {
+			add_political_power = -50
+		}
+	}
+	focus = {
+		id = SMA_2_22_8
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_21_7
+		}
+		x = 20
+		y = 21
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = liberal_democracy
+    			popularity = 0.10
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_23_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_22_1
+		}
+		x = 1
+		y = 22
+
+		completion_reward = {
+			add_political_power = 200
+			BAP = {
+				annex_country = {
+					target = ENS
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_23_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_22_2
+		}
+		x = 4
+		y = 22
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			ENS = {
+				#swap_ideas = { 
+					#remove_idea = 保卫谐律
+					#add_idea = army_morale_factor = 0.10
+				#}
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_23_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_22_2
+		}
+		x = 6
+		y = 22
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 25000
+				target = ENS
+			}
+			send_equipment = {
+				equipment = artillery_equipment
+				amount = 10000
+				target = ENS
+			}
+			send_equipment = {
+				equipment = support_equipment
+				amount = 15000
+				target = ENS
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_23_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_22_3
+		}
+		prerequisite = {
+			focus = SMA_2_22_4
+		}
+		x = 10
+		y = 22
+
+		completion_reward = {
+			add_ideas = SMA_immature_parliament
+		}
+	}
+	focus = {
+		id = SMA_2_23_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_22_5
+		}
+		prerequisite = {
+			focus = SMA_2_22_6
+		}
+		x = 15
+		y = 22
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = despotism
+    			popularity = -0.15
+			}
+			add_popularity = {
+    			ideology = liberal_democracy
+    			popularity = -0.05
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_23_6
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_22_7
+		}
+		prerequisite = {
+			focus = SMA_2_22_8
+		}
+		x = 19
+		y = 22
+
+		completion_reward = {
+			add_stability = -0.10
+		}
+	}
+	focus = {
+		id = SMA_2_24_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_23_2
+		}
+		prerequisite = {
+			focus = SMA_2_23_3
+		}
+		x = 5
+		y = 23
+
+		bypass = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			add_stability = -0.50
+			add_manpower = -15000
+			ENS = {
+				add_manpower = 15000
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_24_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_23_4
+		}
+		x = 9
+		y = 23
+
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+    			ideology = liberal_democracy
+    			popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_24_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_23_4
+		}
+		x = 11
+		y = 23
+
+		completion_reward = {
+			country_event = SMA_events.16
+		}
+	}
+	focus = {
+		id = SMA_2_24_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_23_5
+		}
+		x = 16
+		y = 23
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = authoritarian_democracy
+    			popularity = 0.10
+			}
+			country_event = SMA_events.15
+		}
+	}
+	focus = {
+		id = SMA_2_24_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_23_6
+		}
+		x = 18
+		y = 23
+
+		completion_reward = {
+			add_manpower = -7500
+		}
+	}
+	focus = {
+		id = SMA_2_25_1
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_24_1
+		}
+		mutually_exclusive = {
+			focus = SMA_2_25_2
+		}
+		x = 4
+		y = 24
+
+		available = {
+			#小马暴君被迫撤军（成功拖住一年ENS没投降）
+		}
+
+		completion_reward = {
+			ENS = {
+				add_stability = 0.50
+				add_war_support = -0.50
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_25_2
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_24_1
+		}
+		mutually_exclusive = {
+			focus = SMA_2_25_1
+		}
+		x = 6
+		y = 24
+
+		available = {
+			NOT = {
+				country_exists = ENS
+			}
+		}
+
+		completion_reward = {
+			336 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 287
+				}
+			}
+			353 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 7259
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 770
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 7304
+				}
+			}
+			386 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 7316
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 5829
+				}
+			}
+			397 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 3850
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 299
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 7424
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 1897
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 3935
+				}
+			}
+			447 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 4992
+				}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes 
+					province = 7518
+				}
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_25_3
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_24_2
+		}
+		prerequisite = {
+			focus = SMA_2_24_3
+		}
+		x = 10
+		y = 24
+
+		completion_reward = {
+			add_country_leader_trait = sentry_of_Harmony
+		}
+	}
+	focus = {
+		id = SMA_2_25_4
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_24_4
+		}
+		x = 16
+		y = 24
+
+		completion_reward = {
+			add_stability = 0.10
+			add_popularity = {
+    			ideology = liberal_democracy
+    			popularity = -0.10
+			}
+		}
+	}
+	focus = {
+		id = SMA_2_25_5
+		icon = GFX_goal_unknown
+		cost =2
+		prerequisite = {
+			focus = SMA_2_24_5
+		}
+		x = 18
+		y = 24
+
+		completion_reward = {
+			country_event = SMA_events.33
+		}
+	}
+}

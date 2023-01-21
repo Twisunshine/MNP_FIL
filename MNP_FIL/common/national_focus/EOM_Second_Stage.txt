@@ -546,7 +546,10 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = -200
-			add_ideas = Universal_education
+			swap_ideas = {
+				remove_idea = develop_ideas_5_2
+				add_idea = develop_ideas_5_3
+			}
 		}
 	}
 	focus = {
@@ -564,7 +567,7 @@ focus_tree = {
 			hidden_effect = {
 				add_corps_commander_role = {
 					Character = EOM_Fog_Rock
-					traits = { }
+					traits = { caring_for_troops }
 					skill = 2
 					attack_skill = 2
 					defense_skill = 3
@@ -573,7 +576,7 @@ focus_tree = {
 				}
 				add_corps_commander_role = {
 					Character = EOM_Flash_Lightning
-					traits = { }
+					traits = { stick_to_letter_of_law }
 					skill = 2
 					attack_skill = 4
 					defense_skill = 1
@@ -582,7 +585,7 @@ focus_tree = {
 				}
 				add_corps_commander_role = {
 					Character = EOM_Night_Shadow
-					traits = { }
+					traits = { positionalism }
 					skill = 3
 					attack_skill = 1
 					defense_skill = 5
@@ -591,7 +594,7 @@ focus_tree = {
 				}
 				add_corps_commander_role = {
 					Character = EOM_Night_Seven
-					traits = { }
+					traits = { careful }
 					skill = 3
 					attack_skill = 2
 					defense_skill = 4
@@ -676,11 +679,21 @@ focus_tree = {
 		prerequisite = {
 			focus = EOM_2_7_6
 		}
+		available = {
+			has_idea = race_ideas_2_4
+		}
+		
 		x = 27
 		y = 8
 		
 		completion_reward = {
 			country_event = EOM_events.13
+			swap_ideas = {
+				remove_idea = race_ideas_2_4
+				add_idea = race_ideas_2_1
+			}
+			add_to_variable = { race_red_value = 25 }
+			add_to_variable = { race_blue_value = 15 }
 		}
 	}
 	focus = {
@@ -807,6 +820,7 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = EOM_events.16
+			custom_effect_tooltip = EOM_minus_5_race_identify_3
 		}
 	}
 	focus = {
@@ -821,6 +835,7 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = EOM_events.17
+			custom_effect_tooltip = EOM_minus_5_race_identify_21
 		}
 	}
 	focus = {
@@ -833,11 +848,20 @@ focus_tree = {
 		prerequisite = {
 			focus = EOM_2_7_8
 		}
+		available = {
+			has_idea = race_ideas_4_3
+		}
 		x = 32
 		y = 8
 		
 		completion_reward = {
 			add_ideas = EOM_batpony_elite_guard_1
+			swap_ideas = {
+				remove_idea = race_ideas_4_3
+				add_idea = race_ideas_4_1
+			}
+			add_to_variable = { race_red_value = 15 }
+			add_to_variable = { race_blue_value = 5 }
 		}
 	}
 	focus = {
@@ -935,11 +959,20 @@ focus_tree = {
 		prerequisite = {
 			focus = EOM_2_9_11
 		}
+		available = {
+			has_idea = race_ideas_5_3
+		}
 		x = 35
 		y = 10
 		
 		completion_reward = {
 			country_event = EOM_events.20
+			swap_ideas = {
+				remove_idea = race_ideas_5_3
+				add_idea = race_ideas_5_1
+			}
+			add_to_variable = { race_red_value = 15 }
+			add_to_variable = { race_blue_value = 5 }
 		}
 	}
 	focus = {
@@ -974,6 +1007,11 @@ focus_tree = {
 			calculate_orthodoxy = yes
 			force_update_dynamic_modifier = yes
 			custom_effect_tooltip = EQU_EOM_orthodoxy_sub_add_1
+			add_to_variable = {
+				var = race_mitigation
+				value = 5
+				tooltip = EOM_maxus_5_race_mitigation
+			}
 		}
 	}
 	focus = {
@@ -1122,6 +1160,7 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = EOM_events.25
+			add_stability = 0.15
 		}
 	}
 	focus = {
@@ -1459,7 +1498,10 @@ focus_tree = {
 		y = 13
 		
 		completion_reward = {
-			add_ideas = quite_satisfactory
+			swap_ideas = {
+				remove_idea = develop_ideas_6_3
+				add_idea = develop_ideas_6_4
+			}
 		}
 	}
 	focus = {
@@ -1560,7 +1602,10 @@ focus_tree = {
 		y = 13
 		
 		completion_reward = {
-			add_ideas = Flaws_do_not_hide_beauty
+			swap_ideas = {
+				remove_idea = develop_ideas_4_2
+				add_idea = develop_ideas_4_4
+			}
 		}
 	}
 	focus = {

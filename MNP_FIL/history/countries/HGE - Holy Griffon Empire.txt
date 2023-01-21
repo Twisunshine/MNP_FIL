@@ -21,17 +21,33 @@ set_politics = {
 
 set_popularities = {
 	dictatorshipism = 0
-	fascism = 0
-	despotism = 0
-	authoritarian_democracy = 100
-	liberal_democracy = 0
-	social_democracy = 0
+	fascism = 20
+	despotism = 5
+	authoritarian_democracy = 24
+	liberal_democracy = 33
+	social_democracy = 18
 	socialism = 0
 	communism = 0
 }
 
 add_ideas = {
-		
+	laws_ideas_1_4
+	laws_ideas_2_1
+	laws_ideas_3_4
+	laws_ideas_4_3
+	laws_ideas_5_1
+	laws_ideas_6_4
+	develop_ideas_1_2
+	develop_ideas_2_3
+	develop_ideas_3_1
+	develop_ideas_4_4
+	develop_ideas_5_2
+	develop_ideas_6_1
+	HGE_Democracy_Replacement
+	HGE_Garrisffons_Siege
+	HGE_Federal_Dream
+	HGE_Limited_Autonomy
+	HGE_National_Borei_Sect
 }
 
 

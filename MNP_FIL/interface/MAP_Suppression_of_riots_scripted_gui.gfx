@@ -1,0 +1,79 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_Manehattan" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/Manehattan.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Manehattan_flag" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Manehattan_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_Manehattan_command" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/Manehattan_command.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Crystaller_Building_good" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Crystaller_Building_good.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Crystaller_Building_bad" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Crystaller_Building_bad.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Mare_Statue_bad" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Mare_Statue_bad.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Celestial_good" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Celestial_good.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Celestial_bad" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Celestial_bad.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_top" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_top.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_Manehattan_police" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_Manehattan_police.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_police_hat" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_police_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_police_hat_and_Riot_shield" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_police_hat_and_Riot_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_police_riot_police" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_police_riot_police.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_military_truck" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_military_truck.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_military_fire" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_military_fire.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_fire_button" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_fire_button.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_news_1" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_news_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_news_2" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_news_2.dds"
+	}
+	spriteType = {
+		name = "GFX_MAP_news_3" 
+		textureFile = "gfx/interface/MAP_Suppression_of_riots/MAP_news_3.dds"
+	}
+}

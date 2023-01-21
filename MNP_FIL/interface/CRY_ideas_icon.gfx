@@ -1,0 +1,33 @@
+spriteTypes = {
+	
+	SpriteType = {
+        name = "GFX_idea_CRY_First_Thaw_of_Frozen_Soil"
+        texturefile = "gfx/interface/ideas/CRY_First_Thaw_of_Frozen_Soil.dds"
+    }
+	
+    SpriteType = {
+        name = "GFX_idea_CRY_Extreme_Sadness"
+        texturefile = "gfx/interface/ideas/CRY_Extreme_Sadness.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CRY_Stagnant_Millennium"
+        texturefile = "gfx/interface/ideas/CRY_Stagnant_Millennium.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_idea_CRY_BattleHardened_SelfDefense_Forces"
+        texturefile = "gfx/interface/ideas/CRY_BattleHardened_SelfDefense_Forces.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CRY_Sombra_Cultist_Expansion"
+        texturefile = "gfx/interface/ideas/CRY_Sombra_Cultist_Expansion.dds"
+    }
+	
+	SpriteType = {
+        name = "GFX_idea_CRY_the_Crystal_Heart"
+        texturefile = "gfx/interface/ideas/CRY_the_Crystal_Heart.dds"
+    }
+	
+}

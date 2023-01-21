@@ -31,7 +31,10 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 50
-			add_ideas = straggler
+			swap_ideas = {
+				remove_idea = develop_ideas_6_3
+				add_idea = develop_ideas_6_4
+			}
 		}
 	}
 	focus = {
@@ -111,7 +114,8 @@ focus_tree = {
 		y = 4
 		
 		completion_reward = {
-			remove_ideas = EQU_war_cabinet
+			add_stability = 0.10
+			add_political_power = -50
 		}
 	}
 	focus = {
@@ -156,7 +160,7 @@ focus_tree = {
 		y = 6
 		
 		completion_reward = {
-			
+			remove_ideas = EQU_war_cabinet
 		}
 	}
 	focus = {

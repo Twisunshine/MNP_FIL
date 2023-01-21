@@ -1,0 +1,7 @@
+leader_traits = {
+    Minister_of_Propaganda = {
+		random = no
+        
+	}
+	
+}

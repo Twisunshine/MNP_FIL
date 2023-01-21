@@ -1,21 +1,8 @@
 leader_traits = {
-
-	grief-stricken_tyrant = {
-        random = no
-		despotism_drift = 0.05
-        mobilization_laws_cost_factor = -0.33
-	    trade_laws_cost_factor  = -0.33
-	    economy_cost_factor = -0.33
-        justify_war_goal_time = -0.25
-        conscription = 0.02
-        required_garrison_factor = 0.8
-
+	give_up_his_own = {
+		random = no
+        political_power_cost = 0.25
 	}
-	ABY_Friendship_without_magic = {
-        random = no
-		production_speed_buildings_factor = 0.15
-		global_building_slots_factor = 0.2
-
-	}
+	
 
 }

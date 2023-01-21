@@ -18,39 +18,27 @@ CLK = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
 }
-SOE = {
-	color = rgb { 82 2 15 }
-	color_ui = rgb { 82 2 15 }
+CRY = {
+	color = rgb { 255 250 250 }
+	color_ui = rgb { 255 250 250 }
 }
-MAG = {
-	color = rgb { 64 64 64 }
-	color_ui = rgb { 64 64 64 }
+SMA = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
-LAC = {
-	color = rgb { 0 0 255 }
-	color_ui = rgb { 0 0 255 }
+NWN = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
-EQR = {
-	color = rgb { 255 102 255 }
-	color_ui = rgb { 255 102 255 }
+CLP = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
-CRP = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255 }
+MAP = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
-BRG = {
-	color = rgb { 204 153 255 }
-	color_ui = rgb { 204 153 255 }
-}
-SSG = {
-	color = rgb { 51 153 255 }
-	color_ui = rgb { 51 153 255 }
-}
-ASR = {
-	color =  rgb{ 255 0 0 }
-	color_ui =  rgb{ 255 0 0 }
-}
-ERG = {
-	color =  rgb{ 0 0 0 }
-	color_ui =  rgb{ 0 0 0 }
+BAP = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }

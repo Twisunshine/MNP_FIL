@@ -1,0 +1,571 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CRY_communism_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 550 height = 80%% }
+		clipping = no
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		
+
+		#标题背景
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "政党详细信息"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+		name ="GFX_CRY_communism_party"
+			spriteType = "GFX_CRY_communism_party"
+			position = { x = 130 y = 58 }
+	 }
+	 
+	 instantTextboxType = {
+			name = "CRY_communism_party_name"
+			position = { x = 210 y = 345 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_communism_party_name_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_communism_party_leadr"
+			position = { x = 190 y = 380 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_communism_party_leadr_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_communism_party_Support"
+			position = { x = 210 y = 410 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "[GetcomPartySupportName]"
+		}
+		
+		
+	}
+	containerWindowType = {
+		name = "CRY_liberal_democracy_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 550 height = 80%% }
+		clipping = no
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		#标题背景
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "政党详细信息"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+		name ="GFX_CRY_liberal_democracy_party"
+			spriteType = "GFX_CRY_liberal_democracy_party"
+			position = { x = 130 y = 58 }
+	 }
+	 
+	 instantTextboxType = {
+			name = "CRY_liberal_democracy_party_name"
+			position = { x = 210 y = 345 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_liberal_democracy_party_name_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_liberal_democracy_party_leadr"
+			position = { x = 190 y = 380 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_communism_party_leadr_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_liberal_democracy_party_Support"
+			position = { x = 210 y = 410 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "[GetldmPartySupportName]"
+		}
+	}
+	containerWindowType = {
+		name = "CRY_authoritarian_democracy_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 550 height = 80%% }
+		clipping = no
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		#标题背景
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "政党详细信息"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+		name ="CRY_authoritarian_democracy_party"
+			spriteType = "GFX_CRY_authoritarian_democracy_party"
+			position = { x = 130 y = 58 }
+	 }
+	 
+	 instantTextboxType = {
+			name = "CRY_authoritarian_democracy_party_name"
+			position = { x = 180 y = 420 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_authoritarian_democracy_party_name_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_authoritarian_democracy_party_leadr"
+			position = { x = 180 y = 450 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_communism_party_leadr_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_authoritarian_democracy_party_Support"
+			position = { x = 185 y = 475 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "[GetadmPartySupportName]"
+		}
+	}
+	containerWindowType = {
+		name = "CRY_despotism_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 550 height = 80%% }
+		clipping = no
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		#标题背景
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "政党详细信息"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+		name ="CRY_despotism_party"
+			spriteType = "GFX_CRY_despotism_party"
+			position = { x = 130 y = 58 }
+	 }
+	 
+	 instantTextboxType = {
+			name = "CRY_despotism_party_name"
+			position = { x = 200 y = 345 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_despotism_party_name_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_despotism_party_leadr"
+			position = { x = 190 y = 380 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_communism_party_leadr_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_despotism_party_Support"
+			position = { x = 210 y = 410 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "[GetdepPartySupportName]"
+		}
+	}
+	containerWindowType = {
+		name = "CRY_fascism_countryracesview"
+		position = { x=530 y=78}
+		show_position = { x=530 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 550 height = 80%% }
+		clipping = no
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		#标题背景
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#标题名称
+		instantTextboxType = {
+			name = "construction_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "政党详细信息"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+		name ="CRY_fascism_party"
+			spriteType = "GFX_CRY_fascism_party"
+			position = { x = 130 y = 58 }
+	 }
+	 
+	 instantTextboxType = {
+			name = "CRY_fascism_party_name"
+			position = { x = 200 y = 345 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_fascism_party_name_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_fascism_party_leadr"
+			position = { x = 190 y = 380 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "CRY_communism_party_leadr_desc"
+		}
+	 instantTextboxType = {
+			name = "CRY_fascism_party_Support"
+			position = { x = 210 y = 410 }
+			textureFile = ""
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "[GetcomPartySupportName]"
+		}
+		
+	}
+	containerWindowType = {
+		name = "CRY_party_desc"
+		position = { x= 580 y = 580 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		verticalScrollbar = "right_vertical_slider"
+		vertical_scroll_step = 20
+		animation_time = 300
+		size = { width = 450 height = 270 }
+		margin = { top = 13 left = 5 bottom = 20 right = 0}
+		clipping = yes
+		smooth_scrolling = yes
+
+
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+		gridBoxType = {
+			name = "CRY_party_grid"
+			position = { x = 0 y = 0 }
+			size = { width = 10 height = 10 }
+			slotsize = { width = 150 height = 100 }
+			format = "UPPER_LEFT"
+			max_slots_horizontal = 1
+		}
+		containerWindowType = {
+			name = "welcome_window_country_pic"
+			position = {x = 0 y = 0}
+			size = {width = 450 height = 1150}
+			orientation = center
+			origo = center
+			
+			iconType = {
+				name ="country_desc_pic"
+				spriteType = ""
+				position = { x= 35 y = 35 }
+			}
+		}	
+		instantTextboxType = {
+			name = "CRY_party_desc"
+			position = { x = 15 y = 10 }
+			font = "fzrzhz_60"
+			borderSize = { x = 0 y = 0 }
+			text = "[CRYpartydesc]"
+			maxWidth = 420
+				maxHeight = 200
+				format = left
+
+		}
+		
+		
+	}
+
+
+	containerWindowType = {
+		name = "CRY_parliament_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 510 height= 580 }
+	
+	
+	iconType = {
+			name ="CRY_Pie_chart_cover_dead"
+			spriteType = "GFX_CRY_Pie_chart_cover_dead"
+			position = { x = 18 y = 90 }
+	}
+	iconType = {
+		name ="CRY_communism_Pie_chart_dead"
+		spriteType = "GFX_CRY_communism_Pie_chart_dead"
+		position = { x= 32	 y = 320 }
+		pdx_tooltip = "CRY_party_dead_desc"
+    }
+ iconType = {
+			name ="CRY_liberal_democracy_Pie_chart_dead"
+			spriteType = "GFX_CRY_liberal_democracy_Pie_chart_dead"
+			position = { x= 23	 y = 141 }
+			pdx_tooltip = "CRY_party_dead_desc"
+	}
+	iconType = {
+			name ="CRY_authoritarian_democracy_Pie_chart_dead"
+			spriteType = "GFX_CRY_authoritarian_democracy_Pie_chart_dead"
+			position = { x= 113	 y = 95 }
+			pdx_tooltip = "CRY_party_dead_desc"
+
+	}
+	iconType = {
+			name ="CRY_despotism_Pie_chart_dead"
+			spriteType = "GFX_CRY_despotism_Pie_chart_dead"
+			position = { x= 249	 y = 137 }
+			pdx_tooltip = "CRY_party_dead_desc"
+
+	}
+	iconType = {
+			name ="CRY_fascism_Pie_chart_dead"
+			spriteType = "GFX_CRY_fascism_Pie_chart_dead"
+			position = { x= 243	 y = 315 }
+			pdx_tooltip = "CRY_party_dead_desc"
+
+	}
+
+	iconType = {
+		name ="CRY_Pie_chart_cover_ANA"
+		spriteType = "GFX_CRY_Pie_chart_cover_ANA"
+		position = { x = 35 y = 100 }
+    }
+	iconType = {
+		name ="CRY_Pie_chart_cover_Black_Crystal"
+		spriteType = "GFX_CRY_Pie_chart_cover_Black_Crystal"
+		position = { x = 20 y = 93 }
+    }
+	 buttonType = {
+			name ="CRY_communism_Pie_chart"
+			spriteType = "GFX_CRY_communism_Pie_chart"
+			position = { x= 32	 y = 320 }
+			pdx_tooltip = "CRY_communism_party_Approval_rate"
+	}
+	 buttonType = {
+			name ="CRY_liberal_democracy_Pie_chart"
+			spriteType = "GFX_CRY_liberal_democracy_Pie_chart"
+			position = { x= 23	 y = 141 }
+			pdx_tooltip = "CRY_liberal_democracy_party_Approval_rate"
+
+	}
+	 buttonType = {
+			name ="CRY_authoritarian_democracy_Pie_chart"
+			spriteType = "GFX_CRY_authoritarian_democracy_Pie_chart"
+			position = { x= 113	 y = 95 }
+			pdx_tooltip = "CRY_authoritarian_democracy_party_Approval_rate"
+
+	}
+	 buttonType = {
+			name ="CRY_despotism_Pie_chart"
+			spriteType = "GFX_CRY_despotism_Pie_chart"
+			position = { x= 249	 y = 137 }
+			pdx_tooltip = "CRY_despotism_party_Approval_rate"
+
+	}
+	 buttonType = {
+			name ="CRY_fascism_Pie_chart"
+			spriteType = "GFX_CRY_fascism_Pie_chart"
+			position = { x= 243	 y = 315 }
+			pdx_tooltip = "CRY_fascism_party_Approval_rate"
+
+	}
+	iconType = {
+		name ="CRY_Pie_chart_cover"
+			spriteType = "GFX_CRY_Pie_chart_cover"
+			position = { x = 5 y = 80 }
+			alwaystransparent = yes
+	 }
+	 iconType = {
+		name ="CRY_Pie_chart_cover_Small_in_middle"
+			spriteType = "GFX_CRY_Pie_chart_cover_Small_in_middle"
+			position = { x = 218 y = 295 }
+			alwaystransparent = yes
+	 }
+	 iconType = {
+		name ="CRY_parliament_gui_desc"
+			spriteType = "GFX_CRY_parliament_desc"
+			position = { x = 160 y = -26 }
+			pdx_tooltip = "CRY_parliament_gui_desc"
+	 }
+	
+	 
+
+
+	}
+	
+
+	
+	
+}

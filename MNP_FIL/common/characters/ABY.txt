@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			desc=ABY_King_Meowmeow_desc
 			ideology=despotism_absolute_monarchy
-			traits={  }
+			traits={ give_up_his_own }
 			expire="2000.1.1.1"
 			id=-1
 		}

@@ -1,0 +1,296 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { 
+	name = GetcomPartySupportName
+	text = {
+		trigger = {
+			communism > 0.79
+			communism < 1.01
+		}
+		localization_key = CRY_PartySupport_high
+	}
+	text = {
+		trigger = {
+			communism > 0.59
+			communism < 0.8
+		}
+		
+		localization_key = CRY_PartySupport_Higher
+	}
+	text = {
+		trigger = {
+			communism > 0.39
+			communism < 0.6
+		}
+		
+		localization_key = CRY_PartySupport_middle
+	}
+	text = {
+		trigger = {
+			communism > 0.19
+			communism < 0.4
+		}
+		
+		localization_key = CRY_PartySupport_Lower
+	}
+	text = {
+		trigger = {
+			communism > 0
+			communism < 0.2
+		}
+		
+		localization_key = CRY_PartySupport_low
+	}
+	
+	
+}
+
+defined_text = { 
+	name = GetldmPartySupportName
+	text = {
+		trigger = {
+			liberal_democracy > 0.79
+			liberal_democracy < 1.01
+		}
+		localization_key = CRY_PartySupport_high
+	}
+	text = {
+		trigger = {
+			liberal_democracy > 0.59
+			liberal_democracy < 0.8
+		}
+		
+		localization_key = CRY_PartySupport_Higher
+	}
+	text = {
+		trigger = {
+			liberal_democracy > 0.39
+			liberal_democracy < 0.6
+		}
+		
+		localization_key = CRY_PartySupport_middle
+	}
+	text = {
+		trigger = {
+			liberal_democracy > 0.19
+			liberal_democracy < 0.4
+		}
+		
+		localization_key = CRY_PartySupport_Lower
+	}
+	text = {
+		trigger = {
+			liberal_democracy > 0
+			liberal_democracy < 0.2
+		}
+		
+		localization_key = CRY_PartySupport_low
+	}
+	
+	
+}
+
+defined_text = { 
+	name = GetadmPartySupportName
+	text = {
+		trigger = {
+			authoritarian_democracy > 0.79
+			authoritarian_democracy < 1.01
+		}
+		localization_key = CRY_PartySupport_high
+	}
+	text = {
+		trigger = {
+			authoritarian_democracy > 0.59
+			authoritarian_democracy < 0.8
+		}
+		
+		localization_key = CRY_PartySupport_Higher
+	}
+	text = {
+		trigger = {
+			authoritarian_democracy > 0.39
+			authoritarian_democracy < 0.6
+		}
+		
+		localization_key = CRY_PartySupport_middle
+	}
+	text = {
+		trigger = {
+			authoritarian_democracy > 0.19
+			authoritarian_democracy < 0.4
+		}
+		
+		localization_key = CRY_PartySupport_Lower
+	}
+	text = {
+		trigger = {
+			authoritarian_democracy > 0
+			authoritarian_democracy < 0.2
+		}
+		
+		localization_key = CRY_PartySupport_low
+	}
+	
+	
+}
+
+defined_text = { 
+	name = GetdepPartySupportName
+	text = {
+		trigger = {
+			despotism > 0.79
+			despotism < 1.01
+		}
+		localization_key = CRY_PartySupport_high
+	}
+	text = {
+		trigger = {
+			despotism > 0.59
+			despotism < 0.8
+		}
+		
+		localization_key = CRY_PartySupport_Higher
+	}
+	text = {
+		trigger = {
+			despotism > 0.39
+			despotism < 0.6
+		}
+		
+		localization_key = CRY_PartySupport_middle
+	}
+	text = {
+		trigger = {
+			despotism > 0.19
+			despotism < 0.4
+		}
+		
+		localization_key = CRY_PartySupport_Lower
+	}
+	text = {
+		trigger = {
+			despotism > 0
+			despotism < 0.2
+		}
+		
+		localization_key = CRY_PartySupport_low
+	}
+	
+	
+}
+
+defined_text = { 
+	name = GetfasPartySupportName
+	text = {
+		trigger = {
+			fascism > 0.79
+			fascism < 1.01
+		}
+		localization_key = CRY_PartySupport_high
+	}
+	text = {
+		trigger = {
+			fascism > 0.59
+			fascism < 0.8
+		}
+		
+		localization_key = CRY_PartySupport_Higher
+	}
+	text = {
+		trigger = {
+			fascism > 0.39
+			fascism < 0.6
+		}
+		
+		localization_key = CRY_PartySupport_middle
+	}
+	text = {
+		trigger = {
+			fascism > 0.19
+			fascism < 0.4
+		}
+		
+		localization_key = CRY_PartySupport_Lower
+	}
+	text = {
+		trigger = {
+			fascism > 0
+			fascism < 0.2
+		}
+		
+		localization_key = CRY_PartySupport_low
+	}
+	
+	
+}
+	
+defined_text = { 
+	name = CRYpartydesc
+	text = {
+		trigger = {
+			has_country_flag = CRY_communism_gui_open
+		}
+		localization_key = CRY_parliament_communism_party_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = CRY_liberal_democracy_gui_open
+		}
+		
+		localization_key = CRY_parliament_liberal_democracy_party_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = CRY_authoritarian_democracy_gui_open
+		}
+		
+		localization_key = CRY_parliament_authoritarian_democracy_party_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = CRY_despotism_gui_open
+		}
+		
+		localization_key = CRY_parliament_despotism_party_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = CRY_fascism_gui_open
+		}
+		
+		localization_key = CRY_parliament_fascism_party_desc
+	}
+	
+	
+}
+	
+defined_text = { 
+	name = CRYminingunits
+	text = {
+		trigger = {
+			check_variable = { CRY_Mining_crystal_units > 0 }
+		}
+		localization_key = CRY_Mining_units_green
+	}
+	text = {
+		trigger = {
+			check_variable = { CRY_Mining_crystal_units < 1 }
+		}
+		
+		localization_key = CRY_Mining_units_red
+	}
+	
+	
+	
+}
+	
+	

@@ -1,0 +1,150 @@
+ideas = {
+	country = {
+		#冻土初融
+        CRY_First_Thaw_of_Frozen_Soil = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_First_Thaw_of_Frozen_Soil
+
+            modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.30
+				local_building_slots_factor = -0.25
+				industrial_capacity_factory = -0.50
+            }
+        }
+		
+		#极端悲哀
+        CRY_Extreme_Sadness_1 = {
+            name = CRY_Extreme_Sadness
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_Extreme_Sadness
+
+            modifier = {
+				conscription = -0.01
+				conscription_factor = -0.65
+				political_power_factor = -0.40
+				drift_defence_factor = -0.15
+				monthly_population = -0.35
+            }
+        }
+        CRY_Extreme_Sadness_2 = {
+            name = CRY_Extreme_Sadness
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_Extreme_Sadness
+
+            modifier = {
+				conscription = -0.01
+				conscription_factor = -0.65
+				political_power_factor = -0.20
+				drift_defence_factor = -0.15
+				monthly_population = -0.15
+            }
+        }
+		
+		#十纪之滞
+        CRY_Stagnant_Millennium = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_Stagnant_Millennium
+
+            modifier = {
+				research_speed_factor = -0.30
+            }
+        }
+		
+		#身经百战的自卫队
+        CRY_BattleHardened_SelfDefense_Forces = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_BattleHardened_SelfDefense_Forces
+
+            modifier = {
+				conscription_factor = -0.05
+				army_core_attack_factor = 0.30
+				army_core_defence_factor = 0.30
+				supply_consumption_factor = -0.15
+				army_org_factor = 0.10
+            }
+        }
+		
+		#黑晶信徒扩张
+        CRY_Sombra_Cultist_Expansion = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_Sombra_Cultist_Expansion
+
+            modifier = {
+				conscription_factor = 0.10
+				stability_factor = -0.25
+				dictatorshipism_drift = 0.01
+            }
+        }
+		
+		#水晶之心？
+        CRY_the_Crystal_Heart = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_the_Crystal_Heart
+
+            modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+            }
+        }
+
+        #重拾最后希望
+        CRY_Regain_the_last_hope = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_Regain_the_last_hope
+
+            modifier = {
+				political_power_gain = 0.75
+                conscription_factor = 0.15
+                authoritarian_democracy_drift = -0.03
+                dictatorshipism_drift = 0.01
+            }
+        }
+
+        #顺其自然
+        CRY_Let_it_be = {
+            allowed = {
+                original_tag = CRY
+            }
+
+            removal_cost = -1
+            picture = CRY_Regain_the_last_hope
+
+            modifier = {
+				dictatorshipism_drift = 0.03
+            }
+        }
+	}
+}

@@ -1044,7 +1044,10 @@ shared_focus = {
 	y = 14
 
 	completion_reward = {
-		add_ideas = Specialized_chemical_factory
+		swap_ideas = {
+			remove_idea = develop_ideas_1_3
+			add_idea = develop_ideas_1_4
+		}
 	}
 }
 shared_focus = {
@@ -1504,8 +1507,8 @@ shared_focus = {
 	
 	completion_reward = {
 		swap_ideas = {
-			remove_idea = chaos
-			add_idea = Flaws_do_not_hide_beauty
+			remove_idea = develop_ideas_4_3
+			add_idea = develop_ideas_4_4
 		}
 		remove_ideas = EER_partisan_divisions
 		country_event = EER_events_c.36
@@ -1663,8 +1666,8 @@ shared_focus = {
 	
 	completion_reward = {
 		swap_ideas = {
-			remove_idea = chaos
-			add_idea = Flaws_do_not_hide_beauty
+			remove_idea = develop_ideas_4_3
+			add_idea = develop_ideas_4_4
 		}
 		remove_ideas = EER_partisan_divisions
 	}
@@ -1807,8 +1810,8 @@ shared_focus = {
 	
 	completion_reward = {
 		swap_ideas = {
-			remove_idea = chaos
-			add_idea = Flaws_do_not_hide_beauty
+			remove_idea = develop_ideas_4_3
+			add_idea = develop_ideas_4_4
 		}
 		remove_ideas = EER_partisan_divisions
 	}
@@ -1961,8 +1964,8 @@ shared_focus = {
 	
 	completion_reward = {
 		swap_ideas = {
-			remove_idea = straggler
-			add_idea = quite_satisfactory
+			remove_idea = develop_ideas_6_3
+			add_idea = develop_ideas_6_4
 		}
 	}
 }

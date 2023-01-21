@@ -1,0 +1,8 @@
+leader_traits = {
+    sentry_of_Harmony = {
+		random = no
+		authoritarian_democracy_drift = 0.1
+	}
+	
+
+}

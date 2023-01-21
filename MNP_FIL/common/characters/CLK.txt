@@ -4,15 +4,31 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/CLK/Portrait_CLK_Queen_Chrysalis.dds"
+				small="gfx/leaders/CLK/idea_Portrait_CLK_Queen_Chrysalis.dds"
 			}
 		}
 		country_leader={
 			desc=CLK_Queen_Chrysalis_desc
 			ideology=despotism_changeling_system
-			traits={  }
+			traits={ dictator }
 			expire="2000.1.1.1"
 			id=-1
 		}
+		advisor = {
+            cost = 150
+            slot = head_of_government
+			idea_token = idea_CLK_Queen_Chrysalis
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+            traits = {
+                ruthless_monarch
+            }
+			removal_cost = -114514
+        }
 	}
 	
 	CLK_Thorax={
@@ -30,5 +46,178 @@ characters={
 			id=-1
 		}
 	}
-
+	
+	CLK_Benedict = {
+		name = CLK_Benedict
+		portraits = {
+			civilian = {
+				small="gfx/leaders/CLK/idea_Portrait_CLK_Benedict.dds"
+			}
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_CLK_Benedict
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                consider_all_aspects
+            }
+			removal_cost = -114514
+        }
+	}
+	
+	CLK_Tristana = {
+		name = CLK_Tristana
+		portraits = {
+			civilian = {
+				small="gfx/leaders/CLK/idea_Portrait_CLK_Tristana.dds"
+			}
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_CLK_Tristana
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+                wartime_economist
+            }
+			removal_cost = -114514
+        }
+	}
+	
+	# CLK 元帅
+	
+	CLK_Pharynx = {
+		name = CLK_Pharynx
+		portraits = {
+			army = {
+				large="gfx/leaders/CLK/Portrait_CLK_Pharynx.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				surrender
+				use_troops_like_god
+				stick_to_letter_of_law
+			}
+			skill = 4
+			attack_skill = 6
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	# CLK 指挥官
+	
+	CLK_Dred = {
+		name = CLK_Dred
+		portraits = {
+			army = {
+				large="gfx/leaders/CLK/Portrait_CLK_Dred.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				follow_the_rules
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 5
+		}
+	}
+	
+	CLK_Violent = {
+		name = CLK_Violent
+		portraits = {
+			army = {
+				large="gfx/leaders/CLK/Portrait_CLK_Violent.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				frail_and_sickly
+				stick_to_letter_of_law
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	
+	CLK_Renaya = {
+		name = CLK_Renaya
+		portraits = {
+			army = {
+				large="gfx/leaders/CLK/Portrait_CLK_Renaya.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				have_conections
+				corruption
+				positionalism
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	
+	CLK_Hobert = {
+		name = CLK_Hobert
+		portraits = {
+			civilian = {
+				small="gfx/leaders/CLK/idea_Portrait_CLK_Hobert.dds"
+			}
+			army = {
+				large="gfx/leaders/CLK/Portrait_CLK_Hobert.dds"
+			}
+		}
+		advisor = {
+            cost = 150
+            slot = political_advisor
+			idea_token = idea_CLK_Hobert
+            allowed = {
+				custom_trigger_tooltip = {
+					tooltip = political_advisor_available
+					always = no
+				}
+			}
+            traits = {
+				life_is_expensive
+            }
+			removal_cost = -114514
+        }
+		corps_commander = {
+			traits = {
+				caring_for_troops
+				careful
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	
+	
 }
